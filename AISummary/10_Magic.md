@@ -6,38 +6,53 @@ There is no supernatural magic. "Magic" covers two key things. Spells stay in th
 
 | Part | Name | Summary |
 |---|---|---|
-| 1 | **Clockwork Technology** | Neither-functional devices and concoctions that reproduce spell effects. |
-| 2 | *TBD* | *Awaiting design.* |
+| 1 | **Clockwork Technology (Devices)** | Neither-functional mechanical and electro-physical devices that reproduce spell effects. |
+| 2 | **Concoctions** | Biomedical mixes of fungi, plants, and chemicals that reproduce restorative, metabolic, or chemical spell effects. |
 
-## Part 1 — Clockwork Technology
-Technology that **functions in the Neither**. It is commonly called *clockwork technology*. It includes:
-- **Devices**: mechanical and Neither-tech items. *Fireball* = a thrown grenade. *Air Bubble* = a mask with a small air tank.
-- **Concoctions**: biomedical mixes of plants and chemicals. *Healing potion* = a biomedical concoction.
+## Part 1 — Clockwork Technology (Devices)
+Technology that **functions in the Neither**, commonly called *clockwork technology*.
+- **Devices**: Mechanical, pneumatic, spring-wound, and Neither-tech apparatuses.
+- Examples: *Fireball* = thrown incendiary grenade; *Air Bubble* = mask with small air tank; *Lightning Bolt* = discharge projector / arc emitter.
 
 ### Instability (the reason casters matter)
-- All clockwork tech is **incredibly unstable or unreliable**.
-- **Anyone can use** a device or concoction once it is ready.
-- Without the right **slots or abilities** (i.e., a spellcasting-equivalent class feature), items **detonate or go inert quickly**. Most people cannot safely handle them for minutes, let alone hours.
-- A "caster" is someone trained to **prime, stabilize and hand off** these items. Spell slots = how many items they can keep stable per day.
-- **Hand-off:** only a character able to "cast" the effect can prepare it and give it to someone else. It then works for the effect's duration. Example: *Air Bubble* mask, handed over, functions for **1 minute**.
+- All clockwork devices are **incredibly unstable or delicate**.
+- **Anyone can use** a device once primed and ready.
+- Without the right **slots or abilities** (i.e., a spellcasting-equivalent class feature), primed devices **detonate, jam, or discharge into inert scrap quickly**. Unskilled handlers cannot safely keep them primed for more than moments.
+- A "caster" is an engineer or mechanist trained to **calibrate, stabilize, and hand off** these devices. Spell slots = how many devices they can keep tuned and functional per day.
+- **Hand-off:** Only a character trained to prepare the effect can prime it and hand it to someone else. Once handed off, it functions for the effect's duration (e.g., an *Air Bubble* breather mask lasts **1 minute**).
 
-### Design Rules for Converting Spells
-1. Every allowed spell must have a **physical explanation**: a device, concoction, tool or technique.
-2. Effects may be **exaggerated** but must fit the concept (grenades, gas, chemicals, springs, lenses, Neither-charged mechanisms).
-3. **Removed:** effects with no plausible tech explanation, especially **large-scale transformation** (e.g., *Animal Form* and other polymorph effects).
-4. Range, area, and targeting should match the delivery method (thrown, sprayed, injected, worn, applied).
+---
+
+## Part 2 — Concoctions
+Biomedical and chemical preparations synthesized from specialized Neither fungi (Sycelium derivatives, Deep strains), plants, mineral extracts, and reactive catalysts.
+- **Form**: Ingested tonics, injectable stimulants, aerosolized vapors, and topical balms.
+- Examples: *Heal* = cell-regenerative biomedical serum or injection; *Barkskin* = dermal hardening wash; *Stinking Cloud* = noxious fungal aerosol canister; *Neutralize Poison* = targeted chemical antitoxin.
+
+### Volatility and Spoilage
+- Active concoctions rely on hyper-reactive compounds and live fungal enzymes that **spoil, separate, or turn inert/toxic within minutes** if not maintained.
+- **Slots as Stabilization**: A concoction "caster" (apothecary, biochemist, toxicologist) uses their training and daily preparation resources (spell slots) to keep reagents suspended and viable.
+- **Hand-off & Administration**: A stabilized dose can be handed off to another character to drink, inject, throw, or apply. Once unsealed or administered, it delivers its standard effect and duration.
+
+---
+
+## Design Rules for Converting Spells
+1. Every allowed spell must have a **physical explanation**: a mechanical device or a chemical/biomedical concoction.
+2. Effects may be **exaggerated** but must fit the concept (grenades, springs, lenses, Neither-charged capacitors, fungal enzymes, reactive acids, stimulants).
+3. **Removed:** effects with no plausible physical or biochemical explanation, especially **large-scale transformation** (e.g., *Animal Form* and polymorph effects).
+4. Range, area, and targeting must match the delivery method (thrown, fired, sprayed, injected, worn, drunk, applied).
 
 ### Conversion Examples
-| Spell | Status | Clockwork form |
-|---|---|---|
-| Fireball | Modified | Thrown incendiary grenade |
-| Heal (potion) | Modified | Biomedical concoction |
-| Air Bubble | Modified | Mask + small tank; 1 min when handed off |
-| Animal Form | Removed | Transformation not possible |
+| Spell | Type | Status | Clockwork / Concoction Form |
+|---|---|---|---|
+| Fireball | Device | Modified | Thrown incendiary/Neither grenade |
+| Air Bubble | Device | Modified | Breather mask + compressed small tank (1 min hand-off) |
+| Shocking Grasp | Device | Modified | Spring-loaded arc discharge contact knuckles |
+| Heal | Concoction | Modified | Fast-acting cellular stimulant tonic or auto-injector |
+| Stinking Cloud | Concoction | Modified | Pressurized aerosol canister of caustic spores |
+| Animal Form | — | Removed | Physical transformation not possible |
 
 ## Open Questions
-- Part 2 definition.
-- How clockwork tech behaves in the **Aither** and **Zone** (canon: Elven tech is unstable in the Zone/Neither, so does clockwork tech fail in the Aither?).
-- Mechanics of instability: how long until an unprimed item goes inert or detonates, and what the detonation does.
-- Spell traditions (arcane/divine/occult/primal): keep, rename, or replace?
-- Cantrips and focus spells: always-stable tools?
+- How clockwork devices and concoctions behave in the **Aither** and **Zone** (canon: Elven tech fails/explodes in the Neither/Zone; does Neither-based tech or fungal concoction chemistry fail in pure Aither?).
+- Mechanics of instability: how long until an unprimed item goes inert or detonates/spoils, and fallout for handling failures.
+- Spell traditions (arcane, divine, occult, primal): map to engineering disciplines, chemical/biomedical specialties, or replace entirely?
+- Cantrips and focus spells: always-stable tools and baseline concoction kits?

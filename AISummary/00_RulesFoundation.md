@@ -31,4 +31,5 @@
 | File | Topic | Status |
 |---|---|---|
 | 00_RulesFoundation.md | This file | Draft |
-| 10_Magic.md | Magic conversion (Clockwork Technology) | Draft |
+| 10_Magic.md | Magic conversion (Clockwork Technology & Concoctions) | Draft |
+| 20_Healing.md | Healing & Wound Thresholds (Mortal, Critical, Damage) | Draft |
