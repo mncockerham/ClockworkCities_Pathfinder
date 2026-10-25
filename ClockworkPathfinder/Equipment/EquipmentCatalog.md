@@ -76,32 +76,37 @@ Sterile biomedical tools, fast-acting cell-stimulants, and biological neutralize
 
 ---
 
-## 4. Weapons & Ballistics (Firearms, Neither Cartridges & Melee)
+## 4. Weapons & Ballistics (Neither Energy Weapons, Elven Firearms & Melee)
 
-Ballistic equipment detailed in `ClockworkPathfinder/Rules/RangedWeapons.md`, plus Victorian martial arms.
+Detailed in `ClockworkPathfinder/Rules/RangedWeapons.md`, plus Victorian martial arms.
 
-| Item | Cost | Bulk | Damage | Hands | Reference Book | Key Traits |
+| Item | Cost | Bulk | Damage | Hands | Reference Book | Key Traits & Emission Profile |
 |---|:---:|:---:|:---:|:---:|---|---|
-| **Coat Pistol (Gunpowder)** | 10 gp | L | 1d6 P | 1 | `[G&G p.152]` | Concealable, Concussive, Fatal d10, Range 30 ft. |
-| **Neither Coat Pistol (Cartridge)** | 12 gp | L | 1d6 P | 1 | `[New / G&G p.152]` | Cartridge 2, Concealable, Concussive, Fatal d10, Range 15 ft. |
-| **Dueling Pistol (Gunpowder)** | 12 gp | L | 1d8 P | 1 | `[G&G p.152]` | Concealable, Concussive, Fatal d12, Range 60 ft. |
-| **Neither Dueling Pistol (Cartridge)** | 15 gp | L | 1d8 P | 1 | `[New / G&G p.152]` | Cartridge 2, Concealable, Concussive, Fatal d12, Range 30 ft. |
-| **Neither Service Revolver** | 16 gp | L | 1d6 P | 1 | `[New / G&G p.153]` | Cartridge 6, Concussive, Fatal d10, Range 30 ft. |
-| **Flintlock Musket (Gunpowder)** | 7 gp | 1 | 1d8 P | 2 | `[G&G p.152]` | Concussive, Fatal d12, Range 70 ft. |
-| **Neither Service Rifle (Cartridge)** | 14 gp | 1 | 1d8 P | 2 | `[New / G&G p.152]` | Cartridge 2, Concussive, Fatal d12, Range 35 ft. |
-| **Neither Trench Arquebus (Cartridge)** | 28 gp | 2 | 1d10 P | 2 | `[New / G&G p.152]` | Cartridge 2, Concussive, Fatal d12+2, Kickback, Range 75 ft. |
+| **Coat Pistol (Gunpowder)** | 10 gp | L | 1d6 P | 1 | `[G&G p.152]` | Concealable, Concussive, Fatal d10, Range 30 ft (Elven make). |
+| **Neither Arc Pocket Emitter** | 12 gp | L | 1d6 Electricity | 1 | `[RangedWeapons.md]` | Cartridge 2, Concealable, Fatal d10, Range 15 ft. |
+| **Dueling Pistol (Gunpowder)** | 12 gp | L | 1d8 P | 1 | `[G&G p.152]` | Concealable, Concussive, Fatal d12, Range 60 ft (Elven make). |
+| **Neither Force Dueling Pistol** | 15 gp | L | 1d8 Force | 1 | `[RangedWeapons.md]` | Cartridge 2, Concealable, Fatal d12, Range 30 ft. |
+| **Neither Service Arc Pistol** | 12 gp | L | 1d6 Electricity | 1 | `[RangedWeapons.md]` | Cartridge 2, Concealable, Fatal d10, Range 20 ft (Standard constable sidearm). |
+| **Neither Revolving Arc Pistol**| 16 gp | L | 1d6 Electricity | 1 | `[RangedWeapons.md]` | Cartridge 6, Fatal d10, Range 30 ft (6-shot rotary capacitor). |
+| **Neither Service Arc Rifle** | 14 gp | 1 | 1d8 Electricity | 2 | `[RangedWeapons.md]` | Cartridge 2, Fatal d12, Range 35 ft (Infantry arc rifle). |
+| **Neither Heavy Arc Arquebus** | 28 gp | 2 | 1d10 Electricity| 2 | `[RangedWeapons.md]` | Cartridge 2, Fatal d12+2, Kickback, Range 75 ft. |
+| **Neither Force Breaker** | 20 gp | 2 | 1d12 Force | 2 | `[RangedWeapons.md]` | Cartridge 2, Kickback, Range 25 ft (Crushing concussive beam). |
 | **Rapier (Salon Fencing Blade)** | 2 gp | 1 | 1d6 P | 1 | `[PC1 p.281]` | Deadly d8, Disarm, Finesse (Preferred weapon of Dandies). |
 | **Truncheon / Constable Club** | 1 sp | 1 | 1d6 B | 1 | `[PC1 p.280]` | Nonlethal, Agility (Standard Ward Constable peace weapon). |
 | **Heavy Mining Pick** | 1 gp | 1 | 1d6 P | 1 | `[PC1 p.281]` | Fatal d10 (Standard tool of Dwarven and Orc tunnelers). |
 | **Brass Knuckles / Weighted Gloves** | 1 sp | L | 1d4 B | 1 | `[PC1 p.280]` | Agile, Free-Hand, Nonlethal (Pugilist & Warrens street brawlers). |
+| **Orcish War Bow / Composite Longbow** | 8 gp | 2 | 1d8 P | 2 | `[PC1 p.281]` | Deadly d10, Propulsive, Volley 30 ft (Traditional Orc raider weapon). |
 
-### Ammunition & Cartridges
-| Item | Cost | Quantity | Bulk | Reference Book | Notes |
+### Ammunition & Rechargeable Energy Cartridges
+*All Neither energy weapons operate at 100% effectiveness in the Neither, but deal 1/2 damage or 1/2 duration in the Zone and fail entirely in pure Aither.*
+
+| Item | Cost | Bulk / Weight | Quantity | Reference Book | Function & Recharge Notes |
 |---|:---:|:---:|:---:|---|---|
-| **Gunpowder Firearm Rounds** | 1 sp | 10 | L | `[G&G p.154]` | Lead shot & black powder pouches; prone to misfire in Neither. |
-| **Neither Cartridge Magazine (2-shot)** | 2 sp | 1 clip | — | `[RangedWeapons.md]` | Sealed catalytic box clip; 3-6 month shelf-life before going inert. |
-| **Neither Cartridge Magazine (6-shot)** | 5 sp | 1 cylinder| L | `[RangedWeapons.md]` | Revolver speed-cylinder for Neither revolving pistols. |
-| **Heavy Neither Breaker Cartridges** | 4 sp | 2 shells | — | `[RangedWeapons.md]` | Heavy caliber charges for Arquebuses and Dragon Cannons. |
+| **Standard Civil Neither Cartridge (~200g)**| 5 cp | L (5 cells) | 1 cell | `[RangedWeapons.md]` | Low-density cell (**1/20 energy** of weapon cell). Powers radiant lamps, winches & tools. Rechargeable at any station for 1 cp. |
+| **Small Weapon Cartridge (~200g)** | 2 sp | L (5 cells) | 1 cell | `[RangedWeapons.md]` | Military high-density cell for **pistols & emitters** (3 shots / 9 rotary). Recharge fee: 1 sp at Spire/dwarf/clan dynamos. |
+| **Medium Weapon Cartridge (~400g)**| 4 sp | L (2 cells) | 1 cell | `[RangedWeapons.md]` | High-density cell for **rifles & carbines** (3 to 6 shots / 15 slide). Recharge fee: 2 sp at settlement dynamos. |
+| **Large Weapon Cartridge (~800g)** | 8 sp | 1 (2 cells) | 1 cell | `[RangedWeapons.md]` | High-density industrial cell for **heavy arquebuses & breakers** (3 heavy discharges). Recharge fee: 4 sp at dynamos. |
+| **Gunpowder Firearm Rounds** | 1 sp | L | 10 | `[G&G p.154]` | Lead shot & black powder pouches (Aither only; 20%/day explosion risk in Neither). |
 
 ---
 

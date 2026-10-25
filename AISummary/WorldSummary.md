@@ -5,7 +5,11 @@ tags: [CANON]=setting fact to keep | [LEGACY]=old-system mechanic, convert to PF
 ## 1. CORE PREMISE
 - Genre: steampunk-ish politics/intrigue + light brawling. Tone: status > individual. "Worth = who you represent" (house/guild/family). Individuals untrusted; group backing is everything.
 - Default play: residents of **Ward 13 (Luxury Ward)** of a great spire city; mostly well-off middle class. [?] PC Intro names city "Abelanth"; detailed city = "New Avalon" (capital of Arclean).
-- Physics: combustion unreliable in Neither → no cars, guns(gunpowder), combustion engines, telegraph/phone/radio. Power = "radiant power" harvested from the Zone; wireless lamps (~60W) in Neither.
+- Physics: combustion unreliable in Neither → no cars, guns(gunpowder), combustion engines, telegraph/phone/radio. 
+- **Radiant Power Grid & Infrastructure [CANON]:**
+  - **Shared Radiant Power:** Within Great Spires, Dwarven subterranean cities, and Deep One layers, energy is distributed wirelessly through the Neither medium via **radiant power**, supplied by massive, heavily guarded municipal generators and catalytic dynamos.
+  - **The Spire Advantage (Zone Interception):** The **Great Spires that physically cross and pierce the Zone** are the **only places on the planet** where enough raw electrical energy is constantly harvested to broadcast radiant power across vast urban districts (powering thousands of wireless ~60W street lamps, industrial lift winches, and municipal machinery without physical power lines).
+  - **Dwarven & Deep One Grids:** Subterranean cities rely on deep geothermal taps, mineral catalytic reactors, or captured Neither pockets to run their guarded generators, but their radiant grids cover much tighter, contained subterranean perimeters compared to the sprawling vertical spires.
 
 ## 2. ATMOSPHERIC LAYERS [CANON]
 Standard terms (src normalized): **Aither** = clean air; **Neither** = corrupting medium; **Zone**; **Neithercrete** (spire material; old alias Natherium).
@@ -31,7 +35,7 @@ Standard terms (src normalized): **Aither** = clean air; **Neither** = corruptin
 Not separate species. Shifts ~1 type per ~3 gens of living in non-native layer (range 1–10+). Most people can pass as an adjacent type. Interbreeding: 1 shift viable (80% mother's type), 2 shifts rare, 3 essentially never. Child ≤1 shift from mother; parents must be ≤2 shifts apart (High Elf+Human ok, High Elf+Orc no). Same 6-form pattern applies to most other life.
 | # | Name | Native layer | Traits / notes | Pop. |
 |---|---|---|---|---|
-| 1 | Elf / High Elf / Fair Folk | Aither, far N/S (Iceland), peaks | unadapted (= modern humans); deathly allergic to Neither; most intelligent; best tech (~1930s): steel, gunpowder/explosives, wood & steel buildings | 300k |
+| 1 | Elf / High Elf / Fair Folk | Aither, far N/S (Iceland), peaks | unadapted (= modern humans); deathly allergic to Neither; most intelligent; best tech (~1900–1930s): steel, gunpowder/explosives, ~1900 combustion-engine trains & motor cars (operable only in pure Aither) | 300k |
 | 2 | ½ Elf | Aither 70%+/upper Neither | traders/diplomats for elves; superb elf-made gear; steel rusts & explosives unstable for them; build wood/cement. Legacy: +1 skill tree, Int max 16 | 200k |
 | 3 | Human | Upper Neither | dominant civ; builds spires; needs some sun + uncorrupted food; Aither food beneficial; increased healing | 400M |
 | 4 | Orc | Lower Neither | most numerous; widest range; master stonemasons; Aither affects them like Neither affects humans; increased healing; Neither-storm effects delayed 6 h; blur w/ humans visually | 600M |
@@ -52,7 +56,14 @@ Human-specific (Type 3):
 - Diet → mental penalty: Class0 deep fish/Aither = none; Class1 Neither crops; Class2 Mela/shallow fish/Neither livestock; Class3 raw Sycelium; Class4 other fungi. Variety mitigates.
 - Examples: well-off Ward 13 = 0; poorer = –1; slums (85% Mela) = –2; Warrens (80% raw Sycelium) = –3.
 - Staple: **Sycelium** mushroom, grows fast in dark; 10×10×10 ft feeds 15 raw / 10 processed. **Mela** = processed Sycelium, safest.
-Elven tech instability: d20 per use; in Zone (+200 ft above) 20=explodes; in Neither 17–20 explodes. Elven items sometimes used in noble district.
+- **Elven Tech, Combustion Engines & Gunpowder (The Elven Mystique & Geographic Defense):** 
+  - Elves maintain a limited supply of circa-1900 technologies: combustion-engine trains, motorcars, and rifled gunpowder firearms (note: isolated elven populations may lack access to these advanced stockpiles).
+  - **Combustion Engine Failure Outside Aither:** Any standard internal combustion engine suffers the exact same atmospheric failure as black powder: inside the Neither or Zone, combustion is erratic, causing engines to misfire, stall, or suffer catastrophic fuel explosions.
+  - **Restricted Access & Geographic Inaccessibility:** Visiting any elven settlement **requires traveling directly through the perilous lightning storms of the Zone**. 
+    - Only a few rare locations have airship docks that directly reach land.
+    - Reaching elven territories otherwise demands traversing through **long, heavily fortified subterranean tunnels** bored beneath the Zone, or utilizing **specialized amphibious airships capable of landing and transforming into ocean-sailing vessels** upon the northern seas.
+  - **Geopolitical Security (Why Elves Fear No Invasion):** Between their lethal technological superiority in the Aither (train networks, motor transport, rapid artillery) and extremely restricted, easily choked travel chokepoints (Zone squalls, defended tunnels, and Arctic sea approaches), the Elves have zero fear of military invasion despite their small global population (~300k).
+  - **Gunpowder Hazards:** Outside the Aither, firing black powder requires a d10 check (1–3 squib; 4–6 normal; 7–10 explodes). Powder travels the Zone safely only in sealed insulated cases; in the Neither, all gunpowder has a 20%/day chance of spontaneous detonation (`ClockworkPathfinder/Rules/RangedWeapons.md`).
 
 ## 5. HISTORY (timeline) [CANON, partly ?]
 [?] Two incompatible framings: real-Earth timeline (1715 onward) vs "years ago" framing with radiant power 2,500 yrs, airships 900 yrs. Treat sequence as canon, dates soft.
@@ -67,7 +78,11 @@ Elven tech instability: d20 per use; in Zone (+200 ft above) 20=explodes; in Nei
 9. ~300 ya: **Great Arc Cannons** (Zone-powered; bigger = more range/dmg) → spires near-impregnable; 200+ yrs stability. Merchant houses appear (~300 ya).
 10. ~100 ya: university professionals/professional guilds appear (2021 doc).
 11. ~50 ya: long-range airships → new trade routes. ~10 ya: faster/longer; contact with lands months away that never saw airships.
-12. **40 ya: Cartridge Weapons** — ~2× arc cannon range; fragile; ammo goes inert in months; rare materials from few spires → sieges viable again (outlast cartridge supply, then destroy cannons). **Last 20 yrs**: several cities fallen; small kingdoms merging; arms race; airship armadas. ← CURRENT TENSION
+12. **40 ya: Neither Cartridge Weapons** — Non-projectile energy weapons powered by rechargeable cartridges of captured Neither energy. Project directed electricity (arc) or kinetic force (pulse). 
+    - **Environmental Constraints & Capacity:** Operate at 100% effectiveness only in the Neither; in the Zone, they deal **1/2 damage or 1/2 duration**; in pure Aither, they fail completely. Feature **tripled shot capacity** per cartridge cylinder compared to traditional single-shot firearms.
+    - **The Secret Biochemical Component (Spire Monopoly):** Weapon cartridges are more than simple batteries; their high capacity relies on a **classified biochemical catalyst** that only Great Spires possess the resources and sterile laboratories to produce. Production is industrial, carried out by teams of professional **Artisans, Scholars, and factory technicians** working collaboratively in controlled environments. Once synthesized, these chemicals are **extremely unstable if directly exposed to either Neither or Aither** (detonating or dissolving if ruptured), requiring airtight insulated casings.
+    - **Civil vs. Weapon Energy Cartridges:** Most Neither tech (lamps, tools, winches) runs on low-density civil cells storing **~1/20th the energy by size** of military cartridges. While 20 civil cells can theoretically recharge one weapon cell, the prohibitive bulk (~4–8 kg per reload) makes traditional bows and crossbows far cheaper and easier for wandering groups.
+    - **Charging Infrastructure:** Permanent charging dynamos are massive installations operated by Spires, Dwarven citadels, Deep One enclaves, and civilized Orc clans. Mobile raiding warbands lack these facilities and cannot recharge captured weapon cells in the wild. Cartridges hold a charge for 3–6 months. Sieges viable again: outlast a defending city's cartridge reserves, then breach defenses. **Last 20 yrs**: several cities fallen; small kingdoms merging; arms race; airship armadas. ← CURRENT TENSION
 13. Ruins: "Atlantis" (last low-Neither valley civ, common ruins); older peak civ (very advanced, rare strange ruins).
 
 ## 6. WHERE HUMANS LIVE [CANON]

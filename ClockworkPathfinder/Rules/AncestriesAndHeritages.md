@@ -69,6 +69,7 @@ Every character chooses one of the following six heritages at 1st level:
 - **Heritage Features:**
   - **Neither Anaphylaxis:** You are deathly allergic to the corrupting miasma of the Neither. When exposed to Neither fog without a sealed breather apparatus, or when consuming fungal/Neither food, you treat environmental severity as **2 steps higher** and take a –2 circumstance penalty on Fortitude saves against Neither sickness.
   - **Aither Longevity & Intellectual Drill:** Unclouded by fungal toxicity, your lineage has maintained high classical sciences and precision metallurgy. You gain a +1 circumstance bonus on Recall Knowledge checks regarding high technology, history, and mathematics, and you begin trained in Academia Lore or Engineering Lore.
+  - **Combustion Primacy & Geographic Defense (The Elven Mystique):** High Elf culture possesses the exclusive secret of gunpowder chemistry and circa-1900 combustion-engine motorcars and trains (though isolated enclaves may lack these resources). Visiting elven settlements requires directly braving the Zone, navigating through defended underground tunnels, or deploying specialized amphibious airships that transform into ocean-sailing vessels in the Arctic seas. Between their lethal technological superiority in pure Aither and these restricted, bottlenecked travel routes, the High Elves (~300,000 population) remain completely unthreatened by outside invasion.
 
 ---
 
