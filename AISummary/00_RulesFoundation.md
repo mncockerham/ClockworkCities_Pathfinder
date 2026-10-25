@@ -51,7 +51,7 @@
 | `ClockworkPathfinder/Classes/Merchant.md` | Merchant class (Bard replaced: Non-magical, Rogue skills & Commercial Directives) | Draft |
 | `ClockworkPathfinder/Classes/Pugilist.md` | Pugilist class (Monk baseline: Boxers & Street Thugs) | Draft |
 | `ClockworkPathfinder/Classes/Officer.md` | Officer class (Champion baseline: Military, Constables & King's Guard) | Draft |
-| `ClockworkPathfinder/Classes/SkyCaptain.md` | Sky Captain class (Swashbuckler baseline: Airships & Zone Navigation) | Draft |
+| `ClockworkPathfinder/Classes/SkyCaptain.md` | Captain class (Swashbuckler baseline: Sail, Clockwork/Steam, Agile Airships & War Crafts) | Draft |
 | `ClockworkPathfinder/Classes/Miner.md` | Miner class (Ranger baseline: Subterranean & Tunnel Excavation) | Draft |
 | `ClockworkPathfinder/Classes/Artisan.md` | Artisan class (Mundane professions: Blacksmith, Tanner, Tailor, Mason, Carpenter) | Draft |
 | `ClockworkPathfinder/Classes/Scholar.md` | Scholar class (Academic professions: Accountants, Architects, Philosophers, Legal Barristers) | Draft |

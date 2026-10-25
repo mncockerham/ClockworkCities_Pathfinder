@@ -17,6 +17,10 @@ Standard terms (src normalized): **Aither** = clean air; **Neither** = corruptin
 | Lower/Dark Neither | sun not locatable; most planet surface; orcs' home |
 | Lightless Neither / Underground | caves, deep valleys; dwarves |
 | The Deep / Mist | 5,000–12,000 ft underground, thick; deep ones |
+- **Why The Zone? (Airship Design & Tactical Rationale):**
+  - **Power Source & Ceiling:** Airships require radiant energy harvested directly from the electrical squalls of the Zone to power their propulsion engines. Flying significantly above or below the Zone causes engines to starve and stall.
+  - **No "Bomb from Above" Solution:** The extreme turbulence, updrafts, and lightning in the Zone make precision high-altitude carpet-bombing impossible. You cannot simply sit safely in the clouds and obliterate surface fortifications or spires below.
+  - **Collapses 3D Flight into 2D Tactical Naval Combat:** The atmospheric density and electromagnetic equilibrium of the Zone create a uniform buoyancy plane: **all vessels naturally float at the exact same altitude/level in the same location**. Vertical displacement is minimal, and vertical "waves" (thermal cloud swells) over long distances are far gentler than ocean swells. Engagements function strictly as **2-dimensional naval combat** on a flat sea of clouds, featuring broadsides, boarding actions, and ramming tactics—mirroring age-of-sail naval warfare with enhanced maneuverability due to radiant clockwork propulsion rather than wind/steam sails.
 - Neither Fog: periodic dense surges, lethal; reason humans live only in big settlements/caravans.
 - Neither corrupts people/plants. Neither fungi feed off it, rot in any sunlight/electric light (harvested under special photosensitive light).
 - Permanent structure reduces environmental exposure by 1 level. Hermetically sealed deep spires reduce exposure by 2 levels.
