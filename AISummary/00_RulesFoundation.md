@@ -33,7 +33,17 @@
 | 00_RulesFoundation.md | This file | Draft |
 | 10_Magic.md | Magic conversion (Clockwork Technology & Concoctions) | Draft |
 | 20_Healing.md | Healing & Wound Thresholds (Mortal, Critical, Damage) | Draft |
-| `ClockworkPathfinder/ClassTemplate.md` | Class Conversion Template | Template |
-| `ClockworkPathfinder/Soldier.md` | Soldier class (Fighter baseline) | Draft |
-| `ClockworkPathfinder/Dandy.md` | Dandy class (Swashbuckler baseline) | Draft |
-| `ClockworkPathfinder/Survivor.md` | Survivor class (Rogue baseline) | Draft |
+| `ClockworkPathfinder/Classes/ClassTemplate.md` | Class Conversion Template | Template |
+| `ClockworkPathfinder/Classes/Soldier.md` | Soldier class (Fighter baseline) | Draft |
+| `ClockworkPathfinder/Classes/Dandy.md` | Dandy class (Swashbuckler baseline) | Draft |
+| `ClockworkPathfinder/Classes/Survivor.md` | Survivor class (Rogue baseline) | Draft |
+| `ClockworkPathfinder/Classes/Chirurgeon.md` | Chirurgeon class (Alchemist split: Restorative/Antidote/Acid/Poison) | Draft |
+| `ClockworkPathfinder/Classes/MadBomber.md` | Mad Bomber class (Alchemist split: Explosives/Weapons/Acid/Poison) | Draft |
+| `ClockworkPathfinder/Classes/Brute.md` | Brute class (Barbarian baseline) | Draft |
+| `ClockworkPathfinder/Classes/Scout.md` | Scout class (Ranger baseline) | Draft |
+| `ClockworkPathfinder/Classes/ClockworkEngineer.md` | Clockwork Engineer class (Inventor baseline) | Draft |
+| `ClockworkPathfinder/Classes/Inspector.md` | Inspector class (Investigator baseline: Knowledge/Evidence only) | Draft |
+| `ClockworkPathfinder/Classes/ClockworkRifleman.md` | Clockwork Rifleman class (Gunslinger baseline: Gunpowder & Neither-tech) | Draft |
+| `ClockworkPathfinder/Classes/Merchant.md` | Merchant class (Bard replaced: Non-magical, Rogue skills & Commercial Directives) | Draft |
+| `ClockworkPathfinder/Rules/RangedWeapons.md` | Ranged Weapons (Gunpowder boosted dice & Neither Cartridge weapons) | Draft |
+| `ClockworkPathfinder/Rules/SocialClasses.md` | Social Classes & Class Fit (Common vs Uncommon breakdown) | Draft |
