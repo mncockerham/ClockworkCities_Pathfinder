@@ -10,7 +10,20 @@
 
 In the Clockwork Cities setting, **all six major populations are biologically the same human species**. 
 - They are not separate fantasy races created by different deities. Instead, their physical statures, tolerances, eye structures, and cellular chemistries are the direct result of **how much the Neither has saturated and corrupted their lineage over thousands of years**.
-- **Environmental Drift:** When a population lives in a non-native atmospheric layer for roughly three generations, their physiology begins shifting toward the adjacent type. Interbreeding is completely viable between adjacent shifts (and common throughout history).
+- **The Blurred Spectrum:** The line between each of the six heritages is not sharp or absolute; it is a continuous biological spectrum. Because variations within each population are wide, **any individual can effortlessly pass as a member of an adjacent heritage (within one step on either side) without needing Disguise checks or magical alteration**. High Elves blur into Half-Elves; Half-Elves blur into Upper Spire Humans; Humans easily blur into Orcs (sharing skin undertones, rough features, and hair textures); Orcs blur into surface Dwarves; and deep Dwarves blur into Deep Ones.
+- **Interbreeding & Maternal Shift (Survival of Pregnancy):** 
+  - Because all six heritages share the same species genome, interbreeding is biologically viable. However, maternal and fetal physiology are strictly bound by cellular atmospheric tolerance: **parents must be no more than two shifts apart to conceive, and a surviving child is never born more than one shift away from the mother's biological type**. (For instance, a High Elf mother can carry a High Elf or Half-Elf child, but cannot gestate a Human; a Human mother can carry a Half-Elf, Human, or Orc child). Roughly 80% of children match the mother's exact heritage, while 20% express the father's adjacent heritage.
+- **Generational Shift & Atavistic Throwbacks:** 
+  - When a lineage migrates to a different atmospheric layer, their biology noticeably shifts toward the local type over approximately three generations. 
+  - Because of this fluid inheritance, it is **not uncommon for a child to be born one full shift away from their mother**, particularly if an ancestor recently changed environments or married across an adjacent heritage. A Human family that recently relocated to the lower foundry wards might have a child born with the dense frame, heavy brow, and cellular density of an Orc; an Orc family living in the well-lit upper labor wards may give birth to a child with smooth Human features.
+- **Character Creation Guidance (Passing & Heritage Selection):**
+  - Because Orcs easily pass as muscular, rugged humans, **a player who wants full access to the Orc ancestry feat tree (e.g., *Fungal Gastronomy*, *Iron Clench*, *Neither Surge Recovery*, *Unstoppable Bulk*) can simply choose the Orc Heritage during character creation, while narratively establishing that their character was born into a standard human family and passes day-to-day as a heavily built human**.
+  - Likewise, a player whose character was born to a merchant-class human family on the upper spire rim can select the **Half-Elf Heritage** to represent a slender, barometrically adapted youth who passes as a graceful human while gaining full access to the airship and electrical feat tree.
+- **Ancestry Feat Restrictions:** Ancestry feats represent ingrained biological traits and lifelong cultural conditioning within your native environment. **A character can only select feats from the Universal list and their chosen Heritage's feat list.** (Humans wishing to remain mechanically Human while expressing partial physical traits from adjacent layers take the dedicated 1st-level *Blurred Heritage Feats* on the Human list).
+- **The Nature of Prejudice (Spire Civilization vs. Wild Raiders):**
+  - While vulgar urban superstitions often repeat that humans look down on Orcs as "violent, uncontrollable brutes," true prejudice in the Clockwork Cities is **institutional and cultural, not biological**.
+  - Spire residents fear and despise the lawless **raiding warbands** that prowl the Neither-choked surface valleys and collapsed ruins—regardless of whether those raiders are Orcs, Humans, or subterranean Dwarves.
+  - Conversely, an Orc born or living within the Spire who holds membership in a trade guild, serves in the military, or wears a constable's badge is viewed as a fellow civilized citizen, judged strictly by their uniform, social class, and guild standing.
 - **Vision Limitations:** **Darkvision does not exist.** No human branch can see in total, pitch-black absence of light. However, populations adapted to deep subterranean layers (Dwarves and Deep Ones) possess specialized **low-light vision**—functioning like feline eyes, magnifying the faintest bioluminescent fungal glow or radiant light to see clearly in dim conditions, while suffering acute glare and pain in direct unfiltered sunlight.
 - **Dietary & Atmospheric Chains:** What a lineage eats and breathes is strictly dictated by their adaptation. Consuming food from an incompatible layer causes rapid biological debt, systemic fatigue, and cellular degradation.
 
@@ -36,6 +49,14 @@ Every character chooses one of the following six heritages at 1st level:
 [Clean Air / Peaks]                                            [Deep Subterranean]
    High Elf  <--->  Half-Elf  <--->  Human  <--->  Orc  <--->  Dwarf  <--->  Deep One
   (Shift -2)        (Shift -1)      (Native 0)  (Shift +1)   (Shift +2)     (Shift +3)
+  
+  [Effortless Passing Ranges (Within 1 Shift)]:
+  • High Elf:   Effortlessly passes as Half-Elf
+  • Half-Elf:   Effortlessly passes as High Elf or Human
+  • Human:      Effortlessly passes as Half-Elf or Orc
+  • Orc:        Effortlessly passes as Human or Dwarf
+  • Dwarf:      Effortlessly passes as Orc or Deep One
+  • Deep One:   Effortlessly passes as Dwarf
 ```
 
 ---
@@ -131,6 +152,12 @@ Because **Human (Upper Neither)** and **Orc (Lower Neither)** constitute over **
 *Humans are the generalist builders and social arbiters of the great Spires, possessing the widest range of travel from the edge of the Aither down to the lower mines.*
 
 #### 1st Level
+- **Expanded Adaptability: Orc (1-Shift Tolerance):** Your bloodline carries heavy Lower Neither tolerance from an Orc ancestor. Whenever you determine environmental Neither exposure, Neither storm effects, or dietary compatibility, you can choose to be treated as either **Human** (Upper Neither) or **Orc** (Lower Neither), whichever is more advantageous.
+- **Expanded Adaptability: Half-Elf (1-Shift Tolerance):** Your lineage traces up to the high airship docks or spire rims. Whenever you determine environmental atmospheric effects (such as Zone squalls or altitude sickness) or dietary compatibility, you can choose to be treated as either **Human** (Upper Neither) or **Half-Elf** (The Zone), whichever is more advantageous.
+- **Zone Acclimation (Half-Elf Blurred Heritage):** Your family lineage hails from the upper spire rims or airship docks, carrying the biological adaptations of Half-Elves. You gain the Half-Elf *Zone Acclimation* feature: you are completely immune to the altitude sickness, thin-air fatigue, and vertigo caused by working in the high Zone.
+- **Static & Squall Tolerance (Half-Elf Blurred Heritage):** Trace atmospheric exposure to the storm boundary runs in your blood. You gain the Half-Elf *Static & Squall Tolerance* feature: you gain **Electricity Resistance equal to half your level (minimum 1)** and a +2 circumstance bonus to saving throws against being knocked prone or moved by gale-force winds.
+- **Neither-Hardened Lungs (Orc Blurred Heritage):** Your ancestry includes generations of lowland trench diggers or foundriers whose biology shifted toward Orcs. You gain the Orc *Neither Hardened* feature: you reduce the environmental severity of all ambient Neither exposure by **1 step**, and delay the onset of Neither Storm stress checks by **6 hours**.
+- **Cellular Density (Orc Blurred Heritage):** You inherited the dense muscle tissue and heavy skeletal frame of the Lower Neither populations. You gain the Orc *Cellular Density* feature: your ancestry maximum Hit Points increase from 8 to **10**, and you gain a +1 circumstance bonus on saving throws against disease and poison.
 - **Adapted Constitution:** Your immune system easily shifts between food classes. You can consume raw Sycelium mushroom (Class 3) or visit high Aither districts without digestive upset or biological debt for up to 1 week.
 - **Naturalized Neither Filter:** Thickened respiratory cilia grant you a +2 circumstance bonus on saving throws against inhaled toxins, smoke, and ambient Neither fog.
 - **Urban Generalist:** Gain trained proficiency in one additional skill of your choice and one general feat for which you meet the prerequisites.
@@ -154,6 +181,8 @@ Because **Human (Upper Neither)** and **Orc (Lower Neither)** constitute over **
 *Muscular, dense-boned, and resilient. Orcs dominate heavy industry, the lower worker circles, and the vast sunless surface Neither.*
 
 #### 1st Level
+- **Expanded Adaptability: Human (1-Shift Tolerance):** You possess lighter Upper Neither blood in your lineage. Whenever determining atmospheric effects or dietary compatibility (such as eating Upper Spire greens or enduring sunlit upper wards), you can choose to be treated as either **Orc** (Lower Neither) or **Human** (Upper Neither), whichever is more advantageous.
+- **Expanded Adaptability: Dwarf (1-Shift Tolerance):** Your bloodline carries deep subterranean tolerance from cave-dwelling ancestors. Whenever determining subterranean atmospheric effects, cavern gasses, or subterranean diets, you can choose to be treated as either **Orc** (Lower Neither) or **Dwarf** (Lightless Neither), whichever is more advantageous.
 - **Fungal Gastronomy:** Raw Sycelium, subterranean roots, and sump-lichen are staple foods for your metabolism. You ignore all dietary penalties from consuming Class 2, 3, or 4 fungi, and can safely drink mineral-heavy sump water without boiling.
 - **Dense Frame:** You gain the *Diehard* general feat, and your maximum Hit Points increase by an additional 2.
 - **Heavy Hauler's Back:** Years in foundries and lower quarries have reinforced your spine. Gain the *Hefty Hauler* skill feat, and your Bulk limit before becoming encumbered increases by an additional 1.
@@ -198,6 +227,8 @@ Because **Human (Upper Neither)** and **Orc (Lower Neither)** constitute over **
 *Aeronauts, high-altitude riggers, and skyship crews accustomed to the violent electricity and wind of the Zone.*
 
 #### 1st Level
+- **Expanded Adaptability: High Elf (1-Shift Tolerance):** Your bloodline preserves strong Aither purity. Whenever determining atmospheric effects (such as high Aither hypoxia) or dietary compatibility (such as dining on Class 0 high-altitude fowl/greenhouse produce), you can choose to be treated as either **Half-Elf** (The Zone) or **High Elf** (The Aither), whichever is more advantageous.
+- **Expanded Adaptability: Human (1-Shift Tolerance):** Your lineage traces down to the middle spire circles. Whenever determining atmospheric effects or dietary compatibility (such as eating standard Mela produce or resting in Upper Neither wards), you can choose to be treated as either **Half-Elf** (The Zone) or **Human** (Upper Neither), whichever is more advantageous.
 - **Rigging Reflexes:** Life on swaying airship spars honed your footing. When you roll a success on an Acrobatics check to Balance on narrow catwalks, cables, or rigging, you get a critical success instead.
 - **Barometric Sense:** You can read micro-shifts in atmospheric pressure. You can predict changes in weather or oncoming Zone squalls 1 hour in advance.
 
@@ -219,6 +250,8 @@ Because **Human (Upper Neither)** and **Orc (Lower Neither)** constitute over **
 *Deep-quarry stonecutters, mine engineers, and tunnel sappers possessing cat-like low-light optics.*
 
 #### 1st Level
+- **Expanded Adaptability: Orc (1-Shift Tolerance):** Your bloodline carries surface Neither tolerance from lowland quarry ancestors. Whenever determining atmospheric Neither exposure or dietary compatibility (such as eating surface Neither produce or resting in the Lower Neither), you can choose to be treated as either **Dwarf** (Lightless Neither) or **Orc** (Lower Neither), whichever is more advantageous.
+- **Expanded Adaptability: Deep One (1-Shift Tolerance):** Your lineage traces to deep geothermal shaft sappers. Whenever determining subterranean heat stress, thermal vents, or reactive deep fungal diets, you can choose to be treated as either **Dwarf** (Lightless Neither) or **Deep One** (The Deep / The Mist), whichever is more advantageous.
 - **Stonemason's Ear:** You can tap a stone wall, pillar, or ceiling to assess its structural integrity. You gain a +2 circumstance bonus to Perception checks to detect unstable ceilings, secret masonry doors, or stone hazards.
 - **Feline Dilation:** Your reflective pupils adjust quickly. You recover from being blinded or dazzled by sudden bright light in half the standard duration.
 - **Dense Stature:** You gain a +2 circumstance bonus to your Fortitude or Reflex DC against attempts to Shove or Trip you.
