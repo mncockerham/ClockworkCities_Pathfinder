@@ -14,6 +14,10 @@
 - **Typical Social Class & Backing:** Guild Members, Professionals, Upper Middle Class, and Nobility (Status 3–6). Backed by university charters, royal commissions, civic bureaus, banks, and merchant-house legal retainers.
 - **Physical / Scientific Explanation:** Scholars rely on disciplined deductive reasoning, deep academic study, pattern recognition, structural calculus, and behavioral psychology. In combat and exploration, they treat threats as complex equations to be deconstructed—anticipating enemy movements, identifying systemic weaknesses, predicting structural stress failures, and coordinating allies through real-time tactical direction.
 
+> [!TIP]
+> **Player Advisory (Combat Utility & NPC Suitability):**
+> While fully supported with a complete 1–20 PC progression, the Scholar excels primarily in investigation, structural diagnostics, municipal accounting, and academic lore. In violent encounters, their abilities skew toward tactical advisory support rather than high-damage strikes or front-line survivability. In combat-heavy campaigns, some players may find their round-to-round action economy passive or challenging to apply dynamically. For this reason, the Scholar frequently functions best as a **key NPC archetype** (university professors, court advocates, chief actuaries, and architectural consultants) or for players pursuing intrigue and puzzle-heavy campaigns.
+
 ---
 
 ## 2. Core Class Features

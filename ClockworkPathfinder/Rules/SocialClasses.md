@@ -33,6 +33,12 @@ Character Classes Evaluated:
 • Scholar (Investigator: Knowledge/Academic/Architect)
 ```
 
+> [!NOTE]
+> **Class Advisory (Combat Utility & NPC Suitability):**
+> While all classes listed above are mechanically complete and available for player characters, **Scholar** and **Artisan** are heavily slanted toward academic lore, diagnostic analysis, and downtime guild craftsmanship. If a violent combat encounter breaks out, both classes may struggle to remain dynamically impactful round-to-round compared to dedicated martial or tactical skirmishers, and some players may find this lack of direct combat potency unenjoyable. Consequently, these two classes often work best as **key NPCs** (university patrons, legal barristers, municipal architects, and master guild smiths) or for players explicitly seeking non-combat-centric campaigns.
+>
+> *(Note: **Merchants** are deliberately not flagged with this advisory. Because Merchants control the greatest liquid wealth, credit lines, and trade connections, they can afford extensive inventories of high-end disposable items—specialty ammunition, alchemical concoctions, smoke screens, flash canisters, and clockwork gadgets—granting them a vast array of tactical options in combat through gear expenditure).*
+
 ---
 
 ### Tier 1: Slums, Warrens & Outcasts (Status –1 to 0)

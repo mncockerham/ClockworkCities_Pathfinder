@@ -14,6 +14,10 @@
 - **Typical Social Class & Backing:** Guild Members & Artisans (Ward 11 & Ward 13, Status 2–5). Supported by guild halls, legal guild defense, access to wholesale guild material exchanges, and formal voting representation.
 - **Physical / Scientific Explanation:** Artisans operate through exhaustive material knowledge, physical stamina honed by years over anvils, looms, and tanning vats, structural flaw exploitation, and rapid equipment conditioning. They do not invent high-concept experimental clockwork devices (the domain of the Clockwork Engineer); instead, they master the physical properties, tolerances, and structural integrity of leather, cloth, steel, bronze, and stone.
 
+> [!TIP]
+> **Player Advisory (Combat Utility & NPC Suitability):**
+> While fully supported with a complete 1–20 PC progression, the Artisan's primary mechanical strengths lie in downtime fabrication, material conditioning, and equipment maintenance. In active combat, their abilities focus on supporting party gear and improvised tool strikes; players expecting high-mobility martial bursts or dynamic tactical agency may find this playstyle subdued or frustrating in dungeon-crawl and combat-heavy adventures. Consequently, the Artisan frequently serves best as a **key NPC archetype** (master guild smiths, armory factors, and municipal contractors) or for players pursuing industrial/economic campaigns.
+
 ---
 
 ## 2. Core Class Features
