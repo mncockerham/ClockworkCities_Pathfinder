@@ -21,11 +21,15 @@
 2. Clockwork rules override Pathfinder rules.
 3. Anything not addressed uses Pathfinder Remaster as written.
 
-## Magic (headline change)
-- Magic is the **largest departure** from Pathfinder. Classes that rely on magic are heavily modified in both **what they can do** and **why it works** (in-world explanation tied to Aither / Neither / Zone; to be defined).
-- **Modified magic classes are capped at class level 5** for most NPCs (character level in that class, not spell rank).
-- **PCs may not take a magic class as their main class**; they may only gain access by **multiclassing** (Pathfinder multiclass archetype dedications).
-- Exceptions are expected: specific characters, abilities, or world changes may break these limits.
+## Magic & Spellcasting Classes — Removed & Replaced
+- **Supernatural Magic Removed:** True supernatural magic does not exist in the Clockwork Cities setting. Rather than retaining stripped-down caster classes with artificial level caps or multiclass-only restrictions, all traditional spellcasting classes (Wizard, Cleric, Druid, Witch, Bard, Sorcerer, Oracle) have been **completely removed from character creation**.
+- **Role Redistribution into Steampunk Classes:** All essential utility, tactical, buffing, and support roles previously performed by magical classes have been permanently converted into physical, non-magical steampunk classes:
+  - **Cleric & Divine Restoration:** Removed. Replaced by the **Chirurgeon** (cellular-level restorative sera, biological surgeries, antitoxins, and sterile medicines).
+  - **Wizard & Elemental Blasting:** Removed. Replaced by the **Mad Bomber** (chemical, concussive, incendiary, and aerosolized gas grenades) and the **Clockwork Engineer** (arc emitters, kinetic shockwave engines, and electrical capacitors).
+  - **Druid & Primal Survival:** Removed. Replaced by the **Scout** (surface Neither fog survival, beast tracking, and caravan outriding) and the **Miner** (subterranean excavation, tremorsense, structural analysis, and hazard avoidance).
+  - **Bard & Performance Buffs:** Removed. Replaced by the **Merchant** (commercial directives, tactical financial incentives, contract enforcement, and accelerated Rogue skill mastery).
+  - **Witch / Occult & Debuffs:** Removed. Replaced by the **Inspector** (forensic deduction, criminology, and evidence analysis) and the **Chirurgeon** (caustic acids, debilitating toxins, and neurochemical irritants).
+- **Spells as Physical Deliverables Only:** Spells do not exist as verbal incantations, hand gestures, or mystical focus pools. Any spell-like effect that exists in the setting is an explicitly manufactured physical **Clockwork Device** (pneumatic launchers, breather tanks, arc discharge batteries) or biomedical **Concoction** (cellular stimulants, antitoxins, smoke canisters) per `AISummary/10_Magic.md`. Without continuous maintenance or specialized stabilization, these items detonate, spoil, or go inert.
 
 ## Document Index
 | File | Topic | Status |
@@ -45,5 +49,9 @@
 | `ClockworkPathfinder/Classes/Inspector.md` | Inspector class (Investigator baseline: Knowledge/Evidence only) | Draft |
 | `ClockworkPathfinder/Classes/ClockworkRifleman.md` | Clockwork Rifleman class (Gunslinger baseline: Gunpowder & Neither-tech) | Draft |
 | `ClockworkPathfinder/Classes/Merchant.md` | Merchant class (Bard replaced: Non-magical, Rogue skills & Commercial Directives) | Draft |
+| `ClockworkPathfinder/Classes/Pugilist.md` | Pugilist class (Monk baseline: Boxers & Street Thugs) | Draft |
+| `ClockworkPathfinder/Classes/Officer.md` | Officer class (Champion baseline: Military, Constables & King's Guard) | Draft |
+| `ClockworkPathfinder/Classes/SkyCaptain.md` | Sky Captain class (Swashbuckler baseline: Airships & Zone Navigation) | Draft |
+| `ClockworkPathfinder/Classes/Miner.md` | Miner class (Ranger baseline: Subterranean & Tunnel Excavation) | Draft |
 | `ClockworkPathfinder/Rules/RangedWeapons.md` | Ranged Weapons (Gunpowder boosted dice & Neither Cartridge weapons) | Draft |
 | `ClockworkPathfinder/Rules/SocialClasses.md` | Social Classes & Class Fit (Common vs Uncommon breakdown) | Draft |

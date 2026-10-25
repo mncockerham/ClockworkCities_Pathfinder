@@ -27,7 +27,9 @@ Character Classes Evaluated:
 • Survivor (Rogue)               • Inspector (Investigator)
 • Chirurgeon (Alchemist: Medic)  • Clockwork Rifleman (Gunslinger)
 • Mad Bomber (Alchemist: Bomb)   • Merchant (Replaced Bard)
-• Brute (Barbarian)
+• Brute (Barbarian)              • Pugilist (Monk: Boxer / Street Thug)
+• Officer (Champion: Officer)    • Sky Captain (Swashbuckler: Airships)
+• Miner (Ranger: Subterranean)
 ```
 
 ---
@@ -148,3 +150,7 @@ Character Classes Evaluated:
 | **Inspector** | Investigator | Military/Constable (T4), Academia (T5) | Guild (T3), Merchant (T6), Nobility (T7) |
 | **Clockwork Rifleman** | Gunslinger | Military (T4) | Citizen (T2), Slums (T1), Merchant (T6), Nobility (T7) |
 | **Merchant** | Replaced Bard | Merchant (T6) | Nobility (T7), Guild (T3), Academia (T5) |
+| **Pugilist** | Monk | Slums/Warrens (T1), Citizen (T2) | Military (T4) |
+| **Officer** | Champion | Military/Constable/King's Guard (T4), Nobility (T7) | Merchant (T6) |
+| **Sky Captain** | Swashbuckler | Merchant/Wall Merchant (T6), Military/Sky Navy (T4) | Nobility (T7), Citizen (T2) |
+| **Miner** | Ranger | Citizen/Laborer (T2), Slums/Debtors (T1), Guild/Dwarf (T3) | Military (T4) |

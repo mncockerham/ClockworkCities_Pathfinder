@@ -2,9 +2,7 @@
 
 - **Base Class:** [Pathfinder 2e Remaster Class Name] `[Player Core p.###]`
 - **Status:** **Modified** | **Replaced** | **New**
-- **Availability:** 
-  - **Primary PC Class** (Full 1–20 progression) *OR*
-  - **Multiclass Dedication Only** (Restricted: PCs access via archetype only; NPCs capped at class level 5)
+- **Availability:** **Primary PC Class** (Full 1–20 progression)
 - **Discipline / Trait:** Martial / Skill | Clockwork Technology (Devices) | Concoctions (Biomedical/Chemical)
 
 ---
