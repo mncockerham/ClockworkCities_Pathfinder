@@ -53,5 +53,11 @@
 | `ClockworkPathfinder/Classes/Officer.md` | Officer class (Champion baseline: Military, Constables & King's Guard) | Draft |
 | `ClockworkPathfinder/Classes/SkyCaptain.md` | Sky Captain class (Swashbuckler baseline: Airships & Zone Navigation) | Draft |
 | `ClockworkPathfinder/Classes/Miner.md` | Miner class (Ranger baseline: Subterranean & Tunnel Excavation) | Draft |
+| `ClockworkPathfinder/Classes/Artisan.md` | Artisan class (Mundane professions: Blacksmith, Tanner, Tailor, Mason, Carpenter) | Draft |
+| `ClockworkPathfinder/Classes/Scholar.md` | Scholar class (Academic professions: Accountants, Architects, Philosophers, Legal Barristers) | Draft |
 | `ClockworkPathfinder/Rules/RangedWeapons.md` | Ranged Weapons (Gunpowder boosted dice & Neither Cartridge weapons) | Draft |
 | `ClockworkPathfinder/Rules/SocialClasses.md` | Social Classes & Class Fit (Common vs Uncommon breakdown) | Draft |
+| `ClockworkPathfinder/Rules/WorldAndLaw.md` | Setting Overview, Ward Structure, Governance & Legal Hierarchy | Draft |
+| `ClockworkPathfinder/Rules/SocialClassAndCorruptionRules.md` | Status Mechanics, Permanent/Transitory Wealth & Neither Corruption Rules | Draft |
+| `ClockworkPathfinder/Rules/AncestriesAndHeritages.md` | Humanity Ancestry & 6 Biological Heritages (Feats & Low-Light Vision) | Draft |
+| `ClockworkPathfinder/Rules/ToDo/FocusAndDevelopment.md` | Development Roadmap, Playtest Scenarios & Priority Backlog | Active |

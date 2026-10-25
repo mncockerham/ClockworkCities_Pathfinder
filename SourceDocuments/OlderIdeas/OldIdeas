@@ -1,0 +1,592 @@
+Clock Work Cities is a role-playing game based in a world were science works differently than in our own.   Primarily using the concept of the Either that interferes with the reliable use of combustion for anything.   This means that cars and guns and most forms of electrical generation simply do not work and that even in the locations where they might the use is so marginal it has simply never been developed.   Inventions that we take for granted such as the telegraph, phone and radio simply do not exist. The primary setting for the game will be the great city of Abelanth and based around the 13 ward.  Clockwork cities is a steam punk inspired game of politics and intrigue with just a bit of fisticuffs thrown in for fun.   Players will take on the role of a resident of the 13 Ward.  Most players will be well off Middle Class members of society with some doing a bit better and some much worse.
+
+Next step is stats
+
+To build out your character's physical and mental framework, we categorize the stats into three distinct layers of interaction. These stats define how you interact with the world, how much punishment you can take, and how the world perceives you.
+________________________________________
+I. Primary Stats (Skill Drivers)
+These are the core attributes used in almost all skill rolls. They represent the actions that change the world or uncover hidden information.
++1
+•	Strength: Raw physical power and the ability to apply force.
+•	Agility: Manual dexterity, balance, and fine motor control.
+•	Reaction: Speed of thought and physical reflex; vital for initiative and sudden defense.
+•	Wits: Quickness of mind, intuition, and the ability to process immediate environmental data.
+•	Intelligence: Logical reasoning, problem-solving, and the capacity for complex thought.
++1
+•	Knowledge: The depth of your education and accumulated information across all life paths.
++1
+________________________________________
+II. Secondary Stats (Character Definition)
+These stats are rarely rolled for skills; instead, they act as the "floor" for your character's resilience and mental fortitude.
++1
+•	Durability: Your base toughness and physical threshold for damage before suffering health loss.
++1
+•	Will: Your internal resolve. It powers the Determination skill, allowing you to push through Neither-sickness or exhaustion.
+________________________________________
+III. Tertiary Stats (NPC Interaction & Guidance)
+These stats do not "win" social encounters via dice. Instead, they provide the GM with a metric for how NPCs react and give players guidelines for their roleplay.
+•	Sociality: Your overall awareness of social cues and ability to navigate interactions. Skills like Bribery or Persuasion use this to provide the player with "market rates" or warnings about an NPC's receptiveness.
++1
+•	Presence: The weight of your personality and the immediate impression you leave on a room. This determines if you are easily ignored or if your arrival demands attention, regardless of your current Status.
+
+I. Baseline and Allocation
+Characters are defined by a starting point total that assumes a baseline of 9 in every attribute across all categories. 
++1
+•	Universal Starting Array: Every Stat begins at 9. 
+•	The Balancing Rule: You may increase any stat by +1 only by decreasing another stat within the same or different category by -1. 
+•	Starting Range: After all shifts are calculated, every stat must fall between a minimum of 7 and a maximum of 11. 
+________________________________________
+II. Biological Adaptation Modifiers
+Your ancestry provides specific shifts to your base stats. These modifiers are applied after you have determined your starting array. 
++3
+________________________________________
+Type	Adapta-tion	Stat Bonus-es	Stat Pen-alties	Racial Advantage / Disadvantage 
+NPC Only	Elf (Type 1)	+4 Intelli-gence max(17)	  -1 all other stats	Fair Folk: Tech superior to Neither-tech; Deathly allergic to Neither exposure.
++2
+Type 2	1/2 Elf	+2 Wits	-1 Dura-bility	Moon Touched: Can survive in the Zone ; restricted to airships or specific altitudes.
++1
+Type 3	Human	+1 Any Stat	None	Sunborn: Most versatile; can thrive in Neither if sunlight and clean food are available.
++1
+Type 4	Orc	+2 Strength	-1 Intelli-gence	Shadow Born: Adapted to Dark Neither ; ignores one level of Neither-storm ef-fects.
++1
+Type 5	Dwarf	+2 Durability	-1 Agility	Sky Less: Needs half the light to see; blinded by direct sunlight; resistant to mine gases.
++4
+NPC Only	Deep One (Type 6)	+4 Willpower max(17) 	 -1 all other stats	The Void: Reality-twisting biochemical tech; Aether air/food is poisonous; re-quires 100°F+.
++1
+
+III. Advancement Costs
+Improving stats through gameplay requires Advancement Points. The cost is static across all three categories but scales based on the current value of the stat. 
++2
+Stat Value Range	Cost per +1 Increase
+1 to 13	5 Advancement Points 
+14	10 Advancement Points 
+15 (PC Max)	20 Advancement Points 
+Note on Maximums: No character may exceed a value of 15 in any stat through standard advancement. Any value above this is reserved for Royalty or legendary figures of the world. 
++1
+Would you like me to finalize the Step 3: Current Career section by adding the starting status levels and currency values to the career descriptions we drafted earlier?
+
+
+
+
+
+ Social Hierarchy and Economic Tables
+The following tables define a character's standing within their organization.
+•	Base Currency: Your weekly discretionary "pocket money".
+•	Max Currency: The limit of liquid "off-the-books" wealth you can hide from your House.
++1
+•	Personal Wealth: The total value of gear you own outright (not House-issued).
++1
+•	House Gear: As previously established, your House Assortment (Max Gear) is typically much higher and is issued based on your role and mission.
++1
+The University (Collegium)
+Academic status is earned through degrees and research conducted within the Universi-ty District.
+Classification	Status	Base Curren-cy	Max Currency	Personal Wealth
+Student	9	4	20	10
+Graduate Student	10	4	20	12
+Professor	11	4	20	15
+Dean	13	12	60	30
+________________________________________
+The Military & Constables
+Rank provides authority over lower classes and access to specialized armories.
++1
+Classification	Status	Base Curren-cy	Max Currency	Personal Wealth
+Private / Deputy	4	1	5	5
+Sergeant / Constable	6	2	10	8
+Mid-level Officer	9	4	20	15
+Commander	12	12	60	30
+________________________________________
+The Merchant Houses
+Wealth and trade routes define this class; leaders are often the "Wall Merchants" who rival nobility.
++2
+Classification	Status	Base Curren-cy	Max Currency	Personal Wealth
+Junior Associ-ate	8	2	10	10
+Full Merchant	10	8	40	15
+Senior Partner	12	8	40	25
+Wall Merchant	15	12	60	40
+________________________________________
+The Professional Collectives
+Specialists like Engineers, Lawyers, and Accountants who serve the Houses and the Crown.
++1
+Classification	Status	Base Curren-cy	Max Currency	Personal Wealth
+Apprentice Profession-al	6	2	10	8
+Certified Professional	8	4	20	10
+Senior Consultant	10	4	20	15
+Director / Advisor	12	8	40	25
+________________________________________
+The Noble Houses
+Status is a matter of lineage and the management of House Mandates.
++2
+Classification	Status	Base Curren-cy	Max Currency	Personal Wealth
+Scion / Lesser Noble	12	12	60	30
+Landed Knight	14	12	60	40
+High Noble	16	20	100	50
+Head of House	18	20	100	60
+________________________________________
+The Citizenry & Guilds
+The foundation of the Spire’s labor and economy.
++2
+Classification	Status	Base Curren-cy	Max Currency	Personal Wealth
+Freeman / Laborer	1	0	1	1
+Journeyman / Citizen	3	1	5	3
+Guilded Craftsman	5	2	10	5
+Guild Master	8	2	10	10
+________________________________________
+The Outcast Tiers
+These individuals exist outside the protections and responsibilities of the House system.
++1
+Classification	Status	Base Curren-cy	Max Currency	Personal Wealth
+Fungal Farmer	0	0	0	0
+Serf	-1	0	0	0
+Debtor	-2	0	0	0
+Prisoner	-3	0	0	0
+Wanted / Traitor	-4	0	0	0
+
+
+Step 1: Birth Status Origins
+Your Birth Status represents the family and environment into which you were born. This phase defines your earliest exposure to the world and your foundational education.
+Mechanical Benefit: For your chosen origin, you automatically gain 1d in the Base Skill. You then choose three additional skills from the provided list to start with 1d each.
+I. The Outcasts & Laborers
+•	The Serf-Born Born into a life of bonded labor, your early years were defined by physical toil and the service of a House. 
++1
+o	Base Skill: Endurance 
++1
+o	Choose 3: Athletics, Stealth, Animal Handling, Scavenging, Melee 
++1
+•	The Guild-Heir Your family held a respected place in the lower wards, teaching you the value of a hard day's work and the secrets of a trade. 
++2
+o	Base Skill: Craft 
++1
+o	Choose 3: Appraisal, Persuasion, Repair, Local Knowledge, Athletics 
++1
+II. The Professional & Academic
+•	The Student-Prodigy Born to parents within the University district, you were surrounded by books, blueprints, and the pursuit of logic from birth. 
++1
+o	Base Skill: Research 
++1
+o	Choose 3: Science, Engineering, History, Logic, Medicine 
++1
+•	The Dean’s Scion As the child of a high-ranking academic leader, you were raised amidst the politics of the Collegium and the secrets of the upper districts. 
++3
+o	Base Skill: Administration 
++1
+o	Choose 3: Law, Investigation, Oratory, History, Navigation 
++1
+III. The Military & Law Enforcement
+•	The Watch-Born Born in the barracks of the Military Ward, you grew up amidst the sound of marching boots and the strict discipline of the Constables. 
++2
+o	Base Skill: Alertness 
++1
+o	Choose 3: Brawling, Ranged Weapons, Intimidation, Tactics, Streetwise 
++1
+•	The Commander’s Legacy Raised as the child of the military elite, you were groomed for leadership and expected to uphold the King’s law with absolute authority. 
++3
+o	Base Skill: Command 
++1
+o	Choose 3: Heraldry, Strategy, Etiquette, Ranged Weapons, Willpower 
++1
+IV. The Mercantile
+•	The Ward Merchant Your family ran localized businesses within the Spires—inns, restaurants, or stalls. You grew up navigating the daily logistics of trade. 
++2
+o	Base Skill: Appraisal 
++1
+o	Choose 3: Negotiation, Local Knowledge, Persuasion, Insight, Accounting 
++1
+•	The Wall-Merchant Heir Raised in a "Robber Baron" dynasty, your family runs multifaceted organizations that own property outside the Spires. 
++2
+o	Base Skill: Finance 
+o	Choose 3: Intrigue, Law, Navigation, Leadership, Logistics 
++1
+V. The Nobility
+•	The Lower Noble Born into a family tasked with the "hands-on" governance of the King’s property and tax collection. 
++3
+o	Base Skill: Etiquette 
++1
+o	Choose 3: Law, Investigation, Administration, Melee, Heraldry 
++1
+•	The Greater Noble Scion Born into one of the 25 Great Houses, you were raised to manage the Lower Nobles and oversee the grand stability of the kingdom. 
++4
+o	Base Skill: Status 
+o	Choose 3: Strategy, Command, Diplomacy, History, Willpower 
++1
+Step 2: Education and Training
+I. Technical & Labor Training
+•	The Apprentice Craftsman You spent your youth in the workshops and foundries, learn-ing to shape raw materials into the goods that keep the Spires running. 
++3
+o	Base Skill: Repair 
++2
+o	Choose 3: Craft, Appraisal, Engineering, Endurance, Athletics 
++3
+•	The Airship Rigger Trained in the Sky Docs, you learned the dangerous art of maintain-ing vessels that sail through the Zone. 
++2
+o	Base Skill: Navigation 
++2
+o	Choose 3: Repair, Athletics, Alertness, Weather Sense, Technology 
++4
+II. Academic & Professional Training
+•	The University Scholar You were enrolled in the Collegium, spending your years in the University District studying the laws of science and history. 
++3
+o	Base Skill: Logic 
++2
+o	Choose 3: Science, Research, History, Law, Medicine 
++4
+•	The House Accountant Trained by a Merchant House or Professional Collective, you learned to manage the complex flow of wealth and logistics. 
++2
+o	Base Skill: Accounting 
++2
+o	Choose 3: Finance, Persuasion, Law, Investigation, Diplomacy 
++4
+III. Combat & Authority Training
+•	The Military Recruit You underwent rigorous training in the Military Ward, learning the discipline and tactics required for the King's service. 
++3
+o	Base Skill: Tactics 
++2
+o	Choose 3: Ranged Weapons, Melee, Endurance, Willpower, Alertness 
++4
+•	The Constable’s Apprentice Assigned to a local Ward's law enforcement, you learned to navigate the streets, manage crowds, and investigate crime. 
++2
+o	Base Skill: Investigation 
++2
+o	Choose 3: Streetwise, Insight, Brawling, Law, Intimidation 
++4
+IV. Clandestine & Social Training
+•	The Street Urchin Your "education" took place in the lower wards and warrens, learning to survive through stealth, wit, and quick fingers. 
++3
+o	Base Skill: Stealth 
++2
+o	Choose 3: Scavenging, Streetwise, Brawling, Deception, Alertness 
++4
+•	The Courtier / Diplomat Trained in the halls of power, you learned the subtle arts of in-trigue, social grace, and high-stakes negotiation. 
++3
+o	Base Skill: Intrigue 
++2
+o	Choose 3: Etiquette, Oratory, Performance, Diplomacy, Empathy 
++2
+Step 3: Current Career
+I. Institutional & Authority Roles
+•	The Ward Constable You are tasked with enforcing the King's law within a specific Ward. You answer to your superiors and manage the peace among the lower and middle classes.
++3
+o	Base Skill: Investigation 
+o	Choose 3: Streetwise, Brawling, Law, Insight, Alertness 
+o	Standard Status: 6 (Constable) 
++1
+•	The University Professor A member of the Collegium, you conduct research and train the next generation of professionals within the University District.
++1
+o	Base Skill: Science 
+o	Choose 3: Research, History, Engineering, Logic, Medicine 
+o	Standard Status: 11 (Professor) 
++1
+II. Mercantile & Professional Roles
+•	The Merchant Partner You manage trade routes and business operations for a Merchant House, coordinating the flow of goods through the Spires.
++1
+o	Base Skill: Negotiation 
+o	Choose 3: Appraisal, Finance, Law, Logistics, Empathy 
+o	Standard Status: 12 (Senior Partner) 
+•	The House Engineer A skilled professional attached to a Noble House or Merchant fami-ly, ensuring their specialized machinery and Radiant tech function perfectly.
++1
+o	Base Skill: Technology 
+o	Choose 3: Engineering, Repair, Science, Logic, Accounting 
+o	Standard Status: 8 (Certified Professional) 
++1
+III. Labor & Guild Roles
+•	The Guild Master A leader within your guilded profession, you ensure the quality of work for your members and collect necessary revenue for your House charter.
++1
+o	Base Skill: Administration 
+o	Choose 3: Craft, Persuasion, Appraisal, Leadership, Local Knowledge 
+o	Standard Status: 8 (Guild Master) 
+•	The Airship Captain You command a vessel sailing the Zone. Your worth is defined by your ability to navigate the violent storms and deliver cargo between Spires.
++3
+o	Base Skill: Weather Sense 
+o	Choose 3: Navigation, Command, Tactics, Alertness, Technology 
+o	Standard Status: 10 (Full Merchant or Equivalent) 
+IV. High Society Roles
+•	The House Agent (Lesser Noble) You handle the day-to-day governance and tax collec-tion for a Greater House, ensuring the King's property remains productive.
++1
+o	Base Skill: Administration 
+o	Choose 3: Etiquette, Intrigue, Law, Finance, Heraldry 
+o	Standard Status: 12 (Lesser Noble) 
+•	The Wall Merchant You lead a powerful mercantile organization with the rare right to own property outside the Spires. You are a "Robber Baron" of the new age.
++1
+o	Base Skill: Finance 
+o	Choose 3: Intrigue, Diplomacy, Strategy, Navigation, Law 
+o	Standard Status: 15 (Wall Merchant) 
+
+I. Primary Stat Skills (Dice Roll Actions)
+These skills are used for active checks to alter the environment or gain information.
++1
+Strength (STR)
+•	Athletics: Climbing, jumping, and general physical exertion.
+•	Melee: Proficiency with swords, clubs, and close-quarters combat.
+•	Brawling: Unarmed fighting and grappling.
+Agility (AGI)
+•	Stealth: Moving unheard and remaining unseen.
+•	Repair: Fixing mechanical devices or airship components.
+•	Craft: Creating goods, from blacksmithing to carpentry.
+Reaction (REA)
+•	Alertness: Speed of noticing sudden threats or changes in the environment.
+•	Ranged Weapons: Proficiency with firearms or arc cannons.
++2
+•	Piloting: Immediate maneuvering of airships through the Zone.
++2
+Wits (WIT)
+•	Investigation: Searching a room or finding hidden clues.
+•	Streetwise: Navigating the Warrens and identifying illegal markets.
++1
+•	Scavenging: Finding useful items in the tombs or slums.
++1
+•	Weather Sense: Anticipating Neither-storms and Zone fluctuations.
++1
+Intelligence (INT)
+•	Logic: Puzzles, deduction, and understanding complex systems.
+•	Science: Understanding the laws of Aether, Neither, and biology.
++1
+•	Engineering: Designing Spire structures or airship engines.
++1
+•	Medicine: Treating Neither-sickness or physical wounds.
++1
+•	Technology: Operating Radiant energy systems and Arc weaponry.
++1
+Knowledge (KNO)
+•	Research: Finding information in libraries or archives.
+•	History: Knowledge of the Great Kingdoms and the Ages of Spires.
++1
+•	Heraldry: Recognizing the 25 Great Houses and their lineages.
++1
+•	Law: Understanding Royal, Privy, and Ward-level legislation.
++2
+•	Navigation: Plotting long-distance routes between Spires.
++1
+•	Linguistics: Knowledge of different dialects (Elf, Orc, Dwarf).
+________________________________________
+II. Secondary Stat Skills (Resilience)
+These define your character's ability to endure and resist.
+Will (WIL)
+•	Determination: The ability to push through physical pain or mental exhaustion.
+•	Neither-Resistance: Resisting the corrupting effects of the Deep Neither.
++1
+________________________________________
+III. Tertiary Stat Skills (Interaction & Guidance)
+These provide the GM and Player with roleplay parameters rather than "win" conditions.
+Sociality (SOC)
+•	Bribery: Determining the "market rate" for a specific favor or silence.
+•	Negotiation: Understanding the terms of a trade or contract.
++1
+•	Empathy: Reading an NPC’s mood or identifying if they are lying.
++1
+•	Persuasion: Finding the right argument to influence a person of similar status.
++1
+Presence (PRE)
+•	Intimidation: Using your bearing or threat of force to demand compliance.
+•	Oratory: Speaking to a crowd or delivering an official report.
+•	Etiquette: Navigating high-society gatherings and avoid scandals.
++1
+•	Intrigue: Managing rumors and political maneuvers within the Spire.
++1
+________________________________________
+New Skill Additions
+1.	Neither-Logistics (Knowledge): Specifically for managing the specialized transport of Radiant energy or fungal crops.
++1
+2.	Accounting (Intelligence): Essential for the Professional class to track House wealth and taxes.
++1
+3.	Local Knowledge (Wits): Specific to the player's home Ward (e.g., 13th Ward Luxury or 1st Ward Labor).
++1
+
+The Hierarchy of Favors
+Favors are categorized by the severity of the action an NPC will take on your behalf. These are independent of the NPC's Status, though higher Status NPCs provide more powerful results within these tiers.
++4
+Tier	Narrative Commitment	Purchasing
+Friend	Willing to supply common or slightly restricted knowledge.	Perk Availa-ble
+Boon	Willing to perform legal actions that do not violate their own self-interest.	Perk Availa-ble
+Debt	Willing to perform legal actions that are not in their self-interest (personal cost).	Perk Availa-ble
+Obliga-tion	Willing to break the law on your behalf (e.g., theft, battery) within reason.	Gameplay Only
+Life Debt	Honor-bound to die for you or commit murder if the situation demands.	Gameplay Only
+________________________________________
+The Nature of Favors
+•	Social Currency: Favors act as a "soft" resource for bypassing standard obsta-cles without the need for dice rolls or bribery.
++2
+•	Purchasing Restrictions: Characters may only purchase Favors up to the Debt level during character creation using Perk points. Obligations and Life Debts must be earned through significant narrative achievements.
++2
+•	Scale of Impact: A "Boon" from a Greater Noble (Status 16) might involve shift-ing a city-wide trade policy, whereas a "Boon" from a Freeman (Status 1) might simply be a safe place to sleep for the night.
++2
+•	The Risk of Asking: Calling in an Obligation or Life Debt that involves high-status targets or the King’s Guard can result in the NPC being caught, potentially ending the relationship or causing a permanent drop in the NPC’s Status.
++2
+________________________________________
+Example Utility
+"You have a Debt with a Clerk in the Finance Council. You need them to 'misplace' a tax record for your Merchant House. Because it is a Debt, they will do it even though it risks their employment, provided the action remains technically legal or falls into a 'gray area' of administrative error."
++1
+Would you like to define the Perk Point Cost for the Friend, Boon, and Debt levels to include in the character creation section?
+
+
+
+
+
+
+The World
+Environmental Layers
+•	The Aether (Land of the Stars): Located far above the reach of the Neither or at the ex-treme poles, this is the only place where the stars are clearly visible. This environment is the natural home of the Elves.
++4
+•	The Zone (Moon Touched): A volatile, fluctuating boundary where sunlight and Aether interact violently, often resembling a constant thunderstorm charged with electricity. This area is the natural habitat of ½ Elves.
++3
+•	The Neither (Sunborn): An area where the sun is visible as a ball of light, similar to a ha-zy day. This is the dominant environment for Humans, who live in Spires or protected hamlets to mitigate the long-term health issues caused by the smog.
++4
+•	The Dark Neither (Shadow Lands): A dim realm where daylight is merely a general glow through thick haze, and nights are pitch black. This level is inhabited by Orcs, who are adapted to the density of the raw Neither.
++4
+•	The Lightless Lands (Skyless Lands): Underground tunnels where the sun never reach-es. This environment is the home of the Dwarfs, who are blinded by direct sunlight and re-ly on fungus adapted to live off the Neither.
+
+
+
+•	The Void: Found over a mile below the earth, where reality itself twists and reality-distorting plants and creatures reside. This is the home of the Deep Ones, who require tem-peratures above 100°F to survive.
+
+Environmental Shift & Stress Table
+Your Native Shift is 0. Every layer you move away from your biological home increases your Shift Level, accelerating your Stress accumulation and lowering your tolerance.
+Shift Level	Distance from Native	Exposure Rate (Stress Gain)	Max Stress Ca-pacity	Heal Rate
+0	Native	None	0	1 / Day
+1	Adjacent	1 per Month*	6	1 / Day
+2	Distal	2 per Week**	12	1 / Day
+3	Hostile	3 per Day***	24	1 / Day
+4	Lethal	4 per Hour	48	1 / Day
+________________________________________
+Exposure & Maintenance Requirements
+To prevent the accumulation of Stress at a specific shift level, the character must spend a minimum amount of time in their Native (Shift 0) environment:
+•	Shift 1: Gain 1 Stress per Month unless you spend 72 hours in Shift 0.
+•	Shift 2: Gain 2 Stress per Week unless you spend 24 hours in Shift 0.
+•	Shift 3: Gain 3 Stress per Day unless you spend 6 hours in Shift 0.
+•	Shift 4: Gain 4 Stress per Hour of exposure. There is no maintenance to prevent this; you must leave.
+Shift Level	Distance from Native	Dietary Requirement / Penalty	Max Stress Capacity	Stress
+0	Native	100% Native Diet. No stress accrued.	0	0
+Partial	Mixed	50% Native Diet; remain-ing is 1 Shift away.	3	1
+1	Adjacent	Less than 50% Native Di-et; primarily 1 Shift away.	6	2
+2	Distal	 More than 10% food 2 shifts	12	3
+3	Hostile	5 Percent or more 	24	4
+4	Lethal	1 Percent or more	48	5
+Food stress heals at the rate of 1 per day of eating 0 or partial food
+
+The Effects of Stress
+Stress is the mechanical tracking of "Biological Debt." Whether caused by being in the wrong en-vironment or eating the wrong food, the penalties are identical and cumulative. All penalties are rounded down.
+I. Progressive Impairment (Every 4 Stress)
+For every 4 points of accumulated Stress, your character's systems begin to fail:
+•	Stat Penalty: -1 to ALL Stats (Primary, Secondary, and Tertiary).
+•	Vigor Penalty: -1 to Max Health Pool.
+•	Example: At 8 Stress, you suffer -2 to all stats and -2 to your Max Health.
+II. Systemic Collapse (Every 10 Stress)
+For every 10 points of accumulated Stress, your body undergoes severe breakdown under the fol-lowing condition:
+Note: Daily damage from Systemic Collapse only occurs if the current environment or food source is 2 or more shifts away from your Native (Shift 0) base.
+•	Degradation: If the condition above is met, you take 1 Level of Damage per day for eve-ry 10 points of Stress.
+•	This damage cannot be healed until the Stress is reduced below the 10-point threshold or you return to a more compatible environment/diet (Shift 1 or 0).
+Example: A Human (Shift 0) at 12 Stress in the Dark Neither (Shift 2) takes 1 damage/day. That same Human at 12 Stress in a Shift 1 zone takes no daily damage, but still suffers the -3 Stat/Health penalties.
+Most damage is applied to scrapped, then bruised, then wounded
+Sever Damage is is never applied to scrapped but directly to bruised then wounded(note scrapped still can absorb additional damage)
+Critical Damage is applied directly to wounded (note scraped and bruised can still absorb additional damage)
+  
+Health Tier	Range (Hit Points)	Effect	Recovery Rate
+Scrapped	$(Durability \times 2) + 1$ to $(Durability \times 4)$	No Penalty	1 point / 15 Minutes
+Bruised	$(Durability + 1)$ to $(Durability \times 2)$	-1 Dice to all Skill Tests	1 point / Day
+Wounded	$1$ to $Durability$	-2 Dice to all Skill Tests	1 point / 7 Days
+Health Tier	Range (Hit Points)	Effect	Recovery Rate
+Scrapped	to 	No Penalty	1 point / 15 Minutes
+Bruised	to 	-1 Dice to all Skill Tests	1 point / Day
+Wounded	to 	-2 Dice to all Skill Tests	1 point / 7 Days
+________________________________________
+Healing Progression
+Healing remains a bottom-up process. Your body must fully clear the "noise" of minor injuries before it can mend deep trauma.
+Clearing Scrapped: You heal 1 point every 15 minutes. Once the Scrapped pool is full, you are no longer "Scrapped" and can begin the long-term healing of Bruises.
+Mending Bruised: Once Scrapped is full, you heal 1 point per day. Once the Bruised pool is full, the -1 dice penalty is removed, and you can begin the slow process of healing Wounds.
+Recovering Wounded: Once Bruised is full, you heal 1 point every 7 days. Once the Wounded pool is full, the -2 dice penalty is removed.
+________________________________________
+Combat Example: Durability 10 (40 HP)
+40 HP: Perfect health.
+30 HP (Scrapped): No penalties. If you rest for 2.5 hours, you're back to 40.
+20 HP (Bruised): You take a -1 dice penalty to everything. You must heal those 10 Scrapped points first (2.5 hours), then wait 1 day to reach 21 HP and remove the penalty.
+10 HP (Wounded): You take a -2 dice penalty. You must heal 20 Scrapped points (5 hours) and 10 Bruised points (10 days) before you can even begin healing these wounds at a rate of one point per week.
+
+Neither Storms: Updated Mitigation
+Neither Storms are atmospheric surges that lose intensity as they penetrate deeper into the earth or are blocked by the Spire's massive structure.
+Mitigation (Intensity Reduction)
+The environmental intensity is lowered by the following cumulative factors:
+•	Depth (Mines): -1 Intensity for every 100 feet below the surface. (At 300+ feet, storms have no effect).
+•	Racial (Orc): -1 Intensity.
+•	Layer: -1 Intensity if the storm occurs in the Neither (vs. the Dark Neither).
+•	Structural: -1 Intensity if inside a reinforced structure (Spires, Hamlets).
+•	Deep Spire Seal: -2 Intensity if in the lower levels of a Spire with all entrances hermetically sealed.
+________________________________________
+Storm Intensity Levels
+Intensity	Stress & Damage Effects	Frequency
+Level 1	5 Environmental Stress + 2 Sever Damage	Once per Day
+Level 2	5 Environmental Stress + 1 Sever Damage	Every Hour
+Level 3	10 Environmental Stress + 2 Sever Damage	Every Hour
+________________________________________
+Mining Safety Example
+•	The Surface Mine (50 ft deep): No depth mitigation. In a Level 2 storm, workers without a sealed structure take 5 Stress and 1 Damage every hour.
+•	The Shallow Shaft (100 ft deep): -1 Intensity from Depth. A Level 2 storm is re-duced to Level 1. Stress and damage only occur once per day.
+•	The Deep Mine (300+ ft deep): -3 Intensity from Depth. Even a Level 3 storm is reduced to Level 0. The miners are completely safe from the storm's mechanical effects, though they may hear the "howl" of the Neither through the ventilation shafts.
+________________________________________
+Strategic Note
+This creates a clear tactical choice for players caught in a storm: seek the relative safety of a nearby Hamlet (-1) or risk a race to the deep shafts of a nearby mine (-3) to wait out a multi-day Level 3 event. Perseverance 
+
+I. Gaining Perseverance
+At the beginning of a new Story Arc, all players automatically receive 2 points of Perseverance.
+Characters with the Determination (Will-based) skill can push themselves further:
+•	The Determination Roll: At the start of the arc, roll a Determination Skill Test.
+•	Bonus Points: For every Success generated on this roll, the character gains +1 additional point of Perseverance.
+•	Note: Perseverance does not carry over between arcs. Use it or lose it.
+________________________________________
+II. Spending Perseverance
+Perseverance can be "burnt" to achieve one of two specific mechanical advantages. You may spend multiple points on a single action if necessary.
+1. The Second Chance (1 Point)
+•	Effect: Reroll any Skill Test.
+•	Context: You may use this after seeing the initial result of a roll. You must accept the re-sults of the second roll.
+2. Defy the Odds (1 Point)
+•	Effect: Treat a roll that has Disadvantage as a Normal 1-Die Roll instead.
+•	Context: This is essential for characters who are Bruised (-1 Die) or Wounded (-2 Dice).
+o	If you are Bruised (normally rolling 0 dice/disadvantage), spending 1 point allows you to roll 1 Die normally.
+o	If you are Wounded (normally rolling 0 dice with even steeper disadvantage), spending 1 point brings you back to a standard 1-Die roll.
+________________________________________
+III. Strategic Utility
+Perseverance creates a vital "emergency button" for the health system we’ve built:
+•	Pushing Through Trauma: Since Wounded characters suffer a -2 dice penalty (often re-ducing them to rolling 0 dice), Perseverance is the only way to ensure a chance of success during a desperate escape or a final stand.
+•	Consistency: For the Professional or Noble classes, burning a point to reroll a critical Ne-gotiation or Logic test can prevent a catastrophic drop in Status.
+Story tellers may reward in game and out of game activity with a replacement.  However this cannot exceed 3 total Perserverance
+
+How Do skills work
+
+I. The Skill Test
+Instead of a pool of d6s, this system utilizes d20s scaled by training.
+•	The Pool: Your Skill Level (1–5) equals the number of d20s you roll.
+•	The Goal: Roll equal to or under your relevant Stat.
+•	Successes (Actions): * Each die that is under your stat provides 1 Action.
+o	Each die that matches your stat exactly provides 2 Actions.
+
+________________________________________
+II. Modified & Unskilled Tests
+Environment, stress, or difficulty can shift the number of dice in your pool.
+•	Positive Modifiers (+1 to +5): Add dice to your pool, increasing the potential number of actions.
+•	Negative Modifiers (-1 to -5): Remove dice from your pool.
+•	The Difficult Test: * If your dice pool is reduced to 0, -1, or -2, or if the Storyteller allows an Unskilled Roll (Level 0), you must perform a Difficult Test.
+o	The Roll: Roll 2d20 and take the lower result of the two.
+________________________________________
+III. Item Durability and Decay
+Items in New Avalon are often experimental, worn, or operating under extreme stress. They possess a Durability Factor representing their remaining "life."
+User Failure (The 20)
+If you are using an item and one of your dice (the primary die in a standard roll or the kept die in a Difficult Test) results in a 20, the item loses 1 Level of Durability.
+•	Example: An experimental pistol with Durability 3 becomes a paperweight after the third time you roll a 20 while firing it.
+Target Failure (The 1)
+When attacking an opponent equipped with defensive gear (like experimental armor), you can "break" their equipment through precision or luck.
+•	If your attacking die results in a 1, the defender's item loses 1 Level of Durability.
+•	Example: If you roll a 1 twice against a target wearing Electrical Defense Armor (Durability 2), their shielding short-circuits and fails completely.
+________________________________________
+IV. Mechanical Impact of Actions
+Because a single skill roll can generate multiple actions (especially with the "Exact Stat" bonus), combat and tasks become highly efficient.
+•	1 Action: Standard movement, a single strike, or a simple interaction.
+•	2+ Actions: Multiple attacks in a single turn, or performing a complex task (like repairing an engine) in a fraction of the time.
+________________________________________
+Summary Table
+Roll Result	Effect
+Under Stat	+1 Action
+Exactly Stat	+2 Actions
+Natural 1	+1 Action & -1 Enemy Durability
+Natural 20	Failure & -1 Your Item Durability
+Difficult Test (0 or Less Dice)	Roll 2, take lowest.
+Would you like me to apply this Durability Factor to the starting gear lists for the differ-ent Careers we've discussed?
+
+
+
+

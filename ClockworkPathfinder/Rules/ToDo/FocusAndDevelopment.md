@@ -1,0 +1,92 @@
+# Clockwork Pathfinder — Development & Playtest Roadmap
+
+- **Status:** **Active Backlog & Focus Tracker**
+- **Location:** `ClockworkPathfinder/Rules/ToDo/FocusAndDevelopment.md`
+- **Purpose:** Identifies rules subsystems, playtest stress-tests, content expansions, and mechanical areas requiring mathematical calibration or deeper narrative polish.
+
+---
+
+## 1. High-Priority Mechanical Systems Needing Calibration & Testing
+
+### A. 3-Step Wound System & Combat Math Validation
+- **Reference:** `AISummary/20_Healing.md`
+- **The Issue:** Total HP is split into Mortal (Weeks, major penalty), Critical (Days, minor penalty), and regular Damage (Normal PF). 
+- **Focus Areas:**
+  - **Pathfinder 2e Encounter Math:** PF2e assumes characters heal to full between encounters via Medicine / Treat Wounds. We need to playtest how severely parties are crippled when dipping into Critical or Mortal wound thresholds during dungeon delves or multi-encounter days.
+  - **Penalty Standardization:** Formalize the exact PF2e status conditions applied at each step (e.g., Critical = *Clumsy 1* and *Enfeebled 1*; Mortal = *Drained 2* and *Stupefied 2*).
+  - **Chirurgeon & Biomedical Pacing:** Ensure the Chirurgeon's cellular sera and surgical feats have enough utility to keep a party functional without accidentally trivializing the intended dread of Mortal wounds.
+
+### B. Firearm & Neither Cartridge Balance
+- **Reference:** `ClockworkPathfinder/Rules/RangedWeapons.md`
+- **The Issue:** Gunpowder firearms deal +1 die type damage; Neither Cartridge weapons have ½ range but double magazine capacity.
+- **Focus Areas:**
+  - **Fatal Trait vs. Increased Base Die:** Test firearms like the Arquebus (d8 $\rightarrow$ d10) with Fatal d12. Does a critical hit from a Clockwork Rifleman deal disproportionate single-shot damage that invalidates melee martial classes?
+  - **Cartridge Jam / Volatility Rules:** Define clear mechanical failure rates when firing experimental Neither cartridges in high-exposure zones or on a critical failure (Natural 1).
+
+### C. Neither Exposure Affliction Track (Severity 0–7)
+- **Reference:** `ClockworkPathfinder/Rules/SocialClassAndCorruptionRules.md`
+- **The Issue:** The 0–7 severity scale currently has descriptive effects, but needs formal PF2e Affliction Blocks (Stages 1 through 4 with specific onset times, saving throw DCs, and cure conditions).
+- **Focus Areas:**
+  - Build standardized stat blocks for **Neither Sickness** (Upper Neither), **Dark Neither Decay**, and **Acute Neither Fog Surge**.
+  - Calibrate the maintenance schedule (hours/days in native air) into exploration-mode activity checks.
+
+---
+
+## 2. New Class Polish & Subsystem Testing
+
+### A. The Merchant Class (Non-Magical Bard Replacement)
+- **Reference:** `ClockworkPathfinder/Classes/Merchant.md`
+- **Focus Areas:**
+  - **Action Economy:** Test *Commercial Directives* in active combat. Ensure shouting economic incentives and tactical contracts feels as fluid and impactful as Bardic compositions without overshadowing the Officer's secular commands.
+  - **Downtime & Social Influence:** Build a robust subsystem for the Merchant's financial investments, trade house credit lines, and merchant fleet contracts.
+
+### B. The Clockwork Engineer vs. Artisan Division
+- **References:** `ClockworkPathfinder/Classes/ClockworkEngineer.md`, `ClockworkPathfinder/Classes/Artisan.md`
+- **Focus Areas:**
+  - **Role Clarity:** Verify that the thematic boundary remains crisp—Clockwork Engineers invent high-concept experimental Neither-tech, arc emitters, and airship apparatuses; Artisans condition materials, reinforce physical armor/weapons, exploit structural flaws, and command mundane tradecraft (forges, tanning vats, masonry).
+  - **Field Crafting Economy:** Test the Artisan's *Reinforced Workmanship* (+1 to +3 gear conditioning) to ensure stacking bonuses don't break PF2e's tight numerical math (+1 fundamental rune equivalencies).
+
+### C. The Scholar's Analytical Stratagems
+- **Reference:** `ClockworkPathfinder/Classes/Scholar.md`
+- **Focus Areas:**
+  - Test the three specialties (Architect, Accountant, Natural Philosopher) in complex tactical encounters. Ensure that substituting Intelligence for attack rolls and diagnosing enemy structural flaws remains balanced against the Inspector's pure forensic focus.
+
+---
+
+## 3. World & Narrative Subsystems to Formalize
+
+### A. The Favor Hierarchy as a Downtime Subsystem
+- **Reference:** `ClockworkPathfinder/Rules/WorldAndLaw.md` (Section 5)
+- **Focus Areas:**
+  - Create structured PF2e downtime activities: **Procure a Favor**, **Call in a Debt**, and **Face Exposure / Retaliation**.
+  - Provide GMs with clear tables defining the DC and social consequences when a player pushes an NPC to commit an *Obligation* or *Life Debt*.
+
+### B. Status, Standing & Faction Reputation (–99 to +99)
+- **Reference:** `ClockworkPathfinder/Rules/SocialClassAndCorruptionRules.md` (Section 1)
+- **Focus Areas:**
+  - Define numerical milestones for faction standing (e.g., +25 = Requisition Officer Gear, +50 = High Council Audience, +75 = Master Patent Holder; –25 = Monitored by Constables, –50 = Stripped of Guild Rank, –75 = Marked for Arrest).
+  - Clarify rules for "Off-the-Books" cash laundering when players accumulate coin beyond their Status tier's liquid hoard cap.
+
+### C. Spire Travel, Tolls & Warrens Navigation
+- **Reference:** `ClockworkPathfinder/Rules/WorldAndLaw.md` (Section 2)
+- **Focus Areas:**
+  - Develop exploration-mode encounter tables for traveling the **Peasant Paths**, bypassing **Warrens toll gates** (Johnny Ralen & Amanda Coren's territories), and navigating the vertical transit lifts between circles.
+
+---
+
+## 4. Setting Mysteries & Canon Reconciliations (From AISummary/WorldSummary.md)
+
+1. **City Naming Reconciliation:** Reconcile early source document references to "Abelanth" vs. the established capital spire "New Avalon." (Proposed solution: Abelanth is the ancient or original foundation settlement upon which New Avalon was built, or a neighboring sister spire across the sea).
+2. **"Perdium" vs. Neithercrete:** Cleanly define the relationship between standard stone, reinforced steel, Neithercrete, and legacy references to "perdium" (e.g., perdium as an alloyed chemical sealant applied to outer Neithercrete walls).
+3. **The Aberrant Transformation Rules:** Formalize the exact biological and moral degradation thresholds for how desperate humans in the Warrens turn into Goblins (Type 3a) or Vampires (Type 3b), and how orcs in the Tombs become Troglodytes.
+
+---
+
+## 5. Playtest Scenarios to Design
+
+1. **"The Lower Sump Incursion" (Levels 1–3):**
+   - *Test Focus:* Warrens navigation, Neither sickness checks, low-tier melee/fisticuffs (Survivor, Pugilist, Brute, Miner), and 3-step wound recovery with limited supplies.
+2. **"The Noble Salon Intrigue" (Levels 4–6):**
+   - *Test Focus:* High-status social friction, Dandy fencing duels, Scholar/Inspector forensic audits, calling in Favors, and firearm concealed-carry restrictions in Ward 13/Noble Ward.
+3. **"The Zone Airship Boarding" (Levels 7–9):**
+   - *Test Focus:* Sky Captain navigation, electrical lightning storms in the Zone, Neither cartridge rifles vs. arc cannons, and vertical rigging combat.

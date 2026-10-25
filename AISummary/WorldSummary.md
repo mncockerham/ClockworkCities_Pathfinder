@@ -19,7 +19,8 @@ Standard terms (src normalized): **Aither** = clean air; **Neither** = corruptin
 | The Deep / Mist | 5,000–12,000 ft underground, thick; deep ones |
 - Neither Fog: periodic dense surges, lethal; reason humans live only in big settlements/caravans.
 - Neither corrupts people/plants. Neither fungi feed off it, rot in any sunlight/electric light (harvested under special photosensitive light).
-- Permanent structure reduces environmental exposure by 1 level.
+- Permanent structure reduces environmental exposure by 1 level. Hermetically sealed deep spires reduce exposure by 2 levels.
+- Neither Storm Mitigation: Storms lose intensity as they penetrate below ground or through structures: –1 intensity per 100 ft depth in mines (at 300+ ft deep, storms have zero mechanical effect, only an audible howl); –1 for reinforced structures (spires/hamlets); –1 for native Orc physiology.
 - Neither cycles ~5,000 yrs (full cover ↔ absent). Now ~1/6 down from an unusually strong peak.
 
 ## 3. HUMANITY: 6 TYPES (one species, environment-driven) [CANON]
@@ -76,7 +77,8 @@ Elven tech instability: d20 per use; in Zone (+200 ft above) 20=explodes; in Nei
 ## 7. SOCIAL STATUS & WEALTH [CANON core; numbers LEGACY]
 Status = wealth = backing. Must spend at your level or lose status. Family/guild money matters more than personal coin.
 - Permanent wealth: provided by house/guild (housing, food, gear); lifestyle = social level ±1 by standing. GM may track –99..+99 standing.
-- Transitory wealth (tracked): Base Gold (monthly floor), Max Gold, Max Gear; excess clawed back/lost.
+- Three-Layer Wealth Model: 1) Base Currency (weekly/monthly discretionary pocket money), 2) Max Currency (limit of liquid off-the-books cash hidable before audits/taxation), 3) Personal Wealth vs. House Assortment (gear owned outright vs. high-tier gear/weapons/airships issued by House/Crown and recallable upon disfavor).
+- Hierarchy of Favors (Soft Social Currency): Bypasses bureaucracy without coin. Tiers: Friend (common/restricted knowledge), Boon (legal action not violating self-interest), Debt (legal action carrying personal/career risk), Obligation (willing to break law/battery/theft on your behalf), Life Debt (honor-bound to die or kill for you). High-risk favor calls can result in contact's discovery and execution.
 Status ladder (legacy 0–10; 10 = royal):
 | Track | Ranks (status) |
 |---|---|
