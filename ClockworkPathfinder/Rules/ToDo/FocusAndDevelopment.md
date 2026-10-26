@@ -16,9 +16,11 @@
   - **Penalty Standardization:** Formalize the exact PF2e status conditions applied at each step (e.g., Critical = *Clumsy 1* and *Enfeebled 1*; Mortal = *Drained 2* and *Stupefied 2*).
   - **Chirurgeon & Biomedical Pacing:** Ensure the Chirurgeon's cellular sera and surgical feats have enough utility to keep a party functional without accidentally trivializing the intended dread of Mortal wounds.
 
-### B. Firearm & Neither Cartridge Balance
+### B. Firearm Lethality & Aither Dread (Intentional Design)
 - **Reference:** `ClockworkPathfinder/Rules/RangedWeapons.md`
-- **The Issue:** Gunpowder firearms deal +1 die type damage in Aither; Neither Cartridge weapons have ½ range but triple capacity.
+- **Design Intent Confirmed:** The extreme lethality of gunpowder firearms in Aither (+1 die type damage, fatal ballistics) is **entirely intentional**. In the setting, weapons in Aither are the exclusive domain of **Elves, high Nobility, and sovereign Merchant magnates**—in all cases, **players should be terrified of them**. Direct gunfights against disciplined riflemen in Aither are meant to be near-suicidal.
+- **Soft-Skill Counterplay via Understanding:**
+  - The high lethality of Aither firearms makes the new **Understanding** system (`ClockworkPathfinder/Rules/Skills.md`) essential. Rather than engaging in open shootouts, players use institutional insight, guard shift tracking, bribery, and social leverage to bypass armed checkpoints, divert patrols, or negotiate before triggers are pulled.
 - **Rules Codified:**
   - **Neither-Tech Energy Weapons:** Not ballistic projectile weapons. Project coherent **Electricity (Arc)** or kinetic **Force (Pulse)**.
   - **Environmental Operating Limits:** 100% operational in Neither; **1/2 damage or 1/2 duration in the Zone**; completely inoperable in pure Aither.
@@ -79,6 +81,25 @@
 - **Reference:** `ClockworkPathfinder/Rules/WorldAndLaw.md` (Section 2)
 - **Focus Areas:**
   - Develop exploration-mode encounter tables for traveling the **Peasant Paths**, bypassing **Warrens toll gates** (Johnny Ralen & Amanda Coren's territories), and navigating the vertical transit lifts between circles.
+
+### D. NPC Subsystem Calibration (Civilized / Protected Tags & Minion Scaling)
+- **Reference:** `ClockworkPathfinder/Rules/NPCs.md`
+- **Focus Areas:**
+  - **Stat Block Templates:** Build standardized GM stat blocks for common Spire civilians (e.g., Level 4 Fungus Farm Laborer, Level 6 Ward Clerk, Level 10 Spire Chief Surgeon, Level 5 Sheltered Noble Officer) featuring the **Civilized** and **Protected** tags.
+  - **Action Economy & Morale Ripple:** Stress-test the 1-Action Command/Rally requirement when an NPC suffers Trauma Collapse and the Will save vs. Demoralize on subordinates when a Protected figurehead buckles.
+  - **Adversary Minion Design:** Formulate guidelines for building competent high-skill non-combatants (spotters, terminal technicians, lock technicians) who can challenge PCs mechanically without becoming bullet sponges.
+
+### E. Understanding Integration into Character Classes
+- **Reference:** `ClockworkPathfinder/Rules/Skills.md`
+- **Focus Areas:**
+  - **Class Document Updates:** Systematically update all 17 class files under `ClockworkPathfinder/Classes/` to list their starting Understanding allocation formula (`2 Automatic + Class Base [1 to 4] + Cha Modifier`) and suggested starting Focuses.
+  - **Phase 1 & Phase 2 Playtesting:** Test the dual-attribute mechanism in heist and investigation scenarios to ensure the DC scaling between Focus and Broad inquiries feels rewarding without stalling social encounters.
+
+### F. Real-World Skill Bounds & Feat Replacement Index
+- **Reference:** `ClockworkPathfinder/Rules/Skills.md`
+- **Focus Areas:**
+  - **Skill Feat Audit:** Catalog all standard PF2e Remaster skill feats for Athletics, Acrobatics, Stealth, and Thievery to flag pseudo-magical feats (e.g., *Cat Fall*, *Wall Jump*, *Cloud Jump*, *Slippery Prey*) and rewrite them as technological equipment dependencies (pneumatic soles, grapple lines, winch harnesses, slicking grease).
+  - **Equipment Equivalencies:** Create explicit gear entries for climbing claws, suction plates, and optical smoke canisters so players know what tools are required to accomplish extreme physical feats.
 
 ---
 
