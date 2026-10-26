@@ -21,6 +21,11 @@
 2. Clockwork rules override Pathfinder rules.
 3. Anything not addressed uses Pathfinder Remaster as written.
 
+## Character Creation Philosophy — Reasons, Not Gatekeeping Justifications
+Player characters are inherently exceptional, unique individuals in the world. 
+- **No Gatekeeping "Justification":** The rules never require players to argue or "justify" why they should be allowed to pick an Uncommon class for their social tier, a rare archetype, or an unusual skill/Understanding. Requiring high-effort justification penalizes players for trying creative concepts and is explicitly rejected.
+- **A Simple Personal Reason is Sufficient:** All that is required is a simple, believable personal reason or backstory anecdote explaining how they picked it up (e.g., *"My uncle used to smuggle deliveries before he was banished, and he would take me along to back-alley underworld bars; Mom and Dad never knew"* or *"I'm the first Survivor who spent years working in fungal farms because my family ran an illicit still behind the composting tanks"*). More detail is welcome, but a single sentence is completely sufficient.
+
 ## Magic & Spellcasting Classes — Removed & Replaced
 - **Supernatural Magic Removed:** True supernatural magic does not exist in the Clockwork Cities setting. Rather than retaining stripped-down caster classes with artificial level caps or multiclass-only restrictions, all traditional spellcasting classes (Wizard, Cleric, Druid, Witch, Bard, Sorcerer, Oracle) have been **completely removed from character creation**.
 - **Role Redistribution into Steampunk Classes:** All essential utility, tactical, buffing, and support roles previously performed by magical classes have been permanently converted into physical, non-magical steampunk classes:

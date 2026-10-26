@@ -12,7 +12,12 @@
 In the Great Spires of Clockwork Cities, **social class is the single most defining characteristic** of any individual:
 - *"Worth = who you represent."* Individuals without backing (house, guild, constabulary, or syndicate) are untrusted and legally vulnerable.
 - Social status dictates your legal standing, right to own property, vote weight in Privy Council elections, access to spire circles, and whether the constabulary can arrest you without King's Guard oversight.
-- When creating a character, social class establishes where you grew up, who backs you, and which character classes make sense as **Common** (natural and frequent) versus **Uncommon** (rare, but plausible with a good story).
+- When creating a character, social class establishes where you grew up, who backs you, and which character classes are **Common** (frequent and expected) versus **Uncommon** (atypical or rare).
+- **Player Characters & Unique Reasons (No Gatekeeping "Justifications"):**
+  Player characters are inherently unique individuals in this world. Players are **never required to provide elaborate, high-bar "justifications"** to play an Uncommon combination, rare class, or unexpected skill/Understanding—requiring players to argue or justify their choices unfairly penalizes players who are trying to explore creative concepts. Instead, **all that is needed is a simple, believable in-world reason**:
+  - *Example (Survivor working fungal farms):* "I'm the first Survivor who spent years working in the fungal cultivation beds because my family ran an illegal bootleg compost still behind the cisterns."
+  - *Example (Noble with Underworld Understanding):* "My uncle, before he was formally banished by the House, used to take me along on his deliveries. Mom and Dad never knew, but he always stopped at an illicit tavern filled with unsavory characters."
+  A single sentence or brief anecdote is more than enough to anchor any combination into the world.
 
 ---
 
