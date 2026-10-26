@@ -18,6 +18,11 @@ In the Great Spires of Clockwork Cities, **social class is the single most defin
   - *Example (Survivor working fungal farms):* "I'm the first Survivor who spent years working in the fungal cultivation beds because my family ran an illegal bootleg compost still behind the cisterns."
   - *Example (Noble with Underworld Understanding):* "My uncle, before he was formally banished by the House, used to take me along on his deliveries. Mom and Dad never knew, but he always stopped at an illicit tavern filled with unsavory characters."
   A single sentence or brief anecdote is more than enough to anchor any combination into the world.
+- **Ecological Dominance in the Social Hierarchy (The Shift Calculus):**
+  - Atmospheric and dietary Neither effects directly cement **Humans and Orcs as the dominant populations across all social classes**.
+  - Because Humans and Orcs sit at Strata 3 and 4, their maximum environmental shift anywhere in the known world is only **3 levels** (yielding a worst-case combined Total Shift Score of **6.0**). This allows them to move between middle wards, agricultural valleys, deep Warrens, and low mines without suffering permanent organ failure or rapid death.
+  - By contrast, **Half-Elves and Dwarves** face maximum shifts of **4** (total combined **8.0**), keeping them tethered to specialized niches (airship riggers or deep stonecutters).
+  - **High Elves and Deep Ones** face shifts of **5** (total combined **10.0**), rapidly inducing lethal necrotic collapse outside their native sanctuaries. This makes High Elves and Deep Ones effectively unplayable outside high polar peaks/palace summits or boiling abyssal vents, permanently cementing Humans and Orcs as the universal citizens, workers, soldiers, and adventurers of the Clockwork Cities.
 
 ---
 

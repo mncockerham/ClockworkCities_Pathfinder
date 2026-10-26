@@ -66,6 +66,24 @@ Rather than treating one group as a universal "zero" baseline, all six heritages
   • Group Identification: Large formations (50+ individuals) reveal their heritage through collective averages.
 ```
 
+### Why Humans and Orcs Dominate the Known World (The Shift Calculus)
+
+The biological math of Neither exposure explains why **Humans and Orcs comprise over 98% of the global population (~1.1 Billion out of 1.11 Billion)**, while other heritages are small, isolated enclaves:
+
+1. **Humans & Orcs (The Dominant Center — Max Shift 3 / Total 6.0):**
+   - Sitting at **Strata 3 (Upper Neither)** and **Strata 4 (Lower Neither)**, the absolute furthest either group can travel on the entire planet is **3 levels away** (Humans climbing to high Aither or diving into Lightless mines; Orcs climbing to the Zone or diving into The Deep).
+   - Even in their absolute worst-case scenario (unmitigated hostile air and foreign food), their maximum combined Total Shift Score is capped at **6.0** ($3.0 \text{ Air} + 3.0 \text{ Food}$). 
+   - While severe, a score of 6.0 is **survivable for weeks or months**. Combined with the **Deep Water Fish Exception** (0 Food Shift) and standard architecture or respirators (–1 Air Shift), Humans and Orcs can comfortably traverse, build, and settle virtually any zone on the planet.
+
+2. **Half-Elves & Dwarves (The Transitional Rim — Max Shift 4 / Total 8.0):**
+   - Native to **Strata 2 (The Zone)** and **Strata 5 (Lightless Caverns)**, their maximum environmental distance reaches **4 levels away** (Half-Elves descending into deep mines; Dwarves ascending to high Aither).
+   - In worst-case conditions, their combined Total Shift Score reaches **8.0** ($4.0 \text{ Air} + 4.0 \text{ Food}$), suffering rapid lethal necrosis (3d8 damage/day at dawn) and debilitating penalties within days unless heavily shielded by dynamos or pressurized cabins.
+
+3. **High Elves & Deep Ones (The Extreme Poles — Max Shift 5 / Total 10.0):**
+   - Native to **Strata 1 (Pristine Aither)** and **Strata 6 (The Boiling Deep)**, leaving their native layer pushes them **up to 5 levels away**.
+   - Their combined Total Shift Score reaches a catastrophic **10.0** ($5.0 \text{ Air} + 5.0 \text{ Food}$). Breathing foreign air inflicts **Clumsy 16, Enfeebled 16, and Drained 16** within 16 hours, while eating foreign food induces **Stupefied 16** and fatal convulsions.
+   - Without hermetically sealed life-support suits or deep breathing apparatuses, **High Elves and Deep Ones are virtually unplayable outside their native sanctuaries**, permanently trapping High Elves on polar peaks/palace summits and Deep Ones in boiling subterranean vents.
+
 ---
 
 ### Heritage 1: High Elf (Aither-Born / Fair Folk)
