@@ -69,69 +69,27 @@ Coinage in Arclean is strictly decimalized, based on standard stamped denominati
 
 ---
 
+---
+
 ## 3. Atmospheric Exposure & Neither Corruption
 
-The Neither is an active, corrupting metaphysical atmosphere that degrades living tissue, mutates plant matter, and corrodes unshielded mechanisms.
+> [!IMPORTANT]
+> **Core Neither Mechanics Relocated:**
+> For full rules on atmospheric layers, the 6-strata air distance matrix, dietary shift half-points, combined Total Shift Scores, and the temporal combustion surge cycle, see the dedicated reference module: [TheNeither.md](file:///c:/Users/mncoc/OneDrive/Documents/Git/ClockworkCities_Pathfinder/ClockworkPathfinder/Rules/TheNeither.md).
 
-### Atmospheric Layers
+### Quick Reference: Total Shift Score (Air + Food)
+- **Air Shift Levels:** Integer steps (0 to 5) determined by biological distance from your Heritage's native layer.
+- **Food Shift Levels:** 0.5-point increments based on diet (e.g. 50% Mela + 50% raw Sycelium = 0.5 Shift).
+- **Combined Penalty Track:**
+  - **Score 0.0:** Equilibrium (normal healing/rest).
+  - **Score 0.5–1.0:** Mild Imbalance (rest healing takes 50% longer, –1 Fortitude vs. disease).
+  - **Score 1.5–2.0:** Chronic Degradation (*Clumsy 1* or *Enfeebled 1*, resting HP recovery halved).
+  - **Score 2.5–3.0:** Severe Cellular Stress (*Clumsy 1*, *Enfeebled 1*, *Stupefied 1*).
+  - **Score 3.5–4.0:** Acute Breakdown (*Drained 1*, *Stupefied 2*, weekly Fortitude save vs. *Acute Neither Sickness*).
+  - **Score 4.5+:** Systemic Failure / Mutation (*Drained 2*, *Doomed 1*; 3 months = Aberrant Speciation into Goblins, Neanderthals, or Troglodytes).
 
-1. **Aither:** Completely clean, oxygen-rich air found above the Zone (altitudes above ~12,000–14,000 feet). Humans thrive here; High Elves reside natively here.
-2. **The Zone ("The Dead Zone"):** A turbulent transition boundary 20 to 150 feet thick (expanding to 300+ feet during lightning storms). Characterized by static discharge, glowing fog, and permanent electrical squalls. Powers wireless radiant lamps (~60W) and airships.
-3. **Upper (Light) Neither:** Sun and moon remain visible through thick amber or grey haze. Natural habitat of standard humanity. Requires basic filtration or periodic exposure to uncorrupted food/sunlight.
-4. **Lower (Dark) Neither:** The sun is unlocatable; perpetual dimness covering most of the planet's lowlands. Native home of Orc populations. Highly corrosive to unadapted humans.
-5. **Lightless Neither / Subterranean:** Deep valleys, chasms, and cavern complexes (100 to 5,000 feet below surface). Native home of Dwarves. Complete darkness, heavy fungal spores.
-6. **The Deep / The Mist:** Subterranean depths (5,000 to 12,000 feet down) exceeding 100°F. Native home of Deep Ones. Toxic to surface dwellers.
+### Environmental Mitigations
+- **Architecture:** Standard Neithercrete rooms reduce effective Air Shift by **1 Level**; hermetic deep vaults reduce by **2 Levels**.
+- **Sealed Respirators:** Oiled leather filters reduce effective Air Shift by **1 Level** for up to 8 hours.
+- **Storm Depth:** Mine depth reduces Neither Storm intensity by **1 Level per 100 feet** (at 300+ feet, storm damage is completely negated).
 
----
-
-### Neither Corruption & Severity Scale (0 to 7)
-
-Environmental hazard checks occur when characters travel outside shielded spires or breach contaminated zones:
-
-- **Severity 0 (Native/Clean Environment):** No ill effects. Normal rest, natural healing, and full recovery.
-- **Severity 1 (Mild Discomfort):** Unsettling air, metallic taste, poor sleep. Restorative healing takes 50% longer.
-- **Severity 2 (Sluggish Metabolism):** Breathing difficulty, headache, itchy skin. Natural HP recovery halved; mundane wound recovery slowed by one step.
-- **Severity 3 (Weekly Degradation):** Heavy ambient Neither. Characters must make a weekly Fortitude save (DC [TBD]) or suffer a –1 status penalty to all skill checks and Perception.
-- **Severity 4 (Daily Degradation):** Dense fog or sump-gas. Daily Fortitude save (DC [TBD]) or suffer *Enfeebled 1* and *Clumsy 1*.
-- **Severity 5 (Hourly Cellular Breakdown):** Neither storm or breached quarantine. Characters suffer 1d6 poison/acid damage every hour; gear begins corroding.
-- **Severity 6 (Acute Toxicity - Per Minute):** Concentrated Neither Fog surge. Characters suffer 2d6 damage per minute; breathing apparatuses clog or fail.
-- **Severity 7 (Lethal Dissolution - Per Second):** Direct atmospheric collapse or deep-shaft eruption. 4d6 damage per round; flesh blisters, non-Neither metals dissolve.
-
-> [!NOTE]
-> **Structure Mitigation:** Enclosed permanent architecture (Neithercrete walls, sealed cabins, sealed bunkers) reduces environmental severity by **1 step**. Hermetically sealed deep spire chambers reduce it by **2 steps**.
-
-### Neither Storm Intensity & Mitigation Rules
-Neither Storms are violent atmospheric surges that roll through the Neither and Zone. Storm intensity is mitigated by depth and structure:
-- **Storm Intensities:**
-  - *Level 1 (Atmospheric Surge):* Mild skin tingling, static discharge, nausea. 1 check per day.
-  - *Level 2 (Severe Storm):* Corrosive winds, violent lightning in the Zone, suffocating haze. 1 check per hour.
-  - *Level 3 (Catastrophic Surge):* Dense neither surges capable of dissolving exposed flesh and blowing out unsealed seals. 1 check per minute.
-- **Intensity Reductions (Cumulative):**
-  - **Depth in Mines:** **–1 Intensity** per 100 feet below surface. At **300+ feet deep**, all storm effects are reduced to Level 0 (safe from physical harm, though miners hear the ominous "howl" through ventilation flues).
-  - **Structural Sealing:** **–1 Intensity** inside fortified hamlets/spires; **–2 Intensity** in lower hermetically sealed vault levels.
-  - **Orc Physiology:** Orcs treat all storm intensities as **1 Level lower**.
-
-### Biological Shift & Maintenance Requirements
-Each species begins with a **Native Shift of 0**. Traveling into non-native atmospheric strata increases Shift distance (Adjacent = Shift 1, Distal = Shift 2, Hostile = Shift 3, Lethal = Shift 4):
-- **Shift 1 (Adjacent):** Requires 72 hours per month resting in your Native layer (or consuming clean native food) to prevent chronic degradation.
-- **Shift 2 (Distal):** Requires 24 hours per week resting in your Native layer to prevent chronic degradation.
-- **Shift 3 (Hostile):** Requires 6 hours per day in your Native layer to prevent rapid systemic collapse.
-- **Shift 4 (Lethal):** Unlivable without active sealed life-support gear. No maintenance schedule can stabilize this; you must evacuate.
-
----
-
-## 4. Diet, Sunlight & Biological Drift
-
-Humanity is a single species undergoing environmental drift across six adapted forms (High Elf, Half-Elf, Human, Orc, Dwarf, Deep One). When individuals reside in non-native atmospheric strata and consume improper food classes, biological degradation occurs:
-
-### Dietary Classes
-- **Class 0 (Aither Food):** Deep-water fish (caught below 150 ft), spire-top greens, sun-ripened fruit. Highly beneficial to humans; poisonous/painful to Deep Ones.
-- **Class 1 (Zone & Upper Neither Crops):** Airship-grown greens, roof greenhouse vegetables, surface Neither grain. Standard diet for well-off citizens.
-- **Class 2 (Mela & Shallow Neither Produce):** **Mela** (processed, safely detoxified Sycelium fungal flour), shallow Neither fish, cellar mushrooms. Safe, standard working-class staple.
-- **Class 3 (Raw Sycelium):** Fast-growing raw mushroom harvested in darkness. Nutritious but causes gradual mental sluggishness if not supplemented.
-- **Class 4 (Deep / Unrefined Fungi):** Heavy subterranean fungal strains. Safe for Dwarves and Deep Ones; causes severe biological and neurological degradation in humans.
-
-### Long-Term Exposure Effects [TBD]
-- **Sunlight Deprivation:** Humans deprived of sunlight in the Warrens or deep mines suffer a progressive physical penalty (–1 to Fortitude saves per month, up to –3), reversible only by open-air convalescence.
-- **Dietary Mental Fatigue:** Diets consisting of more than 75% raw Sycelium or unrefined fungus impose a progressive mental penalty (–1 to Will saves and Recall Knowledge checks).
-- **Aberrant Degeneration (Goblins & Beasts) [TBD]:** Prolonged multi-generational exposure to high Neither without dietary variety causes degeneration into aberrant sub-types (Goblins in the Warrens, Troglodytes in the Tombs). Specific mechanical transformation thresholds to be determined in future rules modules.

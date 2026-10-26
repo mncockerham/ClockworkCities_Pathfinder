@@ -52,5 +52,5 @@ When a character's regular Damage Hit Points are entirely depleted and damage cu
 ## Open Questions
 - Exact condition tags and values for minor penalties (Step 2) and major penalties (Step 1).
 - Exact interaction with the **Dying** and **Wounded** conditions [Player Core p.411] when dropping to 0 HP from Mortal Wounds.
-- Environmental exposure modifiers: does being in the Neither or eating raw fungal rations slow or halt recovery of Mortal/Critical wounds?
+- **Environmental Exposure Interaction (Resolved in `TheNeither.md`):** Natural healing of regular HP and wound tiers is modulated by Total Shift Score (0–1.5: 100%; 2–3.5: 50%; 4–5: 25%; 5.5–6: 0 healing + 1d8/day damage; 6.5+: 0 healing + 3d8/day damage). Convalescence requires a 7-day stabilization period followed by 1 point healed per week of clean living.
 - Long-term Medicine skill checks (e.g., expanded Treat Condition / long-term care) to reduce recovery time from weeks/days.

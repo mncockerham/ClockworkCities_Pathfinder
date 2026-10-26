@@ -33,12 +33,18 @@
   - **Cartridge Jam / Volatility Rules:** Define mechanical failure rates when firing experimental Neither energy capacitors in high-exposure zones or on a critical failure (Natural 1).
   - **Traditional Weapon Viability:** Verify that traditional Pathfinder bows, crossbows, and melee arms remain tactically competitive for Orc, Dwarf, and Deep One encounters against spire arc weapons.
 
-### C. Neither Exposure Affliction Track (Severity 0–7)
-- **Reference:** `ClockworkPathfinder/Rules/SocialClassAndCorruptionRules.md`
-- **The Issue:** The 0–7 severity scale currently has descriptive effects, but needs formal PF2e Affliction Blocks (Stages 1 through 4 with specific onset times, saving throw DCs, and cure conditions).
-- **Focus Areas:**
-  - Build standardized stat blocks for **Neither Sickness** (Upper Neither), **Dark Neither Decay**, and **Acute Neither Fog Surge**.
-  - Calibrate the maintenance schedule (hours/days in native air) into exploration-mode activity checks.
+### C. Neither Exposure Affliction Track & Recovery (Finalized in `TheNeither.md`)
+- **Reference:** `ClockworkPathfinder/Rules/TheNeither.md`, `AISummary/WorldSummary.md` (Section 4)
+- **Status:** **Rules Standardized & Codified**
+  - **Air Shift (Physical Decay):** Imposes *Clumsy*, *Enfeebled*, and *Drained* doubling from Level 2 (2) to Level 5 (16), progressing at –1 step per interval (Level 1: 1 month; Level 2: 1 week; Level 3: 3 days; Level 4: 1 day; Level 5: 1 hour).
+  - **Food Shift (Mental & Social Decay):** Imposes *Stupefied* and a status penalty to all Int & Cha checks/DCs doubling from Level 2 (–2) to Level 5 (–16), progressing at –1 step per interval (Level 1: 1 month; Level 2: 1 month; Level 3: 1 week; Level 4: 1 day; Level 5: 1 hour).
+  - **Healing Modulation:** Total Shift Score scales natural rest healing: 0–1.5 (100%), 2–3.5 (50%), 4–5 (25%), 5.5–6 (0 healing + 1d8/day), 6.5+ (0 healing + 3d8/day).
+  - **Downtime Recovery Rule:** 1-week continuous stabilization period, followed by –1 point healed per week of clean native air and diet for both tracks.
+  - **Shift-Worker & Commuter Rule:** 28-day cumulative exposure window allowing miners and laborers to log shift hours without triggering lethal healing failure if supplied clean food.
+  - **Deep Water Fish Exception:** Types 1 to 4 treat deep saltwater (150+ ft) and deep freshwater fish as neutral native food (0 shift).
+- **Focus Areas for Playtesting:**
+  - Test the 28-day rolling window in exploration campaigns where parties alternate between surface Warrens and high Spire circles.
+  - Calibrate the monetary cost and availability of Chirurgeon clinical purges (*Mela Cleanse*) and high-ward *Hyperbaric Aither Sanatoriums* during extended downtime.
 
 ---
 
@@ -100,6 +106,50 @@
 - **Focus Areas:**
   - **Skill Feat Audit:** Catalog all standard PF2e Remaster skill feats for Athletics, Acrobatics, Stealth, and Thievery to flag pseudo-magical feats (e.g., *Cat Fall*, *Wall Jump*, *Cloud Jump*, *Slippery Prey*) and rewrite them as technological equipment dependencies (pneumatic soles, grapple lines, winch harnesses, slicking grease).
   - **Equipment Equivalencies:** Create explicit gear entries for climbing claws, suction plates, and optical smoke canisters so players know what tools are required to accomplish extreme physical feats.
+
+### G. Spire Logistics, Transit Checkpoints & Smuggling Mechanics
+- **References:** `ClockworkPathfinder/Rules/NewAvalon.md`, `ClockworkPathfinder/Rules/WorldAndLaw.md` (Section 5)
+- **Focus Areas:**
+  - **Vertical Transit Turnaround & Schedules:** Formalize travel durations, fare schedules (Pins/Bits/Crowns), and mechanical delay risks for vertical transit along the **Peasant Paths** (South carriages, North freight, East/West commuters) vs. the high-cost **Noble Path** (North express at 10× cost, East Noble-only, West University-only).
+  - **Weapon Packaging & Peace-Bonding Checks:** Mechanics for transporting larger weapons through public corridors (`Stealth / Thievery` vs. Constable `Perception / Understanding: Guard & Military`).
+  - **Contraband & Cartridge Smuggling:** Rules for smuggling charged military Neither Cartridges or forbidden gunpowder into the interior municipal circles. Establish detection DCs (constabulary galvanic sniffing devices, search dogs, baggage audits) and legal consequences when exposed.
+  - **Outer Gate & Military Ward Cartridge Exchange Loop:** Downtime procedure for checking out Neither cartridges (half deposit, half charge), managing ammunition expenditure, and processing returns/refunds for factory-sealed cylinders upon return to the spire.
+  - **Crisis Conscription Event Engine:** Structured rules for when a state of emergency (airship siege, Neither storm breach, Warrens insurrection) triggers universal military conscription, including command rank assignments, authorized weapon/armor gear issues, and the return of ordnance when the crisis stands down.
+
+### H. Warrens & Tombs Delving Procedures
+- **References:** `ClockworkPathfinder/Rules/NewAvalon.md` (Section 6), `ClockworkPathfinder/Rules/RareHeritages.md`
+- **Focus Areas:**
+  - **Warrens Gate Toll Standoffs:** Procedures for negotiating or bypassing the **12 Pins to 1 Crown** toll gates into the Warrens, including dealing with Johnny Ralen (North) and Amanda Coren (South) in Ward 13, and bribing Ward Gate Guards to authorize cartridge checkout for deep excursions.
+  - **Sewage Conduits & Fungal Cavern Terrain:** Environmental hazards for exploring the chasms between Wards and Warrens—caustic runoff channels, slick fungal shelves, and toxic spore clouds.
+  - **Photosensitive Harvest Rules:** Tactical combat complications in fungal cultivation vats where open flame, electric arc discharges, or radiant lamps cause Sycelium crops to rot rapidly, inciting hostile swarm reactions from underclass fungus farmers and goblins.
+  - **The Degradation Clock (Goblinization & Troglodyte Drift):** Exploration-mode affliction rules tracking chronic exposure, unpurified sewage diets, and Neither saturation that gradually trigger aberrant physical and cognitive shifts.
+
+### I. Ruin Stratification & Neither Salvage Engine
+- **References:** `ClockworkPathfinder/Rules/History.md` (Eras I–V), `AISummary/WorldSummary.md` (Ruins)
+- **Focus Areas:**
+  - **Epochal Ruin Generator:** Standardized dungeon tables reflecting distinct geological and historical layers:
+    - *Era 1 Ruins (Seven Great Kingdoms, 1715–2110):* Rusted locomotives, flooded subway tunnels, locked steel bank vaults, unstable pre-Neither electrical capacitor banks, and fragile paper archives.
+    - *Era 3 Ruins (Proto-Spire Kingdoms, 2400–3900):* Collapsed 500-foot stone spires, orc warband shrines, ancient dwarven watermill dynamos, and lost early Neither-steel blades.
+    - *Era 4 Ruins (Dwarven Subterranean Citadels, 3900–4100):* Lightless subterranean cities, cat-optic optical traps, geothermal steam taps, and deep-vein mineral caches.
+  - **Neither Salvage Decay Rules:** Rules for preserving fragile pre-collapse materials. Salvaged metals, paper, and textiles recovered from Neither mud begin rapid chemical oxidation and crumbling within hours of exposure to fresh air or radiant lamps unless secured in vacuum-sealed canisters.
+
+### J. Cartridge Shelf-Life & Spire Siege Attrition Engine
+- **References:** `ClockworkPathfinder/Rules/History.md` (Era IX), `ClockworkPathfinder/Rules/RangedWeapons.md`
+- **Focus Areas:**
+  - **Cartridge Stability & Decay Die:** A simple check for aging or scavenged Neither ammunition. When firing cartridges older than 90 days or scavenged from wild ruins, roll a flat DC 5 check; on a failure, the cartridge discharges with half effect, squibs inertly, or corrodes the firing chamber.
+  - **Spire Siege Attrition Subsystem:** A high-level GM tracking system for besieged spires measuring four weekly attrition dials:
+    1. *Cartridge & Munitions Stockpiles* (Defensive arc cannon uptime vs. long-range cartridge bombardment).
+    2. *Mela & Sycelium Rations* (Onset of malnutrition and food riots).
+    3. *Radiant Power Grid Stability* (Collector rod damage, municipal blackouts, and lift elevator shutdowns).
+    4. *Warrens Disease & Goblinization Rate* (Neither fog filtration failures pushing lower circles into epidemic sickness).
+
+### K. Airship 2D Cloud Sea Combat Subsystem
+- **References:** `ClockworkPathfinder/Rules/History.md` (Era VII), `AISummary/WorldSummary.md` (Section 2)
+- **Focus Areas:**
+  - **The Flat Cloud Plane (2D Tactical Naval Combat):** Because the atmospheric density of the Zone naturally forces all airships to float at the exact same equilibrium altitude, dogfighting collapses into 2-dimensional naval tactics.
+  - **Boarding Actions & Rigging Combat:** Streamlined rules for firing magnetic grapple cables, swinging across cloud voids between envelopes, and repelling boarders on swaying wooden gantries.
+  - **Zone Squall & Lightning Hazards:** Environmental stress checks on uninsulated skyship hulls during combat—sudden updrafts, engine stalls, and static arcs grounding through ship armor.
+  - **Arc Cannon Broadsides vs. Cartridge Snipers:** Ship-mounted Zone arc batteries (heavy hull damage) balanced against riflemen taking precision cartridge shots through viewing slits.
 
 ---
 

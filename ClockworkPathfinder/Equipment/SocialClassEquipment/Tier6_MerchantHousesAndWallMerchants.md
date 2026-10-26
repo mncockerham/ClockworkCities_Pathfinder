@@ -32,7 +32,7 @@
 | **Armored Traveling Coat (Silk & Steel Lamellar)** | 6 gp | 1 | `[EquipmentCatalog]` | Luxurious yet protective coat (+2 AC, Dex cap +3); disguised as fashionable traveling tweed. |
 | **Brass Optical Spyglass / Rangefinder** | 10 gp | L | `[PC1 p.289]` | High-clarity lenses for scouting approaching raider dust clouds from caravan platforms. |
 | **Personal Bodyguard Requisition Retainer** | 10 gp / wk | — | `[WorldSummary p.7]` | Contracts 2 armed veterans (Soldiers or Pugilists) to travel alongside. |
-| **Portable Canteen of Vintage High-Ward Brandy** | 5 gp | L | `[EquipmentCatalog]` | Clean Class 0 refreshment to maintain composure under rough conditions. |
+| **Portable Canteen of Vintage High-Ward Brandy** | 5 gp | L | `[EquipmentCatalog]` | Clean Strata 1 refreshment to maintain composure under rough conditions. |
 
 ---
 

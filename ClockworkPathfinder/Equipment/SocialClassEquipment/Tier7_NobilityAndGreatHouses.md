@@ -27,7 +27,7 @@
 | Item | Cost | Bulk | Reference | Notes & In-World Context |
 |---|:---:|:---:|---|---|
 | **Custom Silver-Filigree Neither Respirator** | 8 gp | L | `[EquipmentCatalog]` | Masterwork breather mask fitted with triple-action compressed floral-charcoal filters. |
-| **Vial of Pure Aither Revitalizing Tonic** | 10 gp | L | `[WorldSummary p.4]` | Class 0 essence; completely halts and cleanses minor Neither exposure degradation. |
+| **Vial of Pure Aither Revitalizing Tonic** | 10 gp | L | `[WorldSummary p.4]` | Strata 1 essence; completely halts and cleanses minor Neither exposure degradation (resets Food Shift to 0.0). |
 | **Imported Elven Gunpowder Dueling Pistol** | 25 gp | L | `[RangedWeapons.md]` | Rare northern Aither firearm (+1 damage die: 1d8 P, Fatal d12, Range 60 ft); status symbol. |
 | **Neither Dueling Pistol (Cartridge Backup)** | 15 gp | L | `[RangedWeapons.md]` | Reliable Neither cartridge sidearm (1d8 P, Fatal d12, Range 30 ft) carried if Neither fog causes black powder misfires. |
 | **Sealed Cartridge Cases (Silver-Etched Boxes)** | 2 gp | L | `[EquipmentCatalog]` | 8 rounds of match-grade ammunition. |

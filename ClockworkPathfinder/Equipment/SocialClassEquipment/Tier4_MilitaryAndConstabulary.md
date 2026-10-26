@@ -34,7 +34,7 @@
 | **Constable Studded Armor / Soldier's Cuirass** | 4 gp | 1 | `[PC1 p.274]` | Hardened breastplate and riveted leather (+2 to +3 AC, Dex cap +3). |
 | **Infantry Trench Shovel & Entrenching Pick** | 1 gp | 1 | `[PC1 p.290]` | Digging firing pits, clearing rockfalls, and defensive breastworks. |
 | **Standard Military Field Dressing Kit** | 1 gp | L | `[EquipmentCatalog]` | Bandages, tourniquets, carbolic swabs, and smelling salts for rapid stabilization. |
-| **Rations: Hardtack & Preserved Class 1 Meat** | 3 sp | L | `[WorldSummary p.4]` | High-calorie long-storage military field rations. |
+| **Rations: Hardtack & Preserved Strata 2 Meat** | 3 sp | L | `[WorldSummary p.4]` | High-calorie long-storage military field rations. |
 
 ---
 

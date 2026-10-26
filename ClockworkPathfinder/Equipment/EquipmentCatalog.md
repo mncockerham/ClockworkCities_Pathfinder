@@ -131,9 +131,9 @@ Reflecting food classes and fungal agriculture from `AISummary/WorldSummary.md`.
 
 | Provision | Cost | Bulk | Reference Book | Setting Nutrition & Exposure Notes |
 |---|:---:|:---:|:---:|---|---|
-| **Class 0 Fresh Aither Fruit & Deep Salmon** | 1 gp / day | L | `[WorldSummary p.4]` | Luxury nobility fare; 100% clean, restores mental clarity. |
-| **Class 2 Mela Cakes (Standard Spire Bread)** | 5 cp / day | L | `[WorldSummary p.4]` | Processed Sycelium flour; safe, ubiquitous middle-class food. |
-| **Class 3 Raw Sycelium Mash (Warrens Ration)**| 1 cp / day | L | `[WorldSummary p.4]` | Rapid-growing dark fungus; unrefined. Long term use causes mental degradation for Type 3 humans. |
+| **Strata 1 Fresh Aither Fruit & Deep Salmon** | 1 gp / day | L | `[WorldSummary p.4]` | Luxury nobility fare; 100% clean Aither produce, resets Food Shift to 0.0. |
+| **Strata 3 Mela Cakes (Standard Spire Bread)** | 5 cp / day | L | `[WorldSummary p.4]` | Processed Sycelium flour; safe civilized staple for Human baseline. |
+| **Strata 4 Raw Sycelium Mash (Warrens Ration)**| 1 cp / day | L | `[WorldSummary p.4]` | Rapid-growing dark fungus; unrefined. 0.5 to 1.0 Food Shift for Humans/Elves. |
 | **Bottled Pure Aither Water (Ward 13 Well)** | 2 sp | L | `[New]` | Condensed clean rainwater collected above the Zone. |
 | **Warrens Sump Stout / Sycelium Ale** | 2 cp | L | `[New]` | Bitter fermented fungal brew popular among laborers and dockhands. |
 | **Fine High-Ward Brandy (Vintage 1845)** | 5 gp | 1 | `[PC1 p.294]` | Distilled fruit liquor traded from noble estates in the upper spire. |

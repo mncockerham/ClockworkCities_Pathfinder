@@ -196,4 +196,21 @@ flowchart TD
    - *Frequency Limit:* To prevent abuse, this can be done approximately **once per week** (or per downtime interval).
    - *Example:* If an NPC owes you a **Life Debt (Tier 5)** or **Risk (Tier 4)**, asking them for a **Trivial (Tier 1)** favor (like setting up a meeting with a junior clerk) or a **Favor (Tier 2)** is done willingly as minor upkeep; your overall Life Debt or Risk remains intact.
 
+---
+
+### Limits, Loyalty & Social Consequences of Default
+
+Obligations exist within the complex web of human psychology, ideology, and social standing. They are **not mind control**:
+
+1. **Competing Loyalties & Unreasonable Demands:**
+   - Individuals respond differently based on their convictions, rank, and personal morality.
+   - *Example:* It is nice that the Crown Prince owes you a **Life Debt**, but **no, he will not smuggle you and an armed party into the throne room** to commit treason. If an individual is fiercely devoted to a higher cause, their crown, or their religion, they may choose death, severe penance, or dishonor rather than repay you with an act that violates their core oath.
+2. **Dishonorable Actors & Enforcement:**
+   - Not everyone in the world is honorable. A ruthless Warrens gang boss may openly acknowledge that he owes you a Life Debt or a heavy Debt, but actually getting him to pay is an entirely different matter—he may stall, look for loopholes, try to settle in cheap coin, or calculate whether it's simpler to have you quietly eliminated if you push too hard.
+3. **The Weight of Family Honor & The Cost of Default:**
+   - With that said, the vast majority of citizens across the Spires live and die by **the honor of their family and house**, which is built entirely on the integrity of those who bear its name.
+   - In a setting where *"Worth = who you represent"*, publicly reneging on a recognized debt or failing to fulfill an acknowledged Obligation carries devastating consequences:
+     - **Loss of Family Standing:** The debtor brings public shame upon their house or trade guild, frequently resulting in being demoted within their family hierarchy, stripped of allowances, or formally cast out.
+     - **Social & Legal Ruin:** News travels quickly through salons, trade offices, and guild halls. A family or individual known to default on debts suffers massive status penalties, lost business credit, and social ostracization.
+
 

@@ -5,7 +5,7 @@ tags: [CANON]=setting fact to keep | [LEGACY]=old-system mechanic, convert to PF
 ## 1. CORE PREMISE
 - Genre: steampunk-ish politics/intrigue + light brawling. Tone: status > individual. "Worth = who you represent" (house/guild/family). Individuals untrusted; group backing is everything.
 - Default play: residents of **Ward 13 (Luxury Ward)** of a great spire city; mostly well-off middle class. [?] PC Intro names city "Abelanth"; detailed city = "New Avalon" (capital of Arclean).
-- Physics: combustion unreliable in Neither → no cars, guns(gunpowder), combustion engines, telegraph/phone/radio. 
+- Physics: Combustion unreliable in Neither: fuel releases normal energy, but 5%–90% is absorbed into the Neither and returned randomly back to the location within 3 minutes → causes sudden dying out or 5–6× explosive surges; makes cars, black powder guns, standard internal combustion non-functional. Clockwork steam engines use heavy mechanical flywheels and pressure dampeners to smooth out energy spikes. Neither also drives ongoing mutation until creatures adapt to their density; substances/biochemicals formed in Neither decay in seconds to days when exposed to sunlight/Aither (Neithercrete degrades over months).
 - **Radiant Power Grid & Infrastructure [CANON]:**
   - **Shared Radiant Power:** Within Great Spires, Dwarven subterranean cities, and Deep One layers, energy is distributed wirelessly through the Neither medium via **radiant power**, supplied by massive, heavily guarded municipal generators and catalytic dynamos.
   - **The Spire Advantage (Zone Interception):** The **Great Spires that physically cross and pierce the Zone** are the **only places on the planet** where enough raw electrical energy is constantly harvested to broadcast radiant power across vast urban districts (powering thousands of wireless ~60W street lamps, industrial lift winches, and municipal machinery without physical power lines).
@@ -32,30 +32,51 @@ Standard terms (src normalized): **Aither** = clean air; **Neither** = corruptin
 - Neither cycles ~5,000 yrs (full cover ↔ absent). Now ~1/6 down from an unusually strong peak.
 
 ## 3. HUMANITY: 6 TYPES (one species, environment-driven) [CANON]
-Not separate species. Shifts ~1 type per ~3 gens of living in non-native layer (range 1–10+). Most people can pass as an adjacent type. Interbreeding: 1 shift viable (80% mother's type), 2 shifts rare, 3 essentially never. Child ≤1 shift from mother; parents must be ≤2 shifts apart (High Elf+Human ok, High Elf+Orc no). Same 6-form pattern applies to most other life.
+Not separate species. Shifts ~1 type per ~3 gens of living in non-native layer (range 1–10+). Statistical visual overlap: ~20% of Half-Elves look like 20% of Humans, and ~20% of Humans look like 20% of Orcs. While large groups (50–100 individuals) are easily identified by population averages (e.g. an Orc raiding warband vs. an Elven retinue), identifying individuals in isolation is extremely difficult. Using a Disguise Kit allows 100% of Half-Elves and Orcs to pass as Human on a successful Deception check. Interbreeding: 1 shift viable (80% mother's type), 2 shifts rare, 3 essentially never. Child ≤1 shift from mother; parents must be ≤2 shifts apart (High Elf+Human ok, High Elf+Orc no). Same 6-form pattern applies to most other life.
 | # | Name | Native layer | Traits / notes | Pop. |
 |---|---|---|---|---|
-| 1 | Elf / High Elf / Fair Folk | Aither, far N/S (Iceland), peaks | unadapted (= modern humans); deathly allergic to Neither; most intelligent; best tech (~1900–1930s): steel, gunpowder/explosives, ~1900 combustion-engine trains & motor cars (operable only in pure Aither) | 300k |
-| 2 | ½ Elf | Aither 70%+/upper Neither | traders/diplomats for elves; superb elf-made gear; steel rusts & explosives unstable for them; build wood/cement. Legacy: +1 skill tree, Int max 16 | 200k |
-| 3 | Human | Upper Neither | dominant civ; builds spires; needs some sun + uncorrupted food; Aither food beneficial; increased healing | 400M |
+| 1 | Elf / High Elf / Fair Folk | Aither, far N/S (Iceland), peaks | unadapted (= modern humans); deathly allergic to Neither; most intelligent; best tech (~1900–1930s): steel, gunpowder/explosives, ~1900 combustion-engine trains & motor cars (operable only in pure Aither) | 150k |
+| 2 | ½ Elf | Aither 70%+/upper Neither | traders/diplomats for elves; superb elf-made gear; steel rusts & explosives unstable for them; build wood/cement. Legacy: +1 skill tree, Int max 16 | 20k |
+| 3 | Human | Upper Neither | dominant civ; builds spires; needs some sun + uncorrupted food; Aither food beneficial; increased healing | 500M |
 | 4 | Orc | Lower Neither | most numerous; widest range; master stonemasons; Aither affects them like Neither affects humans; increased healing; Neither-storm effects delayed 6 h; blur w/ humans visually | 600M |
 | 5 | Dwarf | Lightless/underground (100–5,000 ft) | master diggers; direct sun = pain; low-light vision; heat/cold tolerance; kept Neither-tech alive through collapses; some live in spires (merchants/outcasts) or run mines | 10M |
-| 6 | Deep One | The Deep (5k–12k ft), >100°F | Aither burns/poisons; fungus breeders—supply spire food/medicine strains (decay → constant demand); low-light vision, heat adapted, exceptional resolve (max 16) | 200k |
+| 6 | Deep One | The Deep (5k–12k ft), >100°F | Aither burns/poisons; fungus breeders—supply spire food/medicine strains (decay → constant demand); low-light vision, heat adapted, exceptional resolve (max 16) | 50k |
 Sub-types (aberrant states):
-- Goblin (3a/4c): human w/ long Neither exposure (or orc w/ Aither); mental+physical loss; breed true in high-flux zones. 90% of Warrens dwellers. ~200k [?] pop seems low vs Warrens size.
-- Vampire (3b): human who ate human flesh; can't eat Aither food; decays unless drinking type 1–3 blood. Hidden in spires; killed/exiled if found. ~10k
-- Beast (4a): orc that must eat type 3+ flesh to keep intellect/self-control. Origin unknown. ~10k
-- Neanderthal (4b): orc deprived of Neither; physical degradation; descendants become humans. ~20k
-- Troglodyte: orc living as dwarf / permanently changed goblins in the Tombs. ~10k
+- Goblin (3a/4c): human w/ long Neither exposure (or orc w/ Aither); mental+physical loss; breed true in high-flux zones. 90% of Warrens dwellers. ~200k.
+- Vampire (3b): human who can't eat Aither food; decays unless drinking type 1–3 blood (orc blood gives partial relief); dormant form triggered by eating humanoid flesh. Hidden in spires; killed/exiled if found. ~5k
+- Beast (4a): orc that must eat type 1–5 humanoid flesh to keep intellect/self-control. Origin unknown. ~10k
+- Neanderthal (4b): orc deprived of Neither-corrupted food; physical/neural damage; descendants become humans or recover to orcs. ~20k
+- Troglodyte: orc/goblin permanently changed in lightless Tombs. ~10k
 
-## 4. EXPOSURE & FOOD [LEGACY mechanics, CANON concept]
-Environmental severity 0–7 per type × layer × weather (full table src L149–183). Scale: 0 natural; 1 uncomfortable/poor sleep; 2 slow heal; 3 –skill weekly; 4 –skill daily; 5 dmg hourly; 6 dmg per minute; 7 dmg in seconds.
-Food classes (by origin): Aither/deep-water fish(150ft+) → Zone(airship-grown) → Upper Neither crops → Lower Neither/processed fungus/shallow fish → Underground raw fungus → Deep fungus. Each type has a tolerance % per class; exceeding → mental-stat loss (lighter food) or physical-stat loss/death (too "clean" for Neither-adapted).
-Human-specific (Type 3):
-- Sunlight/air: warrens/deep mines –3 phys; no sun but fresh air –2; limited sun –1; good sun 0. Onset ~1 month, –1/month; recovers 1 wk open air.
-- Diet → mental penalty: Class0 deep fish/Aither = none; Class1 Neither crops; Class2 Mela/shallow fish/Neither livestock; Class3 raw Sycelium; Class4 other fungi. Variety mitigates.
-- Examples: well-off Ward 13 = 0; poorer = –1; slums (85% Mela) = –2; Warrens (80% raw Sycelium) = –3.
-- Staple: **Sycelium** mushroom, grows fast in dark; 10×10×10 ft feeds 15 raw / 10 processed. **Mela** = processed Sycelium, safest.
+
+## 4. EXPOSURE, FOOD & RECOVERY [CANON concept, PF modernized in ClockworkPathfinder/Rules/TheNeither.md]
+- Environmental distance is calculated via **Total Shift Score = Air Shift Levels (integer steps 0 to 5) + Food Shift Levels (0.5-point increments for mixed diets)**.
+- **Combined Total Shift Healing Table:**
+  - **Score 0.0 to 1.5:** **100% Normal Healing Rate.** No rest or recovery penalties.
+  - **Score 2.0 to 3.5:** **50% Normal Healing Rate.** HP rest recovery takes twice as long.
+  - **Score 4.0 to 5.0:** **25% Normal Healing Rate.** Sluggish recovery; 1/4 HP restored per rest.
+  - **Score 5.5 to 6.0:** **No Natural Healing + 1d8 Damage per Day** at dawn (cellular necrosis).
+  - **Score 6.5 or Higher:** **No Natural Healing + 3d8 Damage per Day** at dawn (acute systemic collapse, rapid death).
+- **Air Exposure (Physical Decay — Clumsy, Enfeebled, Drained):**
+  - Level 0: Equilibrium (0).
+  - Level 1: Not Optimal (–1 after 1 month; does not worsen).
+  - Level 2: Severe Strain (–2; accumulates every 1 week).
+  - Level 3: Cellular Shock (–4; accumulates every 3 days).
+  - Level 4: Tissue Necrosis (–8; accumulates every 1 day).
+  - Level 5: Void Shock (–16; accumulates every 1 hour; fatal within hours).
+- **Food Exposure (Cognitive & Social Decay — Stupefied, –Int/Cha Checks & DCs):**
+  - Level 0: Equilibrium (0).
+  - Level 1: Not Optimal (–1 after 1 month; does not worsen).
+  - Level 2: Moderate Shift (–2; accumulates every 1 month).
+  - Level 3: Severe Shift (–4; accumulates every 1 week).
+  - Level 4: Toxic Poisoning (–8; accumulates every 1 day).
+  - Level 5: Catastrophic Shock (–16; accumulates every 1 hour; fatal convulsions).
+- **The Deep Water Fish Exception:** Types 1 to 4 (High Elf, Half-Elf, Human, Orc) can all eat deep saltwater fish (150+ ft) or deep freshwater fish as neutral native food (**0 Food Shift**).
+- **28-Day Cumulative Exposure Window:** Shift-workers (miners, foundriers) logging 12-hr shifts calculate exposure over a rolling 28-day window; part-time labor accumulates conditions over weeks without triggering lethal healing collapse if given clean food.
+- **Unified Recovery Rule:** 1-week continuous stabilization delay in native environment/diet, followed by **–1 point healed per week** for both Air and Food.
+- Staple: **Sycelium** mushroom, grows fast in dark; 10×10×10 ft feeds 15 raw / 10 processed. **Mela** = processed Sycelium, safest civilized staple.
+- Mitigation: Architecture reduces Air Shift by 1 level; hermetic deep vaults reduce by 2; respirators reduce by 1 (8 hrs); every 100 ft mine depth reduces storm intensity by 1 level (300+ ft = 0 damage). Medical: Mela Cleanse resets Food Shift in 7 days; Hyperbaric Aither sanatorium clears 1 Air Shift per 72 hrs.
+
 - **Elven Tech, Combustion Engines & Gunpowder (The Elven Mystique & Geographic Defense):** 
   - Elves maintain a limited supply of circa-1900 technologies: combustion-engine trains, motorcars, and rifled gunpowder firearms (note: isolated elven populations may lack access to these advanced stockpiles).
   - **Combustion Engine Failure Outside Aither:** Any standard internal combustion engine suffers the exact same atmospheric failure as black powder: inside the Neither or Zone, combustion is erratic, causing engines to misfire, stall, or suffer catastrophic fuel explosions.
@@ -67,13 +88,14 @@ Human-specific (Type 3):
 
 ## 5. HISTORY (timeline) [CANON, partly ?]
 [?] Two incompatible framings: real-Earth timeline (1715 onward) vs "years ago" framing with radiant power 2,500 yrs, airships 900 yrs. Treat sequence as canon, dates soft.
-1. ≤1715 = real history. 1715 Neither appears; 1790 covers tropics/sea level; radiant lights; **Neithercrete** → first spires; by 1940 near-total coverage.
-2. First era: **5 Great Kingdoms** (English, German, Scandinavian, Western American, New Zealand). Abused Neither-dwellers. Air flights between northern kingdoms; ~1940s non-Neither tech.
-3. First Age of Storms (~2250–2400): total cover; all cities fall; orc hordes (revenge for mistreatment) erase Great Kingdom knowledge; dwarves keep basic Neither tech.
-4. ~50 successor kingdoms, each claiming Great Kingdom heirship, erasing rivals; ~1,500 static years.
-5. Second great storm: total collapse; only orcs in a few spires + 2 Icelandic spires (elves) w/ history/tech.
-6. ~1000 yrs ago: Neither drops; Icelanders improve Neithercrete (500 ft → 1+ mile). **Age of Spires** (~200 yrs).
-7. Storm + **fungal collapse** (only ~2 food strains) → ~80% of humanity dies over 50 yrs. 200 yrs later: hundreds of fungal strains (dwarves/deep ones) prevent repeat; spire populations 10–100× higher.
+1. ≤1715 = real history. 1715 Neither appears; 1730 combustion instability; 1740 Zone forms at equator; 1810 tropics covered; 1890 Deep Neither; 1910 equator impassable.
+2. First era: **7 Great Kingdoms** (English, German, Scandinavian, Western American, China, India). Wealthy live in Aither/north/peaks; working masses forced into Neither; first Neither-tech (early Neithercrete, radiant lights, stationary arc weapons).
+3. First Age of Storms (2110–2400): total cover; Zone travels past Iceland; human speciation (Humans under Zone, Orcs in Deep Neither by 2400, Dwarves underground ~2600, Deep Ones in boiling depths, Elves in untouched Aither). Fungi (Sycelium) mutate to feed on Neither.
+4. First Age of Proto-Spires (~2400–3900): Zone drops; 500-ft proto-spires; global tech drops to ~1580 level; orc hordes resist; ~50 regional kingdoms; 1,500 static years of siege/loss of ancient knowledge.
+5. Second Great Storm (~3900–4100): Zone sweeps past Iceland; Dwarven subterranean citadels rise; orc hordes sweep south and destroy dwarven cities; Iceland survives in isolation.
+6. ~1500 yrs ago: Neither drops; Icelanders & Dwarves improve Neithercrete (500 ft → miles-high). **Age of Spires** (~200 yrs of building).
+7. Third Great Storm + **fungal collapse** (~1100–900 ya): fungi die off; ~80% of spire humanity starves over 80 yrs. Dwarves & Deep Ones breed hundreds of resilient fungal strains (preventing repeat).
+
 8. ~700 yrs ago: **Airships** (ride the Zone, ~100 mi/day) → **Age of Conquest** (700–300 ya): drop troops on spire tops, starve cities; small arc cannons.
 9. ~300 ya: **Great Arc Cannons** (Zone-powered; bigger = more range/dmg) → spires near-impregnable; 200+ yrs stability. Merchant houses appear (~300 ya).
 10. ~100 ya: university professionals/professional guilds appear (2021 doc).
@@ -124,7 +146,7 @@ From 2021 doc (world facts only, mechanics discarded):
 - Merchant Houses work like noble houses but must keep earning or lose status; use adoption to keep money flowing. Wall Merchants own estates above the Aither line, control multiple ship routes.
 - Greater Nobles = named families acknowledged by king; only king adds/removes members (rare); property in multiple spires. Royal Family ≈40 people (NPC); ex-royals marry easily into Greater houses. King = NPC.
 - Holdings tied to class: noble land/industry grants, merchant trade routes, guild halls (Guild Master).
-- Upbringing may differ from current class (raised noble, now guildsman etc.) → social friction scaled to gap; military or university paths not seen as negative.
+- Upbringing may differ from current class (raised noble, now guildsman etc.): Rising in social class is widely appreciated/celebrated across the spires as proving one can overcome the limitations of their birth. Falling in class, however, is scorned by peers and higher status as a moral and family failure. Military and university paths are universally respected routes upward.
 
 ## 8. MONEY & GEAR [coins CANON; prices/XP LEGACY]
 Decimal coins: Pin (P) → Bit (10P) → Crown (CR,10B) → Imperial (I,10CR) → Silver Imperial (S,10I) → Gold Imperial (G,10S) → Silver Bar (10G) → Gold Bar (10SB). Bar = metal for 110 coins; raw metal worth ~90; flake ~60.
@@ -144,6 +166,8 @@ Legacy XP: stories 1–3 XP; skill 1, new skill chart 1–3, stat = cur×2, meri
 - **Constables**: per-ward, authority only in own ward (+its Warrens/servant quarters); foresters = field equivalent; can be lent/conscripted. Enforce crown law on all, privy law on non-nobles (never on nobles in practice).
 - **King's Guard**: ≤1000, ≥1 per ward, authority everywhere, answer only to king; command constables & military; may deputize anyone; refusing aid = treason.
 - Courts: Low & Mid Court (non-nobles); King's Court (nobles, noble district). Constables get KG to charge nobles; rarely refused.
+- **Weapon & Armor Laws [CANON]:** Daggers permitted to all free citizens (using in a fight, especially if instigating, = serious crime). Dueling swords permitted only to Nobles & Wall Merchants. Other weapons owned legally by any free citizen (not enslaved/jailed), but in public must be packed/peace-bonded so not easily drawn (unless leaving spire). Constables rarely have firearms (locked in station, checkout only in high emergencies). King's Guard only ones routinely armed w/ rifles/pistols on duty (weapons locked in guard house, checked out per shift). Armed bodyguards require **King's Rite** (firearms/cartridges; Great Houses, high nobles, Wall Merchants, ministers only) or **Ward-Level Rite** (swords/crossbows; Nobles/Wall Merchants have by default). **Gunpowder Prohibition:** Forbidden to possess for most citizens; owning a gunpowder gun is legal, but ammunition must be bought and kept at the destination location. Only top noble/merchant families may buy a **King's Rite** allowing guards/members to hold ammunition *within private estates*; leaving the property with powder without King's permission = serious crime. **Armor:** Padded/leather only for everyday spire wear; heavier armor and open weapons permitted when preparing to depart spire or enter Warrens. Groups w/ influence/money can arrange w/ Ward Guards to check out cartridges for lower/deep Warren expeditions. **Crisis Exception:** In times of crisis, the military, King's Guard, and defense commanders may draft any citizen on the spot and dictate what armor/weapons/cartridges they carry and use in defense of the Spire.
+
 
 ## 10. NEW AVALON (capital spire) [CANON]
 - Outer wall ~30 mi, 50 ft tall/thick, encloses ~50 sq mi of fields (livestock, crops, foundries, tanneries). Port ½ mi away via walled (100 ft) secured passage. Inner wall 150 ft, 50 bridges to Military Ward.

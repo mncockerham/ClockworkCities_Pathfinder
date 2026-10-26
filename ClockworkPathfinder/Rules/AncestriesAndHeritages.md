@@ -10,14 +10,22 @@
 
 In the Clockwork Cities setting, **all six major populations are biologically the same human species**. 
 - They are not separate fantasy races created by different deities. Instead, their physical statures, tolerances, eye structures, and cellular chemistries are the direct result of **how much the Neither has saturated and corrupted their lineage over thousands of years**.
-- **The Blurred Spectrum:** The line between each of the six heritages is not sharp or absolute; it is a continuous biological spectrum. Because variations within each population are wide, **any individual can effortlessly pass as a member of an adjacent heritage (within one step on either side) without needing Disguise checks or magical alteration**. High Elves blur into Half-Elves; Half-Elves blur into Upper Spire Humans; Humans easily blur into Orcs (sharing skin undertones, rough features, and hair textures); Orcs blur into surface Dwarves; and deep Dwarves blur into Deep Ones.
+- **The Blurred Spectrum & Population Overlap:** The line between each heritage is not sharp or absolute; it is a continuous biological spectrum with significant statistical overlap:
+  - **The 20% Natural Overlap:** In any mixed lineup, roughly **20% of Half-Elves look completely indistinguishable from 20% of Humans**, and roughly **20% of Humans look completely indistinguishable from 20% of Orcs**. 
+  - **Group vs. Individual Identification:**
+    - *Groups:* When viewing an entire band of 50 or 100 individuals together, population averages make them immediately identifiable (e.g., an observer can easily spot a 100% Orc raiding warband by their collective bulk, heavy jawlines, and posture, or an elven high-spire retinue by their tall, slender frames).
+    - *Individuals:* When examining a single person in isolation, biological identification is **extremely difficult and uncertain**. A rugged, heavily muscled Human dockworker from the lower wards naturally shares features with a leaner Orc factory hand; a slender, fair-complexioned Human clerk from the middle wards naturally shares features with a Half-Elf aeronaut.
+  - **Natural Passing vs. The Disguise Kit:**
+    - *Natural Passing (No Kit / No Check):* An individual who falls within that overlapping 20% can pass as an adjacent heritage without any makeup, costume, or skill roll.
+    - *Active Passing with a Disguise Kit (PF2e Deception):* Because all heritages share the exact same human anatomy and facial structure, **using a standard Disguise Kit `[Player Core p.287]` allows 100% of Half-Elves and 100% of Orcs to pass convincingly as Humans** (and vice versa) whenever they successfully make a Deception check to Impersonate. Minor cosmetic adjustments (hair styling, subtle cheek tinting, contouring brow lines, wearing ward-appropriate tailoring) easily bridge the gap.
 - **Interbreeding & Maternal Shift (Survival of Pregnancy):** 
   - Because all six heritages share the same species genome, interbreeding is biologically viable. However, maternal and fetal physiology are strictly bound by cellular atmospheric tolerance: **parents must be no more than two shifts apart to conceive, and a surviving child is never born more than one shift away from the mother's biological type**. (For instance, a High Elf mother can carry a High Elf or Half-Elf child, but cannot gestate a Human; a Human mother can carry a Half-Elf, Human, or Orc child). Roughly 80% of children match the mother's exact heritage, while 20% express the father's adjacent heritage.
 - **Generational Shift & Atavistic Throwbacks:** 
   - When a lineage migrates to a different atmospheric layer, their biology noticeably shifts toward the local type over approximately three generations. 
   - Because of this fluid inheritance, it is **not uncommon for a child to be born one full shift away from their mother**, particularly if an ancestor recently changed environments or married across an adjacent heritage. A Human family that recently relocated to the lower foundry wards might have a child born with the dense frame, heavy brow, and cellular density of an Orc; an Orc family living in the well-lit upper labor wards may give birth to a child with smooth Human features.
+  - **Everyday In-World Perception (Delicate Stomachs vs. Heritage Labels):** In daily life, nobody leaps to exotic conclusions when someone exhibits adjacent biological traits. **An Orc born to human parents and raised in a human household would simply be considered by their family, neighbors, and doctors as someone with a "delicate stomach" (who feels sick eating delicate high-spire fare and prefers dense mush) and someone who "doesn't deal with bright sunlight well."** No one would point a finger and assume they must be an Orc—they are simply accepted as a robust, slightly sun-sensitive human.
 - **Character Creation Guidance (Passing & Heritage Selection):**
-  - Because Orcs easily pass as muscular, rugged humans, **a player who wants full access to the Orc ancestry feat tree (e.g., *Fungal Gastronomy*, *Iron Clench*, *Neither Surge Recovery*, *Unstoppable Bulk*) can simply choose the Orc Heritage during character creation, while narratively establishing that their character was born into a standard human family and passes day-to-day as a heavily built human**.
+  - Because an Orc can easily belong to that 20% overlap or use simple grooming to pass as a rugged human, **a player who wants full access to the Orc ancestry feat tree (e.g., *Fungal Gastronomy*, *Iron Clench*, *Neither Surge Recovery*, *Unstoppable Bulk*) can simply choose the Orc Heritage during character creation, while narratively establishing that their character was born into a standard human family and passes day-to-day as a heavily built human**.
   - Likewise, a player whose character was born to a merchant-class human family on the upper spire rim can select the **Half-Elf Heritage** to represent a slender, barometrically adapted youth who passes as a graceful human while gaining full access to the airship and electrical feat tree.
 - **Ancestry Feat Restrictions:** Ancestry feats represent ingrained biological traits and lifelong cultural conditioning within your native environment. **A character can only select feats from the Universal list and their chosen Heritage's feat list.** (Humans wishing to remain mechanically Human while expressing partial physical traits from adjacent layers take the dedicated 1st-level *Blurred Heritage Feats* on the Human list).
 - **The Nature of Prejudice (Spire Civilization vs. Wild Raiders):**
@@ -43,52 +51,60 @@ All characters, regardless of their heritage, share the core Pathfinder 2e Human
 
 ## 3. The Six Biological Heritages
 
-Every character chooses one of the following six heritages at 1st level:
+Every character chooses one of the following six biological heritages at 1st level. 
+
+Rather than treating one group as a universal "zero" baseline, all six heritages represent points along the continuous **Strata Spectrum (Strata 1 to 6)**. When determining environmental and dietary strain, calculate distance using the unified **0.5 to 5.0 Total Shift Score** detailed in [TheNeither.md](file:///c:/Users/mncoc/OneDrive/Documents/Git/ClockworkCities_Pathfinder/ClockworkPathfinder/Rules/TheNeither.md):
 
 ```
-[Clean Air / Peaks]                                            [Deep Subterranean]
-   High Elf  <--->  Half-Elf  <--->  Human  <--->  Orc  <--->  Dwarf  <--->  Deep One
-  (Shift -2)        (Shift -1)      (Native 0)  (Shift +1)   (Shift +2)     (Shift +3)
+[Strata 1: High Aither]                                                    [Strata 6: Boiling Deep]
+      High Elf  <--->  Half-Elf  <--->  Human  <--->  Orc  <--->  Dwarf  <--->  Deep One
+     (Strata 1)       (Strata 2)      (Strata 3)   (Strata 4)  (Strata 5)      (Strata 6)
   
-  [Effortless Passing Ranges (Within 1 Shift)]:
-  • High Elf:   Effortlessly passes as Half-Elf
-  • Half-Elf:   Effortlessly passes as High Elf or Human
-  • Human:      Effortlessly passes as Half-Elf or Orc
-  • Orc:        Effortlessly passes as Human or Dwarf
-  • Dwarf:      Effortlessly passes as Orc or Deep One
-  • Deep One:   Effortlessly passes as Dwarf
+  [The 20% Visual Overlap & Disguise Kit Passing]:
+  • Natural Individual Overlap: ~20% of any population is physically indistinguishable from the adjacent heritage.
+  • Disguise Kit [Deception]: 100% of adjacent heritages can pass as one another on a successful disguise roll.
+  • Group Identification: Large formations (50+ individuals) reveal their heritage through collective averages.
 ```
 
 ---
 
 ### Heritage 1: High Elf (Aither-Born / Fair Folk)
-*Unadapted, pure-strain humans untouched by the Neither. Native to the pristine Aither peaks, high spires, and the far northern polar lands (Iceland).*
-- **Native Atmospheric Layer:** The Aither (Shift –2 from standard humanity).
-- **Dietary Baseline:** Class 0 (Spire-top greenhouses, high-altitude fowl, and deep-water ocean fish caught below 150 ft).
+*Unadapted, pure-strain humans untouched by the Neither. Native to pristine Aither peaks, high spires, and the far northern polar lands (Iceland).*
+- **Native Atmospheric Layer:** Strata 1 — The Aither.
+- **Native Diet:** High-altitude greenhouse produce, mountain game, and deep-water ocean fish (caught below 150 ft).
 - **Vision:** Standard human vision.
+- **Environmental & Dietary Shift:** 
+  - Suffers Air Shift levels based on distance from Strata 1 (e.g., Upper Neither = 2 Air Shift levels; Lower Neither = 3 Air Shift levels).
+  - Eating processed Mela adds 1.0 Food Shift; eating raw Sycelium or subterranean fungi adds 2.0 to 3.0 Food Shift.
 - **Heritage Features:**
-  - **Neither Anaphylaxis:** You are deathly allergic to the corrupting miasma of the Neither. When exposed to Neither fog without a sealed breather apparatus, or when consuming fungal/Neither food, you treat environmental severity as **2 steps higher** and take a –2 circumstance penalty on Fortitude saves against Neither sickness.
-  - **Aither Longevity & Intellectual Drill:** Unclouded by fungal toxicity, your lineage has maintained high classical sciences and precision metallurgy. You gain a +1 circumstance bonus on Recall Knowledge checks regarding high technology, history, and mathematics, and you begin trained in Academia Lore or Engineering Lore.
-  - **Combustion Primacy & Geographic Defense (The Elven Mystique):** High Elf culture possesses the exclusive secret of gunpowder chemistry and circa-1900 combustion-engine motorcars and trains (though isolated enclaves may lack these resources). Visiting elven settlements requires directly braving the Zone, navigating through defended underground tunnels, or deploying specialized amphibious airships that transform into ocean-sailing vessels in the Arctic seas. Between their lethal technological superiority in pure Aither and these restricted, bottlenecked travel routes, the High Elves (~300,000 population) remain completely unthreatened by outside invasion.
+  - **Neither Anaphylaxis:** Your cellular matrix has zero tolerance for Neither saturation. When exposed to Neither fog without a sealed breather apparatus or consuming fungal/Neither food, you take a –2 circumstance penalty on Fortitude saves against Neither sickness and your Total Shift Score from food and air increases by +0.5.
+  - **Aither Longevity & Intellectual Drill:** Unclouded by fungal toxicity, your lineage maintains classical sciences and precision metallurgy. You gain a +1 circumstance bonus on Recall Knowledge checks regarding high technology, history, and mathematics, and begin trained in Academia Lore or Engineering Lore.
+  - **Combustion Primacy & Geographic Defense (The Elven Mystique):** High Elf culture possesses the exclusive secret of gunpowder chemistry and circa-1900 combustion-engine motorcars and trains (though isolated enclaves may lack these resources). Visiting elven settlements requires directly braving the Zone, navigating through defended underground tunnels, or deploying specialized amphibious airships that transform into ocean-sailing vessels in the Arctic seas. Between their lethal technological superiority in pure Aither and these restricted, bottlenecked travel routes, the High Elves (~150,000 population) remain completely unthreatened by outside invasion.
 
 ---
 
 ### Heritage 2: Half-Elf (Zone-Strider / Moon-Touched)
 *Generations of humans living in the high transition zone, aboard high-altitude airships, or born from unions between High Elves and spire-dwelling humans.*
-- **Native Atmospheric Layer:** The Zone (The Dead Zone / High Spire Rims, Shift –1).
-- **Dietary Baseline:** Class 0 & Class 1 (Airship-grown crops, roof vegetables, shallow-caught Aither fowl).
+- **Native Atmospheric Layer:** Strata 2 — The Zone (The Dead Zone / High Spire Rims).
+- **Native Diet:** Airship-grown hydroponics, high terrace crops, shallow-caught Aither fowl, and high-altitude game.
 - **Vision:** Standard human vision.
+- **Environmental & Dietary Shift:** 
+  - Centered at Strata 2 (High Aither = 1 Air Shift level; Upper Neither = 1 Air Shift level; Lower Neither = 2 Air Shift levels).
+  - Eating Mela adds 0.5 Food Shift; eating raw Sycelium adds 1.0 Food Shift.
 - **Heritage Features:**
-  - **Static & Squall Tolerance:** You are naturally conditioned to the violent electrical storms and sudden barometric drops of the Zone. You gain **Electricity Resistance equal to half your level (minimum 1)** and a +2 circumstance bonus to saving throws against being knocked prone or moved by high winds.
-  - **Zone Acclimation:** You can operate in the Zone without suffering the altitude sickness or vertigo that afflicts lower-ward humans.
+  - **Static & Squall Tolerance:** Naturally conditioned to violent electrical storms and sudden barometric drops. You gain **Electricity Resistance equal to half your level (minimum 1)** and a +2 circumstance bonus to saving throws against being knocked prone or moved by high winds.
+  - **Zone Acclimation:** You can operate within the Zone without suffering the altitude sickness, vertigo, or nausea that afflicts lower-ward humans.
 
 ---
 
 ### Heritage 3: Human (Upper Neither / Sunborn)
-*The baseline population of the great Spire Cities, agricultural peasant hamlets, and the middle wards. Saturated by centuries of ambient Upper Neither.*
-- **Native Atmospheric Layer:** Upper / Light Neither (Native Shift 0).
-- **Dietary Baseline:** Class 1 & Class 2 (Mela flour, spire vegetables, Neither-surface livestock, cellar mushrooms).
+*The baseline population of the great Spire Cities, agricultural peasant hamlets, and middle wards. Saturated by centuries of ambient Upper Neither.*
+- **Native Atmospheric Layer:** Strata 3 — Upper / Light Neither.
+- **Native Diet:** Processed Mela flour bread/porridge, spire-grown vegetables, surface-grazed livestock, and cellar mushrooms.
 - **Vision:** Standard human vision.
+- **Environmental & Dietary Shift:** 
+  - Centered at Strata 3 (The Zone = 1 Air Shift level; Aither = 2 Air Shift levels; Lower Neither = 1 Air Shift level; Mines = 2 Air Shift levels).
+  - Eating a blend of 50% Mela and 50% raw Sycelium adds 0.5 Food Shift; eating pure raw Sycelium adds 1.0 Food Shift; deep reactive fungi adds 2.0 Food Shift.
 - **Heritage Features:**
   - **Adaptive Resilience:** You thrive in the dense spires because your biology is the most versatile compromise on the planet. You gain one additional **general feat** at 1st level (per the base PF2e Versatile Heritage).
   - **Sun-Recharge:** As long as you receive at least 1 hour of direct or window-filtered sunlight per week and consume a diet of at least 50% Mela or spire crops, you are completely immune to the chronic biological decay of the Upper Neither.
@@ -97,32 +113,41 @@ Every character chooses one of the following six heritages at 1st level:
 
 ### Heritage 4: Orc (Lower Neither / Shadow-Born)
 *Humans whose ancestors lived for generations in the thick, sunless Lower Neither across the lowlands and valleys. Heavily adapted, rugged, and muscular.*
-- **Native Atmospheric Layer:** Lower / Dark Neither (Shift +1 from standard humanity).
-- **Dietary Baseline:** Class 2 & Class 3 (Raw Sycelium mushrooms, subterranean rodents, shallow neither fish).
+- **Native Atmospheric Layer:** Strata 4 — Lower / Dark Neither.
+- **Native Diet:** Raw Sycelium mushrooms, subterranean rodents, shallow neither fish, and Neither-hardened roots.
 - **Vision:** Standard human vision (with enhanced motion detection in heavy haze).
+- **Environmental & Dietary Shift:** 
+  - Centered at Strata 4 (Upper Neither = 1 Air Shift level; Underground Mines = 1 Air Shift level; Aither = 3 Air Shift levels).
+  - Eating raw Sycelium or Mela incurs 0 Food Shift; eating pure uncorrupted Strata 1 Aither food induces enzymatic starvation (adding 1.0 to 2.0 Food Shift).
 - **Heritage Features:**
-  - **Neither Hardened:** The dense Lower Neither that poisons others is your natural atmosphere. You reduce the environmental severity of all Neither exposure by **1 step**, and you delay the onset of Neither Storm stress checks by **6 hours**.
-  - **Cellular Density:** Your muscular tissue is naturally dense and impact-resistant. You gain **10 Hit Points** from your ancestry instead of 8, and you gain a +1 circumstance bonus on saving throws against disease and poison.
+  - **Neither Hardened:** The dense Lower Neither that poisons others is your natural atmosphere. You reduce the environmental severity of all Neither exposure by **1 step**, and delay the onset of Neither Storm stress checks by **6 hours**.
+  - **Cellular Density:** Your muscular tissue is naturally dense and impact-resistant. You gain **10 Hit Points** from your ancestry instead of 8, and gain a +1 circumstance bonus on saving throws against disease and poison.
   - **Aither Sensitivity:** Clean, dry Aither air acts upon your lungs the way Neither fog acts upon humans; spending prolonged periods in the high noble spires causes dry coughing and fatigue without humidifying scarves.
 
 ---
 
 ### Heritage 5: Dwarf (Lightless / Skyless / Subterranean)
 *Generations of deep-quarry excavators, underground city dwellers, and foundation stonemasons living between 100 and 5,000 feet below ground.*
-- **Native Atmospheric Layer:** Lightless Neither / Deep Caverns (Shift +2 from standard humanity).
-- **Dietary Baseline:** Class 3 & Class 4 (Deep fungal strains, cave lichen, mineral-rich sump water).
-- **Vision:** **Low-Light Vision (Cat-Like Optics).** Your pupils dilate into wide, reflective slits that capture the faintest glow of bioluminescent fungi or radiant lamps. You can see in dim light as though it were bright light.
+- **Native Atmospheric Layer:** Strata 5 — Lightless Neither / Deep Caverns.
+- **Native Diet:** Deep subterranean fungal strains, cave lichen, mineral-rich sump water, and subterranean cave fauna.
+- **Vision:** **Low-Light Vision (Cat-Like Optics).** Pupils dilate into wide, reflective slits capturing the faintest glow of bioluminescent fungi or radiant lamps. You see in dim light as though it were bright light.
+- **Environmental & Dietary Shift:** 
+  - Centered at Strata 5 (Lower Neither = 1 Air Shift level; The Deep = 1 Air Shift level; Upper Neither = 2 Air Shift levels; Aither = 4 Air Shift levels).
+  - Eating surface Mela adds 0.5 to 1.0 Food Shift; raw Sycelium and deep fungi incur 0 Food Shift; clean Aither food adds 2.0 Food Shift.
 - **Heritage Features:**
   - **Sunlight Glare:** Direct, unfiltered sunlight or brilliant arc lights cause severe pain to your dilated retinas. When in direct sunlight without tinted goggles or a wide brim, you suffer the *Dazzled* condition.
-  - **Grounded Stature & Poison Tolerance:** Stocky, dense-boned, and low to the ground. You gain a +2 circumstance bonus to your Fortitude or Reflex DC against attempts to Shove or Trip you, and a +2 circumstance bonus on saving throws against subterranean mine gases and heavy chemical fumes.
+  - **Grounded Stature & Gas Tolerance:** Stocky, dense-boned, and low to the ground. You gain a +2 circumstance bonus to your Fortitude or Reflex DC against attempts to Shove or Trip you, and a +2 circumstance bonus on saving throws against subterranean mine gases and heavy chemical fumes.
 
 ---
 
 ### Heritage 6: Deep One (The Mist / Void-Born)
 *Humans residing over a mile underground in the super-heated subterranean depths (5,000 to 12,000 ft), in temperatures exceeding 100°F.*
-- **Native Atmospheric Layer:** The Deep / The Mist (Shift +3 from standard humanity).
-- **Dietary Baseline:** Class 4 (Hyper-reactive deep fungal strains and thermal vent flora). Clean Aither food acts as severe biological poison to your metabolic enzymes.
-- **Vision:** **Low-Light Vision (Bioluminescent Slits).** You can see clearly in dim conditions provided by faint fungal bioluminescence.
+- **Native Atmospheric Layer:** Strata 6 — The Deep / The Mist.
+- **Native Diet:** Hyper-reactive geothermal fungal strains, thermal vent lichen, and sulfuric mineral brews. Clean surface food acts as severe biological poison to your metabolic enzymes.
+- **Vision:** **Low-Light Vision (Bioluminescent Slits).** You see clearly in dim conditions provided by faint fungal bioluminescence.
+- **Environmental & Dietary Shift:** 
+  - Centered at Strata 6 (Lightless Mines = 1 Air Shift level; Lower Neither = 2 Air Shift levels; Upper Neither = 3 Air Shift levels; Aither = 5 Air Shift levels).
+  - Deep reactive fungi incur 0 Food Shift; raw Sycelium adds 0.5 Food Shift; surface Mela adds 1.5 Food Shift; pure Aither food adds 3.0+ Food Shift.
 - **Heritage Features:**
   - **Thermal & Spore Adaptation:** Native to the boiling depths. You gain **Fire Resistance equal to half your level (minimum 1)**, complete immunity to environmental heat up to 140°F, and resistance against fungal spore inhalation.
   - **Aither Toxicity:** Pure surface oxygen and sunlit Aither burn your respiratory tract. You treat clean Aither air as a toxic hazard unless wearing a specialized Neither-spore saturated breathing apparatus.
@@ -159,7 +184,7 @@ Because **Human (Upper Neither)** and **Orc (Lower Neither)** constitute over **
 - **Static & Squall Tolerance (Half-Elf Blurred Heritage):** Trace atmospheric exposure to the storm boundary runs in your blood. You gain the Half-Elf *Static & Squall Tolerance* feature: you gain **Electricity Resistance equal to half your level (minimum 1)** and a +2 circumstance bonus to saving throws against being knocked prone or moved by gale-force winds.
 - **Neither-Hardened Lungs (Orc Blurred Heritage):** Your ancestry includes generations of lowland trench diggers or foundriers whose biology shifted toward Orcs. You gain the Orc *Neither Hardened* feature: you reduce the environmental severity of all ambient Neither exposure by **1 step**, and delay the onset of Neither Storm stress checks by **6 hours**.
 - **Cellular Density (Orc Blurred Heritage):** You inherited the dense muscle tissue and heavy skeletal frame of the Lower Neither populations. You gain the Orc *Cellular Density* feature: your ancestry maximum Hit Points increase from 8 to **10**, and you gain a +1 circumstance bonus on saving throws against disease and poison.
-- **Adapted Constitution:** Your immune system easily shifts between food classes. You can consume raw Sycelium mushroom (Class 3) or visit high Aither districts without digestive upset or biological debt for up to 1 week.
+- **Adapted Constitution:** Your digestive system easily shifts between food strata. You reduce all Food Shift penalties by 0.5 (to a minimum of 0), allowing you to consume raw Sycelium or visit high Aither districts without digestive upset or biological debt for up to 1 week.
 - **Naturalized Neither Filter:** Thickened respiratory cilia grant you a +2 circumstance bonus on saving throws against inhaled toxins, smoke, and ambient Neither fog.
 - **Urban Generalist:** Gain trained proficiency in one additional skill of your choice and one general feat for which you meet the prerequisites.
 
@@ -170,7 +195,7 @@ Because **Human (Upper Neither)** and **Orc (Lower Neither)** constitute over **
 
 #### 9th Level
 - **Ten-Year Veteran:** You completed a standard 10-year military or constabulary hitch. Gain trained proficiency in heavy armor (or expert if already trained) and a +1 circumstance bonus to initiative rolls when combat begins with ranged weapons.
-- **Expedition Endurance:** When visiting the Lower Neither, The Zone, or the Aither, your threshold before accruing biological shift stress is doubled (e.g., you can remain in adjacent layers twice as long before needing maintenance in your native layer).
+- **Expedition Endurance:** When visiting adjacent atmospheric strata, your threshold before accruing biological shift stress is doubled (e.g., you can remain in adjacent layers twice as long before needing maintenance in your native layer).
 
 #### 13th Level
 - **Pinnacle of Human Grit:** Once per day when you would be reduced to 0 HP by an attack or hazard, you can drop to 1 HP instead. If you do, your adrenaline surges, granting you a +10-foot status bonus to Speed for 1 round.
@@ -184,7 +209,7 @@ Because **Human (Upper Neither)** and **Orc (Lower Neither)** constitute over **
 #### 1st Level
 - **Expanded Adaptability: Human (1-Shift Tolerance):** You possess lighter Upper Neither blood in your lineage. Whenever determining atmospheric effects or dietary compatibility (such as eating Upper Spire greens or enduring sunlit upper wards), you can choose to be treated as either **Orc** (Lower Neither) or **Human** (Upper Neither), whichever is more advantageous.
 - **Expanded Adaptability: Dwarf (1-Shift Tolerance):** Your bloodline carries deep subterranean tolerance from cave-dwelling ancestors. Whenever determining subterranean atmospheric effects, cavern gasses, or subterranean diets, you can choose to be treated as either **Orc** (Lower Neither) or **Dwarf** (Lightless Neither), whichever is more advantageous.
-- **Fungal Gastronomy:** Raw Sycelium, subterranean roots, and sump-lichen are staple foods for your metabolism. You ignore all dietary penalties from consuming Class 2, 3, or 4 fungi, and can safely drink mineral-heavy sump water without boiling.
+- **Fungal Gastronomy:** Raw Sycelium, subterranean roots, and sump-lichen are native staples for your metabolism. You ignore up to 1.0 Food Shift penalty from consuming raw fungi and cavern diets, and can safely drink mineral-heavy sump water without boiling.
 - **Dense Frame:** You gain the *Diehard* general feat, and your maximum Hit Points increase by an additional 2.
 - **Heavy Hauler's Back:** Years in foundries and lower quarries have reinforced your spine. Gain the *Hefty Hauler* skill feat, and your Bulk limit before becoming encumbered increases by an additional 1.
 
@@ -228,7 +253,7 @@ Because **Human (Upper Neither)** and **Orc (Lower Neither)** constitute over **
 *Aeronauts, high-altitude riggers, and skyship crews accustomed to the violent electricity and wind of the Zone.*
 
 #### 1st Level
-- **Expanded Adaptability: High Elf (1-Shift Tolerance):** Your bloodline preserves strong Aither purity. Whenever determining atmospheric effects (such as high Aither hypoxia) or dietary compatibility (such as dining on Class 0 high-altitude fowl/greenhouse produce), you can choose to be treated as either **Half-Elf** (The Zone) or **High Elf** (The Aither), whichever is more advantageous.
+- **Expanded Adaptability: High Elf (1-Shift Tolerance):** Your bloodline preserves strong Aither purity. Whenever determining atmospheric effects (such as high Aither hypoxia) or dietary compatibility (such as dining on pristine Strata 1 high-altitude fowl/greenhouse produce), you can choose to be treated as either **Half-Elf** (The Zone) or **High Elf** (The Aither), whichever is more advantageous.
 - **Expanded Adaptability: Human (1-Shift Tolerance):** Your lineage traces down to the middle spire circles. Whenever determining atmospheric effects or dietary compatibility (such as eating standard Mela produce or resting in Upper Neither wards), you can choose to be treated as either **Half-Elf** (The Zone) or **Human** (Upper Neither), whichever is more advantageous.
 - **Rigging Reflexes:** Life on swaying airship spars honed your footing. When you roll a success on an Acrobatics check to Balance on narrow catwalks, cables, or rigging, you get a critical success instead.
 - **Barometric Sense:** You can read micro-shifts in atmospheric pressure. You can predict changes in weather or oncoming Zone squalls 1 hour in advance.

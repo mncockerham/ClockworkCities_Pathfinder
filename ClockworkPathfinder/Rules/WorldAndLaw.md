@@ -114,7 +114,94 @@ Arclean recognizes three tiers of statutory law: **Royal (Crown) Law**, **Privy 
 
 ---
 
-## 5. The Hierarchy of Social Favors (Soft Social Currency)
+## 5. Municipal Weapon Laws & Cartridge Regulations
+
+Life within the megalithic spires is dense, crowded, and heavily policed. To prevent catastrophic violence, gang skirmishes, and mass panics in narrow municipal corridors, the Crown and Privy Council enforce strict weapon statutes across all wards:
+
+### Public Carry & Ownership
+
+- **The Common Dagger:**
+  - **Universal Right:** Every free person in the spire is legally permitted to carry a common knife or dagger openly or concealed as a basic utility tool and personal defense implement.
+  - **Aggression is a Crime:** While carrying a dagger is legal, drawing or utilizing a dagger in a brawl or street dispute—**especially if you initiated or instigated the confrontation**—is treated as an aggravated violent felony under Crown Law. Self-defense claims are heavily scrutinized by ward constables.
+- **Dueling Swords (Class Privilege):**
+  - **Nobility & Wall Merchants:** Only recognized **Nobles** and **Wall Merchants** (along with commissioned military officers and active King's Guards) are legally entitled to openly wear sidearms, rapiers, and dueling swords in public spaces. Carrying a sword in the upper circles is an explicit visual badge of authority, breeding, and high social caste.
+- **General Weapon Ownership:**
+  - **Who May Own:** Any free citizen (anyone not actively enslaved, serving a penal term, or imprisoned in the workhouses) has the legal right to purchase and own weapons—including broadswords, polearms, bows, crossbows, and firearms.
+  - **Peace-Bonding & Packaging in Public:** Unless an individual or caravan is actively departing the spire, larger weapons **must never be displayed openly in public corridors, streets, or transit trams**. 
+  - When transported through the spire, all non-dagger weapons must be **securely boxed, bound, or peace-packaged in a manner that prevents them from being easily or quickly drawn**. Walking openly through a municipal circle brandishing a polearm, battleaxe, or rifle will prompt immediate interception by ward constables, confiscation of the arms, and heavy fines in the Low Court.
+
+### Firearms, Constables & Guardhouse Controls
+
+- **Constabulary Armament (Strict Checkout):**
+  - Even municipal **ward constables are seldom armed with firearms or cartridge weapons** on ordinary patrols. Standard constables carry truncheons, manacles, and daggers.
+  - Equipping constables with Neither firearms requires **explicit bureaucratic authorization and a high-threat emergency declaration** (such as a massive Warrens breach, violent syndicate insurrection, or monster outbreak).
+  - Outside of active high-priority emergencies, all constabulary firearms and cartridges are kept locked under armed guard in the ward station armory.
+- **The King's Guard (The Armed Standard):**
+  - The **King's Guard** are the only personnel routinely seen bearing firearms in public. On-duty guardsmen carry service Neither rifles and sidearm pistols.
+  - Even among the King's Guard, firearms are **never personal possessions carried off-duty**. Weapons and cartridges are securely locked in the King's Guard House and must be formally logged, checked out for active watch shifts, and checked back into the armory upon rotation.
+
+### Cartridge Prohibition & Gate Exchange Depots
+
+- **Cartridges Strictly Illegal in the Spire:**
+  - While owning an unloaded firearm chassis is legal, **carrying or possessing charged military Neither Cartridges within the interior municipal circles of the Spire is extremely illegal** (treated as sabotage or treason).
+- **Gate Depots & Military Ward Cartridge Exchanges:**
+  - Authorized cartridge shops operate exclusively at the **Outer Spire Gates** and immediately adjacent to the **Ward 2 Military Garrisons**.
+  - **Deposit & Pricing Structure:** 1/2 of the cost is a refundable hardware deposit on the insulated catalytic cylinder, and 1/2 is for the charge itself.
+  - **Returns for Deposit:** Returning any cylinder (charged or spent) redeems the deposit.
+  - **Full Refund on Unused Sealed Cartridges:** Factory-sealed cartridges that pass a charge test receive a **full 100% refund** (deposit + charge).
+
+### Gunpowder Prohibition & Estate Ammunition Rites
+
+Because black powder is violently unstable outside the pure Aither (possessing an unpreventable 20% daily risk of spontaneous ignition in the Neither and extreme combustion volatility in the Zone), its presence within a crowded Neithercrete spire poses an catastrophic fire and explosion risk. Consequently, the Crown imposes near-total bans on gunpowder possession:
+
+- **Forbidden to the General Public:**
+  - It is **strictly forbidden for most citizens to even be in possession of gunpowder or black powder ammunition** within the Spire or Arclean territory.
+- **Weapon Ownership vs. Ammunition Rules:**
+  - While a citizen is legally permitted to own a traditional gunpowder weapon (such as a collector piece, antique, or Elven ballistic firearm), you are **strictly forbidden from transporting powder through the city**.
+  - If you intend to use a gunpowder firearm for an expedition or target trial, you are **legally expected to purchase and store your powder and ammunition directly at the specific destination or outer port you are traveling to**, rather than carrying it through the municipal wards.
+- **The Sovereign Estate Rite (King's Ammunition Warrant):**
+  - The **sole exception** to the gunpowder ban is by direct, exclusive sovereign grant from the King: the most powerful **Merchant Houses (Wall Merchants)** and **Great Noble Families** may purchase an exclusive **Royal Rite from the King alone**.
+  - This rite legally permits their personal household guards and family members to possess and store gunpowder ammunition **strictly within the boundaries of their private walled estates or fortified mansions**.
+- **Leaving the Estate is a Serious Crime:**
+  - Carrying gunpowder ammunition **beyond the physical boundaries of the estate without explicit, written royal permission from the King is treated as a major treasonous felony**, resulting in immediate confiscation, massive crown fines, and the potential revocation of the house's ammunition charter.
+
+### Armed Bodyguards & Special Warrants (Royal vs. Ward Rites)
+
+Carrying martial weapons or fielding armed escorts through the municipal circles requires formal legal dispensation:
+
+- **King's Rite (Firearms & Cartridge Retinues):**
+  - By **King's Rite** (a sovereign patent bearing the royal seal), a high-ranking individual may be granted the extraordinary legal privilege of maintaining armed bodyguards equipped with firearms and cartridges.
+  - This privilege is almost exclusively reserved for the **25 Great Houses, high nobility, Wall Merchants, and senior government ministers**. King Macelus seldom approves this rite for anyone outside the ruling elite.
+- **Ward-Level Rites (Swords & Crossbow Retinues):**
+  - Ward-level charters, granted by the local Alderman or Privy Council magistrate, can authorize a citizen to employ security retainers armed with **dueling swords, broadswords, or crossbows**.
+  - This is reserved for powerful guild factors, major banking heads, and upper-middle-class figures. **Nobles and Wall Merchants always possess this right by default** without needing ward-level petitions.
+
+### Armor Regulations: Everyday Wear vs. Departure Exceptions
+
+- **Everyday Municipal Armor (Padded & Leather Only):**
+  - To prevent intimidation and military tension in public wards, **padded cloth and leather armor are the only legal armors permitted for everyday wear within the Spire**.
+  - Wearing chainmail, scale, breastplates, or heavy plate harness through standard municipal corridors or commercial circles is prohibited for civilians and will be stopped by constables.
+- **The Departure Exception (Leaving the Spire or Entering the Warrens):**
+  - Both weapon packaging restrictions and armor limitations are waived when an individual, caravan, or adventuring party is **actively preparing to depart the spire**, embark on an expedition, or descend into the hazardous **Warrens**.
+  - In such circumstances, travelers may openly don heavy mail or plate armor and carry readied weapons.
+- **The Warrens Exception & Cartridge Arrangements:**
+  - Descending into the lawless lower circles of the Warrens or the subterranean deep Warrens/Tombs presents lethal dangers.
+  - If a group possesses sufficient **social influence, guild standing, or bribery coin** to convince the **Ward Gate Guards** that they are embarking on a legitimate, high-risk foray into the deep Warrens, they can make special legal arrangements to check out and carry **charged Neither cartridges** directly through the ward check-points.
+
+### Wartime Crisis Conscription & Emergency Armament Authority
+
+The final, absolute, and most important legal exception to all weapons, armor, and cartridge restrictions occurs during times of civic crisis or military peril:
+
+- **Universal Conscription Power:**
+  - In times of crisis—such as a hostile airship siege, a catastrophic Neither storm breaching municipal seals, a massive Warrens uprising, or surface warband incursions—the **Crown Military**, the **King's Guard**, and designated **Commanders in charge of Spire control and municipal defense** possess the sovereign legal authority to **draft any citizen into service on the spot**.
+- **Absolute Command Over Armament & Armor:**
+  - When conscripted, all peacetime weapon bans, peacetime armor limits, and cartridge prohibitions are instantly superseded. 
+  - The commanding officers hold the sole authority to determine **what weapons, firearms, cartridges, and armor any conscripted citizen may carry, equip, and utilize in defense of the Spire**.
+  - During the declared crisis event, citizens operating under military or King's Guard command may freely bear heavy plate, martial polearms, and loaded Neither rifles in public corridors without risk of constable interference. Once the emergency is officially stood down by military command, all issued arms, cartridges, and heavy war gear must be returned to the garrisons, and normal civilian restrictions immediately resume.
+
+---
+
+## 6. The Hierarchy of Social Favors (Soft Social Currency)
 
 In the intrigue-heavy society of the Spires, informal relationships, debts of honor, and factional obligations serve as an unofficial currency to cut through red tape, bypass magistrates, or acquire restricted intelligence:
 
@@ -128,7 +215,7 @@ In the intrigue-heavy society of the Spires, informal relationships, debts of ho
 
 ---
 
-## 6. Birth Status Origins & Social Mobility
+## 7. Birth Status Origins & Social Mobility
 
 Every citizen of Arclean begins life anchored in a Birth Status Origin that influences their perspective, early training, and cultural expectations:
 - **Serf-Born / Outcast:** Born into bonded labor in the Warrens or agricultural vats. Accustomed to physical hardship; carries a permanent stigma in polite society unless legitimized through a 10-year military hitch or an officer's commission.
@@ -138,8 +225,15 @@ Every citizen of Arclean begins life anchored in a Birth Status Origin that infl
 - **Ward-Merchant / Wall-Merchant Heir:** Raised in mercantile shops or multi-spire shipping dynasties, taught the ruthless logistics of balance sheets and speculative futures from childhood.
 - **Noble Scion:** Born into the manicured estates of the Noble Ward or the 25 Great Houses, trained in genealogy, fencing etiquette, and sovereign entitlement.
 
-### Social Mobility & Institutional Friction
-Moving between classes in Arclean is technically possible (via military service, university graduation, marriage, adult adoption into merchant dynasties, or royal letters patent), but it produces social friction:
-- High-born individuals who fall into trade or labor are viewed as disgraced dilettantes.
-- Low-born citizens who rise into university or officer ranks face subtle snobbery, exclusion from aristocratic salons, and intense bureaucratic scrutiny from hereditary peers.
+### Social Mobility: The Double Standard of Rising vs. Falling
+
+Social mobility in Arclean is an intense cultural focus within the Great Spires. Because social class dictates legal weight, voting power, and municipal privilege, moving up or down produces powerful social reactions:
+
+- **Rising in Social Class (Admired & Celebrated):**
+  - Upward mobility is deeply **appreciated and respected** by most spire citizens. Overcoming the harsh limitations of one's birth—whether by earning a guild mastership, securing an officer's commission through courage, graduating from the University Collegium, or winning royal patents—is seen as proof of extraordinary character, competence, and inner grit.
+  - While hereditary elites may occasionally display petty salon snobbery, the dominant civic ethos of Arclean celebrates self-made men and women who conquer adversity.
+- **Falling in Social Class (Scorned & Disgraced):**
+  - Conversely, downward mobility is viewed as a **catastrophic personal failure of character, discipline, and family honor**.
+  - A noble scion or merchant heir who slips into manual labor, loses their family fortune, or is cast down into the slums or debtor ranks receives no sympathy. Those of higher status treat fallen individuals with bitter scorn, viewing them as weak-willed degenerates who disgraced their ancestral name and squandered their birthright.
+
 

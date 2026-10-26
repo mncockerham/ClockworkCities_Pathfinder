@@ -16,7 +16,7 @@
 | **Pugilist's Weighted Bandages / Brass Knuckles** | 1 sp | L | `[PC1 p.280]` | Concealed in pockets for tavern fights and alley shakedowns (1d4 B, Agile, Free-Hand). |
 | **Crude Sycelium Spore Pipe & Match Box** | 5 cp | — | `[New]` | Cheap clay pipe and sulfur friction matches for smoking dried fungus fiber. |
 | **Burlap Scavenger Sack** | 1 cp | L | `[PC1 p.289]` | Holds salvage, scavenged scrap metal, or day labor wages. |
-| **Ration Tin of Raw Sycelium Mash** | 1 cp | L | `[WorldSummary p.4]` | Cheap Class 3 raw fungus mash; staple diet of the underclass. |
+| **Ration Tin of Raw Sycelium Mash** | 1 cp | L | `[WorldSummary p.4]` | Cheap Strata 4 raw fungus mash; staple diet of the underclass (0.5 to 1.0 Food Shift for Humans). |
 | **Tin Flask of Warrens Sump Stout** | 2 cp | L | `[EquipmentCatalog]` | Bitter fermented fungal wash; cheap painkiller and antiseptic. |
 | **Few Loose Pennies (3–8 Copper Bits)** | ~5 cp | — | `[WorldSummary p.7]` | Discretionary pocket cash hidden in boot soles to avoid muggers. |
 

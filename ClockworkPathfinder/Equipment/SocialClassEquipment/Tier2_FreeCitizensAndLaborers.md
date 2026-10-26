@@ -13,7 +13,7 @@
 |---|:---:|:---:|---|---|
 | **Sturdy Cotton/Wool Work Trousers & Braces** | 3 sp | 1 | `[PC1 p.290]` | Practical workingman's clothing, flat cloth cap, and steel-capped leather boots. |
 | **Pocket Folding Knife (Jackknife)** | 2 sp | — | `[PC1 p.280]` | Utilitarian pocket blade for cutting rope, splicing cable, and slicing bread. |
-| **Tin Lunch Pail with Mela Cakes & Dried Fish**| 1 sp | L | `[WorldSummary p.4]` | Safe Class 2 staple lunch; sustenance during 12-hour factory or farming shifts. |
+| **Tin Lunch Pail with Mela Cakes & Dried Fish**| 1 sp | L | `[WorldSummary p.4]` | Safe Strata 3 staple lunch; sustenance during 12-hour factory or farming shifts. |
 | **Brass Token / Laborer's Guild Registration**| 5 cp | — | `[WorldSummary p.7]` | Stamped municipal permit proving legal employment and residence in Ward 1. |
 | **Canteen of Boiled Water or Cold Tea** | 1 sp | L | `[PC1 p.290]` | Sealed tin canteen to avoid polluted sump water cisterns. |
 | **Box of Wax Matches & Clay Pipe** | 1 sp | — | `[PC1 p.290]` | Standard Victorian working-class indulgence. |
