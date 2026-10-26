@@ -144,3 +144,56 @@ As characters travel across different city wards, interact with new factions, an
    - Every character gains **1 additional permanent Understanding entry every 3 levels**, starting at 3rd level:
      - **Levels 3, 6, 9, 12, 15, and 18.**
 
+---
+
+## New System: Obligation
+
+While **Understanding** reflects a character's institutional and structural knowledge of factions and groups, **Obligation** measures personal leverage, sworn debts, and social credit held with **specific individuals**. 
+
+### Acquisition & Narrative Distribution
+Obligations are **narrative and roleplay rewards**, earned through player decisions, completed missions, saved lives, or strategic downtime deals rather than character creation point-buy.
+
+- **Storyteller Defined:** The Storyteller adjudicates when an NPC commits to an Obligation and at what tier, based on the magnitude of the favor done for them.
+- **Individual vs. Party-Wide Ownership:**
+  - *Individual Obligations:* Tied to a single PC who established the personal bond (e.g., an officer who saved an old war comrade, or a surgeon who cured an orphan).
+  - *Party-Wide Obligations:* Held collectively by the adventuring group (e.g., a grateful district magistrate whose ward the party protected from a Neither surge). Any party member may call upon a party Obligation with the group's consent.
+- **Starting Character Baseline (No Starting Degradable Resources):**
+  - **No class starts with inherent Obligations at 1st level.** Because Obligation is a consumable, degrading resource, classes should not have their base power budget tied to burning down a finite starting pool. (This design choice may be revisited later if specific social classes like the Merchant or Dandy prove to need additional non-combat leverage).
+
+### Obligation Tiers
+
+Obligations with an individual are tracked across five defined tiers (from highest to lowest):
+
+| Tier | Level Name | What It Represents | Example In Play |
+|:---:|---|---|---|
+| **5** | **Life Debt** | The NPC owes you their life, the life of their child, or salvation from utter ruin. | The NPC will **willingly risk death**, face criminal treason, or throw themselves into active danger to repay the debt. |
+| **4** | **Risk** | The NPC owes you a major debt that warrants substantial personal or professional danger. | Smuggling you past an armed checkpoint, forging official Spire transit passes, or looking away while an alarm sounds, risking their job or jail time. |
+| **3** | **Debt** | A substantial, serious debt (financial, legal, or moral) requiring real effort or expenditure. | Loaning significant funds without collateral, sheltering the party in a private hideout for several days, or providing restricted tools. |
+| **2** | **Favor** | A notable professional or personal courtesy. | Pulling strings to fast-track an application, providing non-public records, or arranging a private introduction with a peer. |
+| **1** | **Trivial** | Minor social courtesies, small tips, or entry-level introductions. | Setting up a meeting with a merchant's junior clerk so you can attempt to convince them you are worth the merchant's personal time. |
+
+---
+
+### Expenditure & Decay Mechanics
+
+Calling upon an Obligation draws down the social capital binding the individual to you. How the tier changes depends on how heavily you lean on the relationship:
+
+```mermaid
+flowchart TD
+    A["Calling In An Obligation"] --> B{"At What Level?"}
+    B -->|At Maximum Held Level| C["Discharges the Obligation Entirely\n(Obligation Removed)"]
+    B -->|At 1 Level Below Maximum| D["Reduces Obligation by 1 Level\n(e.g., Debt drops to Favor)"]
+    B -->|At 2 or More Levels Below Maximum| E["Reusable Resource\n(Usable ~Once per Week without Decreasing)"]
+```
+
+1. **Calling In at Maximum Level (Full Discharge):**
+   - If you demand a favor matching the highest tier you hold (e.g., demanding a Life Debt sacrifice, or calling in a Risk-level border breach when Risk is the maximum tier held), **the Obligation is completely removed** once fulfilled. The moral slate is wiped clean.
+2. **Calling In at One Level Below Maximum (Step-Down):**
+   - If you call in a favor **one level below** your maximum held tier, the relationship is strained or partially paid off: the Obligation **decreases by one tier**.
+   - *Example:* If you hold a **Debt (Tier 3)** with an arms factor and ask them for a **Favor (Tier 2)** (such as arranging an immediate private introduction with their guild master), your standing with them steps down to **Favor (Tier 2)** afterward.
+3. **Calling In at Two or More Levels Below Maximum (Sustained Courtesy):**
+   - If you call in a request **two or more levels below** your maximum held tier, the NPC handles it as a standard, ongoing courtesy that does **not decrease** the Obligation.
+   - *Frequency Limit:* To prevent abuse, this can be done approximately **once per week** (or per downtime interval).
+   - *Example:* If an NPC owes you a **Life Debt (Tier 5)** or **Risk (Tier 4)**, asking them for a **Trivial (Tier 1)** favor (like setting up a meeting with a junior clerk) or a **Favor (Tier 2)** is done willingly as minor upkeep; your overall Life Debt or Risk remains intact.
+
+
