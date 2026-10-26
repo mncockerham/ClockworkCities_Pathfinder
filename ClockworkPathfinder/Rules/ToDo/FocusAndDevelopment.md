@@ -63,8 +63,6 @@
   - Test the 28-day rolling window in exploration campaigns where parties alternate between surface Warrens and high Spire circles.
   - Calibrate the monetary cost and availability of Chirurgeon clinical purges (*Mela Cleanse*) and high-ward *Hyperbaric Aither Sanatoriums* during extended downtime.
 
----
-
 ## 2. New Class Polish & Subsystem Testing
 
 ### A. The Merchant Class (Non-Magical Bard Replacement)
@@ -83,6 +81,14 @@
 - **Reference:** `ClockworkPathfinder/Classes/Scholar.md`
 - **Focus Areas:**
   - Test the three specialties (Architect, Accountant, Natural Philosopher) in complex tactical encounters. Ensure that substituting Intelligence for attack rolls and diagnosing enemy structural flaws remains balanced against the Inspector's pure forensic focus.
+
+### D. Concept: Neither-Tech Gear Tuning & Activation Capacity (Scholar & Artisan Combat Role)
+- **The Concept to Ponder:** Neither weaponry, arc capacitors, and exotic gear are delicate, temperamental, and prone to calibration failure. 
+- **The Mechanic:**
+  - Rather than being plug-and-play like simple steel swords, high-tech Neither devices and specialized weaponry require an active **Activation Capacity Pool** (or "Tuning Points") to activate and fire each turn.
+  - Feats grant fractions of points per level, establishing how much delicate Neither-tech a character can actively handle simultaneously in combat.
+  - **The Scholar & Artisan Solution:** While pure martials (Soldiers, Brutes) have the proficiency to shoot or strike, **Scholars and Artisans gain Activation Capacity points much faster**. 
+  - *Tactical Impact:* Gives the Scholar and Artisan an essential, dynamic combat identity—either as masters who can operate complex multi-apparatus rigs, or as field calibrators who tune, boost, and prime advanced Neither-tech weapons for their martial allies without breaking bounded accuracy.
 
 ---
 
