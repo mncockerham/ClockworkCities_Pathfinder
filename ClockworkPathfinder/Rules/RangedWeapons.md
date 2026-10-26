@@ -18,19 +18,30 @@ In the Clockwork Cities setting, firearms fall into two distinct mechanical and 
 - **Spontaneous Ignition (20% Daily):** Gunpowder can travel safely through the Zone only within specially constructed, hermetically sealed insulated cases. Any exposed gunpowder, and **all gunpowder present in the Neither** (even in standard powder horns or paper cartridges), carries an unpreventable **20% daily chance of random spontaneous ignition** (flat roll 1–4 on a d20).
 - **Elven Combustion Engines & Vehicles (~1900 Trains & Cars):** The High Elves also maintain a limited supply of circa-1900 internal combustion engines, operating motorcars and trains across their northern Aither territories (isolated populations may lack access to these resources). These engines share the exact same combustion vulnerability: outside the Aither, fuel combustion fails, causing engines to stall, backfire, or detonate. Reaching elven lands requires traversing the hazardous lightning squalls of the Zone, negotiating long fortified subterranean tunnels, or deploying amphibious airships capable of becoming sea-sailing vessels in northern waters. Between this technological exclusivity and bottlenecked routes, the Elves remain completely secure from invasion.
 
-### B. Neither-Tech Energy Weapons (Spire Arc & Pulse Weapons)
-- **Origin & Nature:** Modern spire weapons developed approximately 40 years ago in Arclean and the Great Spires. 
-- **Non-Projectile Energy Projection:** These are **not traditional projectile or ballistic weapons**. They discharge directed beams or bolts of **Electricity (Arc)** or kinetic **Force (Pulse)**. They do not fire lead bullets, shot, or physical slugs.
+### B. Neither-Tech Energy Weapons (Cartridge vs. Radiant Weapons)
+- **Origin & Nature:** Modern spire energy weapons developed approximately 40 years ago in Arclean and the Great Spires.
+- **Non-Projectile Energy Projection:** These are **not traditional projectile or ballistic weapons**. They discharge directed beams or bolts of **Electricity (Arc)** or kinetic **Force (Pulse)**.
 - **Environmental Operating Constraints (Neither vs. Zone vs. Aither):**
-  - **Neither Environment (100% Operational):** All Neither-tech requires ambient Neither concentration to sustain potential field conduction. Inside all layers of the **Neither** (Upper Neither, Lower Neither, and subterranean lightless realms), Neither-tech operates at full power and listed damage.
-  - **The Zone (1/2 Damage or 1/2 Duration):** In the turbulent atmospheric flux of the **Zone**, Neither energy disperses rapidly into electrical lightning static. All normal Neither-tech weapons inflict **only 1/2 normal damage** (rounded down, minimum 1), and any lingering duration or status conditions are **halved**.
-  - **Pure Aither (Completely Inoperable):** Neither-tech weapons **do not function in pure Aither**. Deprived of ambient corrupting particles, capacitive circuits fail to establish arc paths and discharge inertly with zero effect.
-- **Captured Neither Energy:** Ammunition consists of specialized **rechargeable Neither Cartridges** (insulated galvanic cylinders and crystalline capacitors) containing dense, captured Neither energy harvested from the Zone or refined in municipal reactors.
-- **Spire-Exclusive Recharging:** Recharging spent Neither cartridges requires high-voltage catalytic charging dynamos and radiant energy scrubbers that are **strictly housed within the Great Spires**. 
-- **Orc, Dwarf & Deep One Logistics:**
-  - Orc raiding warbands, surface raiders, and wasteland scavengers may fire captured or stolen Neither weapons and cartridges, but **completely lack the technology or facilities to recharge them**. Once their captured cartridges are empty, the weapons become inert iron clubs.
-  - Consequently, **most Orcs, Dwarves, and Deep Ones rely on traditional Pathfinder weaponry** (heavy composite bows, crossbows, throwing axes, picks, spears, and polearms).
-- **Tactical Profile (Half Range, Tripled Capacity):** Due to energy beam dissipation in the heavy Neither fog, Neither-tech weapons operate at **half the range increment** of ancient gunpowder weapons, but compensate with dense capacitor storage: each Neither weapon fires **triple the shots** of its baseline counterpart from a single charged cartridge cylinder before requiring a fresh cylinder.
+  - **Neither Environment (100% Operational):** Operates at full power in all layers of the Neither.
+  - **The Zone (1/2 Damage or 1/2 Duration):** Atmospheric lightning flux disperses energy; damage and duration are **halved**.
+  - **Pure Aither (Completely Inoperable):** Deprived of Neither particles, capacitive circuits discharge inertly with zero effect.
+- **Two Distinct Mechanical Classes of Neither Weapons:**
+
+  1. **Portable Cartridge Weapons (Expeditionary / Close-Quarters):**
+     - Powered by self-contained, high-density **Neither Cartridges** utilizing a secret Spire biochemical catalyst.
+     - **Half Range (15–35 ft):** Without an ambient broadcast field to collimate the beam, energy quickly disperses in the dense Neither fog.
+     - **Tripled Capacity (3 to 15 shots):** High action economy before requiring a fresh cartridge.
+     - **Strict Logistics:** Cartridges **cannot be field-recharged in the wild** and must be returned to a Spire or rare fortified military outpost. Once empty, they cannot fire.
+
+  2. **Radiant Grid Weapons (Spire Defense & Zone Airships Only):**
+     - Possess no internal battery cylinders. Instead, they feature inductive receptor antennae that draw continuous power wirelessly from an active **Radiant Power Grid**.
+     - **Full Standard Range (60–150 ft):** The ambient resonant field continuously sustains beam coherence across full ballistic distances.
+     - **Unlimited Ammunition Supply:** Draws limitless energy straight from the air as long as the broadcast dynamo is operational.
+     - **Capacitive Cycle Limitation (1 Round Recharge):** Because drawing wireless energy from ambient radiant fog takes time to step up voltage through the weapon's induction coils, standard radiant weapons **must cycle for 1 full round after firing to recharge internal capacitors before they can discharge again**. 
+       - *Tactical Impact:* A gunner cannot fire every single turn without alternating weapons, coordinating firing lines (rank-and-file volley fire where Rank 1 shoots while Rank 2 cycles), or switching to secondary actions (taking cover, giving commands, aiming).
+       - *Future Variants:* Experimental or lighter rapid-cycle radiant weapons can cycle faster by trading off damage output (e.g., smaller dice or shorter range).
+     - **Zero Ground Mobility in the Wild:** Standard mobile surface dynamos do not exist—generating a radiant field requires massive municipal dynamos anchored to deep bedrock or volcanic vents. **The only mobile radiant generators that exist are carried aboard massive military Airships cruising directly inside the Zone**, tapping raw atmospheric storm energy.
+     - **Geopolitical & Tactical Reality (Absolute Defense, No Conquest):** Radiant weapons grant Spire city-states formidable defense against barbarian hordes, Orc sieges, and surface incursions. However, **they cannot be used offensively to invade or conquer the wastes**, because the weapons instantly go dead the moment soldiers march beyond the perimeter of the Spire's broadcast grid. Out in the wild, Spires must rely on scarce cartridge weapons, bows, and steel.
 
 ---
 

@@ -8,13 +8,24 @@
 
 ## 1. High-Priority Mechanical Systems Needing Calibration & Testing
 
-### A. 3-Step Wound System & Combat Math Validation
-- **Reference:** `AISummary/20_Healing.md`
-- **The Issue:** Total HP is split into Mortal (Weeks, major penalty), Critical (Days, minor penalty), and regular Damage (Normal PF). 
-- **Focus Areas:**
-  - **Pathfinder 2e Encounter Math:** PF2e assumes characters heal to full between encounters via Medicine / Treat Wounds. We need to playtest how severely parties are crippled when dipping into Critical or Mortal wound thresholds during dungeon delves or multi-encounter days.
-  - **Penalty Standardization:** Formalize the exact PF2e status conditions applied at each step (e.g., Critical = *Clumsy 1* and *Enfeebled 1*; Mortal = *Drained 2* and *Stupefied 2*).
-  - **Chirurgeon & Biomedical Pacing:** Ensure the Chirurgeon's cellular sera and surgical feats have enough utility to keep a party functional without accidentally trivializing the intended dread of Mortal wounds.
+### A. 3-Step Wound System, Lethal/Nonlethal Buffers, and Bleed-Out Clock
+- **Reference:** `ClockworkPathfinder/Rules/Healing.md`, `AISummary/20_Healing.md`
+- **Status:** **Rules Standardized & Codified**
+  - **HP Thresholds:** Step size calculated as $\lfloor \text{Max HP} / 4 \rfloor$. Divided into **Mortal Wounds** (Step 1, weeks), **Critical Wounds** (Step 2, days), and **Regular Damage** (Remaining, normal PF2e).
+  - **Trauma Ceiling ($\text{Level} + \text{CON}$):** Regular Damage heals per standard PF2e (Treat Wounds, rest), but is capped at $\text{Level} + \text{CON}$ if any Critical or Mortal damage remains unhealed.
+  - **Two Damage Trackers & Damage Priority:** Tracks **Total Damage** and **Nonlethal Damage** ($\text{Lethal} = \text{Total} - \text{Nonlethal}$). Lethal damage is **always applied against HP tiers first** (filling Regular Damage first), with nonlethal sitting on top.
+  - **Rapid Nonlethal Recovery:** Outside of combat, nonlethal damage naturally heals at **1 point per minute** across all levels.
+  - **Unconsciousness vs. Dying Boundary:** At 0 HP, characters are merely **Unconscious and stable** as long as negative lethal has not exceeded their total nonlethal damage.
+  - **Deterministic Bleed-Out Clock in Negative HP:** Replaces PF2e flat recovery checks. Once net negative lethal damage $> 0$:
+    - **Stage 1 (1 to $\text{Step}$ / Critical capacity):** Takes **1 damage per hour**.
+    - **Stage 2 ($\text{Step} + 1$ to $2 \times \text{Step}$ / Acute arterial collapse):** Takes **1 damage per minute**.
+    - **Permanent Biological Death:** Occurs when net negative lethal damage reaches $\ge 2 \times \text{Step}$ (Critical + Mortal capacity).
+  - **Clinical Recovery Rates & Care Bonus:** Bed rest recovers $\lfloor \frac{1}{5} \text{Level} \rfloor + \text{CON}$ per day (Critical) or per week (Mortal). Skilled medical attention increases this to full $\text{CON}$ per day/week. 1 full day (Critical) or 1 full week (Mortal) of dedicated clinical hospitalization restores all regular Damage HP.
+  - **Anatomical Wound Consequence Table (d8):** Standardized PF2e conditions (*Clumsy*, *Enfeebled*, *Stupefied*, *Drained*, Speed penalties) with targeted direct attribute modifier penalties (–2 Str, –3 Dex, etc.) for catastrophic Mortal trauma.
+- **Focus Areas for Playtesting:**
+  - **Multi-Encounter Trauma Pacing:** Playtest how parties adapt when carrying the $\text{Level} + \text{CON}$ trauma ceiling during an active expedition in the Warrens or Neither depths.
+  - **Chirurgeon Medical Kit Economy:** Balance surgical kit consumable costs and field stabilization DC checks against the 1/hour and 1/minute bleed-out clocks.
+  - **Direct Stat Damage Ergonomics:** Ensure table bookkeeping of temporary direct attribute penalties (e.g., –2 Str) is smooth and easily tracked alongside standard conditions.
 
 ### B. Firearm Lethality & Aither Dread (Intentional Design)
 - **Reference:** `ClockworkPathfinder/Rules/RangedWeapons.md`
@@ -29,9 +40,15 @@
     - **Spire Zone Interception Monopoly:** The Great Spires that physically cross the Zone are the **only places on the planet** where enough electrical energy is harvested to broadcast radiant power across vast, multi-mile urban districts. Dwarven and Deep One stations rely on local geothermal/chemical taps, covering much tighter perimeters.
     - **Secret Biochemical Weapon Catalyst (Spire Factory Monopoly):** Weapon cartridges rely on a secret biochemical compound produced industrially by teams of **Artisans, Scholars, and factory workers** in controlled sterile environments. (By contrast, **Chirurgeons and Mad Bombers** specialize in chaotic, intuitive field improvisation with scavenged ingredients). If directly exposed to Either Neither or Aither, the chemicals are hyper-unstable (detonating or corroding).
     - **Weapon Recharging Constraint:** Draining 20 civil cells into 1 weapon cartridge requires ~4–8 kg of batteries and requires an intact biochemical substrate. Traveling warbands lack dynamos and cannot recharge in the wild, cementing the primacy of cheap, light bows, crossbows, and axes for nomadic fighters.
-- **Focus Areas:**
-  - **Cartridge Jam / Volatility Rules:** Define mechanical failure rates when firing experimental Neither energy capacitors in high-exposure zones or on a critical failure (Natural 1).
-  - **Traditional Weapon Viability:** Verify that traditional Pathfinder bows, crossbows, and melee arms remain tactically competitive for Orc, Dwarf, and Deep One encounters against spire arc weapons.
+  - **Two Distinct Classes of Neither Weapons (Standardized):**
+    - **Radiant Grid Weapons (Spire Defense & Zone Airships Only):** Feature inductive receivers powered wirelessly by active broadcast dynamos. **Full range (60–150 ft)** and **unlimited ammunition supply**. However, induction takes time: weapons **must cycle for 1 full round to recharge internal capacitors** between shots. No mobile surface dynamos exist—only stationary Great Spires and massive military Airships cruising inside the Zone can generate radiant fields. Grants Spires formidable defensive siege superiority, but **cannot be used for surface conquest** (instantly dead outside the grid).
+    - **Portable Cartridge Weapons (Expeditionary / Close-Quarters):** Self-contained capacitor weapons with 3 to 15 shot magazines. Suffer **half range (15–35 ft)** due to fog dispersion without grid collimation. Dominates close-quarters urban combat and room breaching.
+    - **Bows & Crossbows (Open-Terrain Dominance):** Longbows (100 ft) and heavy crossbows (120 ft) have **triple to quadruple the range** of cartridge guns. In open Neither wastes, fungal forests, and wilderness ambushes, archers dominate before gunners can close the gap.
+    - **Strict Cartridge Logistics:** Cartridges are heavy, costly, and rely on Spire biochemical catalysts. **Zero wilderness resupply** exists; once empty in the wild, guns become dead weight, making bows and melee mandatory for outland expeditions.
+- **Focus Areas for Playtesting:**
+  - **Ammunition Stress-Testing in Wilderness Delves:** Run multi-day wasteland expeditions where players must track individual cartridge expenditures and decide when to conserve cells in favor of archery and melee.
+  - **Engagement Range Scenarios:** Test combat encounters starting at 80–120 ft to observe how Spire arc-gunners handle incoming arrow fire from Orc and Dwarf snipers before closing the distance.
+  - **Cartridge Volatility on Critical Fails:** Playtest mechanical failure/jam rules on Natural 1s in high-exposure Zones.
 
 ### C. Neither Exposure Affliction Track & Recovery (Finalized in `TheNeither.md`)
 - **Reference:** `ClockworkPathfinder/Rules/TheNeither.md`, `AISummary/WorldSummary.md` (Section 4)

@@ -36,21 +36,44 @@ $$\text{Step} = \left\lfloor \frac{\text{Total Hit Points}}{4} \right\rfloor$$
   2. Once Mortal Wounds are fully cleared, **Critical Wounds (Step 2)** heal (measured in days).
   3. Once Critical Wounds are resolved, remaining **Damage** heals per standard Pathfinder rules (Treat Wounds, overnight rest).
 
-### PC Exception (Heroic Reserve)
-- **PCs can always heal up to their character level in regular Damage**, regardless of how many Mortal or Critical wounds remain unhealed.
-- This allows active player characters to apply field dressings, inject emergency stimulants, or use clockwork devices to gain an operational cushion of HP (equal to their level) to keep moving and fighting despite carrying debilitating long-term injuries.
+### Regular Damage & The Trauma Ceiling ($\text{Level} + \text{CON}$)
+- **Standard PF2e Healing:** Regular Damage heals per standard PF2e rules (Treat Wounds, rest, tonics, tech devices).
+- **The Trauma Ceiling:** If a character has **any unhealed Critical or Mortal wounds**, their maximum Regular Damage pool is capped at:
+  $$\text{Max Regular HP} = \text{Level} + \text{CON modifier} \quad (\text{min } 1)$$
+  Healing beyond this ceiling is lost until deeper wounds are resolved.
+
+### Clinical Recuperation & Medical Care Rates
+- **Critical Wounds:** Heals at **$\lfloor \frac{1}{5} \text{Level} \rfloor + \text{CON}$ / day** (bed rest) or **$\text{CON}$ / day** (with skilled medical attention). **1 full day** of skilled clinical care restores all regular Damage HP.
+- **Mortal Wounds:** Heals at **$\lfloor \frac{1}{5} \text{Level} \rfloor + \text{CON}$ / week** (bed rest) or **$\text{CON}$ / week** (with skilled medical attention). **1 full week** of skilled clinical care restores all regular Damage HP.
 
 ---
 
-## 4. Wound Penalties
-When a character's regular Damage Hit Points are entirely depleted and damage cuts into deeper wound tiers, they suffer functional impairment:
-- **Step 2 (Critical Wounds)**: The character suffers **minor penalties** (e.g., status penalties to checks, DCs, or Speed; minor conditions like Clumsy 1 / Enfeebled 1).
-- **Step 1 (Mortal Wounds)**: The character suffers **major penalties / trauma** (e.g., severe condition values, halved Speed, severe physical impairment).
+## 4. Anatomical Trauma & Wound Consequences
+When an attack enters Critical or Mortal wound tiers, the player/GM determines an anatomical consequence based on damage type and hit location (d8 table in `Healing.md`):
+- **Critical Tier:** Standard PF2e conditions (*Clumsy 1*, *Enfeebled 1*, *Stupefied 1*, Speed –5 ft).
+- **Mortal Tier:** Severe conditions (*Clumsy 2*, *Enfeebled 2*, *Drained 2*, *Stupefied 2*, Speed –10 ft) and direct attribute modifier penalties (e.g., –2 Str, –3 Dex for broken leg; –2 Con for gut rupture; –2 Int/Wis for cranial trauma).
+- **Duration:** Penalties persist until the underlying wound tier is healed. When rising from Mortal to Critical, direct stat damage converts down to Critical condition values.
+
+## 5. Lethal vs. Nonlethal Damage, Negative HP & Death
+- **Two Trackers:** **Total Damage** and **Nonlethal Damage** ($\text{Lethal} = \text{Total} - \text{Nonlethal}$).
+- **Damage Priority:** Lethal damage is **always applied against HP tiers first** (regardless of order taken), with nonlethal placed on top. Lethal trauma fills Regular Damage before dipping into deeper tiers.
+- **Fast Nonlethal Recovery:** Outside of combat, nonlethal damage heals naturally at **1 point per minute** across all levels.
+- **Reaching 0 HP:** When Total Damage reduces HP to 0:
+  - **Unconscious (Nonlethal Cushion):** If negative lethal damage $\le$ Nonlethal Damage, the creature is Unconscious and stable (no bleed).
+  - **Dying / Bleed Clock:** Starts only when negative lethal damage matches and exceeds total Nonlethal Damage ($\text{Net Negative Lethal} > 0$).
+- **Bleed-Out Deterioration Clock:**
+  - **Stage 1 (1 to $\text{Step}$ / Critical capacity):** Takes **1 damage per hour**.
+  - **Stage 2 ($\text{Step} + 1$ to $2 \times \text{Step}$):** Takes **1 damage per minute**.
+- **Permanent Biological Death:** Occurs when Net Negative Lethal damage equals Critical + Mortal capacity:
+  $$\text{Death} \ge 2 \times \text{Step}$$
+  No resurrection magic exists in the setting.
+- **Massive Damage:** Single lethal strike exceeding Max HP causes instant death.
 
 ---
 
 ## Open Questions
 - Exact condition tags and values for minor penalties (Step 2) and major penalties (Step 1).
-- Exact interaction with the **Dying** and **Wounded** conditions [Player Core p.411] when dropping to 0 HP from Mortal Wounds.
+- Nonlethal recovery mechanics (e.g. rate of recovery per 10-minute rest or Treat Wounds).
+- Actions/DCs to stabilize bleeding in negative HP (e.g., Medicine Administer First Aid vs. Chirurgeon serums).
 - **Environmental Exposure Interaction (Resolved in `TheNeither.md`):** Natural healing of regular HP and wound tiers is modulated by Total Shift Score (0–1.5: 100%; 2–3.5: 50%; 4–5: 25%; 5.5–6: 0 healing + 1d8/day damage; 6.5+: 0 healing + 3d8/day damage). Convalescence requires a 7-day stabilization period followed by 1 point healed per week of clean living.
 - Long-term Medicine skill checks (e.g., expanded Treat Condition / long-term care) to reduce recovery time from weeks/days.
