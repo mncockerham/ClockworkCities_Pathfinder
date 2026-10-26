@@ -132,13 +132,21 @@ Life within the megalithic spires is dense, crowded, and heavily policed. To pre
 
 ### Firearms, Constables & Guardhouse Controls
 
-- **Constabulary Armament (Strict Checkout):**
-  - Even municipal **ward constables are seldom armed with firearms or cartridge weapons** on ordinary patrols. Standard constables carry truncheons, manacles, and daggers.
-  - Equipping constables with Neither firearms requires **explicit bureaucratic authorization and a high-threat emergency declaration** (such as a massive Warrens breach, violent syndicate insurrection, or monster outbreak).
-  - Outside of active high-priority emergencies, all constabulary firearms and cartridges are kept locked under armed guard in the ward station armory.
-- **The King's Guard (The Armed Standard):**
-  - The **King's Guard** are the only personnel routinely seen bearing firearms in public. On-duty guardsmen carry service Neither rifles and sidearm pistols.
-  - Even among the King's Guard, firearms are **never personal possessions carried off-duty**. Weapons and cartridges are securely locked in the King's Guard House and must be formally logged, checked out for active watch shifts, and checked back into the armory upon rotation.
+- **Cartridge Checkout vs. Weapon & Armor Carriage:**
+  - **Only Cartridges are Checked In and Out:** Across all branches (Constabulary, King's Guard, and Crown Military), **it is strictly the live ammunition and charged Neither cartridges that are locked down and checked in and out of guardhouse armories**.
+  - **Weapon & Armor Carry Permissions:** Unloaded firearm chassis, service weapons, and armor are **not** restricted to station armories off-shift; they may be kept, worn, and carried under designated professional privileges.
+- **Constabulary Armament & Transit Rules:**
+  - **Armor Permissions:** Unlike ordinary civilians (who are restricted to padded cloth and leather for everyday spire wear), **ward constables may wear any armor they can afford**. In practice, ordinary beat constables typically purchase and wear **chainmail**, while senior ward constables and commissioned officers can afford breastplates or better.
+  - **Transit to and from Duty:** Constables are legally authorized to openly wear their uniform, armor, and service sidearms (batons, daggers, and authorized firearm frames) **while traveling directly to and from work/shifts**, as well as while on duty in their assigned ward.
+  - **Cartridge Control:** Constables are seldom issued live Neither cartridges on routine beats. Charged cartridges remain locked in the ward guardhouse armory and require **explicit bureaucratic authorization and a high-threat emergency declaration** to check out.
+- **The King's Guard (Continuous Wear, Distinct Gear & Anti-Counterfeiting Laws):**
+  - **Carried at All Times:** Sworn members of the **King's Guard may wear their armor and carry their service weapons and firearms at all times**, both on and off duty throughout the spire. 
+  - **Cartridge Check-in/Check-out:** Only their live Neither cartridges are subject to strict guardhouse logging and armory check-in/check-out when rotating off active watch rotations.
+  - **Wide Armor Spectrum & Distinctive Construction:** The King's Guard possesses a wide range of armor—ranging from standard heavy cuirasses issued by the Crown to opulent, masterwork plate harness privately purchased by wealthy guardsmen and high-caste scions. However, **all King's Guard armor and weapons are constructed in an unmistakable, bespoke manner that clearly marks them as official King's Guard gear** (incorporating unique royal livery enameling, royal hallmark stamps, and distinctive heraldic metallurgy).
+  - **"Once a King's Guard, Always a King's Guard" (Lifetime Standing & Gear Retention):** It is well known across the realm that *once a King's Guard, always a King's Guard*. Provided an individual was not dishonorably discharged from the corps, retired or inactive guardsmen retain their lifetime oath and **can be recalled back to active service by the Crown at any time**. Furthermore, honorably separated veterans **are legally permitted to retain any weapons and armor they personally purchased and owned while serving with the King's Guard**, provided that this distinctively branded regalia is **used solely for formal ceremonial occasions or upon official reactivation to active service**.
+  - **Severe Prohibition on Possession & Counterfeiting:** Because King's Guard gear represents supreme Crown authority, **any non-King's Guard individual possessing authentic King's Guard arms or armor—or possessing any items crafted to resemble or counterfeit King's Guard gear—is in serious violation of Crown Law** (treated as aggravated impersonation of royal authority, treason, and high espionage, punishable by immediate arrest, asset forfeiture, and King's Court sentencing). Retaining gear under the veteran exemption is the sole legal allowance for non-active personnel.
+- **Crown Military Personnel:**
+  - **Under Orders or Using Personal Gear:** Regular garrison and expeditionary military soldiers may openly wear their armor and carry service weapons through the spire **whenever under active deployment orders, or when carrying and maintaining their own personal armor and weapons**. Like other branches, live cartridges must remain checked into military depot armories unless the unit is mobilized for departure or active combat.
 
 ### Cartridge Prohibition & Gate Exchange Depots
 
@@ -159,9 +167,10 @@ Because black powder is violently unstable outside the pure Aither (possessing a
 - **Weapon Ownership vs. Ammunition Rules:**
   - While a citizen is legally permitted to own a traditional gunpowder weapon (such as a collector piece, antique, or Elven ballistic firearm), you are **strictly forbidden from transporting powder through the city**.
   - If you intend to use a gunpowder firearm for an expedition or target trial, you are **legally expected to purchase and store your powder and ammunition directly at the specific destination or outer port you are traveling to**, rather than carrying it through the municipal wards.
-- **The Sovereign Estate Rite (King's Ammunition Warrant):**
-  - The **sole exception** to the gunpowder ban is by direct, exclusive sovereign grant from the King: the most powerful **Merchant Houses (Wall Merchants)** and **Great Noble Families** may purchase an exclusive **Royal Rite from the King alone**.
-  - This rite legally permits their personal household guards and family members to possess and store gunpowder ammunition **strictly within the boundaries of their private walled estates or fortified mansions**.
+- **The Sovereign Estate Rite (King's Ammunition Warrant — High Aither Estates Only):**
+  - The **sole exception** to the gunpowder ban is by direct, exclusive sovereign grant from the King: the **Great Noble Families** whose private estates lie above the Zone in the pure Aither may purchase an exclusive **Royal Rite from the King alone**.
+  - **Wall Merchants Excluded (Below the Zone):** Because **Wall Merchants reside in Ward 14 beneath the Zone**—where ambient Neither fog still presents an unpreventable 20% daily risk of spontaneous explosion—they are **strictly denied this exception**. No amount of commercial wealth permits gunpowder stockpiles below the Zone ceiling.
+  - This rite legally permits noble personal household guards and family members to possess and store gunpowder ammunition **strictly within the boundaries of their private walled estates or fortified mansions in the High Aither**.
 - **Leaving the Estate is a Serious Crime:**
   - Carrying gunpowder ammunition **beyond the physical boundaries of the estate without explicit, written royal permission from the King is treated as a major treasonous felony**, resulting in immediate confiscation, massive crown fines, and the potential revocation of the house's ammunition charter.
 
@@ -182,8 +191,9 @@ Carrying martial weapons or fielding armed escorts through the municipal circles
   - To prevent intimidation and military tension in public wards, **padded cloth and leather armor are the only legal armors permitted for everyday wear within the Spire**.
   - Wearing chainmail, scale, breastplates, or heavy plate harness through standard municipal corridors or commercial circles is prohibited for civilians and will be stopped by constables.
 - **The Departure Exception (Leaving the Spire or Entering the Warrens):**
-  - Both weapon packaging restrictions and armor limitations are waived when an individual, caravan, or adventuring party is **actively preparing to depart the spire**, embark on an expedition, or descend into the hazardous **Warrens**.
-  - In such circumstances, travelers may openly don heavy mail or plate armor and carry readied weapons.
+  - When an individual, expeditionary team, or adventuring party is **actively departing the spire**, traveling to an outer gate, or preparing to descend into the hazardous **Warrens**, armor restrictions are waived, permitting travelers to openly wear heavy mail, breastplates, or full plate harness.
+  - **Strict Weapon Packaging in Public Spaces:** Even during departure, **weapons must remain clearly packed in a manner that renders them completely unusable** while passing through any public municipal corridors, lift stations, or market avenues. Large blades, bows, polearms, and uncharged firearms must be tightly wrapped in oilcloth, bound with sealed leather straps, or secured inside locked wooden weapon crates.
+  - **Unpacking Only Beyond Public Boundaries:** Weapons **may only be unpacked, unbound, and readied after the party has completely cleared the public areas of the Spire**—specifically once past the fortified Outer Gates into the countryside, aboard a departing airship, or beyond the secured Ward Gate checkpoints entering the unpoliced depths of the Warrens.
 - **The Warrens Exception & Cartridge Arrangements:**
   - Descending into the lawless lower circles of the Warrens or the subterranean deep Warrens/Tombs presents lethal dangers.
   - If a group possesses sufficient **social influence, guild standing, or bribery coin** to convince the **Ward Gate Guards** that they are embarking on a legitimate, high-risk foray into the deep Warrens, they can make special legal arrangements to check out and carry **charged Neither cartridges** directly through the ward check-points.

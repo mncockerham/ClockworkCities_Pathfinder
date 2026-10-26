@@ -69,6 +69,14 @@ The lower and middle body of the spire is partitioned into **15 Municipal Wards*
   - Moving between wards is strictly permitted **only through designated, engineered transit tunnels and lift networks**.
   - **Carving new tunnels or unauthorized paths through Neithercrete is a high treasonous civic crime and is culturally unthinkable.** 
   - This structural sanctity is so deeply ingrained into the cultural psyche of spire society that **player characters will not even contemplate or attempt actions that breach or disrupt the physical structural compartmentalization of the city**.
+- **Neither-Tech Structural Scanning Grid (Constant Integrity Monitoring):**
+  - Adding to the profound safety and security of the wards, sensitive **Neither-Tech resonance scanners** operate continuously throughout the spire, monitoring the density and structural integrity of the Neithercrete hull.
+  - These devices can detect micro-fissures, density hollows, and unauthorized excavations **hundreds of feet away** through solid stone and Neithercrete.
+  - **Every municipal section is scanned at least once weekly** by civic survey crews and stationary galvanic sensors; any detected stress, erosion, or physical modification is flagged and rapidly repaired by emergency Artisan engineering teams within hours.
+- **Acoustic Jamming Technology & Illicit Bypass Tunnels (Underworld Rumors):**
+  - In the shadows of the lower wards and Warrens, persistent rumors circulate that **prohibitively expensive Neither jamming technology** exists within the highest rings of organized smuggling syndicates.
+  - These specialized harmonic dampeners and acoustic baffling devices can emit counter-resonance frequencies that fool or "blind" municipal scanners, disguising the existence of unauthorized passages cut through the internal structure.
+  - **Severe Physical Limitations:** Even this ultra-rare, black-market technology is strictly limited—it can only mask **very narrow, cramped crawl-spaces and single-file corridors**, and an emitter network can only sustain a disguise over a very small number of modifications before harmonic bleed-through alerts the central surveyor grid.
 
 ---
 
@@ -223,7 +231,11 @@ Above the 15 Municipal Wards and past the lightning-wracked Zone lie the pristin
 ### The Sky Docks (~800 Feet Tall, Past the Zone)
 - **High Circle (The Mooring Berths):** Towering ~300 feet tall, equipped with colossal Zone-powered winches, heavy cable rigs, and crane gantries that hoist airships straight up out of the Zone's cloud ceiling into dry berths for loading, unloading, and maintenance. Ringed by defensive military arc cannon batteries.
 - **Mid Circle (Grid Control):** The nerve center of New Avalon’s municipal infrastructure. Houses the master catalytic dynamos and switching stations that route Zone-harvested energy into the wireless radiant grid and transit lifts.
-- **Low Circle (The International Enclaves):** A cosmopolitan district of foreign diplomatic embassies, trading cartels, and airship crew quarters. Enclaves operate under **extra-territorial sovereignty**, where foreign airship captains and crews live under their home nations' laws rather than Arclean Crown statutes.
+- **Low Circle (The International Enclaves):** 
+  - A cosmopolitan district of foreign diplomatic embassies, trading cartels, sovereign guild compounds, and airship crew quarters. 
+  - **Extra-Territorial Sovereignty & Inter-Enclave Relations:** Enclaves operate under legally chartered **extra-territorial sovereignty**, where foreign airship captains, merchants, and sovereign delegations live and resolve disputes under their home nations' laws and traditions. 
+  - When enclaves interact, trade, or feud with one another, they rely on private consular arbitration, merchant prize courts, or traditional dueling protocols rather than city magistrates.
+  - **The Crown's Hands-Off Enforcement Doctrine:** While Arclean Spire and Crown law technically remain the supreme law of the land, **as long as the enclaves cause no external problems or spill violence into the public transit arteries, the Crown and Municipal Constabulary deliberately ignore internal infractions, vices, and private vendettas**. Only when unrest threatens the master dynamos, spills past the enclave perimeter gates, or harms an Arclean citizen in good standing will the King's Guard intervene with lethal force.
 - **Storm Ceilings:** Extreme Zone super-storms periodically push the cloud boundary upward past the Sky Docks, temporarily halting all air traffic.
 
 ### The University District (The Collegium)
