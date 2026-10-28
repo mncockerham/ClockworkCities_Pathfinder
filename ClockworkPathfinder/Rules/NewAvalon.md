@@ -182,6 +182,17 @@ Across **all wards of the spire**—from the working districts down through the 
 - Running hot mugs of tea or small meat-pie scraps from street vendors to shop assistants.
 Paying a child a single Pin (or two Pins for a long flight of stairs) is the universally recognized custom among the working classes for minor tasks too small to justify spending a full Sliver.
 
+- **Informal Pin Confiscation Limits (By Ward):**
+  - **The 100-Pin Hoard Limit:** Regardless of ward, anyone caught with a stash or hoard of **more than 100 Pins** outside the Warrens will have the entire hoard confiscated by constables to prevent underground coin reserves from stabilizing.
+  - **Slum Carry Limits (Wards 3–5):** Carrying **more than 20 Pins** on your person carries a direct risk of stop-and-frisk confiscation by ward constables.
+  - **Upper & Luxury Wards (Ward 13 and Above):** Because high-circle society operates strictly on Slivers, Nobels, and credit, carrying **more than 10 Pins** on your person will result in them being immediately seized by constables as suspected underworld gutter scrip.
+  - **Social Class Exemption (High Status Immunity from Constables):** Naturally, relative social class dictates enforcement. Ward constables **never stop, frisk, or confiscate Pins from high-status members of society** (Nobles, Wall Merchants, senior guild masters, or commissioned officers). Constables lack the legal standing or audacity to audit an aristocrat's pockets.
+  - **The Social Penalty & Servant Honor (Peer Disdain & Status Loss):** 
+    - While immune to constable confiscation, high-status individuals face a far more devastating punishment: **immediate loss of peer social standing**. Wall Merchants, Great Nobles, and high-circle elites look down with severe disgust on anyone crass or vulgar enough to carry copper Pins—or even to handle **Slivers** in any transaction.
+    - **The Servant Proxy Dilemma:** Even delegating to personal staff has strict boundaries: a noble’s personal servants, when on duty, **embody the person and honor of their master**. For an on-duty valet, lady's maid, or liveried footman to handle Slivers or Pins in any official capacity or public transaction directly dishonors and humiliates their noble patron before high society. Formal household purchases are made on credit, guild accounts, or settled strictly in Nobels and Princes.
+    - **Informal & Covert Pin Usage:** Pins exist within a noble estate only under strict secrecy: informally belowstairs among scullery servants trading debts with one another, or carried covertly by a noble's personal informants and spies venturing down into the lower wards and Warrens—never in any visible, official capacity.
+  - **The Warrens Exemption:** None of these carry or hoard restrictions apply within the **Warrens**, where millions of Pins circulate freely beyond Crown oversight.
+
 ### Ward 10: The Garden Ward
 - **Dimensions:** 3 circles, each **200 feet tall**.
 - **Agricultural Ring:** In addition to its interior circles, Ward 10 features a spectacular **1/3-mile-wide exterior terrace ring** circling the outer circumference of the spire where sun-fed grains, vegetables, and fruit orchards are grown. 
@@ -195,15 +206,29 @@ Paying a child a single Pin (or two Pins for a long flight of stairs) is the uni
 - **Dimensions:** 3 circles, each **200 feet tall**.
 - **Mercantile Hub:** Upper circles are occupied by successful merchants, trade factors, and shipping brokers who lack the astronomical wealth required to purchase private compounds in the Merchant Ward (14). Filled with brokerage firms, trading exchanges, and secure lockhouses.
 
-### Ward 13: The Luxury Ward (Player Character Base)
+### Ward 13: The Luxury Ward (The Great Social Nexus & Player Character Base)
 - **Dimensions:** 3 circles, each **200 feet tall**. The population is only **one-quarter (~25%)** of lower worker wards due to vast private apartments, grand guild halls, and expansive estates.
-- **Master Crafters & Guild HQs:** The second terrace (Mid Circle), measuring **1/2 mile across**, is where the greatest artisan masters on the planet forge custom chronometers, tailored silk finery, precision clockwork devices, and art pieces. Nearly all **Guild Masters reside here**, and most trade guilds maintain their world headquarters in the Mid Circle.
+- **The Great Social Crossroads (Where the Classes Mingle):**
+  - Ward 13 is the **single grand crossroads in the entire Spire where social strata converge, socialize, and negotiate**:
+    - **Nobles & Greater Nobles:** It is the one place where a Lesser Noble, a High Noble, or even a scion of the **25 Great Houses** descends from the summit to dine in an exclusive public restaurant, enjoy fine theater, or take a private meal.
+    - **Spoiled Greater Noble Heirs:** The younger, reckless sons and daughters of the ruling caste routinely slip down into Ward 13's fashionable taverns, wine lounges, and speakeasies to grab a drink, gamble away family gold, or seek illicit thrills outside the stuffy etiquette of the Aither court.
+    - **Wall Merchants:** The magnates of Ward 14 are frequently seen here enjoying luxury services, consulting with master crafters, dining with high-society contacts, or slipping into the back-alleys to prepare for discreet business visits into the Warrens.
+- **The Open Ceiling of Society (Highest Ward Without an Invitation):**
+  - For the **well-off, educated, and successful who are not truly wealthy** (guild factors, successful scholars, senior constabulary captains, master artisans, and mid-tier merchants), **Ward 13 is the absolute highest ward in the Spire they can travel to without a formal personal invitation or Crown permit**.
+  - Wards 14 (Merchant estates) and the summit Noble wards are closed, private enclaves requiring proof of caste, ownership deeds, or written aristocratic passes to enter.
+  - *(Partial Functional Exceptions:)* Two specific facilities higher up have open-access exceptions because everyone—from the lowest laborer to the most powerful noble—has an operational reason to visit:
+    - **The University Collegium:** Open to registered students, faculty, and those with university business.
+    - **Ward 15 / The Sky Docks:** Open to industrial crews, freight porters, naval marines, and cargo handlers because the movement of airship freight and passengers demands universal access across all social levels.
+- **Master Crafters & Guild World HQs:** The second terrace (Mid Circle), measuring **1/2 mile across**, is where the greatest artisan masters on the planet forge custom chronometers, tailored silk finery, precision clockwork devices, and art pieces. Nearly all **Guild Masters reside here**, and most trade guilds maintain their world headquarters in the Mid Circle.
 - **Prestige Inversion (Low Circle Primacy):** In almost all other wards, the High Circle is the most prestigious address. In Ward 13, this is inverted: the **Low Circle is the most coveted location** because it connects directly to the only **public exterior parks and promenades** built outside the spire walls.
-- **The Respectable Underworld:** The Warrens behind Ward 13 do not resemble the horrific slums below; they function as a semi-legal, luxury underworld of high-stakes gambling salons, private clubs, and exclusive brothels serving wealthy elites.
+- **The Respectable Underworld:** The Warrens behind Ward 13 do not resemble the horrific slums below; they function as a semi-legal, luxury underworld of high-stakes gambling salons, private clubs, and exclusive brothels serving wealthy elites. Syndicate bosses Johnny Ralen (North) and Amanda Coren (South) maintain strict peace, ensuring aristocrats and merchants can gamble and carouse without fear of violence.
 
 ### Ward 14: The Merchant Ward
 - **Dimensions:** 3 circles, each **200 feet tall**. The population is a mere **1/10th** of the lower wards.
 - **The Wall Merchants:** Home to the richest non-noble commercial dynasties on the continent. The Low Circle is the most prestigious tier, featuring exclusive **200-foot-wide private terrace gardens** hanging off the outer spire walls. Families have committed assassinations and corporate espionage to acquire or keep these garden deeds.
+- **The Currency of Prestige (Why Pins are Unthinkable):**
+  - In a caste where status is liquid and competitive, **how would anyone respect the astronomical wealth of a Wall Merchant family if they were seen using Pins?** 
+  - Wall Merchants trade in whole airship armadas, deep-vein mineral concessions, and imperial cargo lines valued in **Princes (`10 gp`) and Sovereigns (`100 gp`)**. For a Wall Merchant family—or even their liveried personal servants—to carry or handle common laborer Slivers, let alone gutter Pins, would be an instant social death sentence, signaling to rivals that the family's liquidity has collapsed and triggering bank runs on their credit.
 - **The Inner Servants' Circle:** Instead of a lawless Warrens core, the center of Ward 14 houses an organized, comfortable servants' quarter (inhabited almost entirely by indentured serfs). Life here is clean and safe, creating fierce competition among lower-class citizens to secure domestic service positions.
 
 ### Ward 15: The Spire Dock Ward (The Zone Boundary)
