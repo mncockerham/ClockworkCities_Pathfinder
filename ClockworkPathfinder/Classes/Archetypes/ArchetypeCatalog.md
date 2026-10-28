@@ -135,6 +135,7 @@ ClockworkPathfinder/Classes/Archetypes/
 │   ├── Snarecrafter.md
 │   └── TrickDriver.md         (G&G: Airship helmsman & cutter maneuvering)
 ├── TechnologyAndEngineering/
+│   ├── NeitherTeckSpecialist.md (AP expansion & calibration feats)
 │   ├── ClockworkReanimator.md (G&G: Galvanic & clockwork linkages)
 │   ├── Demolitionist.md       (G&G: Neithercrete & mining shape charges)
 │   ├── SterlingDynamo.md      (G&G: Clockwork mechanical prosthetics)

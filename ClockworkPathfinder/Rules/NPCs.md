@@ -85,5 +85,12 @@ The **[Civilized]** and **[Protected]** tags are **not permanent biological cond
   - *Underworld & Fringe:* Scavengers, Survivors, and Mad Bombers operating in lower wards and Neither-side borders.
   - *High Society & Oligarchs:* Dandies and Merchants leveraging hirelings, legal retainers, and deep purse reserves.
 
-## NPC Stat Block Profiles & Mechanics
-*(Templates, proficiency tiers, and conversion guidelines to be detailed in this session.)*
+## Dedicated Civilian NPC Classes
+To quickly populate spires, courts, markets, and factories with believable everyday citizens without using complex PC class chassis, the following dedicated civilian NPC classes are available in [`ClockworkPathfinder/Classes/NPC/`](file:///c:/Users/mncoc/OneDrive/Documents/Git/ClockworkCities_Pathfinder/ClockworkPathfinder/Classes/NPC/):
+- **[Laborer](file:///c:/Users/mncoc/OneDrive/Documents/Git/ClockworkCities_Pathfinder/ClockworkPathfinder/Classes/NPC/Laborer.md):** Physical workforce (dockers, fungal farm hands, factory drudges, boiler tenders). Solid Fortitude, heavy hauling, tool-weapon mastery, and bar-brawler feats.
+- **[Professional](file:///c:/Users/mncoc/OneDrive/Documents/Git/ClockworkCities_Pathfinder/ClockworkPathfinder/Classes/NPC/Professional.md):** Educated specialists (barristers/advocates, accountants, university teachers, diplomats). High mental saves, legal/forensic mastery, bureaucratic shielding, and fragile combat profiles.
+- **[Commoner / Burgher](file:///c:/Users/mncoc/OneDrive/Documents/Git/ClockworkCities_Pathfinder/ClockworkPathfinder/Classes/NPC/Commoner.md):** Urban commercial baseline (tavern keepers, stall shopkeepers, innkeepers, domestic servants). High Will, rumor gathering, and counter-cover defense.
+- **[Craftsman / Artisan Apprentice](file:///c:/Users/mncoc/OneDrive/Documents/Git/ClockworkCities_Pathfinder/ClockworkPathfinder/Classes/NPC/Craftsman.md):** Guild rank-and-file (blacksmith strikers, tanners, carpenters, bricklayers). Everyday repairs, forge/vat resistances, and trade tool strikes without the heroic NeitherTeck masterworks of PC Artisans.
+- **Tool AP Discount:** Each civilian NPC class possesses a 1-point AP discount on tools matching their registered daily trade.
+
+---

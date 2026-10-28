@@ -97,6 +97,7 @@ You use intellect and empirical observation rather than brute muscle or instinct
 - **Tactical Instruction ([one-action]):** If you succeeded on an *Analytical Assessment* against a target, you call out its defense blind-spot to an ally. That ally gains a +2 circumstance bonus on their next attack roll against that target before your next turn.
 
 ### 4th Level
+- **NeitherTeck Tuning (Scholar):** You apply theoretical mathematical models and catalytic formulas to personal tech. Your per-round Activation Point (AP) pool permanently increases by **+2 AP**.
 - **Applied Ballistics:** When firing a crossbow, firearm, or throwing a weapon, you factor wind speed, drop, and recoil. You increase the weapon's range increment by 20 feet and ignore the target's Lesser Cover.
 - **Forensic Audit:** Given 10 minutes to review financial ledgers, tax rolls, cargo manifests, or guild registries, you immediately detect embezzled funds, hidden owners, forged seals, or fraudulent cargo.
 
@@ -105,6 +106,7 @@ You use intellect and empirical observation rather than brute muscle or instinct
 - **Blueprint Memory:** After studying a building's blueprints or spending 5 minutes observing its exterior, you memorize its entire internal layout, including maintenance ducts, plumbing shafts, chimney flues, and load-bearing pillars.
 
 ### 8th Level
+- **NeitherTeck Advanced Calibration (Scholar):** Prerequisites: *NeitherTeck Tuning*. You solve complex thermodynamic equations in real time, stabilizing capacitor coils. Your per-round Activation Point (AP) pool permanently increases by **+2 AP**.
 - **Zone & Neither Theory:** Extensive study of Neither physics grants you a +2 circumstance bonus to saving throws against Neither corruption, radiation, and environmental hazards. You can calibrate breathing masks and protective suits to last twice as long in high-exposure zones.
 - **Stress-Point Demolition ([two-actions]):** Strike an inanimate object, barrier, vehicle, or structure. You automatically hit and bypass all Hardness up to your character level.
 
@@ -112,11 +114,15 @@ You use intellect and empirical observation rather than brute muscle or instinct
 - **Actuarial Certainty:** When you roll *Analytical Assessment* and the d20 roll is lower than 10, you can spend an action to discard the result and focus on directing allies or interacting with items instead without wasting combat momentum.
 - **Civic Authority:** Your recognized standing in universities and municipal bureaus grants you access to restricted city archives, high-level municipal council hearings, and sealed court records without bribery or warrants.
 
+### 12th Level
+- **NeitherTeck Master Calibration (Scholar):** Prerequisites: *NeitherTeck Advanced Calibration*. Your cognitive modeling effortlessly balances cascading inductive fields. Your per-round Activation Point (AP) pool permanently increases by **+2 AP**.
+
 ### 14th Level
 - **Coordinated Stratagem ([two-actions]):** Design a synchronized tactical maneuver. You and up to three allies within 30 feet can immediately Stride up to half your speed without triggering reactions from enemies you have analyzed.
 - **Systemic Collapse ([two-actions]):** Strike an enemy or construct at its vital nexus point. On a hit, in addition to weapon and *Calculated Strike* damage, the target must succeed at a Fortitude save against your class DC or become *Paralyzed* or *Immobilized* for 1 round as its mechanical joints or nervous cluster locks up.
 
 ### 18th Level
+- **NeitherTeck Supreme Calibration (Scholar):** Prerequisites: *NeitherTeck Master Calibration*. You perceive electromagnetic radiant flux as pure mathematical symmetry. Your per-round Activation Point (AP) pool permanently increases by **+2 AP**.
 - **Universal Polymath:** You are considered Master in all Lore skills, and can attempt any Recall Knowledge check as a free action at the start of each round.
 - **Master Plan ([three-actions]):** Once per day, lay out a comprehensive contingency plan for a specific objective. For the next hour, whenever you or any party member rolls a critical failure on an attack roll, skill check, or saving throw related to that objective, treat it as a regular failure instead.
 

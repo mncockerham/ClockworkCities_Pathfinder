@@ -45,8 +45,7 @@ Permanent wealth represents the resources provided by your sponsor (Family House
 
 ### 2. Transitory Wealth (Personal Cash & Gear Limits)
 Transitory wealth represents the physical coinage, pocket cash, and unbonded gear carried by the character:
-- **Base Cash (Weekly / Monthly Floor):** The minimum discretionary personal spending cash provided by your salary, dividends, or stipend. This is "pocket money" you can spend without reporting to your patron.
-- **Max Liquid Cash:** The maximum amount of personal physical coin a character can hoard before their institution or tax authorities notice and demand reinvestment, dues, or kickbacks. Excess unbonded coin must be laundered, buried, or surrendered.
+- **Max Liquid Cash (The Hoard Ceiling):** The maximum physical coin a character can carry or squirrel away before their institution notices. True "off-the-books laundering" does not exist in the Spire: your Family, Guild, or Military unit knows exactly what you should earn and own. Anything not claimed by your group cannot be safely stored—you cannot own private secure vaults, and no constable or court will investigate theft of coin that legally cannot exist (and admitting you had it risks immediate expulsion or criminal charges). Consequently, illicit or surplus coin cannot be hoarded permanently; characters inevitably burn it on fleeting luxuries, illicit entertainment, fine dining, or bribes—expending resources that never yield durable long-term wealth.
 - **Personal Wealth vs. House Assortment:**
   - *Personal Wealth:* Items, garments, and sidearms you own outright and keep even if discharged from your house or guild.
   - *House Assortment:* High-tier gear, masterwork armor, arc weaponry, industrial vehicles, or airships issued by your sponsor. These items remain property of the House/Crown and are immediately repossessed if your Standing drops or you leave your post.

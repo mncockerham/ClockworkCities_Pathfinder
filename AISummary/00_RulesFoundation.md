@@ -31,7 +31,7 @@ Player characters are inherently exceptional, unique individuals in the world.
 - **Role Redistribution into Steampunk Classes:** All essential utility, tactical, buffing, and support roles previously performed by magical classes have been permanently converted into physical, non-magical steampunk classes:
   - **Cleric & Divine Restoration:** Removed. Replaced by the **Chirurgeon** (cellular-level restorative sera, biological surgeries, antitoxins, and sterile medicines).
   - **Wizard & Elemental Blasting:** Removed. Replaced by the **Mad Bomber** (chemical, concussive, incendiary, and aerosolized gas grenades) and the **Clockwork Engineer** (arc emitters, kinetic shockwave engines, and electrical capacitors).
-  - **Druid & Primal Survival:** Removed. Replaced by the **Scout** (surface Neither fog survival, beast tracking, and caravan outriding) and the **Miner** (subterranean excavation, tremorsense, structural analysis, and hazard avoidance).
+  - **Druid & Primal Survival:** Removed. Replaced by the **Scout** (covering both surface Neither fog survival/outriding and subterranean excavation, tremorsense, and mine sapping).
   - **Bard & Performance Buffs:** Removed. Replaced by the **Merchant** (commercial directives, tactical financial incentives, contract enforcement, and accelerated Rogue skill mastery).
   - **Witch / Occult & Debuffs:** Removed. Replaced by the **Inspector** (forensic deduction, criminology, and evidence analysis) and the **Chirurgeon** (caustic acids, debilitating toxins, and neurochemical irritants).
 - **Spells as Physical Deliverables Only:** Spells do not exist as verbal incantations, hand gestures, or mystical focus pools. Any spell-like effect that exists in the setting is an explicitly physical **Clockwork / Neither-Tech Device** (pneumatic launchers, breather tanks, arc discharge projectors, pulse capacitors) or biomedical **Concoction** (cellular stimulants, antitoxins, aerosol canisters) per [`AISummary/10_Magic.md`](file:///c:/Users/mncoc/OneDrive/Documents/Git/ClockworkCities_Pathfinder/AISummary/10_Magic.md):
@@ -46,6 +46,7 @@ Player characters are inherently exceptional, unique individuals in the world.
 | 00_RulesFoundation.md | This file | Draft |
 | 10_Magic.md | Magic conversion (Clockwork Technology & Concoctions) | Draft |
 | 20_Healing.md | Healing & Wound Thresholds (Mortal, Critical, Damage) | Draft |
+| 30_ClassEnvironments.md | Class Environmental Effectiveness & Combat Matrix (Guidance) | Draft |
 | `ClockworkPathfinder/Classes/ClassTemplate.md` | Class Conversion Template | Template |
 | `ClockworkPathfinder/Classes/Soldier.md` | Soldier class (Fighter baseline) | Draft |
 | `ClockworkPathfinder/Classes/Dandy.md` | Dandy class (Swashbuckler baseline) | Draft |
@@ -53,7 +54,7 @@ Player characters are inherently exceptional, unique individuals in the world.
 | `ClockworkPathfinder/Classes/Chirurgeon.md` | Chirurgeon class (Alchemist split: Restorative/Antidote/Acid/Poison) | Draft |
 | `ClockworkPathfinder/Classes/MadBomber.md` | Mad Bomber class (Alchemist split: Explosives/Weapons/Acid/Poison) | Draft |
 | `ClockworkPathfinder/Classes/Brute.md` | Brute class (Barbarian baseline) | Draft |
-| `ClockworkPathfinder/Classes/Scout.md` | Scout class (Ranger baseline) | Draft |
+| `ClockworkPathfinder/Classes/Scout.md` | Scout class (Ranger baseline: Surface Outriders & Subterranean Miners/Sappers) | Draft |
 | `ClockworkPathfinder/Classes/ClockworkEngineer.md` | Clockwork Engineer class (Inventor baseline) | Draft |
 | `ClockworkPathfinder/Classes/Inspector.md` | Inspector class (Investigator baseline: Knowledge/Evidence only) | Draft |
 | `ClockworkPathfinder/Classes/ClockworkRifleman.md` | Clockwork Rifleman class (Gunslinger baseline: Gunpowder & Neither-tech) | Draft |
@@ -61,7 +62,6 @@ Player characters are inherently exceptional, unique individuals in the world.
 | `ClockworkPathfinder/Classes/Pugilist.md` | Pugilist class (Monk baseline: Boxers & Street Thugs) | Draft |
 | `ClockworkPathfinder/Classes/Officer.md` | Officer class (Champion baseline: Military, Constables & King's Guard) | Draft |
 | `ClockworkPathfinder/Classes/SkyCaptain.md` | Captain class (Swashbuckler baseline: Sail, Clockwork/Steam, Agile Airships & War Crafts) | Draft |
-| `ClockworkPathfinder/Classes/Miner.md` | Miner class (Ranger baseline: Subterranean & Tunnel Excavation) | Draft |
 | `ClockworkPathfinder/Classes/Artisan.md` | Artisan class (Mundane professions: Blacksmith, Tanner, Tailor, Mason, Carpenter) | Draft |
 | `ClockworkPathfinder/Classes/Scholar.md` | Scholar class (Academic professions: Accountants, Architects, Philosophers, Legal Barristers) | Draft |
 | `ClockworkPathfinder/Rules/RangedWeapons.md` | Ranged Weapons (Gunpowder boosted dice & Neither Cartridge weapons) | Draft |
@@ -71,5 +71,5 @@ Player characters are inherently exceptional, unique individuals in the world.
 | `ClockworkPathfinder/Rules/AncestriesAndHeritages.md` | Humanity Ancestry & 6 Biological Heritages (Feats & Low-Light Vision) | Draft |
 | `ClockworkPathfinder/Classes/Archetypes/ArchetypeCatalog.md` | Archetypes (PF2e Remaster available, modified & removed archetypes) | Draft |
 | `ClockworkPathfinder/Equipment/EquipmentCatalog.md` | Equipment (Victorian steampunk gear, Mad Bomber bombs, Chirurgeon sera, ballistics & rations) | Draft |
-| `ClockworkPathfinder/Equipment/SocialClassEquipment/` | Social Class Loadouts (7 tier files: Urban Carry, Neither Expedition, Spire Defense) | Draft |
+| `ClockworkPathfinder/Rules/NeitherTeck/` | NeitherTeck & Clockwork Systems (`NeitherTeckRules.md`, `Weapons.md`, `TacticalRigs.md`) | Draft |
 | `ClockworkPathfinder/Rules/ToDo/FocusAndDevelopment.md` | Development Roadmap, Playtest Scenarios & Priority Backlog | Active |

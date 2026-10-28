@@ -10,9 +10,9 @@
 ## 1. Setting Overview
 *The hardened, adaptable survivors of the spire slums, Warrens, and low-circle alleyways.*
 
-- **In-World Identity:** Born into the grinding poverty of the Lower and Upper Slums (Wards 4 & 5), the fungal trenches of the Labor Ward, or the lawless darkness of the Warrens (levels 1–13). They stay alive through sharp eyes, ruthless pragmatism, second-story climbing, and knowing which shadows to avoid.
-- **Typical Social Class & Backing:** Laborer (Status 1), Serf / Debtor (Status –1), or Warrens "Nameless" (Status 0). While often hired by merchants, constables, university researchers, or nobles as guides, fixers, bodyguards, scouts, or thieves, they are strictly hired hands—never true members of the Merchant Houses, Noble families, or Academic Collegium.
-- **Physical / Scientific Explanation:** Honed reflexes, environmental paranoia, street-fighting dirty tricks, opportunistic strikes, and extreme adaptability to Neither grime, urban hazards, and sudden danger.
+- **In-World Identity:** Born into the grinding poverty of the Lower and Upper Slums (Wards 4 & 5), the fungal trenches of the Labor Ward, or the lawless darkness of the Warrens (levels 1–13). They are the undisputed masters of urban stealth, second-story lockpicking, and social deception within the Great Spires and crowded city wards. They survive through razor-sharp situational awareness, slip through security checkpoints unnoticed, and know how to crack any municipal vault or mechanical tumbler.
+- **Typical Social Class & Backing:** Laborer (Status 1), Serf / Debtor (Status –1), or Warrens "Nameless" (Status 0). While often hired by merchants, constables, university researchers, or nobles as guides, fixers, bodyguards, infiltration specialists, or thieves, they are strictly hired hands—never true members of the Merchant Houses, Noble families, or Academic Collegium.
+- **Physical / Scientific Explanation:** Honed reflexes, environmental paranoia, street-fighting dirty tricks, opportunistic strikes, and extreme mastery of **Stealth, Thievery, and Deception**. They manipulate the vertical labyrinths of the Spires, blend into any crowd, crack precision locks, and strike with lethal precision from shadows using `[Clandestine]` and `[Professional]` tools.
 
 ---
 
@@ -24,7 +24,7 @@
 
 | Level | Class Features Gained |
 |:---:|---|
-| **1** | Ancestry and background, initial proficiencies, Rogue's Racket, Sneak Attack (1d6), Surprise Attack, 1st-level Survivor feat |
+| **1** | Ancestry and background, initial proficiencies, Rogue's Racket, Sneak Attack (1d6), Surprise Attack, Urban Infiltration Mastery (Stealth, Thievery, Deception focus), 1st-level Survivor feat |
 | **2** | Skill feat, skill increase, Survivor feat |
 | **3** | Deny Advantage, general feat, skill feat, skill increase |
 | **4** | Skill feat, skill increase, Survivor feat |
@@ -52,7 +52,8 @@
 |---|---|---|---|---|
 | 1 | Hit Points | `[Player Core p.168]` | **Unchanged** | 8 + Constitution modifier per level. |
 | 1 | Key Attribute | `[Player Core p.168]` | **Unchanged** | Dexterity or determined by your Racket. |
-| 1 | Initial Proficiencies | `[Player Core p.168]` | **Unchanged** | Perception: Expert.<br>Fortitude: Trained, Reflex: Expert, Will: Expert.<br>Skills: Trained in Stealth, plus racket skill, plus 7 + Int mod.<br>Attacks: Trained in simple and martial weapons, and unarmed attacks.<br>Defenses: Trained in light armor and unarmored defense.<br>Class DC: Trained in Survivor (Rogue) class DC. |
+| 1 | Initial Proficiencies | `[Player Core p.168]` | **Modified** | Perception: Expert.<br>Fortitude: Trained, Reflex: Expert, Will: Expert.<br>Skills: Trained in **Stealth**, **Thievery**, and **Deception**, plus racket skill, plus 7 + Int mod.<br>Attacks: Trained in simple and martial weapons, and unarmed attacks.<br>Defenses: Trained in light armor and unarmored defense.<br>Class DC: Trained in Survivor (Rogue) class DC. |
+| 1 | Urban Infiltration Mastery | New | **New** | You gain a +1 circumstance bonus to Stealth checks to Hide and Sneak, Thievery checks to Pick a Lock, and Deception checks to Lie or Impersonate when within a Spire, town, or civilized settlement. |
 | 1 | Rogue's Racket | `[Player Core p.169]` | **Modified** | Street-survival methods: **Ruffian** (Warrens enforcer / muscle), **Scoundrel** (slum con-artist / runner), **Thief** (pickpocket / sneak-thief), or **Mastermind** (underworld fixer / alley schemer). |
 | 1 | Sneak Attack | `[Player Core p.170]` | **Unchanged** | Deal extra precision damage (+1d6, scaling to +4d6) when striking an off-guard target with an agile or finesse weapon, an agile or finesse unarmed attack, or a ranged attack. |
 | 1 | Surprise Attack | `[Player Core p.170]` | **Unchanged** | On the first round of combat, creatures that haven't acted yet are off-guard to you if you rolled Deception or Stealth for initiative. |

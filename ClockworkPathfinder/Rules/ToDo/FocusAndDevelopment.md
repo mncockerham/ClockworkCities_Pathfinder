@@ -82,29 +82,45 @@
 - **Focus Areas:**
   - Test the three specialties (Architect, Accountant, Natural Philosopher) in complex tactical encounters. Ensure that substituting Intelligence for attack rolls and diagnosing enemy structural flaws remains balanced against the Inspector's pure forensic focus.
 
-### D. Concept: Neither-Tech Gear Tuning & Activation Capacity (Scholar & Artisan Combat Role)
-- **The Concept to Ponder:** Neither weaponry, arc capacitors, and exotic gear are delicate, temperamental, and prone to calibration failure. 
-- **The Mechanic:**
-  - Rather than being plug-and-play like simple steel swords, high-tech Neither devices and specialized weaponry require an active **Activation Capacity Pool** (or "Tuning Points") to activate and fire each turn.
-  - Feats grant fractions of points per level, establishing how much delicate Neither-tech a character can actively handle simultaneously in combat.
-  - **The Scholar & Artisan Solution:** While pure martials (Soldiers, Brutes) have the proficiency to shoot or strike, **Scholars and Artisans gain Activation Capacity points much faster**. 
-  - *Tactical Impact:* Gives the Scholar and Artisan an essential, dynamic combat identity—either as masters who can operate complex multi-apparatus rigs, or as field calibrators who tune, boost, and prime advanced Neither-tech weapons for their martial allies without breaking bounded accuracy.
+### D. NeitherTeck & Clockwork Systems (Codified in `ClockworkPathfinder/Rules/NeitherTeck/NeitherTeckRules.md`)
+- **Reference:** `ClockworkPathfinder/Rules/NeitherTeck/`, `AISummary/10_Magic.md`, `AISummary/00_RulesFoundation.md`
+- **Status:** **Rules Standardized & Codified**
+  - **Round-by-Round Activation Points (AP):** $\text{AP} = \text{INT} + \text{Class Base AP} + \text{Level Progression Bonus}$.
+  - **Class Base & Scaling Tiers:**
+    - **Type 4 (High NeitherTeck):** +4 Base AP; scales +1 AP every 3 levels (Levels 3, 6, 9, 12, 15, 18). *Scholar, Artisan, Clockwork Engineer.*
+    - **Type 3 (Specialist / Moderate NeitherTeck):** +3 Base AP; scales +1 AP every 4 levels (Levels 4, 8, 12, 16, 20). *Inspector, Clockwork Rifleman* (reduces ranged NeitherTeck weapon AP cost by –1 at 1st, –2 at 6th, –3 at 12th, –4 at 18th level; min 1), *Chirurgeon, Mad Bomber* (strength: concoctions/bombs work reliably across all environments).
+    - **Type 2 (Tactical Operatives):** +2 Base AP; scales +1 AP every 4 levels (Levels 4, 8, 12, 16, 20). *Officer, Sky Captain, Survivor, Scout.*
+    - **Type 1 (Dedicated Martials & Brawlers):** +1 Base AP; scales +1 AP every 5 levels (Levels 5, 10, 15, 20). *Soldier, Brute, Pugilist, Dandy.*
+    - **Special (Influence Specialist):** +2 Base AP; scales +1 AP every 4 levels. *Merchant* (social leverage, contracts, commercial directives).
+  - **The Three Radiant Energy Environments:**
+    - **Tier 1 (Spire Sovereign Grid):** Unlimited ambient energy; heavy grid weapons and barrier apparatuses run at maximum output. *Scholars and Artisans dominate combat.* Dandies and Pugilists dominate civil high-society wards where military weapons are prohibited.
+    - **Tier 2 (Radiant Outposts & Airships):** Local broadcast perimeter (~2–5 miles). Balanced combined arms combat.
+    - **Tier 3 (Wild / Outland Wastes):** Zero radiant energy; requires self-powered sealed cartridges. When cartridges deplete, *Martials (Soldiers, Brutes, Scouts) dominate with steel, bows, and athletic maneuvers.*
+  - **Point Cost Mechanics:** Per-Action costs (weapons, surgical stims, caustic grenades) vs. Per-Turn Sustained costs (deflection screens, kinetic dampeners, pneumatic rigs).
+- **Focus Areas for Playtesting:**
+  - Run Spire siege scenarios comparing high-AP Scholar/Artisan heavy arquebus volleys against incoming forces.
+  - Stress-test outland wilderness delves where cartridge depletion shifts combat reliance back to martial weapons.
 
 ---
 
 ## 3. World & Narrative Subsystems to Formalize
 
-### A. The Favor Hierarchy as a Downtime Subsystem
-- **Reference:** `ClockworkPathfinder/Rules/WorldAndLaw.md` (Section 5)
-- **Focus Areas:**
-  - Create structured PF2e downtime activities: **Procure a Favor**, **Call in a Debt**, and **Face Exposure / Retaliation**.
-  - Provide GMs with clear tables defining the DC and social consequences when a player pushes an NPC to commit an *Obligation* or *Life Debt*.
+### A. The Favor Hierarchy: Opportunity Actions & Downtime Preparation
+- **Reference:** `ClockworkPathfinder/Rules/WorldAndLaw.md` (Section 6)
+- **Status:** **Core Concept Refined**
+- **Opportunity-Driven Activation (Not a Rigid Downtime Activity):**
+  - Calling in a favor is fundamentally an **Opportunity Action** that resolves dynamically within active roleplay or narrative infiltration.
+  - **Immediate Opportunity (On-Site Contact):** If the contact who owes a debt or obligation is already present at the scene (e.g., the night watchman at the warehouse gate owes you a *Debt*), no downtime is required. The player simply calls in the marker on the spot to unlock the door, look the other way, or pass through the checkpoint.
+  - **Downtime Preparation (Creating the Opportunity):** If the contact is not directly at the target location, calling in the favor requires **Downtime preparation** to arrange the angle of approach or procure the operational cover:
+    - *Example:* The party needs to infiltrate a high-society manor. Their contact is a merchant who holds a catering contract for the event. The party spends a day of downtime tracking down the merchant, negotiating the request, and procuring delivery carts, passes, and kitchen uniforms to walk right through the servant's entrance.
+- **Focus Areas for System Polish:**
+  - Build simple guidelines for GMs outlining **preparation time** (hours vs. days) when setting up indirect favors.
+  - Detail mechanics for "Favor Escalation" (what happens if a player asks for an *Obligation* from someone who only owes a *Boon*—social pushback, blackmail risk, or spending additional coin/favors to close the gap).
 
 ### B. Status, Standing & Faction Reputation (–99 to +99)
 - **Reference:** `ClockworkPathfinder/Rules/SocialClassAndCorruptionRules.md` (Section 1)
 - **Focus Areas:**
-  - Define numerical milestones for faction standing (e.g., +25 = Requisition Officer Gear, +50 = High Council Audience, +75 = Master Patent Holder; –25 = Monitored by Constables, –50 = Stripped of Guild Rank, –75 = Marked for Arrest).
-  - Clarify rules for "Off-the-Books" cash laundering when players accumulate coin beyond their Status tier's liquid hoard cap.
+  - **No "Off-the-Books" Laundering:** Clarify why true off-the-books cash laundering does not exist in the setting. Your Family, Guild, or Profession knows precisely what you should make and own; anything beyond your Status tier's liquid allowance is impossible to keep safely. What your group doesn't take, you have no secure place to store, and nobody will stop others from stealing it (after all, one cannot legally report theft of wealth that officially doesn't exist, and admitting it exists risks immediate expulsion or ruin). Furthermore, human nature dictates that surplus illicit coin is rapidly burned on transient luxuries, food, drink, and entertainment beyond one's means—expending resources that can never be recovered.
 
 ### C. Spire Travel, Tolls & Warrens Navigation
 - **Reference:** `ClockworkPathfinder/Rules/WorldAndLaw.md` (Section 2)
@@ -181,8 +197,8 @@
 
 ## 4. Setting Mysteries & Canon Reconciliations (From AISummary/WorldSummary.md)
 
-1. **City Naming Reconciliation:** Reconcile early source document references to "Abelanth" vs. the established capital spire "New Avalon." (Proposed solution: Abelanth is the ancient or original foundation settlement upon which New Avalon was built, or a neighboring sister spire across the sea).
-2. **"Perdium" vs. Neithercrete:** Cleanly define the relationship between standard stone, reinforced steel, Neithercrete, and legacy references to "perdium" (e.g., perdium as an alloyed chemical sealant applied to outer Neithercrete walls).
+1. **City Naming Reconciliation [RESOLVED]:** All references to the early draft name "Abelanth" have been removed and unified under **New Avalon** as the sole canon capital spire.
+2. **"Perdium" vs. Neithercrete [RESOLVED]:** All references to "perdium" have been replaced with **Neithercrete** as the singular canon building material for spires.
 3. **The Aberrant Transformation Rules:** Formalize the exact biological and moral degradation thresholds for how desperate humans in the Warrens turn into Goblins (Type 3a) or Vampires (Type 3b), and how orcs in the Tombs become Troglodytes.
 
 ---

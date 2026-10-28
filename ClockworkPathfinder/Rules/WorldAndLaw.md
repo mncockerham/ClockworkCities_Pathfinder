@@ -223,6 +223,12 @@ In the intrigue-heavy society of the Spires, informal relationships, debts of ho
 | **Obligation** | Severe | Willing to **break the law** on your behalf within reason (e.g., burglary, assault, physical intimidation, destroying physical evidence). | High. Contact risks imprisonment or penal mining if the conspiracy is exposed. |
 | **Life Debt** | Absolute | Honor-bound to die on your behalf, harbor high-treason fugitives, or assassinate a designated target if demanded. | Extreme. Discovery results in public execution and total loss of family standing. |
 
+### Redeeming Favors: Opportunity Actions vs. Downtime Preparation
+Favors in Arclean are not rigid administrative activities; they are dynamic **Opportunity Actions**:
+- **Immediate Opportunity (On-Site):** If the contact is directly present at the scene (e.g., a warehouse watchman who owes a *Debt* is standing at the gate), the player simply redeems the marker on the spot to unlock the gate or turn a blind eye. No downtime is consumed.
+- **Indirect Opportunity (Downtime Preparation):** If the person who owes the favor is not on-site, the party spends downtime to **create the opportunity**:
+  - *Example:* To infiltrate a sealed manor, the party calls in a favor from a merchant who holds a catering contract for the evening gala. The party spends a day of downtime meeting the merchant, arranging fake identities, and procuring livery uniforms and delivery carts to walk right in through the pantry entrance.
+
 ---
 
 ## 7. Birth Status Origins & Social Mobility

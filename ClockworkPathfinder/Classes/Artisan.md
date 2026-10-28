@@ -101,6 +101,7 @@ Beginning at 3rd level, during daily preparations, you can condition and tune up
 - **Flaw Exploit ([two-actions]):** Make a weapon strike using your trade tool. On a hit, if the target is wearing armor or holding a shield, reduce the AC bonus of that gear by 1 until the end of combat or until repaired.
 
 ### 4th Level
+- **NeitherTeck Tuning (Artisan):** You master the harmonic calibration of inductors and catalytic seals. Your per-round Activation Point (AP) pool permanently increases by **+2 AP**.
 - **Jury-Rigged Barricade ([three-actions]):** Using nearby salvage, rubble, barrels, or timber, you construct a hasty waist-high barricade providing Standard Cover (+2 AC / Reflex) for up to two Medium creatures in a 10-foot line.
 - **Treated Protective Linings:** Allies wearing armor conditioned by your *Reinforced Workmanship* gain resistance 3 against fire, acid, or piercing damage (choose one when conditioning during daily preparations).
 
@@ -109,6 +110,7 @@ Beginning at 3rd level, during daily preparations, you can condition and tune up
 - **Master's Overhaul:** During a 10-minute rest, you can completely restore all HP to a broken shield or repair damaged equipment for up to four allies simultaneously.
 
 ### 8th Level
+- **NeitherTeck Advanced Calibration (Artisan):** Prerequisites: *NeitherTeck Tuning*. You calibrate micro-escapements and thermal dissipation channels with flawless precision. Your per-round Activation Point (AP) pool permanently increases by **+2 AP**.
 - **Hardened Habit:** Long years of exposure to forge-heat, tanning fumes, sawdust, and stone dust grant you permanent resistance 5 against poison, acid, and heat hazards, and a +2 circumstance bonus to saving throws against inhaled toxins.
 - **Armor Sunder ([two-actions]):** Deliver a crushing blow to an opponent's armor. On a hit, the armor becomes broken. If the target is not wearing armor (natural armor or hide), they suffer the *Off-Guard* condition and *Clumsy 1* for 1 minute.
 
@@ -116,11 +118,15 @@ Beginning at 3rd level, during daily preparations, you can condition and tune up
 - **Guild Wholesale Access:** Your guild status allows you to purchase raw materials, industrial Neither-tech components, and standard supplies at a 20% discount across all allied spires and trade circles.
 - **Unwavering Discipline:** When subject to mental fatigue or fear effects, you can focus on the rhythmic cadence of manual labor. Once per encounter, you can roll a Crafting check in place of a Will save against mental or emotional effects.
 
+### 12th Level
+- **NeitherTeck Master Calibration (Artisan):** Prerequisites: *NeitherTeck Advanced Calibration*. Your mechanical fine-tuning reaches master guild tolerances. Your per-round Activation Point (AP) pool permanently increases by **+2 AP**.
+
 ### 14th Level
 - **Masterwork Modification:** You permanently upgrade any mundane weapon or armor suit with specialized ergonomics, adding one weapon trait (such as *Agile*, *Deadly d8*, *Trip*, or *Backswing*) or reducing armor Bulk by 1.
 - **Indestructible Reinforcement:** Once per day, when an ally within 15 feet would suffer a critical hit while wearing gear conditioned by your *Reinforced Workmanship*, you can use a reaction ([reaction]) to turn the critical hit into a normal hit by having the conditioned gear absorb the structural shock.
 
 ### 18th Level
+- **NeitherTeck Supreme Calibration (Artisan):** Prerequisites: *NeitherTeck Master Calibration*. You achieve perfect resonance synchronization with municipal and outpost dynamos. Your per-round Activation Point (AP) pool permanently increases by **+2 AP**.
 - **Industrial Foreman ([two-actions]):** Direct your allies with the commanding authority of a factory overseer. Up to three allies within 30 feet can immediately use a reaction to Step, Stride, or Interact (such as reloading or drawing an item).
 - **Shatter Construct / Armor ([three-actions]):** Strike an object, vehicle, construct, or armored enemy. If you hit, deal triple weapon damage. If the target is a construct or wearing heavy armor, it must succeed on a Fortitude save against your class DC or immediately be destroyed or knocked unconscious.
 

@@ -10,9 +10,11 @@
 ## 1. Setting Overview
 *The hardened outriders, caravan pathfinders, and surface trackers who dare to navigate the Neither.*
 
-- **In-World Identity:** Caravan outriders guiding armored transports along the Peasant Paths, perimeter foresters stationed along the great outer walls, sky-dock lookouts, or lone Neither wanderers who know how to read the lethal surges of Neither fog, navigate lightning-swept Zone borders, and track mutated fauna and orc raiding bands.
-- **Typical Social Class & Backing:** Freeman / Outrider (Status 1), Forester / Rural Constable (Status 2), Merchant House Caravan Scout (Status 2–3), or Free Neither Wanderer (Status 0–1).
-- **Physical / Scientific Explanation:** Exceptional environmental awareness, mastery of filtration breather gear, long-range marksmanship (heavy crossbows, spring-guns, bows), and acute sensory tracking in low-visibility Neither fog.
+- **In-World Identity:** 
+  - **Surface & Caravan Outriders:** Caravan outriders guiding armored transports along the Peasant Paths, perimeter foresters stationed along the great outer walls, sky-dock lookouts, or lone Neither wanderers who know how to read the lethal surges of Neither fog, navigate lightning-swept Zone borders, and track mutated fauna and orc raiding bands.
+  - **Subterranean Sappers & Deep Miners:** Deep-shaft excavators carving Neithercrete foundations beneath the Great Spires, Dwarven tunnel pioneers (100–5,000 ft underground), Deep One fungal foragers in the boiling deeps, or municipal sappers shoring up collapsing Warrens tunnels and Tombs.
+- **Typical Social Class & Backing:** Freeman / Outrider (Status 1), Forester / Rural Constable (Status 2), Merchant House Caravan Scout (Status 2–3), or Independent Miner / Tunnel Sapper (Status 1–2).
+- **Physical / Scientific Explanation:** Exceptional environmental awareness, mastery of filtration breather gear, reading rock stress lines, acoustic echo-detection, long-range marksmanship (heavy crossbows, spring-guns, bows), and devastating pick-and-hammer excavation melee in cramped darkness.
 
 ---
 
@@ -24,23 +26,23 @@
 
 | Level | Class Features Gained |
 |:---:|---|
-| **1** | Ancestry and background, initial proficiencies, Hunt Prey, Hunter's Edge, 1st-level Scout feat |
+| **1** | Ancestry and background, initial proficiencies, Hunt Prey (or Survey Quarry), Hunter's Edge, 1st-level Scout feat |
 | **2** | Scout feat, skill feat |
 | **3** | General feat, Iron Will, skill increase |
 | **4** | Scout feat, skill feat |
-| **5** | Attribute boosts (4 attributes), skill increase, Trackless Step, Weapon Expertise |
+| **5** | Attribute boosts (4 attributes), skill increase, Trackless Step / Tunnel Stride, Weapon Expertise |
 | **6** | Scout feat, skill feat |
 | **7** | Evasion, general feat, skill increase, Vigilant Senses, Weapon Specialization |
 | **8** | Scout feat, skill feat |
-| **9** | Juggernaut, Nature's Edge, Scout Expertise (class DC to Expert), skill increase |
+| **9** | Juggernaut, Nature's Edge / Subterranean Edge, Scout Expertise (class DC to Expert), skill increase |
 | **10** | Attribute boosts (4 attributes), Scout feat, skill feat |
-| **11** | General feat, Medium Armor Expertise, skill increase, Wild Stride |
+| **11** | General feat, Medium Armor Expertise, skill increase, Wild Stride / Cave Stride |
 | **12** | Scout feat, skill feat |
 | **13** | Skill increase, Weapon Mastery |
 | **14** | Scout feat, skill feat |
 | **15** | Attribute boosts (4 attributes), General feat, Greater Weapon Specialization, Improved Evasion, skill increase |
 | **16** | Scout feat, skill feat |
-| **17** | Incredible Senses, Medium Armor Mastery, skill increase |
+| **17** | Incredible Senses (Tremorsense/Darkness focus), Medium Armor Mastery, skill increase |
 | **18** | Scout feat, skill feat |
 | **19** | General feat, Master Edge, Scout Mastery (class DC to Master), skill increase |
 | **20** | Attribute boosts (4 attributes), Scout feat, skill feat |
@@ -52,23 +54,23 @@
 |---|---|---|---|---|
 | 1 | Hit Points | `[Player Core p.152]` | **Unchanged** | 10 + Constitution modifier per level. |
 | 1 | Key Attribute | `[Player Core p.152]` | **Unchanged** | Dexterity or Strength. |
-| 1 | Initial Proficiencies | `[Player Core p.152]` | **Unchanged** | Perception: Expert.<br>Fortitude: Expert, Reflex: Expert, Will: Trained.<br>Skills: Trained in Nature or Survival, plus 4 + Int mod.<br>Attacks: Trained in simple weapons, martial weapons, and unarmed attacks.<br>Defenses: Trained in light armor, medium armor, and unarmored defense.<br>Class DC: Trained in Scout (Ranger) class DC. |
-| 1 | Hunt Prey | `[Player Core p.153]` | **Unchanged** | Designate a single creature within your line of sight or that you're tracking as your hunted prey. Gain bonuses to Seek, Track, and ignore second range increment penalties. |
-| 1 | Hunter's Edge | `[Player Core p.153]` | **Modified** | Tactical edge against designated prey: **Flurry** (reduced multiple attack penalty with crossbows/blades), **Outwit** (bonus to AC, Deception, Intimidation, Stealth, and Recall Knowledge), or **Precision** (additional precision damage on your first hit each round). |
+| 1 | Initial Proficiencies | `[Player Core p.152]` | **Modified** | Perception: Expert.<br>Fortitude: Expert, Reflex: Expert, Will: Trained.<br>Skills: Trained in Survival, plus Nature, Lore (Mining), or Lore (Subterranean), plus 4 + Int mod.<br>Attacks: Trained in simple weapons, martial weapons (including bows, crossbows, picks, and hammers), and unarmed attacks.<br>Defenses: Trained in light armor, medium armor, and unarmored defense.<br>Class DC: Trained in Scout (Ranger) class DC. |
+| 1 | Hunt Prey | `[Player Core p.153]` | **Unchanged** | Designate a single creature (or structural fault / subterranean passage) as your hunted prey. Gain bonuses to Seek, Track, and ignore second range increment penalties. Subterranean Scouts refer to this as *Survey Quarry*. |
+| 1 | Hunter's Edge | `[Player Core p.153]` | **Modified** | Tactical edge against designated prey: **Flurry** (rapid double-strikes with crossbows, blades, or picks), **Outwit** (bonus to AC, Deception, Intimidation, Stealth, and Recall Knowledge/structural fault finding), or **Precision** (additional precision damage on your first hit each round). |
 | 3 | Iron Will | `[Player Core p.154]` | **Unchanged** | Will saves increase to Expert; success becomes critical success. |
-| 5 | Trackless Step | `[Player Core p.154]` | **Unchanged** | Leave no trail and cannot be tracked through wilderness, Neither wastes, or rubble unless you choose to. |
-| 5 | Weapon Expertise | `[Player Core p.154]` | **Unchanged** | Simple, martial, and unarmed attacks increase to Expert; gain critical specialization against hunted prey. |
+| 5 | Trackless Step / Tunnel Stride | `[Player Core p.154]` | **Unchanged** | Leave no trail and cannot be tracked through wilderness, Neither wastes, rubble, scree, or mine tailings. |
+| 5 | Weapon Expertise | `[Player Core p.154]` | **Unchanged** | Simple, martial, and unarmed attacks increase to Expert; gain critical specialization against hunted prey (picks and hammers inflict devastating puncture fractures). |
 | 7 | Evasion | `[Player Core p.155]` | **Unchanged** | Reflex saves increase to Master; success becomes critical success. |
 | 7 | Vigilant Senses | `[Player Core p.155]` | **Unchanged** | Perception increases to Master. |
 | 7 | Weapon Specialization | `[Player Core p.155]` | **Unchanged** | Deal additional flat damage with weapons in which you are Expert. |
 | 9 | Juggernaut | `[Player Core p.155]` | **Unchanged** | Fortitude saves increase to Master; success becomes critical success. |
-| 9 | Nature's Edge | `[Player Core p.155]` | **Unchanged** | Enemies in difficult natural or Neither terrain are off-guard to you. |
+| 9 | Nature's Edge / Subterranean Edge | `[Player Core p.155]` | **Unchanged** | Enemies in difficult natural terrain, Neither sludge, or subterranean rock scree are off-guard to you. |
 | 9 | Scout Expertise | `[Player Core p.155]` | **Unchanged** | Scout class DC increases to Expert. |
 | 11 | Medium Armor Expertise | `[Player Core p.155]` | **Unchanged** | Light, medium, and unarmored defense increase to Expert. |
-| 11 | Wild Stride | `[Player Core p.155]` | **Unchanged** | Ignore difficult terrain from rubble, Neither sludge, roots, and uneven ground. |
+| 11 | Wild Stride / Cave Stride | `[Player Core p.155]` | **Unchanged** | Ignore difficult terrain from rubble, Neither sludge, scree, roots, and uneven rock. |
 | 13 | Weapon Mastery | `[Player Core p.155]` | **Unchanged** | Simple, martial, and unarmed attacks increase to Master. |
 | 15 | Improved Evasion | `[Player Core p.156]` | **Unchanged** | Reflex saves increase to Legendary; critical failure becomes failure; take half damage on regular failure. |
-| 17 | Incredible Senses | `[Player Core p.156]` | **Unchanged** | Perception increases to Legendary. |
+| 17 | Incredible Senses | `[Player Core p.156]` | **Unchanged** | Perception increases to Legendary. Gain imprecise Tremorsense (30 feet) or Low-Light/Darkvision enhancement through acoustic stone listening. |
 | 17 | Medium Armor Mastery | `[Player Core p.156]` | **Unchanged** | Light, medium, and unarmored defense increase to Master. |
 | 19 | Master Edge | `[Player Core p.156]` | **Unchanged** | Benefits from Hunter's Edge improve significantly. |
 | 19 | Scout Mastery | `[Player Core p.156]` | **Unchanged** | Scout class DC increases to Master. |
@@ -76,19 +78,22 @@
 ---
 
 ## 3. Class Feats
-*Base Ranger feats [Player Core p.157–167] are adopted 1-to-1 at baseline. Warden Spells are reflavored as utility gear or scout tricks.*
+*Base Ranger feats [Player Core p.157–167] are adopted 1-to-1, expanded with subterranean excavation, sapper, and tunnel warfare feats.*
 
 ### Feat Overview by Level
-| Level | Feats Available | Base Reference | Status | Notes |
+| Level | Feats Available | Base Reference | Status | Notes / Subterranean Additions |
 |---|---|---|---|---|
-| **1st** | Animal Companion, Crossbow Ace, Hunted Shot, Monster Hunter, Twin Takedown | `[Player Core p.157–158]` | **Unchanged** | Trained Neither mastiffs, heavy crossbow drill, and rapid double-shots. |
-| **2nd** | Hunter's Aim, Quick Draw, Monster Crafting, Shared Prey | `[Player Core p.158–159]` | **Unchanged** | Precision targeting and team scouting signals. |
-| **4th** | Companion's Defense, Disrupt Prey, Far Shot, Running Reload, Scout's Warning | `[Player Core p.159–160]` | **Unchanged** | Mobile skirmishing and covering fire. |
-| **6th** | Additional Companion, Master Monster Hunter, Skirmish Strike, Swift Tracker | `[Player Core p.160–161]` | **Unchanged** | High-speed tracking through Neither wastes. |
-| **8th** | Blind-Fight, Dead Eye, Hazard Finder, Powerful Snares | `[Player Core p.161–162]` | **Unchanged** | Fog navigation, tripwires, and mechanical perimeter traps. |
-| **10th** | Camouflage, Penetrating Shot, Target of Opportunity, Warden's Step | `[Player Core p.162–163]` | **Unchanged** | Perfect concealment in fog and urban rubble. |
-| **12th** | Distant Shores, Double Prey, Side by Side | `[Player Core p.163–164]` | **Unchanged** | Multi-target scouting and companion coordination. |
-| **14th** | Sense the Unseen, Shared Focus, Warden's Wellspring | `[Player Core p.164–165]` | **Unchanged** | Pinpointing invisible threats in darkness and Neither fog. |
+| **1st** | Animal Companion, Crossbow Ace, Hunted Shot, Monster Hunter, Twin Takedown, **Tunnel Sapper** | `[PC1 p.157–158 / New]` | **Expanded** | Trained Neither mastiffs, heavy crossbow drill, rapid double-shots, and **Tunnel Sapper** (ignore improvised penalty on mining tools; picks and mattocks gain Fatal d10). |
+| **2nd** | Hunter's Aim, Quick Draw, Monster Crafting, Shared Prey, **Structural Acoustic Ear** | `[PC1 p.158–159 / New]` | **Expanded** | Precision targeting, team scouting signals, and listening to rock stress lines (+2 vs cave-in / collapse hazards). |
+| **4th** | Companion's Defense, Disrupt Prey, Far Shot, Running Reload, Scout's Warning, **Cave-In Shorer** | `[PC1 p.159–160 / New]` | **Expanded** | Mobile skirmishing, covering fire, and hastily bracing weak mine tunnels or creating deadfalls as an action. |
+| **6th** | Additional Companion, Master Monster Hunter, Skirmish Strike, Swift Tracker | `[PC1 p.160–161]` | **Unchanged** | High-speed tracking through Neither wastes or deep mine shafts. |
+| **8th** | Blind-Fight, Dead Eye, Hazard Finder, Powerful Snares, **Subterranean Tremorsense** | `[PC1 p.161–162 / New]` | **Expanded** | Fog navigation, tripwires, perimeter snares, and imprecise Tremorsense 30 ft while touching solid stone/bedrock. |
+| **10th** | Camouflage, Penetrating Shot, Target of Opportunity, Warden's Step | `[PC1 p.162–163]` | **Unchanged** | Perfect concealment in fog, darkness, and urban rubble. |
+| **12th** | Distant Shores, Double Prey, Side by Side, **Fault-Line Strike** | `[PC1 p.163–164 / New]` | **Expanded** | Multi-target scouting and striking an enemy's structural fault line to bypass physical hardness and damage resistances. |
+| **14th** | Sense the Unseen, Shared Focus, Warden's Wellspring | `[PC1 p.164–165]` | **Unchanged** | Pinpointing invisible threats in total darkness and Neither fog. |
+| **16th** | Greater Distant Shores, Improved Twin Takedown, Master of the Wild | `[PC1 p.165]` | **Unchanged** | Extreme range accuracy and terrain mastery. |
+| **18th** | Impossible Volley, Manifold Edge, Shadow Hunter | `[PC1 p.165–166]` | **Unchanged** | Shrouded stealth even while making ranged strikes. |
+| **20th** | Accurate Flurry, Legendary Monster Hunter, Ultimate Skirmisher | `[PC1 p.166–167]` | **Unchanged** | Peerless combat speed and tactical awareness. |
 | **16th** | Greater Distant Shores, Improved Twin Takedown, Master of the Wild | `[Player Core p.165]` | **Unchanged** | Extreme range accuracy and terrain mastery. |
 | **18th** | Impossible Volley, Manifold Edge, Shadow Hunter | `[Player Core p.165–166]` | **Unchanged** | Shrouded stealth even while making ranged strikes. |
 | **20th** | Accurate Flurry, Legendary Monster Hunter, Ultimate Skirmisher | `[Player Core p.166–167]` | **Unchanged** | Peerless combat speed and tactical awareness. |
