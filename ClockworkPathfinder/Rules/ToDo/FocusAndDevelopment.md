@@ -108,6 +108,41 @@
   - **Hard Dependency Rule:** NeitherTeck energy firing mechanisms have **zero mundane fallback**; outside radiant grids (>5× generator distance), out of cartridges, or in pure Aither, energy weapons are completely dead.
   - **Auxiliary Attachments:** Ranged weapons can equip physical **affixed bayonets** (1d6 piercing/slashing) or **reinforced grips** (1d4 bludgeoning pistol whips) that function unpowered at 0 AP.
 
+### H. Environmental Class Balance Audit & Niche Tuning (Active Focus)
+- **References:** `AISummary/30_ClassEnvironments.md`, `AISummary/WorldSummary.md`, `ClockworkPathfinder/Classes/`
+- **Core Design Principles:**
+  - **Classes are Skill Sets, Not Fixed Social Castes:** A "Clockwork Rifleman" is a master marksman, not necessarily a soldier or outland vagrant. If a character is born a Noble or Wall Merchant, their social class and legal permissions grant dueling sidearms or social access, regardless of whether their character class is Soldier, Rifleman, Scholar, or Dandy. 
+  - **No Arbitrary Class-Based Legal Exceptions:** Exceptions to municipal law are risky. Aside from defined legal privileges tied to social status (e.g., Nobles/Wall Merchants legally wearing rapiers/dueling swords, or sworn King's Guards on duty), **the law treats everyone equally**. If we carve out arbitrary weapon-carry exemptions for one class without an airtight in-world social rationale, every other group will logically find workarounds, eroding the peace-bonded nature of civilized Spires.
+  - **Generalists vs. Specialists:** Classes that perform solidly across most environments (Tier-2/Tier-3 generalists like Soldier, Sky Captain, Officer) do not need to be dominant in any single area.
+- **Classes Requiring Focused Development (Tuning Priority):**
+  1. **Too Powerful / At Risk of Over-Dominance (Needs Mechanical Levers & Drawbacks):**
+     - **Brute (S in Neither, A in Civil Spires, B in Low Radiant):**
+       - *The Issue:* With massive 12 HP/level, high Fortitude, and flat Rage damage, a Brute wielding an ordinary legal utility dagger (1d4) or bare fists can easily out-brawl specialized duelists, constables, and pugilists in polite society, while dominating the outlands with axes.
+       - *Development Focus:* Codify strict civil drawbacks for Rage in civilized spires (e.g., immediate legal escalation to "Lethal Affray," high civic infamy, inability to access Favors or social Understanding during or shortly after Rage). Add fatigue or collateral damage costs when raging without protective heavy gear.
+     - **Chirurgeon (A in High Radiant, A in Low Radiant, A in The Neither, B in Civil Spires):**
+       - *The Issue:* Chemical concoctions and medical sera operate at 0 AP, bypass wireless grid restrictions, ignore cartridge laws, and are easily concealed as medical supplies. With high healing, poisons, and buffs, the Chirurgeon has almost no environmental blind spot.
+       - *Development Focus:* Introduce strict consumable shelf-life limits, reagent degradation in polluted Neither fog, and high economic/supply costs for stabilizing compounds. Make illicit narcotics or concentrated toxins carry severe legal contraband classifications if inspected by constables.
+     - **Survivor (A in Civil Spires, A in The Neither, B in High/Low Radiant):**
+       - *The Issue:* *Urban Infiltration Mastery* (+1 circumstance bonus to Stealth, Thievery, Deception) combined with full Sneak Attack on legal utility daggers makes the Survivor risk crowding out the Inspector and Dandy in municipal intrigue while remaining apex in wilderness survival.
+       - *Development Focus:* Ensure Sneak Attack requires specific tactical conditions (such as dirty tricks or positioning) that become harder against disciplined Spire constables or alert guards, and clearly delineate social-investigative boundaries so Survivor doesn't replace Inspector or Scholar.
+  2. **Underpowered / Severely Handicapped in Domestic Wards:**
+     - **Clockwork Rifleman (D in Civil Spires, D in Influence, B in The Neither, S in Low Radiant):**
+       - *The Reality:* **Crossbows ARE fully available** (Master proficiency at Level 1 per Gunslinger rules, benefiting from *Singular Expertise*, deeds, and *Slinger's Reload*). With heavy crossbows and arbalests, the Rifleman is an effective wilderness sniper in the unpowered Neither (Rating **B**).
+       - *The Real Bottleneck (Civil Spires & Social):* The weakness is municipal law: open longarms and military crossbows must be boxed and peace-bonded at checkpoints for all citizens.
+       - *Universal Solutions (Not Arbitrary Exemptions):*
+         1. **Social Class Dictates Carry Rights:** A Clockwork Rifleman of Noble or Merchant status has the legal right to carry a dueling rapier/sword or a gentleman's sidearm, just like any other citizen of that caste.
+         2. **Universal Civil Options:** Focus development on skills common to marksmanship that fit municipal law—such as **concealed pocket sidearms** (derringers, small hand crossbows), **0-AP stock/butt strikes and bayonets**, and **exploration-mode overwatch/spotting** rather than giving the class artificial legal passes.
+     - **Mad Bomber (D in Civil Spires, D in Influence, A in Outlands/Grids):**
+       - *The Issue:* Explosives are universally banned at Spire checkpoints.
+       - *Development Focus:* Create non-lethal, mundane preparations (flash powders, choking soot, instant adhesive gums) that legally pass inspection as domestic cleaning, hearth-lighting, or trade goods.
+     - **Clockwork Engineer (C in Civil Spires, C in The Neither, C in Influence):**
+       - *The Issue:* Heavy prototype rigs and pulse projectors shut down completely outside radiant grids, while bulky gear is barred or peace-bonded in civilized wards.
+       - *Development Focus:* Provide clockwork mechanical spring-wound (non-radiant) fallback mechanisms, compact deployable micro-turrets/utilities, and integrated tool proficiencies so the Engineer contributes meaningfully without active radiant power.
+  3. **Broad-Use Generalists (Confirmed Healthy — Do Not Force S-Tier Dominance):**
+     - **Soldier, Sky Captain, Officer:** Intentionally designed to maintain solid Tier-2/Tier-3 utility across all combat theaters. Their lack of S-tier dominance in High Radiant grids is an intended design trade-off for their unmatched versatility across varied campaign arcs.
+  4. **The Influence Trio (70/30 Separation & Status Retention Calibration):**
+     - **Merchant, Noble, Black Marketeer:** Ensure combat Directives provide dynamic round-by-round action economy options while playtesting the 70/30 contact separation rule and enforcing the 3/4 connection loss penalty upon loss of required Status.
+
 
 ---
 

@@ -58,7 +58,9 @@ Player characters are inherently exceptional, unique individuals in the world.
 | `ClockworkPathfinder/Classes/ClockworkEngineer.md` | Clockwork Engineer class (Inventor baseline) | Draft |
 | `ClockworkPathfinder/Classes/Inspector.md` | Inspector class (Investigator baseline: Knowledge/Evidence only) | Draft |
 | `ClockworkPathfinder/Classes/ClockworkRifleman.md` | Clockwork Rifleman class (Gunslinger baseline: Gunpowder & Neither-tech) | Draft |
-| `ClockworkPathfinder/Classes/Merchant.md` | Merchant class (Bard replaced: Non-magical, Rogue skills & Commercial Directives) | Draft |
+| `ClockworkPathfinder/Classes/Merchant.md` | Merchant class (Bard replaced: Influence Class - Business, Trade & Freight) | Draft |
+| `ClockworkPathfinder/Classes/Noble.md` | Noble class (Bard replaced: Influence Class - High Society, Councils & Arts) | Draft |
+| `ClockworkPathfinder/Classes/BlackMarketeer.md` | Black Marketeer class (Bard replaced: Influence Class - Warrens, Smuggling & Underworld) | Draft |
 | `ClockworkPathfinder/Classes/Pugilist.md` | Pugilist class (Monk baseline: Boxers & Street Thugs) | Draft |
 | `ClockworkPathfinder/Classes/Officer.md` | Officer class (Champion baseline: Military, Constables & King's Guard) | Draft |
 | `ClockworkPathfinder/Classes/SkyCaptain.md` | Captain class (Swashbuckler baseline: Sail, Clockwork/Steam, Agile Airships & War Crafts) | Draft |

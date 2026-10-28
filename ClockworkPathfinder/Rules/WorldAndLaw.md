@@ -127,8 +127,14 @@ Life within the megalithic spires is dense, crowded, and heavily policed. To pre
   - **Nobility & Wall Merchants:** Only recognized **Nobles** and **Wall Merchants** (along with commissioned military officers and active King's Guards) are legally entitled to openly wear sidearms, rapiers, and dueling swords in public spaces. Carrying a sword in the upper circles is an explicit visual badge of authority, breeding, and high social caste.
 - **General Weapon Ownership:**
   - **Who May Own:** Any free citizen (anyone not actively enslaved, serving a penal term, or imprisoned in the workhouses) has the legal right to purchase and own weapons—including broadswords, polearms, bows, crossbows, and firearms.
-  - **Peace-Bonding & Packaging in Public:** Unless an individual or caravan is actively departing the spire, larger weapons **must never be displayed openly in public corridors, streets, or transit trams**. 
-  - When transported through the spire, all non-dagger weapons must be **securely boxed, bound, or peace-packaged in a manner that prevents them from being easily or quickly drawn**. Walking openly through a municipal circle brandishing a polearm, battleaxe, or rifle will prompt immediate interception by ward constables, confiscation of the arms, and heavy fines in the Low Court.
+  - **Peace-Bonding & Packaging in Public:** Unless an individual or caravan is actively departing the spire, larger weapons **must never be displayed openly in public corridors, streets, or transit trams**. When transported through the spire, all non-dagger weapons must be **securely boxed, bound, or peace-packaged in a manner that prevents them from being easily or quickly drawn**. Walking openly through a municipal circle brandishing a polearm, battleaxe, or rifle will prompt immediate interception by ward constables, confiscation of the arms, and heavy fines in the Low Court.
+  - **The Civil Spire Physical Threat (Pugilists, Dandies, Brutes & Survivors Dominate):**
+    - Because military firearms, energy carbines, and radiant emitters require strictly guarded ammunition or heavy converter modules that are banned from civilian wards, and because martial weapons (greatswords, polearms, warhammers) must be peace-bonded and boxed in public, **the actual lethal physical threat in everyday Spire society shifts away from gunners and armored soldiers to a specialized urban quartet**:
+      - **The Pugilist:** Entirely unhindered by weapon prohibitions or armor restrictions. In any drawing room, ballroom, tavern, or alleyway, an unarmored Pugilist can deliver blinding flurries of lethal strikes with bare fists, weighted wraps, or brass knuckles against citizens wearing only everyday padded coats or linen.
+      - **The Dandy:** The sole class possessing the legal class privilege to openly wear and draw dueling swords and rapiers in public spaces; masters of agile, unarmored Panache footwork in tailored silks.
+      - **The Brute:** Driven by massive biological durability (high Hit Points, Master Fortitude) and adrenaline-fueled Rage. Even when armed only with a common legal dagger, an improvised chair leg, or bare hands, a raging Brute can shrug off dueling rapiers or constable batons and crush adversaries through unstoppable physical violence.
+      - **The Survivor:** The lethal covert shadow. Fully leverages legally permitted common utility daggers for deadly Sneak Attacks; unarmored and trained in urban infiltration to bypass ward checkpoints and strike from darkness.
+    - Consequently, noble houses, wealthy merchants, and criminal bosses retain Pugilists, Dandies, Brutes, and Survivors as personal enforcers and inner-ward bodyguards, knowing that when metal weapons are locked away or peace-bonded, raw physical mastery, dueling finesse, and clandestine opportunism decide who survives.
 
 ### Firearms, Constables & Guardhouse Controls
 
@@ -148,15 +154,26 @@ Life within the megalithic spires is dense, crowded, and heavily policed. To pre
 - **Crown Military Personnel:**
   - **Under Orders or Using Personal Gear:** Regular garrison and expeditionary military soldiers may openly wear their armor and carry service weapons through the spire **whenever under active deployment orders, or when carrying and maintaining their own personal armor and weapons**. Like other branches, live cartridges must remain checked into military depot armories unless the unit is mobilized for departure or active combat.
 
-### Cartridge Prohibition & Gate Exchange Depots
+### Cartridge & Radiant Converter Module Prohibition & Gate Exchange Depots
 
-- **Cartridges Strictly Illegal in the Spire:**
-  - While owning an unloaded firearm chassis is legal, **carrying or possessing charged military Neither Cartridges within the interior municipal circles of the Spire is extremely illegal** (treated as sabotage or treason).
-- **Gate Depots & Military Ward Cartridge Exchanges:**
-  - Authorized cartridge shops operate exclusively at the **Outer Spire Gates** and immediately adjacent to the **Ward 2 Military Garrisons**.
-  - **Deposit & Pricing Structure:** 1/2 of the cost is a refundable hardware deposit on the insulated catalytic cylinder, and 1/2 is for the charge itself.
-  - **Returns for Deposit:** Returning any cylinder (charged or spent) redeems the deposit.
-  - **Full Refund on Unused Sealed Cartridges:** Factory-sealed cartridges that pass a charge test receive a **full 100% refund** (deposit + charge).
+- **Cartridges & Radiant Converter Modules Strictly Illegal in the Spire:**
+  - While owning an unloaded firearm chassis or an unconverted radiant weapon chassis is legal, **carrying or possessing charged military Neither Cartridges or active Radiant Weapon Converter Modules within the interior municipal circles of the Spire is extremely illegal** (treated as sabotage, illicit armament, or treason).
+- **The Spire Mandate: Converter Modules for Radiant Weapons:**
+  - Because Great Spires broadcast continuous wireless radiant power through the Neither medium, a radiant weapon could theoretically draw limitless electrical energy directly from the ambient air.
+  - To prevent catastrophic shootouts or unauthorized continuous weapon discharge inside populated circles, **Crown Law strictly mandates that all radiant weapons operated within Spire jurisdiction must incorporate a standardized, detachable Converter Module** to interface with the ambient radiant grid.
+  - Without an installed converter module, the weapon's inductive receptor coils are mechanically decoupled and inert, incapable of harvesting radiant current from the air.
+  - **Converter modules are classified and regulated under the exact same legal framework as military cartridges**: locked in guardhouse armories, strictly forbidden from civilian transit, and requiring identical military/bureaucratic checkout procedures or warrants.
+- **Ambient Bleed, Illicit Low-Power Converters & Dynamic Frequency Security:**
+  - **Ambient Grid Bleed & Illicit Low-Power Converters:** Due to massive radiant energy bleed from spire streetlights, industrial lifts, and domestic utilities, black-market machinists and Warren tinkerers can relatively easily fabricate crude, bootleg converter modules. However, these bootleg units are only capable of pulling **low-power trickle current**—sufficient to run small civilian tools or fire radiant weapons at diminished, low-power effectiveness.
+  - **The Dynamic Frequency Shift Measure:** As a fundamental security protocol developed in the early days of NeitherTeck, central dynamos continuously vary the **frequency, phase oscillation, and resonance pattern of stored and broadcast radiant power**.
+  - **High-Energy Converter Bulk & Intense Checkout Monitoring:** High-energy radiant converters are among the most strictly regulated and closely watched pieces of hardware in the realm. The risks posed by unregulated high-radiant energy—catastrophic grid surges, unauthorized siege discharge, and mass-casualty energy blasts—are so severe that **high-energy converters are intentionally designed and manufactured to be extremely large, heavy, and conspicuous**. Their sheer physical bulk prevents clandestine concealment beneath civilian coats or small bags. Even when authorized, each unit is registered by a stamped serial number, logged with strict checkout timestamps, and tracked under constant watch.
+  - **Generator Pattern Adjustments (Grid Recalibration):** Spires and military generator stations have the ability to **alter the master pattern and timing of their energy release** (whether as routine security rotations, during civil unrest, or upon suspected unauthorized tapping). Whenever a generator alters its release pattern, **all authorized high-radiant converters connected to that grid immediately require precise mechanical and resonance adjustments** by trained technicians to re-synchronize. Unadjusted or bootleg converters immediately decouple and drop dead, nullifying rogue high-energy weaponry across the district.
+  - **High-Radiant Coupling Constraint (Calibration & Operator Skill):** To draw the massive current required for **High-Power Radiant operation** (delivering full ballistic damage, full range, and maximum capacitor cycling), a weapon requires an official, precision-crafted **calibrated converter module** synchronized to the current broadcast pattern, as well as an operator possessing the technical skill to calibrate and synchronize the device during operation. Without this synchronization, radiant devices cannot access high energy levels.
+- **Gate Depots & Military Ward Cartridge & Converter Exchanges:**
+  - Authorized cartridge and converter shops operate exclusively at the **Outer Spire Gates** and immediately adjacent to the **Ward 2 Military Garrisons**.
+  - **Deposit & Pricing Structure:** 1/2 of the cost is a refundable hardware deposit on the insulated catalytic cylinder or converter module casing, and 1/2 is for the charge / municipal grid activation seal.
+  - **Returns for Deposit:** Returning any cylinder or converter module (functional or spent) redeems the deposit.
+  - **Full Refund on Unused Sealed Units:** Factory-sealed cartridges and untouched converter modules that pass verification receive a **full 100% refund** (deposit + fee).
 
 ### Gunpowder Prohibition & Estate Ammunition Rites
 
@@ -178,8 +195,8 @@ Because black powder is violently unstable outside the pure Aither (possessing a
 
 Carrying martial weapons or fielding armed escorts through the municipal circles requires formal legal dispensation:
 
-- **King's Rite (Firearms & Cartridge Retinues):**
-  - By **King's Rite** (a sovereign patent bearing the royal seal), a high-ranking individual may be granted the extraordinary legal privilege of maintaining armed bodyguards equipped with firearms and cartridges.
+- **King's Rite (Firearms & Cartridge/Converter Retinues):**
+  - By **King's Rite** (a sovereign patent bearing the royal seal), a high-ranking individual may be granted the extraordinary legal privilege of maintaining armed bodyguards equipped with firearms, live cartridges, and radiant converter modules.
   - This privilege is almost exclusively reserved for the **25 Great Houses, high nobility, Wall Merchants, and senior government ministers**. King Macelus seldom approves this rite for anyone outside the ruling elite.
 - **Ward-Level Rites (Swords & Crossbow Retinues):**
   - Ward-level charters, granted by the local Alderman or Privy Council magistrate, can authorize a citizen to employ security retainers armed with **dueling swords, broadswords, or crossbows**.
@@ -194,20 +211,20 @@ Carrying martial weapons or fielding armed escorts through the municipal circles
   - When an individual, expeditionary team, or adventuring party is **actively departing the spire**, traveling to an outer gate, or preparing to descend into the hazardous **Warrens**, armor restrictions are waived, permitting travelers to openly wear heavy mail, breastplates, or full plate harness.
   - **Strict Weapon Packaging in Public Spaces:** Even during departure, **weapons must remain clearly packed in a manner that renders them completely unusable** while passing through any public municipal corridors, lift stations, or market avenues. Large blades, bows, polearms, and uncharged firearms must be tightly wrapped in oilcloth, bound with sealed leather straps, or secured inside locked wooden weapon crates.
   - **Unpacking Only Beyond Public Boundaries:** Weapons **may only be unpacked, unbound, and readied after the party has completely cleared the public areas of the Spire**—specifically once past the fortified Outer Gates into the countryside, aboard a departing airship, or beyond the secured Ward Gate checkpoints entering the unpoliced depths of the Warrens.
-- **The Warrens Exception & Cartridge Arrangements:**
+- **The Warrens Exception & Cartridge/Converter Arrangements:**
   - Descending into the lawless lower circles of the Warrens or the subterranean deep Warrens/Tombs presents lethal dangers.
-  - If a group possesses sufficient **social influence, guild standing, or bribery coin** to convince the **Ward Gate Guards** that they are embarking on a legitimate, high-risk foray into the deep Warrens, they can make special legal arrangements to check out and carry **charged Neither cartridges** directly through the ward check-points.
+  - If a group possesses sufficient **social influence, guild standing, or bribery coin** to convince the **Ward Gate Guards** that they are embarking on a legitimate, high-risk foray into the deep Warrens, they can make special legal arrangements to check out and carry **charged Neither cartridges or radiant converter modules** directly through the ward check-points.
 
 ### Wartime Crisis Conscription & Emergency Armament Authority
 
-The final, absolute, and most important legal exception to all weapons, armor, and cartridge restrictions occurs during times of civic crisis or military peril:
+The final, absolute, and most important legal exception to all weapons, armor, and cartridge/converter restrictions occurs during times of civic crisis or military peril:
 
 - **Universal Conscription Power:**
   - In times of crisis—such as a hostile airship siege, a catastrophic Neither storm breaching municipal seals, a massive Warrens uprising, or surface warband incursions—the **Crown Military**, the **King's Guard**, and designated **Commanders in charge of Spire control and municipal defense** possess the sovereign legal authority to **draft any citizen into service on the spot**.
 - **Absolute Command Over Armament & Armor:**
-  - When conscripted, all peacetime weapon bans, peacetime armor limits, and cartridge prohibitions are instantly superseded. 
-  - The commanding officers hold the sole authority to determine **what weapons, firearms, cartridges, and armor any conscripted citizen may carry, equip, and utilize in defense of the Spire**.
-  - During the declared crisis event, citizens operating under military or King's Guard command may freely bear heavy plate, martial polearms, and loaded Neither rifles in public corridors without risk of constable interference. Once the emergency is officially stood down by military command, all issued arms, cartridges, and heavy war gear must be returned to the garrisons, and normal civilian restrictions immediately resume.
+  - When conscripted, all peacetime weapon bans, peacetime armor limits, and cartridge/converter prohibitions are instantly superseded. 
+  - The commanding officers hold the sole authority to determine **what weapons, firearms, cartridges, converter modules, and armor any conscripted citizen may carry, equip, and utilize in defense of the Spire**.
+  - During the declared crisis event, citizens operating under military or King's Guard command may freely bear heavy plate, martial polearms, and loaded Neither rifles or active radiant emitters in public corridors without risk of constable interference. Once the emergency is officially stood down by military command, all issued arms, cartridges, converter modules, and heavy war gear must be returned to the garrisons, and normal civilian restrictions immediately resume.
 
 ---
 

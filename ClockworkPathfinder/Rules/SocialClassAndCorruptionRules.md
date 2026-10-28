@@ -27,6 +27,11 @@ Social standing is tracked on a numeric tier scale (-1 to 9), with a character's
 ### Status Mechanics & Upkeep
 - **Lifestyle Upkeep:** Characters must expend wealth commensurate with their status tier each month. Failing to maintain appearances causes a loss of status tier or standing within their house/guild.
 - **Institutional Backing:** If an artisan leaves their guild, a soldier deserts, or a merchant house goes bankrupt, their status immediately drops to Citizen (Status 1) or Indentured (Status –1).
+- **Class Fluidity vs. Influence Class Status Dependency:**
+  - Most classes (Soldiers, Brutes, Scouts, Pugilists, Alchemists) can easily shift across social classes without affecting their combat effectiveness, directives, or class features outside standard social reaction penalties.
+  - **The Noble & Merchant 3/4 Connection Loss Rule:** By contrast, the **Noble** and **Merchant** classes rely intrinsically on institutional legitimacy:
+    - **Nobles** must maintain **Noble Status (Status 5+)**. If stripped of rank, disowned, or exiled, they retain directives and combat feats, but **immediately lose 3/4 (75%) of all primary domain high-society connections, patrons, and council favors**. The **player chooses which 1/4 (25%) remains loyal**.
+    - **Merchants** must maintain **Merchant Status (Status 3+)**. If bankrupted, defaulted, or blacklisted by the guilds, they retain directives and skills, but **immediately lose 3/4 (75%) of all primary domain commercial connections, trade credit, and guild favors**. The **player chooses which 1/4 (25%) remains loyal**.
 - **Social Friction:** Characters interacting with social strata significantly above or below their own suffer circumstance penalties to social skill checks (Diplomacy, Deception, Intimidation) proportional to the gap, unless introduced by a recognized patron.
 
 ---
