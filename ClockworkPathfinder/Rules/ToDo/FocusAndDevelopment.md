@@ -65,41 +65,49 @@
 
 ## 2. New Class Polish & Subsystem Testing
 
-### A. The Merchant Class (Non-Magical Bard Replacement)
-- **Reference:** `ClockworkPathfinder/Classes/Merchant.md`
-- **Focus Areas:**
-  - **Action Economy:** Test *Commercial Directives* in active combat. Ensure shouting economic incentives and tactical contracts feels as fluid and impactful as Bardic compositions without overshadowing the Officer's secular commands.
-  - **Downtime & Social Influence:** Build a robust subsystem for the Merchant's financial investments, trade house credit lines, and merchant fleet contracts.
+## 2. Class Polish, Subsystem Calibration & Current Open Issues
 
-### B. The Clockwork Engineer vs. Artisan Division
-- **References:** `ClockworkPathfinder/Classes/ClockworkEngineer.md`, `ClockworkPathfinder/Classes/Artisan.md`
+### A. The Merchant Class: Combat Action Economy & Directives (Active Issue)
+- **Reference:** `ClockworkPathfinder/Classes/Merchant.md`
+- **Current Issue:** While the Merchant dominates socially and financially in Spires (Rating A), their turn-by-round combat options on a tactical battlemap feel undefined beyond firing a light pistol or shouting broad directives.
 - **Focus Areas:**
-  - **Role Clarity:** Verify that the thematic boundary remains crisp—Clockwork Engineers invent high-concept experimental Neither-tech, arc emitters, and airship apparatuses; Artisans condition materials, reinforce physical armor/weapons, exploit structural flaws, and command mundane tradecraft (forges, tanning vats, masonry).
-  - **Field Crafting Economy:** Test the Artisan's *Reinforced Workmanship* (+1 to +3 gear conditioning) to ensure stacking bonuses don't break PF2e's tight numerical math (+1 fundamental rune equivalencies).
+  - **Tactical Directives:** Codify 3–4 specific, active combat Actions and Reactions (e.g., *Bounty Designation*, *Retainer Intercept*, *Credit-Line Surge*, *Distracting Bribery*) so the Merchant has engaging choices on rounds 2, 3, and 4.
+  - **Financial Subsystems:** Balance credit-line procurement of high-tier `[Military]` or `[Professional]` Neither items against downtime investment returns.
+
+### B. The Clockwork Engineer vs. Artisan Division (Active Issue)
+- **References:** `ClockworkPathfinder/Classes/ClockworkEngineer.md`, `ClockworkPathfinder/Classes/Artisan.md`
+- **Current Issue:** Both are Type 4 High-NeitherTeck classes keying off Intelligence and Crafting. At the table, players need a sharp distinction between their roles.
+- **Resolved Division:**
+  - **Artisan (Logistical Backbone):** Specializes in **Passive Loadout Capacity**, institutional manufacturing, party-wide equipment conditioning (+1 to +3 non-magical bonuses), structural vulnerability exploitation, and mundane tradecraft.
+  - **Clockwork Engineer (Combat Overclocker):** Specializes in **Active Surge prototype overclocks**, unstable mechanical innovations (Armor or Weapon), Overdrive burst damage, and high-risk field discharges.
 
 ### C. The Scholar's Analytical Stratagems
 - **Reference:** `ClockworkPathfinder/Classes/Scholar.md`
 - **Focus Areas:**
-  - Test the three specialties (Architect, Accountant, Natural Philosopher) in complex tactical encounters. Ensure that substituting Intelligence for attack rolls and diagnosing enemy structural flaws remains balanced against the Inspector's pure forensic focus.
+  - Test the three specialties (Architect, Accountant, Natural Philosopher) in complex tactical encounters. Ensure that substituting Intelligence for attack rolls and diagnosing enemy structural flaws remains balanced against the Inspector's forensic debuffs.
 
-### D. NeitherTeck & Clockwork Systems (Codified in `ClockworkPathfinder/Rules/NeitherTeck/NeitherTeckRules.md`)
-- **Reference:** `ClockworkPathfinder/Rules/NeitherTeck/`, `AISummary/10_Magic.md`, `AISummary/00_RulesFoundation.md`
-- **Status:** **Rules Standardized & Codified**
-  - **Round-by-Round Activation Points (AP):** $\text{AP} = \text{INT} + \text{Class Base AP} + \text{Level Progression Bonus}$.
-  - **Class Base & Scaling Tiers:**
-    - **Type 4 (High NeitherTeck):** +4 Base AP; scales +1 AP every 3 levels (Levels 3, 6, 9, 12, 15, 18). *Scholar, Artisan, Clockwork Engineer.*
-    - **Type 3 (Specialist / Moderate NeitherTeck):** +3 Base AP; scales +1 AP every 4 levels (Levels 4, 8, 12, 16, 20). *Inspector, Clockwork Rifleman* (reduces ranged NeitherTeck weapon AP cost by –1 at 1st, –2 at 6th, –3 at 12th, –4 at 18th level; min 1), *Chirurgeon, Mad Bomber* (strength: concoctions/bombs work reliably across all environments).
-    - **Type 2 (Tactical Operatives):** +2 Base AP; scales +1 AP every 4 levels (Levels 4, 8, 12, 16, 20). *Officer, Sky Captain, Survivor, Scout.*
-    - **Type 1 (Dedicated Martials & Brawlers):** +1 Base AP; scales +1 AP every 5 levels (Levels 5, 10, 15, 20). *Soldier, Brute, Pugilist, Dandy.*
-    - **Special (Influence Specialist):** +2 Base AP; scales +1 AP every 4 levels. *Merchant* (social leverage, contracts, commercial directives).
-  - **The Three Radiant Energy Environments:**
-    - **Tier 1 (Spire Sovereign Grid):** Unlimited ambient energy; heavy grid weapons and barrier apparatuses run at maximum output. *Scholars and Artisans dominate combat.* Dandies and Pugilists dominate civil high-society wards where military weapons are prohibited.
-    - **Tier 2 (Radiant Outposts & Airships):** Local broadcast perimeter (~2–5 miles). Balanced combined arms combat.
-    - **Tier 3 (Wild / Outland Wastes):** Zero radiant energy; requires self-powered sealed cartridges. When cartridges deplete, *Martials (Soldiers, Brutes, Scouts) dominate with steel, bows, and athletic maneuvers.*
-  - **Point Cost Mechanics:** Per-Action costs (weapons, surgical stims, caustic grenades) vs. Per-Turn Sustained costs (deflection screens, kinetic dampeners, pneumatic rigs).
-- **Focus Areas for Playtesting:**
-  - Run Spire siege scenarios comparing high-AP Scholar/Artisan heavy arquebus volleys against incoming forces.
-  - Stress-test outland wilderness delves where cartridge depletion shifts combat reliance back to martial weapons.
+### D. Survivor: Urban Infiltration & Intrigue [RESOLVED]
+- **Reference:** `ClockworkPathfinder/Classes/Survivor.md`
+- **Resolution:** Updated to establish the Survivor as the premier master of **Stealth, Thievery (lockpicking), and Deception** in Spires and urban centers. Added *Urban Infiltration Mastery* (+1 circumstance bonus to lockpicking, hiding, and impersonation in civil settlements) and synergy with `[Clandestine]` and `[Professional]` tags.
+
+### E. Chirurgeon & Mad Bomber: Core Ability AP Autonomy [RESOLVED]
+- **References:** `ClockworkPathfinder/Classes/Chirurgeon.md`, `ClockworkPathfinder/Classes/MadBomber.md`, `ClockworkPathfinder/Rules/NeitherTeck/NeitherTeckRules.md`
+- **Resolution:** All personal class features, quick concoctions, field vials, medical sera, auto-injectors, demolition charges, and infused bombs cost **0 Active Surge AP** for the creator. AP costs apply only when handing items to untrained allies or when operating external energy/clockwork tech.
+
+### F. Miner Consolidation into Scout [RESOLVED]
+- **Reference:** `ClockworkPathfinder/Classes/Scout.md`, `AISummary/30_ClassEnvironments.md`
+- **Resolution:** The Miner class was consolidated into the **Scout** as the subterranean sapper and deep delver path. All standalone Miner files and references were purged, and Scout now commands both surface outriding and deep excavation.
+
+### G. NeitherTeck Dual-Economy System [RESOLVED & STANDARDIZED]
+- **Reference:** `ClockworkPathfinder/Rules/NeitherTeck/NeitherTeckRules.md`, `Weapons.md`, `TacticalRigs.md`, `AISummary/10_Magic.md`, `AISummary/30_ClassEnvironments.md`
+- **Codified Mechanics:**
+  - **Dual-System Resource Split:**
+    - **Passive Loadout Capacity:** $\text{Higher of Str or Con mod} + 1\text{ per even level}$ (Scholars, Artisans, Merchants use best of Int, Str, Con). Committed once during morning prep for breathing units, hazard filters, and ballistic linothorax. **Zero combat round math.**
+    - **Active Surge AP:** $\text{INT mod} + \text{Class Base AP} + \text{Level Progression Bonus}$. Refreshes per round; spent strictly on Actions and Reactions.
+  - **Equipment Discipline Tags & Synergy Discounts:** Standardized 9 tags (`[Biochemical]`, `[Mechanical]`, `[Military]`, `[Airships]`, `[Professional]`, `[Technical]`, `[Clandestine]`, `[Subterranean]`, `[Outlands]`). Trained classes gain an innate **–1 to –2 AP discount** (min 1 AP), eliminating the martial attribute tax.
+  - **Hard Dependency Rule:** NeitherTeck energy firing mechanisms have **zero mundane fallback**; outside radiant grids (>5× generator distance), out of cartridges, or in pure Aither, energy weapons are completely dead.
+  - **Auxiliary Attachments:** Ranged weapons can equip physical **affixed bayonets** (1d6 piercing/slashing) or **reinforced grips** (1d4 bludgeoning pistol whips) that function unpowered at 0 AP.
+
 
 ---
 
@@ -137,7 +145,7 @@
 ### E. Understanding Integration into Character Classes
 - **Reference:** `ClockworkPathfinder/Rules/Skills.md`
 - **Focus Areas:**
-  - **Class Document Updates:** Systematically update all 17 class files under `ClockworkPathfinder/Classes/` to list their starting Understanding allocation formula (`2 Automatic + Class Base [1 to 4] + Cha Modifier`) and suggested starting Focuses.
+  - **Class Document Updates:** Systematically update all 16 player class files under `ClockworkPathfinder/Classes/` to list their starting Understanding allocation formula (`2 Automatic + Class Base [1 to 4] + Cha Modifier`) and suggested starting Focuses.
   - **Phase 1 & Phase 2 Playtesting:** Test the dual-attribute mechanism in heist and investigation scenarios to ensure the DC scaling between Focus and Broad inquiries feels rewarding without stalling social encounters.
 
 ### F. Real-World Skill Bounds & Feat Replacement Index
