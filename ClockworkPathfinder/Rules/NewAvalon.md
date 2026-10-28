@@ -150,14 +150,17 @@ Ward 1: Labor Ward            (Underground low circle, portals to surface fields
 ### Ward 3: The Food Processing Ward
 - **Dimensions:** 3 circles, each **200 feet tall**.
 - **Ventilation & Warehousing:** Solid, heavily reinforced architecture with no open viewports. Massive intake vents (**10 feet tall by 5 feet wide, spaced 10 feet apart**) pierce the outer hull to circulate air. The entire ward is packed with multi-story granaries, fungal curing vats, Mela flour processing mills, and sealed dry warehouses.
+- **Economic Reality & Pin Usage:** The processing mills employ a massive underclass of threshers, vat-stirrers, and haulers. While supervisors and guild factors are paid in Slivers, the day-laborers and scullery workers rely heavily on **Pins** to buy bruised fungal cuttings, scorched mela crusts, or thin gutter broth from canteen stalls, and to settle daily debts with one another.
 
 ### Ward 4: The Lower Slums ("The Lost Ward" / "The Loser Ward")
 - **Dimensions:** 3 circles, each **200 feet tall**.
 - **Living Conditions:** The absolute lowest rung of civic life within the legal spire. Home to bankrupt debtor families, broken laborers, and the destitute. While conditions are grim, Ward 4 is significantly safer than the lawless Warrens behind it: municipal constables and King's Guard patrols—though spread thin—still actively patrol the streets and enforce Crown Law.
+- **Micro-Economy & Scrap Markets:** Pins are the lifeblood of Ward 4's street barter. Residents buy patched secondhand rags, cast-off shoe leather, rusty nails, and day-old vat dregs strictly with Pins. The few better-off residents (tenement overseers, off-duty constables, or petty pawn brokers) conduct their business in Slivers.
 
 ### Ward 5: The Upper Slums ("Pensioners & Orphans Ward")
 - **Dimensions:** 3 circles, each **200 feet tall**.
 - **Living Conditions:** Marginally cleaner than Ward 4. Dedicated to municipal charities, elderly guild pensioners, war widows, and institutional orphanage workhouses. Inhabitants survive on small stipends, church charities, or second-hand scrap markets.
+- **Pin Economy & Subsistence Debt:** Pensioners and orphanages trade in Pins for mended clothes, thimbles of lard, and boiled vegetable peelings. For the destitute, Pins serve as an informal ledger to track small community debts, barter household chores, or pay older orphans for protective escorts through dark stairwells. Those with steady guild stipends conduct formal purchases in Slivers.
 
 ### Ward 6: Mid-Tier Transition Ward
 - **Dimensions:** 3 circles, each **200 feet tall**.
@@ -167,6 +170,17 @@ Ward 1: Labor Ward            (Underground low circle, portals to surface fields
 ### Wards 7, 8, & 9: The Worker Wards (Lower, Mid & Upper)
 - **Dimensions:** 3 circles each, **200 feet tall**.
 - **Characteristics:** Dense, bustling middle-class neighborhoods filled with residential tenements, municipal clerk offices, small taverns, and retail stalls. Connected to adjacent levels by heavy freight elevators (7↔8).
+- **Economic Stratification (Slivers vs. Pins):**
+  - **The Better-Off Majority:** Established shopkeepers, journeymen craftsmen, municipal clerks, and steady factory workers conduct nearly all transactions in **Slivers** (and Labors for weekly rent or wholesale trade).
+  - **The Poorest Workers:** Janitors, night-soil haulers, apprentice urchins, and casual dock loaders live on the economic fringe of Wards 7–9. They rely on **Pins** to buy threadbare secondhand clothing from back-lane carts, purchase yesterday's stale mela loaves or scrap vegetable broth, and keep track of mutual debts between paydays.
+
+### Spire-Wide Micro-Favors & Errand Runners (All Wards)
+Across **all wards of the spire**—from the working districts down through the lower circles—**Pins see constant small-scale use among those who are not well off to hire children to run errands or perform favors**:
+- Carrying messages between tenement blocks or workshop floors.
+- Waiting in long communal water-spigot lines or carrying heavy buckets of wash-water.
+- Watching delivery carts while an artisan is inside a building.
+- Running hot mugs of tea or small meat-pie scraps from street vendors to shop assistants.
+Paying a child a single Pin (or two Pins for a long flight of stairs) is the universally recognized custom among the working classes for minor tasks too small to justify spending a full Sliver.
 
 ### Ward 10: The Garden Ward
 - **Dimensions:** 3 circles, each **200 feet tall**.
@@ -210,10 +224,10 @@ Ward 1: Labor Ward            (Underground low circle, portals to surface fields
 ### The Warrens (Levels 1 through 13)
 Burrowed deep into the interior mountain mass (**1/2 to 1 mile behind the wards**) lie the Warrens. Separated from the civilized wards by thick bedrock or vast natural chasms bridged by waste conduits:
 - **Sewage Agriculture:** Municipal runoff, industrial wash-water, and human sewage are drained across the divide into the Warrens. Using these supplies, underclass fungus farmers cultivate vast beds of **Mela** and raw mushrooms for survival.
-- **The Toll Gate:** Moving between the civilized Wards and the Warrens requires crossing guarded checkpoints and paying a steep toll of **12 Pins to 1 Crown**—a fee so exorbitant that most Warrens dwellers are permanently trapped inside.
+- **The Toll Gate:** Moving between the civilized Wards and the Warrens requires crossing guarded checkpoints and paying a steep toll of **12 Pins to 1 Labor**—a fee so exorbitant that most Warrens dwellers are permanently trapped inside.
 - **Goblinization (90% Population):** Saturated by constant ambient Neither, deprived of sunlight, and subsisting entirely on raw Neither fungi, **90% of the Warrens population has degenerated into Goblins (Type 3a/4c)**. Only the remaining 10% maintain enough fresh food or coin to preserve standard human physiology.
 - **Wards 1–12 Warrens (Lawless Brink):** Utterly abandoned by Crown Law. Outside of targeted military extractions or treason investigations, constables never enter. Ruled openly by violent gangs, black-market cartels, and fighting pits.
-- **Ward 13 Warrens (The Gentleman's Underworld):** Completely distinct from lower levels. Constables maintain a permanent year-round presence. Underworld syndicate bosses **Johnny Ralen** (North) and **Amanda Coren** (South) split territorial control, running respectable gambling halls and discreet clubs that pay Crown taxes, while charging a **1 Crown toll** to guard the iron gates descending into the lower Warrens.
+- **Ward 13 Warrens (The Gentleman's Underworld):** Completely distinct from lower levels. Constables maintain a permanent year-round presence. Underworld syndicate bosses **Johnny Ralen** (North) and **Amanda Coren** (South) split territorial control, running respectable gambling halls and discreet clubs that pay Crown taxes, while charging a **1 Labor toll** to guard the iron gates descending into the lower Warrens.
 
 ### The Tombs (Levels 1 through 9, Deep Subterranean)
 Lying deeper than the Warrens within the ancient, lightless mountain core:

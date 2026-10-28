@@ -4,7 +4,7 @@
 - **Base System:** Pathfinder 2e Remaster `[Player Core (PC1), Player Core 2 (PC2), Guns & Gears (G&G)]`
 - **Location:** `ClockworkPathfinder/Equipment/EquipmentCatalog.md`
 - **Precedence:** Rules in `AISummary/00_RulesFoundation.md`, `AISummary/10_Magic.md`, `ClockworkPathfinder/Rules/RangedWeapons.md`, and canon in `AISummary/WorldSummary.md`.
-- **Currency System:** Standard PF2e denominations (Copper `cp`, Silver `sp`, Gold `gp`, Platinum `pp`) representing Arclean sovereign coin and trade scrip.
+- **Currency System (Industrial Hard-Alloy Standard):** Official Arclean coins: **Sliver (`Sl` = 1 cp)**, **Labor (`L` = 1 sp / 10 Sl)**, **Nobel (`N` = 1 gp / 100 Sl)**, **Prince (`Pr` = 10 gp / 1 pp / 1,000 Sl)**, and **Sovereign (`Sov` = 100 gp / 10 pp / 10,000 Sl)**. All catalog items convert directly at **1 cp = 1 Sliver**. Standard merchants never accept Pins; Pins (`P`, 10 P = 1 Sl / 1 cp) are restricted to Warrens second-hand clothes/food, exchangeable only in micro-transactions under 5 Slivers.
 - **Social Class Equipment Profiles:** Loadouts by social backing (Daily Urban Carry, Neither Expedition vs. Orc Raids, and Spire Defense Mobilization) are documented in [`ClockworkPathfinder/Equipment/SocialClassEquipment/`](file:///c:/Users/mncoc/OneDrive/Documents/Git/ClockworkCities_Pathfinder/ClockworkPathfinder/Equipment/SocialClassEquipment).
 
 ---
@@ -137,3 +137,62 @@ Reflecting food classes and fungal agriculture from `AISummary/WorldSummary.md`.
 | **Bottled Pure Aither Water (Ward 13 Well)** | 2 sp | L | `[New]` | Condensed clean rainwater collected above the Zone. |
 | **Warrens Sump Stout / Sycelium Ale** | 2 cp | L | `[New]` | Bitter fermented fungal brew popular among laborers and dockhands. |
 | **Fine High-Ward Brandy (Vintage 1845)** | 5 gp | 1 | `[PC1 p.294]` | Distilled fruit liquor traded from noble estates in the upper spire. |
+
+---
+
+## 7. Enhanced Items, Rare Materials & Clockwork Components
+
+In Clockwork Cities, traditional supernatural magic item enhancement (such as `+1` to `+3` fundamental weapon potency, striking, armor potency, and resilient runes) is **completely replaced by secular metallurgical refinement, rare biological harvesting, and precision clockwork assemblies**.
+
+### Rare Material Enhancement Tiers
+
+Enhancement bonuses reflect the intrinsic physical toughness, edge retention, and kinetic dispersion of rare materials rather than magical enchantments:
+
+#### Tier 1 (+1 Fundamental Enhancement)
+Standard `+1 Potency` weapon and armor enhancements are crafted exclusively from three foundational rare materials:
+- **Ebon Leather (Armor & Grips):** A dense, oily, midnight-black hide harvested from heavily Neither-corrupted creatures that have adapted to chronic exposure. Exceptionally difficult and dangerous to skin and tan without absorbing caustic Neither-toxins, yielding superior slash resistance and supple resilience.
+- **Niracrest Metal (Weapons & Plating):** A rare, iridescent blue-grey ore found in deep-rock subterranean veins that has been naturally infused with Neither over millennia. Extremely difficult to prospect and forge; requires specialized high-heat flux to smelt, but yields blades that hold a supernatural razor edge and armor plates that disperse kinetic shock.
+- **Niracrest Weave (Clothing & Padded Armor):** Premium luxury fabrics where core threads are replaced with microscopically drawn, spun Niracrest wire. Woven into fine wool frock coats, waistcoats, and silken under-linings, granting hidden ballistic and puncture resistance while remaining indistinguishable from fashionable high-society attire.
+
+#### Tier 2 (+2 Fundamental Enhancement)
+Standard `+2 Potency` and `Striking` enhancements represent apex guild metallurgical masterworks:
+- **Gildrod Leather (Armor & Grips):** Harvested exclusively from the fiercest, apex predator behemoths roaming the wild, unmapped depths of the Neither. Tanned using closely guarded secret guild processes involving catalyst salts and pressurized steam curing. Virtually impervious to tearing and blunt impact.
+- **Mitheral Metal (Weapons & Plating):** An extraordinarily rare, lightweight ore found only in the deepest, most dangerous subterranean shafts. Significantly lighter and tougher than standard steel, Mitheral holds an astonishing, self-truing razor edge that cleaves through armor without dulling.
+- **Mitheral Weave (Clothing & Padded Armor):** Masterwork garments interlinked with spun Mitheral filament. Worn by high nobility, royal investigators, and elite duelists; feather-light yet capable of halting high-caliber lead rounds and rapier thrusts.
+
+#### Tier 3 to Tier 5 (+3 to +5 Legendary Enhancement)
+At legendary levels of enhancement (`+3` and beyond), materials cease to follow standardized guild trade names. They bear **diverse regional, historical, and geological names** depending on their origin:
+- Ancient pre-collapse alloys recovered from Era 1 ruins (e.g., *Adamantine-Neither composites, Tempered Aegis-Steel*).
+- Deep-abyss crystalline carapaces harvested from Level 6 abyssal leviathans.
+- Meteoritic sky-iron captured from Zone lightning-struck aerolites.
+- Specialized secret royal alloys formulated strictly for the King's Guard and royal regalia.
+
+### Clockwork Item Parts (Replacing Magic & Special Abilities)
+
+Special weapon/armor property effects (traditionally granted by magical runes such as *Flaming, Frost, Shock, Speed, Shifting, Returning, Fortifying*) are replaced by **precision mechanical Clockwork assemblies, chemical capsules, and kinetic escapements** that operate strictly within the logic of the world:
+
+| Supernatural Ability | Clockwork Cities Mechanical Replacement | World Logic & Physical Explanation |
+|---|---|---|
+| **Flaming Weapon** | **Phosphorus Strike Chamber** | A grooved blade or hammer head with a miniature spring-fed cartridge feeding white phosphorus onto the impact edge, sparking ignition on a solid strike. |
+| **Frost Weapon** | **Endothermic Siphon Valve** | A pressurized freon/salts capsule along the weapon fuller that rapidly vents endothermic gas upon kinetic impact, chilling flesh and numbing muscles. |
+| **Shock Weapon** | **Piezo-Capacitive Contact Studs** | Brass-inlaid galvanic contact points wired to a compact kinetic flywheel in the weapon pommel, discharging a high-voltage arc on a critical strike. |
+| **Returning Weapon** | **Pneumatic Reel & Cable Gyro** | A micro-wound spring winch and high-tensile braided steel line hidden in a gauntlet or weapon grip that pneumatically recoils a thrown weapon to hand. |
+| **Shifting Weapon** | **Clockwork Articulated Chassis** | A weapon with hinged spring-latches, geared sliding tracks, and interlocking plates that reconfigures its form (e.g., cane to sword, axe to halberd) with a thumb release. |
+| **Fortifying Armor** | **Kinetic Inertia Buffers** | Spring-loaded internal counterweight dampeners within the chestplate that compress on heavy impacts, dispersing blunt trauma before it reaches the ribs. |
+| **Speed Weapon** | **Escapement Overclock Governor** | A miniature tensioned mainspring in the weapon's balance point that releases assisted momentum during recovery, shaving fractions of a second off follow-up swings. |
+
+### Environmental Degradation & Decay (Neither vs. Aither Items)
+
+The deep physical incompatibility between the conductive, heavy Neither and the pure, reactive Aither causes physical degradation when crafted items are brought outside their native atmospheric strata:
+
+#### Neither-Crafted Items in Pure Aither (Strata 1)
+- **Base Material Resilience:** When brought into the pure Aither, Neither-crafted enhanced items (Ebon Leather, Niracrest, Gildrod Leather, Mitheral, etc.) **continue to provide their fundamental base material benefits** (toughness, razor sharpness, damage resistance). 
+- **Clockwork Stoppage:** All active clockwork parts, piezo-capacitive contact points, pneumatic releases, and kinetic escapements **immediately stop working** due to the total absence of Neither particle flux and ambient resonance.
+- **Atmospheric Leaching & Decay:** Prolonged exposure to pure Aither chemically leaches the Neither-infused properties from the material:
+  - For every **1 week to 1 month** an item remains continuously exposed to pure Aither, it suffers structural degradation, **losing a +1 enhancement bonus** (e.g., a `+2` weapon degrades to `+1`, and a `+1` weapon degrades to mundane).
+
+#### Elven-Built Items in the Neither & Zone (Strata 2–6)
+- **Complex Polymers & Micro-Structures:** Masterwork Elven gear—crafted in the clean Aither using complex chemical polymers, delicate crystalline lattices, and micro-tensioned laminates—is hyper-vulnerable to the corrosive, corrupting medium of the Neither and the Zone (Strata 2):
+  - **Rapid Decay in Raw Exposure:** Direct, unsealed exposure to the Neither or Zone causes Elven items to rapidly oxidize and embrittle, **losing a +1 enhancement bonus per day of exposure**.
+  - **Hermetic Sealed Canisters (The Zone Rule, Strata 2):** If Elven weapons, gear, or gunpowder are stored inside **specially engineered, hermetically sealed brass/lead canisters** (similar to how black powder must be protected in the Zone), the Neither can be kept out for **months**.
+  - **Canister Monthly Degradation Check:** While secured in sealed containers within the Zone (Strata 2), roll each month: there is a **2-in-6 chance (d6 roll of 1–2) every month** that microscopic Neither vapor penetrates the seals, causing the stored item to **lose a +1 enhancement bonus**.

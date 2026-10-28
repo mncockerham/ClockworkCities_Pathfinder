@@ -56,20 +56,34 @@ Transitory wealth represents the physical coinage, pocket cash, and unbonded gea
   - *House Assortment:* High-tier gear, masterwork armor, arc weaponry, industrial vehicles, or airships issued by your sponsor. These items remain property of the House/Crown and are immediately repossessed if your Standing drops or you leave your post.
 - **Item Wear & Fragility [TBD]:** Neither-tech devices and experimental firearms undergo rapid wear. Precision mechanisms operating under high stress suffer durability loss on critical failures (such as a natural 1 on an attack or a jammed cartridge), requiring maintenance by an Artisan or Clockwork Engineer to prevent permanent breakdown.
 
-### Currency System (Decimal Standard)
+### Currency System (Industrial Hard-Alloy Standard)
 
-Coinage in Arclean is strictly decimalized, based on standard stamped denominations:
+The official currency of Arclean and the Great Spires is not made of soft precious metals (gold or silver) easily clipped or scraped, but of an **extremely hard industrial alloy** manufactured through specialized high-temperature metallurgical pressing.
 
-| Coin | Abbreviation | Relative Value | Composition / Common Usage |
-|---|:---:|:---:|---|
-| **Pin** | P | 1 P | Copper pin; cost of a bowl of raw fungal stew or a newspaper |
-| **Bit** | B | 10 P | Stamped brass token; cost of basic street transit or a loaf of Mela bread |
-| **Crown** | CR | 10 B (100 P) | Standard silver-plated coin; daily laborer wage, tavern meal & pint |
-| **Imperial** | I | 10 CR (1,000 P) | Solid silver coin; standard trade unit for durable goods, boots, tools |
-| **Silver Imperial** | S | 10 I (10,000 P) | Heavy hallmarked silver; bulk trade, fine tailored suits, weapons |
-| **Gold Imperial** | G | 10 S (100,000 P) | Pure refined gold; property leases, airship passage, luxury jewelry |
-| **Silver Bar** | SB | 10 G | Heavy mint bar (equal to 110 Silver Imperials in metal weight) |
-| **Gold Bar** | GB | 10 SB | Standard reserve bullion held in central bank vaults |
+#### Physical Nature & Anti-Counterfeiting:
+- **High-Temperature Molded & Pressed:** Official coins (**Sliver** through **Sovereign**) can only be molded and pressed by massive industrial factory equipment at extreme temperatures. This makes duplication virtually impossible without access to crown-controlled municipal forges.
+- **Hard & Shatter-Prone:** The metal is extraordinarily hard and wear-resistant under normal friction, but brittle under catastrophic shock. If struck with sufficient shearing or percussive force (e.g., a heavy hammer blow or a crushing hydraulic vice), the coins will **shatter rather than bend**.
+- **Distinctive Alloy Metallurgy:** Each denomination is minted using a distinct metallic alloy formula, giving every tier an unmistakable coloration, surface luster, ring tone, and density that makes counterfeit coins instantly recognizable to merchants, assayers, and constables.
+
+#### Currency Hierarchy & Denominations:
+
+| Coin | Abbreviation | Relative Value | Pathfinder Remaster Conversion | Composition & In-World Usage |
+|---|:---:|:---:|:---:|---|
+| **Pin** | P | *(Unofficial)*<br>1/10 Sliver | 0.1 cp | **Unofficial Low-Ward & Warrens Scrip:** A crude, stamped wire token or iron pin originating from the deep Warrens. It is **not official legal tender**.<br>• **Strict Retail Rejection:** No standard merchant or formal shop anywhere in the Spires will ever accept Pins for the purchase of standard goods or listed catalog items.<br>• **Underclass Survival & Debt Tracking:** Used by the destitute across the Warrens, **Wards 3–5** (Food Processing, Slums, Pensioners/Orphans), and by the **poorest laborers in Wards 7–9** (sanitation workers, casual dockers) to buy threadbare secondhand clothes, scrap rags, day-old vat crusts, and thin fungal broth, as well as to track small mutual debts between paydays.<br>• **Errand Running & Child Favors (Spire-Wide):** Across all wards, Pins see regular small-scale use among those who are not well off to pay children for running errands, carrying messages, watching carts, or fetching pails of water—minor favors too small to justify spending a full Sliver.<br>• **Exchange Limits:** Within the Warrens and lower slum markets, Pins can be exchanged at **10 Pins = 1 Sliver (1 cp)**, strictly for micro-transactions **under 5 Slivers (under 50 Pins total)**. Anyone trafficking in 5 Slivers or more of Pins is refused or reported.<br>• **King's Guard Oversight:** Monitored tacitly by the King's Guard to allow the poorest members of society to trade and survive without disrupting the formal hard-alloy economy. |
+| **Sliver** | Sl | 1 Sl | **1 cp** | **Official Base Coin:** A dull, dark-slate gunmetal alloy; exceptionally hard and slender. The daily bread and street-transit coin of laborers, dock hands, and common citizens. Cost of a bowl of hot mela stew, a tram ticket, or a common pint. |
+| **Labor** | L | 10 Sl | **1 sp** (10 cp) | **Working Standard Coin:** A dense bronze-sheen industrial alloy. Represents the standard daily wage of a skilled factory worker, apprentice, or watchman. Used for purchasing sturdy work boots, tools, dry rations, or a clean bed in a lodging house. |
+| **Nobel** | N | 10 L (100 Sl) | **1 gp** (10 sp) | **Guild & Mercantile Coin:** A radiant, polished silvery-blue alloy with a high-pitched ring. The standard trade unit for durable goods, weapons, fine tailored wool garments, medical supplies, and freight deposits. |
+| **Prince** | Pr | 10 N (1,000 Sl) | **10 gp** (1 pp) | **High Commerce Coin:** A distinctive lustrous brass-gold alloy, heavy and sharp-edged. Used for wholesale merchant contracts, quality Neither-tech equipment, personal retainers, property leases in middle wards, and airship berths. |
+| **Sovereign** | Sov | 10 Pr (10,000 Sl) | **100 gp** (10 pp) | **Apex Imperial Coin:** An iridescent, deep midnight-violet hardened alloy incorporating rare trace catalyst metals; stamped with the royal crest of King Macelus Wilheart. Used exclusively by the 25 Great Houses, high nobility, royal shipyards, university collegia, and treasury transfers. |
+
+#### Converting Standard Pathfinder 2e Equipment & Costs:
+- **Direct Parity Formula:**
+  - **1 Copper Piece (cp) = 1 Sliver (Sl)**
+  - **1 Silver Piece (sp) = 1 Labor (L)**
+  - **1 Gold Piece (gp) = 1 Nobel (N)**
+  - **10 Gold Pieces (10 gp) = 1 Prince (Pr)**
+  - **1 Platinum Piece (1 pp / 10 gp) = 1 Prince (Pr)**; **10 Platinum Pieces (100 gp) = 1 Sovereign (Sov)**
+- **No Pin Pricing on Standard Goods:** No standard listed item or equipment in the catalogs is ever priced in Pins. All commercial listings begin at Slivers.
 
 ---
 

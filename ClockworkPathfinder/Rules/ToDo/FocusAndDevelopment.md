@@ -192,7 +192,7 @@
 ### G. Spire Logistics, Transit Checkpoints & Smuggling Mechanics
 - **References:** `ClockworkPathfinder/Rules/NewAvalon.md`, `ClockworkPathfinder/Rules/WorldAndLaw.md` (Section 5)
 - **Focus Areas:**
-  - **Vertical Transit Turnaround & Schedules:** Formalize travel durations, fare schedules (Pins/Bits/Crowns), and mechanical delay risks for vertical transit along the **Peasant Paths** (South carriages, North freight, East/West commuters) vs. the high-cost **Noble Path** (North express at 10× cost, East Noble-only, West University-only).
+  - **Vertical Transit Turnaround & Schedules:** Formalize travel durations, fare schedules (Pins/Slivers/Labors), and mechanical delay risks for vertical transit along the **Peasant Paths** (South carriages, North freight, East/West commuters) vs. the high-cost **Noble Path** (North express at 10× cost, East Noble-only, West University-only).
   - **Weapon Packaging & Peace-Bonding Checks:** Mechanics for transporting larger weapons through public corridors (`Stealth / Thievery` vs. Constable `Perception / Understanding: Guard & Military`).
   - **Armor Legality & Constable Spot Checks:** Procedures for constables inspecting civilian armor wear in public corridors (padded/leather civilian standard vs. departure exceptions). Establish social standing / badge protocols for off-duty constables traveling to/from work, and military personnel transporting personal arms under active orders.
   - **King's Guard Gear Authentication & Counterfeit Interception:** Subsystem for verifying genuine King's Guard heraldic metallurgy, livery enameling, and hallmark stamps. Define Investigation/Crafting/Understanding DCs for detecting black-market counterfeit regalia, along with escalating legal stakes (arrest, King's Court treason trials) for unauthorized possession.
@@ -204,7 +204,7 @@
 ### H. Warrens & Tombs Delving Procedures
 - **References:** `ClockworkPathfinder/Rules/NewAvalon.md` (Section 6), `ClockworkPathfinder/Rules/RareHeritages.md`
 - **Focus Areas:**
-  - **Warrens Gate Toll Standoffs:** Procedures for negotiating or bypassing the **12 Pins to 1 Crown** toll gates into the Warrens, including dealing with Johnny Ralen (North) and Amanda Coren (South) in Ward 13, and bribing Ward Gate Guards to authorize cartridge checkout for deep excursions.
+  - **Warrens Gate Toll Standoffs:** Procedures for negotiating or bypassing the **12 Pins to 1 Labor** toll gates into the Warrens, including dealing with Johnny Ralen (North) and Amanda Coren (South) in Ward 13, and bribing Ward Gate Guards to authorize cartridge checkout for deep excursions.
   - **Sewage Conduits & Fungal Cavern Terrain:** Environmental hazards for exploring the chasms between Wards and Warrens—caustic runoff channels, slick fungal shelves, and toxic spore clouds.
   - **Photosensitive Harvest Rules:** Tactical combat complications in fungal cultivation vats where open flame, electric arc discharges, or radiant lamps cause Sycelium crops to rot rapidly, inciting hostile swarm reactions from underclass fungus farmers and goblins.
   - **The Degradation Clock (Goblinization & Troglodyte Drift):** Exploration-mode affliction rules tracking chronic exposure, unpurified sewage diets, and Neither saturation that gradually trigger aberrant physical and cognitive shifts.
