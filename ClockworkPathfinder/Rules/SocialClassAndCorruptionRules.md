@@ -34,6 +34,19 @@ Social standing is tracked on a numeric tier scale (-1 to 9), with a character's
     - **Merchants** must maintain **Merchant Status (Status 3+)**. If bankrupted, defaulted, or blacklisted by the guilds, they retain directives and skills, but **immediately lose 3/4 (75%) of all primary domain commercial connections, trade credit, and guild favors**. The **player chooses which 1/4 (25%) remains loyal**.
 - **Social Friction:** Characters interacting with social strata significantly above or below their own suffer circumstance penalties to social skill checks (Diplomacy, Deception, Intimidation) proportional to the gap, unless introduced by a recognized patron.
 
+### Institutional Legacy & Lineage Succession (Mitigating the Cost of Character Death)
+In a setting where 15% of encounters are lethal Boss Crucibles and 70% are grinding attrition fights, character death is an inevitable, looming reality. To ensure players do not lose the institutional and political progress they have spent months advancing, Clockwork Cities features the **Lineage Succession System**:
+- **The Core Premise:** *"Individuals die; the House, the Guild, and the Regiment endure."*
+- **Encouraged (But Not Mandatory) House/Guild Continuity:**
+  - When a character dies, the player is **strongly encouraged (though never forced)** to create their next character within the same **Family House, Trade Guild, Military Regiment, or Syndicate**.
+  - *Example:* If an Artisan smith dies in the deep Zone, their replacement might be their ambitious journeyman apprentice, an older brother serving as an engineer in the same guild, or a cousin from a branch workshop sent to settle the estate.
+- **What Is Preserved (The Inherited Legacy):**
+  - **Faction Standing & Favors:** The new character inherits the deceased character's accumulated **Standing (-99 to +99)** and institutional trust within that sponsor, modified by a minor "re-proving" tax (starting at the old Standing –10, minimum 0).
+  - **Permanent Institutional Wealth:** Housing rights, laboratory access, workshop benches, carriage allotments, and guild credit lines remain fully intact and immediately transfer to the successor.
+  - **The Transitory Hoard Rule:** The deceased character's **House-issued gear** (chassis, military rifles, armor) is officially reclaimed by the sponsor and re-issued to the successor without cost. Only personal transitory pocket cash and unbonded street gear are lost or left with the corpse.
+  - **Contact & Understanding Hand-off:** The successor automatically inherits up to **half (rounded down)** of the deceased character's specific social contacts and Focus Understandings, representing family diaries, shared workshop ledgers, or briefing notes passed through the institution.
+- **Freedom to Pivot:** If the player chooses *not* to continue the lineage and instead rolls an entirely new character from a different social tier (e.g., abandoning the Machinists' Guild to play a Warrens Survivor or an outland Scout), they start fresh at standard party level and baseline wealth for that new social tier, while their previous house remains in the world as potential allies or rivals.
+
 ---
 
 ## 2. Wealth System: Permanent vs. Transitory Wealth

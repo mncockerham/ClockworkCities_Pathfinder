@@ -63,7 +63,24 @@
   - Test the 28-day rolling window in exploration campaigns where parties alternate between surface Warrens and high Spire circles.
   - Calibrate the monetary cost and availability of Chirurgeon clinical purges (*Mela Cleanse*) and high-ward *Hyperbaric Aither Sanatoriums* during extended downtime.
 
-## 2. New Class Polish & Subsystem Testing
+### D. Secular "Magic Item" Cost, Impact & Spellcasting Proficiency Skill System (Active Development)
+- **References:** `ClockworkPathfinder/Equipment/EquipmentCatalog.md` (Sections 5 & 7), `AISummary/10_Magic.md`, `ClockworkPathfinder/Rules/NeitherTeck/`
+- **Current Objective:** Work to balance the monetary cost, tactical impact, and power scaling of reskinned secular "magic items" (clockwork devices, powered chassis, protection suits, and biochemical concoctions), while exploring a skill-based scaling mechanic that mirrors spellcasting proficiency for technical classes.
+- **Key Design Areas to Explore:**
+  1. **Cost & Impact Equilibrium:**
+     - Calibrate flat store costs in Nobels/Slivers against expected PC wealth progression. Ensure that high-impact items (such as *Powered Exoskeletons*, *Resilience Suits*, *Calibrated Dart Rifles*, and *Acoustic Stunners*) provide meaningful tactical value without rendering basic weapons or class features obsolete.
+     - Fine-tune the trade-offs of physical stat mod enhancements (+STR/–DEX vs +DEX/–STR) and environmental hazard absorption (the 10-minute "Fresh Seal" rule) across levels 1–20.
+  2. **Spellcasting Proficiency Mirrored via Skills:**
+     - In standard PF2e, spellcasters scale their spell attack rolls and saving throw DCs through class proficiency (Trained, Expert, Master, Legendary spellcasting). In our non-magical setting, consider tying device saving throw DCs, tactical rig overclocks, and apparatus attack modifiers to **dedicated technical/biomedical skills** (e.g., *Crafting: NeitherTeck*, *Medicine: Toxicology/Surgical*, or *Arcana/Occultism: Neither Dynamics*).
+     - **Potential Mechanics to Test:**
+       - **Skill-Based DC Scaling:** Allow specialized classes (**Scholar, Clockwork Engineer, Artisan, Chirurgeon, Mad Bomber, Inspector**) to substitute their technical skill proficiency bonus (or skill DC) when determining the save DCs of their calibrated items, gadgets, and chemical concoctions, directly mirroring traditional spellcaster DC progression.
+       - **Martial vs. Technical Specialization:** Generic store-bought munitions retain flat DCs for standard martials, while characters investing skill increases and feats into technical disciplines unlock true "spellcaster-level" potency from high-end neither apparatuses and calibrated neurotoxins.
+       - **Integration with Intelligence Scaling:** Ensure that skill proficiency bonuses stack cleanly with or replace the flat caps on the new Calibrated Item series without creating runaway math.
+  3. **Restoring the Classic GM Tuning Tool (Anti-Catalog Homogenization):**
+     - Traditional 3rd Edition and pre-modern D&D allowed GMs to drop custom magic items directly to uplift struggling or casual players who were falling behind the party's optimized power gamers. Modern PF2e and 5e largely stripped this by creating standardized, pre-calculated "shopping catalogs" where power gamers simply buy the best gear.
+     - **The Clockwork Cities Solution:** Our system of **Discipline Tags** (`[Military]`, `[Airships]`, `[Professional]`, `[Clandestine]`) combined with **Custom/Uncommon Hardware** explicitly restores this DM tool. By creating an uncommon prototype tailored with a specific player's tag or a bespoke AP/Passive point discount (e.g., –2 AP instead of –1, or a reduced passive load), the GM can directly hand impactful power to a specific character without creating an arms race across the min-maxers.
+
+---
 
 ## 2. Class Polish, Subsystem Calibration & Current Open Issues
 
@@ -236,6 +253,75 @@
   - **Zone Squall & Lightning Hazards:** Environmental stress checks on uninsulated skyship hulls during combat—sudden updrafts, engine stalls, and static arcs grounding through ship armor.
   - **Arc Cannon Broadsides vs. Cartridge Snipers:** Ship-mounted Zone arc batteries (heavy hull damage) balanced against riflemen taking precision cartridge shots through viewing slits.
 
+### L. Stress-Test Gaps & Mechanical Vulnerabilities (Audit from Character Examples 2026-10-28)
+- **Reference:** `ClockworkPathfinder/testing/CharacterExmples20261028/`
+- **Context:** Building 6 archetypal PCs (Lv 1 & Lv 5), 5 standard NPC classes, and the civilian-template conversions revealed several key gaps and balance friction points in our current rules:
+  1. **Level 5 Martial Weapon Scaling vs. NeitherTeck Weapon Costs:**
+     - *The Gap:* At Level 5, martials gain `Weapon Mastery` (Master proficiency, +2 hit, critical specialization) while technical classes remain at Trained/Expert. When purchasing +1 Striking weapons, the cost increases by **+1 AP** (3 AP $\rightarrow$ 4 AP for pistols, 4 AP $\rightarrow$ 5 AP for rifles).
+     - *Issue:* Martials with 0 Base AP cannot fire enhanced NeitherTeck weapons without tagging discounts or class features, while Technical classes take huge turn-resource hits to fire striking energy weapons.
+     - *Action Item:* Clarify and stress-test whether weapon runes on NeitherTeck devices should increase AP cost linearly, or if higher-tier tuning/capacitors absorb the drain.
+  2. **NPC Fragility is Intentional (PCs Feel Superior):**
+     - *Design Clarification:* NPC classes (Laborer, Professional, Commoner, Craftsman) lack martial armor/weapon progression and remain fragile by design. This is an intentional feature, not a bug: **NPCs represent everyday people that PCs get to feel distinctly superior to**.
+     - *Combat Role:* These NPCs populate the **15% "We Are Heroes"** encounters (unruly mobs, corrupt bailiffs, parlor brawls) where PCs easily overpower them, or serve as vulnerable bystanders/retinues that PCs must actively defend.
+     - *NPCs with Class Levels:* Important adversaries, military commanders, or elite assassins do not use civilian NPC classes; they use standard PC classes (Soldier, Officer, Scout, Clockwork Engineer) under standard rules. No artificial "Civilian Defense Floor" is needed.
+  3. **Civilian Background Mechanical Value:**
+     - *The Gap:* When creating civilian-template Level 5 PCs, trade lore and everyday background perks (e.g. foundry tools dealing 1d6 B, wholesale guild discounts, dray cover bonuses) were implemented narratively rather than through codified setting feats.
+     - *Action Item:* Codify a formal **Civilian Background Feats / Trade Traits list** in `ClockworkPathfinder/Rules/AncestriesAndHeritages.md` or `ClockworkPathfinder/Rules/SocialClasses.md` so players picking working-class origins get standardized mechanics.
+  4. **Understanding Integration Lag:**
+     - *The Gap:* While Understanding is codified in `Rules/Skills.md`, character stat blocks currently calculate standard Perception and Lore without showing their **Focus vs. Broad Understanding pools**.
+     - *Action Item:* Prioritize Section E of this roadmap: update class templates and character sheets to explicitly show starting Understanding points (`2 Auto + Base + Cha Mod`).
+  5. **Trauma Ceiling Math at Low Levels:**
+     - *The Gap:* The trauma ceiling for Regular Damage while suffering Critical/Mortal wounds is $\text{Level} + \text{CON mod}$. At Level 1 with CON +2, max regular HP is only **3 HP**. A single 4-damage punch immediately dips back into Critical wounds.
+     - *Action Item:* Evaluate whether low-level characters need a minimum trauma floor (e.g., $\max(\text{Level} + \text{CON}, 5)$) to avoid perpetual trauma loops at levels 1–3.
+
+### M. Campaign Encounter Pacing & Combat Threat Spectrum (The 15 / 70 / 15 Rule)
+- **References:** `ClockworkPathfinder/Rules/Combat.md`, `AISummary/00_RulesFoundation.md`, `AISummary/20_Healing.md`
+- **Core Design Philosophy:** Combat in Clockwork Cities is not uniform. The game must deliver a deliberate rhythm of empowerment, grueling survival, and high-stakes mortal peril. Encounters should be structured across three calibrated bands:
+  1. **15% — "We Are Heroes" (Showcase / Low Risk):**
+     - *Tone:* Players get to flex their abilities, display superior tactics/training, and mow down weaker opposition without serious danger.
+     - *Typical Opponents:* Uncoordinated slum thugs, petty pickpockets, drunken dockers, routine goblin scavengers, or lone sentries (Party Level –2 to Level –4).
+     - *Resource Drain:* Minimal. Consumes cheap ammunition or a few Slivers; almost zero chance of dipping into Critical wounds. Validates player power and class progression.
+  2. **70% — "The Grind" (Grueling Attrition / Tension & Resource Consumption):**
+     - *Tone:* Hard-fought, tactical engagements where resources are meaningfully burned, positioning matters, and players genuinely sweat over survival.
+     - *Typical Opponents:* Coordinated military patrols, fortified barricades, disciplined orc raiders, savage Neither predators, or rival syndicate hit squads (Party Level –1 to Level +1).
+     - *Wound Impact:* **Attrition is real.** 0 to several PCs will have their Regular Damage depleted and dip into **Critical (days to heal)** or even **Mortal (weeks to heal)** wounds depending on tactical mistakes, cover choices, or enemy critical hits. Consumes finite Neither cartridges, auto-injector stims, and shield HP.
+  3. **15% — "The Boss / Mortal Crucible" (High Lethality / Permanent Stakes):**
+     - *Tone:* Climax encounters where reckless play or arrogance leads directly to character death, limb loss, or permanent trauma. Requires planning, recon, environmental exploitation, and flawless teamwork.
+     - *Typical Opponents:* Clockwork Colossi, Corrupted Apex Behemoths, Great House Champion Strike Teams, deep-abyss abominations, or Spire High Inquisitors (Party Level +2 to Level +4).
+     - *Wound Impact:* Deep systemic trauma. PCs routinely suffer severe Mortal anatomical penalties; party death is a distinct possibility if approached without respect, proper hazard gear, and escape contingencies.
+
+### N. The 1–100 Tiered Status, Standing & Resource Architecture (Exploration Concept)
+- **References:** `ClockworkPathfinder/Rules/SocialClassAndCorruptionRules.md`, `AISummary/WorldSummary.md` (Section 7)
+- **Core Concept:** Moving status from a narrow 1–9 scale to a rich, granular **1 to 100 Status Scale**, driven by three interacting pillars: **Group Status**, **Individual Role**, and **Internal Standing**:
+  1. **Group Status Bands (5 Non-Sequential Steps):**
+     - Every institution (from a Laborer union or criminal crew up to a Great House or High Guild) has **5 distinct Status tiers** it can exist at within the world's 1–100 hierarchy (these steps do not need to be contiguous or sequential).
+     - Within a tier, the group's health/reputation is rated **1 to 100**. Falling below 1 causes the group to drop to its next lower status step; exceeding 100 elevates the group to the next higher step. Dropping below 1 at the lowest step forces a catastrophic collapse or reorganization of what the group fundamentally is.
+  2. **Character Pillars (Role & Standing):**
+     - **Fixed Role in House/Guild:** The character's formal station (e.g., apprentice, field agent, heir, senior barrister, military captain).
+     - **Standing (1 to 100):** How the character is currently perceived and trusted by their peers and superiors within that role.
+  3. **The Four Resource Streams (Determined by Status, Role & Standing):**
+     - **Monthly Spending Allowance (Discretionary & Excess Expenses Only):**
+       - **All Expected Social Costs Absorbed by the House:** The sponsoring institution directly covers all normal lifestyle expenses appropriate to a person of that status tier and reputation. Dining at restaurants of your status tier (or below), boarding in appropriate quarters, routine carriage travel, and even hosting or treating a small party of colleagues/guests within reason **is automatically charged to the house ledger and never costs personal coin**.
+       - **When Personal Spending is Used:** Liquid spending money is only spent when a character chooses to **live beyond their station** (e.g., a Status 2 laborer booking a luxury private box in Ward 13, bribing officials, gambling beyond their social means, or purchasing unauthorized black-market goods).
+     - **Requisitioned Equipment (The Institutional Library):**
+       - Rather than fixed, permanent purchases, equipment acts as an **adaptable institutional library**.
+       - Whenever a character returns to their house, guildhall, barracks, or family estate, they can **swap out and reconfigure their equipped items** to match their next assignment, class needs, or expected environment (e.g., swapping a civil parlor cane for a heavy trench respirator and ballistic rig before a Neither expedition).
+       - **Bound by Institutional Profile:** A character can only draw what their specific group or family would reasonably have access to (e.g., a Blacksmith's Guild provides masterwork metallurgy and pneumatic tools, but cannot issue an elven gunpowder dueling pistol; a Great House armory provides ancestral plate and rapiers, but does not stock illegal Warrens gas grenades).
+     - **Retainer Budget (Nobles, Merchants & Commanders):** Funds/resources earmarked for hiring, equipping, and provisioning household guards, runners, clerks, and apprentice hirelings.
+     - **Personal Property Cap (2 	imes Monthly Spending):**
+       - The hard ceiling on personal possessions, pocket coin, and unbonded gear a character can legally keep without group scrutiny. Anything permanently held beyond 2 	imes Spending is either claimed by the house, taxed, or confiscated—except for items formally granted for *exceptional service to house or crown*.
+     - **Gambling Stakes & Windfall Decay (Exploration Mechanics):**
+       - **Gambling Stakes Rule:** If a character intends to keep their gambling winnings as personal wealth, the initial stakes **must be staked out of personal wealth/spending cash**, never house credit. If house credit is used to gamble, any winnings are automatically claimed by the house ledger.
+       - **Windfall Overflow (e.g., 2 	imes Monthly Spending):** If a character hits a massive gambling streak or scores a major illicit score, they can temporarily hold windfalls up to roughly 2 	imes Monthly Spending.
+       - **Rapid Windfall Decay:** Surplus cash above the 2x personal cap is volatile and **decays quickly** if not spent. Because private vaults and off-the-books banking do not exist in the Spire, loose unbonded fortunes attract thieves, extortion from superiors, tavern freeloaders, vice expenses, or constable audits. Over a matter of days or weeks, surplus windfalls must either be rapidly spent on consumable gear/favors, or they bleed away back down to the sustainable 2x cap.
+
+  4. **Inter-Party Wealth, Asset Requisition & Social Boundaries (Session Pre-Brief Decisions):**
+     - **Inter-Party Gear Loaning:** A Noble or high-status PC can allow an ally to carry and use items they purchase or check out. However, the item legally remains the Noble's property and adheres to the Noble's wealth and repossession rules.
+     - **Retainer PC Contracts:** A lower-status PC can be hired under another PC's **Retainer Budget**, provided the player agrees to work for them and the requisitioned gear is appropriate to the task.
+     - **The Return of Surplus Gear & Wealth:** High-tier gear and excess windfalls above threshold X inevitably return to the house or guild treasury. The impact/standing earned depends on the current wealth and supply needs of the guild.
+     - **Status Progression Drivers:** Individual status shifts up or down based on three clear pillars: **Societal Recognition**, **Service to the Group**, and **Tangible Group Contribution**.
+     - **Equipment Loss & Quartermasters:** The severity of losing requisitioned house equipment is evaluated like a military Quartermaster: judged against the cost/rarity of the lost gear and whether it was lost in honorable service vs negligence.
+     - **Social Exposure Realism:** Players have free will, but a recognized Noble slumming in low-class Warrens gambling dens where copper Pins are staked has far graver social and political survival issues to worry about than merely dirtying their hands with base coinage.
 ---
 
 ## 4. Setting Mysteries & Canon Reconciliations (From AISummary/WorldSummary.md)

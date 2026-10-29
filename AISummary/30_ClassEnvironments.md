@@ -11,15 +11,20 @@
 Campaign balance and class design are tuned across five core operational environments:
 *(Note: Atmospheric **Level 1: Pure Aither** and **Level 6: The Deep / The Mist** are extreme environmental hazards and narrative setpieces; they are **NOT tracked or tuned for class balance**).*
 
-1. **Civilized Society (Spires / Domestic Cities):**
-   - High-society districts, commercial wards, residential tenements, and administrative courts.
-   - Peace-bonding laws strictly enforced: military firearms and long weapons must be boxed/tied; civilian armor capped at padded cloth/leather; only Nobles & Wall Merchants legally carry dueling swords.
+1. **Civilized Society (The Spire Interior / Civil Wards):**
+   - High-society districts, commercial wards, residential tenements, and administrative courts *within* the Spire structure (Wards 1–15).
+   - **Strict Civil Disarmament Laws:** Peace-bonding strictly enforced; military firearms, heavy armor, ordnance, and open longarms must be boxed and checked; civilian armor capped at padded cloth/leather; only Nobles & Wall Merchants legally carry dueling swords.
    - Military Neither cartridges and high-energy converter modules are strictly locked down in guardhouses and depots.
-2. **High Radiant Environments (Spire Grids & Primary Dynamos):**
-   - Spire core networks, fortified defense battlements, or areas within ~50 feet of an active municipal or base dynamo.
+2. **High Radiant Environments (Category 2 — Grids, Warrens & Defended Encampments):**
+   - Spire core networks, fortified defense battlements, the **Warrens**, and **defended encampments (both civilian and military)** anchored by dedicated dynamos/field generators, or areas within ~50 feet of an active primary dynamo.
+   - **Crucial Jurisdictional Difference:** 
+     - *Inside Civil Spire Wards (Category 1 overlap):* Full radiant power exists, but civilian law bans military rigs and firearms.
+     - *In the Warrens and Outside Encampments:* **Civilian disarmament laws are NOT enforced.** Full tactical loadouts, heavy armor, rifles, and military rigs operate openly alongside saturated wireless induction.
    - Saturated wireless induction: calibrated high-radiant weapons draw unlimited energy from the ambient air, high-draw barriers function continuously, and heavy technical rigs achieve maximum ballistic potency.
-3. **Low Radiant Environments (Perimeters, Airships & Outposts):**
-   - Deck perimeters of cruising military Airships in the Zone, outpost generator perimeters (up to 5× distance / ~250 ft), and outer industrial fringe wards tapping weak ambient bleed.
+3. **Low Radiant Environments (Category 3 — Perimeters, SkyShips & Outer Radius):**
+   - Areas extending **2 to 3 or more times the radius of High Radiant areas** (e.g., perimeter rings beyond encampment/dynamo cores).
+   - Low-powered operational zones such as aboard **SkyShips cruising in the Zone**.
+   - **Regional Extent:** Low radiance also extends **about 4 miles from the outer walls of New Avalon**, forming an expansive defensive and operational buffer zone.
    - Wireless induction operates at diminished capacity (–1 damage die step, –10 to –20 ft range reduction); bootleg/uncalibrated converters can tap low-power trickle current.
 4. **The Neither: No Radiant Power (Wilderness, Outlands & Subterranean Depths):**
    - Surface lowlands, sunken trenches, wild valleys, and subterranean shafts beyond 5× generator distance.
@@ -76,14 +81,16 @@ In high-society wards where military firearms and radiant converters are locked 
 - **Brute (A-Tier):** The unstoppable physical muscle. Raging adrenaline and massive HP allow them to shrug off constable batons and overwhelm targets with bare hands, chair legs, or common utility daggers.
 - **Survivor (A-Tier):** The lethal covert shadow. Exploits legal common daggers for devastating Sneak Attacks, blending seamlessly into Spire crowds and bypassing security checkpoints.
 
-### Category 2: High Radiant Specialists (Spire Grids & Dynamos)
-Classes that achieve apex combat potency when coupled with saturated wireless Neither induction:
+### Category 2: High Radiant Specialists (Spire Grids, Warrens & Defended Encampments)
+Classes that achieve apex combat potency when coupled with saturated wireless Neither induction (Spire grid lines, the Warrens' tapped conduits, and defended civilian or military encampments):
+- **Tactical Law Difference:** Unlike the interior civil wards where weapon/armor bans artificially constrain gear, the **Warrens** and **outside defended encampments enforce zero weapon or armor restrictions**. Military longarms, heavy ballistic harnesses, and unboxed ordnance are carried openly.
 - **Scholar (S-Tier):** Directs massive Active Surge AP into high-draw inductive arquebuses and wireless targeting matrices.
 - **Artisan (S-Tier):** Anchors static defensive positions with continuous inductive force barriers and energized heavy plate.
 - **Clockwork Engineer (S-Tier):** Deploys sustained mechanical contraptions and continuous pulse projectors without battery depletion.
+- **Clockwork Rifleman & Soldier (A-to-S in Warrens/Encampments):** In the Warrens and defended camps, the Rifleman and Soldier are completely unconstrained by peace-bonding, letting them deploy full sniper setups or full plate armor alongside dynamo fields.
 
-### Category 3: Low Radiant Specialists (Airships & Generator Perimeters)
-Classes optimized for mobile perimeters, aerial gunwales, and mid-range energy skirmishing:
+### Category 3: Low Radiant Specialists (SkyShips in the Zone, Outpost Perimeters & Avalon 4-Mile Buffer)
+Classes optimized for mid-range energy skirmishing, mobile aerial gunwales, and operations across low-radiant zones (SkyShips in the Zone, outpost rings extending 2–3× beyond high-radiant cores, and within 4 miles of New Avalon's outer walls):
 - **Sky Captain (S-Tier):** Unmatched aerial mobility, deck-clearing boarding actions, and low-radiant capacitive firearms.
 - **Clockwork Rifleman (S-Tier):** Optimized for mid-range energy carbines, cover-to-cover fire, and capacitive cycling.
 - **Chirurgeon & Mad Bomber (A-Tier):** Deliver consistent chemical and ordnance output unaffected by generator distance.
@@ -128,3 +135,4 @@ When developing new feats, items, or class abilities, adhere to the following co
 3. **Respect Generalist Breadth:** Generalist classes (**Soldier**, **Sky Captain**, **Officer**) should trade peak specialization (they don't reach S-tier in High Radiant grids) for universal operational consistency.
 4. **Enforce the 70/30 Influence Rule:** Influence classes must maintain their primary domain identity across 70% of class feats, with only 30% allocated to cross-sphere expansion.
 5. **Ignore Level 1 & Level 6 for Class Balance:** Do not design class mechanics to make Level 1 (Aither) or Level 6 (The Deep) balanced or comfortable for standard human characters; these are environmental survival hazards, not standard combat arenas.
+6. **Support Partial Multi-Round Activation:** Low-AP martial classes can operate heavy NeitherTeck apparatuses or stationary guns via the Multi-Round Accumulation rule (spending all available points over consecutive rounds until total cost is met), ensuring heavy gear isn't an absolute hard lockout for low-AP classes willing to spend consecutive rounds priming.

@@ -37,20 +37,20 @@ NeitherTeck weapons fall into **two distinct mechanical families**:
 
 *Close-to-mid range, self-powered via high-density chemical cells. Half range in dense Neither fog; operates without an ambient broadcast grid as long as cartridges remain. **When cartridges run dry or in pure Aither, these energy mechanisms are completely dead and inoperable.***
 
-| Weapon | Damage & Type | Surge AP | Cartridge Capacity | Tags | Range & Traits |
-|---|:---:|:---:|:---:|---|:---:|
-| **Neither Arc Pocket Emitter** | **1d6 Electricity** | **2 AP** | Small (3 shots) | `[Professional]`, `[Clandestine]` | 15 ft, Concealable, Fatal d10 |
-| **Neither Service Arc Pistol** | **1d6 Electricity** | **2 AP** | Small (3 shots) | `[Military]`, `[Biochemical]` | 20 ft, Concealable, Fatal d10 |
-| **Neither Twin-Arc Pistol** | **1d6 Electricity** | **2 AP** | Small (6 shots) | `[Military]`, `[Mechanical]` | 15 ft, Fatal d10 |
-| **Neither Revolving Arc Pistol** | **1d6 Electricity** | **2 AP** | Rotary (9 shots) | `[Military]`, `[Mechanical]` | 30 ft, Fatal d10 |
-| **Neither Force Dueling Pistol** | **1d8 Force** | **3 AP** | Small (3 shots) | `[Professional]`, `[Airships]` | 30 ft, Concealable, Fatal d12 |
-| **Neither Slide Pulse Pistol** | **1d8 Force** | **3 AP** | Medium (15 pulses) | `[Mechanical]`, `[Military]` | 15 ft, Fatal d12 |
-| **Neither Service Arc Rifle** | **1d8 Electricity** | **3 AP** | Medium (3 shots) | `[Military]`, `[Technical]` | 35 ft, Fatal d12 |
-| **Neither Twin-Arc Rifle** | **1d8 Electricity** | **3 AP** | Medium (6 shots) | `[Military]`, `[Technical]` | 30 ft, Fatal d12 |
-| **Neither Shock Cannon** | **1d8 Electricity** | **3 AP** | Medium (3 shots) | `[Military]`, `[Mechanical]` | 15 ft, Scatter 5 ft |
-| **Neither Pulse Blunderbuss** | **1d8 Force** | **3 AP** | Medium (3 pulses) | `[Military]`, `[Airships]` | 20 ft, Scatter 10 ft |
-| **Neither Dragon Projector** | **1d10 Force** | **3 AP** | Large (3 pulses) | `[Military]`, `[Subterranean]` | 30 ft, Kickback, Scatter 10 ft |
-| **Neither Precision Arc Lance** | **1d10 Electricity** | **3 AP** | Medium (3 arcs) | `[Technical]`, `[Military]` | 45 ft, Fatal d12+2 |
+| Weapon | Damage & Type | Base Surge AP | Tagged AP (–1) | Cartridge Capacity | Tags | Range & Traits |
+|---|:---:|:---:|:---:|:---:|---|:---:|
+| **Neither Arc Pocket Emitter** | **1d6 Electricity** | **3 AP** | **2 AP** | Small (3 shots) | `[Professional]`, `[Clandestine]` | 15 ft, Concealable, Fatal d10 |
+| **Neither Service Arc Pistol** | **1d6 Electricity** | **3 AP** | **2 AP** | Small (3 shots) | `[Military]`, `[Biochemical]` | 20 ft, Concealable, Fatal d10 |
+| **Neither Twin-Arc Pistol** | **1d6 Electricity** | **3 AP** | **2 AP** | Small (6 shots) | `[Military]`, `[Mechanical]` | 15 ft, Fatal d10 |
+| **Neither Revolving Arc Pistol** | **1d6 Electricity** | **3 AP** | **2 AP** | Rotary (9 shots) | `[Military]`, `[Mechanical]` | 30 ft, Fatal d10 |
+| **Neither Force Dueling Pistol** | **1d8 Force** | **4 AP** | **3 AP** | Small (3 shots) | `[Professional]`, `[Airships]` | 30 ft, Concealable, Fatal d12 |
+| **Neither Slide Pulse Pistol** | **1d8 Force** | **4 AP** | **3 AP** | Medium (15 pulses) | `[Mechanical]`, `[Military]` | 15 ft, Fatal d12 |
+| **Neither Service Arc Rifle** | **1d8 Electricity** | **4 AP** | **3 AP** | Medium (3 shots) | `[Military]`, `[Technical]` | 35 ft, Fatal d12 |
+| **Neither Twin-Arc Rifle** | **1d8 Electricity** | **4 AP** | **3 AP** | Medium (6 shots) | `[Military]`, `[Technical]` | 30 ft, Fatal d12 |
+| **Neither Shock Cannon** | **1d8 Electricity** | **4 AP** | **3 AP** | Medium (3 shots) | `[Military]`, `[Mechanical]` | 15 ft, Scatter 5 ft |
+| **Neither Pulse Blunderbuss** | **1d8 Force** | **4 AP** | **3 AP** | Medium (3 pulses) | `[Military]`, `[Airships]` | 20 ft, Scatter 10 ft |
+| **Neither Dragon Projector** | **1d10 Force** | **5 AP** | **4 AP** | Large (3 pulses) | `[Military]`, `[Subterranean]` | 30 ft, Kickback, Scatter 10 ft |
+| **Neither Precision Arc Lance** | **1d10 Electricity** | **5 AP** | **4 AP** | Medium (3 arcs) | `[Technical]`, `[Military]` | 45 ft, Fatal d12+2 |
 
 ---
 
