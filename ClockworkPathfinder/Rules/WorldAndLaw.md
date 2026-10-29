@@ -291,6 +291,14 @@ Bribery in Arclean is not a rare, covert anomaly; it is a semi-institutionalized
   - **Total Family Destruction:** The punishment goes far beyond losing a job; it destroys the social standing, wealth, and guild employment of their **entire extended family for generations**, resulting in permanent penal servitude or the gallows.
 - Constables will cheerfully pocket a handful of Slivers to let three crates of smuggled fine silk or clockwork escapements pass through the gate, but will draw their clubs and scream for the watch the moment someone reaches into a coat pocket containing a lead-sealed Neither military cartridge.
 
+#### 5. Organized Crime in the Wards: Legitimate Fronts & The Three-Part Tolerance Rule
+- **Legitimate Fronts & Social Class Integration:** While crime families and organized criminal syndicates are common inside the civilized Wards themselves, they never operate as open, unaligned outlaw gangs. Every Ward crime family is built directly around **ties to legitimate commercial or institutional fronts**—such as smaller trade guilds, taverns, bars, restaurants, freight haulers, or social clubs.
+- **Living Within the Front's Means:** Most members of a crime family live within the visible financial means of a **slightly more profitable version of that legitimate business or guild**, and **Spire society treats them socially and legally as members of that legitimate social class** (e.g., as respectable tavern-keepers, minor guild factors, or small merchants).
+- **The Spire Tolerance Doctrine:** Like most things in the Spire, organized crime in the Wards is passively tolerated by the magistrates and constabulary so long as it abides by three unwritten rules:
+  1. **Don't Cause Too Much Problem:** Keep street violence, public disorder, and extortion quiet and contained.
+  2. **Make People Happy:** Provide desired entertainment, drink, gambling, discreet favors, or hard-to-find consumer luxuries that keep the working and upper classes content.
+  3. **Do Not Decrease the Wealth of the Spire:** Never sabotage municipal infrastructure, disrupt major guild production, or bleed capital and strategic resources out of the city.
+
 ---
 
 ## 6. The Hierarchy of Social Favors (Soft Social Currency)
