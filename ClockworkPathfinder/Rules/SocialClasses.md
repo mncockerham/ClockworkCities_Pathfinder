@@ -18,11 +18,37 @@ In the Great Spires of Clockwork Cities, **social class is the single most defin
   - *Example (Survivor working fungal farms):* "I'm the first Survivor who spent years working in the fungal cultivation beds because my family ran an illegal bootleg compost still behind the cisterns."
   - *Example (Noble with Underworld Understanding):* "My uncle, before he was formally banished by the House, used to take me along on his deliveries. Mom and Dad never knew, but he always stopped at an illicit tavern filled with unsavory characters."
   A single sentence or brief anecdote is more than enough to anchor any combination into the world.
+- **Victorian Gender Norms vs. Cultural Exceptionalism (Zero Net Mechanical Penalty):**
+  - While Victorian Spire society has a strong traditional sexism component, **the culture simultaneously prizes personal exceptionalism, grit, and courage above almost everything else**.
+  - **Women in Male-Dominated Fields:** For example, the Ward Constabulary is 95% male. While the 5% of the force that is female faces traditional prejudice due to their sex, they are simultaneously **respected and admired for succeeding in a demanding, dangerous field**. To ensure players are completely free to play whatever character concept they want, **these two social forces always cancel each other out**—resulting in zero net mechanical penalty or disadvantage.
+  - **Men in Traditionally Female Crafts (The Reverse Rule):** This cancellation applies equally in reverse. While males generally enjoy traditional Victorian social deference, any male working in a traditionally female craft or role is **looked down upon for defying gender expectations to the exact extent that the male advantage cancels out**, meaning they are treated identically to anyone else holding that role.
 - **Ecological Dominance in the Social Hierarchy (The Shift Calculus):**
   - Atmospheric and dietary Neither effects directly cement **Humans and Orcs as the dominant populations across all social classes**.
   - Because Humans and Orcs sit at Strata 3 and 4, their maximum environmental shift anywhere in the known world is only **3 levels** (yielding a worst-case combined Total Shift Score of **6.0**). This allows them to move between middle wards, agricultural valleys, deep Warrens, and low mines without suffering permanent organ failure or rapid death.
   - By contrast, **Half-Elves and Dwarves** face maximum shifts of **4** (total combined **8.0**), keeping them tethered to specialized niches (airship riggers or deep stonecutters).
   - **High Elves and Deep Ones** face shifts of **5** (total combined **10.0**), rapidly inducing lethal necrotic collapse outside their native sanctuaries. This makes High Elves and Deep Ones effectively unplayable outside high polar peaks/palace summits or boiling abyssal vents, permanently cementing Humans and Orcs as the universal citizens, workers, soldiers, and adventurers of the Clockwork Cities.
+
+### Ownership in a Spire & The Feudal Management Chain
+- **The King Owns Everything:** Ultimately, all land, spire structure, and territory in the kingdom belongs to the **King**.
+- **The Great Noble Houses (Royal Stewardship):** Through royal decree, the King has assigned responsibility for all property inside the Spires and across the outside territories to the **Great Noble Houses**. A single Great House may hold a presence across multiple Spires, and the **25 most important Great Houses** all hold dedicated sections of the capital city, **New Avalon**.
+- **The Noble Houses (Tax Collection, Holdings & Administration):** The Great Houses manage their vast territories through the lesser and middle **Noble Houses**. These nobles perform the actual day-to-day work of **collecting taxes and managing holdings**:
+  - **General Holdings:** Any non-dedicated holding of decent size will have a Noble running it.
+  - **Specialized Industrial/Agrarian Combines:** Dedicated industrial or agricultural operations—such as **mines, farmers' combines**, and guild foundries—may or may not have a Noble directly running them.
+- **Spire Leases, Rent Formulas & Vertical Residential Mobility:**
+  - **Strict Lease Formula & Wealth Surcharge:** Like most things in the Spires, the cost of leasing a location follows a **strict, codified formula** (complete with a **regulated surcharge on wealth generation** for commercial/productive premises).
+  - **Nobles as Landlords & Leasing Agents:** The managing **Nobles collect the rent** on these locations and handle **finding new tenants** whenever a property falls empty.
+  - **Fluid Movement Across Wards & Circles:** Every Ward—and even **where within a Ward** a property is located (Low, Mid, or High Circle, window proximity, or avenue)—strictly defines its lease cost. Most citizens are **free to move at will**, leasing nicer flats in higher wards or better locations within a ward when their fortunes go well, and finding themselves forced down into less desirable wards and cramped back-corridor locations when things go poorly.
+  - **Group Status Dictates Living Conditions:** Because the vast majority of Spire residents live in **apartments supplied by their Trade Guild or Family House**, maintaining the **status and wealth of the group** is paramount to everyone's daily living conditions—if your guild or family prospers, everyone's housing rises; if your group falters, the entire membership slides down the Spire.
+- **Government Offices (Nobles & Collegium Graduates):** Nobles also fill much of the government offices across the Spire. Outside of the nobility, **non-nobles who have completed their education in the University Collegium make up nearly everyone else** in civil government and administrative office.
+- **What Defines a Merchant (Scale, Retail & Trade Networks vs. Producer-Sellers):**
+  - **Merchants** are the people who sell goods at scale and own profitable retail shops—specifically **excluding** restaurants, inns, or craft businesses where the person selling the item is also the person making or preparing it (those belong to the **Guild/Artisan** or **Citizen** tiers).
+  - Beyond retail, Merchants run the commercial trade networks that command **skyships, sea-going vessels, and land caravans** moving cargo between settlements, while others operate smaller **warehouses or regional trading centers**.
+- **The Great Disruption: Rise of the Merchant Houses & Wall Merchants:**
+  - Over the last few centuries, the advancement of Clockwork technology and long-term defensive stability both *allowed* vastly more trade and *demanded* ever-greater imports to keep the Spires supplied with the raw materials, parts, and luxuries required for their current level of status.
+  - Initially, when liquid wealth was rare, merchants forming co-ops and larger commercial organizations caused no political friction. However, as trade volume exploded, the wealth of the largest merchant organizations **soon exceeded that of the lesser and middle Noble Houses—and eventually rivaled or even surpassed the Great Noble Houses themselves**.
+  - Forced to reckon with this new ultra-wealthy class, the Crown and aristocracy accommodated them through two historic shifts:
+    1. **Aristocratic Marriage Alliances:** Suddenly, if a merchant dynasty possessed enough liquid fortune, it became socially acceptable for their heirs to **marry directly into a Noble or even a Great Noble House** (injecting vast merchant capital into landed aristocratic bloodlines).
+    2. **Crown Land Leases Outside the Spires:** As merchant fortunes continued to climb, **the King began directly leasing royal grants to properties outside the Spires** (mines, timberlands, agricultural shires, and outland trade forts) to these top Merchant Houses—territorial concessions that previously **only the Great Noble Houses were ever permitted to hold**. (Inside the Spires themselves, stewardship remains strictly the domain of the Great Noble Houses).
 
 ---
 
@@ -138,7 +164,8 @@ Character Classes Evaluated:
 
 ### Tier 6: Merchant Houses & Wall Merchants (Status 3 to 8)
 *Traders, mercantile federation masters, Merchant House scions, and billionaire Wall Merchants.*
-- **Social Backing:** Merchant federations, family trade houses, or multi-spire shipping cartels. Highly fragile liquid wealth.
+- **Social Backing & Commercial Scope:** Merchant federations, family trade houses, or multi-spire shipping cartels holding highly fragile liquid wealth. Merchants make up those who sell goods at scale and own profitable shops—usually **not** restaurants, inns, or workshops where the person selling the item is also the person making it. They also run the trade networks commanding **skyships, sea vessels, and land caravans** that move goods, while others run smaller **warehouses or trading centers**.
+- **The Great Disruption & Parity with Nobility:** Driven by centuries of clockwork tech and stability that both enabled and demanded massive trade, merchant co-ops grew into corporate dynasties whose fortunes exceeded ordinary Noble Houses and rivaled or surpassed the **25 Great Houses**. In response, two doors opened for the wealthiest merchants: 1) it became socially acceptable for sufficiently wealthy merchants to **marry into Noble and Great Noble Houses**, and 2) the King began **leasing grants to properties outside the Spires** directly to top merchants—a privilege formerly reserved exclusively for the Great Noble Houses.
 - **Common Classes:**
   - **Merchant:** The defining class of this tier—trade factors, house scions, and master negotiators.
   - **Sky Captain:** Merchant fleet commodores, cargo zeppelin captains, and high-altitude blockade runners.
@@ -156,8 +183,9 @@ Character Classes Evaluated:
 
 ### Tier 7: Nobility & Great Houses (Status 5 to 9)
 *Lesser Nobles in town estates, Middle Nobility, Upper Nobility, and the 25 Great Houses.*
-- **Social Backing:** Hereditary royal charters, landed grants, and direct King's Court standing. Durable generational backing.
+- **Social Backing & Administrative Role:** Hereditary royal charters, landed grants, and direct King's Court standing. Because the King owns everything and delegates stewardship to the **Great Noble Houses** (the 25 most important of which all control sections of New Avalon and often multiple Spires), the Great Houses rely on the lesser and middle **Noble Houses** to do the actual work of collecting taxes and managing holdings. Any non-dedicated decent-sized holding is run by a noble (though specialized mines or farmers' combines may or may not have one), and nobles fill much of the Spire's government offices alongside Collegium-educated non-nobles.
 - **Common Classes:**
+  - **Noble:** The defining influence class of this tier—estate administrators, tax collectors, royal councilors, high-society diplomats, and courtly patrons.
   - **Dandy:** Salon duelists, courtly rakes, and noble scions with excessive wealth, high charm, and fencing honors.
   - **Soldier:** Line commanders of noble blood, chivalric household champions, and aristocratic guards.
   - **Officer:** High-ranking military generals, admirals, and King's Guard aristocratic commanders.
