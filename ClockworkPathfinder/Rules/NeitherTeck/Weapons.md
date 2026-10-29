@@ -11,10 +11,10 @@
 NeitherTeck weapons fall into **two distinct mechanical families**:
 
 1. **Cartridge / Charged Weapons (Self-Powered & Universally Functional):**
-   - **The Baseline Emitter:** These are the weaker of the two families.
-   - **Internal Power Source:** They carry their own contained energy in batteries or pressurized chemical cartridges.
+   - **High-Burst Tactical Power (Grind Limited):** Cartridge weapons fire multiple shots without cycling (3 to 15 discharges per cartridge) and deal boosted energy damage (`1d8` to `2d10` base) at full standard firearm ranges (`30–150 ft`). While traditional bows (`100 ft`, `Reload 0`) and crossbows (`120 ft`) retain a slight range and endurance advantage, Cartridge weapons intentionally over-perform in active firefights because they are strictly limited by cartridge scarcity across the 70% attrition grind.
+   - **Internal Power Source & Reload Scaling:** They carry their own contained energy in sealed biochemical cartridges. Reloading scales with cartridge size: **Small Cartridges = Reload 1** (1 Action), **Medium Cartridges = Reload 2** (2 Actions), and **Large Cartridges = Reload 3** (3 Actions / Full Turn).
    - **Universal Neither Utility:** Because they carry their own fuel/reaction mass, they **can operate anywhere within the Neither or Zone**, including deep outlands, wild caverns, and ruins completely detached from municipal power grids.
-   - **Throughput Cost:** Cost **2 to 3 AP** per Strike based on damage output.
+   - **Throughput Cost & Tag Full Firing Rate:** Cost **2 to 3 AP** per Strike with a matching Discipline Tag (`3 to 5 AP` untagged). Matching Discipline Tags also **waive the `+1/+2/+3` Enhancement Tier AP escalation** on weapons, ensuring trained operators can maintain their full firing rate (2+ attacks per round) as their weapons are upgraded to *Niracrest Striking* or *Mitheral Greater Striking*.
 
 2. **Radiant Power Weapons (Generator-Coupled / Induction Grid):**
    - **Generator Requirement:** These weapons possess no internal battery and require an active external generator broadcasting wireless inductive energy through the Neither to charge the weapon's capacitors.
@@ -38,38 +38,40 @@ NeitherTeck weapons fall into **two distinct mechanical families**:
 
 ## 2. Portable Cartridge Weapons (Active Surge AP)
 
-*Close-to-mid range, self-powered via high-density chemical cells. Half range in dense Neither fog; operates without an ambient broadcast grid as long as cartridges remain. **When cartridges run dry or in pure Aither, these energy mechanisms are completely dead and inoperable.***
+*Full standard firearm range (`30–150 ft`), self-powered via high-density biochemical cells. Operates anywhere in the Neither without an ambient broadcast grid as long as cartridges remain. Trained Discipline Tags reduce AP cost and waive enhancement tier AP escalation so characters can fire at their full firing rate. **When cartridges run dry or in pure Aither, these energy mechanisms are completely dead and inoperable.***
 
-| Weapon | Damage & Type | Base Surge AP | Tagged AP (–1) | Cartridge Capacity | Tags | Range & Traits |
+| Weapon | Damage & Type | Base Surge AP | Tagged AP | Cartridge & Reload | Tags | Range & Traits |
 |---|:---:|:---:|:---:|:---:|---|:---:|
-| **Neither Arc Pocket Emitter** | **1d6 Electricity** | **3 AP** | **2 AP** | Small (3 shots) | `[Professional]`, `[Clandestine]` | 15 ft, Concealable, Fatal d10 |
-| **Neither Service Arc Pistol** | **1d6 Electricity** | **3 AP** | **2 AP** | Small (3 shots) | `[Military]`, `[Biochemical]` | 20 ft, Concealable, Fatal d10 |
-| **Neither Twin-Arc Pistol** | **1d6 Electricity** | **3 AP** | **2 AP** | Small (6 shots) | `[Military]`, `[Mechanical]` | 15 ft, Fatal d10 |
-| **Neither Revolving Arc Pistol** | **1d6 Electricity** | **3 AP** | **2 AP** | Rotary (9 shots) | `[Military]`, `[Mechanical]` | 30 ft, Fatal d10 |
-| **Neither Force Dueling Pistol** | **1d8 Force** | **4 AP** | **3 AP** | Small (3 shots) | `[Professional]`, `[Airships]` | 30 ft, Concealable, Fatal d12 |
-| **Neither Slide Pulse Pistol** | **1d8 Force** | **4 AP** | **3 AP** | Medium (15 pulses) | `[Mechanical]`, `[Military]` | 15 ft, Fatal d12 |
-| **Neither Service Arc Rifle** | **1d8 Electricity** | **4 AP** | **3 AP** | Medium (3 shots) | `[Military]`, `[Technical]` | 35 ft, Fatal d12 |
-| **Neither Twin-Arc Rifle** | **1d8 Electricity** | **4 AP** | **3 AP** | Medium (6 shots) | `[Military]`, `[Technical]` | 30 ft, Fatal d12 |
-| **Neither Shock Cannon** | **1d8 Electricity** | **4 AP** | **3 AP** | Medium (3 shots) | `[Military]`, `[Mechanical]` | 15 ft, Scatter 5 ft |
-| **Neither Pulse Blunderbuss** | **1d8 Force** | **4 AP** | **3 AP** | Medium (3 pulses) | `[Military]`, `[Airships]` | 20 ft, Scatter 10 ft |
-| **Neither Dragon Projector** | **1d10 Force** | **5 AP** | **4 AP** | Large (3 pulses) | `[Military]`, `[Subterranean]` | 30 ft, Kickback, Scatter 10 ft |
-| **Neither Precision Arc Lance** | **1d10 Electricity** | **5 AP** | **4 AP** | Medium (3 arcs) | `[Technical]`, `[Military]` | 45 ft, Fatal d12+2 |
+| **Neither Arc Pocket Emitter** | **1d8 Electricity** | **3 AP** | **2 AP** | Small (3 shots, **Reload 1**) | `[Professional]`, `[Clandestine]` | 30 ft, Concealable, Fatal d12 |
+| **Neither Service Arc Pistol** | **1d8 Electricity** | **3 AP** | **2 AP** | Small (3 shots, **Reload 1**) | `[Military]`, `[Biochemical]` | 40 ft, Concealable, Fatal d12 |
+| **Neither Twin-Arc Pistol** | **1d8 Electricity** | **3 AP** | **2 AP** | Small (6 shots, **Reload 1**) | `[Military]`, `[Mechanical]` | 30 ft, Fatal d12 |
+| **Neither Revolving Arc Pistol** | **1d8 Electricity** | **3 AP** | **2 AP** | Small Rotary (9 shots, **Reload 1**) | `[Military]`, `[Mechanical]` | 60 ft, Fatal d12 |
+| **Neither Force Dueling Pistol** | **1d10 Force** | **3 AP** | **2 AP** | Small (3 shots, **Reload 1**) | `[Professional]`, `[Airships]` | 60 ft, Concealable, Fatal d12+2 |
+| **Neither Slide Pulse Pistol** | **1d10 Force** | **4 AP** | **3 AP** | Medium (15 pulses, **Reload 2**) | `[Mechanical]`, `[Military]` | 30 ft, Fatal d12+2 |
+| **Neither Service Arc Rifle** | **1d10 Electricity** | **4 AP** | **3 AP** | Medium (3 shots, **Reload 2**) | `[Military]`, `[Technical]` | 70 ft, Fatal d12+2 |
+| **Neither Twin-Arc Rifle** | **1d10 Electricity** | **4 AP** | **3 AP** | Medium (6 shots, **Reload 2**) | `[Military]`, `[Technical]` | 60 ft, Fatal d12+2 |
+| **Neither Shock Cannon** | **1d10 Electricity** | **4 AP** | **3 AP** | Medium (3 shots, **Reload 2**) | `[Military]`, `[Mechanical]` | 30 ft, Scatter 5 ft |
+| **Neither Pulse Blunderbuss** | **1d10 Force** | **4 AP** | **3 AP** | Medium (3 pulses, **Reload 2**) | `[Military]`, `[Airships]` | 40 ft, Scatter 10 ft |
+| **Neither Precision Arc Lance** | **1d12 Electricity** | **4 AP** | **3 AP** | Medium (3 arcs, **Reload 2**) | `[Technical]`, `[Military]` | 90 ft, Fatal d12+4 |
+| **Neither Heavy Arc Arquebus** | **2d8 Electricity** | **5 AP** | **3 AP** | Large (3 bolts, **Reload 3**) | `[Military]`, `[Technical]` | 150 ft, Fatal d12+4, Kickback |
+| **Neither Dragon Projector** | **2d8 Force** | **5 AP** | **3 AP** | Large (3 pulses, **Reload 3**) | `[Military]`, `[Subterranean]` | 60 ft, Kickback, Scatter 10 ft |
+| **Neither Force Breaker** | **2d10 Force** | **5 AP** | **3 AP** | Large (3 pulses, **Reload 3**) | `[Military]`, `[Technical]` | 50 ft, Kickback |
 
 ---
 
 ## 3. Radiant Grid Weapons (Active Surge AP)
 
-*Inductive weapons drawing directly from the Spire or Airship resonant field. Unlimited ammunition (cycles 1 round between shots), full ballistic range, highest damage output. **Outside 5× generator distance or in pure Aither, induction collapses completely and these energy weapons are inert dead weight.***
+*Inductive weapons drawing directly from the Spire or Airship resonant field. Unlimited ammunition (cycles 1 round between shots), full ballistic range, highest sustained grid output. **Outside 5× generator distance or in pure Aither, induction collapses completely and these energy weapons are inert dead weight.***
 
-| Weapon | Radiant Damage & Type | Surge AP | Tags | Range & Traits |
-|---|:---:|:---:|---|:---:|
-| **Radiant Light Arc Pistol** | **1d6 Electricity** | **3 AP** | `[Professional]`, `[Technical]` | 40 ft, Concealable, Fatal d10 |
-| **Radiant Defense Carbine** | **1d8 Electricity** | **4 AP** | `[Military]`, `[Technical]` | 70 ft, Fatal d12 |
-| **Radiant Pulse Projector** | **1d8 Force** | **4 AP** | `[Technical]`, `[Mechanical]` | 60 ft, Scatter 10 ft |
-| **Radiant Precision Lance** | **1d10 Electricity** | **5 AP** | `[Technical]`, `[Military]` | 90 ft, Fatal d12+2 (Sniper) |
-| **Radiant Heavy Arquebus** | **1d10 Electricity** | **5 AP** | `[Technical]`, `[Military]` | 150 ft, Fatal d12+2, Kickback |
-| **Spire Force Breaker** | **1d12 Force** | **6 AP** | `[Military]`, `[Technical]` | 50 ft, Kickback, Radiant Induction |
-| **Great Spire Arc Cannon** | **2d10 Electricity** | **6 AP** | `[Technical]` | 200 ft, Emplacement / Heavy Rig, Fatal d12+4, Radiant Induction |
+| Weapon | Radiant Damage & Type | Surge AP | Tagged AP | Tags | Range & Traits |
+|---|:---:|:---:|:---:|---|:---:|
+| **Radiant Light Arc Pistol** | **1d8 Electricity** | **3 AP** | **2 AP** | `[Professional]`, `[Technical]` | 40 ft, Concealable, Fatal d12, Radiant Induction |
+| **Radiant Defense Carbine** | **1d10 Electricity** | **4 AP** | **3 AP** | `[Military]`, `[Technical]` | 70 ft, Fatal d12+2, Radiant Induction |
+| **Radiant Pulse Projector** | **1d10 Force** | **4 AP** | **3 AP** | `[Technical]`, `[Mechanical]` | 60 ft, Scatter 10 ft, Radiant Induction |
+| **Radiant Precision Lance** | **1d12 Electricity** | **5 AP** | **3 AP** | `[Technical]`, `[Military]` | 90 ft, Fatal d12+4 (Sniper), Radiant Induction |
+| **Radiant Heavy Arquebus** | **2d8 Electricity** | **5 AP** | **3 AP** | `[Technical]`, `[Military]` | 150 ft, Fatal d12+4, Kickback, Radiant Induction |
+| **Spire Force Breaker** | **2d10 Force** | **6 AP** | **4 AP** | `[Military]`, `[Technical]` | 50 ft, Kickback, Radiant Induction |
+| **Great Spire Arc Cannon** | **2d12 Electricity** | **6 AP** | **4 AP** | `[Technical]` | 200 ft, Emplacement / Heavy Rig, Fatal d12+4, Radiant Induction |
 
 ---
 
@@ -96,5 +98,15 @@ A weapon with this trait has no magazine or internal cartridge. It draws power w
 - **Capacitive Cycle (1 Round):** After firing, internal capacitors require 1 full round to recharge from the radiant field before discharging again.
 - **Dead in Tier 3:** The weapon is completely non-functional outside radiant broadcast perimeters.
 
-### Cartridge X
-Holds a sealed chemical cartridge containing **X** shots. Replacing a spent cartridge requires a 1-action Interact activity (or the *Slinger's Reload* class feature).
+### Cartridge X & Poor-Quality Battlefield Weapons
+Holds a sealed biochemical cartridge containing **X** shots. Firing individual shots from a loaded cartridge requires 0 reload actions between shots. Once all **X** shots are expended, replacing a spent cartridge requires Interact actions based on the cartridge size:
+- **Small Cartridge:** **Reload 1** (1 Action)
+- **Medium Cartridge:** **Reload 2** (2 Actions)
+- **Large Cartridge:** **Reload 3** (3 Actions / Full Turn)
+
+#### Poor-Quality Cartridge Weapons (20% Reload Overheat / Burnout)
+Standard Spire-grade energy weapons do not suffer random misfires. However, **poor-quality cartridge weapons** (battlefield salvage, cheap Warrens knockoffs, worn militia surplus, or Orc-captured rifles) often show up on the battlefield:
+- **20% Burnout Chance on Reload:** Every time a poor-quality cartridge weapon is **reloaded**, there is a **20% chance (1–4 on 1d20)** that delicate internal components overheat or burn out from the fresh capacitor surge, rendering the energy weapon inoperable.
+- **10-Minute Field Repair:** A **Clockwork Engineer, Artisan**, or character with the appropriate technical/Crafting skills can spend **10 minutes** to attempt a **Field Repair check**:
+  - **Success:** The weapon is restored and can be used again.
+  - **Failure:** The damage cannot be fixed in the field; repairing the weapon requires time and access to a **full Clockwork Workshop**.

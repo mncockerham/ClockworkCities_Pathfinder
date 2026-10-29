@@ -111,6 +111,12 @@ Located deeper inside the structural mass of the spire, the Noble Path provides 
 - **Pedestrian Palace Walk:** A manicured stone causeway connects the upper terraces of the Noble Ward directly to the gates of the Royal Palace.
 - **Ward 1 Surface Portals:** The Mid Circle of Ward 1 features massive reinforced blast doors opening out into the agricultural fields and outer wall grounds.
 - **Ward 2 Military Bridges:** The Low Circle of Ward 2 features 50 fortified suspension bridges spanning across the moat-gap to the parapet of the 150-foot Inner Wall.
+- **Arms Bunkers Across New Avalon:**
+  - Heavily secured, blast-reinforced vaults (**Arms Bunkers**) store live Neither Cartridges, Radiant Converter Modules, and Constable duty weapons across the Spire:
+    - **King's Guard & Constabulary:** Located in **all King's Guard offices** and **larger Ward Constable locations** (where constables also store duty weapons).
+    - **Sky Docks & Outer Walls:** Dedicated Arms Bunkers sit **near the Sky Docks** for airship departures/arrivals, while **small Arms Bunkers line the inside of the Outer Walls** for travelers and workers leaving and returning to the Spire.
+    - **Elite Private Estates:** **Wall Merchants** (Ward 14, storing cartridges/converters) and **Greater Nobles** (in the Aither summit, storing **gunpowder and ballistic ammunition** for the same security purpose) can maintain certified private Arms Bunkers **directly inside their living locations**.
+    - **Ward 2 (Military Ward) Grand Bunkers:** The **largest Arms Bunkers** in New Avalon sit within the Military Ward, holding vast strategic stockpiles capable of equipping entire regiments for deep **expeditions into the Neither** and **extended siege defense of the Spire**.
 
 ---
 

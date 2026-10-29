@@ -78,16 +78,45 @@
 | Level | Feats Available | Base Reference | Status | Notes |
 |---|---|---|---|---|
 | **1st** | Double Slice, Exacting Strike, Point-Blank Shot, Power Attack, Reactive Shield, Snagging Strike, Sudden Charge | `[Player Core p.140–141]` | **Unchanged** | Baseline 1-to-1 match. |
-| **2nd** | Aggressive Block, Assisting Shot, Brutish Shove, Combat Hide, Dueling Parry, Intimidating Strike, Lunge | `[Player Core p.141–142]` | **Unchanged** | Baseline 1-to-1 match. |
-| **4th** | Barreling Charge, Dual-Handed Assault, Knockdown, Powerful Shove, Quick Reversal, Shielded Stride, Twin Parry | `[Player Core p.142–143]` | **Unchanged** | Baseline 1-to-1 match. |
+| **2nd** | Aggressive Block, Assisting Shot, Brutish Shove, Combat Hide, Dueling Parry, Intimidating Strike, Lunge, **Savage Combatant** *(New)* | `[Player Core p.141–142]` | **Modified** | Baseline 1-to-1 match + **Savage Combatant** option (replaces standalone Brute class). |
+| **4th** | Barreling Charge, Dual-Handed Assault, Knockdown, Powerful Shove, Quick Reversal, **Relentless Savagery** *(New)*, Shielded Stride, Twin Parry | `[Player Core p.142–143]` | **Modified** | Baseline 1-to-1 match + **Relentless Savagery** upgrade. |
 | **6th** | Advantageous Assault, Dueling Dance, Furious Focus, Reflexive Shield, Revealing Stab, Shield Warden, Triple Shot | `[Player Core p.143–144]` | **Unchanged** | Baseline 1-to-1 match. |
-| **8th** | Blind-Fight, Disorienting Opening, Felling Strike, Incredible Aim, Mobile Shot Stance, Positioning Assault, Quick Shield Block, Sudden Leap | `[Player Core p.144–145]` | **Unchanged** | Baseline 1-to-1 match. |
+| **8th** | Blind-Fight, Disorienting Opening, Felling Strike, Incredible Aim, Mobile Shot Stance, Positioning Assault, Quick Shield Block, **Savage Onslaught** *(New)*, Sudden Leap | `[Player Core p.144–145]` | **Modified** | Baseline 1-to-1 match + **Savage Onslaught** upgrade. |
 | **10th** | Certain Strike, Combat Patrol, Cut from the Air, Debilitating Shot, Disrupting Stance, Fearsome Brute, Mirror Shield, Overpowering Attack, Twin Riposte | `[Player Core p.145–146]` | **Unchanged** | Baseline 1-to-1 match. |
 | **12th** | Dueling Riposte, Flinging Shove, Improved Knockdown, Incredible Ricochet, Lunging Stance, Paragon's Guard, Spring Attack | `[Player Core p.146–147]` | **Unchanged** | Baseline 1-to-1 match. |
 | **14th** | Desperate Finish, Determination, Guiding Finish, Stance Savant, Two-Weapon Flurry | `[Player Core p.147]` | **Unchanged** | Baseline 1-to-1 match. |
 | **16th** | Graceful Poise, Improved Dual-Handed Assault, Overwhelming Blow, Twinned Defense | `[Player Core p.147]` | **Unchanged** | Baseline 1-to-1 match. |
 | **18th** | Impossible Volley, Savage Critical, Smash from the Air, Weapon Supremacy | `[Player Core p.147]` | **Unchanged** | Baseline 1-to-1 match. |
 | **20th** | Boundless Reprisals, Ultimate Flexibility, Weapon Master's Grace | `[Player Core p.147]` | **Unchanged** | Baseline 1-to-1 match. |
+
+### The Savage Combatant Feat Line (Levels 2, 4 & 8 — Replaces Standalone Brute Class)
+*Available to both **Soldiers** and **Pugilists**. Represents dockside brawlers, trench shock-troopers, pit fighters, and fierce vanguard muscle who tap into raw, reckless adrenaline in close-quarters combat—modeled after Rage, but at a grounded, lower mechanical impact with strict ranged and social drawbacks.*
+
+- **Savage Combatant — Feat 2 (Soldier, Pugilist):**
+  - **Action:** 1 Action (Concentrate, Emotion, Mental). **Duration:** 1 minute, until no enemies remain, or until you fall unconscious (cooldown: 1 minute between uses).
+  - **Adrenaline Surge (Lower-Impact Rage):**
+    - Gain **temporary Hit Points equal to $\lfloor \text{Half your Level} \rfloor + \text{Constitution modifier}$** (minimum 1).
+    - Gain a **+1 status bonus to melee weapon and unarmed damage rolls** (or **+2** with two-handed melee weapons).
+    - Take a **–1 status penalty to AC**.
+  - **Strict Ranged & Concentration Restrictions:**
+    - **No Ranged Weapon Attacks:** While in a Savage state, your hands shake with tunnel-vision adrenaline; **you cannot make Ranged Weapon Strikes** (including bows, crossbows, and firearms/energy emitters; thrown melee weapons within 20 ft are permitted).
+    - You cannot use actions with the **Concentrate** trait unless they are **Seek** or **Intimidate (Demoralize / Coerce)**.
+  - **Severe Social Penalty (Except Intimidate):**
+    - While in a Savage state—and for **10 minutes afterward** while your adrenaline ebbs and your demeanor remains visibly feral and volatile—you take a **–2 status penalty to all Charisma-, Intelligence-, and Wisdom-based social interaction checks and Understanding checks** (*Diplomacy, Deception, Performance, Society, and calling upon polite Favors*), **except for Intimidation**, which gains a **+1 status bonus**.
+
+- **Relentless Savagery — Feat 4 (Soldier, Pugilist):**
+  - **Prerequisites:** *Savage Combatant*.
+  - **Benefits:**
+    - Your Savage Combatant melee damage bonus increases to **+2** with one-handed melee weapons and unarmed strikes (or **+3** with two-handed melee weapons).
+    - You gain a **+1 status bonus to Athletics checks** to **Grapple, Shove, Reposition, or Trip** while in your Savage state.
+    - When you enter your Savage state (1 Action), you may immediately **Stride** up to half your Speed or **Step** as a free action.
+
+- **Savage Onslaught — Feat 8 (Soldier, Pugilist):**
+  - **Prerequisites:** *Relentless Savagery*.
+  - **Benefits:**
+    - Your temporary Hit Points when entering *Savage Combatant* increase to **$\text{Your Level} + \text{Constitution modifier}$**.
+    - While in your Savage state, you gain **physical Resistance equal to your Constitution modifier (minimum 1) against Bludgeoning damage and all Nonlethal damage**.
+    - Your melee damage bonus scales to **+3** with one-handed/unarmed strikes (**+4** with two-handed melee weapons), and you gain a **+1 status bonus to Intimidation (Demoralize)** checks (+2 total while Savage).
 
 ---
 

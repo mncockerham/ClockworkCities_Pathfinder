@@ -91,14 +91,14 @@ Detailed in `ClockworkPathfinder/Rules/RangedWeapons.md`, plus Victorian martial
 | Item | Cost | Bulk | Damage | Hands | Reference Book | Key Traits & Emission Profile |
 |---|:---:|:---:|:---:|:---:|---|---|
 | **Coat Pistol (Gunpowder)** | 10 gp | L | 1d6 P | 1 | `[G&G p.152]` | Concealable, Concussive, Fatal d10, Range 30 ft (Elven make). |
-| **Neither Arc Pocket Emitter** | 12 gp | L | 1d6 Electricity | 1 | `[RangedWeapons.md]` | Cartridge 2, Concealable, Fatal d10, Range 15 ft. |
+| **Neither Arc Pocket Emitter** | 12 gp | L | 1d8 Electricity | 1 | `[RangedWeapons.md]` | Cartridge 3 (Small, **Reload 1**), Concealable, Fatal d12, Range 30 ft. |
 | **Dueling Pistol (Gunpowder)** | 12 gp | L | 1d8 P | 1 | `[G&G p.152]` | Concealable, Concussive, Fatal d12, Range 60 ft (Elven make). |
-| **Neither Force Dueling Pistol** | 15 gp | L | 1d8 Force | 1 | `[RangedWeapons.md]` | Cartridge 2, Concealable, Fatal d12, Range 30 ft. |
-| **Neither Service Arc Pistol** | 12 gp | L | 1d6 Electricity | 1 | `[RangedWeapons.md]` | Cartridge 2, Concealable, Fatal d10, Range 20 ft (Standard constable sidearm). |
-| **Neither Revolving Arc Pistol**| 16 gp | L | 1d6 Electricity | 1 | `[RangedWeapons.md]` | Cartridge 6, Fatal d10, Range 30 ft (6-shot rotary capacitor). |
-| **Neither Service Arc Rifle** | 14 gp | 1 | 1d8 Electricity | 2 | `[RangedWeapons.md]` | Cartridge 2, Fatal d12, Range 35 ft (Infantry arc rifle). |
-| **Neither Heavy Arc Arquebus** | 28 gp | 2 | 1d10 Electricity| 2 | `[RangedWeapons.md]` | Cartridge 2, Fatal d12+2, Kickback, Range 75 ft. |
-| **Neither Force Breaker** | 20 gp | 2 | 1d12 Force | 2 | `[RangedWeapons.md]` | Cartridge 2, Kickback, Range 25 ft (Crushing concussive beam). |
+| **Neither Force Dueling Pistol** | 15 gp | L | 1d10 Force | 1 | `[RangedWeapons.md]` | Cartridge 3 (Small, **Reload 1**), Concealable, Fatal d12+2, Range 60 ft. |
+| **Neither Service Arc Pistol** | 12 gp | L | 1d8 Electricity | 1 | `[RangedWeapons.md]` | Cartridge 3 (Small, **Reload 1**), Concealable, Fatal d12, Range 40 ft (Standard constable sidearm). |
+| **Neither Revolving Arc Pistol**| 16 gp | L | 1d8 Electricity | 1 | `[RangedWeapons.md]` | Cartridge 9 (Small, **Reload 1**), Fatal d12, Range 60 ft (9-shot rotary capacitor). |
+| **Neither Service Arc Rifle** | 14 gp | 1 | 1d10 Electricity | 2 | `[RangedWeapons.md]` | Cartridge 3 (Medium, **Reload 2**), Fatal d12+2, Range 70 ft (Infantry arc rifle). |
+| **Neither Heavy Arc Arquebus** | 28 gp | 2 | 2d8 Electricity | 2 | `[RangedWeapons.md]` | Cartridge 3 (Large, **Reload 3**), Fatal d12+4, Kickback, Range 150 ft. |
+| **Neither Force Breaker** | 20 gp | 2 | 2d10 Force | 2 | `[RangedWeapons.md]` | Cartridge 3 (Large, **Reload 3**), Kickback, Range 50 ft (Crushing concussive beam). |
 | **Rapier (Salon Fencing Blade)** | 2 gp | 1 | 1d6 P | 1 | `[PC1 p.281]` | Deadly d8, Disarm, Finesse (Preferred weapon of Dandies). |
 | **Truncheon / Constable Club** | 1 sp | 1 | 1d6 B | 1 | `[PC1 p.280]` | Nonlethal, Agility (Standard Ward Constable peace weapon). |
 | **Heavy Mining Pick** | 1 gp | 1 | 1d6 P | 1 | `[PC1 p.281]` | Fatal d10 (Standard tool of Dwarven and Orc tunnelers). |
@@ -141,9 +141,9 @@ Tactical devices engineered to neutralize targets without fatal trauma via neuro
 | Item | Cost | Bulk / Weight | Quantity | Reference Book | Function & Recharge Notes |
 |---|:---:|:---:|:---:|---|---|
 | **Standard Civil Neither Cartridge (~200g)**| 5 cp | L (5 cells) | 1 cell | `[RangedWeapons.md]` | Low-density cell (**1/20 energy** of weapon cell). Powers radiant lamps, winches & tools. Rechargeable at any station for 1 cp. |
-| **Small Weapon Cartridge (~200g)** | 2 sp | L (5 cells) | 1 cell | `[RangedWeapons.md]` | Military high-density cell for **pistols & emitters** (3 shots / 9 rotary). Recharge fee: 1 sp at Spire/dwarf/clan dynamos. |
-| **Medium Weapon Cartridge (~400g)**| 4 sp | L (2 cells) | 1 cell | `[RangedWeapons.md]` | High-density cell for **rifles & carbines** (3 to 6 shots / 15 slide). Recharge fee: 2 sp at settlement dynamos. |
-| **Large Weapon Cartridge (~800g)** | 8 sp | 1 (2 cells) | 1 cell | `[RangedWeapons.md]` | High-density industrial cell for **heavy arquebuses & breakers** (3 heavy discharges). Recharge fee: 4 sp at dynamos. |
+| **Small Weapon Cartridge (~200g)** | 2 sp | L (5 cells) | 1 cell | `[RangedWeapons.md]` | Military high-density cell for **pistols & emitters** (3 shots / 9 rotary; **Reload 1**). Recharge fee: 1 sp at Spire/dwarf/clan dynamos. |
+| **Medium Weapon Cartridge (~400g)**| 4 sp | L (2 cells) | 1 cell | `[RangedWeapons.md]` | High-density cell for **rifles & carbines** (3 to 6 shots / 15 slide; **Reload 2**). Recharge fee: 2 sp at settlement dynamos. |
+| **Large Weapon Cartridge (~800g)** | 8 sp | 1 (2 cells) | 1 cell | `[RangedWeapons.md]` | High-density industrial cell for **heavy arquebuses & breakers** (3 heavy discharges; **Reload 3**). Recharge fee: 4 sp at dynamos. |
 | **Gunpowder Firearm Rounds** | 1 sp | L | 10 | `[G&G p.154]` | Lead shot & black powder pouches (Aither only; 20%/day explosion risk in Neither). |
 
 ---
@@ -220,7 +220,7 @@ At legendary levels of enhancement (`+3` and beyond), materials cease to follow 
 |---|:---:|:---:|:---:|:---:|:---:|:---:|---|
 | **Brass Knuckles / Weighted Gloves** | 1 sp (10 Sl) | 35 gp (35 N) | 100 gp (100 N) | 1,060 gp (1,060 N) | L | 1 | Agile, Free-Hand, Nonlethal, 1d4 B |
 | **Constable Club / Truncheon** | 1 sp (10 Sl) | 35 gp (35 N) | 100 gp (100 N) | 1,060 gp (1,060 N) | 1 | 1 | Agile, Nonlethal, 1d6 B |
-| **Dagger / Boot Stiletto** | 2 sp (20 Sl) | 35 gp (35 N) | 100 gp (100 N) | 1,060 gp (1,060 N) | L | 1 | Agile, Concealable, Finesse, Thrown 10 ft, 1d4 P/S |
+| **Dagger / Boot Stiletto** | 2 sp (20 Sl) | 35 gp (35 N) | 100 gp (100 N) | 1,060 gp (1,060 N) | L | 1 | Agile, Concealable, Finesse, Thrown 10 ft, 1d4 P/S *(Note: Only the 2 sp Mundane utility dagger is legal for daily Spire carry; Niracrest/Mitheral or clockwork-modified daggers are classified as weapons of war and must be peace-bonded/boxed in public wards)* |
 | **Walking Sword Cane** | 3 gp (3 N) | 38 gp (38 N) | 103 gp (103 N) | 1,063 gp (1,063 N) | L | 1 | Agile, Concealable, Finesse, 1d4 P |
 | **Salon Fencing Rapier** | 2 gp (2 N) | 37 gp (37 N) | 102 gp (102 N) | 1,062 gp (1,062 N) | 1 | 1 | Deadly d8, Disarm, Finesse, 1d6 P |
 | **Broadsword / Military Arming Sword** | 1 gp (1 N) | 36 gp (36 N) | 101 gp (101 N) | 1,061 gp (1,061 N) | 1 | 1 | Versatile P, 1d8 S |
@@ -233,13 +233,13 @@ At legendary levels of enhancement (`+3` and beyond), materials cease to follow 
 | **Orcish War Bow / Composite Longbow** | 8 gp (8 N) | 43 gp (43 N) | 108 gp (108 N) | 1,068 gp (1,068 N) | 2 | 1+ | Deadly d10, Propulsive, Volley 30 ft, Range 100 ft, 1d8 P |
 | **Coat Pistol (Gunpowder - Elven)** | 10 gp (10 N) | 45 gp (45 N) | 110 gp (110 N) | 1,070 gp (1,070 N) | L | 1 | Concealable, Concussive, Fatal d10, Range 30 ft, 1d6 P |
 | **Dueling Pistol (Gunpowder - Elven)** | 12 gp (12 N) | 47 gp (47 N) | 112 gp (112 N) | 1,072 gp (1,072 N) | L | 1 | Concealable, Concussive, Fatal d12, Range 60 ft, 1d8 P |
-| **Neither Arc Pocket Emitter** | 12 gp (12 N) | 47 gp (47 N) | 112 gp (112 N) | 1,072 gp (1,072 N) | L | 1 | Cartridge 2, Concealable, Fatal d10, 1d6 Electricity |
-| **Neither Service Arc Pistol** | 12 gp (12 N) | 47 gp (47 N) | 112 gp (112 N) | 1,072 gp (1,072 N) | L | 1 | Cartridge 2, Concealable, Fatal d10, 1d6 Electricity |
-| **Neither Force Dueling Pistol** | 15 gp (15 N) | 50 gp (50 N) | 115 gp (115 N) | 1,075 gp (1,075 N) | L | 1 | Cartridge 2, Concealable, Fatal d12, 1d8 Force |
-| **Neither Revolving Arc Pistol** | 16 gp (16 N) | 51 gp (51 N) | 116 gp (116 N) | 1,076 gp (1,076 N) | L | 1 | Cartridge 6, Fatal d10, Range 30 ft, 1d6 Electricity |
-| **Neither Service Arc Rifle** | 14 gp (14 N) | 49 gp (49 N) | 114 gp (114 N) | 1,074 gp (1,074 N) | 1 | 2 | Cartridge 2, Fatal d12, Range 35 ft, 1d8 Electricity |
-| **Neither Heavy Arc Arquebus** | 28 gp (28 N) | 63 gp (63 N) | 128 gp (128 N) | 1,088 gp (1,088 N) | 2 | 2 | Cartridge 2, Fatal d12+2, Kickback, Range 75 ft, 1d10 Electricity |
-| **Neither Force Breaker** | 20 gp (20 N) | 55 gp (55 N) | 120 gp (120 N) | 1,080 gp (1,080 N) | 2 | 2 | Cartridge 2, Kickback, Range 25 ft, 1d12 Force |
+| **Neither Arc Pocket Emitter** | 12 gp (12 N) | 47 gp (47 N) | 112 gp (112 N) | 1,072 gp (1,072 N) | L | 1 | Cartridge 3 (Reload 1), Concealable, Fatal d12, Range 30 ft, 1d8 Electricity |
+| **Neither Service Arc Pistol** | 12 gp (12 N) | 47 gp (47 N) | 112 gp (112 N) | 1,072 gp (1,072 N) | L | 1 | Cartridge 3 (Reload 1), Concealable, Fatal d12, Range 40 ft, 1d8 Electricity |
+| **Neither Force Dueling Pistol** | 15 gp (15 N) | 50 gp (50 N) | 115 gp (115 N) | 1,075 gp (1,075 N) | L | 1 | Cartridge 3 (Reload 1), Concealable, Fatal d12+2, Range 60 ft, 1d10 Force |
+| **Neither Revolving Arc Pistol** | 16 gp (16 N) | 51 gp (51 N) | 116 gp (116 N) | 1,076 gp (1,076 N) | L | 1 | Cartridge 9 (Reload 1), Fatal d12, Range 60 ft, 1d8 Electricity |
+| **Neither Service Arc Rifle** | 14 gp (14 N) | 49 gp (49 N) | 114 gp (114 N) | 1,074 gp (1,074 N) | 1 | 2 | Cartridge 3 (Reload 2), Fatal d12+2, Range 70 ft, 1d10 Electricity |
+| **Neither Heavy Arc Arquebus** | 28 gp (28 N) | 63 gp (63 N) | 128 gp (128 N) | 1,088 gp (1,088 N) | 2 | 2 | Cartridge 3 (Reload 3), Fatal d12+4, Kickback, Range 150 ft, 2d8 Electricity |
+| **Neither Force Breaker** | 20 gp (20 N) | 55 gp (55 N) | 120 gp (120 N) | 1,080 gp (1,080 N) | 2 | 2 | Cartridge 3 (Reload 3), Kickback, Range 50 ft, 2d10 Force |
 
 #### Bow & Crossbow Ammunition (Bundles of 20)
 
@@ -251,6 +251,9 @@ At legendary levels of enhancement (`+3` and beyond), materials cease to follow 
 | **Lead Bullets & Gunpowder (Elven)** | 20 shots | 2 sp (20 Sl) | 8 gp (8 N) | 21 gp (21 N) | 213 gp (213 N) | L | Cast lead shot & measured powder canisters (Aither/hermetic only). |
 
 #### Ready-to-Buy Armor Shopping List
+
+> [!IMPORTANT]
+> **Spire Daily-Wear Armor Law:** Padded and Leather are the only armors allowed for everyday wear inside civilized Spire wards, and **they must look as close to normal civilian clothing as possible**. Visibly tactical/combat clothing and **most items with clockwork attachments** (such as external servos, powered exoskeletons, or visible tubing) are **not allowed** in public wards. However, **over-garments can hide material changes**, meaning *Ebon/Gildrod Leather* and *Niracrest/Mitheral Weave* linings remain permissible for daily Spire wear as long as they are concealed beneath normal civilian attire without external clockwork attachments.
 
 | Armor Suit | Mundane Base Price | +1 Ebon Leather / Niracrest Plating (+1 AC) | +1 Resilient Armor (+1 AC / +1 Saves) | +2 Greater Resilient Mitheral (+2 AC / +2 Saves) | AC / Dex Cap | Check / Speed Penalty | Bulk | Setting Context & Construction |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|---|

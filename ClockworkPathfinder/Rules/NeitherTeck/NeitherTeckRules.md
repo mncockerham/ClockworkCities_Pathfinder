@@ -50,13 +50,13 @@ $$\mathbf{\text{Passive Loadout Capacity}} = \mathbf{\text{Key Attribute Modifie
 
 #### The Three Archetype Tracks
 1. **Track A: Physical Load-Bearing (Heavy Martials):**
-   - **Classes:** **Soldier, Brute**.
+   - **Classes:** **Soldier** (including *Savage Combatants*).
    - **Key Attribute:** Higher of **Strength** or **Constitution** modifier. (Skeletal density and muscle conditioning to carry heavy hydraulic frames and thick ballistic plates).
 2. **Track B: Ergonomic & Agile Tuning (Light Martials & Operatives):**
-   - **Classes:** **Dandy, Pugilist, Survivor, Scout, Sky Captain, Officer**.
-   - **Key Attribute:** Higher of **Dexterity** or **Constitution** modifier. (Precision balance, kinetic posture, and reflex articulation).
+   - **Classes:** **Dandy, Pugilist, Survivor, Scout, Sky Captain, Officer, Clockwork Rifleman**.
+   - **Key Attribute:** Higher of **Dexterity** or **Constitution** modifier (or **Strength** for Strength-based Pugilists). (Precision balance, kinetic posture, and reflex articulation).
 3. **Track C: Precision Engineering & Bespoke Tailoring (Technical & Academic):**
-   - **Classes:** **Scholar, Artisan, Clockwork Engineer, Chirurgeon, Mad Bomber, Inspector, Merchant**.
+   - **Classes:** **Scholar, Artisan, Clockwork Engineer, Chirurgeon, Mad Bomber, Inspector, Merchant, Noble, Black Marketeer**.
    - **Key Attribute:** Higher of **Intelligence**, **Strength**, or **Constitution** modifier. (Ergonomic micro-cables, custom-calibrated pressure regulators, and tailored linings).
 
 #### Armor-Weight Passive Modifiers
@@ -84,7 +84,7 @@ NeitherTeck weapons rely entirely on active capacitive induction or sealed chemi
 - **Dead Without Power or Fuel:** If a radiant weapon is outside an active power grid (>5× generator distance), or if a cartridge weapon runs out of chemical cartridges, **the weapon is completely dead and inert**. It cannot be fired or swung as a functional weapon (an arc rifle with dead capacitors is dead weight).
 - **Inert in Pure Aither:** In pure Aither (above the Zone or in Elven sanctuaries), Neither catalytic capacitors bleed out instantly and **NeitherTeck ceases to function entirely**.
 - **The Martial Distinction:** This absolute dependency is what gives non-technical martial classes (**Soldier**, **Brute**, **Scout**, **Pugilist**) their crucial role. When expeditions venture into the unpowered outlands, deep caves, or Aither peaks where high-tech weapons fail, the party must rely on **conventional steel (broadswords, halberds, warhammers), traditional bows and crossbows, or bare fists**.
-- **Active AP Cost on Strike:** When functional, firing or striking with a NeitherTeck weapon requires paying its listed **Active Surge AP cost** on that Action. Trained discipline tags provide a –1 or –2 AP discount.
+- **Active AP Cost on Strike & Tag Firing Rate:** When functional, firing or striking with a NeitherTeck weapon requires paying its listed **Active Surge AP cost** on that Action. Trained discipline tags provide a **–1 or –2 AP discount** and **waive Enhancement Tier AP escalation** on matching weapons, ensuring trained operators can maintain their full firing rate (2+ attacks per round) at all levels.
 
 ### D. Partial Activation & Multi-Round Accumulation Rule
 
@@ -170,34 +170,39 @@ $$\mathbf{\text{Active Surge AP per Round}} = \mathbf{\text{Intelligence Modifie
 
 ### Equipment Costs & Tier Escalation Rules
 
-To prevent high-level energy weaponry from becoming spammable cantrips, gear costs are standardized and increase by **+1 AP per enhancement tier**:
+To prevent untrained characters from spamming high-level energy weaponry like cantrips while ensuring trained specialists can maintain their **full firing rate**, gear costs follow a clear tag-efficiency rule:
 
 1. **Consumables & Combat Injections:** Cost **1 to 2 AP** (e.g., standard stims, flash charges, caustic aerosols).
 2. **Base Mundane Weapons (Level 1–4):**
-   - **Pocket & Service Arc Pistols (1d6 E):** **3 AP** (drops to **2 AP** with `[Military]` or `[Professional]` tag).
-   - **Arc Rifles & Carbines (1d8 E):** **4 AP** (drops to **3 AP** with tag).
-   - **Heavy Arc Arquebuses & Force Breakers (1d10/1d12):** **5 AP** (drops to **4 AP** with tag).
-3. **Enhancement Tier Cost Escalation:**
-   - **Tier 1 (+1 Niracrest / Striking, Lv 4–5):** Costs **+1 AP** above base (Pistol: 4 AP / Tagged 3; Rifle: 5 AP / Tagged 4; Heavy: 6 AP / Tagged 5).
-   - **Tier 2 (+2 Mitheral / Greater Striking, Lv 10–12):** Costs **+2 AP** above base (Pistol: 5 AP / Tagged 4; Rifle: 6 AP / Tagged 5; Heavy: 7 AP / Tagged 6).
-   - **Tier 3 (Legendary / Major Striking, Lv 16–18):** Costs **+3 AP** above base (Pistol: 6 AP / Tagged 5; Rifle: 7 AP / Tagged 6; Heavy: 8 AP / Tagged 7).
+   - **Small Cartridge Pistols & Emitters (1d8 E / 1d10 F, Reload 1):** **3 AP** (drops to **2 AP** with `[Military]`, `[Professional]`, or matching discipline tag).
+   - **Medium Cartridge Rifles, Lances & Blunderbusses (1d10–1d12 E/F, Reload 2):** **4 AP** (drops to **3 AP** with matching tag).
+   - **Large Cartridge Heavy Arquebuses & Breakers (2d8–2d10 E/F, Reload 3):** **5 AP** (drops to **3 AP** with matching tag).
+3. **Enhancement Tier Cost Escalation (Waived by Matching Discipline Tags):**
+   - **Trained Tag Efficiency (Full Firing Rate):** When a character wields an enhanced weapon (`+1 Niracrest Striking`, `+2 Mitheral Greater Striking`, or `+3 Major Striking`) that **matches one of their trained Discipline Tags** (or via the Clockwork Rifleman's *Singular Neither Efficiency*), the weapon's precision tuning **waives the enhancement tier AP increase**. It continues to cost its base Tagged AP (**2 AP** for Small Cartridge pistols, **3 AP** for Medium/Large weapons—or **1 AP** for a Clockwork Rifleman), allowing full 2-attack/round firing cadence at all levels!
+   - **Untagged / Cross-Discipline Escalation:** When wielded **without** a matching Discipline Tag, enhanced weapons cost **+1 AP per enhancement tier** above base:
+     - **Tier 1 (+1 Niracrest / Striking, Lv 4–5):** **+1 AP** untagged (Small: 4 AP; Medium: 5 AP; Large: 6 AP).
+     - **Tier 2 (+2 Mitheral / Greater Striking, Lv 10–12):** **+2 AP** untagged (Small: 5 AP; Medium: 6 AP; Large: 7 AP).
+     - **Tier 3 (Legendary / Major Striking, Lv 16–18):** **+3 AP** untagged (Small: 6 AP; Medium: 7 AP; Large: 8 AP).
 
 ---
 
 ## 5. Tactical Asymmetry & Archetype Roles in the Grounded Economy
 
-1. **The Technical Master (Scholar, Clockwork Engineer, Artisan):**
-   - **Firing Cadence Benchmarks:**
-     - *Level 1–3 (+4 INT, 6 AP):* Can fire a tagged 1d6 pistol (2 AP) and hold an *Arc Deflection Screen* reaction (2 AP) or stim (2 AP).
-     - *Level 4–7 (+4 INT, 7 AP):* Can fire a tagged 1d8 rifle **twice** ($2 \times 3 = 6\text{ AP}$) or a tagged pistol **three times** ($3 \times 2 = 6\text{ AP}$).
-     - *Level 8+ (+5 INT, 9 AP):* Can fire a tagged 1d8 rifle **three times** ($3 \times 3 = 9\text{ AP}$).
-   - **The Multi-Attack Penalty (MAP) Limitation:** Unlike combat martials, technical classes lack high weapon attack proficiency. While they possess the AP to fire 3 times, their 2nd and 3rd shots suffer standard PF2e **–5 and –10 Multi-Attack Penalties**, making full-turn bursts inaccurate against alert, armored foes.
+1. **The Technical Master & Specialist (Scholar, Clockwork Engineer, Artisan, Clockwork Rifleman, Inspector):**
+   - **Firing Cadence Benchmarks (Full Firing Rate with Tags):**
+     - *Level 1–3:* Can fire a tagged Small Cartridge pistol (`1d8 E` / `1d10 F`, 2 AP) or Medium Cartridge rifle (`1d10 E`, 3 AP) at full firing rate (2 attacks per round while loaded, or 1–2 attacks with reload/support actions).
+     - *Level 4–20:* Because matching Discipline Tags waive the Enhancement Tier AP tax, trained characters maintain their **full 2-shot/round firing cadence** with `+1 Striking` and `+2 Greater Striking` Cartridge Weapons, restricted only by Cartridge Reload actions (**Reload 1** Small, **Reload 2** Medium, **Reload 3** Large) and finite cartridge logistics.
+   - **The Multi-Attack Penalty (MAP) & Grind Limitation:** While Cartridge Weapons deal superior per-shot damage at full standard firearm ranges (`30–150 ft`), they are strictly balanced by **ammunition scarcity across the 70% attrition grind** and multi-action reload windows on Medium/Large cells.
 
-2. **The Dedicated Martial (Soldier, Brute, Pugilist):**
+2. **The Dedicated Martial (Soldier, Brute, Pugilist, Scout):**
    - **Firing Cadence Benchmarks:**
-     - *Levels 1–9 (+0 INT, 2 AP floor with minimal stat/prep):* Can fire a tagged pistol (2 AP) **exactly once per turn**, spending their other 2 actions moving, raising a shield, or striking with masterwork steel (0 AP).
-     - *Level 10+ (+0 INT, 3–4 AP):* Can fire a tagged pistol **twice** ($2 \times 2 = 4\text{ AP}$) or a heavy 1d10 breaker once (4 AP).
-   - **Martial Superiority:** Martials do not rely on energy grids or cartridges. With high HP, heavy armor, and superior weapon proficiency (+2 to hit), their continuous physical damage effortlessly out-paces and out-endures technical classes in extended slugfests.
+     - *Levels 1–9 (+0 INT, 2 AP floor with minimal stat/prep):* Can fire a tagged pistol (2 AP) **once per turn**, spending their other 2 actions moving, raising a shield, or striking with masterwork steel or bows (0 AP).
+     - *Level 10+ (+0 INT, 3–4 AP):* Can fire a tagged pistol **twice** ($2 \times 2 = 4\text{ AP}$) or a Medium/Large Cartridge weapon once (3 AP).
+   - **Why Martials Still Dominate Head-to-Head Fights (Even Against Boosted Cartridge Weapons):**
+     - **Superior HP & Trauma Thresholds:** Martials have **10 to 12 HP per level** (plus higher Constitution) vs. **6 to 8 HP per level** for Technical/Influence classes. Under the 3-Step Wound System (`[Healing.md]`), a Martial's **Regular Damage buffer and Critical/Mortal step size ($\lfloor \text{Max HP}/4 \rfloor$) are 35% to 60% larger**, meaning a Technical gunner drops into debilitating Critical Wounds and hits their Trauma Ceiling far earlier in a shootout.
+     - **Higher AC & Saves:** Martials wear **Medium and Heavy Armor** (`+1` to `+2` higher baseline AC, scaling to **Expert/Master armor proficiency** earlier) and carry **Shields** (*Raise a Shield* for `+2 AC` + *Shield Block* damage reduction). That `+2` to `+4` effective AC swing directly shuts down the `Fatal d12` / `Fatal d12+4` critical hits that Cartridge Weapons rely on for spike damage.
+     - **Superior Weapon Proficiency & Action-Compression Combat Feats:** Dedicated Martials scale to **Expert/Master/Legendary weapon proficiency (+2 to hit and crit)** and gain **premier combat feats** (*Point-Blank Stance*, *Double Shot*, *Triple Shot*, *Reactive Strike*, *Sudden Charge*, *Snagging Strike*, *Running Reload*, *Intimidating Strike*). While a Technical class spends raw actions firing and 2–3 actions manually reloading Medium/Large cartridges, a Martial compresses actions, disrupts reloads with *Reactive Strike*, and lands crits on a lower die roll.
+     - **Result:** Boosted Cartridge Weapons let a Technical specialist or Rifleman contribute meaningful, exciting firepower while their cartridges hold out—without ever dethroning the Dedicated Martial in a stand-up fight.
 
 3. **High Society & Disarmed Wards (Dandies & Pugilists):**
    - In elite Spire districts where carrying military energy weapons is illegal and peace-bonding is enforced, high-AP weaponry cannot be brought through checkpoints. Dandies and Pugilists dominate with concealed canes, fisticuffs, and dueling finesse without needing any external power grid.

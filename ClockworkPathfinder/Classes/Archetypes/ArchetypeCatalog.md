@@ -32,8 +32,8 @@ To determine which Pathfinder 2e Remaster (and core legacy) archetypes are avail
 | **Survivor** | Rogue Multiclass | **Available** | Warrens scoundrels, stealth infiltration, dirty fighting. |
 | **Chirurgeon** | Alchemist (Medicine) Multiclass | **Available** | Field surgery, cellular restoratives, biological antidotes, sterile science. |
 | **Mad Bomber** | Alchemist (Explosives) Multiclass | **Available** | Chemical ordnance, grenade delivery, demolitions, caustic mixtures. |
-| **Brute** | Barbarian Multiclass | **Available** | Adrenaline surges, physical ferocity, furnace tenders, dock brawlers. |
-| **Scout** | Ranger Multiclass | **Available** | Outriders, Neither perimeter trackers, wasteland navigators. |
+| **Brute** | Barbarian Multiclass | **Removed / Consolidated** | Consolidated into the **Savage Combatant** feat tree (Levels 2, 4, 8) inside **Soldier** and **Pugilist**. |
+| **Scout** | Ranger Multiclass | **Available** | Outriders, Neither perimeter trackers, wasteland navigators, and subterranean miners/sappers. |
 | **Clockwork Engineer** | Inventor Multiclass | **Available** | Arc tech innovators, pneumatic weaponry, apparatus calibration. |
 | **Inspector** | Investigator Multiclass | **Available** | Forensic detectives, corporate auditors, crime scene analysts. |
 | **Clockwork Rifleman** | Gunslinger Multiclass | **Available** | Sharpshooters, Neither-cartridge specialists, wall marksmen. |

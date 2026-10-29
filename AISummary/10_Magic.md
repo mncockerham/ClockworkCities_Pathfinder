@@ -29,8 +29,11 @@ Technology that **functions in the Neither**, commonly called *clockwork technol
    - Universal utility: can be safely recharged at standard municipal radiant charging stations found in Dwarven holds, Deep One settlements, and civilized Orc enclave hubs.
    - Bulky: chaining civilian cells to power military weapons requires cumbersome backpacks or heavy rigs, making traditional crossbows, bows, and firearms far more cost-effective for non-Spire factions.
 3. **High-Density Military Cartridges (Weapon Cells):**
-   - Compact, high-yield cells used for military energy weapons.
-   - Three standardized classes: **Small (~200g, 3 standard / 9 rotary shots)**, **Medium (~400g, 3–6 rifle / 15 slide shots)**, **Large (~800g, 3 heavy discharges)**.
+   - Compact, high-yield cells used for military energy weapons. Restored to full standard firearm ranges (`30–150 ft`) and boosted damage dice (`1d8` to `2d10` base) so Cartridge Weapons outperform traditional bows/crossbows in active firefights while remaining strictly limited by ammunition scarcity across the 70% attrition grind.
+   - Three standardized classes & reload action costs:
+     - **Small (~200g, 3 standard / 6–9 twin/rotary shots, `Reload 1`):** `1d8 E` / `1d10 F` pistols & pocket emitters.
+     - **Medium (~400g, 3–6 rifle / 15 slide shots, `Reload 2`):** `1d10–1d12 E/F` rifles, lances, blunderbusses & slide pistols.
+     - **Large (~800g, 3 heavy discharges, `Reload 3`):** `2d8–2d10 E/F` heavy arquebuses, dragon projectors & force breakers.
    - **Secret Biochemical Catalyst:** The immense energy density of weapon cartridges is unlocked by a secret bio-chemical compound produced exclusively in Spire cleanrooms by coordinated industrial teams.
    - **Exposure Vulnerability:** Once synthesized, the unshielded biochemical catalyst is extremely volatile: direct exposure to raw Neither triggers an explosive chain detonation; direct contact with Aither causes rapid, corrosive acidic dissolution.
    - Recharging military cells requires high-pressure Spire-grade injection and calibration tech; Orc raiders use captured cartridges but cannot recharge them once depleted.
@@ -48,17 +51,18 @@ $$\text{AP per Round} = \text{INT Modifier} + \text{Class Base AP} + \text{Level
   1. **Passive Loadout Items (Committed Daily):** Continuous protective/environmental items (breathing masks, hazmat linings, assist harnesses) commit points against **Passive Capacity** ($\text{Key Attribute mod} + \lfloor \tfrac{\text{Level}}{2} \rfloor + \text{Class Base 4}$). Three class archetype tracks (Track A: Str/Con for heavy martials; Track B: Dex/Con for light martials/operatives; Track C: Int/Str/Con for technical/academic classes). Lighter armor grants discounts (Unarmored: –2 pts; Light: –1 pt; Heavy: +2 pts). Zero in-combat AP math.
   2. **Active Surge AP (Per-Action Cost):** Paid on **every individual Strike/use** or Reaction.
   - *Consumables & Injections:* Cost **1 to 2 AP** per use.
-  - *Cartridge & Radiant Weapons (Base):* Cost **3 AP (1d6 pistols)**, **4 AP (1d8 rifles)**, and **5 AP (1d10/1d12 heavy weapons)**. Trained discipline tags grant a **–1 AP discount**.
-  - *Enhancement Tier Escalation:* Enhanced weapons cost **+1 AP per tier** (Tier 1 Striking: +1 AP; Tier 2 Greater Striking: +2 AP; Tier 3 Major Striking: +3 AP).
+  - *Cartridge & Radiant Weapons (Base):* Cost **3 AP (Small pistols, 2 AP tagged)**, **4 AP (Medium rifles, 3 AP tagged)**, and **5 AP (Large heavy weapons, 3 AP tagged)**.
+  - *Enhancement Tier Escalation (Waived by Matching Tags):* Untagged enhanced weapons cost **+1 AP per tier** (Tier 1 Striking: +1 AP; Tier 2 Greater Striking: +2 AP; Tier 3 Major Striking: +3 AP). **Matching Discipline Tags (or the Rifleman's *Singular Neither Efficiency*) waive this enhancement tier AP tax**, allowing trained operators to maintain their full 2-attack/round firing rate at all levels.
 - **Class Base & Scaling Progression:**
   - **Tier 3 (Technical Masters):** **+2 Base AP**; scales **+1 AP at levels 4, 8, 12, 16, 20**. *Scholar, Artisan, Clockwork Engineer.*
   - **Tier 2 (Technical Specialists):** **+1 Base AP**; scales **+1 AP at levels 5, 10, 15, 20**. *Inspector, Clockwork Rifleman* (reduces ranged NeitherTeck weapon AP cost by –1 at 1st, –2 at 6th, –3 at 12th, –4 at 18th level; min 1), *Chirurgeon, Mad Bomber* (personal class features and concoctions cost 0 AP).
   - **Tier 1 (Tactical Operatives):** **+0 Base AP**; scales **+1 AP at levels 6, 12, 18**. *Officer, Sky Captain, Survivor, Scout.*
   - **Tier 0 (Dedicated Martials):** **+0 Base AP**; scales **+1 AP at levels 10, 20**. *Soldier, Brute, Pugilist, Dandy.*
   - **Influence Category:** **+1 Base AP**; scales **+1 AP at levels 6, 12, 18**. *Merchant.*
-- **Tactical Math & Firing Cadence:** 
+- **Tactical Math, Firing Cadence & Head-to-Head Martial Dominance:** 
   - Martials achieve **1 shot per turn** from levels 1–9, scaling to **2 shots at level 10+** with tagged weapons.
-  - Technical classes achieve **2 shots at level 4** and **3 shots at level 8**, but lack weapon master proficiency and suffer standard **Multi-Attack Penalties (–0 / –5 / –10)**. Full rules in `ClockworkPathfinder/Rules/NeitherTeck/`.
+  - Technical classes achieve **2 shots at level 1–4+** with tagged weapons (waiving enhancement tier AP escalation), but lack martial weapon mastery and suffer standard **Multi-Attack Penalties (–0 / –5 / –10)**.
+  - **Why Martials Still Dominate Head-to-Head Fights:** Even with boosted Cartridge Weapon damage and full firearm ranges, Dedicated Martials dominate direct combat through **greater HP** (10–12 HP/lv vs. 6–8 HP/lv, granting 35–60% larger 3-Step Wound thresholds), **higher AC** (Medium/Heavy armor proficiency + Shields, which strip away the `Fatal` crit rate Cartridge Weapons rely on), **+2 weapon proficiency** (Fighter/Soldier mastery), and **superior combat feats** (*Double Shot*, *Point-Blank Stance*, *Reactive Strike*, *Shield Block*). Full rules in `ClockworkPathfinder/Rules/NeitherTeck/`.
 
 ---
 
@@ -75,10 +79,11 @@ Biomedical and chemical preparations synthesized from specialized Neither fungi 
   - Chirurgeons and Mad Bombers are not defined by superior ivory-tower theory or spotless laboratory facilities; their true genius is **rapid, intuitive field improvisation**.
   - In muddy trench conditions, under enemy fire, or in polluted ruins, they evaluate scavenged fungal bile, adulterated chemical slag, dirty water, and improvised containers, intuitively altering chemical ratios on the fly to produce potent, temporarily stable minor concoctions and field explosives from random scrap.
 
-### Volatility and Spoilage
+### Volatility, Spoilage & Spire Legal Restrictions
 - Active field concoctions rely on hyper-reactive enzymes and unstable biological catalysts that **separate, ferment, or oxidize into inert slush/toxic byproduct within minutes** if unmonitored.
 - **Slots as Stabilization:** A Chirurgeon or Mad Bomber’s daily preparation slots reflect the cognitive load and chemical counter-reagents needed to keep a batch of field mixtures suspended and active for the day.
 - **Hand-off & Administration:** Once unsealed and handed to an ally, a concoction must be consumed, injected, or thrown within moments, executing its standard effect and duration.
+- **Spire Law on Volatile Solutions (No Distinction from Grenades):** Constables and checkpoint guards make **no distinction** between standard manufactured weapons/ordnance and the improvised concoctions of Mad Bombers or Chirurgeons. Inside civilized Spire wards, a Chirurgeon may legally carry **pre-made healing items** (and safe medical precursors that **can only make healing items**). Carrying volatile solutions (acids, poisons, or precursors capable of making them) is a severe violation treated just as harshly as carrying a live grenade.
 
 ---
 
@@ -130,6 +135,6 @@ Biomedical and chemical preparations synthesized from specialized Neither fungi 
 
 ## Open Questions & System Alignments
 - **Environmental Behavior (Resolved):** Neither-tech operates at 100% in Neither, 50% damage/duration in the Zone, and is completely inoperable in Aither. Biochemical catalysts explode on direct Neither contact and melt in Aither.
-- **Instability Failures:** Exact mishap table for untrained characters attempting to hotwire uncalibrated Neither devices or unmonitored field concoctions.
+- **Poor-Quality Cartridge Weapon Burnout (Resolved):** Standard energy weapons do not misfire, but **poor-quality / battlefield-salvaged cartridge weapons** have a **20% chance (1–4 on 1d20) on every reload** that delicate components overheat or burn out. A **Clockwork Engineer** or character with the right technical/Crafting skills can attempt a **10-minute Field Repair check**: **Success** restores the weapon to working order; **Failure** means fixing the issue requires downtime and a **full Clockwork Workshop**.
 - **Spell Traditions (Arcane, Divine, Occult, Primal):** Reflavoring traditions into engineering disciplines (Electro-mechanical, Pyrotechnic) vs. biochemical paths (Surgical, Spore-toxicology).
 - **Cantrips and Focus Spells:** Standardizing permanent reusable tools (spark igniters, mechanical diagnostic meters) and baseline stabilization kits.

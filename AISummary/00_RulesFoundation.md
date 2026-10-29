@@ -77,7 +77,7 @@ Because Clockwork Cities features deep institutional backing (*"Worth = who you 
 | `ClockworkPathfinder/Classes/Survivor.md` | Survivor class (Rogue baseline) | Draft |
 | `ClockworkPathfinder/Classes/Chirurgeon.md` | Chirurgeon class (Alchemist split: Restorative/Antidote/Acid/Poison) | Draft |
 | `ClockworkPathfinder/Classes/MadBomber.md` | Mad Bomber class (Alchemist split: Explosives/Weapons/Acid/Poison) | Draft |
-| `ClockworkPathfinder/Classes/Brute.md` | Brute class (Barbarian baseline) | Draft |
+| `ClockworkPathfinder/Classes/Brute.md` | Brute class (**Removed / Consolidated** into Soldier & Pugilist *Savage Combatant* feats at Lv 2, 4, 8) | Consolidated |
 | `ClockworkPathfinder/Classes/Scout.md` | Scout class (Ranger baseline: Surface Outriders & Subterranean Miners/Sappers) | Draft |
 | `ClockworkPathfinder/Classes/ClockworkEngineer.md` | Clockwork Engineer class (Inventor baseline) | Draft |
 | `ClockworkPathfinder/Classes/Inspector.md` | Inspector class (Investigator baseline: Knowledge/Evidence only) | Draft |

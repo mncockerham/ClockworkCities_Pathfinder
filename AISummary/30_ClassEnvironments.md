@@ -1,8 +1,8 @@
 # Class Environmental Effectiveness & Combat Matrix (Guidance)
 
 - **Location:** `AISummary/30_ClassEnvironments.md`
-- **Precedence:** Setting canon in `AISummary/WorldSummary.md`, rules in `AISummary/00_RulesFoundation.md`, `AISummary/10_Magic.md`, and `ClockworkPathfinder/Rules/NeitherTeck/`.
-- **Purpose:** AI and GM design guidance establishing intended class balance, tactical niches, and operational viability across the four primary gameplay environments under the refined Dual-System NeitherTeck rules.
+- **Precedence:** Setting canon in `AISummary/WorldSummary.md`, rules in `AISummary/00_RulesFoundation.md`, `AISummary/10_Magic.md`, `ClockworkPathfinder/Rules/WorldAndLaw.md`, and `ClockworkPathfinder/Rules/NeitherTeck/`.
+- **Purpose:** AI and GM design guidance establishing intended class balance, tactical niches, and operational viability across the five primary gameplay environments under the updated Municipal Laws, Cartridge/Radiant Weapon rules, and 15-Class roster.
 
 ---
 
@@ -13,126 +13,82 @@ Campaign balance and class design are tuned across five core operational environ
 
 1. **Civilized Society (The Spire Interior / Civil Wards):**
    - High-society districts, commercial wards, residential tenements, and administrative courts *within* the Spire structure (Wards 1–15).
-   - **Strict Civil Disarmament Laws:** Peace-bonding strictly enforced; military firearms, heavy armor, ordnance, and open longarms must be boxed and checked; civilian armor capped at padded cloth/leather; only Nobles & Wall Merchants legally carry dueling swords.
-   - Military Neither cartridges and high-energy converter modules are strictly locked down in guardhouses and depots.
-2. **High Radiant Environments (Category 2 — Grids, Warrens & Defended Encampments):**
-   - Spire core networks, fortified defense battlements, the **Warrens**, and **defended encampments (both civilian and military)** anchored by dedicated dynamos/field generators, or areas within ~50 feet of an active primary dynamo.
-   - **Crucial Jurisdictional Difference:** 
-     - *Inside Civil Spire Wards (Category 1 overlap):* Full radiant power exists, but civilian law bans military rigs and firearms.
-     - *In the Warrens and Outside Encampments:* **Civilian disarmament laws are NOT enforced.** Full tactical loadouts, heavy armor, rifles, and military rigs operate openly alongside saturated wireless induction.
-   - Saturated wireless induction: calibrated high-radiant weapons draw unlimited energy from the ambient air, high-draw barriers function continuously, and heavy technical rigs achieve maximum ballistic potency.
-3. **Low Radiant Environments (Category 3 — Perimeters, SkyShips & Outer Radius):**
-   - Areas extending **2 to 3 or more times the radius of High Radiant areas** (e.g., perimeter rings beyond encampment/dynamo cores).
-   - Low-powered operational zones such as aboard **SkyShips cruising in the Zone**.
-   - **Regional Extent:** Low radiance also extends **about 4 miles from the outer walls of New Avalon**, forming an expansive defensive and operational buffer zone.
-   - Wireless induction operates at diminished capacity (–1 damage die step, –10 to –20 ft range reduction); bootleg/uncalibrated converters can tap low-power trickle current.
+   - **Strict Civil Disarmament & Direct-Exit Surveillance Laws:**
+     - **Everyday Armor (Padded & Leather Only — Must Resemble Normal Wear):** Civilian armor is capped at padded cloth and leather, and **must look as close to normal civilian clothing as possible**. Visibly combat-styled clothing and **most things with clockwork attachments** are **not allowed**—though **over-garments can hide material changes** (allowing concealed *Niracrest/Mitheral Weave* or *Ebon/Gildrod Leather* linings under normal clothes).
+     - **Daily-Carry Utility Dagger (Mundane Tool Only):** Citizens may carry a common utility knife/dagger (`1d4`, 2 sp mundane steel only), but it **cannot** be made of rare combat-enhancing materials (*Niracrest*, *Mitheral*) or have clockwork/other modifications that make it a weapon of war instead of a tool.
+     - **Dueling Swords (Social Class Privilege):** Only **Nobles** and **Wall Merchants** (and commissioned officers / active King's Guard) may openly wear dueling swords/rapiers in public.
+     - **More Than Peace-Bonding (The Direct-Exit Rule):** Wearing heavier armor or carrying boxed/peace-bonded weapons of war in the Spire is restricted to direct transit out (or to a storage location). **Constables and the King's Guard question and watch you**, **businesses refuse to do business with you**, **passing unseen is impossible** (everyone on the street sees your armor and weapon bundles), and **if normal citizens see you not moving directly toward a potential exit, they immediately alert the Constables**.
+     - **Cartridges, Converters & Volatile Concoctions Banned:** Military Neither cartridges, radiant converter modules, and volatile chemical solutions (acids, poisons, bombs, or precursors that can make them) are strictly banned; Chirurgeons may only carry pre-made healing items and benign precursors that can *only* make healing items.
+     - **Leaving the Spire Proper (Within the Outer Wall vs. Beyond the Perimeter):**
+       - **Inside the Spire Proper:** Strict weapon and armor rules are **always applied**.
+       - **Outside the Spire Proper (Even Inside the Outer Wall):** As you leave the Spire structure itself—even in the grounds, yards, and work zones contained by the **Outer Wall**—restrictions on weapons and armor are **usually not enforced**. Real danger can happen even within the walls; **most workers carry a dual-purpose axe**, and **those with money carry pistols**.
+       - **Beyond Any Settlement Perimeter in the Neither:** Once you leave the actual perimeter of any location in the Neither, **none of the rules are enforced**.
+
+2. **High Radiant Environments (Grids, Warrens & Defended Encampments):**
+   - Spire defense battlements, the **Warrens**, and **defended encampments (civilian and military)** anchored by dedicated dynamos/field generators, or areas within ~50 feet of an active primary dynamo.
+   - **Zero Disarmament Laws in Warrens & Encampments:** Unlike interior civil wards, the Warrens and exterior defended encampments enforce **no weapon, armor, or clockwork restrictions**. Full plate, longarms, powered exoskeletons, and unboxed ordnance operate openly alongside saturated wireless induction.
+   - **Saturated Wireless Induction:** Calibrated high-radiant weapons draw unlimited energy from the ambient air (`1d8` to `2d12` damage, cycling 1 round between shots), high-draw barriers function continuously, and heavy technical rigs achieve maximum output.
+
+3. **Low Radiant Environments (Perimeters, Walled Grounds, SkyShips & 4-Mile Buffer):**
+   - Areas extending **2 to 3+ times the radius of High Radiant cores**, the **walled grounds/yards outside the Spire proper (within the Outer Wall)**, **SkyShips cruising in the Zone**, and **within ~4 miles of New Avalon's outer walls**.
+   - **Relaxed / Captain-Governed Weapon Rules:** Outside the Spire proper (even within the Outer Wall), weapon/armor bans are usually not enforced (workers carry dual-purpose axes; those with money carry pistols). **Aboard Airships, the only rules that exist are those the Captain chooses to and can enforce** (allowing Riflemen, Mad Bombers, Engineers, and Soldiers to carry full combat gear when the Captain permits).
+   - Wireless induction operates at diminished capacity (–1 damage die step, –10 to –20 ft range reduction); cartridge weapons, martial arms, and aerial boarding maneuvers share the spotlight.
+
 4. **The Neither: No Radiant Power (Wilderness, Outlands & Subterranean Depths):**
    - Surface lowlands, sunken trenches, wild valleys, and subterranean shafts beyond 5× generator distance.
-   - **Hard Technological Limit:** Wireless radiant coupling is completely dead (0 AP inductive uptake). All NeitherTeck requires sealed, un-rechargeable chemical cartridges. Conventional martial weapons (steel broadswords, polearms, axes), longbows, heavy crossbows, and raw physical resilience dominate.
+   - **Hard Technological Limit & Grind Attrition:** Wireless radiant coupling is completely dead (0 inductive uptake). Portable **Cartridge Weapons** operate at full range (`30–150 ft`) and high burst damage (`1d8` to `2d10`), but are strictly limited by **finite cartridge scarcity across the 70% attrition grind** and `Reload 1 / 2 / 3` action costs.
+   - **Head-to-Head Martial Dominance:** Dedicated Martials (**Soldiers, Scouts, Pugilists**) dominate extended outland expeditions thanks to 35–60% higher HP (larger 3-Step Wound buffers), higher AC and Shields (shutting down `Fatal` crits), `+2` higher weapon proficiency, superior combat feats, and unlimited endurance with steel and bows/crossbows (`Reload 0`).
+
 5. **Influence & Social Intrigue (Boardrooms, Courts & Underworld Networks):**
-   - The operational domain of soft social currency, political maneuvering, guild contracts, legal patents, smuggling rings, and syndicate power.
-   - Evaluated on ability to command contacts, mobilize retainers, requisition capital/contraband, bypass municipal bureaucracy, and dictate the terms of non-combat engagements.
+   - The domain of soft social currency (**Understanding** & the **Hierarchy of Favors**), political maneuvering, guild contracts, property leases, and syndicate power.
 
 ---
 
-## 2. Environmental Effectiveness Matrix (Player Classes)
+## 2. Re-Evaluated Environmental Effectiveness Matrix (15 Player Classes)
 
 > [!NOTE]
-> **Class Scope & Exclusions:**
-> - **Miner Merged into Scout:** The former Miner class is fully integrated into the **Scout** as the subterranean sapper / deep delver path.
-> - **Strata 1 & Strata 6 Excluded:** Atmospheric extremes (Pure Aither and Boiling Deep) are lethal environmental hazards and are intentionally excluded from combat balance.
-> - **Civilian NPC Classes Excluded:** Mundane NPC classes (**Laborer**, **Professional**, **Commoner**, **Craftsman**) are world-building templates not balanced for player combat.
+> **Class Scope & Consolidations:**
+> - **Brute Removed / Consolidated:** Standalone Brute class removed per Rule 1; replaced by the **Savage Combatant** feat tree (Levels 2, 4, and 8) inside **Soldier** and **Pugilist** (grants lower-impact Rage melee damage and Temp HP, blocks ranged weapon attacks, and imposes a –2 penalty to all social checks except Intimidate).
+> - **Miner Consolidated into Scout:** Subterranean sapper and deep delver path inside **Scout**.
+> - **Social Class ≠ Character Class:** Legal privileges in Civil Spires (such as carrying a dueling sword or calling on high-status Favors) depend on a character's **Social Status**,though classes like Dandy and Noble naturally align with those tiers.
 
-*Ratings:* **S (Apex / Dominant)**, **A (Very Strong)**, **B (Capable / Average)**, **C (Below Average)**, **D (Severely Handicapped / Dead Weight)**.
+*Ratings:* **S (Apex / Dominant)**, **A (Very Strong)**, **B (Capable / Solid)**, **C (Restricted / Niche)**, **D (Severely Handicapped)**.
 
-| Class | Base Archetype | Civilized Society (Spires) | High Radiant (Dynamos / Grid) | Low Radiant (Airships / Perimeters) | The Neither (Outlands / No Grid) | Influence & Social Intrigue | Core Environmental Role & Balancing Niche |
+| Class | Base Chassis | Civilized Society (Spires) | High Radiant (Warrens / Grids) | Low Radiant (Airships / Perimeters) | The Neither (Outlands / No Grid) | Influence & Social Intrigue | Updated Environmental Role & Balancing Rationale |
 |---|---|:---:|:---:|:---:|:---:|:---:|---|
-| **Pugilist** | Bare-Knuckle Monk | **S** | **C** | **B** | **A** | **C** | **Supreme Physical Threat in Civilized Spires:** Needs zero weapons, zero armor, and zero power grids; devastating bare-knuckle boxing in any parlor, alleyway, or ballroom. |
-| **Dandy** | Swashbuckler / Duelist | **S** | **C** | **C** | **B** | **A** | **Master of High-Society Spires:** Legally authorized to openly wear dueling swords; unarmored Panache mobility in tailored silks; courtly wit commands social encounters. |
-| **Brute** | Berserker / Brawler | **A** | **C** | **B** | **S** | **D** | **Unstoppable Muscle in Spires & Outlands:** Massive HP pool and adrenaline Rage overpower unarmored civilians/constables even with common legal daggers or bare hands; outland master with heavy axes. |
-| **Survivor** | Underworld Rogue | **A** | **B** | **B** | **A** | **B** | **Lethal Covert Shadow in Spires:** Sneak Attack fully leverages legal utility daggers; unarmored/light defense; urban infiltration mastery bypasses ward checkpoints. |
-| **Scholar** | Academic / Tactician | **B** | **S** | **B** | **D** | **B** | **High Radiant Siege Master:** High Active Surge pool powers massive inductive arquebuses and defensive grids; helpless in unpowered wilds without scarce cartridges. |
-| **Artisan** | Master Crafter | **B** | **S** | **B** | **C** | **B** | **Grid Bastion & Ballistic Crafter:** Dominates High Radiant zones with continuous force barriers; crafts custom ballistic linothorax and tailored weapons in Spires. |
-| **Clockwork Engineer** | Artificer / Inventor | **C** | **S** | **A** | **C** | **C** | **High-Tech Prototype Anchor:** Heavy pulse projectors and sustained rigs thrive in High/Low Radiant grids; crippled when heavy tech is boxed or power fails. |
-| **Clockwork Rifleman** | Gunslinger / Marksman | **D** | **A** | **S** | **B** | **D** | **Long-Range Gunner:** Dominates Low Radiant airship battles and mid-range skirmishes; severely penalized in disarmed civil wards where longarms are boxed. |
-| **Chirurgeon** | Biomedical Alchemist | **B** | **A** | **A** | **A** | **C** | **Universal Chemical Versatility:** Biomedical concoctions and stims function anywhere across the Neither independent of dynamos; easily conceals auto-injectors in civil wards. |
-| **Mad Bomber** | Ordnance Alchemist | **D** | **A** | **A** | **A** | **D** | **Battlefield Ordnance:** Destructive chemical bombs excel across all outdoor Neither zones; strictly banned and confiscated at Civil Spire gates. |
-| **Inspector** | Forensic Investigator | **A** | **B** | **B** | **B** | **A** | **Forensic & Civil Law Specialist:** Excels in Civilized Spires with social authority, deduction, concealed palm needles, and precision dagger strikes. |
-| **Scout** | Outrider & Deep Sapper | **C** | **C** | **B** | **S** | **D** | **Outland & Subterranean Master:** Dominates open wastes and lightless mines; master of bows, heavy crossbows, picks, and tracking with zero reliance on power grids. |
-| *Generalists:* | | | | | | | *(See Broad-Use Category below)* |
-| **Soldier** | Frontline Martial | **C** | **B** | **A** | **S** | **C** | **Broad-Use Martial Backbone:** Master of conventional steel, bows, and heavy armor; reliable in any combat zone, though restricted by civil spire armor limits. |
-| **Sky Captain** | Aerial Boarder | **B** | **B** | **S** | **B** | **B** | **Broad-Use Tactical Boarder:** Undisputed master of Low Radiant Airships; agile rapier and pistol combatant capable of operating in wild raids or Spire ballrooms. |
-| **Officer** | Military Commander | **B** | **B** | **A** | **A** | **A** | **Broad-Use Tactical Leader:** Secular tactical directives and squad commands function universally in armor, on airship decks, or in unarmored civil courts. |
-| *Influence Classes:* | | | | | | | *(See Influence Category below — 70/30 Contact Rule)* |
-| **Merchant** | Commercial Influencer | **A** | **B** | **B** | **B** | **S** | **Commercial & Financial Master:** Dominates business, trade guilds, and freight logistics; contracts retainers and issues lucrative combat directives. |
-| **Noble** | Aristocratic Regent | **A** | **B** | **C** | **C** | **S** | **High-Society & Sovereign Authority:** Commands royal courts, university collegia, and high arts; issues sovereign directives and royal legal dispensations. |
-| **Black Marketeer** | Underworld Syndicate | **A** | **B** | **B** | **B** | **S** | **Warrens & Smuggler Kingpin:** Commands black markets, contraband pipelines, and fence networks; procures illegal cartridges/converters and directs street thugs. |
+| **Pugilist** | Monk *(+ Savage Combatant)* | **S** | **B** | **B** | **A** | **C** | **Supreme Physical Threat in Civilized Spires:** Needs zero weapons and zero armor; `1d6` Powerful Fist + *Flurry of Blows* + Expert Unarmored AC + concealed *Niracrest/Mitheral Weave* clothing makes them unstoppable in disarmed wards. *Savage Combatant* (Lv 2/4/8) adds pit-brawler fury at the cost of social penalties. |
+| **Dandy** | Swashbuckler | **S** | **C** | **B** | **B** | **A** | **Master of High-Society Duels:** High-status Dandies legally wear dueling rapiers (`1d6 Deadly d8`) in public and fight at full strength in tailored *Niracrest/Mitheral Weave* frock coats with Panache mobility and courtly wit. |
+| **Survivor** | Rogue | **A** | **B** | **B** | **A** | **B** | **Covert Urban Shadow (Tempered by Mundane Dagger Law):** Excels in Spires via *Urban Infiltration Mastery* (+1 Stealth/Thievery/Deception) and *Sneak Attack* (`+1d6` to `+4d6`), but daily carry is capped at a **mundane `1d4` utility dagger** (no Niracrest/Mitheral or clockwork mods in public wards), keeping Pugilists and Dandies ahead in stand-up fights. |
+| **Inspector** | Investigator | **A** | **B** | **B** | **B** | **A** | **Forensic & Civil Authority Specialist:** *Devise a Stratagem* turns a legal mundane utility dagger or constable baton into high-accuracy precision damage; commands legal investigations and `[Professional]` / `[Clandestine]` tools. |
+| **Scholar** | Academic Investigator | **B** | **S** | **B** | **C** | **A** | **High Radiant Siege Master & Collegium Authority:** High Active Surge AP powers heavy inductive grid weapons in High Radiant zones; boosted Cartridge Weapons (`1d8–2d10` with `[Technical]` tag) raise their Outland floor from D to C while cartridges last; Collegium status gives strong Influence (**A**). |
+| **Artisan** | Master Crafter | **B** | **S** | **B** | **B** | **B** | **Grid Bastion & Gear Conditioner:** Dominates High Radiant zones with continuous force barriers; party-wide non-magical gear conditioning and boosted Cartridge Weapons make them solid (**B**) in Low Radiant and Outland delves. |
+| **Clockwork Engineer** | Inventor | **D** | **S** | **A** | **B** | **C** | **High-Tech Prototype Anchor:** S-tier in High Radiant grids and A-tier on Airships; boosted Cartridge Weapons + **10-minute Field Repair** on burned-out battlefield weapons make them valuable (**B**) in the Neither. Drops to **D** in Civil Spires because visible clockwork attachments and combat rigs are strictly banned. |
+| **Clockwork Rifleman** | Gunslinger | **D** | **S** | **S** | **A** | **D** | **Apex Marksman Outside Civil Wards:** With full firearm ranges (`30–150 ft`), boosted Cartridge damage (`1d8–2d10`), and *Singular Neither Efficiency* waiving AP escalation for full 2-shot/round firing rate, Riflemen are **S-tier** in Warrens/Grids/Airships and **A-tier** in the Neither (switching to crossbows when cartridges run dry). Drops to **D** in Civil Spires where guns/crossbows must be boxed. |
+| **Chirurgeon** | Alchemist (Medical) | **B** | **A** | **A** | **A** | **C** | **Universal Clinical Support (Civil Precursor Limit):** 0-AP restorative concoctions, surgical stabilization, and acids/poisons make them **A-tier** across all combat zones. Kept at **B** in Civil Spires because constables treat volatile offensive solutions (acids/poisons) like live grenades—limiting Spire carry strictly to pre-made healing items and benign healing-only precursors. |
+| **Mad Bomber** | Alchemist (Ordnance) | **D** | **A** | **A** | **A** | **D** | **Battlefield Demolitionist:** 0-AP chemical bombs, splash damage, and structural charges excel across Warrens, Airships, and Outlands (**A**). Strictly **D** in Civil Spires where carrying volatile solutions is prosecuted identically to carrying live grenades. |
+| **Scout** | Ranger *(Outrider & Miner)* | **C** | **B** | **A** | **S** | **D** | **Outland & Subterranean Master:** Unrivaled **S-tier** in the unpowered Neither and deep mines; `Reload 0` longbows, heavy crossbows, picks, and zero reliance on cartridges or grids let them dominate the 70% attrition grind. |
+| *Generalists:* | | | | | | | *(Consistent Multi-Environment Backbone)* |
+| **Soldier** | Fighter *(+ Savage Combatant)* | **C** | **A** | **A** | **S** | **C** | **Head-to-Head Combat King:** Dominates the Neither (**S**) and excels in Warrens/Encampments and Airships (**A**) via 10 HP/lv, Heavy Armor + Shields (shutting down `Fatal` crits), `+2` Weapon Mastery, premier combat feats, and the *Savage Combatant* line (Lv 2/4/8). Restricted to **C** in Civil Spires because wearing armor (>leather) or carrying boxed weapons triggers immediate Constable surveillance and business refusal. |
+| **Sky Captain** | Aerial Swashbuckler | **B** | **B** | **S** | **B** | **B** | **Undisputed Master of Airships & Zone Skirmishes:** Apex (**S**) on SkyShips and perimeter zones; light-armor agility and dueling/pistol versatility keep them capable (**B**) everywhere else. |
+| **Officer** | Secular Commander | **B** | **A** | **A** | **A** | **A** | **Tactical Force Multiplier:** Secular squad directives, reactions, and morale rally commands function in full armor on the frontier (**A**) and in uniform or civilian dress inside Spire courts (**B / A**). |
+| *Influence Trio:* | | | | | | | *(70/30 Contact & Domain Separation Rule)* |
+| **Merchant** | Commercial Influencer | **A** | **B** | **B** | **B** | **S** | **Master of Scale, Trade & Requisitions:** Commands retail empires, skyship/caravan networks, and outland Crown leases; funds top-tier consumables/cartridges and issues lucrative combat directives. |
+| **Noble** | Aristocratic Regent | **A** | **B** | **C** | **C** | **S** | **Sovereign Administrator & High-Society Ruler:** Collects Spire lease rents, manages holdings, commands legal dueling sword carry and *King's Rite* retinues, and rules Royal/Privy council intrigue. |
+| **Black Marketeer** | Underworld Syndicate | **A** | **A** | **B** | **B** | **S** | **Warrens & Legitimate-Front Kingpin:** Commands Ward 13 Warrens vice and Ward crime families (operating through legitimate tavern/guild fronts); procures contraband cartridges/bootleg converters and directs street muscle (**A** in Warrens/Spires). |
 
 ---
 
-## 3. Environmental Class Tiers & Core Subsets
+## 3. Key Environmental Balance Mechanics
 
-To maintain consistent design balance across rules expansion, player classes are grouped into clear environmental subsets:
+### A. Why Civilized Spire Society Stays Balanced (And Why Battlefield Classes Are NOT Underpowered Overall)
+Because strict disarmament **only applies inside the enclosed Spire proper (Wards 1–15)**—and is **not enforced** in the Warrens, in the walled yards between the Spire proper and the Outer Wall (where workers carry axes and the wealthy carry pistols), aboard Airships (which only have the rules the Captain chooses to and can enforce), or anywhere beyond a settlement's perimeter—battlefield classes (**Clockwork Rifleman, Mad Bomber, Clockwork Engineer, Soldier, Scout**) are **never underpowered across a campaign**. They dominate 4 of the 5 operational zones while intentionally ceding the interior Spire Wards to urban specialists:
+1. **The Direct-Exit Surveillance Rule (Spire Proper Only):** Inside Wards 1–15, a Soldier or Rifleman cannot simply "peace-bond" heavy armor and a greatsword/rifle and stroll around the Spire. Constables and the King's Guard stop and watch them, businesses refuse service, stealth is impossible, and ordinary citizens immediately report anyone not walking straight toward a gate.
+2. **Normal-Looking Padded & Leather Only (No Clockwork Attachments in Spire Proper):** Everyday Spire armor must look like normal clothing (frock coats, dusters). Clockwork Engineers cannot wear powered exoskeletons or visible mechanical harnesses inside public wards, though **over-garments can hide material upgrades** (*Niracrest/Mitheral Weave*, *Ebon/Gildrod Leather*).
+3. **Mundane Utility Dagger Cap:** While anyone can carry a daily utility knife (`1d4`) in the Spire, it **cannot** be made of rare combat materials (*Niracrest*, *Mitheral*) or have clockwork mods. This keeps the **Survivor** at **A-tier** (relying on skill and *Sneak Attack* dice) rather than out-scaling the **Pugilist** (`1d6` *Powerful Fist* + *Flurry of Blows*) or **Dandy** (legal dueling rapier).
+4. **Volatile Solutions = Live Grenades in the Spire Proper:** Constables make zero distinction between manufactured bombs and improvised solutions. **Mad Bombers** are disarmed at the Spire gate (**D-tier** inside the Spire proper, **A-tier** everywhere else), and **Chirurgeons** can only carry pre-made healing items and benign precursors that *only* make healing items (**B-tier** in Spire proper, **A-tier** everywhere else).
+5. **Savage Combatant Social Cost:** A **Pugilist** or **Soldier** who triggers *Savage Combatant* in a Spire brawl suffers a **–2 status penalty to all social and Understanding checks (except Intimidate)** during the fight and for 10 minutes afterward, making reckless fury a major liability when Constables arrive.
 
-### Category 1: The Civil Spire Tier (Civilized Society Masters)
-In high-society wards where military firearms and radiant converters are locked away, martial weapons are peace-bonded, and armor is capped at light/padded, combat shifts to unarmored martial arts, dueling finesse, concealed blades, and raw brawling:
-- **Pugilist (S-Tier):** The supreme physical threat. Needs zero weapons and zero armor; delivers devastating bare-knuckle flurries and grappling in any room or alleyway.
-- **Dandy (S-Tier):** The aristocratic master. Holds the legal class privilege to openly carry dueling swords/rapiers; dominates social salons and unarmored blade duels.
-- **Brute (A-Tier):** The unstoppable physical muscle. Raging adrenaline and massive HP allow them to shrug off constable batons and overwhelm targets with bare hands, chair legs, or common utility daggers.
-- **Survivor (A-Tier):** The lethal covert shadow. Exploits legal common daggers for devastating Sneak Attacks, blending seamlessly into Spire crowds and bypassing security checkpoints.
-
-### Category 2: High Radiant Specialists (Spire Grids, Warrens & Defended Encampments)
-Classes that achieve apex combat potency when coupled with saturated wireless Neither induction (Spire grid lines, the Warrens' tapped conduits, and defended civilian or military encampments):
-- **Tactical Law Difference:** Unlike the interior civil wards where weapon/armor bans artificially constrain gear, the **Warrens** and **outside defended encampments enforce zero weapon or armor restrictions**. Military longarms, heavy ballistic harnesses, and unboxed ordnance are carried openly.
-- **Scholar (S-Tier):** Directs massive Active Surge AP into high-draw inductive arquebuses and wireless targeting matrices.
-- **Artisan (S-Tier):** Anchors static defensive positions with continuous inductive force barriers and energized heavy plate.
-- **Clockwork Engineer (S-Tier):** Deploys sustained mechanical contraptions and continuous pulse projectors without battery depletion.
-- **Clockwork Rifleman & Soldier (A-to-S in Warrens/Encampments):** In the Warrens and defended camps, the Rifleman and Soldier are completely unconstrained by peace-bonding, letting them deploy full sniper setups or full plate armor alongside dynamo fields.
-
-### Category 3: Low Radiant Specialists (SkyShips in the Zone, Outpost Perimeters & Avalon 4-Mile Buffer)
-Classes optimized for mid-range energy skirmishing, mobile aerial gunwales, and operations across low-radiant zones (SkyShips in the Zone, outpost rings extending 2–3× beyond high-radiant cores, and within 4 miles of New Avalon's outer walls):
-- **Sky Captain (S-Tier):** Unmatched aerial mobility, deck-clearing boarding actions, and low-radiant capacitive firearms.
-- **Clockwork Rifleman (S-Tier):** Optimized for mid-range energy carbines, cover-to-cover fire, and capacitive cycling.
-- **Chirurgeon & Mad Bomber (A-Tier):** Deliver consistent chemical and ordnance output unaffected by generator distance.
-
-### Category 4: The Neither / Outland Specialists (No Power Grids)
-Environments beyond 5× generator distance where radiant power is completely dead and cartridges are scarce:
-- **Soldier (S-Tier):** Highest weapon proficiency (+2 to hit) and heavy armor mastery dominate with conventional steel (swords, halberds, warhammers).
-- **Brute (S-Tier):** Crushing physical strength and greataxes cleave through wild beasts and raiders without requiring power cells.
-- **Scout (S-Tier):** Dominates wilderness and deep mines with longbows, heavy crossbows, sapping charges, and environmental tracking.
-
-### Category 5: Broad-Use Generalists (Consistent Tier-2/Tier-3 Across All Environments)
-A vital subset of versatile martial and tactical classes that maintain solid, dependable viability (A-to-B Tier) across almost every environment without suffering catastrophic dead-weight penalties:
-- **Soldier:** Baseline master of physical arms; excels in the Neither (S), strong on Airships and Outposts (A), reliable backup in High Radiant battlements (B). Only constrained by peacetime Spire laws (C).
-- **Sky Captain:** Apex on Airships (S), but fully combat-capable in Spires (B), Outposts (B), and wild wastes (B) due to light armor agility and versatile martial training.
-- **Officer:** Commands and buffs allies in any setting; effectiveness comes from squad tactical leadership that functions equally well in mud trenches, airship bridges, or Spire council chambers.
-
-### Category 6: The Influence Classes (The 70/30 Contact & Power Model)
-Unlike classes balanced strictly on tactical weapon ranges or kinetic AP, the three **Influence Classes** govern soft social currency, institutional networks, contractual authority, and retainer mobilization. 
-
-Under the **70/30 Separation Rule**, each influence class dedicates **~70% of its abilities, syndicates, and contact trees to its primary social domain**, while retaining **~30% cross-sphere versatility** to branch into adjacent tiers of society:
-
-1. **Merchant (The Ledger & The Freight):**
-   - **Primary Domain (70%):** Commerce, Trade Guilds, Banking, Supply Logistics, Freight, Maritime & Airship Wharves.
-   - **Core Tools:** *Commercial Directives* (wage bonuses, contractual defense clauses), *Line of Credit* (requisitioning tools/freight), and trade monopoly leverage.
-   - **Cross-Sphere Reach (30%):** Can buy into political lobbying (reaching Nobles) or covert black-market supply lines (reaching Black Marketeers).
-2. **Noble (The Sovereign & The Salon):**
-   - **Primary Domain (70%):** High Society, Royal & Privy Councils, University Collegium, Royal Archivists, High Arts, Sovereign Estate Rites.
-   - **Core Tools:** *Sovereign Directives* (commands of authority, aristocratic poise), *Royal Writs & Dispensations* (legal immunity petitions, warrant authorizations, family retinue calls).
-   - **Cross-Sphere Reach (30%):** Can fund commercial ventures (reaching Merchants) or employ deniable fixers for cutthroat court intrigue (reaching Black Marketeers).
-3. **Black Marketeer (The Warrens & The Shadows):**
-   - **Primary Domain (70%):** The Warrens, Slums, Smuggling Rings, Fences, Bootleg Emitter Tinkers, Corrupt Gate Guards, Extortion Crews.
-   - **Core Tools:** *Underworld Directives* (dirty fighting, street panic coordination), *Contraband Stash & Street Siphon* (procuring illicit cartridges, bootleg low-power converters, forged ward passes).
-   - **Cross-Sphere Reach (30%):** Can establish legitimate front businesses (reaching Merchants) or blackmail/serve high-caste noble conspirators (reaching Nobles).
-
----
-
-## 4. Design & Balancing Rules for Future Mechanics
-
-When developing new feats, items, or class abilities, adhere to the following constraints:
-1. **Never Give Energy Weapons Mundane Fallback:** Radiant weapons outside grids or without converter modules are 100% dead weight.
-2. **Preserve the Civil Spire Inversion:** Rules must never allow heavy armor or long firearms to become legal/routine in civilian wards. Pugilists, Dandies, Brutes, and Survivors must remain the primary physical threats in domestic society.
-3. **Respect Generalist Breadth:** Generalist classes (**Soldier**, **Sky Captain**, **Officer**) should trade peak specialization (they don't reach S-tier in High Radiant grids) for universal operational consistency.
-4. **Enforce the 70/30 Influence Rule:** Influence classes must maintain their primary domain identity across 70% of class feats, with only 30% allocated to cross-sphere expansion.
-5. **Ignore Level 1 & Level 6 for Class Balance:** Do not design class mechanics to make Level 1 (Aither) or Level 6 (The Deep) balanced or comfortable for standard human characters; these are environmental survival hazards, not standard combat arenas.
-6. **Support Partial Multi-Round Activation:** Low-AP martial classes can operate heavy NeitherTeck apparatuses or stationary guns via the Multi-Round Accumulation rule (spending all available points over consecutive rounds until total cost is met), ensuring heavy gear isn't an absolute hard lockout for low-AP classes willing to spend consecutive rounds priming.
+### B. Why Both Cartridge Gunners and Martials Shine Outside the Spire
+1. **Cartridge Weapons Reward Spending Scarce Ammo:** With restored full ranges (`30–150 ft`), boosted damage (`1d8` Small / `1d10–1d12` Medium / `2d8–2d10` Large), and matching Discipline Tags waiving enhancement tier AP escalation, **Clockwork Riflemen**, **Engineers**, **Scholars**, and **Artisans** deal high, satisfying burst damage while their cartridges last.
+2. **The 70% Attrition Grind & Reload Actions:** Because Small/Medium/Large cartridges require **Reload 1 / 2 / 3 actions**, cannot be recharged in the wild, and poor-quality battlefield guns have a **20% chance on every reload to overheat/burn out** (requiring a 10-minute Field Repair roll), gunners must ration shots carefully.
+3. **Head-to-Head Martial Superiority:** In a stand-up fight or prolonged expedition, **Soldiers**, **Scouts**, and **Pugilists** still dominate through **35–60% more HP** (larger 3-Step Wound buffers), **higher AC & Shields** (stripping away `Fatal` crits), **`+2` Weapon Mastery**, and **action-compression combat feats**.

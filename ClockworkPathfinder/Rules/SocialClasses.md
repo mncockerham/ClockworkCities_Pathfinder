@@ -62,15 +62,15 @@ Below are the setting's seven primary social tiers, divided into **Common** (the
 
 ```
 Character Classes Evaluated:
-• Soldier (Fighter)              • Scout (Ranger)
-• Dandy (Swashbuckler)           • Clockwork Engineer (Inventor)
-• Survivor (Rogue)               • Inspector (Investigator)
-• Chirurgeon (Alchemist: Medic)  • Clockwork Rifleman (Gunslinger)
-• Mad Bomber (Alchemist: Bomb)   • Merchant (Replaced Bard)
-• Brute (Barbarian)              • Pugilist (Monk: Boxer / Street Thug)
-• Officer (Champion: Officer)    • Sky Captain (Swashbuckler: Airships)
-• Miner (Ranger: Subterranean)   • Artisan (Investigator/Rogue: Craftsman)
-• Scholar (Investigator: Knowledge/Academic/Architect)
+• Soldier (Fighter / Savage Combatant) • Scout (Ranger: Outrider & Subterranean Miner)
+• Dandy (Swashbuckler)                 • Clockwork Engineer (Inventor)
+• Survivor (Rogue)                     • Inspector (Investigator)
+• Chirurgeon (Alchemist: Medic)        • Clockwork Rifleman (Gunslinger)
+• Mad Bomber (Alchemist: Bomb)         • Pugilist (Monk: Boxer / Savage Brawler)
+• Officer (Champion: Officer)          • Sky Captain (Swashbuckler: Airships)
+• Artisan (Craftsman)                  • Scholar (Academic / Architect / Accountant)
+• Influence Trio: Merchant, Noble, Black Marketeer
+*(Note: Former standalone Brute class is consolidated into the Level 2/4/8 Savage Combatant feat line for Soldiers and Pugilists; former Miner class is consolidated into Scout).*
 ```
 
 > [!NOTE]
@@ -86,9 +86,9 @@ Character Classes Evaluated:
 - **Social Backing:** None officially. Informal allegiance to Warrens bosses (e.g., Johnny Ralen, Amanda Coren) or local criminal crews. No legal vote.
 - **Common Classes:**
   - **Survivor:** The quintessential slum runner, cutpurse, scout, and alley fixer.
-  - **Brute:** Heavy muscle for Warrens syndicates, dock brawlers, and enforcers.
-  - **Pugilist:** Bare-knuckle street thugs, illegal pit fighters, and dockside brawlers.
-  - **Miner:** Indentured debt-laborers and penal diggers working the hazardous lower sump-shafts.
+  - **Pugilist (including Savage Combatants):** Bare-knuckle street thugs, illegal pit fighters, Warrens syndicate muscle, and dockside brawlers.
+  - **Black Marketeer:** Underworld syndicate operators, fences, and smuggling bosses.
+  - **Scout (Subterranean Miner):** Indentured debt-laborers and penal diggers working the hazardous lower sump-shafts.
 - **Uncommon Classes:**
   - **Mad Bomber:** Self-taught demolitionists brewing unstable ordnance in Warrens hideouts.
   - **Chirurgeon:** Back-alley trench doctors patching up wounded criminals and debtors without questions.
@@ -101,11 +101,10 @@ Character Classes Evaluated:
 *The working backbone of the spires: farmhands in Ward 1 (Labor), foundry hands, haulers, and junior foremen.*
 - **Social Backing:** Unaffiliated citizens. Beholden to no master, but without institutional protection. 1/10 vote for freemen.
 - **Common Classes:**
-  - **Soldier:** Enlisted recruits looking for steady pay, or laborers serving a military hitch to escape debt.
-  - **Brute:** Heavy quarrymen, iron foundriers, and dock laborers whose strength comes from grueling manual labor.
+  - **Soldier (including Savage Combatants):** Enlisted recruits looking for steady pay, laborers serving a military hitch, and heavy quarry/dock workers.
   - **Survivor:** Streetwise day-laborers and opportunistic warehouse workers navigating low-circle life.
-  - **Miner:** Standard excavation haulers, tunnel diggers, and stone quarry laborers.
-  - **Pugilist:** Blue-collar prize fighters, boxing gym contenders, and civilian tavern bouncers.
+  - **Scout (Subterranean Miner & Outrider):** Standard excavation haulers, tunnel diggers, stone quarry laborers, and caravan handlers.
+  - **Pugilist (including Savage Combatants):** Blue-collar prize fighters, boxing gym contenders, and civilian tavern bouncers.
 - **Uncommon Classes:**
   - **Artisan:** Independent un-guilded cobblers, carpenters, village blacksmiths, and tanning vat laborers.
   - **Scout:** Caravan haulers, outriders, and pack handlers navigating the Peasant Paths.
@@ -144,10 +143,8 @@ Character Classes Evaluated:
 - **Uncommon Classes:**
   - **Mad Bomber:** Combat sappers, siege engineers, and military ordinance technicians.
   - **Chirurgeon:** Military field medics and trench hospital doctors.
-  - **Scout:** Military perimeter foresters and forward scouts patrolling the base of the spire.
-  - **Brute:** Front-line shock troopers, breachers, and heavy vanguard brawlers.
-  - **Pugilist:** Military hand-to-hand combat instructors and rough-and-tumble ward constables.
-  - **Miner:** Combat sappers, counter-mining specialists, and trench excavators.
+  - **Scout (Outrider & Combat Sapper/Miner):** Military perimeter foresters, forward scouts, counter-mining specialists, and trench excavators.
+  - **Pugilist (including Savage Combatants):** Military hand-to-hand combat instructors, vanguard shock-brawlers, and rough-and-tumble ward constables.
 
 ---
 
@@ -208,20 +205,20 @@ Character Classes Evaluated:
 
 | Class | Base PF2e | Primary Social Tiers (Common) | Secondary Social Tiers (Uncommon) |
 |---|---|---|---|
-| **Soldier** | Fighter | Military (T4), Citizen (T2), Nobility (T7) | Guild (T3), Slums (T1) |
+| **Soldier** *(incl. Savage Combatant)* | Fighter | Military (T4), Citizen (T2), Nobility (T7) | Guild (T3), Slums (T1) |
 | **Officer** | Champion | Military/King's Guard (T4), Nobility (T7) | Merchant (T6) |
 | **Dandy** | Swashbuckler | Nobility (T7), Merchant (T6) | Academia (T5) |
 | **Sky Captain** | Swashbuckler | Merchant/Wall Merchant (T6), Military/Navy (T4) | Nobility (T7), Citizen (T2) |
 | **Survivor** | Rogue | Slums/Warrens (T1), Citizen (T2) | Merchant (T6) |
-| **Pugilist** | Monk | Slums/Warrens (T1), Citizen (T2) | Military (T4) |
-| **Brute** | Barbarian | Slums/Warrens (T1), Citizen (T2) | Military (T4) |
+| **Pugilist** *(incl. Savage Combatant)* | Monk | Slums/Warrens (T1), Citizen (T2) | Military (T4) |
 | **Chirurgeon** | Alchemist (Medic) | Academia (T5), Guild (T3) | Slums (T1), Military (T4), Nobility (T7) |
 | **Mad Bomber** | Alchemist (Bomber) | Guild (T3), Military (T4) | Slums (T1), Academia (T5) |
-| **Scout** | Ranger | Free Wanderers (T1/T2), Military (T4) | Merchant (T6) |
-| **Miner** | Ranger | Citizen/Laborer (T2), Slums/Debtors (T1), Guild/Dwarf (T3) | Military (T4) |
+| **Scout** *(Outrider & Subterranean Miner)* | Ranger | Free Wanderers (T1/T2), Citizen/Laborer (T2), Guild/Dwarf (T3), Military (T4) | Merchant (T6) |
 | **Clockwork Engineer** | Inventor | Guild (T3), Academia (T5) | Merchant (T6), Nobility (T7) |
 | **Clockwork Rifleman** | Gunslinger | Military (T4) | Citizen (T2), Slums (T1), Merchant (T6), Nobility (T7) |
 | **Artisan** | Hybrid (Rogue/Inv) | Guild (T3) | Citizen/Laborer (T2) |
-| **Merchant** | Replaced Bard | Merchant (T6) | Nobility (T7), Guild (T3), Academia (T5) |
+| **Merchant** | Replaced Bard (Influence) | Merchant (T6) | Nobility (T7), Guild (T3), Academia (T5) |
+| **Noble** | Replaced Bard (Influence) | Nobility (T7) | Academia (T5), Military (T4) |
+| **Black Marketeer** | Replaced Bard (Influence) | Slums/Warrens (T1) | Citizen (T2), Merchant (T6) |
 | **Inspector** | Investigator | Military/Constable (T4), Academia (T5) | Guild (T3), Merchant (T6), Nobility (T7) |
 | **Scholar** | Investigator | Academia (T5) | Guild (T3), Merchant (T6), Nobility (T7) |

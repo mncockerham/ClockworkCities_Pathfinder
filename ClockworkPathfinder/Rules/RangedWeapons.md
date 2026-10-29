@@ -1,7 +1,7 @@
 # Ranged Weapons — Firearms & Cartridge Weapons
 
 - **System:** Pathfinder 2e Remaster `[Player Core p.278–283, Guns & Gears p.150–154]`
-- **Status:** **Modified** (Gunpowder weapons boosted by +1 damage die type; Neither weapons duplicated with 1/2 range and doubled magazine capacity via cartridges)
+- **Status:** **Modified** (Gunpowder weapons boosted by +1 damage die type; Neither Cartridge weapons boosted by +1/+2 damage dice with standard firearm ranges, tripled magazine capacity, and 1/2/3-action reloads by cartridge size)
 - **Precedence:** Rules in `AISummary/00_RulesFoundation.md` and world facts in `AISummary/WorldSummary.md`.
 
 ---
@@ -27,11 +27,15 @@ In the Clockwork Cities setting, firearms fall into two distinct mechanical and 
   - **Pure Aither (Completely Inoperable):** Deprived of Neither particles, capacitive circuits discharge inertly with zero effect.
 - **Two Distinct Mechanical Classes of Neither Weapons:**
 
-  1. **Portable Cartridge Weapons (Expeditionary / Close-Quarters):**
+  1. **Portable Cartridge Weapons (Expeditionary / All-Neither Utility):**
      - Powered by self-contained, high-density **Neither Cartridges** utilizing a secret Spire biochemical catalyst.
-     - **Half Range (15–35 ft):** Without an ambient broadcast field to collimate the beam, energy quickly disperses in the dense Neither fog.
-     - **Tripled Capacity (3 to 15 shots):** High action economy before requiring a fresh cartridge.
-     - **Strict Logistics:** Cartridges **cannot be field-recharged in the wild** and must be returned to a Spire or rare fortified military outpost. Once empty, they cannot fire.
+     - **Full Standard Firearm Range (30–150 ft):** Restored to normal firearm ranges. While traditional bows (`100 ft`, `Reload 0`) and crossbows (`120 ft`) retain a slight range and endurance edge, Cartridge Weapons intentionally hit harder in active fights to reward spending finite cartridges.
+     - **Boosted Damage & Tripled Capacity (3 to 15 shots):** Cartridge weapons deal superior damage per shot (`1d8` to `2d10` base) and hold 3 to 15 shots per cartridge, allowing sustained multi-shot bursts before reloading.
+     - **Reload Actions by Cartridge Size:** Swapping a depleted cartridge scales with cell mass and locking complexity:
+       - **Small Cartridges** (Pistols & Pocket Emitters, 3 to 9 shots): **Reload 1** (1 Action)
+       - **Medium Cartridges** (Rifles, Carbines, Blunderbusses & Slide Pistols, 3 to 15 shots): **Reload 2** (2 Actions)
+       - **Large Cartridges** (Heavy Arc Arquebuses, Force Breakers & Dragon Projectors, 3 shots): **Reload 3** (3 Actions / Full Turn)
+     - **Strict Logistics & Martial Balance (Grind Limited):** Cartridges **cannot be field-recharged in the wild** and must be returned to a Spire or rare fortified military outpost. Once empty, they cannot fire. Furthermore, even when Cartridge Weapons out-damage bows on paper, **Dedicated Martials (Soldiers, Brutes, Scouts) still dominate head-to-head fights** thanks to **35–60% more HP** (larger 3-Step Wound buffers), **higher AC** (Heavy Armor, faster armor proficiency, and Shields that shut down `Fatal` crits), **`+2` higher attack proficiency**, and **superior combat feats** (*Double Shot*, *Point-Blank Stance*, *Reactive Strike*).
 
   2. **Radiant Grid Weapons (Spire Defense & Zone Airships Only):**
      - Possess no internal battery cylinders. Instead, they feature inductive receptor antennae that draw continuous power wirelessly from an active **Radiant Power Grid**.
@@ -86,24 +90,24 @@ Whenever an Elven traditional gunpowder firearm is used within the Aither, its b
 ---
 
 ## 4. Neither-Tech Energy Weapons (Spire Arc & Force Projectors)
-*Non-projectile energy weapons powered by rechargeable Neither cartridges. 1/2 range increment due to beam fog dispersion, triple shots per cylinder. Inflict Electricity or Force damage.*
+*Non-projectile energy weapons powered by rechargeable Neither cartridges. Full standard firearm range increments, boosted damage dice, triple shots per cylinder, and Reload 1 / 2 / 3 based on cartridge size (Small / Medium / Large). Inflict Electricity or Force damage.*
 
 | Weapon | Category | Damage & Type | Range | Reload | Shots/Cartridge | Bulk | Hands | Traits | Tactical Role / Emission Profile |
 |---|---|:---:|:---:|:---:|:---:|:---:|:---:|---|---|
-| **Neither Arc Pocket Emitter** | Simple | **1d6 Electricity** | 15 ft | 1 | **3** | L | 1 | Cartridge 3, Concealable, Fatal d10 | Palm-sized arc discharge sidearm (Small cartridge, 3 discharges). |
-| **Neither Force Dueling Pistol** | Martial | **1d8 Force** | 30 ft | 1 | **3** | L | 1 | Cartridge 3, Concealable, Fatal d12 | Coherent kinetic pulses (Small cartridge, 3 discharges). |
-| **Neither Service Arc Pistol** | Martial | **1d6 Electricity** | 20 ft | 1 | **3** | L | 1 | Cartridge 3, Concealable, Fatal d10 | Standard constabulary sidearm (Small cartridge, 3 discharges). |
-| **Neither Twin-Arc Pistol** | Martial | **1d6 Electricity** | 15 ft | 1 | **6** | L | 1 | Cartridge 6, Fatal d10 | Dual-pronged galvanic emitter (Small cartridge, 6 discharges). |
-| **Neither Revolving Arc Pistol**| Martial | **1d6 Electricity** | 30 ft | 1 | **9** | L | 1 | Cartridge 9, Fatal d10 | 9-chamber rotary capacitor cylinder (Small rotary cell, 9 discharges). |
-| **Neither Slide Pulse Pistol** | Martial | **1d8 Force** | 15 ft | 1 | **15** | 1 | 1 | Cartridge 15, Fatal d12 | Extended slide capacitor (Medium cartridge, 15 rapid pulses). |
-| **Neither Shock Cannon** | Martial | **1d8 Electricity** | 15 ft | 1 | **3** | 1 | 1 | Cartridge 3, Scatter 5 ft | Wide-aperture cone discharge (Medium cartridge, 3 discharges). |
-| **Neither Heavy Arc Arquebus** | Martial | **1d10 Electricity** | 75 ft | 1 | **3** | 2 | 2 | Cartridge 3, Fatal d12+2, Kickback | Heavy brass-barreled sniper (Large cartridge, 3 lightning bolts). |
-| **Neither Pulse Blunderbuss** | Martial | **1d8 Force** | 20 ft | 1 | **3** | 2 | 2 | Cartridge 3, Scatter 10 ft | Kinetic shockwave cone (Medium cartridge, 3 pulses). |
-| **Neither Dragon Projector** | Martial | **1d10 Force** | 30 ft | 1 | **3** | 2 | 2 | Cartridge 3, Kickback, Scatter 10 ft | Heavy breach weapon (Large cartridge, 3 atmospheric shock fronts). |
-| **Neither Service Arc Rifle** | Martial | **1d8 Electricity** | 35 ft | 1 | **3** | 1 | 2 | Cartridge 3, Fatal d12 | Standard spire infantry rifle (Medium cartridge, 3 discharges). |
-| **Neither Twin-Arc Rifle** | Martial | **1d8 Electricity** | 30 ft | 1 | **6** | 1 | 2 | Cartridge 6, Fatal d12 | Twin parallel capacitor channels (Medium cartridge, 6 discharges). |
-| **Neither Force Breaker** | Martial | **1d12 Force** | 25 ft | 1 | **3** | 2 | 2 | Cartridge 3, Kickback | Crushing concussive beam (Large cartridge, 3 heavy pulses). |
-| **Neither Precision Arc Lance** | Martial | **1d10 Electricity** | 45 ft | 1 | **3** | 2 | 2 | Cartridge 3, Fatal d12+2 | High-focal optical lens (Medium cartridge, 3 sustained laser arcs). |
+| **Neither Arc Pocket Emitter** | Simple | **1d8 Electricity** | 30 ft | **1** | **3** | L | 1 | Cartridge 3 (Small), Concealable, Fatal d12 | Palm-sized arc discharge sidearm (Small cartridge, 3 discharges). |
+| **Neither Force Dueling Pistol** | Martial | **1d10 Force** | 60 ft | **1** | **3** | L | 1 | Cartridge 3 (Small), Concealable, Fatal d12+2 | Coherent kinetic pulses (Small cartridge, 3 discharges). |
+| **Neither Service Arc Pistol** | Martial | **1d8 Electricity** | 40 ft | **1** | **3** | L | 1 | Cartridge 3 (Small), Concealable, Fatal d12 | Standard constabulary sidearm (Small cartridge, 3 discharges). |
+| **Neither Twin-Arc Pistol** | Martial | **1d8 Electricity** | 30 ft | **1** | **6** | L | 1 | Cartridge 6 (Small), Fatal d12 | Dual-pronged galvanic emitter (Small cartridge, 6 discharges). |
+| **Neither Revolving Arc Pistol**| Martial | **1d8 Electricity** | 60 ft | **1** | **9** | L | 1 | Cartridge 9 (Small), Fatal d12 | 9-chamber rotary capacitor cylinder (Small rotary cell, 9 discharges). |
+| **Neither Slide Pulse Pistol** | Martial | **1d10 Force** | 30 ft | **2** | **15** | 1 | 1 | Cartridge 15 (Medium), Fatal d12+2 | Extended slide capacitor (Medium cartridge, 15 rapid pulses). |
+| **Neither Shock Cannon** | Martial | **1d10 Electricity** | 30 ft | **2** | **3** | 1 | 1 | Cartridge 3 (Medium), Scatter 5 ft | Wide-aperture cone discharge (Medium cartridge, 3 discharges). |
+| **Neither Heavy Arc Arquebus** | Martial | **2d8 Electricity** | 150 ft | **3** | **3** | 2 | 2 | Cartridge 3 (Large), Fatal d12+4, Kickback | Heavy brass-barreled sniper (Large cartridge, 3 lightning bolts). |
+| **Neither Pulse Blunderbuss** | Martial | **1d10 Force** | 40 ft | **2** | **3** | 2 | 2 | Cartridge 3 (Medium), Scatter 10 ft | Kinetic shockwave cone (Medium cartridge, 3 pulses). |
+| **Neither Dragon Projector** | Martial | **2d8 Force** | 60 ft | **3** | **3** | 2 | 2 | Cartridge 3 (Large), Kickback, Scatter 10 ft | Heavy breach weapon (Large cartridge, 3 atmospheric shock fronts). |
+| **Neither Service Arc Rifle** | Martial | **1d10 Electricity** | 70 ft | **2** | **3** | 1 | 2 | Cartridge 3 (Medium), Fatal d12+2 | Standard spire infantry rifle (Medium cartridge, 3 discharges). |
+| **Neither Twin-Arc Rifle** | Martial | **1d10 Electricity** | 60 ft | **2** | **6** | 1 | 2 | Cartridge 6 (Medium), Fatal d12+2 | Twin parallel capacitor channels (Medium cartridge, 6 discharges). |
+| **Neither Force Breaker** | Martial | **2d10 Force** | 50 ft | **3** | **3** | 2 | 2 | Cartridge 3 (Large), Kickback | Crushing concussive beam (Large cartridge, 3 heavy pulses). |
+| **Neither Precision Arc Lance** | Martial | **1d12 Electricity** | 90 ft | **2** | **3** | 2 | 2 | Cartridge 3 (Medium), Fatal d12+4 | High-focal optical lens (Medium cartridge, 3 sustained laser arcs). |
 
 ---
 
@@ -130,11 +134,22 @@ Immediately before resolving the attack roll, the shooter must **roll 1d10 on th
 
 ---
 
-### Cartridge X (Trait)
-A weapon with the **Cartridge X** trait holds a sealed, spring-tensioned feed or multi-chamber clip containing **X** rounds. 
-- You can fire the weapon **X times** before needing to reload.
-- Once all **X shots** are fired, spending the weapon's listed **Reload action** ejects the spent casing/clip and slots in a fresh cartridge magazine.
-- If a character has the **Slinger's Reload** class feature, their tactical reload action completely swaps and primes the cartridge clip.
+### Cartridge X (Trait) & Poor-Quality Battlefield Cartridge Weapons
+A weapon with the **Cartridge X** trait holds a sealed, spring-tensioned feed or multi-chamber capacitor clip containing **X** rounds. 
+- You can fire the weapon **X times** before needing to reload (no actions are needed between individual shots in the same cartridge).
+- Once all **X shots** are fired, spending the weapon's listed **Reload actions** ejects the spent casing/clip and locks in a fresh cartridge magazine:
+  - **Small Cartridge Weapons:** **Reload 1** (1 Interact action)
+  - **Medium Cartridge Weapons:** **Reload 2** (2 Interact actions; can be split across turns)
+  - **Large Cartridge Weapons:** **Reload 3** (3 Interact actions / 1 full turn; can be split across turns)
+- If a character has the **Slinger's Reload** or equivalent tactical reload class feature, each use of that feature provides 1 Interact action toward the weapon's Reload requirement alongside its bonus action (e.g., completing a Small Cartridge reload immediately, or contributing 1 of the 2 actions needed for a Medium Cartridge).
+
+#### Poor-Quality / Salvaged Cartridge Weapons (20% Reload Burnout Rule)
+While standard Spire-issue and masterwork energy weapons operate reliably without misfire checks, **poor-quality cartridge weapons**—such as battlefield salvage, mass-produced militia surplus, Warrens knockoffs, or Orc-looted guns—frequently appear on the battlefield.
+- **No Check While Firing:** Even a poor-quality cartridge weapon fires its loaded cartridge shots normally without per-shot jam checks.
+- **20% Component Burnout on Every Reload:** Whenever a **poor-quality cartridge weapon** is reloaded, roll a **d20 (or d100)**: on a **1–4 on 1d20 (20% chance)**, the sudden capacitive surge of seating a fresh cell causes delicate internal components (induction coils, contact relays, or focusing lenses) to **overheat or burn out**. The weapon immediately goes dead and cannot fire until repaired (though mundane attachments like bayonets or reinforced grips still function).
+- **10-Minute Field Repair Attempt:** Outside of combat, a **Clockwork Engineer, Artisan, Scholar**, or any character trained in **Crafting (with NeitherTeck/Clockwork familiarity)** and carrying repair tools can spend **10 minutes** attempting a field repair check (standard level-based Crafting DC for the weapon, typically **DC 15** for simple/pistols, **DC 18** for martial rifles, **DC 20** for heavy weapons):
+  - **Success:** The burned-out relay is bridged or cleaned; the weapon is restored to working order and can be used again.
+  - **Failure:** The burnout is too severe for field tools. Fixing the weapon requires **downtime and access to a full Clockwork Workshop** (in a Spire, citadel, or equipped engineering bay).
 
 ### Ammunition & Cartridge Logistics
 - **Standard Gunpowder Ammo (Aither):** Loose black powder and lead shot synthesized by Elves. Stable indefinitely only if kept dry within the pure Aither; suicidal and prone to 20% daily spontaneous detonation in the Neither.
@@ -155,9 +170,9 @@ A weapon with the **Cartridge X** trait holds a sealed, spring-tensioned feed or
          - **Direct Aither Exposure:** Reacts violently with clean oxygen and solar radiation, foaming into a boiling, corrosive acidic sludge that dissolves metal linkages and permanently destroys the casing.
      - *Weapon Recharging Conversion:* While it is theoretically possible to daisy-chain and slow-charge a weapon cartridge from **twenty (20) standard low-density civil cartridges**, doing so only works if the internal biochemical substrate is intact. Once the biochemical fluid goes inert (after 3–6 months), civil dynamos cannot revitalize it—it must be returned to a Great Spire to be drained, cleaned, and refilled with fresh chemical compound.
      - *Tactical & Economic Reality:* Because weapon cartridges require massive infrastructure and secret spire chemistry to manufacture, **traditional Pathfinder weaponry (composite bows, crossbows, throwing axes, and spears) remains far cheaper, lighter, and vastly more practical** for wandering raiders, subterranean scouts, and outcasts.
-- **Three Standard Weapon Cartridge Sizes & Weights:**
-  - **Small Weapon Cartridge (~200 grams / Bulk L for 5):** Compact cells used in **pistols, pocket emitters, and light sidearms** (e.g., Neither Arc Pocket Emitter, Service Arc Pistol, Dueling Pistol). Holds **3 shots** (or **9 smaller charges** in a rotary cylinder).
-  - **Medium Weapon Cartridge (~400 grams / Bulk L for 2, Bulk 1 for 5):** Elongated power cells used in **rifles, carbines, and medium tactical weapons** (e.g., Neither Service Arc Rifle, Twin-Arc Rifle, Slide Pulse Pistol). Holds **3 to 6 heavy rifle discharges** (or **15 rapid pulses** in a slide magazine).
-  - **Large Weapon Cartridge (~800 grams / Bulk 1 for 2):** Heavy heavy-gauge industrial capacitors used in **arquebuses, cannons, and heavy breaker weapons** (e.g., Heavy Arc Arquebus, Force Breaker, Dragon Projector). Holds **3 massive high-output discharges**.
+- **Three Standard Weapon Cartridge Sizes, Weights & Reload Times:**
+  - **Small Weapon Cartridge (~200 grams / Bulk L for 5 / Reload 1):** Compact cells used in **pistols, pocket emitters, and light sidearms** (e.g., Neither Arc Pocket Emitter, Service Arc Pistol, Force Dueling Pistol). Holds **3 shots** (or **6 to 9 charges** in twin/rotary pistols) and requires **1 Action (`Reload 1`)** to swap.
+  - **Medium Weapon Cartridge (~400 grams / Bulk L for 2, Bulk 1 for 5 / Reload 2):** Elongated power cells used in **rifles, carbines, and medium tactical weapons** (e.g., Neither Service Arc Rifle, Twin-Arc Rifle, Precision Arc Lance, Slide Pulse Pistol). Holds **3 to 6 heavy rifle discharges** (or **15 rapid pulses** in a slide magazine) and requires **2 Actions (`Reload 2`)** to unlatch, vent, and seat.
+  - **Large Weapon Cartridge (~800 grams / Bulk 1 for 2 / Reload 3):** Heavy industrial capacitors used in **arquebuses, cannons, and heavy breaker weapons** (e.g., Heavy Arc Arquebus, Force Breaker, Dragon Projector). Holds **3 massive high-output discharges** (`2d8` to `2d10` base) and requires **3 Actions / a Full Turn (`Reload 3`)** to cycle the heavy breech and lock the high-voltage cell.
 - **Spire Recharging Fees:** Municipal utility substations and guild armories recharge depleted military cells for standard fees: **1 sp per Small cell, 2 sp per Medium cell, 4 sp per Large cell**.
 - **Operational Shelf-Life:** A charged Neither cartridge holds its capacitive charge reliably for **3 to 6 months** before the catalytic seal degrades and the energy harmlessly dissipates into ambient static.
