@@ -16,10 +16,20 @@
 | **Removed** | Not available in the setting. |
 | **New** | Clockwork-only rule. |
 
-## Precedence
-1. Specific Clockwork rules (a character ability, location, item, or world event) override general Clockwork rules.
-2. Clockwork rules override Pathfinder rules.
-3. Anything not addressed uses Pathfinder Remaster as written.
+## Precedence & The 3-Tier Design Decision Structure
+1. **Specific Overrides General:**
+   - Specific Clockwork rules (a character ability, location, item, or world event) override general Clockwork rules.
+   - Clockwork rules override Pathfinder rules.
+   - Anything not addressed uses Pathfinder Remaster as written.
+2. **The 3-Tier Rules & Storytelling Decision Hierarchy:**
+   Whenever designing, interpreting, or adjudicating rules at the table, decisions follow a strict three-tier priority order:
+   - **Priority 1 (Highest) — Fun & Beneficial to the Game:** *Is it fun and beneficial to the game?* If not, why are we doing it this way? Enjoyment and positive table impact always come first.
+   - **Priority 2 — Theme & Mood of the World:** *Does it fit the theme and mood of the Clockwork Cities world?* Crucial for atmosphere, though always secondary to Priority 1.
+   - **Priority 3 (Lowest) — Realism & Rules Alignment:** *Is it realistic and does it align symmetrically with other rules in the game?* Ideally yes, but **realism and strict rules symmetry can and should be ignored whenever Priorities 1 and 2 are being met**.
+3. **Storyteller Authority & Institutional Roleplay:**
+   - **Members, Not Rulers (Until High Level):** Player characters are **members** of a Family House, Trade Guild, or institution—until high levels, they **do not run them**.
+   - **Roleplay & Storyteller Final Word:** Questions of what an organization will fund, requisition, or require are resolved through **roleplay between the player and the DM / Storyteller**, and **it is the Storyteller—not the player—who has the final word** on what is and is not approved.
+   - **The Social Contract of the Table:** Players are always free not to play or to run their own game if they dislike the Storyteller's decisions; equally, **Storytellers have the responsibility to keep the players engaged and interested enough in the game** to want to be at the table.
 
 ## Character Creation Philosophy — Reasons, Not Gatekeeping Justifications
 Player characters are inherently exceptional, unique individuals in the world. 

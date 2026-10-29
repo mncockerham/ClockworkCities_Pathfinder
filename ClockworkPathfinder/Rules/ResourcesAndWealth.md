@@ -13,6 +13,13 @@ In the Great Spires of Clockwork Cities, personal pocket cash is secondary to in
 - **Durable vs. Fragile Institutional Wealth:**
   - *Noble Wealth:* Durable, anchored in royal land grants, deep-vein mines, and Crown patents. If a noble estate burns down, the Crown helps rebuild.
   - *Merchant Wealth:* Liquid and fragile, anchored in airship cargoes, bills of exchange, and warehouse goods. A lost convoy can bankrupt a merchant house overnight.
+- **Institutional Roleplay, Storyteller Final Authority & The 3-Tier Decision Structure:**
+  - **Members, Not Rulers (Until High Level):** Players are **members** of a House or Guild—until high level, **they will not run them**.
+  - **Roleplay & Storyteller Final Word:** Many resource and institutional questions (what an organization believes a character needs for a given task, how returned wealth is rewarded, or what is approved) are resolved through **roleplay between the player and the DM / Storyteller**, and **it is the Storyteller—not the player—who has the final word** on what is and is not. Players are free not to play or to make their own game if they dislike the decisions the Storyteller is making; equally, Storytellers need to keep the players interested enough in the game.
+  - **The 3-Tier Decision Structure:** All rules and Storyteller decisions follow three clear tiers:
+    1. **Tier 1 (Highest) — Fun & Beneficial to the Game:** *Is it fun/beneficial to the game?* If not, why are we doing it this way?
+    2. **Tier 2 — Theme & Mood:** *Does it fit the theme and mood of the game world?* (Not as important as Rule 1).
+    3. **Tier 3 (Lowest) — Realism & Rules Alignment:** *Is it realistic and aligned with other rules in the game?* Ideally yes, **but can be ignored if Rules 1 and 2 are being met**.
 - **No "Off-the-Books" Laundering (Even in the Warrens):** True off-the-books cash hoarding does not exist anywhere in the Spire:
   - **Civilized Wards:** Your Family House, Trade Guild, University, or Military unit knows precisely what you should earn and own. Private, anonymous secure vaults do not exist, and no constable or court will investigate the theft of wealth that legally should not exist (and admitting you possessed it risks immediate expulsion or criminal charges).
   - **The Warrens & Ward Crime Reality (Why Criminals Don't Bypass the System):**
