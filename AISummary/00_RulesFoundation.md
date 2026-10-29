@@ -83,7 +83,8 @@ Because Clockwork Cities features deep institutional backing (*"Worth = who you 
 | `ClockworkPathfinder/Rules/RangedWeapons.md` | Ranged Weapons (Gunpowder boosted dice & Neither Cartridge weapons) | Draft |
 | `ClockworkPathfinder/Rules/SocialClasses.md` | Social Classes & Class Fit (Common vs Uncommon breakdown) | Draft |
 | `ClockworkPathfinder/Rules/WorldAndLaw.md` | Setting Overview, Ward Structure, Governance & Legal Hierarchy | Draft |
-| `ClockworkPathfinder/Rules/SocialClassAndCorruptionRules.md` | Status Mechanics, Permanent/Transitory Wealth & Neither Corruption Rules | Draft |
+| `ClockworkPathfinder/Rules/SocialClassAndCorruptionRules.md` | Status Mechanics, Lineage Succession & Neither Corruption Summary | Draft |
+| `ClockworkPathfinder/Rules/ResourcesAndWealth.md` | Player Resource Categories, The Citizen Bulwark & Hard-Alloy Currency | Draft |
 | `ClockworkPathfinder/Rules/AncestriesAndHeritages.md` | Humanity Ancestry & 6 Biological Heritages (Feats & Low-Light Vision) | Draft |
 | `ClockworkPathfinder/Classes/Archetypes/ArchetypeCatalog.md` | Archetypes (PF2e Remaster available, modified & removed archetypes) | Draft |
 | `ClockworkPathfinder/Equipment/EquipmentCatalog.md` | Equipment (Victorian steampunk gear, Mad Bomber bombs, Chirurgeon sera, ballistics & rations) | Draft |

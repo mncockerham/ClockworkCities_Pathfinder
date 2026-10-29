@@ -239,6 +239,23 @@ Carrying martial weapons or fielding armed escorts through the municipal circles
   - Descending into the lawless lower circles of the Warrens or the subterranean deep Warrens/Tombs presents lethal dangers.
   - If a group possesses sufficient **social influence, guild standing, or bribery coin** to convince the **Ward Gate Guards** that they are embarking on a legitimate, high-risk foray into the deep Warrens, they can make special legal arrangements to check out and carry **charged Neither cartridges or radiant converter modules** directly through the ward check-points.
 
+### The Citizen Bulwark (Ancient Militia Upkeep Law & 3-Item Resource Exemption)
+
+Clockwork and NeitherTeck equipment require constant maintenance, calibration, and costly spare parts—an ongoing financial burden far beyond what most residents of the Spire could ever afford on their personal wages. To ensure the city always possesses a core of well-equipped defenders, this cost is offset by one of the oldest statutes in Arclean legal history: **The Citizen Bulwark**.
+
+- **The Statutory Grant (3 Subsidized Items):**
+  - The Citizen Bulwark grants recognized "skilled citizens" municipal and guild-backed funding and spare-parts access to maintain **three personal defense items**:
+    1. **1 Suit of Protective Armor**
+    2. **1 Primary Weapon**
+    3. **1 Additional Clockwork Item** (a spare weapon, shield, tactical rig, or other device that can aid in the defense of the Spire).
+- **The Militia Clause (An Ancient Legal Fossil):**
+  - Under the wording of the Bulwark, each citizen participating in the grant formally agrees to serve in the Spire Militia in times of need.
+  - *Historical Irony:* More recent Crown and Privy statutes have long since codified that **every citizen is legally required to serve in the militia and submit to conscription during a crisis regardless**. The fact that the Citizen Bulwark still treats militia service as a voluntary agreement is a legal anachronism that shows just how ancient the law truly is.
+- **Player Resource Rule (Exempt from Normal Spire Limits & Level-Scaled Valuation):**
+  - Mechanically, the Citizen Bulwark ensures that **every PC can keep and maintain 3 core items (1 Armor, 1 Weapon, 1 Additional Clockwork/Defense Item) completely outside of their normal Spire resource limits, Personal Property Caps, and social wealth ceilings**.
+  - **Level-Adjusted Price Ceiling (`[GM Core p.58]`):** The allowed price and tier of each of the 3 Bulwark items scales by **Character Level** (supporting permanent items up to **Item Level = Character Level**), aligning directly with the normal Pathfinder 2e permanent magic item progression (`[GM Core p.58]`). This guarantees that every PC—regardless of social class—can maintain level-appropriate fundamental weapon/armor enhancements (`+1 Niracrest`, `Striking`, `Resilient`, `+2 Mitheral`, etc.) and clockwork upgrades as they level up.
+  - Note that while the Citizen Bulwark subsidizes the ownership and mechanical upkeep of these three items, **all standard municipal carry, peace-bonding, and cartridge/converter checkout laws still apply** while walking through interior public wards.
+
 ### Bribery, Greed & Law Enforcement Realities (What is Tolerated vs. What Ends Families)
 
 Bribery in Arclean is not a rare, covert anomaly; it is a semi-institutionalized grease that keeps the vast machinery of the Spire moving. How bribery is viewed, tolerated, and punished depends entirely on **what is being bribed for, who is taking the bribe, and whether the transaction threatens the political hierarchy**:
