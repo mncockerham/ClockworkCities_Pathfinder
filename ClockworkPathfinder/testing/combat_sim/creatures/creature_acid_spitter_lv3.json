@@ -1,0 +1,68 @@
+{
+  "name": "Caustic Acid Spitter (Lv3 - Berserk)",
+  "archetype": "AcidSpitter",
+  "level": 3,
+  "hp": 38,
+  "ac": 19,
+  "fort": 10,
+  "ref": 11,
+  "will": 7,
+  "speed": 35,
+  "max_ap": 0,
+  "status": 0,
+  "civil_spire_legal": false,
+  "civil_ac_penalty": 0,
+  "unarmed_damage_dice": "2d6",
+  "unarmed_bonus": 11,
+  "unarmed_flat_dmg": 3,
+  "unarmed_traits": [
+    "agile"
+  ],
+  "weapons": [
+    {
+      "name": "Caustic Acid Stream",
+      "attack_bonus": 0,
+      "damage_dice": "2d8",
+      "flat_damage": 3,
+      "damage_type": "Acid",
+      "range": 30,
+      "ap_cost": 0,
+      "traits": [
+        "acid",
+        "area",
+        "range_30"
+      ],
+      "allowed_environments": [
+        "civil_spire",
+        "high_radiant",
+        "low_radiant",
+        "the_neither"
+      ],
+      "save_type": "ref",
+      "save_dc": 19,
+      "save_damage_dice": "2d8",
+      "save_flat_damage": 3,
+      "action_cost": 2,
+      "cooldown_rounds": 0
+    },
+    {
+      "name": "Barbed Tendril / Mandible",
+      "attack_bonus": 11,
+      "damage_dice": "2d6",
+      "flat_damage": 3,
+      "damage_type": "P",
+      "range": 0,
+      "ap_cost": 0,
+      "traits": [
+        "agile"
+      ],
+      "allowed_environments": [
+        "civil_spire",
+        "high_radiant",
+        "low_radiant",
+        "the_neither"
+      ]
+    }
+  ],
+  "abilities": {}
+}

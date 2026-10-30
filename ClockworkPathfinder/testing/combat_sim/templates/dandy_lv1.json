@@ -1,0 +1,66 @@
+{
+  "name": "Dandy (Lv1)",
+  "archetype": "Dandy",
+  "level": 1,
+  "hp": 19,
+  "ac": 16,
+  "fort": 5,
+  "ref": 8,
+  "will": 6,
+  "speed": 30,
+  "max_ap": 3,
+  "status": 5,
+  "civil_spire_legal": true,
+  "civil_ac_penalty": 0,
+  "unarmed_damage_dice": "1d4",
+  "unarmed_bonus": 5,
+  "unarmed_flat_dmg": 0,
+  "unarmed_traits": [
+    "agile",
+    "nonlethal"
+  ],
+  "weapons": [
+    {
+      "name": "Fair Steel Salon Rapier",
+      "attack_bonus": 8,
+      "damage_dice": "1d6",
+      "flat_damage": 3,
+      "damage_type": "P",
+      "range": 0,
+      "ap_cost": 0,
+      "traits": [
+        "deadly_d8",
+        "disarm",
+        "finesse"
+      ],
+      "allowed_environments": [
+        "civil_spire",
+        "high_radiant",
+        "low_radiant",
+        "the_neither"
+      ]
+    },
+    {
+      "name": "Dueling Pistol",
+      "attack_bonus": 6,
+      "damage_dice": "1d8",
+      "flat_damage": 1,
+      "damage_type": "P",
+      "range": 40,
+      "ap_cost": 0,
+      "traits": [
+        "cartridge",
+        "fatal_d10",
+        "concealed"
+      ],
+      "ammo_capacity": 1,
+      "reload_actions": 1,
+      "allowed_environments": [
+        "high_radiant",
+        "low_radiant",
+        "the_neither"
+      ]
+    }
+  ],
+  "abilities": {}
+}

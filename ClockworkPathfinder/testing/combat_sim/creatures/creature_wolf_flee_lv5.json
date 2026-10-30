@@ -1,0 +1,62 @@
+{
+  "name": "Dusk Stalker Wolf (Lv5 - Flee 50%)",
+  "archetype": "StalkerWolf",
+  "level": 5,
+  "hp": 26,
+  "ac": 23,
+  "fort": 10,
+  "ref": 14,
+  "will": 10,
+  "speed": 55,
+  "max_ap": 0,
+  "status": 0,
+  "civil_spire_legal": false,
+  "civil_ac_penalty": 0,
+  "unarmed_damage_dice": "2d4",
+  "unarmed_bonus": 14,
+  "unarmed_flat_dmg": 4,
+  "unarmed_traits": [
+    "agile"
+  ],
+  "weapons": [
+    {
+      "name": "Throat-Ripper Bite",
+      "attack_bonus": 14,
+      "damage_dice": "2d6",
+      "flat_damage": 5,
+      "damage_type": "P",
+      "range": 0,
+      "ap_cost": 0,
+      "traits": [
+        "deadly_d8",
+        "finesse"
+      ],
+      "allowed_environments": [
+        "civil_spire",
+        "high_radiant",
+        "low_radiant",
+        "the_neither"
+      ]
+    },
+    {
+      "name": "Flensing Claws",
+      "attack_bonus": 14,
+      "damage_dice": "2d4",
+      "flat_damage": 4,
+      "damage_type": "S",
+      "range": 0,
+      "ap_cost": 0,
+      "traits": [
+        "agile",
+        "finesse"
+      ],
+      "allowed_environments": [
+        "civil_spire",
+        "high_radiant",
+        "low_radiant",
+        "the_neither"
+      ]
+    }
+  ],
+  "abilities": {}
+}

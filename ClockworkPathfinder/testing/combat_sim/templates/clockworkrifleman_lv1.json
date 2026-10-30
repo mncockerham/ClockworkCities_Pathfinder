@@ -1,0 +1,94 @@
+{
+  "name": "ClockworkRifleman (Lv1)",
+  "archetype": "ClockworkRifleman",
+  "level": 1,
+  "hp": 18,
+  "ac": 16,
+  "fort": 6,
+  "ref": 8,
+  "will": 5,
+  "speed": 25,
+  "max_ap": 3,
+  "status": 2,
+  "civil_spire_legal": false,
+  "civil_ac_penalty": -3,
+  "unarmed_damage_dice": "1d4",
+  "unarmed_bonus": 5,
+  "unarmed_flat_dmg": 1,
+  "unarmed_traits": [
+    "agile",
+    "nonlethal"
+  ],
+  "weapons": [
+    {
+      "name": "Service Rifle (Radiant High)",
+      "attack_bonus": 9,
+      "damage_dice": "1d10",
+      "flat_damage": 1,
+      "damage_type": "P/Electricity",
+      "range": 120,
+      "ap_cost": 1,
+      "traits": [
+        "radiant",
+        "fatal_d12"
+      ],
+      "allowed_environments": [
+        "high_radiant"
+      ]
+    },
+    {
+      "name": "Service Rifle (Radiant Low)",
+      "attack_bonus": 9,
+      "damage_dice": "1d8",
+      "flat_damage": 1,
+      "damage_type": "P/Electricity",
+      "range": 90,
+      "ap_cost": 1,
+      "traits": [
+        "radiant",
+        "fatal_d12"
+      ],
+      "allowed_environments": [
+        "low_radiant"
+      ]
+    },
+    {
+      "name": "Service Rifle (Cartridge Neither)",
+      "attack_bonus": 9,
+      "damage_dice": "1d8",
+      "flat_damage": 1,
+      "damage_type": "P",
+      "range": 90,
+      "ap_cost": 0,
+      "traits": [
+        "cartridge",
+        "fatal_d12"
+      ],
+      "ammo_capacity": 5,
+      "reload_actions": 1,
+      "allowed_environments": [
+        "the_neither"
+      ]
+    },
+    {
+      "name": "Bayonet / Trench Knife",
+      "attack_bonus": 7,
+      "damage_dice": "1d6",
+      "flat_damage": 1,
+      "damage_type": "P",
+      "range": 0,
+      "ap_cost": 0,
+      "traits": [
+        "agile",
+        "finesse"
+      ],
+      "allowed_environments": [
+        "civil_spire",
+        "high_radiant",
+        "low_radiant",
+        "the_neither"
+      ]
+    }
+  ],
+  "abilities": {}
+}

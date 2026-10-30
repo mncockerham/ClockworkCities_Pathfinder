@@ -1,0 +1,191 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "ClockworkCombatTemplate",
+  "description": "Schema for Clockwork Cities combat simulation character and creature profiles.",
+  "type": "object",
+  "required": [
+    "name",
+    "archetype",
+    "level",
+    "hp",
+    "ac",
+    "fort",
+    "ref",
+    "will",
+    "speed",
+    "max_ap",
+    "status",
+    "civil_spire_legal",
+    "civil_ac_penalty",
+    "unarmed_damage_dice",
+    "unarmed_bonus",
+    "unarmed_flat_dmg",
+    "weapons",
+    "abilities"
+  ],
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "Full display name (e.g., 'Marcus Flint (Lv5)' or 'Corrupted Grizzly Bear (Brute Lv5)')"
+    },
+    "archetype": {
+      "type": "string",
+      "description": "Class or creature category identifier (e.g., 'Pugilist', 'Soldier', 'BruteBear')"
+    },
+    "level": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 20,
+      "description": "Target character or creature level"
+    },
+    "hp": {
+      "type": "integer",
+      "minimum": 1,
+      "description": "Total maximum Hit Points including ancestry and Con mod"
+    },
+    "ac": {
+      "type": "integer",
+      "minimum": 10,
+      "description": "Base full Armor Class in standard environments"
+    },
+    "fort": {
+      "type": "integer",
+      "description": "Fortitude saving throw modifier"
+    },
+    "ref": {
+      "type": "integer",
+      "description": "Reflex saving throw modifier"
+    },
+    "will": {
+      "type": "integer",
+      "description": "Will saving throw modifier"
+    },
+    "speed": {
+      "type": "integer",
+      "minimum": 5,
+      "description": "Base land movement speed in feet (typically 20 to 60)"
+    },
+    "max_ap": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "Maximum Active Action Points (AP) pool for radiant technical gear"
+    },
+    "status": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 7,
+      "description": "Civic Social Status tier (0=Warrens, 2=Guild/Military, 6=Wall Merchant/Noble)"
+    },
+    "civil_spire_legal": {
+      "type": "boolean",
+      "description": "True if primary garb and weapons meet Spire civil disarmament laws (unarmored/light, legal rapiers/fists/canes)"
+    },
+    "civil_ac_penalty": {
+      "type": "integer",
+      "maximum": 0,
+      "description": "Penalty to AC when stripped of illegal medium/heavy armor in civil wards (e.g., -3 for Medium, -5 for Heavy Plate)"
+    },
+    "unarmed_damage_dice": {
+      "type": "string",
+      "pattern": "^[0-9]+d[0-9]+$",
+      "description": "Unarmed strike dice (e.g., '1d4', '2d6')"
+    },
+    "unarmed_bonus": {
+      "type": "integer",
+      "description": "Attack bonus modifier for unarmed strikes"
+    },
+    "unarmed_flat_dmg": {
+      "type": "integer",
+      "description": "Flat damage bonus added to unarmed strikes (typically Strength mod)"
+    },
+    "unarmed_traits": {
+      "type": "array",
+      "items": { "type": "string" },
+      "default": ["agile", "nonlethal"],
+      "description": "Weapon traits applying to unarmed strikes"
+    },
+    "weapons": {
+      "type": "array",
+      "description": "List of carried weapons, devices, or natural attacks",
+      "items": {
+        "type": "object",
+        "required": [
+          "name",
+          "attack_bonus",
+          "damage_dice",
+          "flat_damage",
+          "damage_type",
+          "range",
+          "ap_cost",
+          "traits",
+          "allowed_environments"
+        ],
+        "properties": {
+          "name": { "type": "string" },
+          "attack_bonus": { "type": "integer" },
+          "damage_dice": { "type": "string", "pattern": "^[0-9]+d[0-9]+$" },
+          "flat_damage": { "type": "integer" },
+          "damage_type": { "type": "string", "description": "'B', 'P', 'S', 'Electricity', 'Acid', 'Fire'" },
+          "range": { "type": "integer", "description": "Range in feet (0 for melee, 30-120 for ranged)" },
+          "ap_cost": { "type": "integer", "minimum": 0, "description": "Active AP cost per shot/swing" },
+          "traits": {
+            "type": "array",
+            "items": { "type": "string" },
+            "description": "Traits: 'agile', 'finesse', 'fatal_d10', 'fatal_d12', 'deadly_d8', 'deadly_d10', 'deadly_d12', 'cartridge', 'radiant', 'bomb', 'shove', 'versatile_p', 'versatile_s'"
+          },
+          "allowed_environments": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "enum": ["civil_spire", "high_radiant", "low_radiant", "the_neither"]
+            },
+            "description": "Environments where this weapon is operational and permitted"
+          },
+          "ammo_capacity": { "type": "integer", "minimum": 1, "description": "Magazine capacity for cartridge weapons before reload action" },
+          "reload_actions": { "type": "integer", "minimum": 0, "description": "Action cost to reload (1 standard, 2 cumbersome/shield)" },
+          "save_type": { "type": "string", "enum": ["ref", "fort", "will", "dex", "con"], "description": "Saving throw defense type (Reflex/Dex for Acid Spitters, Fortitude/Con for Spore Sprayers, Will for Disorientors)" },
+          "save_dc": { "type": "integer", "description": "DC required for saving throw" },
+          "save_damage_dice": { "type": "string", "pattern": "^[0-9]+d[0-9]+$" },
+          "save_flat_damage": { "type": "integer" },
+          "action_cost": { "type": "integer", "minimum": 1, "maximum": 3, "description": "Action cost to activate save ability (default 2)" },
+          "cooldown_rounds": { "type": "integer", "minimum": 0, "description": "Cooldown rounds between usages (default 1-2)" }
+        }
+      }
+    },
+    "abilities": {
+      "type": "object",
+      "description": "Active and passive tactical features",
+      "properties": {
+        "flurry_of_blows": { "type": "boolean", "description": "2 unarmed strikes for 1 action (Pugilist)" },
+        "damage_resistance_physical": { "type": "integer", "minimum": 0, "description": "Flat reduction against all physical kinetic damage (Pugilist, Brute, Heavy armor)" },
+        "radiant_barrier": { "type": "boolean", "description": "Generates wireless inductive force shield" },
+        "barrier_temp_hp_high": { "type": "integer", "description": "Temporary HP granted in High Radiant zones" },
+        "barrier_temp_hp_low": { "type": "integer", "description": "Temporary HP granted in Low Radiant zones" },
+        "shield_block": { "type": "boolean", "description": "Can raise shield (+2 AC) and absorb damage with shield hardness" },
+        "shield_hardness": { "type": "integer", "description": "Damage absorbed per block" },
+        "shield_hp": { "type": "integer", "description": "Shield durability pool before breaking" },
+        "armed_retainers": { "type": "boolean", "description": "Accompanied by armed guards (Nobles, Wall Merchants, Officers, Syndicate)" },
+        "retainer_count": { "type": "integer", "description": "Number of active retainers" },
+        "retainer_hp": { "type": "integer", "description": "HP per retainer (absorbs 50% incoming damage)" },
+        "retainer_attack": { "type": "integer", "description": "Attack bonus of retainer counter-strikes" },
+        "retainer_damage_dice": { "type": "string", "description": "Damage dice of retainer weapons" },
+        "retainer_flat_damage": { "type": "integer", "description": "Flat damage bonus of retainers" },
+        "feral_adrenaline_surge": { "type": "boolean", "description": "Brute adrenaline surge at combat start" },
+        "surge_temp_hp": { "type": "integer", "description": "Temporary HP from adrenaline frenzy" },
+        "pulse_defense": {
+          "type": "object",
+          "description": "Neither-tech Pulse Defense item (replaces shield as 3rd item; non-military; costs AP, free activation)",
+          "properties": {
+            "name": { "type": "string" },
+            "ap_cost": { "type": "integer", "minimum": 1, "default": 1 },
+            "ac_bonus": { "type": "integer", "minimum": 0, "maximum": 5, "default": 0 },
+            "fort_bonus": { "type": "integer", "minimum": 0, "maximum": 5, "default": 0 },
+            "ref_bonus": { "type": "integer", "minimum": 0, "maximum": 5, "default": 0 },
+            "will_bonus": { "type": "integer", "minimum": 0, "maximum": 5, "default": 0 }
+          }
+        }
+      }
+    }
+  }
+}
+

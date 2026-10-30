@@ -1,0 +1,65 @@
+{
+  "name": "Inspector (Lv5)",
+  "archetype": "Inspector",
+  "level": 5,
+  "hp": 53,
+  "ac": 21,
+  "fort": 10,
+  "ref": 12,
+  "will": 14,
+  "speed": 25,
+  "max_ap": 6,
+  "status": 3,
+  "civil_spire_legal": true,
+  "civil_ac_penalty": 0,
+  "unarmed_damage_dice": "1d4",
+  "unarmed_bonus": 9,
+  "unarmed_flat_dmg": 0,
+  "unarmed_traits": [
+    "agile",
+    "nonlethal"
+  ],
+  "weapons": [
+    {
+      "name": "Constable Truncheon / Cane",
+      "attack_bonus": 13,
+      "damage_dice": "2d6",
+      "flat_damage": 6,
+      "damage_type": "B",
+      "range": 0,
+      "ap_cost": 0,
+      "traits": [
+        "agile",
+        "finesse",
+        "nonlethal"
+      ],
+      "allowed_environments": [
+        "civil_spire",
+        "high_radiant",
+        "low_radiant",
+        "the_neither"
+      ]
+    },
+    {
+      "name": "Service Revolver",
+      "attack_bonus": 12,
+      "damage_dice": "2d8",
+      "flat_damage": 4,
+      "damage_type": "P",
+      "range": 40,
+      "ap_cost": 0,
+      "traits": [
+        "cartridge",
+        "fatal_d10"
+      ],
+      "ammo_capacity": 6,
+      "reload_actions": 1,
+      "allowed_environments": [
+        "high_radiant",
+        "low_radiant",
+        "the_neither"
+      ]
+    }
+  ],
+  "abilities": {}
+}

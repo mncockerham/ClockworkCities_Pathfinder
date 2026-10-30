@@ -1,0 +1,47 @@
+{
+  "name": "Pugilist (Lv5)",
+  "archetype": "Pugilist",
+  "level": 5,
+  "hp": 73,
+  "ac": 22,
+  "fort": 13,
+  "ref": 13,
+  "will": 10,
+  "speed": 35,
+  "max_ap": 8,
+  "status": 0,
+  "civil_spire_legal": true,
+  "civil_ac_penalty": 0,
+  "unarmed_damage_dice": "2d6",
+  "unarmed_bonus": 13,
+  "unarmed_flat_dmg": 4,
+  "unarmed_traits": [
+    "agile",
+    "nonlethal"
+  ],
+  "weapons": [
+    {
+      "name": "+1 Striking Brass Knuckles",
+      "attack_bonus": 13,
+      "damage_dice": "2d6",
+      "flat_damage": 4,
+      "damage_type": "B",
+      "range": 0,
+      "ap_cost": 0,
+      "traits": [
+        "agile",
+        "finesse"
+      ],
+      "allowed_environments": [
+        "civil_spire",
+        "high_radiant",
+        "low_radiant",
+        "the_neither"
+      ]
+    }
+  ],
+  "abilities": {
+    "flurry_of_blows": true,
+    "damage_resistance_physical": 2
+  }
+}

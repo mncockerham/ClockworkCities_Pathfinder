@@ -1,0 +1,64 @@
+{
+  "name": "Artisan (Lv10)",
+  "archetype": "Artisan",
+  "level": 10,
+  "hp": 118,
+  "ac": 28,
+  "fort": 19,
+  "ref": 16,
+  "will": 18,
+  "speed": 25,
+  "max_ap": 12,
+  "status": 2,
+  "civil_spire_legal": true,
+  "civil_ac_penalty": 0,
+  "unarmed_damage_dice": "1d4",
+  "unarmed_bonus": 15,
+  "unarmed_flat_dmg": 3,
+  "unarmed_traits": [
+    "agile",
+    "nonlethal"
+  ],
+  "weapons": [
+    {
+      "name": "Forge Sledge / Maul",
+      "attack_bonus": 18,
+      "damage_dice": "3d8",
+      "flat_damage": 5,
+      "damage_type": "B",
+      "range": 0,
+      "ap_cost": 0,
+      "traits": [
+        "shove"
+      ],
+      "allowed_environments": [
+        "civil_spire",
+        "high_radiant",
+        "low_radiant",
+        "the_neither"
+      ]
+    },
+    {
+      "name": "Pneumatic Rivet Driver",
+      "attack_bonus": 17,
+      "damage_dice": "3d8",
+      "flat_damage": 4,
+      "damage_type": "P",
+      "range": 30,
+      "ap_cost": 1,
+      "traits": [
+        "cartridge"
+      ],
+      "ammo_capacity": 4,
+      "reload_actions": 1,
+      "allowed_environments": [
+        "high_radiant",
+        "low_radiant",
+        "the_neither"
+      ]
+    }
+  ],
+  "abilities": {
+    "damage_resistance_physical": 1
+  }
+}

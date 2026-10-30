@@ -1,0 +1,62 @@
+{
+  "name": "Sump Brown Bear (Lv5 - Flee 50%)",
+  "archetype": "BruteBear",
+  "level": 5,
+  "hp": 32,
+  "ac": 21,
+  "fort": 13,
+  "ref": 9,
+  "will": 10,
+  "speed": 40,
+  "max_ap": 0,
+  "status": 0,
+  "civil_spire_legal": false,
+  "civil_ac_penalty": 0,
+  "unarmed_damage_dice": "2d6",
+  "unarmed_bonus": 13,
+  "unarmed_flat_dmg": 5,
+  "unarmed_traits": [
+    "agile"
+  ],
+  "weapons": [
+    {
+      "name": "Crushing Jaws",
+      "attack_bonus": 13,
+      "damage_dice": "2d8",
+      "flat_damage": 6,
+      "damage_type": "P",
+      "range": 0,
+      "ap_cost": 0,
+      "traits": [
+        "deadly_d8"
+      ],
+      "allowed_environments": [
+        "civil_spire",
+        "high_radiant",
+        "low_radiant",
+        "the_neither"
+      ]
+    },
+    {
+      "name": "Mauling Claws",
+      "attack_bonus": 13,
+      "damage_dice": "2d6",
+      "flat_damage": 5,
+      "damage_type": "S",
+      "range": 0,
+      "ap_cost": 0,
+      "traits": [
+        "agile"
+      ],
+      "allowed_environments": [
+        "civil_spire",
+        "high_radiant",
+        "low_radiant",
+        "the_neither"
+      ]
+    }
+  ],
+  "abilities": {
+    "damage_resistance_physical": 2
+  }
+}

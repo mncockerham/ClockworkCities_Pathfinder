@@ -1,0 +1,69 @@
+{
+  "name": "Resonator Disorientor (Lv7 - Berserk)",
+  "archetype": "Disorientor",
+  "level": 7,
+  "hp": 110,
+  "ac": 25,
+  "fort": 13,
+  "ref": 16,
+  "will": 18,
+  "speed": 40,
+  "max_ap": 0,
+  "status": 0,
+  "civil_spire_legal": false,
+  "civil_ac_penalty": 0,
+  "unarmed_damage_dice": "2d6",
+  "unarmed_bonus": 17,
+  "unarmed_flat_dmg": 6,
+  "unarmed_traits": [
+    "agile"
+  ],
+  "weapons": [
+    {
+      "name": "Disorienting Harmonic Pulse",
+      "attack_bonus": 0,
+      "damage_dice": "4d8",
+      "flat_damage": 8,
+      "damage_type": "NonLethal",
+      "range": 30,
+      "ap_cost": 0,
+      "traits": [
+        "mental",
+        "sonic",
+        "nonlethal",
+        "range_30"
+      ],
+      "allowed_environments": [
+        "civil_spire",
+        "high_radiant",
+        "low_radiant",
+        "the_neither"
+      ],
+      "save_type": "will",
+      "save_dc": 25,
+      "save_damage_dice": "4d8",
+      "save_flat_damage": 8,
+      "action_cost": 2,
+      "cooldown_rounds": 0
+    },
+    {
+      "name": "Barbed Tendril / Mandible",
+      "attack_bonus": 17,
+      "damage_dice": "2d6",
+      "flat_damage": 6,
+      "damage_type": "P",
+      "range": 0,
+      "ap_cost": 0,
+      "traits": [
+        "agile"
+      ],
+      "allowed_environments": [
+        "civil_spire",
+        "high_radiant",
+        "low_radiant",
+        "the_neither"
+      ]
+    }
+  ],
+  "abilities": {}
+}

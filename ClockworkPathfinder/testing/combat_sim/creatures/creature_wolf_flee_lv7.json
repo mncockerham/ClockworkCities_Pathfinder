@@ -1,0 +1,62 @@
+{
+  "name": "Dire Mist Wolf (Lv7 - Flee 50%)",
+  "archetype": "StalkerWolf",
+  "level": 7,
+  "hp": 42,
+  "ac": 26,
+  "fort": 13,
+  "ref": 17,
+  "will": 13,
+  "speed": 60,
+  "max_ap": 0,
+  "status": 0,
+  "civil_spire_legal": false,
+  "civil_ac_penalty": 0,
+  "unarmed_damage_dice": "2d6",
+  "unarmed_bonus": 17,
+  "unarmed_flat_dmg": 6,
+  "unarmed_traits": [
+    "agile"
+  ],
+  "weapons": [
+    {
+      "name": "Serrated Throat Tear",
+      "attack_bonus": 17,
+      "damage_dice": "2d8",
+      "flat_damage": 7,
+      "damage_type": "P",
+      "range": 0,
+      "ap_cost": 0,
+      "traits": [
+        "deadly_d10",
+        "finesse"
+      ],
+      "allowed_environments": [
+        "civil_spire",
+        "high_radiant",
+        "low_radiant",
+        "the_neither"
+      ]
+    },
+    {
+      "name": "Eviscerating Claws",
+      "attack_bonus": 17,
+      "damage_dice": "2d6",
+      "flat_damage": 6,
+      "damage_type": "S",
+      "range": 0,
+      "ap_cost": 0,
+      "traits": [
+        "agile",
+        "finesse"
+      ],
+      "allowed_environments": [
+        "civil_spire",
+        "high_radiant",
+        "low_radiant",
+        "the_neither"
+      ]
+    }
+  ],
+  "abilities": {}
+}

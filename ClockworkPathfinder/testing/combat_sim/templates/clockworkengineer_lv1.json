@@ -1,0 +1,116 @@
+{
+  "name": "ClockworkEngineer (Lv1)",
+  "archetype": "ClockworkEngineer",
+  "level": 1,
+  "hp": 18,
+  "ac": 15,
+  "fort": 5,
+  "ref": 6,
+  "will": 7,
+  "speed": 25,
+  "max_ap": 5,
+  "status": 2,
+  "civil_spire_legal": false,
+  "civil_ac_penalty": -3,
+  "unarmed_damage_dice": "1d4",
+  "unarmed_bonus": 4,
+  "unarmed_flat_dmg": 0,
+  "unarmed_traits": [
+    "agile",
+    "nonlethal"
+  ],
+  "weapons": [
+    {
+      "name": "Inductive Arc Projector (High)",
+      "attack_bonus": 7,
+      "damage_dice": "1d12",
+      "flat_damage": 2,
+      "damage_type": "Electricity",
+      "range": 60,
+      "ap_cost": 2,
+      "traits": [
+        "radiant",
+        "deadly_d10"
+      ],
+      "allowed_environments": [
+        "high_radiant"
+      ]
+    },
+    {
+      "name": "Inductive Arc Projector (Low)",
+      "attack_bonus": 7,
+      "damage_dice": "1d8",
+      "flat_damage": 1,
+      "damage_type": "Electricity",
+      "range": 40,
+      "ap_cost": 2,
+      "traits": [
+        "radiant"
+      ],
+      "allowed_environments": [
+        "low_radiant"
+      ]
+    },
+    {
+      "name": "Heavy Neither Carbine (Cartridge)",
+      "attack_bonus": 7,
+      "damage_dice": "1d8",
+      "flat_damage": 1,
+      "damage_type": "P",
+      "range": 60,
+      "ap_cost": 0,
+      "traits": [
+        "cartridge",
+        "fatal_d10"
+      ],
+      "ammo_capacity": 6,
+      "reload_actions": 1,
+      "allowed_environments": [
+        "low_radiant",
+        "the_neither"
+      ]
+    },
+    {
+      "name": "Cartridge Arc Pistol",
+      "attack_bonus": 6,
+      "damage_dice": "1d6",
+      "flat_damage": 1,
+      "damage_type": "P/Electricity",
+      "range": 30,
+      "ap_cost": 0,
+      "traits": [
+        "cartridge",
+        "fatal_d10"
+      ],
+      "ammo_capacity": 6,
+      "reload_actions": 1,
+      "allowed_environments": [
+        "low_radiant",
+        "the_neither"
+      ]
+    },
+    {
+      "name": "Heavy Wrench",
+      "attack_bonus": 5,
+      "damage_dice": "1d6",
+      "flat_damage": 1,
+      "damage_type": "B",
+      "range": 0,
+      "ap_cost": 0,
+      "traits": [
+        "shove"
+      ],
+      "allowed_environments": [
+        "civil_spire",
+        "high_radiant",
+        "low_radiant",
+        "the_neither"
+      ]
+    }
+  ],
+  "abilities": {
+    "radiant_barrier": true,
+    "barrier_temp_hp_high": 8,
+    "barrier_temp_hp_low": 4
+  }
+}

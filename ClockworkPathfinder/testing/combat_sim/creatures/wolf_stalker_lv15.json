@@ -1,0 +1,63 @@
+{
+  "name": "Deep Stalker Alpha (Stalker Lv15)",
+  "archetype": "StalkerWolf",
+  "level": 15,
+  "hp": 275,
+  "ac": 39,
+  "fort": 25,
+  "ref": 31,
+  "will": 24,
+  "speed": 95,
+  "max_ap": 0,
+  "status": 0,
+  "civil_spire_legal": false,
+  "civil_ac_penalty": 0,
+  "unarmed_damage_dice": "4d6",
+  "unarmed_bonus": 30,
+  "unarmed_flat_dmg": 15,
+  "unarmed_traits": [
+    "agile",
+    "finesse"
+  ],
+  "weapons": [
+    {
+      "name": "Severing Abyssal Bite",
+      "attack_bonus": 31,
+      "damage_dice": "4d10",
+      "flat_damage": 16,
+      "damage_type": "P",
+      "range": 0,
+      "ap_cost": 0,
+      "traits": [
+        "deadly_d12",
+        "finesse"
+      ],
+      "allowed_environments": [
+        "civil_spire",
+        "high_radiant",
+        "low_radiant",
+        "the_neither"
+      ]
+    },
+    {
+      "name": "Tendon Flensing Claws",
+      "attack_bonus": 31,
+      "damage_dice": "4d6",
+      "flat_damage": 13,
+      "damage_type": "S",
+      "range": 0,
+      "ap_cost": 0,
+      "traits": [
+        "agile",
+        "finesse"
+      ],
+      "allowed_environments": [
+        "civil_spire",
+        "high_radiant",
+        "low_radiant",
+        "the_neither"
+      ]
+    }
+  ],
+  "abilities": {}
+}

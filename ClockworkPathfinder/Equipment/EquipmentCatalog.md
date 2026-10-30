@@ -334,6 +334,76 @@ Specialized military, engineering, and industrial armor suites can be constructe
 
 ---
 
+---
+
+### Neither-Tech Pulse & Reactive Defense Devices (Harmonic Resonators & Tactical Injectors)
+
+Pulse and reactive defense devices are specialized, unarmored personal countermeasures occupying the **Third-Item / Shield Slot**. Engineered by outland apothecaries, chirurgeons, and neither-engineers, these devices reactively mitigate non-physical vectors through high-frequency neither harmonics, pressurized chemical counter-sprays, auto-injectors, and sealed pneumatic deployers.
+
+#### Operational & Mechanical Rules
+1. **Third-Item / Shield Slot Choice & Capacity Limit:**
+   - Characters have a restricted capacity for primary active defensive apparatuses (the "Third-Item" defensive slot alongside primary weapons and armor).
+   - **Players must make a deliberate equipment choice:** equip a **Physical Shield** OR a **Pulse / Reactive Defense Device**, but **never both**.
+   - If a character carries or raises a physical shield (`shield_block: true` or `shield_hp > 0`), the physical barrier suppresses the reactive apparatus, rendering the pulse device inactive.
+2. **Dedicated Saving Throw Defense & Reactive Damage Reduction (Zero AC Impact on Physical Fights):**
+   - Reactive defense devices are tuned exclusively to counteract **non-physical attacks, area hazards, biochemical vectors, and psychic/mental shock**.
+   - **They provide +0 AC bonus and have zero effect in standard physical weapon/claw fights.** Physical blows (swords, daggers, beast jaws, bludgeons) pass through unimpeded; physical defense remains strictly governed by armor, Dexterity, and physical shields.
+   - **Targeted Vector Damage Reduction (DR) Rule:** Reactive damage reduction **strictly applies ONLY to the specific damage type / save vector the device is engineered to affect**:
+     - *1/3 of Potential Saves at Low Tiers:* Tier 1 single-vector models affect only **one save category (1/3 of potential saves)**:
+       - *Pneumatic Drop-Visor Respirator / Vital Dampener Brooch:* Grants +3 Fortitude save and **DR 2 vs Fortitude-based toxic/biological damage (Poison, Biological spores, Necrotic/Caustic gases)**. Has 0 effect against Reflex or Will.
+       - *Reactive Alkaline Gel Dispenser / Agile Shunt Node:* Grants +3 Reflex save and **DR 2 vs Reflex-based area/caustic damage (Acid, Corrosive fluids, Blast splash)**. Has 0 effect against Fortitude or Will.
+       - *Cerebral Neuro-Grounder / Harmonic Mind-Anchor:* Grants +3 Will save and **DR 2 vs Will-based psychic/mental damage (Psychic, Mental shock, Non-Lethal neural disorientation)**. Has 0 effect against Reflex or Fortitude.
+     - *Split / Reduced Values on Multi-Save Models:* Multi-vector devices dilute their reactive mechanisms across frequencies:
+       - *Balanced Ward Node (Tier 1):* Gives +1 to all saves, but supplies only **DR 1** across the board.
+       - *Tier 2 Specialized Modules (Lv 7):* Boost to +4 Save and **DR 4** against their single designated save type (1/3 of saves).
+       - *Tier 2 Tri-Resonant Matrix:* Gives +2 to all saves, but supplies only **DR 2** across the board.
+       - *Tier 3 Apex Spatial Dissipator:* Provides masterwork deflection (+4 All Saves), but field saturation limits broad damage dampening to **DR 3** across the board.
+3. **Two-Handed Weapon & Rifle Incompatibility (Free Hand Requirement):**
+   - Standard pulse devices and reactive injectors require an unencumbered off-hand / free focus to orient nozzles, trip valve triggers, or manipulate micro-switches.
+   - **Wielding a two-handed weapon, two-handed polearm, greatsword, composite longbow, or two-handed rifle prevents the activation of a standard pulse device**. (Loadout profile is strictly limited to 1-handed weapons, sidearms, or free-hand combat styles).
+4. **Discipline Tags (Non-Physical / Technical Exclusivity):**
+   - These devices possess technical, academic, chirurgical, or high-society tags (`[Technical]`, `[Chirurgical]`, `[Arcane]`, `[Academic]`, `[Clandestine]`) and **never carry physical combat class tags** (`[Military]`, `[Martial]`, `[Brawling]`, `[Pugilist]`).
+   - Consequently, physical classes (Soldiers, Pugilists, Mercenaries) cannot claim proficiency discounts or tag waivers to bypass their power consumption.
+5. **Reactive AP Activation & Escalating Costs by Power Level:**
+   - **Activation is a Free Reaction** triggered against incoming saving throw checks (Fortitude, Reflex, Will), but **requires unspent Active Power (AP)**.
+   - Unlike passive shields, a reactive device must be triggered for **every individual saving throw**, consuming AP each time.
+   - **Cost Scales with Device Power (Tier & Protection Level):** As devices project broader fields, discharge larger chemical reservoirs, or inject higher-grade compounds, their base surge drain increases:
+     - **Tier 1 (Lv 1–4):** Base **3 AP** (Reduced to **1 AP** with matching tag).
+     - **Tier 2 (Lv 5–9):** Base **4 AP** (Reduced to **2 AP** with matching tag).
+     - **Tier 3 (Lv 10–14):** Base **5 AP** (Reduced to **3 AP** with matching tag).
+     - **Tier 4 (Lv 15+):** Base **6 AP** (Reduced to **4 AP** with matching tag).
+   - **Discipline Tag Discount (–2 AP):** Classes with matching Technical, Chirurgical, or Academic discipline tags receive a **–2 AP Tag Discount** (minimum cost can never be less than 1 AP). Physical classes without matching tags pay the full base surge cost.
+   - *Attack Attrition Tradeoff:* High-tier devices consume a massive portion of a character's per-round AP pool (2 to 4 AP per trigger), forcing players to balance offensive attacks on their turn against defending during enemy barrages.
+6. **Store Price Scaling with Tier & Crafting Complexity:**
+   - Base gold cost scales exponentially across item levels according to standard equipment progression:
+     - **Tier 1 (Lv 3):** 60 to 85 gp (Nobels).
+     - **Tier 2 (Lv 7):** 360 to 520 gp (Nobels).
+     - **Tier 3 (Lv 12):** 2,000 to 2,400 gp (Nobels).
+     - **Tier 4 (Lv 16):** 9,500 to 11,000 gp (Nobels).
+7. **Civil Spire Ban (Strictly Illegal in Civilized Wards):**
+   - Visibly mechanized combat respirators, subdermal auto-syringes, and active neither resonators trip municipal grid sensors and violate civil dress codes. They are **illegal in Civil Spire public wards** and confiscated/deactivated by ward gates along with weapons of war.
+
+#### Ready-to-Buy Pulse & Reactive Defense Devices Shopping List
+
+| Device Model | Tier & Level | Base Surge AP | Tagged AP (–2 Cost) | Reactive Saving Throw & Targeted DR | Applicable Threat Profile (Limited Vector) | Bulk | Price (Nobels / gp) | Physical Mechanism, Setting Context & Engineering |
+|---|:---:|:---:|:---:|---|---|:---:|:---:|---|
+| **Pneumatic Drop-Visor Respirator** | Tier 1 (Lv 3) | **3 AP** | **1 AP** | **+3 Fortitude Save / DR 2 Poison/Bio** | Toxic & Biochemical (1/3 of saves: Spores, Mists)| L | **75 gp (75 N)** | Spring-loaded brow mechanism: drops a hermetic tinted glass face-shield and discharges a pressurized burst of compressed purified air into the mouth/nostrils upon detecting caustic vapors. |
+| **Vascular Auto-Injector Harness** | Tier 1 (Lv 3) | **3 AP** | **1 AP** | **+3 Fortitude Save / DR 2 Poison/Bio** | Toxic & Biochemical (1/3 of saves: Venoms, Sump Toxins)| L | **75 gp (75 N)** | Collar-mounted spring micro-cannula resting over the carotid/subclavian vein; trips on physiological shock to inject broad-spectrum antitoxin solution directly into the bloodstream. |
+| **Reactive Alkaline Gel Dispenser** | Tier 1 (Lv 3) | **3 AP** | **1 AP** | **+3 Reflex Save / DR 2 Acid/Blast** | Caustic & Area Blasts (1/3 of saves: Acid Spitters)| L | **75 gp (75 N)** | Forearm or chest canister packed with hyper-alkaline effervescent gel; an escapement release floods skin and clothes with neutralizing foam that rapidly binds and quenches incoming acids. |
+| **Harmonic Mind-Anchor Brooch** | Tier 1 (Lv 3) | **3 AP** | **1 AP** | **+3 Will Save / DR 2 Psychic/Mental** | Psychic & Mental (1/3 of saves: Disorientors) | L | **75 gp (75 N)** | Tuned quartz-neither tuning fork brooch worn at the lapel; resonates in inverse phase to ground neural shockwaves and quell disorientation. |
+| **Balanced Ward Node** | Tier 1 (Lv 3) | **3 AP** | **1 AP** | **+1 Fort/Ref/Will / DR 1 Broad Non-Phys** | Broad Non-Physical Spectrum (Reduced DR) | L | **85 gp (85 N)** | Multi-channel micro-resonator spreading baseline save resistance across all vectors. |
+| **Pressurized Bio-Sterilizer Mask**| Tier 2 (Lv 7) | **4 AP** | **2 AP** | **+4 Fortitude Save / DR 4 Poison/Bio** | Apex Environmental Shield (1/3 of saves) | 1 | **450 gp (450 N)** | Heavy brass rebreather delivering rapid ozone-rich flushes and dual-stage catalytic filters against apex airborne blights. |
+| **Thermal/Alkaline Foam Emitter** | Tier 2 (Lv 7) | **4 AP** | **2 AP** | **+4 Reflex Save / DR 4 Acid/Blast** | High-Yield Area Dampener (1/3 of saves) | 1 | **450 gp (450 N)** | Pressurized CO2 and reactive borate foam canister enveloping the user in a momentary ablative thermal shell. |
+| **Cognitive Bulwark Node** | Tier 2 (Lv 7) | **4 AP** | **2 AP** | **+4 Will Save / DR 4 Psychic/Mental** | Advanced Psychic Ward (1/3 of saves) | L | **450 gp (450 N)** | High-output resonant coil completely grounding disorientation pulses and mental shockwaves. |
+| **Tri-Resonant Matrix** | Tier 2 (Lv 7) | **4 AP** | **2 AP** | **+2 Fort/Ref/Will / DR 2 Broad Non-Phys**| Enhanced Omni-Save Field (Reduced DR) | 1 | **520 gp (520 N)** | Synchronized three-core field generator stabilizing all non-physical saves. |
+| **Pneumatic Rebreather & Neutralizer Dome**| Tier 3 (Lv 12)| **5 AP** | **3 AP** | **+5 Fortitude Save / DR 6 Poison/Bio** | Legendary Toxic & Biological Ward | 1 | **2,000 gp (2,000 N)**| Full-neck pressurized collar and oxygen recycling cell; completely neutralizes apex lethal plagues and neurotoxic gas clouds. |
+| **High-Volume Ablative Gel Manifold** | Tier 3 (Lv 12)| **5 AP** | **3 AP** | **+5 Reflex Save / DR 6 Acid/Blast** | Legendary Caustic & Explosion Quencher | 1 | **2,000 gp (2,000 N)**| Multi-chamber hydraulic manifold firing pressurized fire-retardant and base-neutralizing slurry across the entire body in milliseconds. |
+| **Cerebral Resonant Crown** | Tier 3 (Lv 12)| **5 AP** | **3 AP** | **+5 Will Save / DR 6 Psychic/Mental** | Legendary Neural Fortress | L | **2,000 gp (2,000 N)**| Filigree Mitheral headpiece tuned to sovereign mental frequencies; shunts psychic shockwaves into harmless kinetic hums. |
+| **Apex Spatial Dissipator** | Tier 3 (Lv 12)| **5 AP** | **3 AP** | **+4 Fort/Ref/Will / DR 3 Broad Non-Phys**| Supreme Multi-Save Field (Harmonic Cap DR) | 1 | **2,400 gp (2,400 N)**| Masterwork Mitheral-filament dynamo bending incoming non-physical vectors across all saves. |
+| **Apex Sovereign Aegis Cell** | Tier 4 (Lv 16)| **6 AP** | **4 AP** | **+5 Fort/Ref/Will / DR 5 Broad Non-Phys**| Apex Sovereign Neither-Tech Field | 1 | **10,500 gp (10,500 N)**| Crown-manufactured miniature resonant singularity generator; provides total multi-vector distortion against world-ending exotic hazards. |
+
+---
+
 ### Environmental & Damage Protection Suits (Resistance & Hazmat Suites)
 
 In place of muscle-assisting servos, armor suits can be engineered with specialized insulation, leaded weaves, catalytic neutralizers, or kinetic dispersal laminates to provide **Damage Resistance**.

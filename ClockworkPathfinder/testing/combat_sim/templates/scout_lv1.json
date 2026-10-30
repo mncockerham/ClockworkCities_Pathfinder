@@ -1,0 +1,64 @@
+{
+  "name": "Scout (Lv1)",
+  "archetype": "Scout",
+  "level": 1,
+  "hp": 20,
+  "ac": 17,
+  "fort": 7,
+  "ref": 7,
+  "will": 6,
+  "speed": 30,
+  "max_ap": 3,
+  "status": 1,
+  "civil_spire_legal": false,
+  "civil_ac_penalty": -4,
+  "unarmed_damage_dice": "1d4",
+  "unarmed_bonus": 6,
+  "unarmed_flat_dmg": 2,
+  "unarmed_traits": [
+    "agile",
+    "nonlethal"
+  ],
+  "weapons": [
+    {
+      "name": "Composite Longbow",
+      "attack_bonus": 8,
+      "damage_dice": "1d8",
+      "flat_damage": 2,
+      "damage_type": "P",
+      "range": 100,
+      "ap_cost": 0,
+      "traits": [
+        "deadly_d10",
+        "propulsive"
+      ],
+      "allowed_environments": [
+        "high_radiant",
+        "low_radiant",
+        "the_neither"
+      ]
+    },
+    {
+      "name": "Hunting Shortsword",
+      "attack_bonus": 7,
+      "damage_dice": "1d6",
+      "flat_damage": 2,
+      "damage_type": "P/S",
+      "range": 0,
+      "ap_cost": 0,
+      "traits": [
+        "agile",
+        "finesse"
+      ],
+      "allowed_environments": [
+        "civil_spire",
+        "high_radiant",
+        "low_radiant",
+        "the_neither"
+      ]
+    }
+  ],
+  "abilities": {
+    "damage_resistance_physical": 0
+  }
+}

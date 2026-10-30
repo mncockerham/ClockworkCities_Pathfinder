@@ -1,0 +1,64 @@
+{
+  "name": "SkyCaptain (Lv1)",
+  "archetype": "SkyCaptain",
+  "level": 1,
+  "hp": 19,
+  "ac": 16,
+  "fort": 6,
+  "ref": 8,
+  "will": 6,
+  "speed": 30,
+  "max_ap": 4,
+  "status": 3,
+  "civil_spire_legal": true,
+  "civil_ac_penalty": 0,
+  "unarmed_damage_dice": "1d4",
+  "unarmed_bonus": 5,
+  "unarmed_flat_dmg": 1,
+  "unarmed_traits": [
+    "agile",
+    "nonlethal"
+  ],
+  "weapons": [
+    {
+      "name": "Boarding Cutlass",
+      "attack_bonus": 8,
+      "damage_dice": "1d6",
+      "flat_damage": 3,
+      "damage_type": "S",
+      "range": 0,
+      "ap_cost": 0,
+      "traits": [
+        "finesse",
+        "sweep"
+      ],
+      "allowed_environments": [
+        "civil_spire",
+        "high_radiant",
+        "low_radiant",
+        "the_neither"
+      ]
+    },
+    {
+      "name": "Sky-Fleet Deck Pistol",
+      "attack_bonus": 7,
+      "damage_dice": "1d8",
+      "flat_damage": 1,
+      "damage_type": "P",
+      "range": 40,
+      "ap_cost": 0,
+      "traits": [
+        "cartridge",
+        "fatal_d10"
+      ],
+      "ammo_capacity": 1,
+      "reload_actions": 1,
+      "allowed_environments": [
+        "high_radiant",
+        "low_radiant",
+        "the_neither"
+      ]
+    }
+  ],
+  "abilities": {}
+}

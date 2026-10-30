@@ -1,0 +1,68 @@
+{
+  "name": "Fungal Spore Sprayer (Lv1 - Berserk)",
+  "archetype": "SporeSprayer",
+  "level": 1,
+  "hp": 20,
+  "ac": 15,
+  "fort": 8,
+  "ref": 5,
+  "will": 6,
+  "speed": 30,
+  "max_ap": 0,
+  "status": 0,
+  "civil_spire_legal": false,
+  "civil_ac_penalty": 0,
+  "unarmed_damage_dice": "1d6",
+  "unarmed_bonus": 6,
+  "unarmed_flat_dmg": 2,
+  "unarmed_traits": [
+    "agile"
+  ],
+  "weapons": [
+    {
+      "name": "Choking Spore Cloud",
+      "attack_bonus": 0,
+      "damage_dice": "1d6",
+      "flat_damage": 3,
+      "damage_type": "Poison",
+      "range": 30,
+      "ap_cost": 0,
+      "traits": [
+        "poison",
+        "spore",
+        "range_30"
+      ],
+      "allowed_environments": [
+        "civil_spire",
+        "high_radiant",
+        "low_radiant",
+        "the_neither"
+      ],
+      "save_type": "fort",
+      "save_dc": 15,
+      "save_damage_dice": "1d6",
+      "save_flat_damage": 3,
+      "action_cost": 2,
+      "cooldown_rounds": 0
+    },
+    {
+      "name": "Barbed Tendril / Mandible",
+      "attack_bonus": 6,
+      "damage_dice": "1d6",
+      "flat_damage": 2,
+      "damage_type": "P",
+      "range": 0,
+      "ap_cost": 0,
+      "traits": [
+        "agile"
+      ],
+      "allowed_environments": [
+        "civil_spire",
+        "high_radiant",
+        "low_radiant",
+        "the_neither"
+      ]
+    }
+  ],
+  "abilities": {}
+}

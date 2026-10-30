@@ -1,0 +1,62 @@
+{
+  "name": "Chirurgeon (Lv1)",
+  "archetype": "Chirurgeon",
+  "level": 1,
+  "hp": 17,
+  "ac": 15,
+  "fort": 7,
+  "ref": 6,
+  "will": 6,
+  "speed": 25,
+  "max_ap": 3,
+  "status": 3,
+  "civil_spire_legal": true,
+  "civil_ac_penalty": 0,
+  "unarmed_damage_dice": "1d4",
+  "unarmed_bonus": 4,
+  "unarmed_flat_dmg": 0,
+  "unarmed_traits": [
+    "agile",
+    "nonlethal"
+  ],
+  "weapons": [
+    {
+      "name": "Surgical Scalpel / Lancet",
+      "attack_bonus": 6,
+      "damage_dice": "1d4",
+      "flat_damage": 2,
+      "damage_type": "P/S",
+      "range": 0,
+      "ap_cost": 0,
+      "traits": [
+        "agile",
+        "finesse",
+        "deadly_d8"
+      ],
+      "allowed_environments": [
+        "civil_spire",
+        "high_radiant",
+        "low_radiant",
+        "the_neither"
+      ]
+    },
+    {
+      "name": "Corrosive Acid Phial",
+      "attack_bonus": 6,
+      "damage_dice": "1d6",
+      "flat_damage": 2,
+      "damage_type": "Acid",
+      "range": 30,
+      "ap_cost": 0,
+      "traits": [
+        "bomb"
+      ],
+      "allowed_environments": [
+        "high_radiant",
+        "low_radiant",
+        "the_neither"
+      ]
+    }
+  ],
+  "abilities": {}
+}

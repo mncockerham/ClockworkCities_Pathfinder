@@ -1,0 +1,50 @@
+{
+  "name": "Soldier (Sword & Shield Lv10)",
+  "archetype": "Soldier",
+  "level": 10,
+  "hp": 148,
+  "ac": 31,
+  "fort": 20,
+  "ref": 17,
+  "will": 17,
+  "speed": 20,
+  "max_ap": 8,
+  "status": 2,
+  "civil_spire_legal": false,
+  "civil_ac_penalty": -5,
+  "unarmed_damage_dice": "2d4",
+  "unarmed_bonus": 18,
+  "unarmed_flat_dmg": 5,
+  "unarmed_traits": ["agile", "nonlethal"],
+  "weapons": [
+    {
+      "name": "+2 Greater Striking Broadsword",
+      "attack_bonus": 22,
+      "damage_dice": "3d8",
+      "flat_damage": 6,
+      "damage_type": "S",
+      "range": 0,
+      "ap_cost": 0,
+      "traits": ["versatile_p"],
+      "allowed_environments": ["high_radiant", "low_radiant", "the_neither"]
+    },
+    {
+      "name": "Heavy Wrench / Club (Civil)",
+      "attack_bonus": 20,
+      "damage_dice": "3d6",
+      "flat_damage": 6,
+      "damage_type": "B",
+      "range": 0,
+      "ap_cost": 0,
+      "traits": [],
+      "allowed_environments": ["civil_spire"]
+    }
+  ],
+  "abilities": {
+    "shield_block": true,
+    "shield_hardness": 10,
+    "shield_hp": 45,
+    "shield_raised_ac_bonus": 2
+  }
+}
+

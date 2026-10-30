@@ -1,0 +1,62 @@
+{
+  "name": "Survivor (Lv5)",
+  "archetype": "Survivor",
+  "level": 5,
+  "hp": 58,
+  "ac": 22,
+  "fort": 10,
+  "ref": 14,
+  "will": 12,
+  "speed": 25,
+  "max_ap": 5,
+  "status": 0,
+  "civil_spire_legal": true,
+  "civil_ac_penalty": 0,
+  "unarmed_damage_dice": "1d4",
+  "unarmed_bonus": 11,
+  "unarmed_flat_dmg": 1,
+  "unarmed_traits": [
+    "agile",
+    "nonlethal"
+  ],
+  "weapons": [
+    {
+      "name": "Utility Dagger / Shiv",
+      "attack_bonus": 13,
+      "damage_dice": "2d4",
+      "flat_damage": 6,
+      "damage_type": "P/S",
+      "range": 0,
+      "ap_cost": 0,
+      "traits": [
+        "agile",
+        "finesse",
+        "versatile_s"
+      ],
+      "allowed_environments": [
+        "civil_spire",
+        "high_radiant",
+        "low_radiant",
+        "the_neither"
+      ]
+    },
+    {
+      "name": "Concealed Hand Crossbow",
+      "attack_bonus": 12,
+      "damage_dice": "2d6",
+      "flat_damage": 3,
+      "damage_type": "P",
+      "range": 50,
+      "ap_cost": 0,
+      "traits": [
+        "concealed"
+      ],
+      "allowed_environments": [
+        "high_radiant",
+        "low_radiant",
+        "the_neither"
+      ]
+    }
+  ],
+  "abilities": {}
+}

@@ -1,0 +1,62 @@
+{
+  "name": "Shadow Alpha Wolf (Lv10 - Flee 50%)",
+  "archetype": "StalkerWolf",
+  "level": 10,
+  "hp": 57,
+  "ac": 31,
+  "fort": 17,
+  "ref": 22,
+  "will": 17,
+  "speed": 65,
+  "max_ap": 0,
+  "status": 0,
+  "civil_spire_legal": false,
+  "civil_ac_penalty": 0,
+  "unarmed_damage_dice": "3d4",
+  "unarmed_bonus": 22,
+  "unarmed_flat_dmg": 7,
+  "unarmed_traits": [
+    "agile"
+  ],
+  "weapons": [
+    {
+      "name": "Apex Throat-Tearer",
+      "attack_bonus": 22,
+      "damage_dice": "3d6",
+      "flat_damage": 9,
+      "damage_type": "P",
+      "range": 0,
+      "ap_cost": 0,
+      "traits": [
+        "deadly_d10",
+        "finesse"
+      ],
+      "allowed_environments": [
+        "civil_spire",
+        "high_radiant",
+        "low_radiant",
+        "the_neither"
+      ]
+    },
+    {
+      "name": "Tendon Rake Claws",
+      "attack_bonus": 22,
+      "damage_dice": "3d4",
+      "flat_damage": 7,
+      "damage_type": "S",
+      "range": 0,
+      "ap_cost": 0,
+      "traits": [
+        "agile",
+        "finesse"
+      ],
+      "allowed_environments": [
+        "civil_spire",
+        "high_radiant",
+        "low_radiant",
+        "the_neither"
+      ]
+    }
+  ],
+  "abilities": {}
+}

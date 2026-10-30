@@ -1,0 +1,92 @@
+{
+  "name": "Scholar (Lv5 - Kinetic Pulse +3 AC)",
+  "archetype": "Scholar",
+  "level": 5,
+  "hp": 43,
+  "ac": 20,
+  "fort": 9,
+  "ref": 10,
+  "will": 14,
+  "speed": 25,
+  "max_ap": 10,
+  "status": 4,
+  "civil_spire_legal": true,
+  "civil_ac_penalty": 0,
+  "unarmed_damage_dice": "1d4",
+  "unarmed_bonus": 7,
+  "unarmed_flat_dmg": 0,
+  "unarmed_traits": [
+    "agile",
+    "nonlethal"
+  ],
+  "weapons": [
+    {
+      "name": "High Radiant Arc Resonator",
+      "attack_bonus": 12,
+      "damage_dice": "2d12",
+      "flat_damage": 5,
+      "damage_type": "Electricity",
+      "range": 80,
+      "ap_cost": 3,
+      "traits": [
+        "radiant",
+        "deadly_d10"
+      ],
+      "allowed_environments": [
+        "high_radiant"
+      ]
+    },
+    {
+      "name": "Technical Cartridge Sidearm",
+      "attack_bonus": 11,
+      "damage_dice": "2d8",
+      "flat_damage": 2,
+      "damage_type": "P",
+      "range": 40,
+      "ap_cost": 0,
+      "traits": [
+        "cartridge",
+        "fatal_d10"
+      ],
+      "ammo_capacity": 6,
+      "reload_actions": 1,
+      "allowed_environments": [
+        "low_radiant",
+        "the_neither"
+      ]
+    },
+    {
+      "name": "Scholastic Stave / Cane",
+      "attack_bonus": 9,
+      "damage_dice": "1d6",
+      "flat_damage": 1,
+      "damage_type": "B",
+      "range": 0,
+      "ap_cost": 0,
+      "traits": [
+        "finesse"
+      ],
+      "allowed_environments": [
+        "civil_spire",
+        "high_radiant",
+        "low_radiant",
+        "the_neither"
+      ]
+    }
+  ],
+  "abilities": {
+    "radiant_barrier": true,
+    "barrier_temp_hp_high": 20,
+    "barrier_temp_hp_low": 8,
+    "pulse_defense": {
+      "name": "Kinetic Deflection Brooch",
+      "base_ap_cost": 3,
+      "has_discipline_tag": true,
+      "ap_cost": 1,
+      "ac_bonus": 3,
+      "fort_bonus": 0,
+      "ref_bonus": 0,
+      "will_bonus": 0
+    }
+  }
+}

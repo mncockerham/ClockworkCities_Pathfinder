@@ -1,0 +1,70 @@
+{
+  "name": "Officer (Lv1)",
+  "archetype": "Officer",
+  "level": 1,
+  "hp": 18,
+  "ac": 16,
+  "fort": 7,
+  "ref": 5,
+  "will": 7,
+  "speed": 25,
+  "max_ap": 4,
+  "status": 3,
+  "civil_spire_legal": true,
+  "civil_ac_penalty": 0,
+  "unarmed_damage_dice": "1d4",
+  "unarmed_bonus": 5,
+  "unarmed_flat_dmg": 1,
+  "unarmed_traits": [
+    "agile",
+    "nonlethal"
+  ],
+  "weapons": [
+    {
+      "name": "Officer's Sabre",
+      "attack_bonus": 7,
+      "damage_dice": "1d6",
+      "flat_damage": 2,
+      "damage_type": "S",
+      "range": 0,
+      "ap_cost": 0,
+      "traits": [
+        "finesse"
+      ],
+      "allowed_environments": [
+        "civil_spire",
+        "high_radiant",
+        "low_radiant",
+        "the_neither"
+      ]
+    },
+    {
+      "name": "Service Pistol",
+      "attack_bonus": 6,
+      "damage_dice": "1d8",
+      "flat_damage": 1,
+      "damage_type": "P",
+      "range": 40,
+      "ap_cost": 0,
+      "traits": [
+        "cartridge",
+        "fatal_d10"
+      ],
+      "ammo_capacity": 6,
+      "reload_actions": 1,
+      "allowed_environments": [
+        "high_radiant",
+        "low_radiant",
+        "the_neither"
+      ]
+    }
+  ],
+  "abilities": {
+    "armed_retainers": true,
+    "retainer_count": 1,
+    "retainer_hp": 12,
+    "retainer_attack": 4,
+    "retainer_damage_dice": "1d8",
+    "retainer_flat_damage": 1
+  }
+}

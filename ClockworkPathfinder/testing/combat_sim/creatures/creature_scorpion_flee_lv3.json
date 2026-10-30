@@ -1,0 +1,62 @@
+{
+  "name": "Barbed Trench Scorpion (Lv3 - Flee 50%)",
+  "archetype": "VenomousScorpion",
+  "level": 3,
+  "hp": 19,
+  "ac": 19,
+  "fort": 10,
+  "ref": 9,
+  "will": 7,
+  "speed": 35,
+  "max_ap": 0,
+  "status": 0,
+  "civil_spire_legal": false,
+  "civil_ac_penalty": 0,
+  "unarmed_damage_dice": "2d4",
+  "unarmed_bonus": 10,
+  "unarmed_flat_dmg": 3,
+  "unarmed_traits": [
+    "agile"
+  ],
+  "weapons": [
+    {
+      "name": "Venomous Stinger",
+      "attack_bonus": 11,
+      "damage_dice": "2d6",
+      "flat_damage": 4,
+      "damage_type": "P",
+      "range": 0,
+      "ap_cost": 0,
+      "traits": [
+        "deadly_d8"
+      ],
+      "allowed_environments": [
+        "civil_spire",
+        "high_radiant",
+        "low_radiant",
+        "the_neither"
+      ]
+    },
+    {
+      "name": "Vise Pincers",
+      "attack_bonus": 10,
+      "damage_dice": "2d4",
+      "flat_damage": 3,
+      "damage_type": "B",
+      "range": 0,
+      "ap_cost": 0,
+      "traits": [
+        "agile"
+      ],
+      "allowed_environments": [
+        "civil_spire",
+        "high_radiant",
+        "low_radiant",
+        "the_neither"
+      ]
+    }
+  ],
+  "abilities": {
+    "damage_resistance_physical": 2
+  }
+}

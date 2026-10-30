@@ -1,0 +1,62 @@
+{
+  "name": "Feral Wolf (Lv1 - Flee 50%)",
+  "archetype": "StalkerWolf",
+  "level": 1,
+  "hp": 8,
+  "ac": 16,
+  "fort": 6,
+  "ref": 8,
+  "will": 5,
+  "speed": 45,
+  "max_ap": 0,
+  "status": 0,
+  "civil_spire_legal": false,
+  "civil_ac_penalty": 0,
+  "unarmed_damage_dice": "1d4",
+  "unarmed_bonus": 8,
+  "unarmed_flat_dmg": 2,
+  "unarmed_traits": [
+    "agile"
+  ],
+  "weapons": [
+    {
+      "name": "Serrated Bite",
+      "attack_bonus": 8,
+      "damage_dice": "1d6",
+      "flat_damage": 3,
+      "damage_type": "P",
+      "range": 0,
+      "ap_cost": 0,
+      "traits": [
+        "deadly_d8",
+        "finesse"
+      ],
+      "allowed_environments": [
+        "civil_spire",
+        "high_radiant",
+        "low_radiant",
+        "the_neither"
+      ]
+    },
+    {
+      "name": "Quick Claws",
+      "attack_bonus": 8,
+      "damage_dice": "1d4",
+      "flat_damage": 2,
+      "damage_type": "S",
+      "range": 0,
+      "ap_cost": 0,
+      "traits": [
+        "agile",
+        "finesse"
+      ],
+      "allowed_environments": [
+        "civil_spire",
+        "high_radiant",
+        "low_radiant",
+        "the_neither"
+      ]
+    }
+  ],
+  "abilities": {}
+}

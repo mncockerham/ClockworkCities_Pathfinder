@@ -1,0 +1,62 @@
+{
+  "name": "Spore-Barbed Scorpion (Lv5 - Berserk)",
+  "archetype": "VenomousScorpion",
+  "level": 5,
+  "hp": 55,
+  "ac": 23,
+  "fort": 12,
+  "ref": 11,
+  "will": 9,
+  "speed": 35,
+  "max_ap": 0,
+  "status": 0,
+  "civil_spire_legal": false,
+  "civil_ac_penalty": 0,
+  "unarmed_damage_dice": "2d4",
+  "unarmed_bonus": 13,
+  "unarmed_flat_dmg": 4,
+  "unarmed_traits": [
+    "agile"
+  ],
+  "weapons": [
+    {
+      "name": "Virulent Neurotoxin Stinger",
+      "attack_bonus": 14,
+      "damage_dice": "2d6",
+      "flat_damage": 6,
+      "damage_type": "P",
+      "range": 0,
+      "ap_cost": 0,
+      "traits": [
+        "deadly_d10"
+      ],
+      "allowed_environments": [
+        "civil_spire",
+        "high_radiant",
+        "low_radiant",
+        "the_neither"
+      ]
+    },
+    {
+      "name": "Vise Pincers",
+      "attack_bonus": 13,
+      "damage_dice": "2d6",
+      "flat_damage": 4,
+      "damage_type": "B",
+      "range": 0,
+      "ap_cost": 0,
+      "traits": [
+        "agile"
+      ],
+      "allowed_environments": [
+        "civil_spire",
+        "high_radiant",
+        "low_radiant",
+        "the_neither"
+      ]
+    }
+  ],
+  "abilities": {
+    "damage_resistance_physical": 2
+  }
+}

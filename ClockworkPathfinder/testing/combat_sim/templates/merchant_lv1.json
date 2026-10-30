@@ -1,0 +1,74 @@
+{
+  "name": "Merchant (Lv1)",
+  "archetype": "Merchant",
+  "level": 1,
+  "hp": 17,
+  "ac": 15,
+  "fort": 5,
+  "ref": 6,
+  "will": 7,
+  "speed": 25,
+  "max_ap": 4,
+  "status": 6,
+  "civil_spire_legal": true,
+  "civil_ac_penalty": 0,
+  "unarmed_damage_dice": "1d4",
+  "unarmed_bonus": 4,
+  "unarmed_flat_dmg": 0,
+  "unarmed_traits": [
+    "agile",
+    "nonlethal"
+  ],
+  "weapons": [
+    {
+      "name": "Fair Steel Spire Dueling Rapier",
+      "attack_bonus": 7,
+      "damage_dice": "1d6",
+      "flat_damage": 2,
+      "damage_type": "P",
+      "range": 0,
+      "ap_cost": 0,
+      "traits": [
+        "deadly_d8",
+        "disarm",
+        "finesse"
+      ],
+      "allowed_environments": [
+        "civil_spire",
+        "high_radiant",
+        "low_radiant",
+        "the_neither"
+      ]
+    },
+    {
+      "name": "Pistol Cane",
+      "attack_bonus": 5,
+      "damage_dice": "1d8",
+      "flat_damage": 0,
+      "damage_type": "P",
+      "range": 30,
+      "ap_cost": 0,
+      "traits": [
+        "cartridge",
+        "fatal_d10",
+        "concealed"
+      ],
+      "ammo_capacity": 1,
+      "reload_actions": 1,
+      "allowed_environments": [
+        "high_radiant",
+        "low_radiant",
+        "the_neither"
+      ]
+    }
+  ],
+  "abilities": {
+    "armed_retainers": true,
+    "retainer_count": 1,
+    "retainer_hp": 12,
+    "retainer_attack": 4,
+    "retainer_damage_dice": "1d6",
+    "retainer_flat_damage": 1,
+    "social_authority_bonus": 4
+  }
+}
