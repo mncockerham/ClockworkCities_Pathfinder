@@ -38,15 +38,18 @@ High proficiency rank (Master or Legendary) represents elite real-world competen
 
 ---
 
-## New System:Understanding
+## New System: Understanding & Social Skills
 
-**Understanding** is a specialized competency that exists outside the standard skill system. Rather than measuring a generic action (such as jumping, crafting, or lying), Understanding is a **long-term roleplay aid** that represents **who you know and what you know about**—allowing players to actively build a richer, more detailed world around their character and differentiate themselves from other PCs through their unique personal network and institutional insight.
+**Understanding** is a specialized competency that exists outside the standard skill system. Rather than measuring a generic action (such as jumping, crafting, or lying), Understanding represents **actionable institutional intelligence, member networks, and operational framework**—supplying deep knowledge about groups, subcultures, and organizations, specifically **what they are commonly willing to do (both legally and illegally)**.
+
+This information is designed to give players the concrete groundwork to **define what they want to do and how to execute it**. Knowing an organization's boundaries, tolerances, and typical practices lets players craft viable, informed plans without guessing blindly.
 
 > **Understanding (Social Skills) vs. Obligations — Two Distinct Pillars:**
-> - **Understanding (Who You Know & What You Know About — Permanent Roleplay Identity):** Your permanent, evolving web of contacts, subcultures, and institutional familiarity. These are relationships and spheres you cultivate over your career to make your character distinct and bring the world to life.
->   - *Example (Social Skill — `Understanding: Law Enforcement [13th Ward Constables]`):* Because you know the 13th Ward precinct, you know that **Constable Johnathan Treible** accepts bribes to let people travel into the Warrens off-book—and you know the exact protocol: slip the coin to him framed as a *"charitable donation to the Constable Fire-Rescue Team."*
-> - **Obligation (Forced Behavior Through Societal Pressure — Limited-Use Leverage):** A consumable marker of sworn debt or social leverage held over a specific NPC. Unlike your voluntary contacts, **someone bound by an Obligation may not like you at all, requires no dice roll to compel, and may deeply resent what you force them to do**—complying only because the societal and family-honor consequences of defaulting on a recognized debt in Spire society are devastating.
->   - *Example (Obligation — `Johnathan Treible`):* *"Johnathan Treible owes me big—he's going to smuggle us into the Warrens off-book, and it won't cost a thing."*
+> - **Understanding (Actionable Institutional Intelligence & Member Framework):** Supplies deep practical knowledge about groups and organizations, including **who their members are, what tasks they are commonly willing to do (both legal and illegal), and how to approach them safely**.
+>   - *The Inquisitive Ripple (Pushing Contacts & Rolls):* When operating on an aligned, acceptable-risk level, Understanding functions smoothly without rolls. However, **an Inquisitive Ripple only occurs when the information or task being sought pushes boundaries and requires a d20 roll**. Whenever a roll is required, the Storyteller gives the player a clear, explicit warning: **they are pushing their contacts or probing too deeply, and people within the organization or rival factions might notice someone is asking questions**. The player can then make a conscious choice to back off or risk the roll and the attention it draws.
+>   - *Example (Social Skill — `Understanding: Law Enforcement [13th Ward Constables]`):* Because you know the 13th Ward precinct, you know that **Constable Johnathan Treible** is the night-shift officer willing to look the other way for Warrens transit, and you know the exact protocol to approach him: slip the coin framed as a *"charitable donation to the Constable Fire-Rescue Team."*
+> - **Obligation (Compelled Behavior via Societal Leverage — Limited-Use Debts):** A binding marker of sworn debt or societal leverage held over a **specific person or group**. Unlike voluntary contacts, an NPC bound by an Obligation **does not need to like you and may deeply resent what you force them to do**. Within the defined tier of the debt, **they must execute the task or face severe, catastrophic Social Standing loss to themselves and their organization**.
+>   - *Example (Obligation — `Johnathan Treible`):* When carrying hot military contraband where no bribe will work, the player calls in a sworn debt: *"Johnathan Treible owes me big—he will smuggle us through off-book, and it won't cost a single coin."* Treible hates the risk, but defaults on a sworn debt mean personal and family ruin.
 
 ### Inverse Scope & Power Principle
 The effectiveness and mechanical weight of Understanding scale **inversely with the size of the target group**:
@@ -315,12 +318,13 @@ Both the **frequency of Social Advancements**, the **rate of network re-training
 
 ---
 
-## New System: Obligation (Forced Behavior via Societal Pressure)
+## New System: Obligation (Compelled Behavior via Societal Leverage)
 
-While **Understanding** is a permanent, long-term roleplay aid representing **who you know and what you know about** (contacts and institutions you cultivate to define your character and flesh out the world), **Obligation** is a **limited-use mechanism for forcing behavior from a specific NPC through societal pressure**:
+While **Understanding** provides the actionable intelligence, member networks, and operational framework regarding what groups are commonly willing to do, **Obligation** is the **limited-use mechanism for compelling behavior from a specific person or group through societal leverage**:
 
-- **No Affection Required (They May Dislike or Resent You):** Unlike a friendly contact from your Understanding skills, an NPC who owes you an Obligation **does not need to like you—and may actively resent you and what you force them to do**. They comply because in a society where *"Worth = who you represent"*, publicly defaulting on a recognized debt or obligation destroys their personal honor, their guild credit, and their family's standing.
-- **No Roll Needed to Compel:** So long as the demand falls within the tier of the Obligation held (and does not violate a competing supreme oath like high treason against the King), **no dice roll is required**—calling in the Obligation compels the behavior automatically and burns down the Obligation tier as detailed below.
+- **No Affection Required (They May Dislike or Resent You):** Unlike a friendly or receptive contact from your Understanding skills, an NPC or organization who owes you an Obligation **does not need to like you—and may actively resent you and what you force them to do**. They comply because in a society where *"Worth = who you represent"*, publicly defaulting on a recognized debt or obligation destroys their personal honor, their guild credit, and their family's standing.
+- **Compelled Task or Social Standing Loss:** Within the bounds of the obligation held, **the target must perform the task or suffer severe, catastrophic Social Standing loss to themselves and their organization**.
+- **No Roll Needed to Compel:** So long as the demand falls within the tier of the Obligation held (and does not violate a competing supreme oath like high treason against the King), **no dice roll is required**—calling in the Obligation compels the behavior automatically and burns down the Obligation tier as detailed below. (Because no roll is required, calling in an Obligation never triggers an Inquisitive Ripple).
 
 ### Acquisition & Narrative Distribution
 Obligations are **narrative and roleplay rewards**, earned through player decisions, completed missions, saved lives, or strategic downtime deals rather than character creation point-buy.

@@ -64,7 +64,28 @@ The world is divided vertically and geographically into six distinct atmospheric
 - **Altitude / Location:** The violent atmospheric transition boundary (20 to 150 ft thick, swelling to 300+ ft during storms) separating the Aither from the Neither.
 - **Physical Environment:** A chaotic, glowing cloud sea of perpetual electrical discharges, static squalls, and severe barometric turbulence.
 - **Native Population:** **Half-Elves (Type 2)** (Aeronauts, sky-captains, and spire-rim riggers).
-- **Environmental Realities:** Provides the uniform buoyancy plane for airships (~100 mi/day) and powers the radiant grids of Great Spires. Neither-tech weapons operate at 1/2 damage or 1/2 duration. Crossing on foot carries a 5% to 20% risk of total destruction from lightning strikes.
+- **Environmental Realities:** Provides the uniform buoyancy plane for airships (~100 mi/day) and powers the radiant grids of Great Spires. Neither-tech weapons operate at 1/2 damage or 1/2 duration.
+
+#### Crossing the Zone (Mechanics & Transit Routes)
+Crossing the Zone is inherently perilous: the energy and atmospheric reaction building up between the colliding Aither and Neither layers results in massive, catastrophic electrical discharges. Travelers cross via four distinct methods:
+
+1. **Within a Spire or Grounded Megastructure:**
+   - Great Spires and massive Neithercrete conduits physically span and anchor through the Zone.
+   - Built with massive subterranean grounding rods and lightning diversion channels, these structures safely insulate transit cars, lift winches, and stairwells inside their armored cores, protecting travelers from exterior arcs.
+2. **Dual-Purpose Amphibious Airships:**
+   - Standard airships float upon the electromagnetic cloud plane of the Zone, but specialized **dual-purpose airships** are engineered to operate as both skyships and sea-going surface vessels.
+   - The waterproofing modifications required to float upon water are relatively straightforward; however, the immense internal cargo and deck space consumed by sails, rigging, or oar banks is the primary reason most standard merchant airships lack this dual capability. Dual-purpose ships can safely set down onto mountain lakes or coastal waters to pass under or through the Zone's fringe.
+3. **Subterranean Land Tunnels (Mountain & Northern Landfalls):**
+   - In high mountain ranges or in the far north where the Zone slopes downward and directly touches the terrain, civilization excavates massive subterranean transit tunnels.
+   - These tunnels run **3/4 mile or longer** completely beneath the bedrock, allowing travelers to enter and exit beneath the lightning layer.
+   - Because they bridge the vital divide between Upper Neither lands and Aither/polar trade, almost all tunnel crossings are **heavily guarded by military garrisons, toll-houses, or fortress redoubts at one or both ends**.
+4. **Zone Running (Testing One's Luck):**
+   - The desperate, the exiled, smugglers, and reckless adventurers attempt to cross the Zone on foot or open mount without tunnel shelter or airship protection.
+   - **The Lethal Strike (No Survival Buffer):** Even a **Level 20 character with maximum Hit Points and peak equipment will die instantly from a direct Zone lightning strike**. There are no saving throws, resistance soak, or dying states for a direct hit; it is an absolute gamble of survival.
+   - **The Risk Table (d20 Roll):**
+     - **Calm Zone & Favorable / Fast Terrain:** Only a natural `1` on a d20 results in a fatal lightning strike (**1 in 20 failure rate / 5% death chance**).
+     - **Difficult, Rough, or Slow Terrain:** Prolonged exposure elevates the danger to a failure on `1–15` on a d20 (**15 in 20 failure rate / 75% death chance**).
+     - **Zone Storms (Any Intensity):** During an active atmospheric storm, electrical discharge saturates every square foot; failure rates reach **up to 100% death rate**. Zone running during a storm is sheer suicide.
 
 ### Layer 3: Upper (Light) Neither (Spire Civilization)
 - **Altitude / Location:** From sea level up to ~12,000 ft in urban regions, encompassing the middle circles of Great Spires and agricultural hamlets.
