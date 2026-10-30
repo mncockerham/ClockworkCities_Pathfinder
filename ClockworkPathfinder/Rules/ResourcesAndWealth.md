@@ -64,14 +64,41 @@ Every character's access to money, equipment, and personnel is governed by five 
 
 ### 5. The Citizen Bulwark (3-Item PC Upkeep & Resource Exemption)
 - **Lore & Legal History:** Clockwork and NeitherTeck technologies require constant calibration, lubrication, and costly spare parts—ongoing upkeep far beyond what most residents of the Spire could ever afford under their personal spending limits. This is offset by one of the oldest surviving laws from the dawn of the Spire era: **The Citizen Bulwark**.
-  - **The Statutory Grant:** The law grants skilled citizens municipal and institutional funding and spare-parts access to maintain **1 suit of protective armor, 1 primary weapon, and 1 additional clockwork item** (a spare weapon, shield, tactical rig, or other item that can aid in the defense of the Spire).
+  - **The Statutory Grant:** The law grants skilled citizens municipal and institutional funding and spare-parts access to maintain **3 items of personal gear** (traditionally framed as *1 suit of protective armor, 1 primary weapon, and 1 additional clockwork/defense item*).
   - **The Militia Anachronism:** Under the ancient text of the Bulwark, each participating citizen agrees to serve in the Spire Militia in times of need. *(More recent Crown laws have long since codified that militia service is a mandatory requirement of ALL citizens during a crisis anyway—the fact that the Citizen Bulwark still frames militia duty as a voluntary agreement shows just how old the law is).*
-- **Mechanical Budget Rule (3 Items Outside Spire Limits):**
-  - Every PC can keep and maintain **3 designated items (1 Armor, 1 Weapon, 1 Additional Clockwork/Defense Item) completely outside of the normal resource limits in the Spire** (exempt from the `1 × Monthly Spending` Personal Property Cap, ongoing upkeep drain, and routine organizational repossession).
+- **Mechanical Budget Rule (Any 3 Items Outside Spire Limits — Player's Choice):**
+  - While citizens traditionally select 1 armor, 1 weapon, and 1 clockwork defense item, **this breakdown is not mandatory**.
+  - **Player Freedom:** If a player chooses to maintain **3 weapons**, **3 pieces of specialized gear/apparatus**, or any random assortment of equipment that fits their character concept, **the rules explicitly allow it**. Players are never forced into an optimal combat trinity; a dedicated scholar, sniper, or artisan can freely dedicate their 3 slots to whatever tools, secondary blades, or gear they cherish.
+  - Every PC keeps and maintains **any 3 designated personal items completely outside of the normal resource limits in the Spire** (exempt from the `1 × Monthly Spending` Personal Property Cap, ongoing upkeep drain, and routine organizational repossession).
 - **Level-Adjusted Price & PF2e Progression Alignment (`[GM Core p.58]`):**
   - The allowed price and tier of each of the 3 Citizen Bulwark items is **adjusted by Character Level (supporting permanent items up to Item Level = Character Level)** and aligns directly with the normal Pathfinder 2e permanent magic item progression (`[GM Core p.58, Table 2–10]`).
   - This ensures every PC—regardless of social class or personal spending cap—can maintain level-appropriate fundamental enhancements (`+1 Niracrest`, `Striking`, `Resilient`, `+2 Mitheral`, `Greater Striking`, etc.) and clockwork upgrades as they advance in level.
   - *(Note: Standard municipal carry, peace-bonding, and cartridge/converter checkout laws in `WorldAndLaw.md` still apply in public wards, and items above the Level 12 retail store ceiling must still be acquired via expeditions, vaults, or commissions).*
+
+---
+
+### 6. Institutional Gifts & Exceptional Service Dispensations (Items Far Beyond Wealth)
+
+One foundational question of the Spire economy is: **How do characters acquire and permanently keep items whose value dwarfs their personal wealth and social standing?**
+
+Because characters cannot hoard surplus coin under the `1 × Monthly Spending` cap, top-tier items are almost never acquired through ordinary retail shopping. Instead, they are bestowed as **Institutional Gifts and Royal Dispensations for exceptional service**:
+
+- **Service as the True Currency:** Exceptional service rendered to a **Trade Guild**, a **Great Noble House**, a **High Collegium**, the **Municipal Watch**, or directly to the **Crown / King** is rewarded through formal honorific grants:
+  - **"In the King's Name":** Prior to high tier (Levels 1–9), imperial dispensations are issued *in the King's name* by ward bailiffs, garrison colonels, or chancellor magistrates. Only when players enter high-tier play (**Level 10+**) do rewards stem directly from an audience with the Sovereign himself or the Privy Council.
+- **The Two Forms of Institutional Gifts:**
+  1. **The Sovereign Right of Retention (Keep-Right Patent):**
+     - When a character recovers a rare, legendary, or pre-collapse Era 1 artifact during an expedition—an item that legally belongs to the Crown or the sponsoring institution—the granting authority issues a formal **Keep-Right Patent** (signed and stamped with municipal/royal seals).
+     - This patent grants the PC the permanent legal right to own, maintain, and carry the item despite their lower social station. Constables, guild assayers, and tax collectors must recognize the patent; any attempt by lower officials to seize it is treated as royal theft.
+  2. **The "Bespoke Patronage" Store Selection:**
+     - The benefactor issues a **Letter of Introduction & Patronage** directing the character to a specific, high-tier artisan workshop, master guild salon, or private noble factorum.
+     - Upon arrival, the shop proprietor—already compensated or commanded by the patron—greets the character, closes the doors to the public, and presents a curated selection of exceptional masterworks.
+     - The character is invited to select an item of their choice as a formal token of gratitude. The transaction involves zero personal coin from the PC; the invoice is settled entirely through the patron's institutional treasury or royal debt credits.
+- **Cross-Institutional Patronage (Third-Party Gifts):**
+  - An institutional gift **does not have to come from your own organization**. A working-class Soldier or Warrens Survivor who saves a Wall Merchant’s heir, uncovers an assassination plot against a Great House, or defends an Artisan guildhall from saboteurs can receive a gift from that outside faction.
+  - **Immunity from Own House Repossession:** Because the gift is backed by an outside entity's formal decree or Crown warrant, the PC's own house, guild, or regiment **cannot legally confiscate or repossess the item** into the general house library. It remains the personal, recognized property of the individual who earned it.
+- **Integration with the Citizen Bulwark Exception (The King's Exemption):**
+  - **Standard Institutional Gifts Consume a Citizen Bulwark Slot:** When a Trade Guild, a Noble House, an individual patron, or an outside benefactor gives you an item far beyond your wealth, **it must occupy one of your 3 designated Citizen Bulwark slots** to be retained personally. (While these 3 slots are traditionally 1 armor, 1 weapon, and 1 defense item, a player may freely allocate them to any 3 items they choose, including multiple weapons or non-combat gear). If your 3 Bulwark slots are already full, you must choose which item to surrender/replace, or the new gift must be deposited into your house/guild library.
+  - **The Royal Exemption (Granted by or in the Name of the King):** The sole legal exception occurs when an item is **granted directly by the King, or formally bestowed in the King's Name by a royal bailiff or high magistrate**. A royal dispensation carries sovereign authority that transcends municipal statute: it **exists completely outside and in addition to your 3 Citizen Bulwark slots**, granting a permanent extra retention slot that cannot be taxed, confiscated, or contested by any guild or house.
 
 ---
 

@@ -37,8 +37,32 @@ Secular Victorian technology adapted for vertical spire transit, radiant electri
 | **Acoustic Speaking Tube / Ear Trumpet** | 5 sp | L | 1 | `[PC1 p.289]` | Brass cone for eavesdropping through thin ward partitions or communicating through deafening engine boiler rooms. |
 | **Surveyor's Theodolite & Level** | 15 gp | 2 | 2 | `[New / PC1 p.290]` | Brass tripod telescope and protractor assembly for civil architects, mining engineers, and tunnel alignment. |
 | **Walking Cane (Reinforced / Sword Cane)** | 3 gp | L | 1 | `[G&G p.152]` | High-society gentleman's ebony cane concealing a narrow stiletto blade (Simple, 1d4 P, Agile, Concealable, Finesse). |
+| **Spire Dueling Blade (Rapier / Dueling Sword)** | 5 to 100 gp | 1 | 1 | `[PC1 p.281 / New]` | **The Gentleman's Legal Sidearm:** Martial, 1d6 P, Disarm, Finesse, Deadly d8. Strictly mundane steel under the Fair Steel Mandate. Cost reflects bespoke aesthetic prestige, hilt artistry, and social pedigree. *(See Section 1A below).* |
 | **Disguise Kit (Cosmetics & Society Wigs)** | 2 gp | L | 2 | `[PC1 p.289]` | Powders, pomades, false whiskers, and tinting pastilles used by actors, Dandies, and underworld spies. |
 | **Writing Set (Fountain Pen, Ink & Blotter)** | 1 gp | L | 2 | `[PC1 p.290]` | Brass reservoir pen, iron-gall ink vial, and vellum stationery for civil contracts and legal briefs. |
+
+---
+
+### 1A. The Spire Dueling Blade (The "Fair Steel" Spectrum)
+
+The legal status weapon of **Nobles**, **Wall Merchants**, and **Gentleman Officers**. Under Crown statute and high-society dueling etiquette, every dueling blade is strictly subject to the **Fair Steel Mandate**: it **cannot** be forged from performance-enhancing exotic alloys (*Niracrest*, *Mitheral*) and **cannot** possess clockwork, pneumatic, or galvanic enhancements (which legally reclassifies it as a mechanized weapon of war, revoking all dueling immunity).
+
+Mechanically, every dueling blade deals standard mundane damage (**1d6 P, Deadly d8, Disarm, Finesse**). The vast price spectrum (**5 to 100+ Nobels / gp**) reflects **social fashion, hilt artistry, pedigree, and contrasting aesthetic philosophies** in polite society:
+
+1. **The Standard Fencing Blade (5 to 10 Nobels):**
+   - Clean, well-tempered Arclean tool steel with a simple brass bell guard, wire-wrapped grip, and leather scabbard.
+   - Typically carried by junior military officers, aspiring merchants, and frugal duelists who want legal standing without drawing ostentatious attention.
+2. **The "New Money" Ostentatious Fashion Blade (25 to 75 Nobels):**
+   - Extremely popular among **Wall Merchant heirs and salon socialites**.
+   - The blade is heavily etched with floral guilloché patterns, Latin legal maxims, or corporate heraldry; the crossguard is chased with gold filigree and inset with rubies, sapphires, or river pearls; the grip is carved from exotic materials most commoners have never seen—such as fossilized leviathan mammoth ivory, polished Aither ebony, or mother-of-pearl.
+   - While traditionalists mock these as gaudy showpieces, they carry immense visual weight in ballroom politics and Ward 13 dinner clubs.
+3. **The Purist's Masterwork (50 to 100+ Nobels — Hardness 9 to 10):**
+   - Held by **High Aristocrats, master duelists, and fencing purists** who view ornate jewels and decorative pommels as vulgar and crude.
+   - **There is no rule against having the finest blade in the Spire:** It adheres strictly to the Fair Steel Mandate (zero illegal combat runes, zero clockwork cheats, dealing standard `1d6 P` damage), but achieves supreme structural resilience through master metallurgical folding, carbon-quenching, and surgical balance.
+   - **Mechanical Hardness & Durability:**
+     - **50 Nobels:** **Hardness 9**, **36 HP (BT 18)** (Standard-Grade Steel). Will not bend or notch against heavy parries.
+     - **100 Nobels:** **Hardness 10**, **40 HP (BT 20)** (High-Grade Masterwork Steel). Can cleanly parry greatswords, axes, and environmental hazards without taking a scratch; virtually immune to sunder or disarming breaks.
+   - In the salon, connoisseurs immediately recognize it: *“No jewels, no vanity—just perfect, flawless steel.”* Grants social respect and pedigree among the dueling elite.
 
 ---
 

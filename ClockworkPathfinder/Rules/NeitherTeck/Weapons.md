@@ -53,9 +53,9 @@ NeitherTeck weapons fall into **two distinct mechanical families**:
 | **Neither Shock Cannon** | **1d10 Electricity** | **4 AP** | **3 AP** | Medium (3 shots, **Reload 2**) | `[Military]`, `[Mechanical]` | 30 ft, Scatter 5 ft |
 | **Neither Pulse Blunderbuss** | **1d10 Force** | **4 AP** | **3 AP** | Medium (3 pulses, **Reload 2**) | `[Military]`, `[Airships]` | 40 ft, Scatter 10 ft |
 | **Neither Precision Arc Lance** | **1d12 Electricity** | **4 AP** | **3 AP** | Medium (3 arcs, **Reload 2**) | `[Technical]`, `[Military]` | 90 ft, Fatal d12+4 |
-| **Neither Heavy Arc Arquebus** | **2d8 Electricity** | **5 AP** | **3 AP** | Large (3 bolts, **Reload 3**) | `[Military]`, `[Technical]` | 150 ft, Fatal d12+4, Kickback |
-| **Neither Dragon Projector** | **2d8 Force** | **5 AP** | **3 AP** | Large (3 pulses, **Reload 3**) | `[Military]`, `[Subterranean]` | 60 ft, Kickback, Scatter 10 ft |
-| **Neither Force Breaker** | **2d10 Force** | **5 AP** | **3 AP** | Large (3 pulses, **Reload 3**) | `[Military]`, `[Technical]` | 50 ft, Kickback |
+| **Neither Heavy Arc Arquebus** | **2d8 Electricity** | **5 AP** | **3 AP** | Large (3 bolts, **Reload 3**) | `[Military]`, `[Technical]` | 150 ft, Fatal d12+4, Kickback, Cumbersome |
+| **Neither Dragon Projector** | **2d8 Force** | **5 AP** | **3 AP** | Large (3 pulses, **Reload 3**) | `[Military]`, `[Subterranean]` | 60 ft, Kickback, Scatter 10 ft, Cumbersome |
+| **Neither Force Breaker** | **2d10 Force** | **5 AP** | **3 AP** | Large (3 pulses, **Reload 3**) | `[Military]`, `[Technical]` | 50 ft, Kickback, Cumbersome |
 
 ---
 
@@ -69,9 +69,9 @@ NeitherTeck weapons fall into **two distinct mechanical families**:
 | **Radiant Defense Carbine** | **1d10 Electricity** | **4 AP** | **3 AP** | `[Military]`, `[Technical]` | 70 ft, Fatal d12+2, Radiant Induction |
 | **Radiant Pulse Projector** | **1d10 Force** | **4 AP** | **3 AP** | `[Technical]`, `[Mechanical]` | 60 ft, Scatter 10 ft, Radiant Induction |
 | **Radiant Precision Lance** | **1d12 Electricity** | **5 AP** | **3 AP** | `[Technical]`, `[Military]` | 90 ft, Fatal d12+4 (Sniper), Radiant Induction |
-| **Radiant Heavy Arquebus** | **2d8 Electricity** | **5 AP** | **3 AP** | `[Technical]`, `[Military]` | 150 ft, Fatal d12+4, Kickback, Radiant Induction |
-| **Spire Force Breaker** | **2d10 Force** | **6 AP** | **4 AP** | `[Military]`, `[Technical]` | 50 ft, Kickback, Radiant Induction |
-| **Great Spire Arc Cannon** | **2d12 Electricity** | **6 AP** | **4 AP** | `[Technical]` | 200 ft, Emplacement / Heavy Rig, Fatal d12+4, Radiant Induction |
+| **Radiant Heavy Arquebus** | **2d8 Electricity** | **5 AP** | **3 AP** | `[Technical]`, `[Military]` | 150 ft, Fatal d12+4, Kickback, Cumbersome, Radiant Induction |
+| **Spire Force Breaker** | **2d10 Force** | **6 AP** | **4 AP** | `[Military]`, `[Technical]` | 50 ft, Kickback, Cumbersome, Radiant Induction |
+| **Great Spire Arc Cannon** | **2d12 Electricity** | **6 AP** | **4 AP** | `[Technical]` | 200 ft, Emplacement / Heavy Rig, Fatal d12+4, Cumbersome, Radiant Induction |
 
 ---
 
@@ -92,6 +92,12 @@ While NeitherTeck energy firing mechanisms are completely dead without power or 
 
 ## 5. Special Weapon Traits
 
+### Cumbersome (Heavy Harness Bracing)
+High-powered two-handed Neither weapons are heavy, top-heavy assemblies woven with thick capacitive conduits, grounding straps, and high-voltage stabilizing frames that require continuous, two-handed physical bracing and posture control.
+- **Turn-Long Free-Hand Lockout:** If a character discharges, aims, or fires a weapon with the **Cumbersome** trait on their turn—or intends to do so during that turn—**they cannot use any action, reaction, or activity that requires a free hand for that entire turn (both before and after firing).**
+- **Prohibited Actions on that Turn:** Grappling, Tripping, Shoving, Disarming, *Snagging Strike*, throwing an unarmed strike/punch, using *Battle Medicine*, drinking an elixir/serum, drawing an item/grenade from a belt, or manipulating tools with a free hand.
+- **Permitted Actions:** Stride, Step, Take Cover, Aim (*Sniper's Aim*), use non-hand class directives (*Lucrative Incentive*, *Analytical Assessment*, *Demoralize*), or Interact to reload the heavy weapon using both hands.
+
 ### Radiant Induction
 A weapon with this trait has no magazine or internal cartridge. It draws power wirelessly from an active municipal or Airship radiant dynamo.
 - **Unlimited Ammo:** As long as you remain within an active radiant broadcast field (Tier 1 or Tier 2), ammunition is unlimited.
@@ -103,6 +109,12 @@ Holds a sealed biochemical cartridge containing **X** shots. Firing individual s
 - **Small Cartridge:** **Reload 1** (1 Action)
 - **Medium Cartridge:** **Reload 2** (2 Actions)
 - **Large Cartridge:** **Reload 3** (3 Actions / Full Turn)
+
+#### Shield & Off-Hand Reload Penalty (+1 Action)
+Because replacing a chemical cartridge demands precision two-handed manipulation (unsealing pressurized valves, aligning contact prongs, and locking the casing), wielding a shield in your off-hand creates physical interference:
+- **+1 Reload Action with a Shield:** **Wielding any shield adds +1 Interact Action to any cartridge reload** (e.g., reloading a Small Cartridge pistol with a shield strapped to your arm requires **2 Actions** instead of 1).
+- **Unequipping Alternative:** A character can avoid this ongoing +1 action penalty only if they spend an action to unequip/drop the shield, perform the standard reload with unburdened hands, and spend an action to re-equip the shield.
+- **Tactical Impact:** Gun-and-shield combatants (like Breacher Soldiers) lean heavily on high-capacity rotary cylinders (6 to 9 shots) or slide clips (15 pulses) to finish the firefight before ever having to cycle a fresh cell mid-combat.
 
 #### Poor-Quality Cartridge Weapons (20% Reload Overheat / Burnout)
 Standard Spire-grade energy weapons do not suffer random misfires. However, **poor-quality cartridge weapons** (battlefield salvage, cheap Warrens knockoffs, worn militia surplus, or Orc-captured rifles) often show up on the battlefield:
