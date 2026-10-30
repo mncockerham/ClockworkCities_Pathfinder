@@ -101,6 +101,17 @@
   3. **Cartridge Shelf-Life, Frontier Boomtown Resupply & Spire Siege Attrition:** Flat DC 5 check for firing >90-day-old scavenged cartridges; resupply/charging availability in **"Tombstone"-style frontier mining towns** before entering the unpowered Orc warband wilds; and the 4-dial GM Spire Siege Attrition tracker (Munitions, Rations, Grid Stability, Warrens Disease) when Orc warbands or rival kingdoms besiege/blockade a Spire.
   4. **2D Sea & Zone Naval Combat, Piracy & Blockade Running:** Unified 2D naval rules for both surface ships and Zone airships—covering **1650–1730 Golden Age of Piracy** broadsides and grapple-boarding, **Crown-funded privateers (*Letters of Marque*)** using false-flag merchant deception, and **blockade-running** procedures when arriving at a Spire under sudden naval/aerial blockade.
 
+### H. Campaign Structure, Surface Environs & Downtime Scope
+- **References:** [`ClockworkPathfinder/Rules/NewAvalon.md`](file:///c:/Users/mncoc/OneDrive/Documents/Git/ClockworkCities_Pathfinder/ClockworkPathfinder/Rules/NewAvalon.md), [`ClockworkPathfinder/Rules/creaturecodex.md`](file:///c:/Users/mncoc/OneDrive/Documents/Git/ClockworkCities_Pathfinder/ClockworkPathfinder/Rules/creaturecodex.md)
+- **Open Tasks & Working Principles:**
+  1. **Downtime Scope (Fulfilling Guild & House Responsibilities):**
+     - For current design and upcoming one-shots, **downtime is treated primarily as time spent fulfilling ongoing guild, house, or military responsibilities** (delivering shift work, maintaining workshops, tending institutional patron relationships, and resting off wound thresholds) to justify ongoing Permanent Wealth and monthly spending allowances.
+     - *Future Campaign Expansion:* If playtesting moves beyond one-shots into a full, multi-arc campaign, evaluate whether formalizing complex PF2e-style downtime systems (deep crafting trees, research phases, business management) is genuinely beneficial (Priority 1) or unnecessary bookkeeping.
+  2. **The Immediate Surface Environs ("The Shadow of the Spire"):**
+     - Map the 50-mile perimeter outside the Outer Wall: drainage sumps/slags, satellite mining camps (Neithercrete limestone & coal), fortified timber hamlets, and the transition boundaries where King's Guard authority drops off and surface raider/Orc territory begins.
+  3. **Faction Flashpoints & Cold Wars:**
+     - Detail 2 to 3 active flashpoints inside New Avalon for instant GM adventure hooks (e.g., University battery-charging extortion vs. Great Noble Houses, Wall Merchant trade disputes vs. surface foundry guilds, and Ward 13 Warren syndicate turf wars).
+
 ---
 
 ## 4. Playtest Scenarios to Design & Run
