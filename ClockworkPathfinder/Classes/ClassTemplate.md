@@ -52,6 +52,7 @@
 |---|---|---|---|---|
 | 1 | Hit Points | `[Book p.###]` | **Unchanged** | [e.g., 10 + Con modifier] |
 | 1 | Initial Proficiencies | `[Book p.###]` | **Modified** | [List weapon/armor/skill adjustments; note firearms/combustion restrictions] |
+| 1 | Starting Social Skills (`Understanding`) & Social Advancement | `[Skills.md]` | **New** | **Total Starting Pool (Trained):** `2 Automatic + [1–4] Class Base + CHA Modifier` (min 1 selectable).<br>• **2 Automatic Broad Entries:** [Pick 2 from the class's core Victorian/Steampunk sphere].<br>• **Selectable Starting Broad Groups:** [List allowed Broad Groups from the 7 Victorian/Steampunk spheres].<br>• **Narrow Aspect Choice:** Player chooses specificity tier (**Broad Only** `+0`, **Singular Sub-Group** `+1`, **Specific Place** `+2`, or **Specific Person** `+3`).<br>• **Social Advancement Track (Separate from Skill Increases):** [Tier 1–4 schedule (`13 / 10 / 6 / 5` advancements across Lv 1–20); spend each to add a new Broad Social Skill at Trained OR deepen an existing entry through **Expert $\rightarrow$ Master $\rightarrow$ Legendary** per class gates]. |
 | 1 | Key Attribute | `[Book p.###]` | **Unchanged** | [e.g., Strength or Dexterity] |
 | 1 | [Unique Class Feature] | `[Book p.###]` | **Modified** | [Adaptation to setting constraints] |
 | 1 | [Caster / Tech Feature] | `[Book p.###]` | **Replaced** | [Device calibration / Concoction stabilization per `AISummary/10_Magic.md`] |

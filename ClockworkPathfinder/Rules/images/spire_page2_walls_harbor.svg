@@ -1,0 +1,322 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 1080" width="100%" height="100%" font-family="'Segoe UI', system-ui, -apple-system, sans-serif">
+  <defs>
+    <!-- Blueprint subtle grid -->
+    <pattern id="grid-minor-2" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#1e293b" stroke-width="0.6"/>
+    </pattern>
+    <pattern id="grid-major-2" width="100" height="100" patternUnits="userSpaceOnUse">
+      <rect width="100" height="100" fill="url(#grid-minor-2)"/>
+      <path d="M 100 0 L 0 0 0 100" fill="none" stroke="#334155" stroke-width="1.1"/>
+    </pattern>
+    <!-- Hatching for underground earth -->
+    <pattern id="earth-hatch" width="12" height="12" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <line x1="0" y1="0" x2="0" y2="12" stroke="#475569" stroke-width="2"/>
+    </pattern>
+    <!-- Markers -->
+    <marker id="arrow2" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#38bdf8"/>
+    </marker>
+    <marker id="arrow2-amber" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#fbbf24"/>
+    </marker>
+    <marker id="arrow2-emerald" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#34d399"/>
+    </marker>
+  </defs>
+
+  <!-- Background & Outer Blueprint Border -->
+  <rect width="1400" height="1080" rx="12" fill="#0f172a"/>
+  <rect x="16" y="16" width="1368" height="1048" rx="8" fill="url(#grid-major-2)" stroke="#475569" stroke-width="2"/>
+
+  <!-- Header Banner -->
+  <rect x="16" y="16" width="1368" height="64" rx="8" fill="#1e293b" stroke="#475569" stroke-width="1.5"/>
+  <text x="36" y="45" fill="#f8fafc" font-size="20" font-weight="700" letter-spacing="1">NEW AVALON — ARCHITECTURAL SCHEMATIC II: CONCENTRIC WALLS, SEA HARBOR &amp; WARDS 1–2</text>
+  <text x="36" y="67" fill="#94a3b8" font-size="13">Kingdom of Arclean • Merged Canonical Blueprint (Replaces v0.4 Page 22 Hand-Drawn Schematic) • 9-Mile Outer Ring, 1/2-Mile Sea Corridor &amp; Wall Engineering</text>
+  <text x="1360" y="52" fill="#38bdf8" font-size="13" font-weight="600" text-anchor="end">SHEET 02 / 02</text>
+
+  <!-- ===================================================================== -->
+  <!-- SECTION D (TOP): OVERHEAD CONCENTRIC DEFENSE MAP & SEA HARBOR         -->
+  <!-- ===================================================================== -->
+  <g transform="translate(30, 94)">
+    <rect x="0" y="0" width="1340" height="445" rx="6" fill="#0f172a" fill-opacity="0.86" stroke="#334155" stroke-width="1.5"/>
+    <text x="20" y="28" fill="#38bdf8" font-size="15" font-weight="700" letter-spacing="0.5">D. OVERHEAD PLAN VIEW: CONCENTRIC RINGS, 50 SQ MILE FIELDS &amp; FORTIFIED SEA HARBOR</text>
+    <text x="20" y="47" fill="#94a3b8" font-size="12">Strict Spire weapon/armor bans are unenforced in the 50 sq mi Fields Ring (workers carry axes/pistols) and completely unenforced beyond the Outer Wall</text>
+
+    <!-- Concentric Circles Center at (410, 250) -->
+    <!-- 1. OUTER WALL RING (9 Miles Diameter / ~30 Miles Circumference) -->
+    <circle cx="410" cy="250" r="175" fill="#064e3b" fill-opacity="0.28" stroke="#fbbf24" stroke-width="4"/>
+    <!-- Perimeter Arms Bunkers ticks along inside of Outer Wall -->
+    <circle cx="410" cy="250" r="168" fill="none" stroke="#34d399" stroke-width="1.5" stroke-dasharray="4,14"/>
+
+    <!-- 2. INNER WALL RING (150 ft Tall, 50 ft Gap around 3-Mile Spire Base) -->
+    <circle cx="410" cy="250" r="95" fill="#1e293b" stroke="#60a5fa" stroke-width="3.5"/>
+
+    <!-- 3. SPIRE BASE (3 Miles Diameter) -->
+    <circle cx="410" cy="250" r="80" fill="#334155" stroke="#f8fafc" stroke-width="2.5"/>
+
+    <!-- 4. MID-SPIRE TAPER (2 Miles Diameter) -->
+    <circle cx="410" cy="250" r="53" fill="#475569" stroke="#cbd5e1" stroke-width="1.5" stroke-dasharray="5,3"/>
+
+    <!-- 5. SUMMIT PLATEAU (1 Mile Diameter at 14,000 ft) -->
+    <circle cx="410" cy="250" r="27" fill="#0c4a6e" stroke="#38bdf8" stroke-width="2"/>
+    <text x="410" y="246" fill="#e0f2fe" font-size="12" font-weight="800" text-anchor="middle">SPIRE</text>
+    <text x="410" y="261" fill="#7dd3fc" font-size="12" font-weight="700" text-anchor="middle">1m Top</text>
+
+    <!-- Ring Dimension Labels inside Circles -->
+    <text x="410" y="208" fill="#f8fafc" font-size="12" font-weight="700" text-anchor="middle">2m Mid-Spire</text>
+    <text x="410" y="182" fill="#fde68a" font-size="12" font-weight="700" text-anchor="middle">3m Base Footprint</text>
+
+    <!-- Agricultural Fields & Surface Industry Label in the 50 sq mi ring -->
+    <text x="410" y="114" fill="#6ee7b7" font-size="13" font-weight="700" text-anchor="middle">50 SQ MILES: AGRICULTURAL FIELDS &amp; HEAVY INDUSTRY</text>
+    <text x="410" y="131" fill="#a7f3d0" font-size="12" text-anchor="middle">(Crops, Livestock, Blast Foundries, Tanneries • Workers Carry Axes/Pistols)</text>
+
+    <!-- Left Dimension Callouts for 9m Outer Wall & 3m Spire -->
+    <line x1="210" y1="75" x2="210" y2="425" stroke="#fbbf24" stroke-width="1.8" marker-start="url(#arrow2-amber)" marker-end="url(#arrow2-amber)"/>
+    <rect x="30" y="218" width="170" height="62" rx="4" fill="#1e293b" stroke="#fbbf24" stroke-width="1.5"/>
+    <text x="115" y="240" fill="#fef3c7" font-size="13" font-weight="700" text-anchor="middle">9 MILES DIAMETER</text>
+    <text x="115" y="257" fill="#fde68a" font-size="12" text-anchor="middle">~30 Mi Circumference</text>
+    <text x="115" y="272" fill="#94a3b8" font-size="12" text-anchor="middle">Outer Fortified Wall</text>
+
+    <!-- GATES ON RINGS -->
+    <!-- Inner Gate (South) -->
+    <rect x="394" y="338" width="32" height="14" rx="2" fill="#1d4ed8" stroke="#93c5fd" stroke-width="1.5"/>
+    <text x="410" y="368" fill="#93c5fd" font-size="12" font-weight="700" text-anchor="middle">INNER GATE (150-ft Wall)</text>
+
+    <!-- Outer Gate (South) -->
+    <rect x="394" y="418" width="32" height="14" rx="2" fill="#78350f" stroke="#fbbf24" stroke-width="1.5"/>
+    <text x="410" y="408" fill="#fde68a" font-size="12" font-weight="700" text-anchor="middle">OUTER GATE + ARMS BUNKERS</text>
+
+    <!-- FORTIFIED 1/2-MILE SEA CORRIDOR (EAST FROM OUTER WALL TO HARBOR) -->
+    <!-- Wall Gate at Outer Wall East (x=585, y=250) -->
+    <rect x="576" y="222" width="18" height="56" rx="2" fill="#78350f" stroke="#fbbf24" stroke-width="2"/>
+    <text x="585" y="212" fill="#fef3c7" font-size="12" font-weight="700" text-anchor="middle">WALL GATE</text>
+
+    <!-- Twin 100-ft Dock Walls (1/2 Mile Long Corridor from x=594 to x=790) -->
+    <rect x="594" y="226" width="196" height="10" fill="#475569" stroke="#f8fafc" stroke-width="1.5"/>
+    <rect x="594" y="264" width="196" height="10" fill="#475569" stroke="#f8fafc" stroke-width="1.5"/>
+    <rect x="594" y="236" width="196" height="28" fill="#1e293b"/>
+    <text x="692" y="254" fill="#38bdf8" font-size="12" font-weight="700" text-anchor="middle">1/2-MILE CORRIDOR (100-FT WALLS)</text>
+
+    <!-- Dimension Arrow for 1/2 Mile Corridor -->
+    <line x1="594" y1="300" x2="790" y2="300" stroke="#38bdf8" stroke-width="1.5" marker-start="url(#arrow2)" marker-end="url(#arrow2)"/>
+    <text x="692" y="318" fill="#7dd3fc" font-size="12" font-weight="600" text-anchor="middle">1/2 MILE FORTIFIED PASSAGE</text>
+
+    <!-- Sea Gate at Harbor Entrance (x=790, y=250) -->
+    <rect x="790" y="220" width="18" height="60" rx="2" fill="#0c4a6e" stroke="#38bdf8" stroke-width="2"/>
+    <text x="799" y="210" fill="#e0f2fe" font-size="12" font-weight="700" text-anchor="middle">SEA GATE</text>
+
+    <!-- THE HARBOR (4 Square Miles) & THE SEA (x=808 to 1315) -->
+    <!-- Ocean Water Backdrop -->
+    <rect x="808" y="75" width="507" height="350" rx="6" fill="#082f49" fill-opacity="0.7" stroke="#0284c7" stroke-width="1.5"/>
+    <!-- Harbor Breakwater Arms enclosing 4 sq miles -->
+    <path d="M 808 145 L 985 145 L 1020 195" fill="none" stroke="#94a3b8" stroke-width="10" stroke-linecap="round"/>
+    <path d="M 808 355 L 985 355 L 1020 305" fill="none" stroke="#94a3b8" stroke-width="10" stroke-linecap="round"/>
+    <!-- Docks / Jetties inside Harbor -->
+    <rect x="810" y="175" width="75" height="12" fill="#64748b"/>
+    <rect x="810" y="205" width="85" height="12" fill="#64748b"/>
+    <rect x="810" y="285" width="85" height="12" fill="#64748b"/>
+    <rect x="810" y="315" width="75" height="12" fill="#64748b"/>
+
+    <text x="915" y="246" fill="#e0f2fe" font-size="15" font-weight="800" text-anchor="middle">THE HARBOR</text>
+    <text x="915" y="266" fill="#7dd3fc" font-size="12" font-weight="600" text-anchor="middle">(4 Square Miles • Dry Docks)</text>
+    <text x="915" y="283" fill="#bae6fd" font-size="12" text-anchor="middle">Ward 1 Dockers / Ward 2 Marines</text>
+
+    <text x="1165" y="235" fill="#38bdf8" font-size="20" font-weight="800" letter-spacing="2" text-anchor="middle">THE SEA</text>
+    <text x="1165" y="260" fill="#7dd3fc" font-size="12" text-anchor="middle">Maritime Trade Routes &amp; Naval Patrols</text>
+  </g>
+
+  <!-- ===================================================================== -->
+  <!-- SECTION E (BOTTOM-LEFT): FORTIFIED WALL ENGINEERING CROSS-SECTIONS    -->
+  <!-- ===================================================================== -->
+  <g transform="translate(30, 555)">
+    <rect x="0" y="0" width="645" height="490" rx="6" fill="#0f172a" fill-opacity="0.88" stroke="#fbbf24" stroke-width="1.6"/>
+    <text x="20" y="28" fill="#fbbf24" font-size="15" font-weight="700" letter-spacing="0.5">E. WALL ENGINEERING CROSS-SECTIONS (OUTER, DOCK &amp; INNER)</text>
+    <text x="20" y="47" fill="#94a3b8" font-size="12">Reinforced Neithercrete &amp; stone ramparts with internal bomb-proof galleries and Arms Bunkers</text>
+
+    <!-- 1. OUTER WALL PROFILE (Left: x=25..225) -->
+    <g transform="translate(25, 68)">
+      <rect x="0" y="0" width="195" height="400" rx="4" fill="#1e293b" fill-opacity="0.6" stroke="#475569" stroke-width="1"/>
+      <text x="97" y="22" fill="#fef3c7" font-size="13" font-weight="700" text-anchor="middle">1. OUTER WALL</text>
+      <text x="97" y="39" fill="#94a3b8" font-size="12" text-anchor="middle">(30-Mile Perimeter)</text>
+
+      <!-- Ground line at y=320 -->
+      <line x1="12" y1="320" x2="183" y2="320" stroke="#34d399" stroke-width="2"/>
+
+      <!-- Trapezoid Wall: 50 ft tall (y=140 to y=320), Base=50-60 ft (x=45..150), Top=10 ft (x=65..105) -->
+      <polygon points="65,140 105,140 150,320 45,320" fill="#475569" stroke="#f8fafc" stroke-width="2"/>
+      <!-- Internal Arched Gallery & Arrow Slit at 43 ft (y=165) -->
+      <rect x="73" y="160" width="22" height="36" rx="10" fill="#0f172a" stroke="#fbbf24" stroke-width="1.5"/>
+      <!-- Arrow slit line at 43 ft -->
+      <line x1="95" y1="168" x2="115" y2="168" stroke="#ef4444" stroke-width="2.5"/>
+      <text x="97" y="118" fill="#38bdf8" font-size="12" font-weight="700" text-anchor="middle">Top: 10 ft Wide</text>
+      <line x1="65" y1="128" x2="105" y2="128" stroke="#38bdf8" stroke-width="1.5"/>
+
+      <!-- Arrow Slit at 43 ft Callout -->
+      <text x="102" y="92" fill="#fca5a5" font-size="12" font-weight="700" text-anchor="middle">Arrow Slit at 43 ft</text>
+      <line x1="115" y1="98" x2="115" y2="165" stroke="#f87171" stroke-width="1.2" stroke-dasharray="3,2"/>
+
+      <!-- Height Callout: 50 ft -->
+      <line x1="28" y1="140" x2="28" y2="320" stroke="#fbbf24" stroke-width="1.5" marker-start="url(#arrow2-amber)" marker-end="url(#arrow2-amber)"/>
+      <text x="22" y="230" fill="#fbbf24" font-size="12" font-weight="700" text-anchor="middle" transform="rotate(-90, 22, 230)">50 FEET TALL</text>
+
+      <!-- Small Perimeter Arms Bunker at interior base -->
+      <rect x="48" y="286" width="38" height="34" fill="#1e3a8a" stroke="#60a5fa" stroke-width="1.5"/>
+      <text x="67" y="307" fill="#dbeafe" font-size="12" font-weight="600" text-anchor="middle">Bunker</text>
+
+      <!-- Base Width: 50 to 60 ft -->
+      <line x1="45" y1="340" x2="150" y2="340" stroke="#38bdf8" stroke-width="1.5" marker-start="url(#arrow2)" marker-end="url(#arrow2)"/>
+      <text x="97" y="360" fill="#38bdf8" font-size="12" font-weight="700" text-anchor="middle">Base: 50 to 60 ft</text>
+      <text x="97" y="380" fill="#cbd5e1" font-size="12" text-anchor="middle">Perimeter Arms Bunkers</text>
+    </g>
+
+    <!-- 2. DOCK CORRIDOR WALL PROFILE (Center: x=230..415) -->
+    <g transform="translate(230, 68)">
+      <rect x="0" y="0" width="185" height="400" rx="4" fill="#1e293b" fill-opacity="0.6" stroke="#475569" stroke-width="1"/>
+      <text x="92" y="22" fill="#e0f2fe" font-size="13" font-weight="700" text-anchor="middle">2. DOCK WALL</text>
+      <text x="92" y="39" fill="#94a3b8" font-size="12" text-anchor="middle">(1/2-Mile Sea Corridor)</text>
+
+      <!-- Ground line at y=320 -->
+      <line x1="12" y1="320" x2="173" y2="320" stroke="#38bdf8" stroke-width="2"/>
+
+      <!-- Rectangular Wall: 100 ft tall (y=80 to y=320), 30 ft wide (x=62..126) -->
+      <rect x="62" y="80" width="64" height="240" fill="#475569" stroke="#f8fafc" stroke-width="2"/>
+
+      <!-- 4 Tiers of Internal Arched Galleries (matching page 22 sketch!) -->
+      <rect x="78" y="96" width="32" height="42" rx="14" fill="#0f172a" stroke="#38bdf8" stroke-width="1.5"/>
+      <rect x="78" y="152" width="32" height="42" rx="14" fill="#0f172a" stroke="#38bdf8" stroke-width="1.5"/>
+      <rect x="78" y="208" width="32" height="42" rx="14" fill="#0f172a" stroke="#38bdf8" stroke-width="1.5"/>
+      <rect x="78" y="264" width="32" height="42" rx="14" fill="#0f172a" stroke="#38bdf8" stroke-width="1.5"/>
+
+      <!-- Height Callout: 100 ft -->
+      <line x1="36" y1="80" x2="36" y2="320" stroke="#fbbf24" stroke-width="1.5" marker-start="url(#arrow2-amber)" marker-end="url(#arrow2-amber)"/>
+      <text x="26" y="200" fill="#fbbf24" font-size="12" font-weight="700" text-anchor="middle" transform="rotate(-90, 26, 200)">100 FEET TALL</text>
+
+      <!-- Base Width: 30 ft -->
+      <line x1="62" y1="340" x2="126" y2="340" stroke="#38bdf8" stroke-width="1.5" marker-start="url(#arrow2)" marker-end="url(#arrow2)"/>
+      <text x="94" y="360" fill="#38bdf8" font-size="12" font-weight="700" text-anchor="middle">Width: 30 ft</text>
+      <text x="94" y="380" fill="#cbd5e1" font-size="12" text-anchor="middle">4 Arched Gallery Tiers</text>
+    </g>
+
+    <!-- 3. INNER WALL & GATE BASTION SUMMARY (Right: x=425..620) -->
+    <g transform="translate(425, 68)">
+      <rect x="0" y="0" width="195" height="400" rx="4" fill="#1e293b" fill-opacity="0.6" stroke="#475569" stroke-width="1"/>
+      <text x="97" y="22" fill="#93c5fd" font-size="13" font-weight="700" text-anchor="middle">3. INNER WALL</text>
+      <text x="97" y="39" fill="#94a3b8" font-size="12" text-anchor="middle">(50 Ramps to Ward 2)</text>
+
+      <!-- Ground line at y=320 -->
+      <line x1="12" y1="320" x2="183" y2="320" stroke="#34d399" stroke-width="2"/>
+
+      <!-- Inner Wall: 150 ft tall (y=65 to y=320), Base=75 ft (x=50..130) -->
+      <polygon points="62,65 118,65 130,320 50,320" fill="#334155" stroke="#60a5fa" stroke-width="2"/>
+      <!-- 125-ft Gate Bastion & 8-foot Bar callout -->
+      <rect x="68" y="110" width="44" height="210" fill="#1e293b" stroke="#fbbf24" stroke-width="1.5"/>
+      <line x1="65" y1="215" x2="115" y2="215" stroke="#fbbf24" stroke-width="3"/>
+      <text x="90" y="198" fill="#fde68a" font-size="12" font-weight="700" text-anchor="middle">8-ft Gate Bar</text>
+      <text x="90" y="150" fill="#cbd5e1" font-size="12" text-anchor="middle">125-ft</text>
+      <text x="90" y="165" fill="#cbd5e1" font-size="12" text-anchor="middle">Bastion</text>
+
+      <!-- Height Callout: 150 ft -->
+      <line x1="28" y1="65" x2="28" y2="320" stroke="#fbbf24" stroke-width="1.5" marker-start="url(#arrow2-amber)" marker-end="url(#arrow2-amber)"/>
+      <text x="20" y="192" fill="#fbbf24" font-size="12" font-weight="700" text-anchor="middle" transform="rotate(-90, 20, 192)">150 FEET TALL</text>
+
+      <!-- Base Width: 75 ft -->
+      <line x1="50" y1="340" x2="130" y2="340" stroke="#38bdf8" stroke-width="1.5" marker-start="url(#arrow2)" marker-end="url(#arrow2)"/>
+      <text x="97" y="360" fill="#38bdf8" font-size="12" font-weight="700" text-anchor="middle">Base: 75 ft Wide</text>
+      <text x="97" y="380" fill="#cbd5e1" font-size="12" text-anchor="middle">50-ft Gap to Spire Base</text>
+    </g>
+  </g>
+
+  <!-- ===================================================================== -->
+  <!-- SECTION F (BOTTOM-RIGHT): LOWER SPIRE CUTAWAY (WARDS 1 & 2 + RAMPS)   -->
+  <!-- ===================================================================== -->
+  <g transform="translate(690, 555)">
+    <rect x="0" y="0" width="680" height="490" rx="6" fill="#0f172a" fill-opacity="0.88" stroke="#60a5fa" stroke-width="1.8"/>
+    <text x="20" y="28" fill="#60a5fa" font-size="15" font-weight="700" letter-spacing="0.5">F. LOWER SPIRE CUTAWAY: WARDS 1 &amp; 2 AND INNER WALL CONNECTION</text>
+    <text x="20" y="47" fill="#94a3b8" font-size="12">50 fortified Ramps/Bridges span the 50-ft moat from the 150-ft Inner Wall directly into Ward 2 (Soldier Ward)</text>
+
+    <!-- GROUND SURFACE LEVEL LINE (y=360) -->
+    <!-- Underground Earth Hatching below y=360 -->
+    <rect x="20" y="360" width="640" height="110" fill="url(#earth-hatch)" stroke="#475569" stroke-width="1"/>
+    <line x1="20" y1="360" x2="660" y2="360" stroke="#34d399" stroke-width="2.5"/>
+    <text x="30" y="352" fill="#6ee7b7" font-size="12" font-weight="700">GROUND LEVEL (FIELDS)</text>
+
+    <!-- 1. INNER WALL ON LEFT (x=95..170, y=210..360 -> 150 ft tall, 75 ft base) -->
+    <polygon points="105,210 160,210 170,360 95,360" fill="#334155" stroke="#60a5fa" stroke-width="2"/>
+    <text x="132" y="280" fill="#f8fafc" font-size="12" font-weight="700" text-anchor="middle" transform="rotate(-90, 132, 280)">INNER WALL (150 FT)</text>
+    <text x="132" y="378" fill="#38bdf8" font-size="12" font-weight="700" text-anchor="middle">75 ft Base</text>
+
+    <!-- 2. 50-FOOT GAP / MOAT BETWEEN INNER WALL AND SPIRE (x=170..255) -->
+    <line x1="170" y1="335" x2="255" y2="335" stroke="#fbbf24" stroke-width="1.5" marker-start="url(#arrow2-amber)" marker-end="url(#arrow2-amber)"/>
+    <text x="212" y="327" fill="#fde68a" font-size="12" font-weight="700" text-anchor="middle">50-ft Gap</text>
+
+    <!-- 3. 50 FORTIFIED RAMPS / SUSPENSION BRIDGES AT y=210..224 SPANNING INTO WARD 2 LOW CIRCLE -->
+    <rect x="160" y="206" width="95" height="16" fill="#78350f" stroke="#fbbf24" stroke-width="2"/>
+    <text x="207" y="198" fill="#fef3c7" font-size="12" font-weight="700" text-anchor="middle">50 RAMPS / BRIDGES</text>
+
+    <!-- 4. SPIRE LOWER HULL STACK (x=255..650) -->
+    <!-- WARD 2: UPPER SOLDIER WARD (200 ft tall: y=65..145) -->
+    <g transform="translate(255, 65)">
+      <rect x="0" y="0" width="395" height="80" fill="#172554" stroke="#60a5fa" stroke-width="2"/>
+      <!-- First Exterior Windows on left wall of Upper Soldier Ward! -->
+      <rect x="-4" y="12" width="10" height="22" fill="#38bdf8" stroke="#e0f2fe" stroke-width="1"/>
+      <rect x="-4" y="44" width="10" height="22" fill="#38bdf8" stroke="#e0f2fe" stroke-width="1"/>
+      <text x="-12" y="32" fill="#7dd3fc" font-size="12" font-weight="700" text-anchor="end">First Windows</text>
+      <text x="-12" y="47" fill="#94a3b8" font-size="12" text-anchor="end">(500+ ft Elev.)</text>
+
+      <text x="16" y="22" fill="#dbeafe" font-size="13" font-weight="700">WARD 2 • UPPER SOLDIER WARD (200 FT TALL)</text>
+      <text x="16" y="42" fill="#93c5fd" font-size="12">• Heavy Artillery Storage &amp; Siege Magazines ("300 feet uppers")</text>
+      <text x="16" y="60" fill="#bfdbfe" font-size="12">• First reinforced exterior observation windows (500+ ft above surface)</text>
+      <text x="380" y="22" fill="#fbbf24" font-size="12" font-weight="700" text-anchor="end">200 ft</text>
+    </g>
+
+    <!-- WARD 2: MID SOLDIER WARD (100 ft tall: y=145..192) -->
+    <g transform="translate(255, 145)">
+      <rect x="0" y="0" width="395" height="47" fill="#1e3a8a" stroke="#60a5fa" stroke-width="1.8"/>
+      <text x="16" y="20" fill="#dbeafe" font-size="13" font-weight="700">WARD 2 • MID SOLDIER WARD (100 FT TALL)</text>
+      <text x="16" y="37" fill="#bfdbfe" font-size="12">Crown regiment barracks, drill halls, muster yards &amp; tactical command</text>
+      <text x="380" y="20" fill="#fbbf24" font-size="12" font-weight="700" text-anchor="end">100 ft</text>
+    </g>
+
+    <!-- WARD 2: LOWER SOLDIER WARD (100 ft tall: y=192..240) — RECEIVES THE 50 RAMPS! -->
+    <g transform="translate(255, 192)">
+      <rect x="0" y="0" width="395" height="48" fill="#1d4ed8" fill-opacity="0.75" stroke="#93c5fd" stroke-width="2"/>
+      <text x="16" y="20" fill="#eff6ff" font-size="13" font-weight="700">WARD 2 • LOWER SOLDIER WARD (100 FT TALL)</text>
+      <text x="16" y="38" fill="#dbeafe" font-size="12">Bridgeheads for 50 Inner Wall Ramps • Largest Expeditionary Arms Bunkers</text>
+      <text x="380" y="20" fill="#fef3c7" font-size="12" font-weight="700" text-anchor="end">100 ft</text>
+    </g>
+
+    <!-- WARD 1: UPPER LABOR WARD (75-100 ft tall: y=240..298) -->
+    <g transform="translate(255, 240)">
+      <rect x="0" y="0" width="395" height="58" fill="#334155" stroke="#94a3b8" stroke-width="1.8"/>
+      <text x="16" y="22" fill="#f8fafc" font-size="13" font-weight="700">WARD 1 • UPPER LABOR WARD (75–100 FT TALL)</text>
+      <text x="16" y="42" fill="#cbd5e1" font-size="12">Teamster dormitories, tool depots &amp; Peasant Path Lower Terminus lifts</text>
+      <text x="380" y="22" fill="#38bdf8" font-size="12" font-weight="700" text-anchor="end">75–100 ft</text>
+    </g>
+
+    <!-- WARD 1: MID LABOR WARD (75-100 ft tall: y=298..360 — SURFACE LEVEL) -->
+    <g transform="translate(255, 298)">
+      <rect x="0" y="0" width="395" height="62" fill="#1e293b" stroke="#cbd5e1" stroke-width="2"/>
+      <!-- Surface Blast Gate opening left into the 50-ft moat/fields -->
+      <rect x="-5" y="24" width="10" height="36" fill="#fbbf24"/>
+      <text x="16" y="22" fill="#f8fafc" font-size="13" font-weight="700">WARD 1 • MID LABOR WARD (75–100 FT • GROUND LEVEL)</text>
+      <text x="16" y="42" fill="#cbd5e1" font-size="12">Reinforced Surface Blast Gates to Agricultural Fields &amp; Sea Port Corridor</text>
+      <text x="380" y="22" fill="#38bdf8" font-size="12" font-weight="700" text-anchor="end">75–100 ft</text>
+    </g>
+
+    <!-- WARD 1: LOWER LABOR WARD (75-100 ft tall: y=360..425 — UNDERGROUND) -->
+    <g transform="translate(255, 360)">
+      <rect x="0" y="0" width="395" height="65" fill="#0f172a" stroke="#fbbf24" stroke-width="2" stroke-dasharray="6,3"/>
+      <text x="16" y="24" fill="#fef3c7" font-size="13" font-weight="700">WARD 1 • LOWER LABOR WARD (75–100 FT • UNDERGROUND)</text>
+      <text x="16" y="44" fill="#fde68a" font-size="12">Sub-surface bulk storage, root cellars, cisterns &amp; heavy freight vaults</text>
+      <text x="380" y="24" fill="#fbbf24" font-size="12" font-weight="700" text-anchor="end">75–100 ft</text>
+    </g>
+
+    <!-- THE WARRENS BELOW LOWER LABOR WARD (y=425..470) -->
+    <g transform="translate(255, 425)">
+      <rect x="0" y="0" width="395" height="45" fill="#18181b" stroke="#ef4444" stroke-width="1.5" stroke-dasharray="4,3"/>
+      <text x="16" y="20" fill="#fca5a5" font-size="12" font-weight="700">DEEP SUBTERRANEAN • THE WARRENS &amp; ANCIENT SUMPS</text>
+      <text x="16" y="36" fill="#a1a1aa" font-size="12">Geothermal Exchange Pipes, flooded pre-Wilheart ruins &amp; hidden smuggler sea caves</text>
+    </g>
+  </g>
+</svg>
+

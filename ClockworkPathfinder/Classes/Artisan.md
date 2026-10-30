@@ -59,6 +59,12 @@
 - **Skills:** Trained in Crafting, your Trade Lore, plus 4 + Intelligence modifier additional skills. Gains a Skill Increase and a Skill Feat at **every level** (2nd through 20th), reflecting specialized trade development.
 - **Attacks:** Trained in simple weapons, martial hammers, axes, flails, picks, and knives/daggers (the primary tools of tradecraft). Improves to Expert at 5th level, Master at 17th level.
 - **Defenses:** Trained in light and medium armor, and unarmored defense. Improves to Expert at 13th level.
+- **Starting Social Skills (`Understanding`) & Social Advancement:**
+  - **Total Starting Pool (Trained):** `2 Automatic + 3 Class Base + CHA Modifier` (min 1 selectable; see [`Skills.md`](file:///c:/Users/mncoc/OneDrive/Documents/Git/ClockworkCities_Pathfinder/ClockworkPathfinder/Rules/Skills.md)).
+  - **2 Automatic Broad Entries:** Choose 2 from **Trade Guilds & Commercial Houses** (*Artisans, Builders & Neithercrete Masons*, *Gunsmiths, Armorers & Ballistic Guilds*, or *Clockwork Machinists & Gearwrights Guild*).
+  - **Selectable Starting Broad Groups:** Choose your `3 + CHA Mod` entries from **Trade Guilds & Commercial Houses**, **Labor Organizations** (*Foundrymen, Millhands & Boilermakers*, *Subterranean Miners, Sappers & Sump Crews*, *Spire Transit & Lift Riggers*), **Bureaucracy & University Connections** (*Municipal & Crown Bureaucracy*, *Zone & Radiant Grid Authorities*), or **Nobility & High Society** (*High-Society Salons & Patronage*, *Wall Merchant Dynasties*).
+  - **Narrow Aspect Choice (Scope vs. Impact):** For each Broad Skill chosen, select its specificity tier: **1) Broad Only** (`+0`, widest reach across the Spire), **2) Singular Sub-Group** (`+1`, specific trade guild/union branch), **3) Specific Place** (`+2`, single ward/foundry/guildhall), or **4) Specific Person** (`+3` & auto-Phase 1 intel on one named individual).
+  - **Tier 2 Social Advancement Track (Separate from Skill Increases):** Gain **10 Social Advancements** across Levels 1–20 (**every even level: `2, 4, 6, 8, 10, 12, 14, 16, 18, 20`**). Spend each to **add a new Broad Social Skill (Trained)** OR **deepen an existing entry's Proficiency Tier** (**Expert** at Lv 3+, **Master** at Lv 7+, **Legendary** at Lv 15+; max 2 Legendary entries). May swap up to **3** entries per level-up.
 
 ---
 

@@ -11,8 +11,97 @@
 The world of Clockwork Cities is a setting defined by atmospheric stratification, environmental pressure, and rigid institutional hierarchy:
 - **Atmospheric Reality:** The world's surface is submerged in a corrupting, toxic, sun-obscuring miasma known as the **Neither**. Above the Neither lies the turbulent, lightning-wracked **Zone** (which powers wireless radiant lamps, airships, and city grids), and above that sits the pristine, uncorrupted air of the **Aither**.
 - **The Spire as Fortress:** To escape the deadly Neither fog, the vast majority of civilization (~87%) lives inside gargantuan megalithic spires constructed from **Neithercrete** (a stone-like substance that functions perfectly within the Neither but degrades under direct Aither sunlight). 
-- **The Capital Spire (New Avalon):** The center of the Kingdom of Arclean, New Avalon stands ~14,000 feet tall and 3 miles wide at its base, capped by the royal palace and food gardens in the clean Aither. Stacked inside are 15 municipal wards, peripheral specialized districts (Sky Docks, University, Noble Ward, Royal Spire), subterranean **Warrens**, and the deeply corrupted, ancient **Tombs**.
+- **The Capital Spire (New Avalon — Mainland Scotland at Present-Day Edinburgh):** The center of the Kingdom of Arclean, New Avalon stands ~14,000 feet tall and 3 miles wide at its base (with a 9-mile-wide Outer Wall ring), located on the eastern coast of **mainland Scotland at present-day Edinburgh** (commanding the Firth of Forth and the North Sea via its `1/2-mile` fortified Sea Corridor, while opening directly onto the mainland frontier so travelers can ride out into the shires, Tombstone-style Highland mining towns, and Orc warband territories). **New Avalon is one of—if not the—largest and safest Spires in the world**; smaller Spires, hamlets, and frontier outposts across the kingdom face far greater daily peril.
+- **Geography of the Kingdom of Arclean & The Icelandic Elven Trade:** **Arclean is one of the dominant kingdoms in the world, ranking in the Top 5 globally in both technology and size.** Enforcing the setting's **$\ge 50$-mile Spire separation rule**, King Macelus Wilheart controls **9 Spires** forming a cohesive North Sea empire across **Eastern Scotland** (*New Avalon/Edinburgh*, *Aberdeen*), **surrounding Scottish islands (*Orkney*, excluding the Shetland Islands)**, **eastern parts of Northern England down to Spires around *Newcastle*, *York*, *Lincoln*, and *Norwich***, and **two Continental Spires across the North Sea where *The Hague* and *Rotterdam* stand in the present-day Netherlands** (a rare $<50$-mile Twin-Spire exception, ~15 miles apart). This northern maritime position also makes Arclean **one of the ideal kingdoms in the world for trading with the High Elves of Iceland**.
 - **Social Philosophy:** **Status is greater than the individual.** In Arclean, personal worth is measured by *who you represent*—your Noble House, Trade Guild, University Collegium, or Merchant Cartel. Individuals without institutional backing are viewed with suspicion and possess minimal legal standing.
+
+---
+
+### The Political Map: Arclean, Neighboring Kingdoms & The Known World
+
+![Geopolitical Map of Arclean, Feydial & Derdore (Spire Placement & ≥50-Mile Rule)](images/arclean_isles_map.svg)
+
+#### 1. The Three Powers of the British Isles, Channel & North Sea ($\ge 50$-Mile Spire Separation Rule)
+Except for rare, high-density exceptions like the twin Dutch ports of **The Hague and Rotterdam** (~15 miles apart), **Spires are always separated by 50 or more miles** of agricultural shires, frontier boomtowns, or open wilderness. The British Isles and adjacent Channel/North Sea coasts are divided among three rival kingdoms that **function socially nearly identically to one another**:
+
+| Kingdom | Spire Count ($\ge 50$-mi Rule) | Territory & Real-World Spire Locations | Scale & Geopolitical Character |
+|---|:---:|---|---|
+| **Arclean** | **9 Spires** | • **Capital (`New Avalon`):** **Mainland Eastern Scotland at present-day Edinburgh**.<br>• **Eastern Scotland & Isles:** *Aberdeen Spire* (~95 mi NE), *Orkney Spire* (~130 mi N; **excluding the Shetlands**).<br>• **NE & Eastern England:** *Newcastle Spire* (~90 mi SE), *York Spire* (~80 mi S), *Lincoln Spire* (~60 mi SE), *Norwich Spire* (~95 mi SE).<br>• **2 Continental Spires (Netherlands):** *The Hague* & *Rotterdam* (rare $<50$-mi Twin-Spire exception across the North Sea). | **Top-5 global power in both technology and size.** Massive, densely populated mega-spires forming a cohesive North Sea empire; premier maritime/aerial gateway for **trade with the Icelandic Elves**. |
+| **Feydial** | **7 Spires** | • **Ireland (4):** *Dublin Spire* (Cap.), *Belfast Spire* (~90 mi N), *Galway Spire* (~115 mi W), *Cork Spire* (~105 mi S).<br>• **Irish Sea (1):** *Isle of Man Spire* (~80 mi E).<br>• **Wales (2):** *Caernarfon Spire* (N. Wales), *Cardiff Spire* (~110 mi S in S. Wales). | Commands 7 full-scale, heavily populated mega-spires comparable in stature to Arclean's, spaced 65–115 miles apart; functions socially nearly identically to Arclean. |
+| **Derdore** | **11 Spires** | • **Rest of England (8):** *London Spire* (Cap.), *Mersey Spire*, *Derby Spire*, *Birmingham Spire*, *Bristol Spire*, *Plymouth Spire*, *Portsmouth Spire*, *Dover Spire* (spaced 55–100 mi apart).<br>• **Northern Coast of France (~50 mi inland) (3):** *Calais Spire*, *Rouen Spire*, *Cherbourg Spire* (spaced 75–95 mi apart). | Holds **11 Spires** (more numerous than Arclean or Feydial, though **Derdore's Spires are much smaller and less populated**—still true mega-cities, just smaller in footprint and population); functions socially nearly identically to Arclean. |
+
+- **Tense Cold War, Covert Fighting & Recent Border Wars:** Relations between **Arclean**, **Feydial**, and **Derdore** are **tense**. While all-out total war is not currently active, **covert fighting, espionage, privateering, and ruthless political maneuvering** are constant, and **open military conflicts to determine actual territorial borders have been fought within the last few years**.
+- **Two-Layer Sovereignty — Air Borders vs. Radiating Surface Control:**
+  - **Overlapping Claims & Non-Aligning Borders:** Overlapping territorial claims on both land and air are common, and **realities on the ground do not align with the borders drawn in the air**.
+  - **The Kingdoms Control the Air (And Draw the Borders):** On royal maps, in Privy Council chambers, and up in the **Zone and Aither**, the Spire kingdoms control the skies, patrol the aerial trade lanes with war-dirigibles, and formally define where one kingdom's border ends and another's begins.
+  - **Radiating Settlements From Each Spire (Hours $\rightarrow$ Days):** Down on the surface **beneath the Zone**, settlements **radiate outward from each Spire**. The closest settlements (**hours** of walking or riding from the Outer Wall) are the most tightly controlled and patrolled; as travel distance shifts from **hours to days**, Spire authority steadily diminishes into **frontier lands** and **areas completely outside the control of the Spires**.
+  - **What Lies Beyond Spire Control (Warbands, Free Folk, Dwarven Exits & Ancient Ruins):** While **Orc Warbands** do hold dedicated territories (such as the northern part of Scotland and the eastern Land of the Warbands) and roam the wilds, the unaligned surface lands between and beyond Spires are a diverse frontier mosaic:
+    1. **Orcish Warbands** holding tribal territories or roaming between Spire spheres of influence;
+    2. **Communities of Free People** who live outside the Spires and **refuse to swear loyalty to the King**;
+    3. **Dwarven Mines with Surface Exits** emerging in seemingly abandoned or remote areas; and
+    4. **Remnants of Older Spires and Ancient Dwarven Strongholds**, which often hold forgotten **history and rare, unplundered materials** (`Niracrest`, `Mitheral`, and pre-collapse relics) waiting to be discovered.
+
+#### 2. Mainland Europe: Areas of Control, Vital Coastal Waters & The Free States
+
+![European Macro-Control Zones, Vital Coastal Waters, Free States & Unclaimed Territories](images/europe_control_zones_map.svg)
+
+Across the European continent, geopolitical control is shaped by maritime trade lanes, altitude, and the limits of Spire power projection (without fixing specific Spire names or exact kingdom borders on the continent at this stage):
+
+1. **Vital Coastal Waters (Claimed Everywhere Except the Far North):**
+   - Because maritime shipping and coastal approaches are the lifeblood of Spire trade, **coastal waters are vital strategic assets**. Nearly every stretch of European coastline and adjacent sea lane (the North Sea, Irish Sea, English Channel, southern Baltic, Atlantic coast, and northern Mediterranean) is **actively claimed and patrolled by a kingdom**—with the sole exception of the **Far North**, where open waters remain unclaimed.
+2. **The Far North — The Free States (Norway, Sweden & Finland):**
+   - The northern reaches across **Norway, Sweden, and Finland** are designated as the **Free States**.
+   - Rather than answering to a single unified crown, **most Spires in the Free States are independent city-states**—though at any given time **1 or 2 Spires may be captured or subjugated** by a rival Free State or neighboring power, with ownership **constantly changing hands** in shifting northern alliances and sieges.
+   - High in the **mountain peaks of Norway**, small **Elvish colonies** also dwell in the pure Aither above the Zone.
+3. **Expanding Unclaimed Territory (Increasing as You Head West):**
+   - Outside the vital coastal belts and the central kingdom heartlands, Europe contains a **substantial amount of completely Unclaimed Territory—and the proportion of unclaimed land increases dramatically as one heads West** (across the interior of France, Brittany, the western Uplands, and vast stretches of the Iberian peninsula, as well as the western Highland/Atlantic fringes of the Isles).
+   - In these unclaimed expanses, no kingdom even pretends to hold sovereign jurisdiction; they are open frontier badlands of roaming Orcish warbands, outlaw settlements, and independent mining boomtowns.
+4. **Going South — Higher Elevations & The Barcelona Limit:**
+   - Because the Neither layer deepens and rises in altitude toward the equator, **going south requires Spires to be built progressively taller and sited on higher mountain elevations** (the Alps, Pyrenees, and northern Apennines) to pierce the Zone into the clean Aither. **The southernmost Spire in Europe lies just south of present-day Barcelona**; south of that line, the Neither is too deep to breach.
+5. **Roster of Named European Kingdoms (Locations Unfixed Beyond the Isles):**
+   - Beyond the three fixed Isle/Channel powers (**Arclean**, **Feydial**, and **Derdore**), the major European powers—whose exact continental borders and Spire locations are intentionally left unfixed for flexible campaign placement—include:
+     - **Relocore** *(the largest known continental military and standing army)*
+     - **High Bremen** *(major mercantile and clockwork-industrial kingdom)*
+     - **Malichor** *(formidable continental kingdom and naval/aerial power)*
+     - **Valdris** *(maritime kingdom claiming vital coastal waters and shipping lanes)*
+     - **Korsova** *(eastern marches kingdom bordering the Land of the Warbands)*
+     - **Aurelia** *(western kingdom holding coastal strips bordering the vast western unclaimed interior)*
+     - **Monteverde** *(high-elevation southern mountain kingdom of towering peak-spires)*
+     - **Sylvania** *(central continental heartland kingdom)*
+     - **The Free States / Free Cities** *(the shifting independent Spires of the Far North)*
+
+#### 3. Beyond Europe: The Land of the Warbands, The Far East & The Americas
+- **East of Europe — The Land of the Warbands:** East of the European Spire kingdoms and Finland lies the vast **Land of the Warbands**, dominated by roaming Orc hordes and savage tribal coalitions that reject Spire law.
+- **Rumored Far-Eastern Spires:** Despite the barrier of the Warbands, **persistent rumors and exotic trade goods** trickling westward make it clear that **farther East (in Asia) some form of civilization with its own Great Spires still exists**—though there is currently **no direct communication** between the European Spires and the East.
+- **The Americas — The Unacknowledged Mystery:** The **Elves and Half-Elves have never officially acknowledged it**, but from **what has slipped in guarded conversations and been glimpsed at the edges of northern/oceanic routes, some sort of civilization still exists in the Americas**—though even less is known about it than the distant eastern lands.
+
+---
+
+### The Dual World: Victorian London Spires vs. The Wild West & Savage Frontier
+
+While the Great Spires are modeled on **circa-1860 Victorian London**—vertical metropolises of gas-lit salons, rigid class etiquette, guild monopolies, and constabulary patrols—**the surface world outside the Spires is modeled on the American Wild West and the untamed frontier**. Moving away from a Spire is literally and culturally **"going West"** into progressively less populated, less civilized, and more lethal lands:
+
+| Frontier Zone & Distance from the Spire | Historical / Cultural Model | Environment, Settlements & Law |
+|---|---|---|
+| **1. The Great Spires**<br>*(Specifically **New Avalon**)* | **Victorian London (c. 1860)** | The major eastern cities. Rigid social classes, unarmed municipal corridors, Privy Council statutes, and wireless radiant grids. **New Avalon is the largest and safest Spire in existence**; other Spires are smaller, more isolated, and carry far more risk. |
+| **2. Radiating Shires & Outer Fields**<br>*(Hours of Walking / Riding)* | **Settled Homesteads & Cattle Trails** | Settlements radiate outward from each Spire; those within **hours** of the gates are the most tightly controlled—noble-leased agricultural combines, walled hamlets, and guarded caravan roads. Workers carry axes and sidearms openly; Crown law is enforced by outriders and local bailiffs. |
+| **3. The Frontier & Mining Towns**<br>*(Days of Walking / Riding)* | **Tombstone, Deadwood & Boomtowns** | As travel shifts from **hours to days**, Spire control fades rapidly into frontier lands: semi-lawless mining camps, deep-shaft company towns, and fortified trading posts where disputes are settled by frontier marshals, hired guns, merchant-house pinkertons, or six-shooters and pulse-rifles in saloon streets. |
+| **4. Outside Spire Control — The Unaligned Wilds**<br>*(Days to Weeks Beyond)* | **The Alaskan Wilderness — Inhabited, Unaligned & Ancient** | Areas completely outside Spire control do not align with air borders. They include **Orc Warband territories** (like northern Scotland), **communities of free people who refuse to swear loyalty to the King**, **Dwarven mine surface exits** in seemingly abandoned areas, and the **remnants of older Spires and ancient Dwarven strongholds** holding forgotten history and rare materials (`Niracrest`, `Mitheral`, Era-1/Era-4 relics) yet to be plundered. |
+
+#### "The Good Times" vs. "The Bad Times" (Frontier Raids & Spire Sieges)
+- **The Good Times (Cold Frontier Equilibrium):** During periods of relative peace ("the good times"), the danger waits out on the frontier. Spire citizens stay inside their walls, while caravans, prospectors, scouts, and Tombstone-style mining towns contend with roaming bands of Orcs, claim-jumpers, and savage tribes when venturing away from the cities.
+- **The Bad Times (Invasions & Spire Sieges):** During "the bad times," those roaming Orc warbands, savage coalitions, and bandit armies **push inward and attack the settled frontier**, burning hamlets, overrunning Tombstone mining towns, cutting trade roads, and **even laying direct siege to the Spires themselves** (seeking to starve a Spire's food and military cartridge reserves until its defenses fail). While massive New Avalon is virtually impregnable, smaller and more distant Spires face the very real terror of siege, breach, and destruction.
+
+#### The Sea & The Zone: From 1860s Patrolled Lanes to the Golden Age of Piracy (1650–1730)
+Maritime shipping on the surface waters and aerial shipping through the cloud-seas of the **Zone** follow a parallel spectrum across an even wider historical span:
+- **Near the Spires & Major Patrolled Trade Routes (Circa 1860s Naval Order):**
+  - Within sight of the Great Spires (where Zone-powered **Great Arc Cannons** command the sky and coast) and along heavily patrolled Royal Navy / Sky Fleet trade lanes, vessels face the threats and regulations of the **1860s Victorian maritime era**: customs cutters, quarantine inspections, naval blockades, tariff smugglers, and regulated merchant convoys.
+- **Out of Sight of the Spires & Patrol Lanes (The Golden Age of Piracy, 1650–1730):**
+  - The moment a sea vessel or Zone airship sails out of sight of the Spires and off the major patrolled trade routes, the world shifts back into the **Golden Age of Piracy (1650–1730)**—amplified by the fact that Zone airships float on a single 2D buoyancy plane where broadsides, grappling hooks, and cutlass boarding actions rule combat:
+    - **Freebooters & Pirate Havens:** Uncharted island coves, hidden Zone-cloud anchorages, and rogue ports shelter outright pirate fleets that prey on isolated merchantmen.
+    - **Letters of Marque & Crown-Funded Privateers:** **Rival kingdoms actively fund and commission privateers** (issuing formal or deniable *Letters of Marque*) who operate right alongside legitimate merchants—flying lawful mercantile or neutral flags near port, then running up privateer colors in open water or deep Zone cloud-banks to seize rival kingdoms' cargo, bullion, and weapon-cartridge shipments for a share of the prize court.
+- **Sudden Inter-Kingdom Warfare & Spire Blockades:**
+  - Because long-distance communication is limited to physical couriers and vessels, geopolitical realities across the sea and the Zone can shift without warning. **Militaries from different kingdoms periodically erupt into open warfare**, and an expeditionary or merchant crew arriving after days or weeks of travel may **suddenly find that the Spire they were hoping to trade with is under a full military and naval/aerial blockade**—enforced either by **their own kingdom's armada** or by **a rival foreign kingdom's war-fleet** attempting to starve the Spire's food and military cartridge reserves into submission. Crew and merchants must then choose on the spot whether to turn back, negotiate with the blockading fleet, or attempt a perilous blockade run.
 
 ---
 
@@ -332,17 +421,23 @@ Bribery in Arclean is not a rare, covert anomaly; it is a semi-institutionalized
 
 ---
 
-## 6. The Hierarchy of Social Favors (Soft Social Currency)
+## 6. Obligations (Forced Behavior via Societal Pressure & Soft Social Currency)
 
-In the intrigue-heavy society of the Spires, informal relationships, debts of honor, and factional obligations serve as an unofficial currency to cut through red tape, bypass magistrates, or acquire restricted intelligence:
+While **Social Skills (`Understanding`)** are permanent, long-term roleplay aids representing **who you know and what you know about** (allowing players to build out a detailed world and differentiate their character from other PCs), **Obligations** are **limited-use markers of forced behavior driven by societal pressure** (see [`ClockworkPathfinder/Rules/Skills.md`](file:///c:/Users/mncoc/OneDrive/Documents/Git/ClockworkCities_Pathfinder/ClockworkPathfinder/Rules/Skills.md)):
 
-| Favor Tier | Narrative Commitment | Standard Application & Limits | Legal / Discovery Risk |
+- **No Affection or Dice Roll Needed:** An NPC bound by an Obligation **may not like you at all, requires no dice roll to compel, and may deeply resent what you force them to do**. They comply because in a society where *"Worth = who you represent"*, publicly defaulting on a recognized debt or obligation brings ruin upon their family name, guild standing, and personal honor.
+  - *Bribery vs. Obligation Example (`Constable Johnathan Treible`):*
+    - **With a Social Skill (`Understanding: Law Enforcement [13th Ward Constables]`):** Your knowledge of the 13th Ward precinct tells you that Constable **Johnathan Treible** accepts bribes to let people travel into the Warrens off-book, and that you should slip the coin to him framed as a *"donation to the Constable Fire-Rescue Team."*
+    - **With an `Obligation` (`Johnathan Treible`):* *"Johnathan Treible owes me big—he will smuggle us into the Warrens off-book, and it won't cost a thing."*
+- **Consumption & Step-Down:** Calling in an Obligation at its maximum held tier discharges it completely; calling it in 1 tier below steps the Obligation down by 1 tier; calling it in 2+ tiers below functions as a sustained weekly courtesy without reducing the tier.
+
+| Obligation Tier | Level Name *(Legacy Alias)* | What You Can Force Them to Do | Legal / Personal Risk to the NPC |
 |:---:|---|---|---|
-| **Friend** | Low / Casual | Willing to provide common gossip, unseal low-level municipal records, or offer a safe night's lodging. | None. Standard social courtesy. |
-| **Boon** | Moderate | Willing to perform legal actions that do **not** violate their own self-interest or career prospects (e.g., granting an audience, expediting a travel permit). | None. Remains entirely within routine administrative discretion. |
-| **Debt** | Serious | Willing to perform legal actions that **carry personal, financial, or career risk** (e.g., a finance clerk "misplacing" an audit file, or a dock foreman overlooking a mislabeled cargo crate). | Moderate. If caught, the contact may face reprimand, fine, or demotion. |
-| **Obligation** | Severe | Willing to **break the law** on your behalf within reason (e.g., burglary, assault, physical intimidation, destroying physical evidence). | High. Contact risks imprisonment or penal mining if the conspiracy is exposed. |
-| **Life Debt** | Absolute | Honor-bound to die on your behalf, harbor high-treason fugitives, or assassinate a designated target if demanded. | Extreme. Discovery results in public execution and total loss of family standing. |
+| **Tier 1** | **Trivial** *(Friend)* | Minor courtesies, common gossip, unsealing low-level records, or setting up an entry-level meeting with a clerk. | None. Standard social courtesy. |
+| **Tier 2** | **Favor** *(Boon)* | Legal actions that do **not** violate their career or self-interest (granting an audience, fast-tracking a permit, non-public records). | None. Routine administrative discretion. |
+| **Tier 3** | **Debt** | Serious financial, legal, or career-risking actions (loaning funds without collateral, "misplacing" an audit file, overlooking a cargo crate). | Moderate. Contact risks reprimand, fine, or demotion if caught. |
+| **Tier 4** | **Risk** *(Obligation)* | Willing to **break the law** or face substantial danger (smuggling past an armed checkpoint, forging Spire passes, destroying evidence). | High. Contact risks imprisonment, job loss, or penal mining if exposed. |
+| **Tier 5** | **Life Debt** | The NPC owes you their life, their child's life, or salvation from utter ruin; compelled to **willingly risk death** or extreme peril to repay the debt. | Extreme. Discovery can mean public execution or total loss of family standing. |
 
 ### Redeeming Favors: Opportunity Actions vs. Downtime Preparation
 Favors in Arclean are not rigid administrative activities; they are dynamic **Opportunity Actions**:

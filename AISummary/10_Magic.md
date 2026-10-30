@@ -42,7 +42,7 @@ Technology that **functions in the Neither**, commonly called *clockwork technol
 NeitherTeck and Clockwork equipment draw upon ambient atmospheric resonance, radically altering combat balance depending on location:
 1. **Tier 1: High-Power Radiant Zone (Spires & ~50 ft of Generators):** Spires piercing the Zone and areas **within ~50 feet of an active generator** broadcast saturated radiant power. **Artisans & Scholars dominate** with high-drain heavy grid weapons (full damage/range). In high-society wards where military NeitherTeck is banned, **Dandies and Pugilists** dominate.
 2. **Tier 2: Moderate Radiant Field (Airships & 1×–5× Generator Distance):** On military airships or within **5 times the high-power radius (~250 ft from an outpost generator)**, energy density drops. Grid weapons remain operational with unlimited ammo, but run at reduced baseline power. Beyond 5× distance, induction fails.
-3. **Tier 3: The Wild / Deep Outlands (Zero Radiant Power):** Outside generator perimeters, all devices require sealed, un-rechargeable cartridges. Once cartridges deplete, devices go inert; **Martials (Soldiers, Brutes, Scouts) dominate** with steel, bows, and athletics.
+3. **Tier 3: The Wild / Deep Outlands (Zero Radiant Power):** Outside generator perimeters, all devices require sealed, un-rechargeable cartridges. Once cartridges deplete, devices go inert; **Martials (Soldiers, Pugilists, Scouts) dominate** with steel, bows, and athletics.
 
 ### Activation Points (AP) System & Operational Complexity
 NeitherTeck and Clockwork devices are complex, delicate systems requiring constant round-to-round cognitive adjustments and tuning; any failure or exceeding of capacity causes them to cease functioning immediately. The total NeitherTeck gear a character can operate in a single turn equals their **Activation Point (AP) score**:
@@ -57,7 +57,7 @@ $$\text{AP per Round} = \text{INT Modifier} + \text{Class Base AP} + \text{Level
   - **Tier 3 (Technical Masters):** **+2 Base AP**; scales **+1 AP at levels 4, 8, 12, 16, 20**. *Scholar, Artisan, Clockwork Engineer.*
   - **Tier 2 (Technical Specialists):** **+1 Base AP**; scales **+1 AP at levels 5, 10, 15, 20**. *Inspector, Clockwork Rifleman* (reduces ranged NeitherTeck weapon AP cost by –1 at 1st, –2 at 6th, –3 at 12th, –4 at 18th level; min 1), *Chirurgeon, Mad Bomber* (personal class features and concoctions cost 0 AP).
   - **Tier 1 (Tactical Operatives):** **+0 Base AP**; scales **+1 AP at levels 6, 12, 18**. *Officer, Sky Captain, Survivor, Scout.*
-  - **Tier 0 (Dedicated Martials):** **+0 Base AP**; scales **+1 AP at levels 10, 20**. *Soldier, Brute, Pugilist, Dandy.*
+  - **Tier 0 (Dedicated Martials):** **+0 Base AP**; scales **+1 AP at levels 10, 20**. *Soldier, Pugilist, Dandy* (note: *Brute* is consolidated into *Soldier* & *Pugilist* via the *Savage Combatant* feat chain at Levels 2, 4, 8).
   - **Influence Category:** **+1 Base AP**; scales **+1 AP at levels 6, 12, 18**. *Merchant.*
 - **Tactical Math, Firing Cadence & Head-to-Head Martial Dominance:** 
   - Martials achieve **1 shot per turn** from levels 1–9, scaling to **2 shots at level 10+** with tagged weapons.
@@ -114,7 +114,7 @@ Biomedical and chemical preparations synthesized from specialized Neither fungi 
 - **Dual-System Economy Replaces Attunement:** Traditional supernatural magic item advancement and PF2e/5e item investment/attunement limits are permanently replaced by a clean two-part system:
   1. **Passive Loadout Capacity (Defensive & Environmental Gear):** Governs continuous protective equipment (breathing units, hazard filtration suits, ballistic linothorax, powered exoskeletons). Calculated from three distinct class archetype tracks:
      $$\text{Capacity} = \text{Key Attribute Mod} + \lfloor \tfrac{\text{Level}}{2} \rfloor + 4$$
-     - *Track A (Martial/Frontline):* Best of **STR or CON** (*Soldier, Brute, Pugilist, Officer*).
+     - *Track A (Martial/Frontline):* Best of **STR or CON** (*Soldier, Pugilist, Officer*).
      - *Track B (Agile/Operative):* Best of **DEX or CON** (*Clockwork Rifleman, Scout, Survivor, Inspector, Dandy*).
      - *Track C (Technical/Scholastic):* Best of **INT, STR, or CON** (*Scholar, Artisan, Clockwork Engineer, Chirurgeon, Mad Bomber, Merchant*).
      - *Armor Weight Modifiers:* Unarmored (–2 loadout cost), Light (–1 loadout cost), Medium (+0), Heavy (+2 loadout cost). Allows low-strength characters to comfortably equip protective gear while keeping armor class choices impactful.
@@ -123,15 +123,15 @@ Biomedical and chemical preparations synthesized from specialized Neither fungi 
      Spent on Strike actions and Reactions. Base weapons cost 3–5 AP. Discipline tags (`[Military]`, `[Technical]`, etc.) reduce cost by **–1 AP** (or more on bespoke gear).
 - **PC Power Targets & Firing Cadence:**
   - **Martial Classes (Tier 0/1):** Base AP +0. Achieve **1 shot per round** from Levels 1–9 with tagged weapons. Scale to **2 shots per round around Level 10+** (matching high martial weapon proficiency).
-  - **Technical Classes (Tier 2/3):** Base AP +1 to +2. Achieve **2 shots per round at Level 4** and **3 shots per round at Level 8**, but operate under standard **Multi-Attack Penalty (MAP: –0/–5/–10)** and lower weapon proficiencies, maintaining tight parity with martials while representing rapid technological output.
-  - **Weapon Tier Escalation:** Higher-powered fundamental runes increase operational drain (+1 AP for Tier 1 Striking, +2 AP for Tier 2 Greater Striking, +3 AP for Tier 3 Major Striking), ensuring high-damage strikes consume significant turn-budget.
+  - **Technical Classes (Tier 2/3):** Base AP +1 to +2. Achieve **2 shots per round at Level 1–4+** and **3 shots per round at Level 8+** with tagged weapons, operating under standard **Multi-Attack Penalty (MAP: –0/–5/–10)** and lower weapon proficiencies, while Dedicated Martials dominate head-to-head fights through 35–60% higher HP, higher AC + Shields (stripping away `Fatal` crits), `+2` Weapon Mastery, and combat feats.
+  - **Weapon Tier Escalation (Waived by Matching Tags):** Untagged fundamental runes increase operational drain (+1 AP for Tier 1 Striking, +2 AP for Tier 2 Greater Striking, +3 AP for Tier 3 Major Striking), whereas **wielding a weapon with a matching Discipline Tag (or *Singular Neither Efficiency*) waives this enhancement tier AP tax**.
 - **Store Availability & The Level 12 Retail Ceiling:**
   - Spire commerce mirrors Victorian class and geography: Slum/Warrens stalls carry crude scrap (Levels 1–4, up to ~35 Nobels); Guild Municipal factorums supply standard military/service gear (Levels 5–8, 100–500 Nobels); High Spire noble armories supply masterwork `+2 Greater Striking` and `+2 Resilient` gear (Levels 9–12, 1,000–2,100 Nobels).
   - **Level 12 is the absolute hard ceiling for store retail.**
   - **Levels 13–20 (Heroic Custom Relics):** Sold completely outside the store system. Requires **Level 6+ Abyssal leviathan carapaces, pristine pre-collapse Era 1 cores, celestial sky-iron, and legendary guild artisans**. These cannot be bought at a corner shop with gold; they must be earned via deep-zone expeditions, royal patronage, or bespoke multi-session crafting quests.
 - **Restoring Classic DM Agency via Bespoke Gear:** 
   The combination of Discipline Tags and out-of-store bespoke items gives the GM a surgical tool to bolster underperforming or thematic characters. Dropping a custom relic tailored with a struggling player's tag or reduced AP/passive costs boosts their impact directly without triggering an arms race among power-gamers.
-- **NeitherTeck Weapons Absolute Dependency:** NeitherTeck weapons possess **no mundane backup functionality**. If outside a radiant grid (>5× generator distance), out of cartridges, or in pure Aither, **the weapon is completely dead and inert**. This hard failure threshold makes traditional martial classes (**Soldier**, **Brute**, **Scout**, **Pugilist**) indispensable, as they master conventional steel, bows, crossbows, and unarmed combat when high-tech gear fails.
+- **NeitherTeck Weapons Absolute Dependency:** NeitherTeck weapons possess **no mundane backup functionality**. If outside a radiant grid (>5× generator distance), out of cartridges, or in pure Aither, **the weapon is completely dead and inert**. This hard failure threshold makes traditional martial classes (**Soldier**, **Pugilist**, **Scout**) indispensable, as they master conventional steel, bows, crossbows, and unarmed combat when high-tech gear fails.
 
 ## Open Questions & System Alignments
 - **Environmental Behavior (Resolved):** Neither-tech operates at 100% in Neither, 50% damage/duration in the Zone, and is completely inoperable in Aither. Biochemical catalysts explode on direct Neither contact and melt in Aither.

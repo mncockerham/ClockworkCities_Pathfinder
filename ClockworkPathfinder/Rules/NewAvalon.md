@@ -2,7 +2,7 @@
 
 - **Topic:** Structural Engineering, Vertical Transit, Ward Breakdown, Districts, and Subterranean Warrens
 - **Status:** **Authoritative Reference & Setting Lore**
-- **Authoritative Reference:** `AISummary/WorldSummary.md` (Section 10: New Avalon), `ClockworkPathfinder/Rules/WorldAndLaw.md`
+- **Authoritative Reference:** `AISummary/WorldSummary.md` (Section 10: New Avalon), `ClockworkPathfinder/Rules/WorldAndLaw.md`, and architectural schematics in [`ClockworkPathfinder/Rules/images/SpireSchematics.html`](file:///c:/Users/mncoc/OneDrive/Documents/Git/ClockworkCities_Pathfinder/ClockworkPathfinder/Rules/images/SpireSchematics.html) (modernized vector replacement for legacy [`spire.pdf`](file:///c:/Users/mncoc/OneDrive/Documents/Git/ClockworkCities_Pathfinder/ClockworkPathfinder/Rules/images/spire.pdf): [`spire_page1_elevation.svg`](file:///c:/Users/mncoc/OneDrive/Documents/Git/ClockworkCities_Pathfinder/ClockworkPathfinder/Rules/images/spire_page1_elevation.svg) & [`spire_page2_walls_harbor.svg`](file:///c:/Users/mncoc/OneDrive/Documents/Git/ClockworkCities_Pathfinder/ClockworkPathfinder/Rules/images/spire_page2_walls_harbor.svg))
 
 ---
 
@@ -10,6 +10,18 @@
 
 **New Avalon** is the capital of the Kingdom of Arclean and one of the largest, most formidable megalithic cities in the known world:
 
+- **Real-World Geographic Location (Mainland Scotland — Present-Day Edinburgh) & Strategic Trade Position:**
+  - **Global Superpower Status:** The Kingdom of Arclean is **one of the dominant kingdoms in the world, ranking in the Top 5 globally in both technology and size**.
+  - **New Avalon at Present-Day Edinburgh (Mainland Eastern Scotland):** **New Avalon is built on the eastern coast of mainland Scotland at present-day Edinburgh** (commanding the Firth of Forth and the North Sea). This location gives New Avalon both its **`1/2-mile` fortified corridor to a 4-square-mile Sea Port** on the North Sea *and* **direct overland gates opening into the mainland frontier**—allowing caravans, outriders, and adventuring parties to ride directly out of the Outer Wall into settled shires, Tombstone-style Highland mining towns, and the wild lands of roaming Orc warbands, while giving full strategic purpose to New Avalon's 30-mile Outer Wall and 150-foot Inner Wall.
+  - **The Kingdom of Arclean's Footprint (9 Spires under the $\ge 50$-Mile Separation Rule — A Cohesive North Sea Empire):** Except for rare exceptions like the twin Dutch ports of **The Hague and Rotterdam** (~15 miles apart), **Spires are always separated by at least 50 miles** (see geopolitical map in [`ClockworkPathfinder/Rules/images/arclean_isles_map.svg`](file:///c:/Users/mncoc/OneDrive/Documents/Git/ClockworkCities_Pathfinder/ClockworkPathfinder/Rules/images/arclean_isles_map.svg)). From New Avalon, King Macelus Wilheart controls **9 Spires** and territories spanning:
+    - **Eastern Scotland & Isles (3):** *New Avalon* (Edinburgh), *Aberdeen Spire* (~95 mi NE), and *Orkney Spire* (~130 mi N; ***not* including the Shetland Islands**),
+    - **Eastern parts of Northern England down to East Anglia (4):** *Newcastle Spire* (~90 mi SE), *York Spire* (~80 mi S), *Lincoln Spire* (~60 mi SE), and *Norwich Spire* (~95 mi SE), and
+    - **Two Continental Spires across the North Sea in the present-day Netherlands (2):** *The Hague* and *Rotterdam* (the rare $<50$-mile Twin-Spire exception).
+  - **Neighboring Rival Kingdoms on the Isles (`Feydial` & `Derdore`):**
+    - **Feydial (7 Spires):** Controls **Ireland** (*Dublin*, *Belfast*, *Galway*, *Cork*), **Wales** (*Caernarfon*, *Cardiff*), and the **Isle of Man** (7 massive Spires spaced 65–115 miles apart, comparable in scale to Arclean's).
+    - **Derdore (11 Spires):** Controls **the rest of England** (*London*, *Mersey*, *Derby*, *Birmingham*, *Bristol*, *Plymouth*, *Portsmouth*, *Dover*) and the **northern coast of France (~50 miles inland: *Calais*, *Rouen*, *Cherbourg*)**; its **11 Spires** (spaced 55–100 miles apart) are much smaller and less populated than Arclean's or Feydial's (though still true mega-cities).
+    - Both function socially nearly identically to Arclean; relations among the three powers are **tense**, marked by ongoing covert fighting, political intrigue, and recent border wars over territory.
+  - **Premier Gateway to the Icelandic Elves:** Because of its eastern Scottish and North Sea maritime/aerial geography, Arclean is **one of the ideal locations in the world to trade with the Elves of Iceland**—giving the Crown, the 25 Great Houses, and top Wall Merchants privileged access to Elven gunpowder, steel, and high-Aither trade goods.
 - **Material Architecture (Neithercrete vs. Stone & Steel):**
   - The massive body of the spire is constructed from **Neithercrete** (also known historically as *Natherium* or solidified Neither). Neithercrete is an extraordinarily tough, impact-resistant composite material that cures and thrives within the ambient miasma of the Neither.
   - However, Neithercrete **steadily deteriorates and crumbles under direct sunlight**. 
@@ -25,6 +37,8 @@
 
 Surrounding the central Neithercrete spire is an immense, multi-layered defensive and agricultural complex:
 
+![New Avalon Architectural Schematic II — Concentric Defense Ring, Sea Harbor, Wall Cross-Sections & Wards 1–2](images/spire_page2_walls_harbor.svg)
+
 ```
 [Outer Ocean Port] 
        │ (1/2-mile passage enclosed by 100-ft fortified walls)
@@ -37,23 +51,24 @@ Surrounding the central Neithercrete spire is an immense, multi-layered defensiv
 [The Megalithic Spire] ── (3 miles wide at base, 14,000 ft tall to Aither summit)
 ```
 
-- **The Outer Wall:**
-  - Nearly **30 miles long (in circumference)**, forming an imposing defensive ring that encloses approximately **50 square miles of territory**.
-  - Built of reinforced stone and Neithercrete, the wall stands **at least 50 feet tall** at its lowest point and **at least 50 feet thick**.
-  - It features integrated barracks for garrison armies, heavy mounted Zone-powered arc artillery on its parapets, and bomb-proof internal galleries sheltered from Neither surges.
-- **The Sea Port & Secured Corridor:**
-  - Located approximately **1/2 mile from the city**, the seaport encompasses about **4 square miles** of ocean water, fortified jetties, deep-water dry docks, and cargo wharves.
+- **The Outer Wall & Concentric Ring Dimensions (`[spire.pdf p.2]`):**
+  - Nearly **30 miles long in circumference** (**9 miles in total diameter** across the outer ring), forming an imposing defensive perimeter that encloses approximately **50 square miles of territory** around the **3-mile-wide base** of the Spire (which tapers to **2 miles** mid-spire and **1 mile** at the summit).
+  - Built of reinforced stone and Neithercrete, the Outer Wall stands **at least 50 feet tall** at its lowest point, with a **50-to-60-foot-thick base** tapering to a **10-foot-wide upper parapet**, internal vaulted defensive galleries, and **fortified arrow/firing slits positioned at the 43-foot elevation**.
+  - It features integrated barracks for garrison armies, heavy mounted Zone-powered arc artillery on its parapets, bomb-proof internal galleries sheltered from Neither surges, and **small Arms Bunkers** along its interior face for travelers and patrols leaving and returning to the Spire.
+- **The Sea Port & Secured Corridor (`[spire.pdf p.2]`):**
+  - Located approximately **1/2 mile from the Outer Wall**, the seaport encompasses about **4 square miles** of ocean water, fortified jetties, deep-water dry docks, and cargo wharves.
   - Sea-going trade vessels dock here to unload raw materials, ores, and island goods, and reload manufactured spire wares. Dry docks allow new ships to be constructed and aging hulls repaired.
-  - Connecting the port directly to the Spire is a **heavily secured transit corridor bordered on both sides by massive 100-foot-tall fortified walls**, continuously patrolled by Crown military regiments and naval wall-guards.
+  - Connecting the **Wall Gate** at the Outer Wall directly to the **Sea Gate** at the Harbor is a **1/2-mile-long heavily secured transit corridor bordered on both sides by massive Dock Walls (100 feet tall and 30 feet thick, with multi-tier internal arched galleries)**, continuously patrolled by Crown military regiments and naval wall-guards.
   - The port district is administratively part of **Ward 1 (Labor Ward)** where sailors, shipwrights, and dockers reside, while marine barracks and artillery bastions fall under the jurisdiction of **Ward 2 (Military Ward)**.
-- **The Agricultural Fields & Heavy Industry Ring:**
-  - The 50 square miles of open land between the outer wall and inner wall are dedicated to feeding the city’s upper classes.
+- **The Agricultural Fields & Heavy Industry Ring (Weapons & Armor Unenforced):**
+  - The 50 square miles of open land between the Outer Wall and Inner Wall are dedicated to feeding the city’s upper classes and housing heavy surface industry.
   - Grains, vegetables, and livestock (cattle, sheep, poultry) are raised here in natural sunlight to supply fresh meat, uncorrupted dairy, and clean flour for those who can afford food beyond processed Mela.
   - **Heavy Surface Industry:** Blacksmithing complexes, blast foundries, leather-tanning vat yards, and chemical rendering plants—anything that generates toxic fumes, heat, or does not function safely inside enclosed spire circles—operate out in these fields. Smaller specialty craft shops still operate within the spire.
-- **The Inner Wall:**
-  - A colossal **150-foot-tall reinforced stone rampart** immediately surrounding the spire’s base.
-  - Features heavily guarded, reinforced gates allowing farm laborers and military outriders to pass into the fields.
-  - The top parapet of the Inner Wall is physically joined to the **Low Circle of Ward 2 (Military Ward) by 50 massive fortified suspension bridges**.
+  - **Practical Self-Defense Inside the Outer Walls:** Because real danger (burrowing Neither beasts, sump breaches, or raids) can strike even within the Outer Wall, the Spire's strict interior weapon and armor bans are **usually not enforced here**—most workers openly carry a **dual-purpose axe**, and those with money carry **pistols**.
+- **The Inner Wall & Military Ramps (`[spire.pdf p.2]`):**
+  - A colossal **150-foot-tall reinforced stone rampart** (`75-foot` base thickness) immediately surrounding the spire’s base, separated from the Spire hull by a **50-foot defensive moat/gap**.
+  - Features heavily guarded, reinforced **Inner Gates** (`8-foot bar` / `125-foot` gatehouse bastions) allowing farm laborers and military outriders to pass into the fields.
+  - The top parapet of the Inner Wall is physically joined directly to the **Low Circle of Ward 2 (Military / Soldier Ward) by 50 massive fortified suspension bridges and siege ramps**.
 
 ---
 
@@ -122,35 +137,39 @@ Located deeper inside the structural mass of the spire, the Noble Path provides 
 
 ## 5. Detailed Breakdown of the 15 Municipal Wards
 
+*(Note: Each of the 15 Municipal Wards elects **1 Representative** to the **25-Member Privy / City Council**, alongside **5 King's Seats**, **3 Noble Seats**, and **2 University Collegium Seats** `[spire.pdf p.1]`).*
+
 ```
-[Aither Summit: 14,000 ft] ── Royal District & King's Palace
-                             Noble District (Estates & Manors)
+[Aither Summit: 14,000 ft] ── Royal District & King's Palace (1 mi wide summit)
+                             Noble District (Estates & Manors; Servant Ward tucked beneath overhang)
                              University Collegium
-─────────────────────────── [Sky Docks: 800 ft past Zone]
+─────────────────────────── [Sky Docks: ~800 ft past Zone — Enclaves ("No Living" for locals)]
 ═══════════════════════════ [The Zone Boundary: Lightning & Static]
-Ward 15: Spire Dock Ward      (Bottom of Zone; energy collection rods)
+Ward 15: Spire Dock Ward      (Bottom of Zone; 50-ft windowless storm hull; energy rods)
 Ward 14: Merchant Ward        (Wall Merchants, private estates, inner serf circle)
-Ward 13: Luxury Ward          (PC Base; master crafters, guild HQs, public parks)
-Ward 12: Traders Ward         (Middle merchants, warehousing, caravan offices)
+Ward 13: Luxury Ward          (PC Base; master crafters, guild HQs, exterior Fruit Tree terraces/parks)
+Ward 12: Traders Ward         (Middle merchants, warehousing, manufacturing/trade offices)
 Ward 11: Craft Ward           (Industrial foundries, textile mills, mass goods)
-Ward 10: Garden Ward          (Hydroponics, 1/3-mile outer farm shelf, Farmers Guild)
+Ward 10: Garden / Stable Ward (1/3-mile outer Grain & farm shelf, stables, Farmers Guild)
 Wards 7, 8, 9: Worker Wards   (Lower, Mid, and Upper residential worker tenements)
 Ward 6: Mid-Tier Transition   (First massive 100x50 ft exterior windows, sunlight)
 Ward 5: Upper Slums           (Pensioners, widows, orphan workhouses)
 Ward 4: Lower Slums           (The "Lost Ward"; deep poverty, constables spread thin)
-Ward 3: Food Storage Ward     (Windowless silos, fungal vats, refrigerated vents)
-Ward 2: Military Ward         (Garrisons, bridges to Inner Wall, 500-ft high slits)
+Ward 3: Food Processing Ward  (Windowless silos, fungal vats, refrigerated vents)
+Ward 2: Military/Soldier Ward (Garrisons, artillery storage, bridges to 150-ft Inner Wall)
 Ward 1: Labor Ward            (Underground low circle, portals to surface fields)
-[Ground Level / Surface Neither]
+[Ground Level / Surface Neither — 3 mi wide base, 150-ft Inner Wall, 50-ft Outer Wall]
 ```
 
-### Ward 1: The Labor Ward (Ground / Sub-Surface)
-- **Dimensions:** 3 circles, each **100 feet tall**. The Low Circle is built entirely underground into the bedrock.
-- **Atmosphere & Living Conditions:** No exterior windows exist except for massive, heavily fortified iron blast doors in the Mid Circle that open to the outer fields. Despite the lack of spire views, residents enjoy a comparatively healthy life because they possess free daily access to the outdoor fields, working farm harvests, handling stables, and managing cargo warehouses. The lowest tiers of caravan merchants maintain city quarters here.
+![New Avalon Architectural Schematic I — Stepped Spire Elevation (Wards 1–15), 25-Seat City Council & Upper Strata](images/spire_page1_elevation.svg)
 
-### Ward 2: The Military Ward
-- **Dimensions:** Low and Mid Circles are **100 feet tall** and windowless, acting as impenetrable bastion blocks. The High Circle is **200 feet tall**.
-- **Defense Features:** The Low Circle connects directly to the 150-foot Inner Wall via 50 heavily guarded suspension bridges. 
+### Ward 1: The Labor Ward (Ground / Sub-Surface)
+- **Dimensions:** 3 circles (Lower, Mid, and Upper Labor Ward, each **75 to 100 feet tall** `[spire.pdf p.2]`). The Low Circle is built into the bedrock below the surface level.
+- **Atmosphere & Living Conditions:** No exterior windows exist except for massive, heavily fortified iron blast doors in the Mid Circle that open to the outer fields and the 50-foot gap behind the Inner Wall. Despite the lack of spire views, residents enjoy a comparatively healthy life because they possess free daily access to the outdoor fields, working farm harvests, handling stables, and managing cargo warehouses. The lowest tiers of caravan merchants maintain city quarters here.
+
+### Ward 2: The Military Ward ("Soldier Ward")
+- **Dimensions:** Low and Mid Circles are **100 feet tall** and windowless, acting as impenetrable bastion blocks. The High Circle is **200 feet tall** (with **300 feet of upper bastion/artillery works** and dedicated **artillery storage** vaults `[spire.pdf p.2]`).
+- **Defense Features & Arms Bunkers:** The Low Circle connects directly to the top of the 150-foot Inner Wall via 50 heavily guarded suspension bridges and ramps. Houses the **largest Arms Bunkers in the Spire**, capable of equipping entire regiments for expeditions into the Neither and extended siege defense.
 - **The First Windows (500 Feet Up):** The High Circle features the spire's lowest exterior windows—measuring **50 feet wide by 10 feet tall**. Sitting over **500 feet above the ground**, these windows sit safely above the normal ceiling of dense Neither fog (though catastrophic Neither storms can force their heavy armored shutters closed). Filled with armories, garrison barracks, and military parade halls.
 
 ### Ward 3: The Food Processing Ward
@@ -199,21 +218,22 @@ Paying a child a single Pin (or two Pins for a long flight of stairs) is the uni
     - **Informal & Covert Pin Usage:** Pins exist within a noble estate only under strict secrecy: informally belowstairs among scullery servants trading debts with one another, or carried covertly by a noble's personal informants and spies venturing down into the lower wards and Warrens—never in any visible, official capacity.
   - **The Warrens Exemption:** None of these carry or hoard restrictions apply within the **Warrens**, where millions of Pins circulate freely beyond Crown oversight.
 
-### Ward 10: The Garden Ward
+### Ward 10: The Garden Ward (Historically "Stable Ward")
 - **Dimensions:** 3 circles, each **200 feet tall**.
-- **Agricultural Ring:** In addition to its interior circles, Ward 10 features a spectacular **1/3-mile-wide exterior terrace ring** circling the outer circumference of the spire where sun-fed grains, vegetables, and fruit orchards are grown. 
+- **Exterior Grain Shelf & Agricultural Ring (`[spire.pdf p.1]`):** Where the Spire steps inward above Ward 10, a spectacular **1/3-mile-wide exterior terrace shelf** circles the outer circumference of the spire. Open to direct sunlight, this broad step is heavily cultivated with **Grain** fields and vegetables, alongside interior livestock/draft stables (giving rise to its older working name, the *Stable Ward*).
 - **The Farmers Guild:** Headquarters of the Farmers Guild are located here. While one of the least socially prestigious guilds in Arclean, many wealthy agrarian factors prefer living in Ward 10 over Ward 13 due to the abundant sunlight and open green space. Connected by freight lift (10↔11).
 
 ### Ward 11: The Craft Ward
 - **Dimensions:** 3 circles, each **200 feet tall**.
 - **Industrial Core:** The mass-manufacturing heart of New Avalon. Filled with blacksmithing forges, clockwork assembly shops, weaving mills, and joinery workshops. Goods produced here are high-quality but mass-produced, worked by artisans who sit one tier of prestige below the master craftsmen of Ward 13.
 
-### Ward 12: The Traders Ward
+### Ward 12: The Traders Ward (Historically "Manufacturing Ward")
 - **Dimensions:** 3 circles, each **200 feet tall**.
-- **Mercantile Hub:** Upper circles are occupied by successful merchants, trade factors, and shipping brokers who lack the astronomical wealth required to purchase private compounds in the Merchant Ward (14). Filled with brokerage firms, trading exchanges, and secure lockhouses.
+- **Mercantile & Commercial Hub:** Upper circles are occupied by successful merchants, trade factors, and shipping brokers who lack the astronomical wealth required to purchase private compounds in the Merchant Ward (14). Filled with brokerage firms, light commercial manufacturing/packaging houses, trading exchanges, and secure lockhouses.
 
 ### Ward 13: The Luxury Ward (The Great Social Nexus & Player Character Base)
 - **Dimensions:** 3 circles, each **200 feet tall**. The population is only **one-quarter (~25%)** of lower worker wards due to vast private apartments, grand guild halls, and expansive estates.
+- **Exterior Fruit Tree Terraces & Public Parks (`[spire.pdf p.1]`):** Where the Spire steps inward at the top of Ward 13, wide open-air exterior terraces support lush **Fruit Tree orchards** and manicured public parks—the only public exterior parks built outside the spire walls.
 - **The Great Social Crossroads (Where the Classes Mingle):**
   - Ward 13 is the **single grand crossroads in the entire Spire where social strata converge, socialize, and negotiate**:
     - **Nobles & Greater Nobles:** It is the one place where a Lesser Noble, a High Noble, or even a scion of the **25 Great Houses** descends from the summit to dine in an exclusive public restaurant, enjoy fine theater, or take a private meal.
@@ -243,7 +263,7 @@ Paying a child a single Pin (or two Pins for a long flight of stairs) is the uni
 
 ### Ward 15: The Spire Dock Ward (The Zone Boundary)
 - **Dimensions:** 3 circles, each **200 feet tall**.
-- **The Storm Hull:** Situated at the bottom edge of the Zone. To withstand ferocious electrical squalls, **no open windows exist**. The High Circle features narrow, fortified **3-foot by 3-foot observation ports** fitted with blast-shutters.
+- **The 50-Foot Windowless Storm Hull (`[spire.pdf p.1]`):** Situated at the bottom edge of the Zone. To withstand ferocious electrical squalls, **no open windows exist** (`"No Windows"` across its **50-foot-thick reinforced exterior storm wall**). The High Circle features only narrow, fortified **3-foot by 3-foot observation ports** fitted with blast-shutters.
 - **Energy Rods:** Massive conductive copper and steel collector rods jut out from the Mid and High Circles into the cloud sea to harvest atmospheric lightning from the Zone.
 - **Unique Social Order:** Cramped, noisy, and industrial (living standards mirror Ward 6). However, Ward 15 is the **only ward in the entire Kingdom of Arclean that legally makes no distinction between Serfs and Freemen**. Furthermore, **no toll is ever charged** to move between Ward 15 and the Sea Docks, as thousands of laborers make the journey daily.
 
@@ -261,9 +281,18 @@ Burrowed deep into the interior mountain mass (**1/2 to 1 mile behind the wards*
 - **Sewage Agriculture:** Municipal runoff, industrial wash-water, and human sewage are drained across the divide into the Warrens. Using these supplies, underclass fungus farmers cultivate vast beds of **Mela** and raw mushrooms for survival.
 - **The Toll Gate:** Moving between the civilized Wards and the Warrens requires crossing guarded checkpoints and paying a steep toll of **12 Pins to 1 Labor**—a fee so exorbitant that most Warrens dwellers are permanently trapped inside.
 - **Goblinization (90% Population):** Saturated by constant ambient Neither, deprived of sunlight, and subsisting entirely on raw Neither fungi, **90% of the Warrens population has degenerated into Goblins (Type 3a/4c)**. Only the remaining 10% maintain enough fresh food or coin to preserve standard human physiology.
-- **Wards 1–12 Warrens (Lawless Brink & Immediate Out-Migration):**
+- **Wards 1–12 Warrens (Lawless Brink & What "Buying Out of the Warrens" Really Means):**
   - Utterly harsh and miserable places to live. Outside of targeted military extractions, treason sweeps, or power-culling operations, routine beat constables rarely enter.
-  - **Everyone Who Gets Ahead Leaves Immediately:** Nobody stays in the lower Warrens by choice. Any fungus farmer, sweatshop worker, or scavenger who manages to scrape together even the modest wealth of a **common Ward laborer** immediately pays the gate toll and moves into the regular Wards. Even **successful lower-Warrens criminals** who make real money do not stay to build underground empires—the moment they have the option to buy a small legitimate inn, tavern, or shop in the Wards, they pack up, legitimize, and leave the squalor behind.
+  - **Everyone Who Gets Ahead Leaves Immediately:** Nobody stays in the lower Warrens by choice. Any fungus farmer, sweatshop worker, or scavenger who manages to scrape together even the modest wealth of a **common Ward laborer** immediately buys their way out into the regular Wards. Even **successful lower-Warrens criminals** who make real money do not stay to build underground empires—the moment they have the option to buy a small legitimate inn, tavern, or shop in the Wards, they pack up, legitimize, and leave the squalor behind.
+  - **How "Buying Out of the Warrens" Actually Works:**
+    1. **Dress the Part:** Accumulating enough coin to buy decent, clean clothes so you **dress like you don't belong in the Warrens**.
+    2. **The "Lost Re-Entry Token" Gate Bribe:** Having enough coin to bribe a Warrens checkpoint guard to accept the polite fiction that you are a Ward resident who simply **"lost your re-entry token/papers—please don't ask too many questions."**
+    3. **Surviving Until First Payday:** Having just enough pocket money left over to pay for food and a place to sleep until your first payday.
+    4. **Entering Through the Slums or Food Ward (`Wards 3–5`) & "No-Questions-Asked" Hiring:** People buying their way out almost always cross over into the **Slums (`Wards 4–5`) or the Food Processing Ward (`Ward 3`)**. Employers there will **readily hire you with very few questions asked**—because everyone in the Spire assumes that **if you came from the Warrens and were resourceful, disciplined, or tough enough to gather the wealth needed to escape, you surely have the grit and skills to succeed at the job you are interviewing for** (and every incentive to work hard so you never get sent back into the Warrens).
+    5. **Sovereign Sanction (Why It Is Legal & Why the Guard isn't Even Written Up):** **This is a completely valid and common PC origin or ancestry background.** By royal law, **the King considers all people living within the Spire (including the Warrens) to be citizens by default**. Consequently, **leaving the Warrens in this manner is not considered illegal**, and **a gate guard accepting the "lost re-entry token" bribe isn't even considered cause for an administrative write-up**. This unwritten royal policy functions as a deliberate meritocratic filter: it **ensures that the people leaving the Warrens are the resourceful, skilled workers the Spire actually needs**, while leaving the rest of the impoverished Warrens population in place to work the fungal beds that produce the bulk of the food (`Sycelium`/`Mela`) required to feed the city.
+  - **The Tragic Reverse Flow (Slipping Into the Warrens Out of Desperation):**
+    - Sadly, **just as many—or more—people actually flow the other way**: when life in the Spire becomes so hard that a person **can no longer afford to live even in the Slum Wards (`Wards 4–5`)**, or when they are **fleeing people and crushing debts that they truly *cannot* pay**, desperate citizens are constantly slipping into the Warrens.
+    - **The "Cannot Pay" Reality:** The word *cannot* is absolute—**no one who can actually pay their debts or afford the barest existence in the Slums ever willingly enters life in the lower Warrens**. Entering the Warrens to live is the final refuge of the utterly destitute and the hunted.
   - **Active State Containment:** Between this constant out-migration of anyone with coin and the **Military, King's Guard, and Constabulary** using covert and overt means to crush anyone who tries to consolidate too much muscle or weaponry, the lower Warrens can never coalesce into a rival power base.
 - **Ward 13 Warrens (The Gentleman's Underworld / "Las Vegas" Escape Valve):** Completely distinct from lower levels. Constables maintain a permanent year-round presence. Underworld syndicate bosses **Johnny Ralen** (North) and **Amanda Coren** (South) split territorial control, running a hands-off luxury vice district that serves as a societal escape valve. They enforce a rigid class structure, know exactly what lines never to cross, and charge a **1 Labor toll** to guard the iron gates descending into the lower Warrens. Moreover, because **only legal Citizens can leave the Warrens and lead regular lives in the Spire**, Ward 13's syndicate operators are bound by the same citizenship and institutional resource rules as the civilized wards.
 
@@ -281,24 +310,25 @@ Lying deeper than the Warrens within the ancient, lightless mountain core:
 Above the 15 Municipal Wards and past the lightning-wracked Zone lie the pristine upper realms:
 
 ### The Sky Docks (~800 Feet Tall, Past the Zone)
-- **High Circle (The Mooring Berths):** Towering ~300 feet tall, equipped with colossal Zone-powered winches, heavy cable rigs, and crane gantries that hoist airships straight up out of the Zone's cloud ceiling into dry berths for loading, unloading, and maintenance. Ringed by defensive military arc cannon batteries.
+- **High Circle (The Mooring Berths):** Towering ~300 feet tall, equipped with colossal Zone-powered winches, heavy cable rigs, and crane gantries that hoist airships straight up out of the Zone's cloud ceiling into dry berths for loading, unloading, and maintenance. Ringed by defensive military arc cannon batteries and dedicated **Arms Bunkers**.
 - **Mid Circle (Grid Control):** The nerve center of New Avalon’s municipal infrastructure. Houses the master catalytic dynamos and switching stations that route Zone-harvested energy into the wireless radiant grid and transit lifts.
-- **Low Circle (The International Enclaves):** 
-  - A cosmopolitan district of foreign diplomatic embassies, trading cartels, sovereign guild compounds, and airship crew quarters. 
-  - **Extra-Territorial Sovereignty & Inter-Enclave Relations:** Enclaves operate under legally chartered **extra-territorial sovereignty**, where foreign airship captains, merchants, and sovereign delegations live and resolve disputes under their home nations' laws and traditions. 
+- **Low Circle (The Foreign Area / Trade Quarters / Embassy Enclaves — "No Living" for Citizens `[spire.pdf p.1]`):** 
+  - A cosmopolitan buffer district of foreign diplomatic embassies, trading quarters, sovereign guild compounds, and transient airship berths situated directly between Ward 15 and the University Collegium.
+  - **"No Living" Residential Restriction:** Marked `"No Living"` on Spire structural plans—ordinary Arclean citizens are **prohibited from establishing permanent domestic residence here**; the enclave quarters are strictly zoned for foreign delegations, embassies, and transient skyship crews.
+  - **Extra-Territorial Sovereignty & Inter-Enclave Relations:** Enclaves operate under legally chartered **extra-territorial sovereignty**, where foreign airship captains, merchants, and sovereign delegations—from immediate neighboring powers like **Feydial** (Ireland/Wales) and **Derdore** (Southern England/Northern France), continental European kingdoms like **High Bremen**, **Malichor**, **Relocore**, and the **Free Cities**, as well as **Half-Elf factors representing the Elves of Iceland and Norway**—conduct business and resolve internal disputes under their home nations' laws and traditions.
   - When enclaves interact, trade, or feud with one another, they rely on private consular arbitration, merchant prize courts, or traditional dueling protocols rather than city magistrates.
   - **The Crown's Hands-Off Enforcement Doctrine:** While Arclean Spire and Crown law technically remain the supreme law of the land, **as long as the enclaves cause no external problems or spill violence into the public transit arteries, the Crown and Municipal Constabulary deliberately ignore internal infractions, vices, and private vendettas**. Only when unrest threatens the master dynamos, spills past the enclave perimeter gates, or harms an Arclean citizen in good standing will the King's Guard intervene with lethal force.
 - **Storm Ceilings:** Extreme Zone super-storms periodically push the cloud boundary upward past the Sky Docks, temporarily halting all air traffic.
 
 ### The University District (The Collegium)
-- **Higher Learning & Science:** The intellectual capital of Arclean, training physicians, architects, clockwork engineers, legal barristers, and academic scholars.
-- **Architecture & Living:** Neighborhoods are quiet, manicured, and exceptionally prestigious, with residences rivaling the Merchant Ward in luxury.
+- **Higher Learning & Science:** The intellectual capital of Arclean, training physicians, architects, clockwork engineers, legal barristers, and academic scholars. Holds **2 seats** on the 25-member Privy Council.
+- **Architecture & Living:** Emerging into the clean **Aither** above the Zone (`[spire.pdf p.1]`), neighborhoods are quiet, manicured, and exceptionally prestigious, with residences rivaling the Merchant Ward in luxury.
 - **Storm History:** Zone storms rarely reach this altitude; the worst super-storm in recorded history reached the Mid Circle 275 years ago. On average, storm lightning touches the Low Circle only once per year.
 
-### The Noble District (The High Estates)
-- **Grand Estates:** Dwarfs the Merchant Ward in both land area and architectural splendor. 
+### The Noble District (The High Estates & Under-Hung Servant Ward)
+- **Grand Estates:** Dwarfs the Merchant Ward in both land area and architectural splendor; holds **3 seats** on the 25-member Privy Council (while Greater Nobles sit on the Kingdom-wide Royal Council).
 - **The Exterior Terraces:** **Two-thirds (2/3) of the High Circle is built entirely outside the spire hull**, sprawling across spectacular open-air mountain terraces bathed in pristine Aither breezes.
-- **Servants’ Wards:** The interior circle houses domestic retinues. However, **only verified Freemen** are permitted to live in the Noble Servants' Ward (enjoying a lifestyle comparable to Ward 11 craftsmen). Serfs employed by noble houses are restricted to small, windowless quarters inside their masters' mansions.
+- **The Under-Hung Servant Ward (`[spire.pdf p.1]`):** Tucked directly beneath the structural overhang of the cantilevered Noble Ward terraces (between the Collegium and the Noble estates) lies the **Servant Ward**. **Only verified Freemen** are permitted to live in this Servant Ward (enjoying a lifestyle comparable to Ward 11 craftsmen), while indentured serfs employed by noble houses are restricted to small, windowless quarters inside their masters' mansions.
 
 ### The Royal District & King's Palace (The 14,000-Foot Summit)
 - **The Crown Plateau:** Occupies the uppermost three circles and the flat, 1-mile-wide mountain summit.

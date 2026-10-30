@@ -1,0 +1,329 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 1250" width="100%" height="100%" style="background:#0c1722; font-family:'Segoe UI', Georgia, serif;">
+  <defs>
+    <!-- Gradients & Patterns -->
+    <radialGradient id="seaGrad" cx="50%" cy="45%" r="65%">
+      <stop offset="0%" stop-color="#132638"/>
+      <stop offset="70%" stop-color="#0d1b29"/>
+      <stop offset="100%" stop-color="#071019"/>
+    </radialGradient>
+    <pattern id="gridPattern" width="60" height="60" patternUnits="userSpaceOnUse">
+      <path d="M 60 0 L 0 0 0 60" fill="none" stroke="#1e3a52" stroke-width="0.6" stroke-dasharray="2,3" opacity="0.5"/>
+    </pattern>
+    <pattern id="wildHatch" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <line x1="0" y1="0" x2="0" y2="10" stroke="#c85a32" stroke-width="1.5" opacity="0.28"/>
+    </pattern>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="3.5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="landShadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#03080d" flood-opacity="0.8"/>
+    </filter>
+  </defs>
+
+  <!-- Background Sea & Blueprint Grid -->
+  <rect width="1100" height="1250" fill="url(#seaGrad)"/>
+  <rect width="1100" height="1250" fill="url(#gridPattern)"/>
+
+  <!-- Decorative Outer Brass Frame -->
+  <rect x="14" y="14" width="1072" height="1222" fill="none" stroke="#c5a059" stroke-width="2.5"/>
+  <rect x="20" y="20" width="1060" height="1210" fill="none" stroke="#c5a059" stroke-width="0.8" stroke-dasharray="6,4"/>
+
+  <!-- ==================== MARITIME TRADE & ELVEN ROUTES ==================== -->
+  <g opacity="0.7">
+    <!-- North Sea Arclean Trade Triangle (Edinburgh <-> York <-> Norwich <-> Rotterdam/Hague) -->
+    <path d="M 505 405 C 580 430, 620 510, 560 580" fill="none" stroke="#4fc3f7" stroke-width="1.8" stroke-dasharray="6,5"/>
+    <path d="M 560 580 C 620 620, 665 660, 650 715" fill="none" stroke="#4fc3f7" stroke-width="1.8" stroke-dasharray="6,5"/>
+    <path d="M 650 715 C 710 730, 770 745, 818 755" fill="none" stroke="#4fc3f7" stroke-width="2.2" stroke-dasharray="6,4"/>
+    <path d="M 505 405 C 660 470, 760 610, 815 732" fill="none" stroke="#4fc3f7" stroke-width="2" stroke-dasharray="8,6"/>
+    <!-- Northern Icelandic Elven Route -->
+    <path d="M 505 405 C 555 310, 550 200, 520 130 C 490 85, 420 55, 340 42" fill="none" stroke="#80deea" stroke-width="2.2" stroke-dasharray="10,5"/>
+    <polygon points="340,42 353,48 350,36" fill="#80deea"/>
+    <!-- Norwegian Elven Route -->
+    <path d="M 538 285 C 680 230, 820 180, 965 135" fill="none" stroke="#80deea" stroke-width="1.6" stroke-dasharray="7,5"/>
+    <polygon points="965,135 952,134 956,145" fill="#80deea"/>
+  </g>
+
+  <!-- ==================== LANDMASS POLYGONS ==================== -->
+  <g filter="url(#landShadow)">
+
+    <!-- 1. SHETLAND ISLANDS (Unclaimed / Neutral North) -->
+    <path d="M 575 45 L 590 38 L 598 58 L 585 82 L 570 75 Z" fill="#2c353d" stroke="#78909c" stroke-width="1.3"/>
+
+    <!-- 2. ORKNEY ISLANDS (Arclean) -->
+    <path d="M 505 130 L 528 124 L 535 144 L 512 152 Z M 492 146 L 504 145 L 502 156 L 490 154 Z" fill="#1b3b56" stroke="#4fc3f7" stroke-width="1.5"/>
+
+    <!-- 3. OUTER & INNER HEBRIDES (Wild / Contested Highland Fringe) -->
+    <path d="M 305 205 L 325 195 L 330 230 L 312 260 L 298 250 Z M 288 272 L 304 270 L 298 315 L 284 310 Z M 338 268 L 358 265 L 362 302 L 342 306 Z M 335 340 L 354 338 L 352 375 L 334 372 Z" fill="#332924" stroke="#a1887f" stroke-width="1.2"/>
+
+    <!-- 4. SAVAGE SCOTTISH HIGHLANDS & WESTERN SCOTLAND (Orc Warbands & Tombstone Frontier) -->
+    <path d="M 465 168 L 515 172 L 512 212 L 458 242 L 492 248 L 468 278 L 442 325 L 435 375 L 415 415 L 395 455 L 368 440 L 372 395 L 358 360 L 372 315 L 365 265 L 385 215 L 420 175 Z" fill="#2d231e" stroke="#8d6e63" stroke-width="1.5"/>
+    <path d="M 465 168 L 515 172 L 512 212 L 458 242 L 492 248 L 468 278 L 442 325 L 435 375 L 415 415 L 395 455 L 368 440 L 372 395 L 358 360 L 372 315 L 365 265 L 385 215 L 420 175 Z" fill="url(#wildHatch)"/>
+
+    <!-- 5. ARCLEAN — EASTERN SCOTLAND, NE ENGLAND, YORKSHIRE & EAST ANGLIA (NORWICH) -->
+    <path d="M 492 248 L 555 255 L 568 288 L 548 338 L 538 372 L 502 392 L 528 405 L 548 438 L 568 492 L 588 552 L 608 595 L 598 632 L 635 642 L 675 665 L 682 715 L 652 752 L 612 745 L 582 695 L 552 635 L 518 585 L 495 525 L 478 468 L 435 415 L 435 375 L 442 325 L 468 278 Z" fill="#173852" stroke="#4fc3f7" stroke-width="2"/>
+
+    <!-- 6. FEYDIAL — IRELAND (Full Island) -->
+    <path d="M 225 465 L 288 455 L 325 488 L 338 545 L 322 615 L 315 675 L 275 712 L 195 735 L 138 712 L 122 658 L 148 598 L 135 545 L 172 492 Z" fill="#193d33" stroke="#4db6ac" stroke-width="2"/>
+
+    <!-- 7. FEYDIAL — ISLE OF MAN -->
+    <path d="M 385 538 L 404 532 L 408 552 L 388 558 Z" fill="#193d33" stroke="#4db6ac" stroke-width="1.6"/>
+
+    <!-- 8. FEYDIAL — WALES & ANGLESEY -->
+    <path d="M 405 645 L 458 642 L 465 715 L 472 785 L 432 802 L 378 785 L 395 742 L 415 705 L 385 675 Z" fill="#193d33" stroke="#4db6ac" stroke-width="2"/>
+
+    <!-- 9. DERDORE — CENTRAL, WESTERN & SOUTHERN ENGLAND -->
+    <path d="M 435 415 L 478 468 L 495 525 L 518 585 L 552 635 L 582 695 L 612 745 L 652 752 L 642 788 L 672 805 L 658 842 L 598 865 L 522 872 L 448 892 L 368 915 L 345 902 L 388 855 L 448 825 L 472 785 L 465 715 L 458 642 L 442 585 L 435 525 L 405 465 Z" fill="#462228" stroke="#ef5350" stroke-width="2"/>
+
+    <!-- 10. DERDORE — NORTHERN COAST OF FRANCE (~50 Miles Inland Strip) -->
+    <path d="M 435 975 L 525 955 L 595 935 L 655 885 L 705 855 L 732 895 L 675 945 L 595 995 L 485 1025 L 425 1005 Z" fill="#462228" stroke="#ef5350" stroke-width="2"/>
+
+    <!-- 11. CONTINENTAL EUROPE BACKDROP (Behind Derdore & Netherlands) -->
+    <path d="M 705 855 L 775 805 L 802 768 L 865 785 L 915 665 L 1065 655 L 1065 1085 L 425 1085 L 425 1005 L 485 1025 L 595 995 L 675 945 L 732 895 Z" fill="#23282e" stroke="#607d8b" stroke-width="1.4"/>
+
+    <!-- 12. ARCLEAN — NETHERLANDS FOOTHOLD (THE HAGUE & ROTTERDAM ENCLAVE) -->
+    <path d="M 775 805 L 802 720 L 848 685 L 915 665 L 885 785 L 815 812 Z" fill="#173852" stroke="#4fc3f7" stroke-width="2.2"/>
+  </g>
+
+  <!-- ==================== TENSE BORDERS & FRONTIER LINES ==================== -->
+  <!-- Arclean / Highland Wild Frontier Line -->
+  <path d="M 492 248 L 468 278 L 442 325 L 435 375 L 435 415" fill="none" stroke="#ffab40" stroke-width="2.5" stroke-dasharray="4,4"/>
+  <!-- Arclean / Derdore Tense Military Border (York-Norwich Line) -->
+  <path d="M 435 415 L 478 468 L 495 525 L 518 585 L 552 635 L 582 695 L 612 745 L 652 752" fill="none" stroke="#ff5252" stroke-width="2.8" stroke-dasharray="8,4"/>
+  <!-- Derdore / Feydial Welsh Border -->
+  <path d="M 458 642 L 465 715 L 472 785" fill="none" stroke="#ffd54f" stroke-width="2.4" stroke-dasharray="6,4"/>
+
+  <!-- ==================== REGION & OCEAN LABELS ==================== -->
+  <g fill="#78909c" font-size="13" font-style="italic" letter-spacing="3" text-anchor="middle" opacity="0.85">
+    <text x="705" y="470">THE NORTH SEA</text>
+    <text x="705" y="488" font-size="10" letter-spacing="1.5">(1860s PATROL LANES NEAR SPIRES /</text>
+    <text x="705" y="502" font-size="10" letter-spacing="1.5">1650–1730 PIRACY &amp; PRIVATEERS IN OPEN SEA)</text>
+    <text x="360" y="605" letter-spacing="2">IRISH SEA</text>
+    <text x="150" y="340" letter-spacing="3">NORTH ATLANTIC</text>
+    <text x="545" y="918" letter-spacing="2" font-size="11">ENGLISH CHANNEL</text>
+  </g>
+
+  <!-- Icelandic & Norwegian Elven Callouts -->
+  <g fill="#80deea" font-size="11" font-weight="bold">
+    <text x="325" y="34" text-anchor="middle">▲ TO ICELANDIC HIGH ELVES (GUNPOWDER &amp; STEEL TRADE)</text>
+    <text x="915" y="118" text-anchor="middle">TO NORWEGIAN SPIRES &amp; MOUNTAIN ELVEN COLONIES ▲</text>
+  </g>
+  <text x="645" y="58" fill="#90a4ae" font-size="11" font-style="italic">Shetland Isles (Outside Arclean Control)</text>
+
+  <!-- Savage Highlands Callout -->
+  <g text-anchor="middle">
+    <text x="415" y="255" fill="#ffab40" font-size="11.5" font-weight="bold" letter-spacing="1">SAVAGE HIGHLANDS</text>
+    <text x="415" y="270" fill="#ffe0b2" font-size="9.5">"Wild West" Boomtowns &amp;</text>
+    <text x="415" y="283" fill="#ffe0b2" font-size="9.5">Roaming Orc Warbands</text>
+  </g>
+
+  <!-- Continental Europe Label -->
+  <g text-anchor="middle" fill="#90a4ae">
+    <text x="885" y="925" font-size="15" font-weight="bold" letter-spacing="2">CONTINENTAL EUROPEAN KINGDOMS</text>
+    <text x="885" y="945" font-size="11.5" font-style="italic">(Relocore, High Bremen, Malichor, Free Cities —</text>
+    <text x="885" y="962" font-size="11.5" font-style="italic">Spires extend south to Barcelona &amp; north across Scandinavia)</text>
+  </g>
+
+  <!-- ==================== SPIRE MARKERS ==================== -->
+  <!--
+    Spire Counts Adjusted for ≥50-Mile Spacing Rule (except Hague/Rotterdam Twin Exception):
+    • ARCLEAN (8 Major Spires, ≥65–120 mi apart, + Twin Dutch Spires):
+      1. New Avalon (Edinburgh) — Capital Spire
+      2. Kirkwall Spire (Orkney) — ~190 mi N of Edinburgh
+      3. Aberdeen Spire (Grampian Coast) — ~95 mi NE of Edinburgh
+      4. Newcastle / Tyne Spire (Northumbria) — ~90 mi SE of Edinburgh
+      5. York Spire (Vale of York) — ~80 mi S of Newcastle
+      6. Lincoln Spire (Fens/Midlands) — ~60 mi SE of York
+      7. Norwich Spire (East Anglia) — ~95 mi SE of Lincoln
+      8. The Hague Spire (Netherlands) } Twin Continental Exception (~15 mi apart)
+      9. Rotterdam Spire (Netherlands) }
+
+    • FEYDIAL (7 Major Spires, ≥65–100 mi apart across Ireland, Wales & Isle of Man):
+      1. Belfast Spire (Ulster)
+      2. Dublin Spire (Leinster — Capital)
+      3. Galway Spire (Connacht)
+      4. Cork Spire (Munster)
+      5. Manx Spire (Isle of Man)
+      6. Caernarfon Spire (North Wales)
+      7. Cardiff Spire (South Wales)
+
+    • DERDORE (11 Smaller Mega-Spires, ≥55–85 mi apart across S/W England & N. France):
+      1. Lancaster / Mersey Spire (NW England)
+      2. Birmingham Spire (West Midlands)
+      3. Oxford Spire (Thames Valley)
+      4. London Spire (Thames Estuary)
+      5. Canterbury Spire (Kent / Dover)
+      6. Portsmouth Spire (Solent)
+      7. Bristol Spire (Severn Estuary)
+      8. Exeter / Plymouth Spire (Devon/Cornwall)
+      9. Calais Spire (Pas-de-Calais, France)
+      10. Rouen / Le Havre Spire (Normandy, France)
+      11. Cherbourg / Caen Spire (West Normandy, France)
+  -->
+
+  <!-- 1. ARCLEAN SPIRES (85-190 mi spacing; Cyan/Gold) -->
+  <g filter="url(#glow)">
+    <!-- NEW AVALON (EDINBURGH) - CAPITAL -->
+    <circle cx="505" cy="402" r="14" fill="#173852" stroke="#ffd54f" stroke-width="3"/>
+    <circle cx="505" cy="402" r="7" fill="#4fc3f7" stroke="#ffffff" stroke-width="1.5"/>
+    <!-- 2. Kirkwall (Orkney) -->
+    <circle cx="518" cy="138" r="7.5" fill="#4fc3f7" stroke="#ffffff" stroke-width="1.5"/>
+    <!-- 3. Aberdeen -->
+    <circle cx="552" cy="302" r="7.5" fill="#4fc3f7" stroke="#ffffff" stroke-width="1.5"/>
+    <!-- 4. Newcastle -->
+    <circle cx="548" cy="482" r="7.5" fill="#4fc3f7" stroke="#ffffff" stroke-width="1.5"/>
+    <!-- 5. York -->
+    <circle cx="562" cy="575" r="8.5" fill="#4fc3f7" stroke="#ffd54f" stroke-width="2"/>
+    <!-- 6. Lincoln -->
+    <circle cx="592" cy="645" r="7.5" fill="#4fc3f7" stroke="#ffffff" stroke-width="1.5"/>
+    <!-- 7. Norwich -->
+    <circle cx="655" cy="705" r="8.5" fill="#4fc3f7" stroke="#ffd54f" stroke-width="2"/>
+    <!-- 8 & 9. The Hague & Rotterdam (Rare Close-Pair Exception) -->
+    <circle cx="814" cy="735" r="8" fill="#4fc3f7" stroke="#ffd54f" stroke-width="2"/>
+    <circle cx="828" cy="756" r="8" fill="#4fc3f7" stroke="#ffd54f" stroke-width="2"/>
+  </g>
+
+  <!-- Arclean Spire Labels -->
+  <g fill="#e1f5fe" font-size="12" font-weight="bold">
+    <!-- New Avalon Banner -->
+    <rect x="330" y="376" width="154" height="44" rx="4" fill="#091926" stroke="#ffd54f" stroke-width="1.8" opacity="0.95"/>
+    <text x="407" y="394" fill="#ffd54f" font-size="13" text-anchor="middle">★ NEW AVALON</text>
+    <text x="407" y="411" fill="#81d4fa" font-size="10" text-anchor="middle">(Edinburgh — Capital Spire)</text>
+
+    <text x="532" y="142">Orkney Spire</text>
+    <text x="565" y="306">Aberdeen Spire</text>
+    <text x="562" y="486">Newcastle Spire</text>
+    <text x="576" y="579" fill="#ffd54f">York Spire</text>
+    <text x="605" y="648">Lincoln Spire</text>
+    <text x="668" y="709" fill="#ffd54f">Norwich Spire</text>
+
+    <!-- Netherlands Twin Callout Box -->
+    <rect x="844" y="716" width="224" height="58" rx="4" fill="#091926" stroke="#4fc3f7" stroke-width="1.5" opacity="0.95"/>
+    <text x="854" y="735" fill="#ffd54f" font-size="12">The Hague &amp; Rotterdam Spires</text>
+    <text x="854" y="751" fill="#b3e5fc" font-size="10" font-weight="normal">Arclean Continental Foothold</text>
+    <text x="854" y="765" fill="#81d4fa" font-size="9.5" font-style="italic" font-weight="normal">(Rare &lt;50-mi Twin-Spire Exception)</text>
+  </g>
+
+  <!-- 2. FEYDIAL SPIRES (7 Major Spires, ≥65–100 mi spacing; Emerald/Teal) -->
+  <g filter="url(#glow)">
+    <!-- 1. Belfast -->
+    <circle cx="315" cy="508" r="7.5" fill="#26a69a" stroke="#e0f2f1" stroke-width="1.5"/>
+    <!-- 2. Dublin (Capital) -->
+    <circle cx="312" cy="598" r="9.5" fill="#26a69a" stroke="#ffd54f" stroke-width="2.2"/>
+    <!-- 3. Galway -->
+    <circle cx="178" cy="592" r="7.5" fill="#26a69a" stroke="#e0f2f1" stroke-width="1.5"/>
+    <!-- 4. Cork -->
+    <circle cx="212" cy="705" r="7.5" fill="#26a69a" stroke="#e0f2f1" stroke-width="1.5"/>
+    <!-- 5. Isle of Man -->
+    <circle cx="396" cy="545" r="7" fill="#26a69a" stroke="#e0f2f1" stroke-width="1.5"/>
+    <!-- 6. Caernarfon (N. Wales) -->
+    <circle cx="418" cy="658" r="7.5" fill="#26a69a" stroke="#e0f2f1" stroke-width="1.5"/>
+    <!-- 7. Cardiff (S. Wales) -->
+    <circle cx="445" cy="788" r="8" fill="#26a69a" stroke="#e0f2f1" stroke-width="1.5"/>
+  </g>
+
+  <!-- Feydial Spire Labels -->
+  <g fill="#b2dfdb" font-size="11.5" font-weight="bold">
+    <text x="300" y="496" text-anchor="end">Belfast Spire</text>
+    <text x="300" y="602" text-anchor="end" fill="#ffd54f" font-size="12.5">★ Dublin Spire (Feydial Cap.)</text>
+    <text x="168" y="578" text-anchor="middle">Galway Spire</text>
+    <text x="212" y="726" text-anchor="middle">Cork Spire</text>
+    <text x="396" y="525" text-anchor="middle">Isle of Man Spire</text>
+    <text x="390" y="655" text-anchor="end">Caernarfon Spire</text>
+    <text x="412" y="772" text-anchor="end">Cardiff Spire</text>
+  </g>
+
+  <!-- 3. DERDORE SPIRES (11 Smaller Mega-Spires, ≥55–85 mi spacing; Crimson/Coral) -->
+  <g filter="url(#glow)">
+    <!-- 1. Manchester/Mersey -->
+    <circle cx="478" cy="595" r="5.5" fill="#ef5350" stroke="#ffebee" stroke-width="1.3"/>
+    <!-- 2. Birmingham -->
+    <circle cx="508" cy="692" r="5.5" fill="#ef5350" stroke="#ffebee" stroke-width="1.3"/>
+    <!-- 3. Nottingham/Derby -->
+    <circle cx="538" cy="645" r="5.2" fill="#ef5350" stroke="#ffebee" stroke-width="1.3"/>
+    <!-- 4. Bristol -->
+    <circle cx="485" cy="795" r="5.5" fill="#ef5350" stroke="#ffebee" stroke-width="1.3"/>
+    <!-- 5. Exeter/Plymouth -->
+    <circle cx="408" cy="875" r="5.5" fill="#ef5350" stroke="#ffebee" stroke-width="1.3"/>
+    <!-- 6. Portsmouth -->
+    <circle cx="545" cy="852" r="5.5" fill="#ef5350" stroke="#ffebee" stroke-width="1.3"/>
+    <!-- 7. London (Capital) -->
+    <circle cx="602" cy="795" r="7.5" fill="#ef5350" stroke="#ffd54f" stroke-width="2"/>
+    <!-- 8. Dover/Canterbury -->
+    <circle cx="655" cy="825" r="5.5" fill="#ef5350" stroke="#ffebee" stroke-width="1.3"/>
+    <!-- 9. Calais (N. France) -->
+    <circle cx="685" cy="882" r="5.5" fill="#ef5350" stroke="#ffebee" stroke-width="1.3"/>
+    <!-- 10. Rouen/Le Havre (Normandy) -->
+    <circle cx="595" cy="962" r="6" fill="#ef5350" stroke="#ffebee" stroke-width="1.3"/>
+    <!-- 11. Cherbourg/Caen (W. Normandy) -->
+    <circle cx="485" cy="992" r="5.5" fill="#ef5350" stroke="#ffebee" stroke-width="1.3"/>
+  </g>
+
+  <!-- Derdore Spire Labels -->
+  <g fill="#ffcdd2" font-size="10.5" font-weight="bold">
+    <text x="468" y="598" text-anchor="end">Mersey Spire</text>
+    <text x="532" y="638" text-anchor="end">Derby Spire</text>
+    <text x="498" y="695" text-anchor="end">Birmingham Spire</text>
+    <text x="495" y="812">Bristol Spire</text>
+    <text x="408" y="894" text-anchor="middle">Plymouth Spire</text>
+    <text x="545" y="868" text-anchor="middle">Portsmouth Spire</text>
+    <text x="595" y="782" fill="#ffd54f" font-size="12" text-anchor="middle">★ London Spire (Derdore Cap.)</text>
+    <text x="665" y="828">Dover Spire</text>
+    <text x="696" y="886">Calais Spire</text>
+    <text x="608" y="966">Rouen Spire</text>
+    <text x="485" y="1012" text-anchor="middle">Cherbourg Spire</text>
+  </g>
+
+  <!-- ==================== TITLE CARTOUCHE & LEGEND ==================== -->
+  <g transform="translate(36, 36)">
+    <rect width="380" height="245" rx="6" fill="#091520" stroke="#c5a059" stroke-width="2" opacity="0.95"/>
+    <rect x="5" y="5" width="370" height="235" rx="4" fill="none" stroke="#c5a059" stroke-width="0.7" stroke-dasharray="4,3"/>
+
+    <text x="190" y="32" fill="#c5a059" font-size="16" font-weight="bold" text-anchor="middle" letter-spacing="1.5">THE THREE ISLE &amp; NORTH SEA POWERS</text>
+    <text x="190" y="50" fill="#90a4ae" font-size="11" font-style="italic" text-anchor="middle">Spire Placement (≥50-Mile Spacing Rule &amp; Dutch Exception)</text>
+    <line x1="25" y1="60" x2="355" y2="60" stroke="#c5a059" stroke-width="0.8" opacity="0.6"/>
+
+    <!-- Arclean Legend -->
+    <circle cx="32" cy="84" r="8" fill="#4fc3f7" stroke="#ffd54f" stroke-width="2"/>
+    <text x="50" y="82" fill="#4fc3f7" font-size="12.5" font-weight="bold">KINGDOM OF ARCLEAN (9 Spires)</text>
+    <text x="50" y="97" fill="#cfd8dc" font-size="10.5">Capital: New Avalon (Edinburgh). Controls E. Scotland,</text>
+    <text x="50" y="110" fill="#cfd8dc" font-size="10.5">Orkney, NE England (York/Norwich) &amp; Twin Dutch Spires.</text>
+
+    <!-- Feydial Legend -->
+    <circle cx="32" cy="134" r="8" fill="#26a69a" stroke="#e0f2f1" stroke-width="1.5"/>
+    <text x="50" y="132" fill="#4db6ac" font-size="12.5" font-weight="bold">KINGDOM OF FEYDIAL (7 Spires)</text>
+    <text x="50" y="147" fill="#cfd8dc" font-size="10.5">Controls Ireland, Wales &amp; Isle of Man. Full-scale mega-spires</text>
+    <text x="50" y="160" fill="#cfd8dc" font-size="10.5">socially identical to Arclean; spaced 65–110 miles apart.</text>
+
+    <!-- Derdore Legend -->
+    <circle cx="32" cy="184" r="5.5" fill="#ef5350" stroke="#ffebee" stroke-width="1.3"/>
+    <text x="50" y="182" fill="#ef5350" font-size="12.5" font-weight="bold">KINGDOM OF DERDORE (11 Smaller Spires)</text>
+    <text x="50" y="197" fill="#cfd8dc" font-size="10.5">Controls rest of England &amp; N. France (~50 mi inland).</text>
+    <text x="50" y="210" fill="#cfd8dc" font-size="10.5">More numerous but smaller/less-populated Spires (≥55 mi apart).</text>
+
+    <!-- Frontier Legend -->
+    <rect x="24" y="220" width="16" height="10" fill="#2d231e" stroke="#ffab40" stroke-width="1.2"/>
+    <text x="50" y="229" fill="#ffab40" font-size="10" font-weight="bold">Highlands &amp; Beyond: Orcs, Free Folk, Dwarf Mines &amp; Ruins</text>
+  </g>
+
+  <!-- ==================== DISTANCE SCALE BAR (≥50-MILE RULE) ==================== -->
+  <g transform="translate(46, 1140)">
+    <rect x="-10" y="-22" width="320" height="72" rx="4" fill="#091520" stroke="#c5a059" stroke-width="1.2" opacity="0.92"/>
+    <text x="150" y="-4" fill="#c5a059" font-size="11" font-weight="bold" text-anchor="middle" letter-spacing="1">SCALE OF MILES (MINIMUM 50-MILE SPIRE SPACING)</text>
+    <!-- 50 miles ≈ 70 px on this projection; 100 miles ≈ 140 px; 200 miles ≈ 280 px -->
+    <line x1="10" y1="15" x2="290" y2="15" stroke="#e0e0e0" stroke-width="2"/>
+    <line x1="10" y1="8" x2="10" y2="22" stroke="#e0e0e0" stroke-width="2"/>
+    <line x1="80" y1="8" x2="80" y2="22" stroke="#ffd54f" stroke-width="2.5"/>
+    <line x1="150" y1="8" x2="150" y2="22" stroke="#e0e0e0" stroke-width="2"/>
+    <line x1="290" y1="8" x2="290" y2="22" stroke="#e0e0e0" stroke-width="2"/>
+    <rect x="10" y="11" width="70" height="4" fill="#ffd54f"/>
+    <text x="10" y="36" fill="#cfd8dc" font-size="10" text-anchor="middle">0</text>
+    <text x="80" y="36" fill="#ffd54f" font-size="10.5" font-weight="bold" text-anchor="middle">50 mi (Min)</text>
+    <text x="150" y="36" fill="#cfd8dc" font-size="10" text-anchor="middle">100 mi</text>
+    <text x="290" y="36" fill="#cfd8dc" font-size="10" text-anchor="middle">200 mi</text>
+  </g>
+</svg>
+

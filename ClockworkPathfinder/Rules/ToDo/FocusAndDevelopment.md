@@ -59,29 +59,27 @@
 
 ## 3. World, Resource & Narrative Subsystems to Formalize
 
-### A. Numerical Resource Tables & Lease Formulas (`ResourcesAndWealth.md`)
+### A. Personal Monthly Allowance Baseline (`ResourcesAndWealth.md`)
 - **References:** [`ClockworkPathfinder/Rules/ResourcesAndWealth.md`](file:///c:/Users/mncoc/OneDrive/Documents/Git/ClockworkCities_Pathfinder/ClockworkPathfinder/Rules/ResourcesAndWealth.md), [`ClockworkPathfinder/Rules/SocialClasses.md`](file:///c:/Users/mncoc/OneDrive/Documents/Git/ClockworkCities_Pathfinder/ClockworkPathfinder/Rules/SocialClasses.md)
-- **Context:** The 5-category resource architecture (*Monthly Spending Allowance*, *Personal Property Cap = 1 × Monthly Spending*, *Requisitioned Organizational Equipment*, *Retainer Budget*, and *The Citizen Bulwark 3-Item Exemption*) is now codified in [`ResourcesAndWealth.md`](file:///c:/Users/mncoc/OneDrive/Documents/Git/ClockworkCities_Pathfinder/ClockworkPathfinder/Rules/ResourcesAndWealth.md).
-- **Remaining Numerical & Formula Tasks:**
-  1. **The 1–100 Status, Role & Standing Calculation:** Finalize the exact math for the 5 non-sequential Group Status steps (rated 1–100 within each step), Individual Role, and Internal Standing (1–100) so GMs and players know how much **Monthly Spending Allowance** and **Retainer Budget** each tier grants.
-  2. **Spire Location Lease & Wealth Surcharge Formula:** Codify the formula used by Noble landlords to calculate rent based on **Ward + Circle/Location + Regulated Wealth-Generation Surcharge**.
-  3. **Surplus Wealth $\rightarrow$ Standing Guidelines:** Provide simple Storyteller guidelines for how returning surplus wealth/loot above `1 × Monthly Spending` to a House or Guild boosts Standing or unlocks higher-tier Requisitioned Equipment.
+- **Context:** The 5-category resource architecture (*Monthly Spending Allowance*, *Personal Property Cap = 1 × Monthly Spending*, *Requisitioned Organizational Equipment*, *Retainer Budget*, and *The Citizen Bulwark 3-Item Exemption*) is codified in [`ResourcesAndWealth.md`](file:///c:/Users/mncoc/OneDrive/Documents/Git/ClockworkCities_Pathfinder/ClockworkPathfinder/Rules/ResourcesAndWealth.md). By explicit design, **players never micromanage macro-level costs, property leases, square footage, or institutional gains** (handled abstractly via Status, Standing, and Storyteller adjudication to avoid exploitable loopholes and administrative bog-down).
+- **Remaining Task:**
+  1. **Simple Personal Allowance & Retainer Reference Table:** Provide a clean, simple reference table of baseline personal pocket money (**Monthly Spending Allowance**) and **Retainer Budget** by Status Tier (without granular macro-cost or lease formulas).
 
-### B. Understanding Integration & Civilian Background Feats
+### B. Civilian Background Feats / Trade Traits
 - **References:** [`ClockworkPathfinder/Rules/Skills.md`](file:///c:/Users/mncoc/OneDrive/Documents/Git/ClockworkCities_Pathfinder/ClockworkPathfinder/Rules/Skills.md), [`ClockworkPathfinder/Rules/SocialClasses.md`](file:///c:/Users/mncoc/OneDrive/Documents/Git/ClockworkCities_Pathfinder/ClockworkPathfinder/Rules/SocialClasses.md)
 - **Open Tasks:**
-  1. **Class Document Updates for Understanding:** Update all player class files under `ClockworkPathfinder/Classes/` (and character examples) to explicitly list their starting Understanding allocation (`2 Automatic + Class Base [1 to 4] + Cha Modifier`) and suggested Focuses.
-  2. **Civilian Background Feats / Trade Traits:** Codify a formal list of working-class background perks (e.g., foundry tool weapon familiarity, guild wholesale discounts, dray handling) in [`SocialClasses.md`](file:///c:/Users/mncoc/OneDrive/Documents/Git/ClockworkCities_Pathfinder/ClockworkPathfinder/Rules/SocialClasses.md) or [`AncestriesAndHeritages.md`](file:///c:/Users/mncoc/OneDrive/Documents/Git/ClockworkCities_Pathfinder/ClockworkPathfinder/Rules/AncestriesAndHeritages.md).
+  1. **Civilian Background Feats / Trade Traits:** Codify a formal list of working-class background perks (e.g., foundry tool weapon familiarity, guild wholesale discounts, dray handling) in [`SocialClasses.md`](file:///c:/Users/mncoc/OneDrive/Documents/Git/ClockworkCities_Pathfinder/ClockworkPathfinder/Rules/SocialClasses.md) or [`AncestriesAndHeritages.md`](file:///c:/Users/mncoc/OneDrive/Documents/Git/ClockworkCities_Pathfinder/ClockworkPathfinder/Rules/AncestriesAndHeritages.md). *(Note: The 7 Victorian/Steampunk Broad Social Skill groups, the 4-Tier Specificity Spectrum, and starting Understanding assignments across all 17 class files are now complete and archived in [`resolvedFocusandDevelopment.md`](file:///c:/Users/mncoc/OneDrive/Documents/Git/ClockworkCities_Pathfinder/ClockworkPathfinder/Rules/ToDo/resolvedFocusandDevelopment.md)).*
 
 ### C. Real-World Skill Bounds & Feat Replacement Index
 - **Reference:** [`ClockworkPathfinder/Rules/Skills.md`](file:///c:/Users/mncoc/OneDrive/Documents/Git/ClockworkCities_Pathfinder/ClockworkPathfinder/Rules/Skills.md)
 - **Open Tasks:**
   - Audit standard PF2e Remaster skill feats for Athletics, Acrobatics, Stealth, and Thievery to flag pseudo-magical feats (e.g., *Cat Fall*, *Wall Jump*, *Cloud Jump*, *Slippery Prey*) and rewrite them as technological equipment dependencies (pneumatic soles, grapple lines, winch harnesses, slicking grease).
 
-### D. The Favor Hierarchy: Preparation Time & Escalation Rules
-- **Reference:** [`ClockworkPathfinder/Rules/WorldAndLaw.md`](file:///c:/Users/mncoc/OneDrive/Documents/Git/ClockworkCities_Pathfinder/ClockworkPathfinder/Rules/WorldAndLaw.md) (Section 6)
-- **Open Tasks:**
-  - Build simple Storyteller guidelines for **downtime preparation time** (hours vs. days) when setting up indirect Opportunity Favors, and mechanics for **Favor Escalation** (requesting an *Obligation* from a contact who only owes a *Boon*).
+### D. Obligation Downtime Preparation Time
+- **References:** [`ClockworkPathfinder/Rules/WorldAndLaw.md`](file:///c:/Users/mncoc/OneDrive/Documents/Git/ClockworkCities_Pathfinder/ClockworkPathfinder/Rules/WorldAndLaw.md) (Section 6), [`ClockworkPathfinder/Rules/Skills.md`](file:///c:/Users/mncoc/OneDrive/Documents/Git/ClockworkCities_Pathfinder/ClockworkPathfinder/Rules/Skills.md)
+- **Context:** The distinction between **`Understanding`** (permanent roleplay identity: *who you know and what you know about*) and **`Obligation`** (`Tier 1 Trivial` to `Tier 5 Life Debt` — limited-use forced behavior through societal/family-honor pressure requiring no roll, even if the NPC dislikes or resents you) is now unified and archived in [`resolvedFocusandDevelopment.md`](file:///c:/Users/mncoc/OneDrive/Documents/Git/ClockworkCities_Pathfinder/ClockworkPathfinder/Rules/ToDo/resolvedFocusandDevelopment.md).
+- **Remaining Open Task:**
+  - Build simple Storyteller guidelines for **downtime preparation time** (hours vs. days) when setting up indirect Opportunity Obligations (when the bound NPC is not directly at the scene).
 
 ### E. NPC Stat Block Templates (Civilized / Protected Tags)
 - **Reference:** [`ClockworkPathfinder/Rules/NPCs.md`](file:///c:/Users/mncoc/OneDrive/Documents/Git/ClockworkCities_Pathfinder/ClockworkPathfinder/Rules/NPCs.md)
@@ -95,13 +93,13 @@
   2. **Checkpoint Detection DCs:** Define `Stealth / Thievery` vs. Constable `Perception / Understanding` DCs for smuggling unpackaged weapons, illicit low-power radiant converters, volatile solutions, or contraband cartridges/gunpowder, plus `Investigation / Crafting` DCs for detecting counterfeit King's Guard regalia.
   3. **Crisis Conscription Event Engine:** Structured procedures for emergency militia mobilization (rank assignments, temporary cartridge/converter issues, and post-crisis ordnance return).
 
-### G. Warrens, Tombs, Ruins & Airship Subsystems
-- **References:** [`ClockworkPathfinder/Rules/NewAvalon.md`](file:///c:/Users/mncoc/OneDrive/Documents/Git/ClockworkCities_Pathfinder/ClockworkPathfinder/Rules/NewAvalon.md), [`ClockworkPathfinder/Rules/History.md`](file:///c:/Users/mncoc/OneDrive/Documents/Git/ClockworkCities_Pathfinder/ClockworkPathfinder/Rules/History.md)
+### G. Warrens, Tombs, Frontier Boomtowns & 2D Naval/Zone Piracy Subsystems
+- **References:** [`ClockworkPathfinder/Rules/NewAvalon.md`](file:///c:/Users/mncoc/OneDrive/Documents/Git/ClockworkCities_Pathfinder/ClockworkPathfinder/Rules/NewAvalon.md), [`ClockworkPathfinder/Rules/WorldAndLaw.md`](file:///c:/Users/mncoc/OneDrive/Documents/Git/ClockworkCities_Pathfinder/ClockworkPathfinder/Rules/WorldAndLaw.md), [`ClockworkPathfinder/Rules/History.md`](file:///c:/Users/mncoc/OneDrive/Documents/Git/ClockworkCities_Pathfinder/ClockworkPathfinder/Rules/History.md)
 - **Open Tasks:**
   1. **Warrens & Tombs Exploration Hazards:** Encounter tables for Peasant Paths, Warrens toll gates (12 Pins to 1 Labor), caustic sewage conduits, photosensitive Sycelium crop rot (when exposed to arc flashes/lamps), and the biological **Aberrant Transformation / Degradation Clock** (Goblin, Vampire, Beast, Neanderthal, Troglodyte thresholds).
   2. **Epochal Ruin & Salvage Decay Generator:** Dungeon tables for Era 1 (1715–2110), Era 3 (Proto-Spires), and Era 4 (Dwarven Citadels), plus rapid oxidation/decay rules for pre-collapse salvage exposed to Aither or radiant lamps without vacuum canisters.
-  3. **Cartridge Shelf-Life & Spire Siege Attrition:** Flat DC 5 check for firing >90-day-old scavenged cartridges, and the 4-dial GM Spire Siege Attrition tracker (Munitions, Rations, Grid Stability, Warrens Disease).
-  4. **Airship 2D Cloud Sea Combat:** Rules for 2D naval-style broadsides on the Zone's buoyancy equilibrium plane, magnetic grapple boarding, and Zone lightning squall hazards.
+  3. **Cartridge Shelf-Life, Frontier Boomtown Resupply & Spire Siege Attrition:** Flat DC 5 check for firing >90-day-old scavenged cartridges; resupply/charging availability in **"Tombstone"-style frontier mining towns** before entering the unpowered Orc warband wilds; and the 4-dial GM Spire Siege Attrition tracker (Munitions, Rations, Grid Stability, Warrens Disease) when Orc warbands or rival kingdoms besiege/blockade a Spire.
+  4. **2D Sea & Zone Naval Combat, Piracy & Blockade Running:** Unified 2D naval rules for both surface ships and Zone airships—covering **1650–1730 Golden Age of Piracy** broadsides and grapple-boarding, **Crown-funded privateers (*Letters of Marque*)** using false-flag merchant deception, and **blockade-running** procedures when arriving at a Spire under sudden naval/aerial blockade.
 
 ---
 

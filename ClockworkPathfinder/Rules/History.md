@@ -164,9 +164,11 @@ Last 20 Years:  Modern Arms Race; Fall of Besieged Spires; Distant Continents Co
 - **The Resurgence of Conquest (Last 20 Years):**
   - Cartridge weapons shattered the 200-year stalemate: attacking siege fleets could now bombard a defending spire's arc cannon batteries from outside defensive range.
   - However, weapon cartridges rely on rare chemicals and decay within 3 to 6 months. Attacking armies must outlast a defending city’s cartridge stockpiles, then storm defenses.
-  - Over the past 20 years, several major spires have fallen to this tactic. Smaller kingdoms have willingly merged into colossal empires (such as the rivalry between **Arclean** and **Relocore**), sparking a fierce modern arms race.
-- **Recent Discoveries (Long-Range Airship Breakthroughs):**
-  - Within the last 50 and 10 years, innovations in airship engine efficiency extended flight ranges by months. Explorers have recently made first contact with distant, uncharted continents that had never seen an airship or a Neithercrete spire.
+  - Over the past 20 years, several major spires have fallen to this tactic. Smaller kingdoms have willingly merged into larger powers—such as the three rival kingdoms dividing the British Isles, Channel, and North Sea (**Arclean** with 12 Spires, **Feydial** with 8 Spires, and **Derdore** with 20 smaller Spires) alongside neighboring continental European powers like **Relocore**, **High Bremen**, and **Malichor**—sparking a fierce modern arms race, covert conflicts, and periodic border wars.
+- **Recent Discoveries & Global Horizons (Long-Range Airship Breakthroughs):**
+  - Within the last 50 and 10 years, innovations in airship engine efficiency extended flight ranges by months.
+  - **Europe, Scandinavia & The Barcelona Limit:** Spires extend across Europe—from **Norway, Sweden, and Finland** (where small Elvish colonies also dwell in the high Norwegian mountain peaks) down to the **southernmost European Spire just south of Barcelona**, where higher mountain elevations and taller spires are required to pierce the deepening southern Neither.
+  - **The East & The Americas:** East of the European kingdoms lies the vast **Land of the Warbands**, though exotic trade goods and rumors confirm that **farther East (Asia) another civilization with its own Great Spires exists** (with no direct communication yet). Meanwhile, although the **Elves and Half-Elves have never officially acknowledged it**, slips and rare glimpses indicate that **some form of civilization still survives in the Americas**, though even less is known about it than the East.
 
 ---
 
