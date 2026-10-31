@@ -39,41 +39,58 @@
   <rect x="16" y="16" width="1118" height="1318" fill="none" stroke="#c5a059" stroke-width="2.5"/>
   <rect x="24" y="24" width="1102" height="1302" fill="none" stroke="#c5a059" stroke-width="0.8" stroke-dasharray="6,4"/>
 
-  <!-- ==================== LANDMASS POLYGONS ==================== -->
+  <!-- Waterway Labels -->
+  <g fill="#4fc3f7" font-size="11" font-style="italic" letter-spacing="2" opacity="0.55">
+    <text x="210" y="580" text-anchor="middle">IRISH SEA</text>
+    <text x="310" y="775" text-anchor="middle" transform="rotate(-30, 310, 775)">BRISTOL CHANNEL</text>
+    <text x="680" y="1075" text-anchor="middle">ENGLISH CHANNEL</text>
+    <text x="880" y="520" text-anchor="middle">THE NORTH SEA</text>
+    <text x="730" y="635" font-size="9.5" text-anchor="middle">The Wash</text>
+  </g>
+
+  <!-- ==================== REALISTIC LANDMASS POLYGONS ==================== -->
   <g filter="url(#shadow)">
-    <!-- 1. DERDORE BORDER BUFFER (North-East: Slid North & East into NE Scotland) -->
-    <!-- Covers Eastern half of Northern border (485,220 -> 595,180) -->
+    <!-- 1. DERDORE BORDER BUFFER (North-East: NE Scotland & Border Marches) -->
     <path d="M 485 220 L 595 180 L 635 125 L 595 40 L 485 40 Z"
           fill="#3a1b20" stroke="#ef5350" stroke-width="1.8" opacity="0.85"/>
 
     <!-- 2. NORTHERN ORC WARBANDS BUFFER (North-West: Covering West half of Northern border!) -->
-    <!-- Covers Western half of Northern border (370,215 -> 485,220) -->
     <path d="M 320 40 L 485 40 L 485 220 L 370 215 L 320 160 Z"
           fill="#2b1f1a" stroke="#d96b27" stroke-width="1.8"/>
     <path d="M 320 40 L 485 40 L 485 220 L 370 215 L 320 160 Z"
           fill="url(#orcHatch)"/>
 
-    <!-- 3. FEYDIAL NORTH WALES FOOTHOLD (North-West border - THE ONLY TOUCHING POINT) -->
-    <path d="M 280 440 L 340 440 L 360 520 L 290 530 Z"
+    <!-- 3. FEYDIAL NORTH WALES FOOTHOLD (North-West Wales / Anglesey / Caernarfon) -->
+    <!-- Large landmass jutting into the Irish Sea! Touches Arclean only at Dee estuary (365, 500) -->
+    <path d="M 230 460 L 310 440 L 365 500 L 340 540 L 250 540 L 220 500 Z"
           fill="#17352d" stroke="#4db6ac" stroke-width="2"/>
 
-    <!-- 4. 2ND ORC ZONE BUFFER & SW EXPANSION TRIANGLE (West & South-West Buffer) -->
-    <!-- Drawn from NE corner of Feydial SW holding (350, 880) to SW corner of Arclean (480, 1005) filling as Orc territory -->
-    <path d="M 120 530 L 290 530 L 360 520 L 380 540 L 420 680 L 395 780 L 395 880 L 480 1005 L 350 880 L 280 940 L 150 940 L 120 780 Z"
+    <!-- 4. 2ND ORC ZONE BUFFER & SOUTH WALES / WEST COUNTRY (Open Channel to the Atlantic & Irish Sea) -->
+    <!-- Follows South Wales coast (Severn / Cardiff / Swansea) then recedes inland, keeping Bristol Channel fully open ocean -->
+    <!-- South Wales segment: (340, 540) -> (365, 500) Arclean border -> (375, 580) -> (385, 660) -> (350, 710) -> (280, 715) -> (220, 740) Pembrokeshire -->
+    <!-- Across to England / West Country Orc buffer (Devon / Somerset border to Dorset coast): -->
+    <!-- Starts at Somerset coast (370, 790) -> Arclean Dorset border (480, 990) -> SW Feydial NE border (300, 895) -> Devon north coast (240, 840) -> (300, 810) -->
+    <!-- Combined polygon with clear oceanic gap for Bristol Channel connecting freely out to Irish Sea -->
+    <path d="M 250 540 L 340 540 L 365 500 L 375 580 L 385 660 L 345 710 L 275 715 L 210 745 L 245 770 L 310 750 L 360 740 L 380 720 L 395 690 Z"
           fill="#2b1f1a" stroke="#d96b27" stroke-width="1.8"/>
-    <path d="M 120 530 L 290 530 L 360 520 L 380 540 L 420 680 L 395 780 L 395 880 L 480 1005 L 350 880 L 280 940 L 150 940 L 120 780 Z"
+    <path d="M 250 540 L 340 540 L 365 500 L 375 580 L 385 660 L 345 710 L 275 715 L 210 745 L 245 770 L 310 750 L 360 740 L 380 720 L 395 690 Z"
           fill="url(#orcHatch)"/>
 
-    <!-- 5. FEYDIAL SOUTH-WEST PENINSULA FOOTHOLD (Cornwall / Plymouth - Last 1/2 of Peninsula) -->
-    <!-- NE corner is at (350, 880) -->
-    <path d="M 280 940 L 350 880 L 390 960 L 270 1010 Z"
+    <!-- 4b. SOUTHERN ORC BUFFER (Devon / Somerset Buffer between Arclean and SW Feydial) -->
+    <path d="M 370 820 L 415 880 L 480 990 L 300 895 L 240 855 L 300 830 Z"
+          fill="#2b1f1a" stroke="#d96b27" stroke-width="1.8"/>
+    <path d="M 370 820 L 415 880 L 480 990 L 300 895 L 240 855 L 300 830 Z"
+          fill="url(#orcHatch)"/>
+
+    <!-- 5. FEYDIAL SOUTH-WEST PENINSULA FOOTHOLD (Cornwall / Plymouth — Long SW Peninsula) -->
+    <!-- Realistic long peninsula pointing southwest into Atlantic (Lands End at 70, 970) -->
+    <path d="M 300 895 L 240 885 L 170 880 L 110 930 L 70 970 L 100 995 L 170 965 L 230 960 L 300 940 Z"
           fill="#17352d" stroke="#4db6ac" stroke-width="2"/>
 
-    <!-- 6. KINGDOM OF ARCLEAN MAINLAND (Heart of England) -->
-    <!-- North border: 1/2 with Orcs (370,215 -> 485,220), 1/2 with Derdore (485,220 -> 595,180) -->
-    <!-- West border: Touches Feydial in North Wales, then buffered by Orcs across West/South-West! -->
-    <!-- South coast: Completely Arclean down to English Channel! -->
-    <path d="M 370 215 L 485 220 L 595 180 L 635 250 L 665 340 L 715 450 L 760 560 L 805 680 L 785 765 L 855 790 L 935 840 L 950 940 L 880 1010 L 800 1000 L 715 1010 L 575 1015 L 480 1005 L 395 880 L 420 680 L 380 540 L 360 520 L 340 440 L 340 330 Z"
+    <!-- 6. KINGDOM OF ARCLEAN MAINLAND (Geographically Accurate England) -->
+    <!-- Northumbria & Yorkshire coast -> The Wash -> East Anglia Bulge (Norwich well inland) -> Thames -> South Coast -->
+    <!-- West border: Touches Feydial in North Wales at (365, 500), then bordered by Severn Orcs down to Dorset (480, 990) -->
+    <path d="M 370 215 L 485 220 L 595 180 L 635 250 L 665 340 L 715 450 L 735 520 L 675 620 L 725 655 L 795 675 L 895 685 L 965 720 L 980 770 L 945 835 L 870 875 L 890 910 L 880 955 L 800 985 L 715 995 L 580 970 L 480 990 L 415 880 L 370 820 L 395 690 L 375 580 L 365 500 L 355 420 L 340 330 Z"
           fill="#173650" stroke="#4fc3f7" stroke-width="2.6"/>
 
     <!-- 7. CONTINENTAL NORMANDY FOOTHOLD (Arclean Bridgehead Across Channel) -->
@@ -92,17 +109,23 @@
   <path d="M 485 220 L 595 180" fill="none" stroke="#ff5252" stroke-width="3.5" stroke-dasharray="7,5"/>
 
   <!-- Feydial North Wales Border (The ONLY touching point!) -->
-  <path d="M 340 440 L 360 520" fill="none" stroke="#4db6ac" stroke-width="3" stroke-dasharray="5,3"/>
+  <path d="M 340 440 L 365 500" fill="none" stroke="#4db6ac" stroke-width="3.5" stroke-dasharray="5,3"/>
 
-  <!-- 2nd Orc Zone Buffer Border (West / Southwest Buffer) -->
-  <path d="M 360 520 L 380 540 L 420 680 L 395 780 L 395 880" fill="none" stroke="#ffab40" stroke-width="3.5" stroke-dasharray="7,5"/>
+  <!-- 2nd Orc Zone Buffer Border (West / Southwest Buffer to Dorset Border) -->
+  <path d="M 365 500 L 375 580 L 395 690 L 370 820 L 415 880 L 480 990" fill="none" stroke="#ffab40" stroke-width="3.5" stroke-dasharray="7,5"/>
+
+  <!-- Feydial SW Border (Orc Buffer Boundary across Devon neck) -->
+  <path d="M 300 895 L 480 990" fill="none" stroke="#d96b27" stroke-width="3" stroke-dasharray="6,4"/>
 
   <!-- Border Annotations -->
   <text x="425" y="205" fill="#ffab40" font-size="10.5" font-weight="bold" text-anchor="middle">NORTHERN ORC BORDER (WEST 1/2)</text>
   <text x="545" y="195" fill="#ff8a80" font-size="10.5" font-weight="bold" text-anchor="middle">DERDORE BORDER (EAST 1/2)</text>
-  <text x="240" y="680" fill="#ffab40" font-size="11" font-weight="bold" transform="rotate(-78, 240, 680)">2ND ORC ZONE BUFFER (SEVERN / WEST)</text>
-  <text x="310" y="475" fill="#80cbc4" font-size="9.5" font-weight="bold" text-anchor="end">Feydial Touch Point (N. Wales)</text>
-  <text x="260" y="980" fill="#80cbc4" font-size="9.5" font-weight="bold">Feydial SW Tip (Buffered by Orcs)</text>
+  <text x="310" y="445" fill="#80cbc4" font-size="9.5" font-weight="bold" text-anchor="end">Feydial Touch Point (N. Wales)</text>
+  
+  <!-- Active Orc Buffer Callout between SW Feydial & Arclean -->
+  <rect x="330" y="930" width="135" height="34" rx="3" fill="#180707" stroke="#ffab40" stroke-width="1.2"/>
+  <text x="397" y="945" fill="#ffab40" font-size="8.5" font-weight="bold" text-anchor="middle">ORC BUFFER ZONE</text>
+  <text x="397" y="957" fill="#ffe0b2" font-size="7.5" text-anchor="middle">(Between SW Feydial &amp; Arclean)</text>
 
   <!-- ==================== ROADS & TRADE ROUTES ==================== -->
   <g stroke-linecap="round" stroke-linejoin="round">
@@ -115,7 +138,7 @@
     <path d="M 565 470 C 595 515, 620 560, 640 600" fill="none" stroke="#ffd54f" stroke-width="5.5"/>
     <path d="M 565 470 C 595 515, 620 560, 640 600" fill="none" stroke="#ffffff" stroke-width="2" stroke-dasharray="12,8"/>
 
-    <!-- Southern Triad: Norwich (850, 750) <==> New Avalon / London (680, 890) <==> Dover (810, 930) -->
+    <!-- Southern Network: Norwich (850, 750) <==> London (680, 890) <==> Dover (810, 930) -->
     <path d="M 850 750 C 785 810, 725 850, 680 890" fill="none" stroke="#ffe082" stroke-width="10" opacity="0.25"/>
     <path d="M 850 750 C 785 810, 725 850, 680 890" fill="none" stroke="#ffd54f" stroke-width="5.5"/>
     <path d="M 850 750 C 785 810, 725 850, 680 890" fill="none" stroke="#ffffff" stroke-width="2" stroke-dasharray="12,8"/>
@@ -124,11 +147,10 @@
     <path d="M 680 890 C 730 905, 770 920, 810 930" fill="none" stroke="#ffd54f" stroke-width="5.5"/>
     <path d="M 680 890 C 730 905, 770 920, 810 930" fill="none" stroke="#ffffff" stroke-width="2" stroke-dasharray="12,8"/>
 
-    <!-- Direct Sea Trade Route: Cherbourg (Western Normandy Spire) <==> New Avalon (Portsmouth / Solent Coast) -->
-    <!-- Docks are directly on the coast: sole maritime route crossing the Channel -->
-    <path d="M 580 1185 C 570 1110, 575 1040, 580 970" fill="none" stroke="#00e5ff" stroke-width="8" opacity="0.25"/>
-    <path d="M 580 1185 C 570 1110, 575 1040, 580 970" fill="none" stroke="#00e5ff" stroke-width="4.5"/>
-    <path d="M 580 1185 C 570 1110, 575 1040, 580 970" fill="none" stroke="#ffffff" stroke-width="1.8" stroke-dasharray="8,5"/>
+    <!-- Direct Sea Trade Route: Cherbourg (Western Normandy Spire) <==> New Avalon (Coast) -->
+    <path d="M 580 1185 C 575 1110, 575 1040, 580 970" fill="none" stroke="#00e5ff" stroke-width="8" opacity="0.25"/>
+    <path d="M 580 1185 C 575 1110, 575 1040, 580 970" fill="none" stroke="#00e5ff" stroke-width="4.5"/>
+    <path d="M 580 1185 C 575 1110, 575 1040, 580 970" fill="none" stroke="#ffffff" stroke-width="1.8" stroke-dasharray="8,5"/>
     <text x="590" y="1080" fill="#80deea" font-size="10" font-weight="bold" transform="rotate(84, 590, 1080)">ROYAL SOLENT-NORMANDY SEA ROUTE</text>
 
     <!-- Major Road Linking New Avalon (South Coast) <-> London Spire -->
@@ -156,14 +178,14 @@
     <path d="M 525 615 L 640 600"/>
     <!-- F6 (Trent Stronghold - Midlands Defense) -> Lincoln -->
     <path d="M 570 670 L 640 600"/>
-    <!-- F7 (Cotswold Gate - 2nd Orc Buffer) -> New Avalon -->
+    <!-- F7 (Cotswold Gate - 2nd Orc Buffer) -> London -->
     <path d="M 520 780 L 680 890"/>
     <!-- F8 (Severn Bastion - 2nd Orc Buffer) -> New Avalon -->
-    <path d="M 480 870 L 680 890"/>
-    <!-- F9 (Solent Watch - Channel Defense) -> New Avalon -->
-    <path d="M 620 980 L 680 890"/>
+    <path d="M 440 910 L 580 970"/>
+    <!-- F9 (Solent Watch - Southern Coast Defense) -> New Avalon -->
+    <path d="M 520 985 L 580 970"/>
     <!-- F10 (Normandy Line) -> Rouen -->
-    <path d="M 570 1230 L 660 1200"/>
+    <path d="M 570 1230 L 700 1220"/>
   </g>
 
   <!-- Roads to Close Hamlets (Gold solid) & Farther Mines/Outposts (Cyan dashed) -->
@@ -179,7 +201,7 @@
     <path d="M 875 775 L 850 750" stroke="#ffd54f" stroke-width="3"/>
     <path d="M 645 865 L 680 890" stroke="#ffd54f" stroke-width="3"/>
     <path d="M 715 915 L 680 890" stroke="#ffd54f" stroke-width="3"/>
-    <path d="M 670 925 L 680 890" stroke="#ffd54f" stroke-width="3"/>
+    <path d="M 610 950 L 580 970" stroke="#ffd54f" stroke-width="3"/>
     <path d="M 785 915 L 810 930" stroke="#ffd54f" stroke-width="3"/>
     <path d="M 835 955 L 810 930" stroke="#ffd54f" stroke-width="3"/>
 
@@ -189,9 +211,9 @@
     <path d="M 610 510 L 565 470" stroke="#80deea" stroke-width="2.2" stroke-dasharray="5,4"/>
     <path d="M 685 570 L 640 600" stroke="#80deea" stroke-width="2.2" stroke-dasharray="5,4"/>
     <path d="M 890 735 L 850 750" stroke="#80deea" stroke-width="2.2" stroke-dasharray="5,4"/>
-    <path d="M 614 914 L 680 890" stroke="#80deea" stroke-width="2.2" stroke-dasharray="5,4"/>
+    <path d="M 630 920 L 680 890" stroke="#80deea" stroke-width="2.2" stroke-dasharray="5,4"/>
     <path d="M 740 860 L 680 890" stroke="#80deea" stroke-width="2.2" stroke-dasharray="5,4"/>
-    <path d="M 700 1230 L 660 1200" stroke="#80deea" stroke-width="2.2" stroke-dasharray="5,4"/>
+    <path d="M 700 1230 L 700 1220" stroke="#80deea" stroke-width="2.2" stroke-dasharray="5,4"/>
   </g>
 
   <!-- ==================== 10 BORDER MILITARY FORTS ==================== -->
@@ -225,12 +247,12 @@
     <text x="505" y="778" fill="#ffcdd2" font-size="10.5" font-weight="bold" text-anchor="end">[F7] Fort Cotswold Gate</text>
 
     <!-- F8: Severn Bastion (2nd Orc Zone Buffer) -->
-    <polygon points="480,862 488,870 480,878 472,870" fill="#e53935" stroke="#ffffff" stroke-width="2"/>
-    <text x="465" y="868" fill="#ffcdd2" font-size="10.5" font-weight="bold" text-anchor="end">[F8] Fort Severn Bastion</text>
+    <polygon points="440,902 448,910 440,918 432,910" fill="#e53935" stroke="#ffffff" stroke-width="2"/>
+    <text x="425" y="908" fill="#ffcdd2" font-size="10.5" font-weight="bold" text-anchor="end">[F8] Fort Severn Bastion</text>
 
     <!-- F9: Solent Watch (Southern Coast Defense) -->
-    <polygon points="620,972 628,980 620,988 612,980" fill="#e53935" stroke="#ffffff" stroke-width="2"/>
-    <text x="605" y="978" fill="#ffcdd2" font-size="10.5" font-weight="bold" text-anchor="end">[F9] Fort Solent Watch</text>
+    <polygon points="520,977 528,985 520,993 512,985" fill="#e53935" stroke="#ffffff" stroke-width="2"/>
+    <text x="505" y="983" fill="#ffcdd2" font-size="10.5" font-weight="bold" text-anchor="end">[F9] Fort Solent Watch</text>
 
     <!-- F10: Normandy Line -->
     <polygon points="570,1222 578,1230 570,1238 562,1230" fill="#e53935" stroke="#ffffff" stroke-width="2"/>
@@ -271,17 +293,17 @@
     <rect x="800" y="770" width="12" height="12" fill="#1b262c" stroke="#ffb74d" stroke-width="2"/>
     <text x="792" y="778" fill="#ffb74d" font-size="9.5" font-style="italic" text-anchor="end">[M8] Thetford Sump (Remote)</text>
 
-    <!-- M9 (Road to New Avalon): Thames Estuary Sump & Cement Works -->
-    <rect x="608" y="908" width="12" height="12" fill="#1b262c" stroke="#80deea" stroke-width="2"/>
-    <text x="600" y="918" fill="#80deea" font-size="10" font-weight="bold" text-anchor="end">[M9] Thames Sump (Road)</text>
+    <!-- M9 (Road to London): Thames Estuary Sump & Cement Works -->
+    <rect x="624" y="914" width="12" height="12" fill="#1b262c" stroke="#80deea" stroke-width="2"/>
+    <text x="616" y="924" fill="#80deea" font-size="10" font-weight="bold" text-anchor="end">[M9] Thames Sump (Road)</text>
 
     <!-- M10 (Remote/No road): Weald Iron Scrapings -->
     <rect x="730" y="950" width="12" height="12" fill="#1b262c" stroke="#ffb74d" stroke-width="2"/>
     <text x="750" y="958" fill="#ffb74d" font-size="9.5" font-style="italic">[M10] Weald Iron (Remote)</text>
 
     <!-- M11 (Remote/No road): Mendip Deep Dwarven Shaft (Badlands Fringe) -->
-    <rect x="420" y="820" width="12" height="12" fill="#1b262c" stroke="#ffb74d" stroke-width="2"/>
-    <text x="412" y="816" fill="#ffb74d" font-size="9.5" font-style="italic" text-anchor="end">[M11] Mendip Dwarven Shaft (Remote)</text>
+    <rect x="360" y="810" width="12" height="12" fill="#1b262c" stroke="#ffb74d" stroke-width="2"/>
+    <text x="352" y="806" fill="#ffb74d" font-size="9.5" font-style="italic" text-anchor="end">[M11] Mendip Dwarven Shaft (Remote)</text>
 
     <!-- M12 (Road to Rouen/Normandy): Seine Chalk & Gypsum Diggings -->
     <rect x="694" y="1224" width="12" height="12" fill="#1b262c" stroke="#80deea" stroke-width="2"/>
@@ -330,21 +352,22 @@
     <circle cx="875" cy="775" r="4.5" fill="#ffd54f" stroke="#000000" stroke-width="1.2"/>
     <text x="885" y="779" fill="#fff9c4" font-size="9">Yarmouth Wharves</text>
 
-    <!-- New Avalon / London Group -->
+    <!-- London Group -->
     <circle cx="645" cy="865" r="4.5" fill="#ffd54f" stroke="#000000" stroke-width="1.2"/>
     <text x="635" y="861" fill="#fff9c4" font-size="9" text-anchor="end">Greenwich Reach</text>
 
     <circle cx="715" cy="915" r="4.5" fill="#ffd54f" stroke="#000000" stroke-width="1.2"/>
     <text x="725" y="919" fill="#fff9c4" font-size="9">Chatham Wharves</text>
 
-    <circle cx="670" cy="925" r="4.5" fill="#ffd54f" stroke="#000000" stroke-width="1.2"/>
-    <text x="660" y="935" fill="#fff9c4" font-size="9" text-anchor="end">Croydon Grange</text>
-
     <circle cx="740" cy="860" r="4.5" fill="#80deea" stroke="#000000" stroke-width="1.2"/>
     <text x="750" y="864" fill="#e0f7fa" font-size="9">Chelmsford Outpost (Road)</text>
 
     <circle cx="560" cy="840" r="4.5" fill="none" stroke="#ff9800" stroke-width="2"/>
     <text x="550" y="836" fill="#ffe0b2" font-size="9" font-style="italic" text-anchor="end">Chiltern Hideout (No Path)</text>
+
+    <!-- New Avalon / South Coast Group -->
+    <circle cx="610" cy="950" r="4.5" fill="#ffd54f" stroke="#000000" stroke-width="1.2"/>
+    <text x="618" y="946" fill="#fff9c4" font-size="9">Solent Grange</text>
 
     <!-- Dover Group -->
     <circle cx="785" cy="915" r="4.5" fill="#ffd54f" stroke="#000000" stroke-width="1.2"/>
@@ -358,7 +381,7 @@
     <text x="590" y="1254" fill="#ffe0b2" font-size="9" font-style="italic" text-anchor="end">Bayeux Squatters (No Path)</text>
   </g>
 
-  <!-- ==================== THE 6 ARCLEAN SPIRES ==================== -->
+  <!-- ==================== THE ARCLEAN SPIRES ==================== -->
   <g filter="url(#spireGlow)">
     <!-- 1. Newcastle Spire (North Group #1) -->
     <circle cx="520" cy="290" r="13" fill="#153652" stroke="#4fc3f7" stroke-width="2.8"/>
@@ -372,7 +395,7 @@
     <circle cx="640" cy="600" r="13" fill="#153652" stroke="#4fc3f7" stroke-width="2.8"/>
     <circle cx="640" cy="600" r="5.5" fill="#ffffff"/>
 
-    <!-- 4. Norwich Spire (East Anglia) -->
+    <!-- 4. Norwich Spire (East Anglia - WELL INLAND FROM COAST) -->
     <circle cx="850" cy="750" r="14" fill="#153652" stroke="#ffd54f" stroke-width="2.8"/>
     <circle cx="850" cy="750" r="6" fill="#4fc3f7" stroke="#ffffff" stroke-width="1.8"/>
 
@@ -384,15 +407,19 @@
     <circle cx="810" cy="930" r="13" fill="#153652" stroke="#4fc3f7" stroke-width="2.8"/>
     <circle cx="810" cy="930" r="5.5" fill="#ffffff"/>
 
-    <!-- 7. NEW AVALON (ROYAL CAPITAL SPIRE — Directly North of Normandy on Solent/South Coast) -->
+    <!-- 7. NEW AVALON (ROYAL CAPITAL SPIRE — Directly North of Normandy on Coast) -->
     <circle cx="580" cy="970" r="23" fill="#153652" stroke="#ffd54f" stroke-width="4.5"/>
     <circle cx="580" cy="970" r="10" fill="#4fc3f7" stroke="#ffffff" stroke-width="2.5"/>
 
-    <!-- 8. Cherbourg Spire (Normandy NW Coast Foothold) -->
+    <!-- 8. Plymouth Spire (Feydial SW Peninsula Tip) -->
+    <circle cx="170" cy="965" r="12" fill="#17352d" stroke="#ffd54f" stroke-width="2.5"/>
+    <circle cx="170" cy="965" r="5" fill="#4db6ac"/>
+
+    <!-- 9. Cherbourg Spire (Normandy NW Coast Foothold) -->
     <circle cx="580" cy="1185" r="13" fill="#153652" stroke="#ffd54f" stroke-width="2.5"/>
     <circle cx="580" cy="1185" r="5.5" fill="#ffffff"/>
 
-    <!-- 9. Rouen Spire (Normandy SE Border Foothold) -->
+    <!-- 10. Rouen Spire (Normandy SE Border Foothold) -->
     <circle cx="700" cy="1220" r="14" fill="#153652" stroke="#ffd54f" stroke-width="3"/>
     <circle cx="700" cy="1220" r="6" fill="#4fc3f7" stroke="#ffffff" stroke-width="1.8"/>
   </g>
@@ -434,6 +461,11 @@
     <text x="912" y="929" fill="#ffffff" font-size="12.5" font-weight="bold" text-anchor="middle">Dover Spire</text>
     <text x="912" y="943" fill="#80deea" font-size="9.5" text-anchor="middle">Channel Defense Bastion</text>
 
+    <!-- Plymouth Spire Banner (SW Peninsula) -->
+    <rect x="60" y="915" width="170" height="38" rx="4" fill="#06121c" stroke="#4db6ac" stroke-width="1.8" opacity="0.96"/>
+    <text x="145" y="931" fill="#ffd54f" font-size="11.5" font-weight="bold" text-anchor="middle">Plymouth Spire</text>
+    <text x="145" y="944" fill="#80cbc4" font-size="8.5" text-anchor="middle">Feydial SW Peninsula Tip</text>
+
     <!-- Normandy Spire 1 (Cherbourg - NW Coast) -->
     <rect x="465" y="1145" width="195" height="38" rx="4" fill="#06121c" stroke="#ffd54f" stroke-width="1.8" opacity="0.96"/>
     <text x="562" y="1162" fill="#ffd54f" font-size="12" font-weight="bold" text-anchor="middle">Cherbourg Spire (Normandy)</text>
@@ -450,8 +482,8 @@
     <rect x="520" y="225" width="260" height="26" rx="4" fill="#081826" stroke="#4fc3f7" stroke-width="1.2" opacity="0.92"/>
     <text x="650" y="242" text-anchor="middle">▲ 3 NORTHERN SPIRES (NETWORK) ▲</text>
 
-    <rect x="650" y="825" width="260" height="26" rx="4" fill="#081826" stroke="#4fc3f7" stroke-width="1.2" opacity="0.92"/>
-    <text x="780" y="842" text-anchor="middle">▼ 3 SOUTHERN SPIRES (NETWORK) ▼</text>
+    <rect x="650" y="810" width="260" height="26" rx="4" fill="#081826" stroke="#4fc3f7" stroke-width="1.2" opacity="0.92"/>
+    <text x="780" y="827" text-anchor="middle">▼ SOUTHERN SPIRE NETWORK ▼</text>
   </g>
 
   <!-- ==================== MAP TITLE & COMPACT SCALE ==================== -->
