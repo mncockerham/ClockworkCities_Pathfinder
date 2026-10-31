@@ -57,14 +57,15 @@
     <path d="M 280 440 L 340 440 L 360 520 L 290 530 Z"
           fill="#17352d" stroke="#4db6ac" stroke-width="2"/>
 
-    <!-- 4. 2ND ORC ZONE BUFFER (West & South-West Buffer) -->
-    <!-- Runs south along the Severn, Somerset, Devon, separating Arclean from SW Feydial! -->
-    <path d="M 120 530 L 290 530 L 360 520 L 380 540 L 420 680 L 395 780 L 350 880 L 280 940 L 150 940 L 120 780 Z"
+    <!-- 4. 2ND ORC ZONE BUFFER & SW EXPANSION TRIANGLE (West & South-West Buffer) -->
+    <!-- Drawn from NE corner of Feydial SW holding (350, 880) to SW corner of Arclean (480, 1005) filling as Orc territory -->
+    <path d="M 120 530 L 290 530 L 360 520 L 380 540 L 420 680 L 395 780 L 395 880 L 480 1005 L 350 880 L 280 940 L 150 940 L 120 780 Z"
           fill="#2b1f1a" stroke="#d96b27" stroke-width="1.8"/>
-    <path d="M 120 530 L 290 530 L 360 520 L 380 540 L 420 680 L 395 780 L 350 880 L 280 940 L 150 940 L 120 780 Z"
+    <path d="M 120 530 L 290 530 L 360 520 L 380 540 L 420 680 L 395 780 L 395 880 L 480 1005 L 350 880 L 280 940 L 150 940 L 120 780 Z"
           fill="url(#orcHatch)"/>
 
     <!-- 5. FEYDIAL SOUTH-WEST PENINSULA FOOTHOLD (Cornwall / Plymouth - Last 1/2 of Peninsula) -->
+    <!-- NE corner is at (350, 880) -->
     <path d="M 280 940 L 350 880 L 390 960 L 270 1010 Z"
           fill="#17352d" stroke="#4db6ac" stroke-width="2"/>
 

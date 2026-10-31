@@ -39,6 +39,10 @@
     <polygon points="420,50 435,56 430,44" fill="#80deea"/>
     <!-- Channel Trade: London <-> Normandy -->
     <path d="M 602 785 C 600 850, 595 910, 595 965" fill="none" stroke="#4fc3f7" stroke-width="2.2" stroke-dasharray="5,4"/>
+    <!-- Derdore Irish Sea Corridor (Derdore Scottish Coast <-> Isle of Man) -->
+    <path d="M 485 450 C 450 490, 420 520, 396 545" fill="none" stroke="#ef5350" stroke-width="1.8" stroke-dasharray="5,4" opacity="0.8"/>
+    <text x="450" y="495" fill="#ff8a80" font-size="8.5" font-weight="bold" transform="rotate(-38, 450, 495)">Derdore Manx Corridor</text>
+
     <!-- Dutch Spire Shipping Lane (Derdore Dutch Spires <-> NE Scotland) -->
     <path d="M 820 745 C 750 620, 620 400, 552 302" fill="none" stroke="#ef5350" stroke-width="1.8" stroke-dasharray="6,4"/>
   </g>
@@ -81,15 +85,15 @@
     <path d="M 405 645 L 458 642 L 468 685 L 438 705 L 385 675 Z"
           fill="#173d32" stroke="#4db6ac" stroke-width="2"/>
 
-    <!-- 8. 2ND ORC ZONE (Severn / South Wales / Devon / West Country BUFFER) -->
-    <!-- Orcs extend south and west across Somerset/Devon/Severn, buffering Arclean from the SW tip! -->
-    <path d="M 438 705 L 468 685 L 472 745 L 485 795 L 448 825 L 388 855 L 415 890 L 472 825 L 432 802 L 378 785 L 395 742 Z"
+    <!-- 8. 2ND ORC ZONE (Severn / South Wales / Devon / West Country BUFFER & EXPANSION TRIANGLE) -->
+    <!-- Line drawn from NE corner of Feydial SW holding (415, 890) to SW corner of Arclean (522, 872) filling in as Orc territory -->
+    <path d="M 438 705 L 468 685 L 472 745 L 485 795 L 522 872 L 415 890 L 388 855 L 448 825 L 432 802 L 378 785 L 395 742 Z"
           fill="#33221b" stroke="#d96b27" stroke-width="1.8"/>
-    <path d="M 438 705 L 468 685 L 472 745 L 485 795 L 448 825 L 388 855 L 415 890 L 472 825 L 432 802 L 378 785 L 395 742 Z"
+    <path d="M 438 705 L 468 685 L 472 745 L 485 795 L 522 872 L 415 890 L 388 855 L 448 825 L 432 802 L 378 785 L 395 742 Z"
           fill="url(#orcHatch)"/>
 
     <!-- 9. FEYDIAL — SOUTHWEST PENINSULA FOOTHOLD (Last 1/2 of SW Peninsula: Cornwall / Plymouth) -->
-    <!-- Moved from Hampshire to the far SW tip, buffered by Orcs to the east! -->
+    <!-- NE corner is at (415, 890) -->
     <path d="M 345 902 L 388 855 L 415 890 L 368 915 Z"
           fill="#173d32" stroke="#4db6ac" stroke-width="2"/>
 
@@ -213,18 +217,23 @@
 
   <!-- ==================== THE UNSPOKEN DOCTRINE CALLOUT ==================== -->
   <g transform="translate(40, 40)">
-    <rect width="410" height="155" rx="6" fill="#061420" stroke="#c5a059" stroke-width="2" opacity="0.96"/>
-    <rect x="6" y="6" width="398" height="143" rx="4" fill="none" stroke="#c5a059" stroke-width="0.8" stroke-dasharray="5,3"/>
-    <text x="205" y="28" fill="#c5a059" font-size="14.5" font-weight="bold" text-anchor="middle" letter-spacing="1">THE THREE POWERS OF THE ISLES</text>
-    <text x="205" y="44" fill="#81d4fa" font-size="10" font-style="italic" text-anchor="middle">Shared Northern Orc Threat &amp; Southern Orc Buffer</text>
-    <line x1="20" y1="52" x2="390" y2="52" stroke="#c5a059" stroke-width="0.8" opacity="0.6"/>
+    <rect width="410" height="175" rx="6" fill="#061420" stroke="#c5a059" stroke-width="2" opacity="0.96"/>
+    <rect x="6" y="6" width="398" height="163" rx="4" fill="none" stroke="#c5a059" stroke-width="0.8" stroke-dasharray="5,3"/>
+    <text x="205" y="26" fill="#c5a059" font-size="14.5" font-weight="bold" text-anchor="middle" letter-spacing="1">THE THREE POWERS OF THE ISLES</text>
+    <text x="205" y="42" fill="#81d4fa" font-size="10" font-style="italic" text-anchor="middle">Airspace Sovereignty, Ground Reality &amp; Orc Fluctuations</text>
+    <line x1="20" y1="50" x2="390" y2="50" stroke="#c5a059" stroke-width="0.8" opacity="0.6"/>
 
-    <text x="20" y="70" fill="#ffd54f" font-size="10.5" font-weight="bold">THE UNSPOKEN DOCTRINE OF THE ISLES:</text>
-    <text x="20" y="86" fill="#ffffff" font-size="9.5" font-style="italic">"I against my brother, my brother &amp; I against our cousins,</text>
-    <text x="20" y="99" fill="#ffffff" font-size="9.5" font-style="italic">our cousins and ourselves against the world."</text>
-    <text x="20" y="117" fill="#cfd8dc" font-size="9">If any continental empire lands troops on Isle soil, all three</text>
-    <text x="20" y="130" fill="#cfd8dc" font-size="9">nations unite to crush the invasion before resuming their cold war.</text>
-    <text x="20" y="144" fill="#ffab40" font-size="8.5" font-weight="bold">Orc Ceiling: Shared Orc border in North + Orc buffer in SW.</text>
+    <text x="20" y="68" fill="#ffd54f" font-size="10.5" font-weight="bold">THE UNSPOKEN DOCTRINE OF THE ISLES:</text>
+    <text x="20" y="83" fill="#ffffff" font-size="9" font-style="italic">"I against my brother, my brother &amp; I against our cousins,</text>
+    <text x="20" y="95" fill="#ffffff" font-size="9" font-style="italic">our cousins and ourselves against the world."</text>
+    <text x="20" y="110" fill="#cfd8dc" font-size="8.5">If any continental empire lands troops on Isle soil, all three</text>
+    <text x="20" y="122" fill="#cfd8dc" font-size="8.5">nations unite to crush the invasion before resuming their cold war.</text>
+    
+    <line x1="20" y1="130" x2="390" y2="130" stroke="#4fc3f7" stroke-width="0.5" opacity="0.5"/>
+    <text x="20" y="144" fill="#80deea" font-size="8.5" font-weight="bold">Air Borders vs. Surface Flux Note:</text>
+    <text x="20" y="156" fill="#b0bec5" font-size="8">Map bounds represent Royal Airspace claimed and patrolled in the Zone.</text>
+    <text x="20" y="167" fill="#ffab40" font-size="8">Ground reality: Orc-controlled lands fluctuate constantly and are ~50%</text>
+    <text x="20" y="177" fill="#ffab40" font-size="8">larger, residing directly beneath nominal kingdom claims.</text>
   </g>
 
   <!-- ==================== MAP LEGEND ==================== -->
