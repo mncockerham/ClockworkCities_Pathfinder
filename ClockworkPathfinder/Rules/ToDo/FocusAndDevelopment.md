@@ -3,6 +3,7 @@
 - **Status:** **Active Backlog & Playtest Tracker**
 - **Location:** `ClockworkPathfinder/Rules/ToDo/FocusAndDevelopment.md`
 - **Archive of Resolved Systems:** All finalized and codified subsystems have been moved to [`resolvedFocusandDevelopment.md`](file:///c:/Users/mncoc/OneDrive/Documents/Git/ClockworkCities_Pathfinder/ClockworkPathfinder/Rules/ToDo/resolvedFocusandDevelopment.md).
+- **Current Operational Focus:** 4-Character Level 1 Playtest Party (New Avalon 100-Mile Theater) to stress-test gear sufficiency, combat flow, and healing aftermath.
 - **Guiding Design Hierarchy (`[00_RulesFoundation.md]`):**
   1. **Priority 1:** *Is it fun/beneficial to the game?* (If not, why are we doing it this way?)
   2. **Priority 2:** *Does it fit the theme and mood of the game world?*
@@ -10,17 +11,25 @@
 
 ---
 
-## 1. High-Priority Mechanical Systems Needing Calibration & Playtesting
+## 1. Immediate Next Step: 4-Character Playtest Party & Combat Simulation
+Build a balanced 4-character party following the complete character creation rules, rooted in **Ward 13 of New Avalon**, and run simulated combat encounters (skirmishes within the 100-mile frontier radius) to identify missing equipment, gear balance issues, and post-combat healing flow:
 
-### A. Wound System, Trauma Floor & Chirurgeon Economy Playtesting
-- **Reference:** [`ClockworkPathfinder/Rules/Healing.md`](file:///c:/Users/mncoc/OneDrive/Documents/Git/ClockworkCities_Pathfinder/ClockworkPathfinder/Rules/Healing.md), [`AISummary/20_Healing.md`](file:///c:/Users/mncoc/OneDrive/Documents/Git/ClockworkCities_Pathfinder/AISummary/20_Healing.md)
-- **Open Calibration & Playtest Tasks:**
-  1. **Low-Level Trauma Ceiling Floor:** Currently, the trauma ceiling for Regular Damage while suffering Critical/Mortal wounds is $\text{Level} + \text{CON mod}$ (only 3 HP at Level 1 with CON +2, meaning a single 4-damage punch immediately dips back into Critical wounds). Evaluate whether low-level characters need a minimum trauma floor (e.g., $\max(\text{Level} + \text{CON}, 5)$) to prevent perpetual trauma loops at Levels 1–3.
-  2. **Multi-Encounter Trauma Pacing:** Playtest how parties adapt when carrying the trauma ceiling during an active multi-day expedition in the Warrens or Neither depths.
-  3. **Chirurgeon Medical Kit Economy:** Balance surgical kit consumable costs and field stabilization DC checks against the 1/hour and 1/minute bleed-out clocks.
-  4. **Direct Stat Damage Ergonomics:** Ensure table bookkeeping of temporary direct attribute penalties (e.g., –2 Str from Mortal trauma) is smooth alongside standard PF2e conditions.
+### Playtest Party Roster (Level 1):
+1. **The Dandy / Duellist (High Society & Courtly Finesse):** Focus on legal Spire swordplay (Spire Dueling Blade / rapier), Disarm/Feint, Status/Influence social leverage, and luxury light armor.
+2. **The Chirurgeon / Field Medic (Biomedical Support & Science):** Focus on Treat Wounds, Surgical Kit economy, non-contraband biological solutions, and Adrenal Injector emergency management.
+3. **The Soldier / Frontier Ranger (Martial Anchor & Long Gunner):** Focus on high HP, Savage Combatant brawling/daggers in public wards, and legal longarm/cartridge rifle carriage outside the gates.
+4. **The Clockwork Engineer / Tinker (Technical Gadgeteer & Utility):** Focus on AP-based reactive pulse gizmos, battery-powered lights/meters, field repairs of salvaged cartridge weapons, and environmental protection gear.
 
-### B. Ranged Weapons, Cartridge Logistics & Grind Playtesting
+### Playtest Goals & Gear Auditing:
+- **Equipment Completeness:** Identify missing everyday adventure items, tools, survival packs, and weapon accessories needed for operating within 100 miles of New Avalon (the Firth of Forth, moorland trails, mining hamlets, and Spire gates).
+- **Wound & Adrenaline Flow:** Verify the Adrenaline Buffer prevents combat death spirals, and test post-fight condition accumulation (1, 5, 10, 15, 20 points).
+- **Cartridge & Resource Tracking:** Test the finite cartridge economy against simple bows/crossbows and melee weapon endurance.
+
+---
+
+## 2. High-Priority Mechanical Systems Needing Calibration & Playtesting
+
+### A. Ranged Weapons, Cartridge Logistics & Grind Playtesting
 - **Reference:** [`ClockworkPathfinder/Rules/RangedWeapons.md`](file:///c:/Users/mncoc/OneDrive/Documents/Git/ClockworkCities_Pathfinder/ClockworkPathfinder/Rules/RangedWeapons.md), [`ClockworkPathfinder/Rules/NeitherTeck/Weapons.md`](file:///c:/Users/mncoc/OneDrive/Documents/Git/ClockworkCities_Pathfinder/ClockworkPathfinder/Rules/NeitherTeck/Weapons.md)
 - **Open Calibration & Playtest Tasks:**
   1. **Wilderness Ammunition Stress-Testing (Grind Balance):** Now that Cartridge Weapons have full firearm ranges (`30–150 ft`), boosted damage (`1d8` to `2d10`), `Reload 1 / 2 / 3` by cartridge size, and full firing rate with trained Discipline Tags, run multi-day wasteland delves to test how players ration finite cartridges across the 70% attrition grind vs. falling back to bows/crossbows (`Reload 0` / unlimited resupply).

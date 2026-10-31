@@ -197,6 +197,6 @@ As established in [TheNeither.md](file:///c:/Users/mncoc/OneDrive/Documents/Git/
   - **Score 0–1.5:** 100% normal recovery.
   - **Score 2–3.5:** 50% recovery rate.
   - **Score 4–5:** 25% recovery rate.
-  - **Score 5.5–6:** 0 natural healing, plus 1d8 damage/day from cellular collapse.
-  - **Score 6.5+:** 0 natural healing, plus 3d8 damage/day.
+  - **Score 5.5–6:** 0 natural healing, plus (1d8 + 5) damage/day from cellular collapse (begins 24 hours after exposure).
+  - **Score 6.5+:** 0 natural healing, plus (3d8 + 10) damage/day from acute systemic collapse (begins 24 hours after exposure).
 - **Convalescence in Clean Air:** True biological recovery from deep wound steps requires access to clean native air (Aither for Types 1–3, Neither for Type 5, etc.) or pressurized hyperbaric sanatoriums.

@@ -1,6 +1,7 @@
 # Clockwork Cities Pathfinder — Project Rules
 
 - Goal: convert the Clockwork Cities setting to a heavily modified Pathfinder Core rule set.
+- Current Focus: Healing & Wound Thresholds (`AISummary/20_Healing.md`) and Equipment systems (`ClockworkPathfinder/Equipment/`, tech/gear rules).
 - Primary reference: `AISummary/WorldSummary.md`. Start here for all design work; only open `SourceDocuments/` when exact wording or detail is needed.
 - `SourceDocuments/` = guidance only. `SourceDocuments/OlderIdeas/` = legacy reference; do NOT edit or delete, do NOT reuse its mechanics.
 - All mechanics from source docs are discarded; world facts (money, social class, wealth/status, exposure, humanity types) stay canon.

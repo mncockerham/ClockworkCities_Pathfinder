@@ -11,17 +11,22 @@
 ### A. 3-Step Wound System, Lethal/Nonlethal Buffers, and Bleed-Out Clock [RESOLVED]
 - **Reference:** [`ClockworkPathfinder/Rules/Healing.md`](file:///c:/Users/mncoc/OneDrive/Documents/Git/ClockworkCities_Pathfinder/ClockworkPathfinder/Rules/Healing.md), [`AISummary/20_Healing.md`](file:///c:/Users/mncoc/OneDrive/Documents/Git/ClockworkCities_Pathfinder/AISummary/20_Healing.md)
 - **Codified Mechanics:**
-  - **HP Thresholds:** Step size calculated as $\lfloor \text{Max HP} / 4 \rfloor$. Divided into **Mortal Wounds** (Step 1, weeks), **Critical Wounds** (Step 2, days), and **Regular Damage** (Remaining, normal PF2e).
-  - **Trauma Ceiling ($\text{Level} + \text{CON}$):** Regular Damage heals per standard PF2e (Treat Wounds, rest), but is capped at $\text{Level} + \text{CON}$ if any Critical or Mortal damage remains unhealed.
-  - **Two Damage Trackers & Damage Priority:** Tracks **Total Damage** and **Nonlethal Damage** ($\text{Lethal} = \text{Total} - \text{Nonlethal}$). Lethal damage is **always applied against HP tiers first** (filling Regular Damage first), with nonlethal sitting on top.
-  - **Rapid Nonlethal Recovery:** Outside of combat, nonlethal damage naturally heals at **1 point per minute** across all levels.
-  - **Unconsciousness vs. Dying Boundary:** At 0 HP, characters are merely **Unconscious and stable** as long as negative lethal has not exceeded their total nonlethal damage.
-  - **Deterministic Bleed-Out Clock in Negative HP:** Replaces PF2e flat recovery checks. Once net negative lethal damage $> 0$:
-    - **Stage 1 (1 to $\text{Step}$ / Critical capacity):** Takes **1 damage per hour**.
-    - **Stage 2 ($\text{Step} + 1$ to $2 \times \text{Step}$ / Acute arterial collapse):** Takes **1 damage per minute**.
-    - **Permanent Biological Death:** Occurs when net negative lethal damage reaches $\ge 2 \times \text{Step}$ (Critical + Mortal capacity).
-  - **Clinical Recovery Rates & Care Bonus:** Bed rest recovers $\lfloor \frac{1}{5} \text{Level} \rfloor + \text{CON}$ per day (Critical) or per week (Mortal). Skilled medical attention increases this to full $\text{CON}$ per day/week. 1 full day (Critical) or 1 full week (Mortal) of dedicated clinical hospitalization restores all regular Damage HP.
-  - **Anatomical Wound Consequence Table (d8):** Standardized PF2e conditions (*Clumsy*, *Enfeebled*, *Stupefied*, *Drained*, Speed penalties) with targeted direct attribute modifier penalties (–2 Str, –3 Dex, etc.) for catastrophic Mortal trauma.
+  - **HP Thresholds & Low-Level Step Sizing:** 
+    - Total HP $\le 16$: Fixed 3 Mortal (1–3), 3 Critical (4–6), and $(7 \text{ to } \text{Max HP})$ Regular Damage buffer.
+    - Total HP $\ge 17$: Standard $\text{Step} = \lfloor \text{Total HP} / 4 \rfloor$.
+  - **Adrenaline Buffer (In-Combat Protection):** Critical and Mortal wound condition penalties (and threshold increases) **do NOT apply mid-combat**; they are tallied and only take effect post-combat when adrenaline fades, eliminating mid-fight degradation loops.
+  - **Wound Incurrence Rule:** Structural anatomical wounds (Critical and Mortal tiers) only occur when knocked to negative HP by damage exceeding the character's Mortal HP total.
+  - **Condition Trigger Sequence:** Conditions manifest at **1, 5, 10, 15, and 20 points** of accumulated wound damage post-combat, based on incoming damage type (Blunt, Piercing, Slashing, Acid, Poison).
+  - **Direct Attribute Penalties:** Direct stat penalties occur **only if a character reaches 0 HP**, persisting until all Critical wounds are fully cleared.
+  - **Medical Facility Care & Re-Injury Clause:** 2 full days of care (for Critical) or 1 full week (for Mortal) in a hospital clears the field Trauma Ceiling ($\text{Level} + \text{CON}$), allowing normal regular HP healing and suppressing wound conditions until a new point of critical/mortal damage is taken. Field Chirurgeons cannot bypass the Trauma Ceiling in the wild (preventing mandatory "class tax").
+  - **Nonlethal Damage Rules:** Nonlethal damage never advances the wound track. Attackers can freely convert nonlethal attacks into lethal against unconscious targets. Nonlethal damage heals at 1 pt/min starting 5 minutes after the last damage taken.
+  - **Bleed-Out Stabilization & Waking Up:**
+    - Administer First Aid is **DC 15** (Stage 1 / minor) or **DC 20** (Stage 2 / arterial).
+    - Dying character can roll an immediate **DC $10 + \text{negative damage}$** recovery check to halt the bleed clock.
+    - Waking up from 0 HP requires **a full night's rest (8 hours)** or **active healing from clockwork/biomedical tech**.
+  - **Terminal Falls & Instant Death Boundaries:** Falls over 200 ft are terminal instant death; falls up to 200 ft cap at **18d6 lethal bludgeoning**. Other instant deaths restricted strictly to Massive Damage ($\ge \text{Max HP}$), Zone barrier discharges, and reactor/Neither dissolution.
+  - **Adrenal Injector:** Single-use combat stimulant removing wound penalties for the combat; causes post-fight Exhaustion. Injections between fights deal 1d6 damage cascading into mortal tiers.
+  - **Environmental Exposure & Starvation Shift:** Shift 5.5–6.0 deals (1d8+5) damage/day; Shift 6.5+ deals (3d8+10) damage/day starting 24h after exposure. Fasting counts as +0.5 Food Shift/day. Convalescence restores 3 points/week after a 7-day stabilization period.
 
 ### B. Firearm Lethality, Aither Dread & Neither Weapon Architecture [RESOLVED]
 - **Reference:** [`ClockworkPathfinder/Rules/RangedWeapons.md`](file:///c:/Users/mncoc/OneDrive/Documents/Git/ClockworkCities_Pathfinder/ClockworkPathfinder/Rules/RangedWeapons.md), [`ClockworkPathfinder/Rules/NeitherTeck/Weapons.md`](file:///c:/Users/mncoc/OneDrive/Documents/Git/ClockworkCities_Pathfinder/ClockworkPathfinder/Rules/NeitherTeck/Weapons.md)

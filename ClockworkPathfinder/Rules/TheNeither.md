@@ -223,7 +223,7 @@ Biological healing from natural rest, medical treatment, and downtime recuperati
 | **0.0 to 1.5** | **100% Normal Healing Rate.** Full recovery of Hit Points and wounds during long-term rest. No biological healing penalties. |
 | **2.0 to 3.5** | **50% Normal Healing Rate.** All natural HP recovery and wound recovery steps take twice as long. |
 | **4.0 to 5.0** | **25% Normal Healing Rate.** Sluggish, suppressed cellular recovery; resting restores only 1/4 normal HP. |
-| **5.5 to 6.0** | **No Natural Healing + 1d8 Damage per Day.** Cellular necrosis sets in. Natural rest restores 0 HP, and the character suffers **1d8 damage each day at dawn** (cannot be reduced by physical resistance). |
+| **5.5 to 6.0** | **No Natural Healing + (1d8 + 5) Damage per Day.** Cellular necrosis sets in. Natural rest restores 0 HP, and the character suffers **(1d8 + 5) damage per day** (begins 24 hours after exposure; cannot be reduced by physical resistance). |
 | **6.5 or Higher** | **No Natural Healing + 3d8 Damage per Day.** Acute systemic collapse. Natural rest restores 0 HP, and the character suffers **3d8 damage each day at dawn**. Rapidly results in death without immediate evacuation or hermetic life support. |
 
 ---
@@ -293,7 +293,7 @@ When a character leaves a hostile atmospheric layer or foreign diet and returns 
 ---
 
 #### 5. Long-Term Aberrant Drift & Lethality
-- **Lethal Necrosis:** If a character's combined **Total Shift Score reaches 5.5 or higher**, natural healing is completely suppressed and they take daily necrotic damage (**1d8/day at 5.5–6.0**; **3d8/day at 6.5+**).
+- **Lethal Necrosis:** If a character's combined **Total Shift Score reaches 5.5 or higher**, natural healing is completely suppressed and they take daily necrotic damage (**(1d8 + 5)/day at 5.5–6.0**; **(3d8 + 10)/day at 6.5+**, beginning 24 hours after exposure).
 - **Aberrant Speciation:** If a character remains at Level 4+ penalties for more than **3 consecutive months** without dying (such as through constant external healing or surgical life support), the body ceases fighting the foreign medium and permanently speciates into an aberrant form (Goblin, Neanderthal, or Troglodyte).
 
 ---
