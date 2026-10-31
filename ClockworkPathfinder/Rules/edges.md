@@ -148,10 +148,10 @@ Every character receives a budget of **10 Edge Points** during character creatio
 
 ### B. The 2-Tier Social Mobility Cap (Except by King’s Proclamation)
 - **Rigid Societal Stratification:** Spire society is deeply conservative and stratified. **Natural in-game social mobility is strictly capped at a maximum increase of 2 Status Tiers above your starting baseline**:
-  - A Status 1 Laborer can realistically climb to Status 2 (Craftsman) or Status 3 (Shopkeeper / Merchant factor).
-  - An ambitious Status 2 Artisan can rise to Status 4 (Guild Master / Minor Gentry).
-  - Society simply will not accept or acknowledge a Warrens rat (Status 0) or day-laborer (Status 1) suddenly presenting themselves as a landed Noble (Status 5) or Wall Merchant (Status 6), regardless of how much coin they carry.
-- **The Royal Exception (The King's Proclamation):** The **only** mechanism in the world that can bypass the 2-Tier mobility cap is a direct, personal decree or charter granted by **The King in Person (or in the King's Name)**. The Crown holds supreme sovereign power to ennoble a peasant or appoint a commoner directly to high office.
+  - A Status 1 Laborer can realistically climb to Status 2 (Craftsman) or Status 3 (independent shopkeeper / senior clerk).
+  - An ambitious Status 2 Artisan can rise to Status 4 (senior guild officer or master craftsperson).
+  - Without an explicit royal decree, society will not accept or acknowledge a Warrens rat (Status 0) or day-laborer (Status 1) suddenly presenting themselves as a landed Noble (Status 5) or Wall Merchant (Status 6), regardless of how much coin they carry.
+- **The Royal Exception (The King's Proclamation):** The King's word is law. A decree or act of the King—or made in his name—may bypass the 2-Tier cap and establish any appointment, office, property grant, privilege, or class status, including Noble or Royal status, regardless of ordinary succession rules. No institution or legal process can invalidate it; only rebellion can stop the King. Society still shapes the consequences: granting Arthor More a noble title and Noble District property is an ordinary, accepted act; his title, property, rights, obligations, and inheritance match those of any noble at the status granted. Ennobling ten people every month would be legally effective but politically destabilizing and likely to provoke serious resistance. These examples are illustrative, not fixed thresholds. Social expectations constrain the King's choices, not his authority. Without such a royal act, Noble and Royal classes follow their ordinary hereditary rules, base Merchant status can be attained through sufficient resources and standing, and rare elevation to Wall Merchant status follows Merchant House succession.
 
 ### C. The "I Should Be an X" Archetype (The Disowned, Disgraced, or Unrecognized Heir)
 - **The Concept:** A player may want to play a character who is currently living in the gutter or working a mundane trade, but whose backstory is: *"My father is a Wall Merchant (or Great House Lord); if he ever recognizes me, my birthright will be restored!"* or *"I was a disgraced officer/scion exiled from my noble house, and I am biding my time to clear my name and reclaim my seat."*
@@ -166,7 +166,7 @@ Every character receives a budget of **10 Edge Points** during character creatio
 ### D. Storyteller Advice: Breaking the 2-Tier Limit & Party Equity
 > [!TIP]
 > **Storyteller Note on High-Tier Narrative Promotions:**
-> If you run a storyline where a character earns a direct royal charter, heroic ennoblement, or massive corporate succession that **elevates them beyond the natural 2-Tier mobility limit**, careful thought must be given to **fairly treating the rest of the party**:
+> If you run a storyline where a character earns a direct royal charter, high office, or massive corporate succession that **elevates them beyond the natural 2-Tier mobility limit**, careful thought must be given to **fairly treating the rest of the party**. The King may also directly grant Noble or Royal class; a royal charter can make such a grant legally true, though its political and social consequences may be immense:
 > - When one character gains massive social standing, high-altitude estates, and royal favors that break standard limits, the remaining party members should **likewise receive an equivalent game-breaking reward or distinct systemic advantage**.
 > - **Examples of Party Equity Rewards:**
 >   - An **Extra Citizen Bulwark Slot** (expanding their permanent retained item slots from 3 to 4, granted directly in the King's Name).
@@ -193,4 +193,3 @@ Every character receives a budget of **10 Edge Points** during character creatio
    - Does a 1-Point-per-Status-Tier model with a +1 Retainer surcharge feel balanced against 3-point armor step-ups, 4-point AP surges, and 5-point Master upgrades during actual character generation?
 2. **AP Surge Stacking:**
    - Ensure the +1 AP Battery Surge (at Lv 1, 5, 15) integrates cleanly with Tier 0 and Tier 1 class AP ceilings.
-

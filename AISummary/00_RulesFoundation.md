@@ -126,7 +126,7 @@ Because Clockwork Cities features deep institutional backing (*"Worth = who you 
 | `ClockworkPathfinder/Rules/WorldAndLaw.md` | Setting Overview, Ward Structure, Governance, Legal Hierarchy & Geopolitical Maps (`images/arclean_isles_map.svg`, `images/europe_control_zones_map.svg`) | Draft |
 | `ClockworkPathfinder/Rules/NewAvalon.md` | New Avalon Capital Spire (Wards 1–15, Concentric Walls, Transit & Blueprints in `images/SpireSchematics.html`, `images/spire_page1_elevation.svg`, `images/spire_page2_walls_harbor.svg`) | Draft |
 | `ClockworkPathfinder/Rules/SocialClassAndCorruptionRules.md` | Status Mechanics, Lineage Succession & Neither Corruption Summary | Draft |
-| `ClockworkPathfinder/Rules/ResourcesAndWealth.md` | Player Resource Categories, The Citizen Bulwark & Hard-Alloy Currency | Draft |
+| `ClockworkPathfinder/Rules/ResourcesAndWealth.md` | Wealth Rules for Ward 13, Military, Wards & University; Separate Inner and Ward 13 Warrens Rules; Citizen Bulwark & Currency | Draft |
 | `ClockworkPathfinder/Rules/Skills.md` | Grounded Skills, The 7 Victorian/Steampunk Social Skill (`Understanding`) Groups, 4-Tier Specificity Spectrum & Obligations | Draft |
 | `ClockworkPathfinder/Rules/AncestriesAndHeritages.md` | Humanity Ancestry & 6 Biological Heritages (Feats & Low-Light Vision) | Draft |
 | `ClockworkPathfinder/Classes/Archetypes/ArchetypeCatalog.md` | Archetypes (PF2e Remaster available, modified & removed archetypes) | Draft |

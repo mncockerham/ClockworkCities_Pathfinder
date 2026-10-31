@@ -10,13 +10,23 @@
 
 In Clockwork Cities, social class is not merely flavor—it dictates a character's legal protections, baseline gear, access to restricted wards, and NPC reactions.
 
+### What Determines Class & Where You May Live
+
+Social class and residence are related, but they are not the same. A person's wealth, clothing, or address does not by itself grant a new institutional or hereditary class.
+
+- **Merchant, Noble & Royal Distinctions:** In ordinary practice, Noble and Royal class distinctions are hereditary, acquired by birth or recognized marriage into the class. Merchant status has a resource-based entry point: a person with sufficient resources and standing—shown by ownership of one or more significant commercial assets, such as an inn, warehouse, or skyship—can reach the base Merchant level without being born into a Merchant House. Wall Merchant status is usually dynastic, but on rare occasions a new house may replace a failing Wall Merchant house. A noble whose wealth and standing fall far enough may descend into Merchant class; their former noble title ends and no longer exists. Such families commonly relocate to another Spire to escape the social shame. **The King's word is law:** a royal decree or act can establish any status or legal truth, regardless of ordinary rules. Only rebellion can stop it; social expectations may constrain the King's choices, but not his authority.
+- **Wall Merchant Scale:** Wall Merchants are robber barons whose holdings can include fleets of airships, multiple warhorses, territory in other Spires, and royal grants of mines or hamlets. These are examples of scale, not a required checklist.
+- **Military & University Status:** Military class comes from current service; University class comes from being a student or instructor. These statuses depend on the qualifying role, not simply on wealth or family background.
+- **Ward 13 and Lower Residential Mobility:** Citizens may move freely among Ward 13 and lower wards if they can secure a lease and afford the ongoing lifestyle costs appropriate to that residence. Their circumstances may move them upward or downward as those costs become affordable or not. A higher-cost address or lifestyle does not itself confer Merchant, Noble, Royal, Military, or University status.
+- **Residence Does Not Override Access Rules:** Freedom to choose a home within Ward 13 and lower does not waive normal transit fares, security checks, or role-based restrictions on institutional spaces and dedicated routes.
+
 ### Status Tiers & Standing
 
 Social standing is tracked on a numeric tier scale (-1 to 9), with a character's internal faction reputation represented by **Standing (-99 to +99)** within their sponsoring institution:
 
 | Status Tier | Social Category | Typical Social Roles | Voting Weight | Lifestyle / Housing Guarantee |
 |:---:|---|---|:---:|---|
-| **–1 to 0** | **Outcasts & Warrens** | Indentured debtors, fungal farmhands, alley fixers, goblins | 0 | Unsanitary squats, raw fungal broth |
+| **–1 to 0** | **Outcasts & Inner Warrens** | Unfree fungal-vat workers, indentured debtors, alley fixers, goblins | 0 | Subsistence: barter, scarce Pins, vat-work access to food and a sleeping place |
 | **1 to 3** | **Free Citizens & Laborers** | Foundry workers, quarrymen, junior clerks, day-laborers | 1/10 | Tenement flats in Lower/Mid Worker Wards |
 | **2 to 5** | **Guild Members & Artisans** | Blacksmiths, tanners, masons, machinists, guild factors | 1/2 | Guild hall lodgings or private Ward 11 flats |
 | **2 to 5** | **Military & Constabulary** | Enlisted regulars (2), sergeants (3), commissioned officers (4–5) | 1/10 to 1 | Barracks quarters or subsidized military housing |
@@ -26,7 +36,7 @@ Social standing is tracked on a numeric tier scale (-1 to 9), with a character's
 
 ### Status Mechanics & Upkeep
 - **Lifestyle Upkeep:** Characters must expend wealth commensurate with their status tier each month. Failing to maintain appearances causes a loss of status tier or standing within their house/guild.
-- **Institutional Backing:** If an artisan leaves their guild, a soldier deserts, or a merchant house goes bankrupt, their status immediately drops to Citizen (Status 1) or Indentured (Status –1).
+- **Institutional Backing & Downward Reclassification:** If an artisan leaves their guild or a soldier deserts, their status immediately drops to Citizen (Status 1) or Indentured (Status –1), as appropriate. If a Merchant House fails, its members lose the backing and standing tied to it; individuals with enough independent resources may retain or qualify for base Merchant status, while others fall to Citizen or lower. Nobles whose wealth and standing fall below what their rank can sustain may be reclassified as Merchants; their noble title ceases to exist, and many relocate to another Spire to avoid the shame of their fall.
 - **Class Fluidity vs. Influence Class Status Dependency:**
   - Most classes (Soldiers, Brutes, Scouts, Pugilists, Alchemists) can easily shift across social classes without affecting their combat effectiveness, directives, or class features outside standard social reaction penalties.
   - **The Noble & Merchant 3/4 Connection Loss Rule:** By contrast, the **Noble** and **Merchant** classes rely intrinsically on institutional legitimacy:
@@ -80,4 +90,3 @@ In a setting where 15% of encounters are lethal Boss Crucibles and 70% are grind
 - **Architecture:** Standard Neithercrete rooms reduce effective Air Shift by **1 Level**; hermetic deep vaults reduce by **2 Levels**.
 - **Sealed Respirators:** Oiled leather filters reduce effective Air Shift by **1 Level** for up to 8 hours.
 - **Storm Depth:** Mine depth reduces Neither Storm intensity by **1 Level per 100 feet** (at 300+ feet, storm damage is completely negated).
-
