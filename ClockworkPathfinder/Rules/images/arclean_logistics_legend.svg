@@ -1,0 +1,180 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 950 1100" width="100%" height="100%" style="background:#09121b; font-family:'Segoe UI', Georgia, serif;">
+  <defs>
+    <!-- Background Gradient -->
+    <radialGradient id="cardGrad" cx="50%" cy="40%" r="70%">
+      <stop offset="0%" stop-color="#102030"/>
+      <stop offset="60%" stop-color="#0b1622"/>
+      <stop offset="100%" stop-color="#060c13"/>
+    </radialGradient>
+    <pattern id="legendGrid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#162e42" stroke-width="0.5" stroke-dasharray="2,3" opacity="0.5"/>
+    </pattern>
+  </defs>
+
+  <!-- Background & Blueprint Pattern -->
+  <rect width="950" height="1100" fill="url(#cardGrad)"/>
+  <rect width="950" height="1100" fill="url(#legendGrid)"/>
+
+  <!-- Ornate Brass Outer Border -->
+  <rect x="15" y="15" width="920" height="1070" fill="none" stroke="#c5a059" stroke-width="2.5"/>
+  <rect x="22" y="22" width="906" height="1056" fill="none" stroke="#c5a059" stroke-width="0.8" stroke-dasharray="6,4"/>
+
+  <!-- Header Banner -->
+  <g transform="translate(35, 35)">
+    <rect width="880" height="85" rx="6" fill="#06121c" stroke="#c5a059" stroke-width="2" opacity="0.96"/>
+    <text x="440" y="34" fill="#ffd54f" font-size="20" font-weight="bold" text-anchor="middle" letter-spacing="1.5">KINGDOM OF ARCLEAN — OFFICIAL CARTOGRAPHIC LEGEND</text>
+    <text x="440" y="55" fill="#e0e0e0" font-size="13" text-anchor="middle">Sovereign Logistics: Spire Networks, Border Garrisons, Industrial Mines &amp; Hamlets</text>
+    <line x1="40" y1="67" x2="840" y2="67" stroke="#c5a059" stroke-width="0.8" opacity="0.6"/>
+  </g>
+
+  <!-- Left Column: Transit Corridors & Spires -->
+  <g transform="translate(35, 135)">
+    <rect width="425" height="420" rx="5" fill="#081622" stroke="#4fc3f7" stroke-width="1.2" opacity="0.95"/>
+    <text x="212" y="28" fill="#4fc3f7" font-size="14" font-weight="bold" text-anchor="middle" letter-spacing="1">TRANSIT CORRIDORS &amp; SPIRES</text>
+    <line x1="20" y1="36" x2="405" y2="36" stroke="#4fc3f7" stroke-width="0.6" opacity="0.5"/>
+
+    <!-- Capital Spire -->
+    <circle cx="36" cy="62" r="11" fill="#16344d" stroke="#ffd54f" stroke-width="3"/>
+    <circle cx="36" cy="62" r="5" fill="#4fc3f7"/>
+    <text x="60" y="58" fill="#ffd54f" font-size="12" font-weight="bold">★ New Avalon (Royal Capital — London / Thames)</text>
+    <text x="60" y="73" fill="#cfd8dc" font-size="10">Commanding the Thames Basin. Industrial, economic &amp; naval heart.</text>
+
+    <!-- Regional Spires -->
+    <circle cx="36" cy="105" r="9" fill="#16344d" stroke="#4fc3f7" stroke-width="2.2"/>
+    <circle cx="36" cy="105" r="4" fill="#ffffff"/>
+    <text x="60" y="102" fill="#ffffff" font-size="12" font-weight="bold">Great Clockwork Spire (≥50-mi Separation)</text>
+    <text x="60" y="117" fill="#cfd8dc" font-size="10">Northern: Newcastle, York, Lincoln | Southern: Norwich, Dover, Rouen.</text>
+
+    <!-- Major Patrolled Route -->
+    <line x1="22" y1="148" x2="50" y2="148" stroke="#ffd54f" stroke-width="6"/>
+    <line x1="22" y1="148" x2="50" y2="148" stroke="#ffffff" stroke-width="2" stroke-dasharray="4,3"/>
+    <text x="60" y="146" fill="#ffd54f" font-size="12" font-weight="bold">Major Patrolled Trade Route</text>
+    <text x="60" y="161" fill="#cfd8dc" font-size="10">Connects the 3 Northern Spires (Newcastle-York-Lincoln) &amp; the 3</text>
+    <text x="60" y="174" fill="#cfd8dc" font-size="10">Southern Spires (Norwich-New Avalon-Dover). Heavy Sky Fleet escort.</text>
+
+    <!-- Risky Minor Route -->
+    <line x1="22" y1="202" x2="50" y2="202" stroke="#ff7043" stroke-width="4.5" stroke-dasharray="7,4"/>
+    <text x="60" y="200" fill="#ff7043" font-size="12" font-weight="bold">Minor Route (Risky Corridor: Lincoln ↔ Norwich)</text>
+    <text x="60" y="215" fill="#cfd8dc" font-size="10">Cuts across treacherous Fenland marshes &amp; badlands. Minimal patrol;</text>
+    <text x="60" y="228" fill="#cfd8dc" font-size="10">frequent raids by smuggler cartels, outlaws, and swamp beasts.</text>
+
+    <!-- Channel War Route -->
+    <line x1="22" y1="255" x2="50" y2="255" stroke="#4fc3f7" stroke-width="3" stroke-dasharray="6,4"/>
+    <text x="60" y="254" fill="#81d4fa" font-size="11.5" font-weight="bold">Channel War Convoy (Dover ↔ Normandy)</text>
+    <text x="60" y="269" fill="#90a4ae" font-size="10">Heavily convoyed maritime &amp; airship lane to Rouen bridgehead.</text>
+
+    <!-- Military Arterial Road -->
+    <line x1="22" y1="298" x2="50" y2="298" stroke="#90a4ae" stroke-width="2.5" stroke-dasharray="5,4"/>
+    <text x="60" y="296" fill="#cfd8dc" font-size="11.5" font-weight="bold">Military Arterial Road (All 10 Forts)</text>
+    <text x="60" y="311" fill="#90a4ae" font-size="10">Direct supply path linking border fortresses directly to a Spire.</text>
+
+    <!-- Patrolled & Feeder Roads -->
+    <line x1="22" y1="338" x2="50" y2="338" stroke="#ffd54f" stroke-width="3"/>
+    <text x="60" y="336" fill="#fff59d" font-size="11" font-weight="bold">Patrolled Settlement Road (Close Hamlets, &lt;hours)</text>
+    <line x1="22" y1="358" x2="50" y2="358" stroke="#80deea" stroke-width="2.2" stroke-dasharray="5,4"/>
+    <text x="60" y="356" fill="#80deea" font-size="11" font-weight="bold">Connected Freight Path (Mines &amp; Distant Outposts)</text>
+
+    <!-- Tense Borders -->
+    <line x1="22" y1="388" x2="50" y2="388" stroke="#ff5252" stroke-width="3" stroke-dasharray="5,4"/>
+    <text x="60" y="386" fill="#ff8a80" font-size="10.5" font-weight="bold">Derdore Border (North) / Hampshire Enclave (South)</text>
+    <line x1="22" y1="406" x2="50" y2="406" stroke="#ffb74d" stroke-width="3.5" stroke-dasharray="7,4"/>
+    <text x="60" y="405" fill="#ffb74d" font-size="10.5" font-weight="bold">2nd Orc Zone Badlands (West / Severn Corridors)</text>
+  </g>
+
+  <!-- Right Column: 10 Military Forts Roster -->
+  <g transform="translate(480, 135)">
+    <rect width="435" height="420" rx="5" fill="#081622" stroke="#e53935" stroke-width="1.2" opacity="0.95"/>
+    <text x="217" y="28" fill="#ff8a80" font-size="14" font-weight="bold" text-anchor="middle" letter-spacing="1">10 BORDER MILITARY FORTS (ALL CONNECTED TO SPIRES)</text>
+    <line x1="20" y1="36" x2="415" y2="36" stroke="#e53935" stroke-width="0.6" opacity="0.5"/>
+
+    <text x="25" y="58" fill="#ffd54f" font-size="11.5" font-weight="bold">DERDORE &amp; NORTHERN BORDER LINE (Forts 1–2):</text>
+    <text x="25" y="76" fill="#ffcdd2" font-size="10"><tspan font-weight="bold">[F1] Fort Cheviot Wall</tspan> — Scottish border pass gate (Road to Newcastle)</text>
+    <text x="25" y="94" fill="#ffcdd2" font-size="10"><tspan font-weight="bold">[F2] Fort Tyne Pass</tspan> — Upper Tyne valley redoubt (Road to Newcastle)</text>
+
+    <text x="25" y="118" fill="#ffd54f" font-size="11.5" font-weight="bold">PENNINE &amp; 2ND ORC ZONE FRONTIER LINE (Forts 3–8):</text>
+    <text x="25" y="136" fill="#ffcdd2" font-size="10"><tspan font-weight="bold">[F3] Fort Pennine Gate</tspan> — Trans-Pennine gap fortress (Road to York)</text>
+    <text x="25" y="154" fill="#ffcdd2" font-size="10"><tspan font-weight="bold">[F4] Fort Aire Redoubt</tspan> — Airedale frontier march guard (Road to York)</text>
+    <text x="25" y="172" fill="#ffcdd2" font-size="10"><tspan font-weight="bold">[F5] Fort Mersey Watch</tspan> — Northwest badlands frontier (Road to Lincoln)</text>
+    <text x="25" y="190" fill="#ffcdd2" font-size="10"><tspan font-weight="bold">[F6] Fort Trent Stronghold</tspan> — Trent river crossings (Road to Lincoln)</text>
+    <text x="25" y="208" fill="#ffcdd2" font-size="10"><tspan font-weight="bold">[F7] Fort Cotswold Gate</tspan> — Severn gap defense against Orcs (To New Avalon)</text>
+    <text x="25" y="226" fill="#ffcdd2" font-size="10"><tspan font-weight="bold">[F8] Fort Severn Bastion</tspan> — West Country frontier outpost (To New Avalon)</text>
+
+    <text x="25" y="250" fill="#ffd54f" font-size="11.5" font-weight="bold">SOUTHERN &amp; CONTINENTAL BORDER LINE (Forts 9–10):</text>
+    <text x="25" y="268" fill="#ffcdd2" font-size="10"><tspan font-weight="bold">[F9] Fort Solent Watch</tspan> — Borders Feydial Hampshire enclave (To New Avalon)</text>
+    <text x="25" y="286" fill="#ffcdd2" font-size="10"><tspan font-weight="bold">[F10] Fort Normandy Line</tspan> — Continental trench &amp; palisade (To Rouen)</text>
+
+    <!-- Garrison Doctrine Note -->
+    <rect x="20" y="306" width="395" height="98" rx="4" fill="#1b0a0c" stroke="#ef5350" stroke-width="0.8"/>
+    <text x="30" y="324" fill="#ff8a80" font-size="10.5" font-weight="bold">Crown Garrison Protocol &amp; The 1v1 Orc Ceiling:</text>
+    <text x="30" y="342" fill="#cfd8dc" font-size="9">Border forts house 250–500 regulars, King's Guard provost squads, and</text>
+    <text x="30" y="356" fill="#cfd8dc" font-size="9">heavy Neither-arc batteries. Because the Orc hordes are massive, stripping</text>
+    <text x="30" y="370" fill="#cfd8dc" font-size="9">garrisons for an inter-kingdom war beyond a 1v1 invites catastrophic border</text>
+    <text x="30" y="384" fill="#cfd8dc" font-size="9">breaches that overrun the shires.</text>
+  </g>
+
+  <!-- Lower Left: 12 Mines Roster -->
+  <g transform="translate(35, 570)">
+    <rect width="425" height="490" rx="5" fill="#081622" stroke="#80deea" stroke-width="1.2" opacity="0.95"/>
+    <text x="212" y="28" fill="#80deea" font-size="14" font-weight="bold" text-anchor="middle" letter-spacing="1">12 MINES &amp; INDUSTRIAL EXTRACTION SITES</text>
+    <line x1="20" y1="36" x2="405" y2="36" stroke="#80deea" stroke-width="0.6" opacity="0.5"/>
+
+    <text x="25" y="58" fill="#ffd54f" font-size="11.5" font-weight="bold">6 MINES WITH DEDICATED ROADS TO A SPIRE:</text>
+    <text x="25" y="78" fill="#e0f7fa" font-size="10"><tspan font-weight="bold">[M1] Durham Coke Pit</tspan> — High-grade blast furnace coal (To Newcastle)</text>
+    <text x="25" y="96" fill="#e0f7fa" font-size="10"><tspan font-weight="bold">[M3] Cleveland Ironworks</tspan> — Rich hematite lode (Connected to York)</text>
+    <text x="25" y="114" fill="#e0f7fa" font-size="10"><tspan font-weight="bold">[M5] Lindsey Quarry</tspan> — Sump limestone for neithercrete (To Lincoln)</text>
+    <text x="25" y="132" fill="#e0f7fa" font-size="10"><tspan font-weight="bold">[M7] Broads Fungal Pit</tspan> — Industrial peat &amp; sycelium vats (To Norwich)</text>
+    <text x="25" y="150" fill="#e0f7fa" font-size="10"><tspan font-weight="bold">[M9] Thames Estuary Sump</tspan> — Dredged neithercrete cement (To New Avalon)</text>
+    <text x="25" y="168" fill="#e0f7fa" font-size="10"><tspan font-weight="bold">[M12] Seine Gypsum Pit</tspan> — Continental plaster &amp; stone works (To Rouen)</text>
+
+    <text x="25" y="200" fill="#ffb74d" font-size="11.5" font-weight="bold">6 REMOTE MINES (NO FIXED ROUTE / PACK-TRAIL ONLY):</text>
+    <text x="25" y="220" fill="#ffe0b2" font-size="10"><tspan font-weight="bold">[M2] Pennine Lead Works</tspan> — Deep cavern galena; ancient dwarven tunnels</text>
+    <text x="25" y="238" fill="#ffe0b2" font-size="10"><tspan font-weight="bold">[M4] Moors Jet &amp; Alum</tspan> — Coastal shales &amp; dye mordants; mule-trains only</text>
+    <text x="25" y="256" fill="#ffe0b2" font-size="10"><tspan font-weight="bold">[M6] Witham Fen Bog-Iron</tspan> — Shifting marsh diggings; no fixed roadway</text>
+    <text x="25" y="274" fill="#ffe0b2" font-size="10"><tspan font-weight="bold">[M8] Thetford Flint Sump</tspan> — High-grade mechanical strike flint; outlaw hills</text>
+    <text x="25" y="292" fill="#ffe0b2" font-size="10"><tspan font-weight="bold">[M10] Weald Iron Scrapings</tspan> — Isolated southern woods; independent smelters</text>
+    <text x="25" y="310" fill="#ffe0b2" font-size="10"><tspan font-weight="bold">[M11] Mendip Dwarven Shaft</tspan> — Dangerous badlands verge; pre-collapse alloy</text>
+
+    <!-- Mineral Extraction Note -->
+    <rect x="20" y="335" width="385" height="135" rx="4" fill="#0b1e28" stroke="#80deea" stroke-width="0.8"/>
+    <text x="30" y="355" fill="#80deea" font-size="10.5" font-weight="bold">Frontier Boomtowns &amp; Dwarven Scraps:</text>
+    <text x="30" y="373" fill="#cfd8dc" font-size="9.5">Remote mines operate outside Crown law, functioning like Tombstone</text>
+    <text x="30" y="387" fill="#cfd8dc" font-size="9.5">frontier camps. Mining bosses hire mercenary Pinkertons to defend</text>
+    <text x="30" y="401" fill="#cfd8dc" font-size="9.5">claims from claim-jumpers and Orc scouting parties. Shafts into old</text>
+    <text x="30" y="415" fill="#cfd8dc" font-size="9.5">Dwarven strongholds yield rare Niracrest and pre-collapse relics that</text>
+    <text x="30" y="429" fill="#cfd8dc" font-size="9.5">command fortunes on the New Avalon black markets.</text>
+  </g>
+
+  <!-- Lower Right: 20 Hamlets Roster -->
+  <g transform="translate(480, 570)">
+    <rect width="435" height="490" rx="5" fill="#081622" stroke="#ffd54f" stroke-width="1.2" opacity="0.95"/>
+    <text x="217" y="28" fill="#ffd54f" font-size="14" font-weight="bold" text-anchor="middle" letter-spacing="1">20 HAMLETS &amp; RURAL SETTLEMENTS</text>
+    <line x1="20" y1="36" x2="415" y2="36" stroke="#ffd54f" stroke-width="0.6" opacity="0.5"/>
+
+    <text x="25" y="58" fill="#ffd54f" font-size="11.5" font-weight="bold">13 CLOSE HAMLETS (PATROLLED ROADS — HOURS TO SPIRE):</text>
+    <text x="25" y="76" fill="#fff9c4" font-size="9.5">• Newcastle: <tspan font-weight="bold">Hexham Station</tspan>, <tspan font-weight="bold">Tynemouth Haven</tspan></text>
+    <text x="25" y="92" fill="#fff9c4" font-size="9.5">• York: <tspan font-weight="bold">Vale Fallow-Hold</tspan>, <tspan font-weight="bold">Derwent Ferry</tspan></text>
+    <text x="25" y="108" fill="#fff9c4" font-size="9.5">• Lincoln: <tspan font-weight="bold">Cliff-Grange</tspan>, <tspan font-weight="bold">Horncastle Shire</tspan></text>
+    <text x="25" y="124" fill="#fff9c4" font-size="9.5">• Norwich: <tspan font-weight="bold">Wensum Mill</tspan>, <tspan font-weight="bold">Yarmouth Wharves</tspan></text>
+    <text x="25" y="140" fill="#fff9c4" font-size="9.5">• New Avalon: <tspan font-weight="bold">Greenwich Reach</tspan>, <tspan font-weight="bold">Chatham Wharves</tspan>, <tspan font-weight="bold">Croydon Grange</tspan></text>
+    <text x="25" y="156" fill="#fff9c4" font-size="9.5">• Dover: <tspan font-weight="bold">Canterbury Station</tspan>, <tspan font-weight="bold">Sandwich Pier</tspan></text>
+
+    <text x="25" y="188" fill="#80deea" font-size="11.5" font-weight="bold">2 FARTHER HAMLETS (WITH CONNECTED ROADS — DAYS):</text>
+    <text x="25" y="208" fill="#e0f7fa" font-size="9.5">• <tspan font-weight="bold">Ouse Outpost</tspan> — Agricultural grain depot &amp; cattle stockade (To York)</text>
+    <text x="25" y="224" fill="#e0f7fa" font-size="9.5">• <tspan font-weight="bold">Chelmsford Outpost</tspan> — Eastern freight brokerage &amp; staging (To New Avalon)</text>
+
+    <text x="25" y="256" fill="#ffb74d" font-size="11.5" font-weight="bold">5 ISOLATED HAMLETS (NO FIXED PATH / UNCONTROLLED):</text>
+    <text x="25" y="276" fill="#ffe0b2" font-size="9.5">• <tspan font-weight="bold">Kielder Outlaws</tspan> — Deep border forest reivers; reject Crown allegiance</text>
+    <text x="25" y="292" fill="#ffe0b2" font-size="9.5">• <tspan font-weight="bold">Swaledale Squatters</tspan> — Highland moor sheep-herders &amp; trappers</text>
+    <text x="25" y="308" fill="#ffe0b2" font-size="9.5">• <tspan font-weight="bold">Spilsby Fen-Dwellers</tspan> — Marshland smugglers &amp; bog-runner commune</text>
+    <text x="25" y="324" fill="#ffe0b2" font-size="9.5">• <tspan font-weight="bold">Chiltern Hideout</tspan> — Woodland refuge for debt fugitives and deserters</text>
+    <text x="25" y="340" fill="#ffe0b2" font-size="9.5">• <tspan font-weight="bold">Bayeux Squatters</tspan> — Continental Normandy badlands fringe encampment</text>
+
+    <!-- Social Order Box -->
+    <rect x="20" y="365" width="395" height="105" rx="4" fill="#1d1607" stroke="#ffd54f" stroke-width="0.8"/>
+    <text x="30" y="385" fill="#ffd54f" font-size="10.5" font-weight="bold">Social Status &amp; Authority Gradient:</text>
+    <text x="30" y="403" fill="#cfd8dc" font-size="9.5">Within hours of Spire gates: Noble bailiffs and foresters enforce strict Crown</text>
+    <text x="30" y="417" fill="#cfd8dc" font-size="9.5">statutes; commoners carry daggers and utility axes only. Beyond 1–2 days'</text>
+    <text x="30" y="431" fill="#cfd8dc" font-size="9.5">travel: Law dissolves into wild frontier where Free People refuse royal</text>
+    <text x="30" y="445" fill="#cfd8dc" font-size="9.5">oaths and disputes are settled with revolvers, carbines, and raw steel.</text>
+  </g>
+</svg>
