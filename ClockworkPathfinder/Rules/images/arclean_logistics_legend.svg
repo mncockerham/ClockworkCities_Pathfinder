@@ -43,7 +43,7 @@
     <circle cx="36" cy="105" r="9" fill="#16344d" stroke="#4fc3f7" stroke-width="2.2"/>
     <circle cx="36" cy="105" r="4" fill="#ffffff"/>
     <text x="60" y="102" fill="#ffffff" font-size="12" font-weight="bold">Great Clockwork Spire (≥50-mi Separation)</text>
-    <text x="60" y="117" fill="#cfd8dc" font-size="10">London, Newcastle, York, Lincoln, Norwich, Dover, Cherbourg, Rouen.</text>
+    <text x="60" y="117" fill="#cfd8dc" font-size="10">Arcona (Cardiff, 2nd most fortified), London, Newcastle, York, Lincoln, etc.</text>
 
     <!-- Major Patrolled Route -->
     <line x1="22" y1="148" x2="50" y2="148" stroke="#ffd54f" stroke-width="6"/>

@@ -148,6 +148,9 @@
     <circle cx="655" cy="705" r="8" fill="#4fc3f7" stroke="#ffd54f" stroke-width="1.8"/>
     <!-- Birmingham Spire (Midlands) -->
     <circle cx="515" cy="675" r="7.5" fill="#4fc3f7" stroke="#ffffff" stroke-width="1.5"/>
+    <!-- Arcona Spire (Cardiff — 2nd Most Fortified Spire on British Isles) -->
+    <circle cx="445" cy="790" r="9.5" fill="#153652" stroke="#ffd54f" stroke-width="2.5"/>
+    <circle cx="445" cy="790" r="4.5" fill="#4fc3f7"/>
     <!-- Dover Spire (Channel Defense) -->
     <circle cx="655" cy="820" r="7.5" fill="#4fc3f7" stroke="#ffffff" stroke-width="1.5"/>
     <!-- Normandy Spire #1: Cherbourg / NW Coast Spire (Direct route to New Avalon) -->
@@ -212,8 +215,11 @@
     <!-- Orc Buffer Annotations -->
     <text x="430" y="225" fill="#ffab40" font-size="10" font-weight="bold" text-anchor="middle">HIGHLAND &amp; WEST SCOTTISH ORCS</text>
     <text x="435" y="475" fill="#ffab40" font-size="8.5" font-weight="bold" text-anchor="middle">(Orcs hold 1/2 of Northern Border)</text>
-    <text x="440" y="775" fill="#ffab40" font-size="10" font-weight="bold" text-anchor="middle">2ND ORC ZONE BUFFER</text>
-    <text x="440" y="788" fill="#ffe0b2" font-size="8.5" text-anchor="middle">(Buffers SW Peninsula from Arclean)</text>
+    <text x="460" y="755" fill="#ffab40" font-size="9" font-weight="bold" text-anchor="middle">2ND ORC ZONE BUFFER</text>
+    
+    <!-- Arcona Spire Callout -->
+    <text x="445" y="810" fill="#ffd54f" font-size="9" font-weight="bold" text-anchor="middle">Arcona Spire (Cardiff)</text>
+    <text x="445" y="821" fill="#81d4fa" font-size="7.5" text-anchor="middle">2nd Most Fortified Bastion • Naval Fleet Base</text>
 
     <!-- Hebrides -->
     <text x="320" y="180" fill="#cfd8dc" font-size="9.5" font-style="italic" text-anchor="middle">Hebrides (Free Settlements)</text>
