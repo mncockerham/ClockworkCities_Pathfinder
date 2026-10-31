@@ -133,9 +133,11 @@
   <!-- ==================== SPIRES OF THE KNOWN REGION ==================== -->
   <g filter="url(#spireGlow)">
     <!-- 1. ARCLEAN SPIRES (Gold/Cyan) -->
-    <!-- New Avalon / London Spire (Royal Capital) -->
-    <circle cx="602" cy="785" r="13" fill="#153652" stroke="#ffd54f" stroke-width="3"/>
-    <circle cx="602" cy="785" r="6" fill="#4fc3f7" stroke="#ffffff" stroke-width="1.5"/>
+    <!-- NEW AVALON (ROYAL CAPITAL SPIRE — Directly North of Normandy on English Coast) -->
+    <circle cx="575" cy="860" r="14" fill="#153652" stroke="#ffd54f" stroke-width="3.5"/>
+    <circle cx="575" cy="860" r="7" fill="#4fc3f7" stroke="#ffffff" stroke-width="2"/>
+    <!-- London Spire (Thames Metropolis) -->
+    <circle cx="615" cy="795" r="8.5" fill="#4fc3f7" stroke="#ffd54f" stroke-width="1.8"/>
     <!-- Newcastle Spire -->
     <circle cx="548" cy="482" r="7.5" fill="#4fc3f7" stroke="#ffffff" stroke-width="1.5"/>
     <!-- York Spire -->
@@ -148,8 +150,10 @@
     <circle cx="515" cy="675" r="7.5" fill="#4fc3f7" stroke="#ffffff" stroke-width="1.5"/>
     <!-- Dover Spire (Channel Defense) -->
     <circle cx="655" cy="820" r="7.5" fill="#4fc3f7" stroke="#ffffff" stroke-width="1.5"/>
-    <!-- Rouen / Normandy Spire (Continental Bridgehead) -->
-    <circle cx="595" cy="968" r="8.5" fill="#4fc3f7" stroke="#ffd54f" stroke-width="2"/>
+    <!-- Normandy Spire #1: Cherbourg / NW Coast Spire (Direct route to New Avalon) -->
+    <circle cx="560" cy="960" r="8" fill="#4fc3f7" stroke="#ffd54f" stroke-width="1.8"/>
+    <!-- Normandy Spire #2: Rouen / SE Border Spire (Seized 40 & 20 ya) -->
+    <circle cx="630" cy="980" r="8.5" fill="#4fc3f7" stroke="#ffd54f" stroke-width="2"/>
 
     <!-- 2. DERDORE SPIRES (Crimson/Coral - Slid North & East) -->
     <!-- Aberdeen Spire (Derdore Grampian Coast) -->
