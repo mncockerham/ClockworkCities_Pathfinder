@@ -40,6 +40,16 @@ In Clockwork Cities, **Social Class (hereditary standing, wealth, status) and Ch
   - If a Noble or Merchant fails socially or financially and loses their title/holdings, they lose access to those class perks.
 - **Outside of that single exception, Social Class and Character Class are completely unrelated.**
 
+### The 2-Tier Social Mobility Cap (Except by Royal Proclamation)
+In Victorian Spire civilization, social hierarchy is strictly defined and institutionally conservative:
+- **The 2-Tier Lifetime Mobility Limit:** Under standard Spire law and social custom, an individual or family line can naturally rise or fall by a **maximum of 2 social tiers within their lifetime**:
+  - *Example (Upward Mobility):* A humble Laborer (Status 1) through extraordinary skill and commercial luck can establish a shop or master a craft, rising to an established **Artisan (Status 2)** or **Standard Merchant (Status 3)**. However, they cannot leap to a landed **Noble (Status 4+)** or **Wall Merchant (Status 6)** without a direct Royal Proclamation.
+  - *Example (Downward Mobility):* A failing noble who squanders their wealth may fall to a **Standard Merchant (Status 3)** or **Artisan (Status 2)**, but their recognized heritage prevents them from being instantly cast into the Warrens unless condemned for high treason.
+- **The Only Exception (Royal Proclamation):** The **King of Arclean** alone possesses the absolute sovereign authority to break the 2-tier cap—elevating a common hero directly to the Nobility or ennobling a Wall Merchant dynasty through a signed **Royal Charter**.
+- **Restoring Lost Status (The Disgraced Heir):** A noble heir or merchant family that has fallen in status can restore their family name and reclaim their hereditary tier by achieving great service: discovering an unplundered pre-collapse vault, securing a new external mining lease, or distinguishing themselves in a Crown military campaign.
+
+---
+
 ### Ownership in a Spire & The Feudal Management Chain
 - **The King Owns Everything:** Ultimately, all land, spire structure, and territory in the kingdom belongs to the **King**.
 - **The Great Noble Houses (Royal Stewardship):** Through royal decree, the King has assigned responsibility for all property inside the Spires and across the outside territories to the **Great Noble Houses**. A single Great House may hold a presence across multiple Spires, and the **25 most important Great Houses** all hold dedicated sections of the capital city, **New Avalon**.

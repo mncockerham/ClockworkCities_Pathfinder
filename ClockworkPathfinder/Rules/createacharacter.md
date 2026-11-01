@@ -118,5 +118,18 @@ Wrap up your character sheet:
 - **Active Power (AP):** Record your starting Active Surge pool (Tier 0 Martials = 0 AP; Tier 1 Operatives = 0 AP; Influence = 1 AP; Technical/Engineers = 2–3 AP; add +1 AP if you purchased the *AP Battery Surge Edge*).
 - **Character Story (The Simple Personal Anecdote):** Write 1 or 2 simple sentences explaining how your character picked up their skills or unusual traits (no long essays required).
 
+
+---
+
+## Step 8: Institutional Lineage Succession (Handling Character Death)
+Because Clockwork Cities features deep institutional backing (*"Worth = who you represent"*), permanent character death does not erase a player's hard-earned social capital:
+- **The Succession Rule:** When a character suffers permanent death, the player creates their replacement character as an **institutional or familial successor**:
+  - A younger sibling, junior cousin, or recognized ward heir (Nobles/Merchants).
+  - A trusted apprentice, journeyman, or laboratory assistant (Artisans/Scholars/Chirurgeons).
+  - A squad corporal, sworn shield-bearer, or battlefield protégé (Soldiers/Officers).
+  - A trusted street runner, partner, or syndicate protégé (Survivors/Grey Marketeers).
+- **Inherited Assets & Standing:** The replacement character inherits the deceased character's **institutional standing, guild charters, family titles, leased quarters, and recovered personal gear**. 
+- **Party Continuity:** This ensures that the party's social clout, legal standing, and ongoing story arcs continue seamlessly without resetting the player to a penniless outcast.
+
 You are now ready to enter the Great Spires and the Neither wastelands!
 

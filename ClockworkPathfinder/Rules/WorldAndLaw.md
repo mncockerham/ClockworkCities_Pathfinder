@@ -36,6 +36,17 @@ The balance of naval power across the British Isles and neighboring waters is sh
   Because of these vast commitments, Arclean can never concentrate enough warships in the West to challenge Feydial's blockade without fatally stripping defenses from Normandy or the south coast.
 - **Derdore (Smallest Fleet, Pragmatic Coastline Defense):** Derdore commands the **smallest navy by a significant margin**. While they maintain enough warships to escort transport convoys to their overseas Dutch Spires (*The Hague and Rotterdam*) when necessary, their immense, exposed North Sea coastline makes comprehensive sea control impossible. Rather than ruining their treasury attempting to match Arclean's naval expenditures, Derdore is content to vigorously patrol its immediate home coastal waters. They happily let Arclean "show off" and burn resources policing the wider North Sea, knowing full well that Arclean cannot afford to risk or lose ships there without jeopardizing the rest of its empire.
 
+### The Zone, Airship Design & 2-Dimensional Naval Cloud Warfare
+In Clockwork Cities, airship travel and aerial combat operate under strict physical and electromagnetic laws of the Zone:
+- **The Buoyancy Plane & Equal Altitude:** The atmospheric density and radiant electromagnetic equilibrium of the Zone create a uniform buoyancy line: **all airships naturally float at the exact same altitude/level in the same region**. Vertical displacement is minimal, and vertical cloud swells are far gentler than ocean waves.
+- **2D Age-of-Sail Naval Battles:** Because all vessels share the same altitude plane, **airship combat functions strictly as 2-dimensional naval combat on a flat sea of clouds**. Tactics revolve around maneuvering for broadsides, closing for grapple-and-boarding actions, and ramming—mirroring 18th/19th-century naval warfare with high maneuverability powered by radiant clockwork propulsion rather than canvas sails.
+- **Why Spires Cannot Be Carpet-Bombed From Above:** 
+  - Flying significantly above the Zone into the pure Aither starves and stalls radiant engines.
+  - The extreme updrafts, thermal lightning shears, and turbulent squalls inside the Zone make precision high-altitude bombing physically impossible. Munitions dropped from high altitudes tumble wildly off-target.
+  - Airships cannot simply hover invulnerably in the clouds and obliterate surface fortifications; they must descend to broadside range, bringing them directly into the lethal crosshairs of Great Spire Arc Cannons.
+
+---
+
 #### The Merchant Web, Airship Ownership & Sovereignty of the Skies
 - **Airship Ownership & Commercial De-escalation:**
   - The vast majority of **small and mid-sized airships are owned directly by Merchant Captains, Wall Merchants (Ward 14), or their regional equivalents** across other Spires.
