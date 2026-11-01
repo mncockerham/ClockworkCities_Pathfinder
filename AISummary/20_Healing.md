@@ -37,6 +37,14 @@ A character's maximum Hit Points are divided into deep trauma tiers and regular 
 
 ---
 
+## The 3-Tier Medical Hierarchy (Social & Practical Division)
+In Victorian Spire healthcare, medical roles are divided across three clear social and operational tiers:
+1. **Tier 1 — The Doctor / Medical Researcher (Scholar Class):** High academic fellows and university chairs (Status 4–6). They design and operate expensive clinical clockwork technology (heart-lung dynamos, vacuum distillation towers, cellular diagnostic meters) and synthesize the most refined elixirs in pristine cleanrooms. They perform long-term inpatient surgeries in established medical facilities (clearing Critical/Mortal trauma during 2-day or 1-week inpatient care), but rarely venture into field trenches.
+2. **Tier 2 — The Paramedic / Apothecary / Clinic Worker (Chirurgeon Class):** Hands-on medical workhorses (Status 2–4). Ward nurses, ambulance drivers, apothecary spore-brewers, and neighborhood clinic healers. Masters of hands-on triage, herbal tinctures, Sycelium salves, carbolic washes, quick field auto-injectors, and Adrenal Injectors. They run street clinics, ride steam-ambulances, and accompany expeditions into the Warrens.
+3. **Tier 3 — The Emergency Responder / Corpsman (Field Medic Archetype):** Combatants (Soldiers, Scouts, Survivors) who take the Chirurgeon Dedication because Tiers 1 and 2 are dead or miles away. Their kit is brutal and practical: tourniquets, crude cautery irons, smelling salts, and emergency adrenaline auto-injectors strapped to armor. When frontline allies collapse in the mud, they drag them behind cover, slam a stim into their chest, and keep the squad fighting.
+
+---
+
 ## 2. Technology & Concoction Limits
 - **Damage Only (Standard Baseline)**: Concoctions (biomedical tonics, stims) and Clockwork Technology (cellular repair gizmos, suture mechanisms) **can only restore regular Damage**.
 - **No Instant Surgery**: Standard technology and concoctions cannot instantly knit ruptured organs or re-anchor shattered bones represented by Critical or Mortal wounds.
