@@ -88,14 +88,14 @@ CLASS_SPECS = {
                 "allowed_environments": ["high_radiant", "low_radiant", "the_neither"]
             },
             {
-                "name": "Heavy Wrench / Club (Civil)",
+                "name": "Utility Knife",
                 "attack_bonus": 7 if lvl==1 else (13 if lvl==5 else 20),
-                "damage_dice": "1d6" if lvl==1 else ("2d6" if lvl==5 else "3d6"),
-                "flat_damage": 3 if lvl==1 else (4 if lvl==5 else 6),
-                "damage_type": "B",
+                "damage_dice": "1d4",
+                "flat_damage": 3 if lvl==1 else (4 if lvl==6 else 6),
+                "damage_type": "P/S",
                 "range": 0,
                 "ap_cost": 0,
-                "traits": [],
+                "traits": ["agile"],
                 "allowed_environments": ["civil_spire"]
             }
         ],
@@ -184,7 +184,18 @@ CLASS_SPECS = {
                 "range": 0,
                 "ap_cost": 0,
                 "traits": ["shove"],
-                "allowed_environments": ["civil_spire", "high_radiant", "low_radiant", "the_neither"]
+                "allowed_environments": ["high_radiant", "low_radiant", "the_neither"]
+            },
+            {
+                "name": "Pocket Utility Knife",
+                "attack_bonus": 5 if lvl==1 else (9 if lvl==5 else 15),
+                "damage_dice": "1d4",
+                "flat_damage": 1 if lvl==1 else (1 if lvl==5 else 2),
+                "damage_type": "P/S",
+                "range": 0,
+                "ap_cost": 0,
+                "traits": ["agile"],
+                "allowed_environments": ["civil_spire"]
             }
         ],
         "abilities": lambda lvl: {
@@ -258,7 +269,18 @@ CLASS_SPECS = {
                 "range": 0,
                 "ap_cost": 0,
                 "traits": ["agile", "finesse"],
-                "allowed_environments": ["civil_spire", "high_radiant", "low_radiant", "the_neither"]
+                "allowed_environments": ["high_radiant", "low_radiant", "the_neither"]
+            },
+            {
+                "name": "Utility Knife",
+                "attack_bonus": 7 if lvl==1 else (12 if lvl==5 else 18),
+                "damage_dice": "1d4",
+                "flat_damage": 1 if lvl==1 else (2 if lvl==5 else 3),
+                "damage_type": "P/S",
+                "range": 0,
+                "ap_cost": 0,
+                "traits": ["agile"],
+                "allowed_environments": ["civil_spire"]
             }
         ],
         "abilities": lambda lvl: {}
@@ -285,7 +307,7 @@ CLASS_SPECS = {
         },
         "weapons": lambda lvl: [
             {
-                "name": "Fair Steel Spire Dueling Rapier",
+                "name": "Fair Steel Spire Dueling Rapier (Outlands)",
                 "attack_bonus": 7 if lvl==1 else (13 if lvl==5 else 19),
                 "damage_dice": "1d6" if lvl==1 else ("2d6" if lvl==5 else "3d6"),
                 "flat_damage": 2 if lvl==1 else (3 if lvl==5 else 5),
@@ -293,7 +315,18 @@ CLASS_SPECS = {
                 "range": 0,
                 "ap_cost": 0,
                 "traits": ["deadly_d8", "disarm", "finesse"],
-                "allowed_environments": ["civil_spire", "high_radiant", "low_radiant", "the_neither"]
+                "allowed_environments": ["high_radiant", "low_radiant", "the_neither"]
+            },
+            {
+                "name": "Fair Steel Dueling Rapier (Civil 1d6)",
+                "attack_bonus": 7 if lvl==1 else (13 if lvl==5 else 19),
+                "damage_dice": "1d6",
+                "flat_damage": 2 if lvl==1 else (3 if lvl==5 else 5),
+                "damage_type": "P",
+                "range": 0,
+                "ap_cost": 0,
+                "traits": ["deadly_d8", "disarm", "finesse"],
+                "allowed_environments": ["civil_spire"]
             },
             {
                 "name": "Pistol Cane",
@@ -364,7 +397,18 @@ CLASS_SPECS = {
                 "range": 0,
                 "ap_cost": 0,
                 "traits": ["agile", "finesse"],
-                "allowed_environments": ["civil_spire", "high_radiant", "low_radiant", "the_neither"]
+                "allowed_environments": ["high_radiant", "low_radiant", "the_neither"]
+            },
+            {
+                "name": "Utility Skinning Knife",
+                "attack_bonus": 7 if lvl==1 else (13 if lvl==5 else 19),
+                "damage_dice": "1d4" if lvl==1 else ("2d4" if lvl==5 else "3d4"),
+                "flat_damage": 1 if lvl==1 else (2 if lvl==5 else 3),
+                "damage_type": "P/S",
+                "range": 0,
+                "ap_cost": 0,
+                "traits": ["agile", "finesse"],
+                "allowed_environments": ["civil_spire"]
             }
         ],
         "abilities": lambda lvl: {
@@ -490,12 +534,23 @@ CLASS_SPECS = {
                 "name": "Constable Truncheon / Cane",
                 "attack_bonus": 7 if lvl==1 else (13 if lvl==5 else 20),
                 "damage_dice": "1d6" if lvl==1 else ("2d6" if lvl==5 else "3d6"),
-                "flat_damage": 3 if lvl==1 else (6 if lvl==5 else 9), # Devise stratagem precision
+                "flat_damage": 3 if lvl==1 else (6 if lvl==5 else 9),
                 "damage_type": "B",
                 "range": 0,
                 "ap_cost": 0,
                 "traits": ["agile", "finesse", "nonlethal"],
-                "allowed_environments": ["civil_spire", "high_radiant", "low_radiant", "the_neither"]
+                "allowed_environments": ["high_radiant", "low_radiant", "the_neither"]
+            },
+            {
+                "name": "Constable Utility Pocket Knife",
+                "attack_bonus": 7 if lvl==1 else (13 if lvl==5 else 20),
+                "damage_dice": "1d4",
+                "flat_damage": 2 if lvl==1 else (4 if lvl==5 else 6),
+                "damage_type": "P/S",
+                "range": 0,
+                "ap_cost": 0,
+                "traits": ["agile", "finesse"],
+                "allowed_environments": ["civil_spire"]
             },
             {
                 "name": "Service Revolver",
@@ -567,7 +622,18 @@ CLASS_SPECS = {
                 "range": 0,
                 "ap_cost": 0,
                 "traits": ["finesse"],
-                "allowed_environments": ["civil_spire", "high_radiant", "low_radiant", "the_neither"]
+                "allowed_environments": ["high_radiant", "low_radiant", "the_neither"]
+            },
+            {
+                "name": "Academic Penknife",
+                "attack_bonus": 5 if lvl==1 else (9 if lvl==5 else 14),
+                "damage_dice": "1d4",
+                "flat_damage": 0 if lvl==1 else (1 if lvl==5 else 2),
+                "damage_type": "P/S",
+                "range": 0,
+                "ap_cost": 0,
+                "traits": ["agile", "finesse"],
+                "allowed_environments": ["civil_spire"]
             }
         ],
         "abilities": lambda lvl: {
@@ -606,7 +672,18 @@ CLASS_SPECS = {
                 "range": 0,
                 "ap_cost": 0,
                 "traits": ["shove"],
-                "allowed_environments": ["civil_spire", "high_radiant", "low_radiant", "the_neither"]
+                "allowed_environments": ["high_radiant", "low_radiant", "the_neither"]
+            },
+            {
+                "name": "Trade Ball-Peen Tool Hammer",
+                "attack_bonus": 6 if lvl==1 else (12 if lvl==5 else 18),
+                "damage_dice": "1d4" if lvl==1 else ("2d4" if lvl==5 else "3d4"),
+                "flat_damage": 1 if lvl==1 else (2 if lvl==5 else 3),
+                "damage_type": "B",
+                "range": 0,
+                "ap_cost": 0,
+                "traits": ["agile"],
+                "allowed_environments": ["civil_spire"]
             },
             {
                 "name": "Pneumatic Rivet Driver",
@@ -748,7 +825,18 @@ CLASS_SPECS = {
                 "range": 0,
                 "ap_cost": 0,
                 "traits": ["finesse", "sweep"],
-                "allowed_environments": ["civil_spire", "high_radiant", "low_radiant", "the_neither"]
+                "allowed_environments": ["high_radiant", "low_radiant", "the_neither"]
+            },
+            {
+                "name": "Civilian Swagger Stick / Belaying Club",
+                "attack_bonus": 8 if lvl==1 else (14 if lvl==5 else 21),
+                "damage_dice": "1d4" if lvl==1 else ("2d4" if lvl==5 else "3d4"),
+                "flat_damage": 1 if lvl==1 else (2 if lvl==5 else 3),
+                "damage_type": "B",
+                "range": 0,
+                "ap_cost": 0,
+                "traits": ["agile", "finesse"],
+                "allowed_environments": ["civil_spire"]
             },
             {
                 "name": "Sky-Fleet Deck Pistol",
@@ -843,7 +931,7 @@ CLASS_SPECS = {
         },
         "weapons": lambda lvl: [
             {
-                "name": "Ancestral Fair Steel Rapier",
+                "name": "Ancestral Fair Steel Rapier (Outlands)",
                 "attack_bonus": 7 if lvl==1 else (13 if lvl==5 else 20),
                 "damage_dice": "1d6" if lvl==1 else ("2d6" if lvl==5 else "3d6"),
                 "flat_damage": 2 if lvl==1 else (3 if lvl==5 else 5),
@@ -851,7 +939,18 @@ CLASS_SPECS = {
                 "range": 0,
                 "ap_cost": 0,
                 "traits": ["deadly_d8", "disarm", "finesse"],
-                "allowed_environments": ["civil_spire", "high_radiant", "low_radiant", "the_neither"]
+                "allowed_environments": ["high_radiant", "low_radiant", "the_neither"]
+            },
+            {
+                "name": "Ancestral Dueling Rapier (Civil 1d6)",
+                "attack_bonus": 7 if lvl==1 else (13 if lvl==5 else 20),
+                "damage_dice": "1d6",
+                "flat_damage": 2 if lvl==1 else (3 if lvl==5 else 5),
+                "damage_type": "P",
+                "range": 0,
+                "ap_cost": 0,
+                "traits": ["deadly_d8", "disarm", "finesse"],
+                "allowed_environments": ["civil_spire"]
             },
             {
                 "name": "Elven Dueling Pistol",
@@ -877,8 +976,8 @@ CLASS_SPECS = {
             "social_authority_bonus": 5
         }
     },
-    "BlackMarketeer": {
-        "archetype": "BlackMarketeer",
+    "GreyMarketeer": {
+        "archetype": "GreyMarketeer",
         "hp_per_lvl": 8,
         "con_mod": [1, 2, 2],
         "ac": [15, 21, 28],

@@ -34,10 +34,25 @@
         "nonlethal"
       ],
       "allowed_environments": [
-        "civil_spire",
         "high_radiant",
         "low_radiant",
         "the_neither"
+      ]
+    },
+    {
+      "name": "Constable Utility Pocket Knife",
+      "attack_bonus": 20,
+      "damage_dice": "1d4",
+      "flat_damage": 6,
+      "damage_type": "P/S",
+      "range": 0,
+      "ap_cost": 0,
+      "traits": [
+        "agile",
+        "finesse"
+      ],
+      "allowed_environments": [
+        "civil_spire"
       ]
     },
     {

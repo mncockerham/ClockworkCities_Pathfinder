@@ -16,7 +16,24 @@
 | **Removed** | Not available in the setting. |
 | **New** | Clockwork-only rule. |
 
+## The Foundational Principle: Combat vs. Narrative Rules
+- **Non-Combat Rules Are Descriptive, Not Prescriptive:**
+  - Setting lore, social structures, ward guidelines, legal jurisdictions, institutional hierarchies, and travel interactions outside of combat are **descriptive tools designed to build the world, establish atmosphere, and provide rich context for stories**.
+  - They are **not rigid legalistic straightjackets**. They guide how NPCs react and outline the stakes, but are never meant to be micromanaged like a tax code or force players into bureaucratic paralysis.
+- **Combat Rules Are Exact & Prescriptive:**
+  - **Only in combat are we concerned with exact mechanical precision, die rolls, action costs, and tactical math.** 
+  - Combat requires rigorous, fair balance: dice rolls, AC, saving throws, damage steps, wound thresholds, ranges, cover, and action economy must function with exact, predictable clarity so players and Storytellers share an unambiguous understanding of danger and survival.
+- **The Golden Table Rule:** Treat everything outside of combat as narrative clay to mold exciting roleplay; treat combat as the precise tactical engine where life, limb, and resources are put on the line.
+
 ## Precedence & The 3-Tier Design Decision Structure
+> [!IMPORTANT]
+> **SPIRE WEAPON LAWS — ABSOLUTE CANON MANDATE:**
+> Inside the Civil Spire wards, weapons are strictly governed by two universal rules:
+> 1. **Universal Civilian Rule:** Only **Fists (unarmed strikes)** and **1d4 mundane utility knives/daggers** are permitted. (Even then, commoners avoid drawing knives out of fear of "Carrying with Intent" prosecution).
+> 2. **The Single Exception:** **Wall Merchants, Nobles, Great Nobles, and their personal guards/retainers** are legally permitted to carry a **1d6 dueling blade** (rapier, sabre, or shortsword).
+>    - **Strict Material & Modification Limit:** **No enhancements of any kind**—no exotic materials (*Niracrest*, *Mitheral*), no magic runes, and **no clockwork abilities/modifications**. Any modification automatically classifies the weapon as an illegal weapon of war, stripping the owner of their legal exemption and triggering immediate King's Guard intervention.
+>    - **NO OTHER EXCEPTIONS:** Class feats, traits, concealed holsters, disguised canes, or alternative weapons (clubs, truncheons, wrenches, cutlasses, sledges) are strictly prohibited in Civil Spire wards.
+
 1. **Specific Overrides General:**
    - Specific Clockwork rules (a character ability, location, item, or world event) override general Clockwork rules.
    - Clockwork rules override Pathfinder rules.
@@ -31,10 +48,31 @@
    - **Roleplay & Storyteller Final Word:** Questions of what an organization will fund, requisition, or require are resolved through **roleplay between the player and the DM / Storyteller**, and **it is the Storyteller—not the player—who has the final word** on what is and is not approved.
    - **The Social Contract of the Table:** Players are always free not to play or to run their own game if they dislike the Storyteller's decisions; equally, **Storytellers have the responsibility to keep the players engaged and interested enough in the game** to want to be at the table.
 
+## Resource Limits, Storyteller Solutions & The Narrative Contract
+- **Limits Create Tension, Not Playability Roadblocks:** Resource restrictions (finite Neither cartridges, 5-reload Reaction Manifold reservoirs, chemical casing needs, and food shifts) are designed to force **tactical tension and meaningful choices** within an adventure arc—they are **never intended to make classes unplayable or useless during long-term campaigns**.
+- **Reasonable Storytellers Supply Solutions:** If an adventure takes the party away from civil Spires for weeks or months into unknown territory, **reasonable Storytellers will naturally provide in-world replenishment solutions**:
+  - A friendly frontier outpost or isolated trading camp.
+  - An abandoned clockwork workshop or ruined alchemy facility with salvageable reagents.
+  - A heavily fortified Dwarven deep-mine, independent homestead, or cooperative settlement with field generators.
+- **Storyteller Discretion on Availability:** These wilderness rest points may carry reasonable limits on *what* is available (e.g. they might only have sulfur salts for Fire/Acid, or limited battery charging, rather than the entire Spire catalog), but **players are never left completely high and dry**.
+- **The Core Rule for All Game Limits:** This principle applies universally across Clockwork Cities: **whenever a written mechanical limitation threatens to interfere with fun or shut down character viability, the Storyteller supplies an in-world solution.** Documenting hazards and risks is essential for setting the stakes, but rules must never degenerate into "well, if this happens, your character is permanently broken and useless."
+
 ## Character Creation Philosophy — Reasons, Not Gatekeeping Justifications
 Player characters are inherently exceptional, unique individuals in the world. 
 - **No Gatekeeping "Justification":** The rules never require players to argue or "justify" why they should be allowed to pick an Uncommon class for their social tier, a rare archetype, or an unusual skill/Understanding. Requiring high-effort justification penalizes players for trying creative concepts and is explicitly rejected.
 - **A Simple Personal Reason is Sufficient:** All that is required is a simple, believable personal reason or backstory anecdote explaining how they picked it up (e.g., *"My uncle used to smuggle deliveries before he was banished, and he would take me along to back-alley underworld bars; Mom and Dad never knew"* or *"I'm the first Survivor who spent years working in fungal farms because my family ran an illicit still behind the composting tanks"*). More detail is welcome, but a single sentence is completely sufficient.
+
+
+## Social Class vs. Character Class: Complete Independence (The Singular Exception Rule)
+In Clockwork Cities, **Social Class (hereditary standing, wealth, status) and Character Class (skills, training, combat discipline) are fundamentally independent systems**:
+- **Any Social Class Can Play Any Character Class:** There is **zero rule** preventing a Great Noble, Middle Noble, or Merchant from being a **Survivor**, **Soldier**, **Pugilist**, **Scout**, **Artisan**, or any other class. Players are completely free to imagine and roleplay why their character has that background:
+  - *Example:* A Great Noble third-son who enlisted in the royal reconnaissance corps as an elite infiltration operative (**Noble Survivor**).
+  - *Example:* A Wall Merchant daughter who trained at a military academy as an expert frontline officer (**Merchant Soldier**).
+  - *Example:* A middle noble disgraced or fascinated by back-alley fighting who became a bare-knuckle champion (**Noble Pugilist**).
+- **The Only Restriction (The Noble & Merchant Class Prerequisite):**
+  - To play the specific character classes named **Noble** or **Merchant**, you **must start with the matching Social Class** (Status 4+ for Noble; Status 3+ for Merchant; Status 6 for Wall Merchant) because their primary class features represent direct institutional governance, legal estates, commercial cartels, and guild voting rights.
+  - If a Noble or Merchant character fails socially or financially and loses their title/holdings, they lose access to those high-society class perks.
+- **Independence Everywhere Else:** With that single directional exception, Social Class and Character Class are completely unrelated. Having a high Social Class does not restrict you to social classes, nor does being a martial or operative class bar you from high nobility.
 
 ## Spire Social Play & How Social Skills (`Understanding`) Work
 Spire play is intended to be predominantly social—the arena where roleplay-centric players shine—so Social Skills (`Understanding`) operate differently from standard mechanical tests (see [`ClockworkPathfinder/Rules/Skills.md`](file:///c:/Users/mncoc/OneDrive/Documents/Git/ClockworkCities_Pathfinder/ClockworkPathfinder/Rules/Skills.md)):
@@ -46,6 +84,12 @@ Spire play is intended to be predominantly social—the arena where roleplay-cen
   - **`Understanding` (Social Skills):** Supplies operational intelligence about organizations and groups—what they are routinely willing to do (both legal and illicit), who their key members are, and safe approaches. It provides the framework players need to formulate actionable plans.
   - **`Obligation` (`Tier 1 Trivial` to `Tier 5 Life Debt`):** A limited-use debt that directly *compels* behavior from a specific person or organization. Requires no roll; the target must comply or suffer severe personal and organizational **Social Standing loss**.
   - **The Inquisitive Ripple:** Occurs **only** when a request or investigation requires a d20 roll (e.g., reaching beyond routine tasks, asking for high-risk favors, or pushing contacts). The Storyteller always provides an explicit upfront warning that the player is pushing their contacts and people might notice before the dice are cast.
+
+## Spire Combat Reality: Rarity, Escalation & The Third-Party Law Enforcement Influx
+While wilderness and Neither expeditions feature prolonged attrition, **open combat within the Spire (PC vs. Anything Else) is exceptionally rare and fundamentally asymmetrical**:
+- **Not a Closed Arena (Never 1-Group vs. 1-Group):** Combat in the Spire virtually *never* remains an isolated skirmish between the PCs and an opposing faction. Spires are dense, interconnected urban organisms filled with watchful residents, whistle-blowing citizens, and tight patrol beats.
+- **Immediate Escalation & Alert Radius:** Any physical altercation, drawn blade, or chemical blast immediately alerts bystanders. Within 1 to 3 rounds, **Ward Constables** converge on the scene. If combat involves military ordnance, Neither cartridges, or high-status nobility, **The King's Guard** is summoned.
+- **The True Objective (Disengage or Control):** Prolonged gunfights or multi-round brawls are suicidal inside the walls. Combatants must either end the conflict instantly in round 1, contain the scene behind closed doors with zero noise, or disengage and vanish before law enforcement cordons off the ward block.
 
 ## Combat Encounter Philosophy & Threat Distribution (The 15 / 70 / 15 Rule)
 Combat encounters in Clockwork Cities are designed across three distinct gameplay bands:
@@ -115,7 +159,7 @@ Because Clockwork Cities features deep institutional backing (*"Worth = who you 
 | `ClockworkPathfinder/Classes/ClockworkRifleman.md` | Clockwork Rifleman class (Gunslinger baseline: Gunpowder & Neither-tech) | Draft |
 | `ClockworkPathfinder/Classes/Merchant.md` | Merchant class (Bard replaced: Influence Class - Business, Trade & Freight) | Draft |
 | `ClockworkPathfinder/Classes/Noble.md` | Noble class (Bard replaced: Influence Class - High Society, Councils & Arts) | Draft |
-| `ClockworkPathfinder/Classes/BlackMarketeer.md` | Black Marketeer class (Bard replaced: Influence Class - Warrens, Smuggling & Underworld) | Draft |
+| `ClockworkPathfinder/Classes/GreyMarketeer.md` | Grey Marketeer class (Bard replaced: Influence Class - Warrens, Smuggling & Underworld) | Draft |
 | `ClockworkPathfinder/Classes/Pugilist.md` | Pugilist class (Monk baseline: Boxers & Street Thugs) | Draft |
 | `ClockworkPathfinder/Classes/Officer.md` | Officer class (Champion baseline: Military, Constables & King's Guard) | Draft |
 | `ClockworkPathfinder/Classes/SkyCaptain.md` | Captain class (Swashbuckler baseline: Sail, Clockwork/Steam, Agile Airships & War Crafts) | Draft |

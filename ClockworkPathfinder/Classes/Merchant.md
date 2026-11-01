@@ -14,7 +14,7 @@
 - **Typical Social Class & Backing:** Trader / Lesser Merchant (Status 3–4), Merchant (Status 4), Merchant House (Status 6), or Wall Merchant elite (Status 8). They command substantial liquid wealth, credit lines, cargo manifests, and legal protection backed by the merchant federations.
 - **The 70/30 Contact Architecture:**
   - **70% Dedicated Sphere (Business, Trade Guilds, Banking & Logistics):** Guild masters, freight line captains, warehouse foremen, bank underwriters, and artisan factors.
-  - **30% Cross-Sphere Options:** Investing in political lobbying and aristocratic cartels (reaching Nobles) or covert back-alley shipping and fence networks (reaching Black Marketeers).
+  - **30% Cross-Sphere Options:** Investing in political lobbying and aristocratic cartels (reaching Nobles) or covert back-alley shipping and fence networks (reaching Grey Marketeers).
 - **Status Dependency & Insolvency (The 3/4 Connection Loss Rule):**
   - While most adventurer classes (Soldiers, Scouts, Pugilists, Alchemists) can easily fluctuate across social classes without losing their operational abilities outside routine social checks, the **Merchant's social leverage relies on solvency and commercial standing**.
   - A character with levels in the **Merchant class must retain active legal and economic Status as a Merchant or Guild Trader (Status 3+)**—whether via guild accreditation, family house standing, or commercial licensure.
@@ -32,7 +32,7 @@
 
 | Level | Class Features Gained |
 |:---:|---|
-| **1** | Ancestry and background, initial proficiencies, Commercial Syndicate, Commercial Directives (*Lucrative Incentive*), Line of Credit, 1st-level Merchant feat |
+| **1** | Ancestry and background, initial proficiencies, Commercial Syndicate, Commercial Directives (*Lucrative Incentive*), Line of Credit, Commercial Retinues, 1st-level Merchant feat |
 | **2** | Merchant feat, skill feat, skill increase |
 | **3** | General feat, Market Appraisal (Bardic Lore equivalent), skill feat, skill increase |
 | **4** | Merchant feat, skill feat, skill increase |
@@ -66,6 +66,7 @@
 | 1 | Commercial Syndicate | `[Player Core p.97]` | **Replaced (Muse)** | Your commercial background and business network:<br>• **Wall Merchant Dynast:** Focuses on airship logistics, capital investment, and high society contracts (Diplomacy/Society).<br>• **Guild Factor:** Focuses on artisan contracts, material supplies, and guild politics (Crafting/Appraisal).<br>• **Caravan Outfitter:** Focuses on long-haul transport, road security, and trade routes (Survival/Trade).<br>• **Free Broker:** Focuses on fast coin, middleman arbitrage, and warehouse distribution (Deception/Streetwise). |
 | 1 | Commercial Directives | `[Player Core p.98]` | **Replaced (Compositions)** | Non-magical leadership commands and financial incentives (replaces Composition cantrips):<br>• ***Lucrative Incentive*** (1 Action; replaces *Courageous Anthem*): You promise a concrete bonus, bonus wage, or tactical payout to your companions. Allies within 60 feet who hear your directive gain a +1 status bonus to attack rolls, damage rolls, and saves against fear for 1 round.<br>• ***Contractual Defense*** (1 Action; replaces *Rallying Anthem*): You bark defensive positioning clauses; allies within 60 feet gain a +1 status bonus to AC and physical resistance for 1 round. |
 | 1 | Line of Credit | — | **New** | You possess substantial financial backing. Once per day, you can requisition mundane tools, basic transportation, lodging, or emergency gear up to your level's credit limit without paying out of pocket. |
+| 1 | Commercial Retinues | `[retainers.md]` | **New** | You command practical business and security retainers supported entirely by your merchant firm (zero wealth cost; untracked). You start with **2 Retainers** at Level 1, gaining **+1 additional Retainer at Levels 5, 10, 15, and 20** (max 6). Retainer Level = $\lceil \text{Merchant Level} / 2 \rceil$. You can also expend 1 retainer slot to grant **two (2) other PCs** part-time employment in your firm with free gear upgrades, company livery, short sword rights (if Wall Merchant), and hassle-free transit (`[retainers.md]`). |
 | 1 | Spellcasting | `[Player Core p.96]` | **Removed** | All occult spellcasting, spell slots, and magical cantrips are completely removed. |
 | 3 | Market Appraisal | `[Player Core p.99]` | **Replaced (Bardic Lore)** | You can use your mercantile acumen to Recall Knowledge on any item, cargo, contract, guild heraldry, or organization using your Mercantile Lore or Society, even if untrained in the specific topic. |
 | 7 | Merchant's Resolve | `[Player Core p.100]` | **Unchanged** | Will saves increase to Master; success becomes critical success. |
@@ -90,6 +91,7 @@
 | **4th** | **Predictive Purchase** `[PC1 p.175]` | Commerce (70%) | *From Rogue:* Spend an action to reveal you foresaw the need and already purchased a vital item. |
 | **4th** | **Armed Escort Retainer** | Commerce (70%) | Contract 2 veteran Soldier or Pugilist guards with open carry permits along commercial transit paths. |
 | **6th** | **Foreclosure Threat / Hostile Leverage** | Commerce (70%) | Demoralize foes within 30 feet with threats of financial ruin or debt seizure (frightened 1). |
+| **6th** | **Calculated Trajectory (Bombardier)** | Influence Only | **Prerequisite:** Trained in Bombardier.<br>Your tactical ballistic calculation and throwing technique grant a **+3 status bonus to your Bombardier throwing rolls** vs. the flat DC 10 toss check (greatly minimizing scatter/miss distance). |
 | **6th** | **Smuggler Partnership** | Cross-Sphere (30% Black Market) | Partner with a Warrens smuggler to bypass customs tariffs on high-value cargo crates. |
 | **8th** | **Know-It-All & Harmonize** | Commerce (70%) | Deeper market lore successes; issue two commercial directives simultaneously. |
 | **10th** | **Quick Negotiation** | Commerce (70%) | Settle commercial disputes, broker truce agreements, or request aid in combat in single actions. |

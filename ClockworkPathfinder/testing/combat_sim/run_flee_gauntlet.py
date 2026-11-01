@@ -6,7 +6,7 @@ sys.path.append(str(Path(__file__).parent))
 from combat_sim import Simulator
 
 CLASSES = [
-    "artisan", "blackmarketeer", "chirurgeon", "clockworkengineer",
+    "artisan", "greymarketeer", "chirurgeon", "clockworkengineer",
     "clockworkrifleman", "dandy", "inspector", "madbomber", "merchant",
     "noble", "officer", "pugilist", "scholar", "scout", "skycaptain",
     "soldier", "survivor"
@@ -80,7 +80,7 @@ def run_flee_gauntlet(monster_list, monster_level_label, iters=1000):
         name = c.capitalize()
         if c == "clockworkengineer": name = "Engineer"
         if c == "clockworkrifleman": name = "Rifleman"
-        if c == "blackmarketeer": name = "BlackMarketeer"
+        if c == "greymarketeer": name = "GreyMarketeer"
         if c == "madbomber": name = "MadBomber"
         if c == "skycaptain": name = "SkyCaptain"
 

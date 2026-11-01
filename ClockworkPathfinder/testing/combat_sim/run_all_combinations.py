@@ -22,7 +22,7 @@ sys.path.append(str(Path(__file__).parent))
 from combat_sim import Simulator
 
 CLASSES = [
-    "artisan", "blackmarketeer", "chirurgeon", "clockworkengineer",
+    "artisan", "greymarketeer", "chirurgeon", "clockworkengineer",
     "clockworkrifleman", "dandy", "inspector", "madbomber", "merchant",
     "noble", "officer", "pugilist", "scholar", "scout", "skycaptain",
     "soldier", "survivor"
@@ -144,7 +144,7 @@ def run_level_matrix(level: int, iters: int = 100):
         name = r["class"].capitalize()
         if r["class"] == "clockworkengineer": name = "Engineer"
         if r["class"] == "clockworkrifleman": name = "Rifleman"
-        if r["class"] == "blackmarketeer": name = "BlackMarketeer"
+        if r["class"] == "greymarketeer": name = "GreyMarketeer"
         if r["class"] == "madbomber": name = "MadBomber"
         if r["class"] == "skycaptain": name = "SkyCaptain"
 
@@ -190,7 +190,7 @@ def run_all_levels(levels=[1, 5, 10], iters=100):
                 name = row["class"].capitalize()
                 if row["class"] == "clockworkengineer": name = "Clockwork Engineer"
                 if row["class"] == "clockworkrifleman": name = "Clockwork Rifleman"
-                if row["class"] == "blackmarketeer": name = "Black Marketeer"
+                if row["class"] == "greymarketeer": name = "Grey Marketeer"
                 if row["class"] == "madbomber": name = "Mad Bomber"
                 if row["class"] == "skycaptain": name = "Sky Captain"
 

@@ -33,10 +33,25 @@
         "sweep"
       ],
       "allowed_environments": [
-        "civil_spire",
         "high_radiant",
         "low_radiant",
         "the_neither"
+      ]
+    },
+    {
+      "name": "Civilian Swagger Stick / Belaying Club",
+      "attack_bonus": 8,
+      "damage_dice": "1d4",
+      "flat_damage": 1,
+      "damage_type": "B",
+      "range": 0,
+      "ap_cost": 0,
+      "traits": [
+        "agile",
+        "finesse"
+      ],
+      "allowed_environments": [
+        "civil_spire"
       ]
     },
     {

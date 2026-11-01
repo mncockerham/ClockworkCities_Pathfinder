@@ -6,7 +6,7 @@ sys.path.append(str(Path(__file__).parent))
 from combat_sim import Simulator
 
 CLASSES = [
-    "artisan", "blackmarketeer", "chirurgeon", "clockworkengineer",
+    "artisan", "greymarketeer", "chirurgeon", "clockworkengineer",
     "clockworkrifleman", "dandy", "inspector", "madbomber", "merchant",
     "noble", "officer", "pugilist", "scholar", "scout", "skycaptain",
     "soldier", "survivor"

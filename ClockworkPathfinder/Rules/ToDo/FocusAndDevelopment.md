@@ -52,8 +52,8 @@ Build a balanced 4-character party following the complete character creation rul
 
 ## 2. Class Polish & Environmental Niche Tuning
 
-### A. The Influence Trio (Merchant, Noble, Black Marketeer) & Combat Directives
-- **References:** [`ClockworkPathfinder/Classes/Merchant.md`](file:///c:/Users/mncoc/OneDrive/Documents/Git/ClockworkCities_Pathfinder/ClockworkPathfinder/Classes/Merchant.md), [`Noble.md`](file:///c:/Users/mncoc/OneDrive/Documents/Git/ClockworkCities_Pathfinder/ClockworkPathfinder/Classes/Noble.md), [`BlackMarketeer.md`](file:///c:/Users/mncoc/OneDrive/Documents/Git/ClockworkCities_Pathfinder/ClockworkPathfinder/Classes/BlackMarketeer.md)
+### A. The Influence Trio (Merchant, Noble, Grey Marketeer) & Combat Directives
+- **References:** [`ClockworkPathfinder/Classes/Merchant.md`](file:///c:/Users/mncoc/OneDrive/Documents/Git/ClockworkCities_Pathfinder/ClockworkPathfinder/Classes/Merchant.md), [`Noble.md`](file:///c:/Users/mncoc/OneDrive/Documents/Git/ClockworkCities_Pathfinder/ClockworkPathfinder/Classes/Noble.md), [`GreyMarketeer.md`](file:///c:/Users/mncoc/OneDrive/Documents/Git/ClockworkCities_Pathfinder/ClockworkPathfinder/Classes/GreyMarketeer.md)
 - **Open Tasks:**
   1. **Round-by-Round Combat Directives:** Expand active 1-Action and Reaction directives (e.g., *Bounty Designation*, *Retainer Intercept*, *Credit-Line Surge*, *Distracting Bribery*) so Influence classes have dynamic tactical choices on rounds 2–4 beyond *Lucrative Incentive*.
   2. **70/30 Contact & 3/4 Status Loss Playtesting:** Stress-test the 70/30 contact network split and the 3/4 connection loss rule when a Noble (Status < 5) or Merchant (Status < 3) loses their required status tier.

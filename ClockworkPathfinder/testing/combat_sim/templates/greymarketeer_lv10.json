@@ -1,6 +1,6 @@
 {
-  "name": "BlackMarketeer (Lv10)",
-  "archetype": "BlackMarketeer",
+  "name": "GreyMarketeer (Lv10)",
+  "archetype": "GreyMarketeer",
   "level": 10,
   "hp": 108,
   "ac": 28,

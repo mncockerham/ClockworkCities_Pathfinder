@@ -57,6 +57,7 @@
   - Reflex: Trained (improves to Expert at 7th level).
   - Will: Expert (improves to Master at 5th level, Legendary at 15th level).
 - **Skills:** Trained in Society, Academia Lore, your Academic Specialty Lore, plus 5 + Intelligence modifier additional skills.
+- **Bombardier Progression (Delayed Track):** Scholars can unlock and advance the Bombardier combat skill for Reaction Manifolds on a delayed progression: Trained at 3rd level, Expert at 9th level, and Master at 17th level (DC = 10 + Level + Prof + Int mod). Receiving training grants a Reaction Manifold for free.
   - **Academic Mastery:** You gain a Skill Increase and a Skill Feat at **every level** (2nd through 20th). At 3rd, 7th, and 15th levels, you gain an additional Lore skill increase.
 - **Attacks:** Trained in simple weapons, rapiers, shortswords, canes/clubs, crossbows, and light Neither cartridge pistols. Improves to Expert at 5th level, Master at 17th level.
 - **Defenses:** Trained in light armor and unarmored defense. Improves to Expert at 13th level.

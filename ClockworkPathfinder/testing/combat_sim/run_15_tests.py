@@ -22,8 +22,8 @@ TEST_MATCHUPS = [
     # Matchup 6: Level 5 Influence Clash (Merchant vs Officer)
     ("merchant_lv5.json", "officer_lv5.json", 40, "M06: Lv5 Merchant vs Officer (Wall Retainers vs Military Retinue)"),
 
-    # Matchup 7: Level 5 Street Investigation (Inspector vs Black Marketeer)
-    ("inspector_lv5.json", "blackmarketeer_lv5.json", 30, "M07: Lv5 Inspector vs Black Marketeer (Raid & Shakedown)"),
+    # Matchup 7: Level 5 Street Investigation (Inspector vs Grey Marketeer)
+    ("inspector_lv5.json", "greymarketeer_lv5.json", 30, "M07: Lv5 Inspector vs Grey Marketeer (Raid & Shakedown)"),
 
     # Matchup 8: Level 5 Outland Delve (Artisan vs Chirurgeon)
     ("artisan_lv5.json", "chirurgeon_lv5.json", 40, "M08: Lv5 Artisan vs Chirurgeon (Forge Sledge vs Surgical Acids)"),
@@ -40,8 +40,8 @@ TEST_MATCHUPS = [
     # Matchup 12: Level 10 High-Tech vs Sniper (Clockwork Engineer vs Clockwork Rifleman)
     ("clockworkengineer_lv10.json", "clockworkrifleman_lv10.json", 80, "M12: Lv10 Engineer vs Rifleman (Long-Range Grid Siege)"),
 
-    # Matchup 13: Level 10 High Aristocracy vs High Underworld (Noble vs Black Marketeer)
-    ("noble_lv10.json", "blackmarketeer_lv10.json", 40, "M13: Lv10 Noble vs Black Marketeer (4 Retainers vs Syndicate Squad)"),
+    # Matchup 13: Level 10 High Aristocracy vs High Underworld (Noble vs Grey Marketeer)
+    ("noble_lv10.json", "greymarketeer_lv10.json", 40, "M13: Lv10 Noble vs Grey Marketeer (4 Retainers vs Syndicate Squad)"),
 
     # Matchup 14: Level 10 Academic Siege vs Outland Hunter (Scholar vs Scout)
     ("scholar_lv10.json", "scout_lv10.json", 80, "M14: Lv10 Scholar vs Scout (Arc Resonator vs Composite Longbow)"),

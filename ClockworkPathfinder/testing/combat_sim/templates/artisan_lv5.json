@@ -32,10 +32,24 @@
         "shove"
       ],
       "allowed_environments": [
-        "civil_spire",
         "high_radiant",
         "low_radiant",
         "the_neither"
+      ]
+    },
+    {
+      "name": "Trade Ball-Peen Tool Hammer",
+      "attack_bonus": 12,
+      "damage_dice": "2d4",
+      "flat_damage": 2,
+      "damage_type": "B",
+      "range": 0,
+      "ap_cost": 0,
+      "traits": [
+        "agile"
+      ],
+      "allowed_environments": [
+        "civil_spire"
       ]
     },
     {

@@ -74,7 +74,7 @@ Select your class (`ClockworkPathfinder/Classes/`):
 - **Marksmen & Demolitions:** Clockwork Rifleman, Mad Bomber.
 - **Technical & Scientific:** Clockwork Engineer, Artisan, Chirurgeon, Scholar.
 - **Investigators & Leaders:** Inspector, Officer, Sky Captain.
-- **Influence & Social:** Dandy, Survivor, Black Marketeer, plus **Noble** and **Merchant** *(see warning above)*.
+- **Influence & Social:** Dandy, Survivor, Grey Marketeer, plus **Noble** and **Merchant** *(see warning above)*.
 
 *Class Details:* Record your Key Attribute, class Hit Points per level, initial proficiencies (Perception, Saves, Attacks, Defenses), 1st-level Class Feat, and class features.
 

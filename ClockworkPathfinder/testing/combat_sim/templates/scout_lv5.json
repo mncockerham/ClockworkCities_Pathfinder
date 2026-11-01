@@ -51,10 +51,25 @@
         "finesse"
       ],
       "allowed_environments": [
-        "civil_spire",
         "high_radiant",
         "low_radiant",
         "the_neither"
+      ]
+    },
+    {
+      "name": "Utility Skinning Knife",
+      "attack_bonus": 13,
+      "damage_dice": "2d4",
+      "flat_damage": 2,
+      "damage_type": "P/S",
+      "range": 0,
+      "ap_cost": 0,
+      "traits": [
+        "agile",
+        "finesse"
+      ],
+      "allowed_environments": [
+        "civil_spire"
       ]
     }
   ],

@@ -1,0 +1,51 @@
+{
+  "name": "Noble_Pugilist (Lv5)",
+  "archetype": "Noble_Pugilist",
+  "level": 5,
+  "hp": 73,
+  "ac": 22,
+  "fort": 13,
+  "ref": 13,
+  "will": 10,
+  "speed": 35,
+  "max_ap": 8,
+  "status": 7,
+  "civil_spire_legal": true,
+  "civil_ac_penalty": 0,
+  "unarmed_damage_dice": "2d6",
+  "unarmed_bonus": 13,
+  "unarmed_flat_dmg": 4,
+  "unarmed_traits": [
+    "agile",
+    "nonlethal"
+  ],
+  "weapons": [
+    {
+      "name": "Fair Steel Noble Dueling Blade",
+      "attack_bonus": 15,
+      "damage_dice": "1d6",
+      "flat_damage": 4,
+      "damage_type": "P/S",
+      "range": 0,
+      "ap_cost": 0,
+      "traits": [
+        "deadly_d8",
+        "disarm",
+        "finesse"
+      ],
+      "allowed_environments": [
+        "civil_spire"
+      ]
+    }
+  ],
+  "abilities": {
+    "flurry_of_blows": true,
+    "damage_resistance_physical": 2,
+    "armed_retainers": true,
+    "retainer_count": 1,
+    "retainer_hp": 16,
+    "retainer_attack": 6,
+    "retainer_damage_dice": "1d6",
+    "retainer_flat_damage": 2
+  }
+}

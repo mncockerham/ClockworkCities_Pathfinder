@@ -9,7 +9,7 @@ CLASSES = [
     ("soldier", "Soldier"),
     ("pugilist", "Pugilist"),
     ("officer", "Officer"),
-    ("blackmarketeer", "BlackMarketeer"),
+    ("greymarketeer", "GreyMarketeer"),
     ("noble", "Noble"),
     ("scout", "Scout"),
     ("merchant", "Merchant"),

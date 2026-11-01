@@ -32,6 +32,14 @@ In the Great Spires of Clockwork Cities, **social class is the single most defin
   - By contrast, **Half-Elves and Dwarves** face maximum shifts of **4** (total combined **8.0**), keeping them tethered to specialized niches (airship riggers or deep stonecutters).
   - **High Elves and Deep Ones** face shifts of **5** (total combined **10.0**), rapidly inducing lethal necrotic collapse outside their native sanctuaries. This makes High Elves and Deep Ones effectively unplayable outside high polar peaks/palace summits or boiling abyssal vents, permanently cementing Humans and Orcs as the universal citizens, workers, soldiers, and adventurers of the Clockwork Cities.
 
+### Social Class vs. Character Class Independence (The Single Exception Rule)
+In Clockwork Cities, **Social Class (hereditary standing, wealth, status) and Character Class (skills, training, combat discipline) are completely independent systems**:
+- **Any Social Class Can Play Any Character Class:** There is **no rule** preventing a Great Noble or Wall Merchant from being an infiltration-trained **Survivor**, a frontline **Soldier**, a **Pugilist**, or a **Clockwork Rifleman**. Players need only a simple, believable in-world reason (e.g. a Great Noble third-son who enlisted in the deep-zone scouts as an infiltration specialist, or a noble daughter who rebelled to master back-alley pugilism).
+- **The Only Restriction (Noble & Merchant Classes):** 
+  - To play the specific character classes named **Noble** or **Merchant**, you **must start with the matching Social Class** (Status 4+ for Noble; Status 3+ for Merchant; Status 6 for Wall Merchant), as their class features represent active commercial credit, legal estates, and institutional governance.
+  - If a Noble or Merchant fails socially or financially and loses their title/holdings, they lose access to those class perks.
+- **Outside of that single exception, Social Class and Character Class are completely unrelated.**
+
 ### Ownership in a Spire & The Feudal Management Chain
 - **The King Owns Everything:** Ultimately, all land, spire structure, and territory in the kingdom belongs to the **King**.
 - **The Great Noble Houses (Royal Stewardship):** Through royal decree, the King has assigned responsibility for all property inside the Spires and across the outside territories to the **Great Noble Houses**. A single Great House may hold a presence across multiple Spires, and the **25 most important Great Houses** all hold dedicated sections of the capital city, **New Avalon**.
@@ -69,7 +77,7 @@ Character Classes Evaluated:
 • Mad Bomber (Alchemist: Bomb)         • Pugilist (Monk: Boxer / Savage Brawler)
 • Officer (Champion: Officer)          • Sky Captain (Swashbuckler: Airships)
 • Artisan (Craftsman)                  • Scholar (Academic / Architect / Accountant)
-• Influence Trio: Merchant, Noble, Black Marketeer
+• Influence Trio: Merchant, Noble, Grey Marketeer
 *(Note: Former standalone Brute class is consolidated into the Level 2/4/8 Savage Combatant feat line for Soldiers and Pugilists; former Miner class is consolidated into Scout).*
 ```
 
@@ -92,7 +100,7 @@ Character Classes Evaluated:
 - **Common Classes:**
   - **Survivor:** The quintessential slum runner, cutpurse, scout, and alley fixer.
   - **Pugilist (including Savage Combatants):** Bare-knuckle street thugs, illegal pit fighters, Warrens syndicate muscle, and dockside brawlers.
-  - **Black Marketeer:** Underworld syndicate operators, fences, and smuggling bosses.
+  - **Grey Marketeer:** Underworld syndicate operators, fences, and smuggling bosses.
   - **Scout (Subterranean Miner):** Indentured debt-laborers and penal diggers working the hazardous lower sump-shafts.
 - **Uncommon Classes:**
   - **Mad Bomber:** Self-taught demolitionists brewing unstable ordnance in Warrens hideouts.
@@ -225,6 +233,6 @@ Character Classes Evaluated:
 | **Artisan** | Hybrid (Rogue/Inv) | Guild (T3) | Citizen/Laborer (T2) |
 | **Merchant** | Replaced Bard (Influence) | Merchant (T6) | Nobility (T7), Guild (T3), Academia (T5) |
 | **Noble** | Replaced Bard (Influence) | Nobility (T7) | Academia (T5), Military (T4) |
-| **Black Marketeer** | Replaced Bard (Influence) | Slums/Warrens (T1) | Citizen (T2), Merchant (T6) |
+| **Grey Marketeer** | Replaced Bard (Influence) | Slums/Warrens (T1) | Citizen (T2), Merchant (T6) |
 | **Inspector** | Investigator | Military/Constable (T4), Academia (T5) | Guild (T3), Merchant (T6), Nobility (T7) |
 | **Scholar** | Investigator | Academia (T5) | Guild (T3), Merchant (T6), Nobility (T7) |

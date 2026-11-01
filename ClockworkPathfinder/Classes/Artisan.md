@@ -57,6 +57,7 @@
   - Reflex: Trained (improves to Expert at 11th level).
   - Will: Expert (improves to Master at 15th level).
 - **Skills:** Trained in Crafting, your Trade Lore, plus 4 + Intelligence modifier additional skills. Gains a Skill Increase and a Skill Feat at **every level** (2nd through 20th), reflecting specialized trade development.
+- **Bombardier Progression (Delayed Track):** Artisans unlock and advance the Bombardier combat skill on a delayed progression: Trained at 3rd level, Expert at 9th level, and Master at 17th level (DC = 10 + Level + Prof + Int/Wis mod). Receiving training grants a Reaction Manifold for free.
 - **Attacks:** Trained in simple weapons, martial hammers, axes, flails, picks, and knives/daggers (the primary tools of tradecraft). Improves to Expert at 5th level, Master at 17th level.
 - **Defenses:** Trained in light and medium armor, and unarmored defense. Improves to Expert at 13th level.
 - **Starting Social Skills (`Understanding`) & Social Advancement:**

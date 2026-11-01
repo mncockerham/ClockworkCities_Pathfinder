@@ -6,7 +6,7 @@ sys.path.append("ClockworkPathfinder/testing/combat_sim")
 from combat_sim import Simulator
 
 CLASSES = [
-    "artisan", "blackmarketeer", "chirurgeon", "clockworkengineer",
+    "artisan", "greymarketeer", "chirurgeon", "clockworkengineer",
     "clockworkrifleman", "dandy", "inspector", "madbomber", "merchant",
     "noble", "officer", "pugilist", "scholar", "scout", "skycaptain",
     "soldier", "survivor"
@@ -61,7 +61,7 @@ def run_problem_class_audit(level=5, iters=1000):
             opp_name = opp.capitalize()
             if opp == "clockworkengineer": opp_name = "Engineer"
             if opp == "clockworkrifleman": opp_name = "Rifleman"
-            if opp == "blackmarketeer": opp_name = "BlackMarketeer"
+            if opp == "greymarketeer": opp_name = "GreyMarketeer"
             if opp == "madbomber": opp_name = "MadBomber"
             if opp == "skycaptain": opp_name = "SkyCaptain"
 

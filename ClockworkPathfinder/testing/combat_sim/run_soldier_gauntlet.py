@@ -8,7 +8,7 @@ from pathlib import Path
 
 CLASSES = [
     "artisan",
-    "blackmarketeer",
+    "greymarketeer",
     "chirurgeon",
     "clockworkengineer",
     "clockworkrifleman",
@@ -63,7 +63,7 @@ def run_soldier_gauntlet(level=5, iters=1000):
         opp_name = opp.capitalize()
         if opp == "clockworkengineer": opp_name = "Engineer"
         if opp == "clockworkrifleman": opp_name = "Rifleman"
-        if opp == "blackmarketeer": opp_name = "BlackMarketeer"
+        if opp == "greymarketeer": opp_name = "GreyMarketeer"
         if opp == "madbomber": opp_name = "MadBomber"
         if opp == "skycaptain": opp_name = "SkyCaptain"
 

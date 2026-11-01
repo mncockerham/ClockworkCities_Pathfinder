@@ -38,14 +38,16 @@
       ]
     },
     {
-      "name": "Heavy Wrench / Club (Civil)",
+      "name": "Utility Knife",
       "attack_bonus": 20,
-      "damage_dice": "3d6",
+      "damage_dice": "1d4",
       "flat_damage": 6,
-      "damage_type": "B",
+      "damage_type": "P/S",
       "range": 0,
       "ap_cost": 0,
-      "traits": [],
+      "traits": [
+        "agile"
+      ],
       "allowed_environments": [
         "civil_spire"
       ]

@@ -21,7 +21,7 @@
   ],
   "weapons": [
     {
-      "name": "Fair Steel Spire Dueling Rapier",
+      "name": "Fair Steel Spire Dueling Rapier (Outlands)",
       "attack_bonus": 7,
       "damage_dice": "1d6",
       "flat_damage": 2,
@@ -34,10 +34,26 @@
         "finesse"
       ],
       "allowed_environments": [
-        "civil_spire",
         "high_radiant",
         "low_radiant",
         "the_neither"
+      ]
+    },
+    {
+      "name": "Fair Steel Dueling Rapier (Civil 1d6)",
+      "attack_bonus": 7,
+      "damage_dice": "1d6",
+      "flat_damage": 2,
+      "damage_type": "P",
+      "range": 0,
+      "ap_cost": 0,
+      "traits": [
+        "deadly_d8",
+        "disarm",
+        "finesse"
+      ],
+      "allowed_environments": [
+        "civil_spire"
       ]
     },
     {

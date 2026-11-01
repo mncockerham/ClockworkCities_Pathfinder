@@ -130,6 +130,18 @@ Every character receives a budget of **10 Edge Points** during character creatio
 > **Avoid Front-Loaded, Flat Numbers with Diminishing Returns:**
 > In d20 systems, flat bonuses (like a flat "+1 to Fortitude saves" or "+2 to a skill") are powerful at Level 1 but become mathematically irrelevant and forgotten by Level 10–15. Conversely, unlocking **capabilities, proficiencies, action economy, and scaling dice** maintains tremendous value across a character's entire career (Levels 1 to 20).
 
+### D. Social Standing & Patronage Edges
+- **Social Patron (2 Points — Merchant / Lesser-to-Middle Noble Backing):**
+  - You possess a powerful institutional or high-society patron (a Wall Street merchant firm, commercial venture house, or Lesser/Middle Noble family).
+  - **No Physical Combat Risk:** Your patron **will not physically risk themselves or fight for you**.
+  - **Political, Legal & Transit Intercession:** Your patron provides political and legal backing, interceding through their solicitors if you run afoul of the Spire Constabulary, and grants you access to travel through carriage avenues, transit gates, and Spire circles **as if you possessed their social status**.
+  - **Reaction Manifold Maintenance & Ordnance Sponsorship:** If you are a lower social class (Status 0–2), having this Patron satisfies the institutional maintenance requirement to own, maintain, reconfigure, and reload a **Reaction Manifold** (Bombardier device), with the patron covering the cost of replacement chemical salts and grenade casings as standard operational gear support.
+- **Great Patron (3 Points — Wall Merchant / Great Noble House Backing):**
+  - You are backed by the highest tier of Spire power: a dynastic Wall Merchant cartel or one of the 25 Great Noble Houses.
+  - Grants all benefits of a 2-point Patron, but with **Great House / Wall Merchant authority**: supreme legal deference against local ward constables, carriage access to elite high-spire avenues (Wards 14–15), and access to Great House cleanroom workshops and royal patent formula archives.
+
+---
+
 ### What Scales Well Across 1–20 vs. What Stagnates:
 - **Scaling Edges (High Lifelong Value):**
   - **Armor Step-Up:** Gaining access to Medium or Heavy Armor scales permanently because your Armor Class and item bonuses scale with every level and potency rune, keeping you alive at Level 15 just as much as at Level 1.

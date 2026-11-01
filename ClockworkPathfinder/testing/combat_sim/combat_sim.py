@@ -46,6 +46,9 @@ class Weapon:
     save_flat_damage: Optional[int] = None
     action_cost: int = 1
     cooldown_rounds: int = 0
+    is_bombardier: bool = False
+    burst_radius_ft: int = 0
+    throw_bonus: int = 0
 
 @dataclass
 class CombatantState:
@@ -97,11 +100,13 @@ class Simulator:
 
         shield_hp = abilities.get("shield_hp", 0) if env != "civil_spire" else 0
 
-        # Ammo tracking
+        # Ammo tracking & Grenade charges
         ammo = {}
         for w in raw.get("weapons", []):
             if "cartridge" in w.get("traits", []):
                 ammo[w["name"]] = w.get("ammo_capacity", 6)
+            elif w.get("is_bombardier", False) or "bombardier" in w.get("traits", []):
+                ammo[w["name"]] = w.get("ammo_capacity", 3)
 
         return CombatantState(
             data=raw,
@@ -147,8 +152,11 @@ class Simulator:
                     save_dc=w.get("save_dc"),
                     save_damage_dice=w.get("save_damage_dice"),
                     save_flat_damage=w.get("save_flat_damage"),
-                    action_cost=w.get("action_cost", 2 if w.get("save_type") else 1),
-                    cooldown_rounds=w.get("cooldown_rounds", 0)
+                    action_cost=w.get("action_cost", 2 if (w.get("save_type") or w.get("is_bombardier") or "bombardier" in w.get("traits", [])) else 1),
+                    cooldown_rounds=w.get("cooldown_rounds", 0),
+                    is_bombardier=bool(w.get("is_bombardier", False) or "bombardier" in w.get("traits", [])),
+                    burst_radius_ft=w.get("burst_radius_ft", 0),
+                    throw_bonus=w.get("throw_bonus", state.data.get("abilities", {}).get("bombardier_throw_bonus", 0))
                 ))
         return usable
 
@@ -236,15 +244,11 @@ class Simulator:
         self._apply_damage(defender, total_dmg, is_phys)
         return total_dmg
 
-    def _execute_save_ability(self, attacker: CombatantState, defender: CombatantState, weapon: Weapon) -> int:
+    def _execute_save_ability(self, attacker: CombatantState, defender: CombatantState, weapon: Weapon, dist_to_detonation: int = 0) -> int:
         """Executes a saving throw ability (PF2e standard 4 degrees: Crit Success, Success, Failure, Crit Failure)."""
         save_type = (weapon.save_type or "ref").lower()
 
         # Reactive Pulse Defense activation on save
-        # Must be activated for every incoming save check; costs AP (minimum 1) and requires unspent AP.
-        # Characters cannot have both a shield and a pulse device.
-        # Two-handed weapons / rifles prevent the activation of standard pulse devices.
-        # Illegal / confiscated in Civil Spire.
         bonus = 0
         pulse_dr = 0
         pulse_cfg = defender.data.get("abilities", {}).get("pulse_defense")
@@ -333,6 +337,64 @@ class Simulator:
         self._apply_damage(defender, total_dmg, is_phys)
         return total_dmg
 
+    def _execute_bombardier_toss(self, attacker: CombatantState, defender: CombatantState, weapon: Weapon) -> int:
+        """
+        Executes a 2-Action Bombardier grenade attack:
+          1. Prime ([one-action]) + Toss ([one-action]) = 2 Actions in the same turn.
+          2. Toss Roll: Flat DC 10 toss check (d20 + throw_bonus).
+          3. On Success (>=10): Direct hit on target location.
+          4. On Failure (<10): Scatters 5 ft (1 square) per point below 10, capped at half thrown distance.
+             Direction rolled on d8. In 1D combat simulation:
+               - Directions 1, 2, 8 = moves away from thrower (+scatter distance)
+               - Directions 4, 5, 6 = bounces back toward thrower (-scatter distance)
+               - Directions 3, 7 = lateral (no distance change to either combatant)
+          5. Friendly Fire: Any combatant within the burst radius of detonation takes damage via saving throw.
+        """
+        # Decrement ammo charge (dispenser payload storage)
+        if attacker.ammo_remaining.get(weapon.name, 0) > 0:
+            attacker.ammo_remaining[weapon.name] -= 1
+
+        thrown_dist = abs(attacker.pos - defender.pos)
+        d20_throw = random.randint(1, 20)
+        toss_roll = d20_throw + weapon.throw_bonus
+        target_pos = defender.pos
+
+        if toss_roll >= 10:
+            # Direct hit
+            detonation_pos = target_pos
+        else:
+            miss_points = 10 - toss_roll
+            raw_scatter_ft = miss_points * 5
+            max_scatter_ft = max(5, thrown_dist // 2)
+            scatter_ft = min(raw_scatter_ft, max_scatter_ft)
+
+            d8 = random.randint(1, 8)
+            if d8 in [1, 2, 8]:
+                # Away from thrower
+                detonation_pos = target_pos + scatter_ft if target_pos >= attacker.pos else target_pos - scatter_ft
+            elif d8 in [4, 5, 6]:
+                # Back toward thrower
+                detonation_pos = target_pos - scatter_ft if target_pos >= attacker.pos else target_pos + scatter_ft
+            else:
+                # Lateral (3, 7): detonation remains at target distance
+                detonation_pos = target_pos
+
+        burst_radius = max(5, weapon.burst_radius_ft)
+        total_dmg_dealt = 0
+
+        # Check defender in blast radius
+        dist_to_defender = abs(detonation_pos - defender.pos)
+        if dist_to_defender <= burst_radius:
+            total_dmg_dealt += self._execute_save_ability(attacker, defender, weapon, dist_to_defender)
+
+        # Friendly Fire Check: Check if thrower is caught in blast radius
+        dist_to_attacker = abs(detonation_pos - attacker.pos)
+        if dist_to_attacker <= burst_radius and attacker.current_hp > 0:
+            # Self-inflicted friendly fire save
+            self._execute_save_ability(attacker, attacker, weapon, dist_to_attacker)
+
+        return total_dmg_dealt
+
     def _combatant_turn(self, active: CombatantState, passive: CombatantState, env: str):
         actions = 3
         map_count = 0
@@ -345,6 +407,7 @@ class Simulator:
         elif env == "low_radiant":
             active.current_ap = min(active.max_ap, active.current_ap + 1)
 
+        # Retainer Attacks
         if active.retainers_hp:
             for _ in active.retainers_hp:
                 ret_roll = random.randint(1, 20) + active.data["abilities"].get("retainer_attack", 9)
@@ -361,8 +424,27 @@ class Simulator:
 
         weapons = self._get_usable_weapons(active, env)
 
-        # 1. Check for Save-based special breath/emitter abilities (Acid Spitter, Spore Sprayer, Disorientor)
-        save_weapons = [w for w in weapons if w.save_type and (w.range_ft == 0 or w.range_ft >= dist)]
+        # 1. Check for Bombardier 2-Action munitions attacks
+        bombardier_weapons = [
+            w for w in weapons 
+            if w.is_bombardier and actions >= 2 and (active.ammo_remaining.get(w.name, 1) > 0)
+        ]
+        if bombardier_weapons and actions >= 2:
+            bw = bombardier_weapons[0]
+            # Close distance if beyond range
+            while dist > bw.range_ft and actions >= 3:
+                dist = max(bw.range_ft, dist - speed)
+                active.pos = dist
+                actions -= 1
+
+            if dist <= bw.range_ft and actions >= 2:
+                actions -= 2
+                self._execute_bombardier_toss(active, passive, bw)
+                if passive.current_hp <= 0:
+                    return
+
+        # 2. Check for Save-based special breath/emitter abilities (Acid Spitter, Spore Sprayer, Disorientor)
+        save_weapons = [w for w in weapons if w.save_type and not w.is_bombardier and (w.range_ft == 0 or w.range_ft >= dist)]
         for sw in save_weapons:
             cost = sw.action_cost
             cd = active.save_ability_cooldowns.get(sw.name, 0)
@@ -378,8 +460,8 @@ class Simulator:
                 active.shield_raised = True
                 actions -= 1
 
-        # Standard strike weapons (exclude save abilities for standard MAP strikes)
-        strike_weapons = [w for w in weapons if not w.save_type]
+        # Standard strike weapons (exclude save abilities and bombardier for standard MAP strikes)
+        strike_weapons = [w for w in weapons if not w.save_type and not w.is_bombardier]
         best_melee = [w for w in strike_weapons if w.range_ft == 0]
         best_ranged = [w for w in strike_weapons if w.range_ft >= dist]
 
@@ -448,7 +530,7 @@ class Simulator:
 
             if chosen_weapon.ap_cost > 0:
                 if active.current_ap < chosen_weapon.ap_cost:
-                    fallbacks = [w for w in weapons if w.ap_cost == 0]
+                    fallbacks = [w for w in weapons if w.ap_cost == 0 and not w.is_bombardier]
                     if fallbacks:
                         chosen_weapon = fallbacks[0]
                     else:

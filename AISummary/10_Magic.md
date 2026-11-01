@@ -73,6 +73,13 @@ $$\text{AP per Round} = \text{INT Modifier} + \text{Class Base AP} + \text{Level
 
 ---
 
+### Reaction Manifolds & The Bombardier System
+For Influence classes (Noble, Merchant, Grey Marketeer) and Technical classes (Scholar, Engineer, Artisan), standardized area-of-effect spells and status hazards are reproduced mechanically via **Reaction Manifolds** and the **Bombardier** combat skill (see [ClockworkPathfinder/Rules/Bombardier.md](file:///c:/Users/mncoc/OneDrive/Documents/Git/ClockworkCities_Pathfinder/ClockworkPathfinder/Rules/Bombardier.md)):
+- **Spellcasting Equivalent:** Scales exactly like Wizard spellcasting (DC = 10 + Level + Prof + Key Mod), unlocking spell-rank equivalent munitions at Trained (Lv 1/3), Expert (Lv 7/9), Master (Lv 15/17), and Legendary (Lv 19).
+- **Operational Economy:** Each dispenser safely stores 3 stabilized shells per known effect, backed by an internal 5x reload reservoir replenished via an 8-hour, 15-minute reload cycle (15 min active prep + 8 hr automatic synthesis). Reaction Manifolds are state-monitored, ultra-expensive military hardware requiring Collegium, Merchant, or Noble standing (or the 2-Pt / 3-Pt Patron Edge for lower-status PCs) to maintain and reload; granted free to authorized operatives.
+- **Dual & Triple Reaction Manifolds:** Dispensers expand reaction options as levels rise: Tier 1 stores 1 reaction at Lv 1, 2 at Lv 3, and 3 at Lv 5 (choosing 1 of 3 on use). Higher tiers scale similarly (Tier 2 unlocks at Lv 7 → 2 at Lv 9 → 3 at Lv 11; Tier 3 at Lv 15 → 2 at Lv 17 → 3 at Lv 19; Tier 4 at Lv 19 → 3 at Lv 20). Players choose the 1 to 3 items each tier manifold makes. Changing configured items requires a workshop and raw materials including grenade casings. Easily done in a Spire or at Guild/Family-controlled locations with pre-arranged supply shipments (funded as normal gear support, money is not an issue). Swapping and reservoir reloading are not normally available in the field unless military-level logistics/support tenders are arranged.
+- **Ballistics, Range, Area & Scatter:** 2-action delivery ([one-action] Prime + [one-action] Toss). Unskilled toss against flat DC 10 with Pathfinder range increments (0 to -8 max penalty over 5 increments). Standard base range is **15 ft** (max 75 ft); heavy payloads are **5-10 ft** (boosted damage); aerodynamic shells are **20 ft** (degraded damage). Target area scales from **1 Square (5x5 ft point detonation)** with zero friendly fire risk and full concentrated damage, up to **2-5 Square (10-25 ft) area bursts** with diluted damage and full friendly fire. No roll needed if dropped at your feet (the square you stand in, zero scatter). As long as the throw succeeds (no scatter), 1-Square (5x5 ft) grenades carry zero friendly fire risk to adjacent squares. Scatter on miss is 5 ft per point below 10 (capped at half thrown distance).
+
 ## Part 2 — Concoctions
 Biomedical and chemical preparations synthesized from specialized Neither fungi (Sycelium derivatives, Deep strains), plants, mineral extracts, and reactive catalysts.
 - **Form**: Ingested tonics, auto-injectors, aerosolized vapors, and topical dermal washes.
@@ -112,7 +119,11 @@ Biomedical and chemical preparations synthesized from specialized Neither fungi 
 | Heal | Concoction | Modified | Fast-acting cellular stimulant tonic or auto-injector |
 | Stinking Cloud | Concoction | Modified | Pressurized aerosol canister of caustic spores |
 | Sleep | Concoction | Modified | Soporific ether vapor canister or soporific dart |
-| Sound Burst / Stun | Device | Modified | Pneumatic concussive acoustic resonator / stun baton |
+| Sound Burst / Shatter | Device | Modified | Resonant acoustic diaphragm shell (shatters glass/Neither-crystals, deafens) |
+| Faerie Fire / Revealing Light | Concoction | Modified | Aerosolized chemical phosphor micro-dust (1 min, strips concealed/invisible) |
+| Gust of Wind / Hydraulic Push | Device | Modified | Pneumatic overpressure steam expansion shell (pushes targets 5-15 ft, prone) |
+| Chilling Spray / Rime Slick | Concoction | Modified | Endothermic salt siphon freezing surface liquids (3 rounds difficult terrain, clumsy 1) |
+| Cleanse Affliction / Purify Air | Concoction | Modified | Pressurized alkaline/carbolic neutralizer mist (clears gas/spore clouds, poison recovery) |
 | Confusion | Concoction | Modified | Aerosolized halluncinogenic fungal spore flash (Delirium) |
 | Dominate / Charm | — | Removed | Supernatural mind control impossible |
 | Animal Form | — | Removed | Physical transformation not possible |

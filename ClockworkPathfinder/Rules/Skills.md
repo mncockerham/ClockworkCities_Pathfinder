@@ -38,7 +38,19 @@ High proficiency rank (Master or Legendary) represents elite real-world competen
 
 ---
 
-## New System: Understanding & Social Skills
+## New Tactical Skill: Bombardier
+
+**Bombardier** is a specialized combat and engineering skill that governs the tactical operation, calibration, and delivery of **Reaction Manifolds**—extraordinarily expensive, restricted clockwork-pneumatic systems that synthesize, stabilize, and launch chemical/explosive payloads.
+
+- **Non-Magical Spell Equivalent:** In the magic-less Clockwork Cities setting, Bombardier functions as the primary tactical area-of-effect and status-inflicting system for Influence and Technical classes, mirroring Wizard spellcasting progression (DC = $10 + \text{Level} + \text{Proficiency Bonus} + \text{Key Attribute Mod}$).
+- **Restricted Access:** Because dispensers are state-monitored, exorbitantly priced military hardware, training in Bombardier is strictly restricted. Any character who earns training in Bombardier automatically receives an authorized **Reaction Manifold** fitted to their harness for free.
+- **Proficiency Tracks:**
+  - **Influence Classes (Noble, Merchant, Grey Marketeer):** Full primary progression matching Wizard spellcasting (Trained at Lv 1, Expert at Lv 7, Master at Lv 15, Legendary at Lv 19).
+  - **Technical / Scholar Classes (Scholar, Clockwork Engineer, Artisan):** Delayed progression (Trained at Lv 3, Expert at Lv 9, Master at Lv 17).
+  - **Influence Multiclass Archetypes:** E.g., taking an Influence Archetype allows scaling up to Expert rank.
+- **Operational Mechanics:** Operating a dispenser requires a 2-action sequence (`[one-action]` Prime + `[one-action]` Toss in the same turn) directed at a target square against a flat **DC 10** unskilled toss check. Misses scatter up to half the thrown distance (rolled on a d8). **Friendly fire is very real.**
+- **Detailed Master Document:** Full rules for dispenser maintenance, payload stabilization, scatter geometry, saving throw triads (Reflex/Fortitude/Will), and spell-equivalent payload tables are detailed in [`ClockworkPathfinder/Rules/Bombardier.md`](file:///c:/Users/mncoc/OneDrive/Documents/Git/ClockworkCities_Pathfinder/ClockworkPathfinder/Rules/Bombardier.md).
+
 
 **Understanding** is a specialized competency that exists outside the standard skill system. Rather than measuring a generic action (such as jumping, crafting, or lying), Understanding represents **actionable institutional intelligence, member networks, and operational framework**—supplying deep knowledge about groups, subcultures, and organizations, specifically **what they are commonly willing to do (both legally and illegally)**.
 
@@ -246,7 +258,7 @@ $$\text{Total Understanding Entries} = \text{Automatic Base (2)} + \text{Class B
 
 1. **Automatic Baseline (2 Entries):** Every class grants **2 automatic Broad Understanding entries** selected from their core institutional sphere (reflecting their immediate trade guild, home ward precinct, military branch, or social upbringing).
 2. **Class Base Entries:** In addition to the 2 automatic entries, classes receive a base number of selectable Broad Understanding entries according to their social scope, network reliance, and institutional mobility:
-   - **4 Entries (The Influence Trio):** **Merchant**, **Noble**, and **Black Marketeer** (under the **70/30 Rule**, ~70% of their network anchors in their primary sphere while ~30% branches across other spheres).
+   - **4 Entries (The Influence Trio):** **Merchant**, **Noble**, and **Grey Marketeer** (under the **70/30 Rule**, ~70% of their network anchors in their primary sphere while ~30% branches across other spheres).
    - **3 Entries (Institutional & Maritime Leaders):** **Sky Captain**, **Artisan**, and **Scholar**.
    - **2 Entries (Investigative, Technical & Courtly Specialists):** **Inspector**, **Officer**, **Clockwork Engineer**, **Dandy**, and **Chirurgeon**.
    - **1 Entry (Frontline Martials & Field Operatives):** **Soldier**, **Pugilist**, **Survivor**, **Mad Bomber**, **Clockwork Rifleman**, and **Scout** *(including Subterranean Miner)*.
@@ -259,7 +271,7 @@ $$\text{Total Understanding Entries} = \text{Automatic Base (2)} + \text{Class B
 |---|:---:|---|---|
 | **Merchant** | **4** | **Trade Guilds & Commercial Houses** *(Merchant Houses, Counting Houses, Cartridge Factors, or Sky-Shipwrights)* | **Primary (70%):** Trade Guilds & Commercial Houses, Bureaucracy & University (Customs/Finance), Labor Organizations (Dockers/Transit)<br>**Cross-Sphere (30%):** Nobility (Wall Merchants/Embassy Enclaves) or Criminal Underworld (Smugglers/Fences) |
 | **Noble** | **4** | **Nobility & High Society** *(25 Great Houses, Lesser/Middle Nobles, or High-Society Salons)* | **Primary (70%):** Nobility & High Society, Bureaucracy & University (Privy Council/Courts/Collegium), Military (Officer Corps/Sky Navy)<br>**Cross-Sphere (30%):** Law Enforcement (King's Guard/House Guards) or Trade Guilds (Wall Merchants) |
-| **Black Marketeer** | **4** | **Criminal Underworld** *(Ward 13 Vice Syndicates, Warrens Rookeries, Smugglers, or Fences/Fronts)* | **Primary (70%):** Criminal Underworld, Labor Organizations (Dockers/Transit/Sump Crews)<br>**Cross-Sphere (30%):** Law Enforcement (Corrupt Precinct Watch/Checkpoints) or Trade Guilds (Bootleg Tech/Pawn Brokers) |
+| **Grey Marketeer** | **4** | **Criminal Underworld** *(Ward 13 Vice Syndicates, Warrens Rookeries, Smugglers, or Fences/Fronts)* | **Primary (70%):** Criminal Underworld, Labor Organizations (Dockers/Transit/Sump Crews)<br>**Cross-Sphere (30%):** Law Enforcement (Corrupt Precinct Watch/Checkpoints) or Trade Guilds (Bootleg Tech/Pawn Brokers) |
 | **Sky Captain** | **3** | **Military** *(Royal Sky Navy)* OR **Trade Guilds** *(Sky-Shipwrights, Aeronauts & Zone Riggers)* | **Choose from:** Trade Guilds & Commercial Houses, Military (Sky Navy/Arms Bunkers), Labor Organizations (Dockers/Transit Riggers), Bureaucracy (Zone & Grid Authorities / Sky-Dock Customs), Nobility (Foreign Embassies & Sky-Dock Enclaves), Criminal Underworld (Blockade Runners) |
 | **Artisan** | **3** | **Trade Guilds & Commercial Houses** *(Artisans/Masons, Gunsmiths/Armorers, or Clockwork Machinists)* | **Choose from:** Trade Guilds & Commercial Houses, Labor Organizations (Foundrymen/Millhands/Miners), Bureaucracy & University (Patent Clerks/Grid Authorities), Nobility (High-Society Patrons) |
 | **Scholar** | **3** | **Bureaucracy & University Connections** *(University Collegium, Municipal Bureaucracy, Courts, or Zone/Grid Authorities)* | **Choose from:** Bureaucracy & University Connections, Trade Guilds & Commercial Houses (Neither-Tech Factors/Alchemists), Nobility & High Society (Collegium Patrons/Embassy Enclaves), Law Enforcement (Forensic/Magistrates) |
@@ -307,7 +319,7 @@ Both the **frequency of Social Advancements**, the **rate of network re-training
 
 | Social Tier & Classes | Starting Class Base | Social Advancement Levels *(Separate from Skill Increases)* | Total Advancements (Lv 1–20) | Proficiency Level Gates & Max Cap | Level-Up Swap / Re-Training Rate |
 |---|:---:|---|:---:|---|:---:|
-| **Tier 1: The Influence Trio**<br>*(Merchant, Noble, Black Marketeer)* | **4** | **Every Even Level** (`2, 4, 6, 8, 10, 12, 14, 16, 18, 20`) **+ Bonus at Levels `5, 11, 17`** | **13** | • **Expert:** Level **2+**<br>• **Master:** Level **6+**<br>• **Legendary:** Level **12+**<br>*(Uncapped Legendary entries)* | Swap up to **4** entries per level |
+| **Tier 1: The Influence Trio**<br>*(Merchant, Noble, Grey Marketeer)* | **4** | **Every Even Level** (`2, 4, 6, 8, 10, 12, 14, 16, 18, 20`) **+ Bonus at Levels `5, 11, 17`** | **13** | • **Expert:** Level **2+**<br>• **Master:** Level **6+**<br>• **Legendary:** Level **12+**<br>*(Uncapped Legendary entries)* | Swap up to **4** entries per level |
 | **Tier 2: Social, Maritime & Guild Leaders**<br>*(Dandy, Sky Captain, Artisan, Scholar)* | **3** *(Dandy 2)* | **Every Even Level** (`2, 4, 6, 8, 10, 12, 14, 16, 18, 20`) | **10** | • **Expert:** Level **3+**<br>• **Master:** Level **7+**<br>• **Legendary:** Level **15+**<br>*(Max **2** Legendary entries)* | Swap up to **3** entries per level |
 | **Tier 3: Investigative, Command & Tech Specialists**<br>*(Inspector, Officer, Clockwork Engineer, Chirurgeon)* | **2** | **Every 3 Levels** (`3, 6, 9, 12, 15, 18`) | **6** | • **Expert:** Level **5+**<br>• **Master:** Level **11+**<br>• **Legendary:** Level **18+**<br>*(Max **1** Legendary entry in core sphere)* | Swap up to **2** entries per level |
 | **Tier 4: Frontline Martials & Field Operatives**<br>*(Soldier, Pugilist, Survivor, Mad Bomber, Clockwork Rifleman, Scout)* | **1** | **Every 4 Levels** (`4, 8, 12, 16, 20`) | **5** | • **Expert:** Level **5+**<br>• **Master:** Level **13+**<br>• **Max Cap:** **Master** *(Cannot reach Legendary without a social archetype)* | Swap up to **1** entry per level |

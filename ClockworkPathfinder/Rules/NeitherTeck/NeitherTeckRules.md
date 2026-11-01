@@ -58,7 +58,7 @@ $$\mathbf{\text{Passive Loadout Capacity}} = \mathbf{\text{Key Attribute Modifie
    - **Classes:** **Dandy, Pugilist, Survivor, Scout, Sky Captain, Officer, Clockwork Rifleman**.
    - **Key Attribute:** Higher of **Dexterity** or **Constitution** modifier (or **Strength** for Strength-based Pugilists). (Precision balance, kinetic posture, and reflex articulation).
 3. **Track C: Precision Engineering & Bespoke Tailoring (Technical & Academic):**
-   - **Classes:** **Scholar, Artisan, Clockwork Engineer, Chirurgeon, Mad Bomber, Inspector, Merchant, Noble, Black Marketeer**.
+   - **Classes:** **Scholar, Artisan, Clockwork Engineer, Chirurgeon, Mad Bomber, Inspector, Merchant, Noble, Grey Marketeer**.
    - **Key Attribute:** Higher of **Intelligence**, **Strength**, or **Constitution** modifier. (Ergonomic micro-cables, custom-calibrated pressure regulators, and tailored linings).
 
 #### Armor-Weight Passive Modifiers

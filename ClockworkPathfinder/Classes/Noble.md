@@ -10,11 +10,11 @@
 ## 1. Setting Overview
 *The scions of the Great Houses, Privy Council regents, royal archivists, and cultural patrons who dictate the laws, tastes, and philosophy of the Spires.*
 
-- **In-World Identity:** Landed gentry with ancestral estates above the Zone in the high Aither, senior magistrates of the Privy and Royal Councils, deans and benefactors of the University Collegium, or high-caste dilettantes patronizing the grand theaters. Where the Merchant moves coin and the Black Marketeer moves contraband, the Noble moves **sovereign decrees, institutional policy, academic discovery, and social legitimacy**.
+- **In-World Identity:** Landed gentry with ancestral estates above the Zone in the high Aither, senior magistrates of the Privy and Royal Councils, deans and benefactors of the University Collegium, or high-caste dilettantes patronizing the grand theaters. Where the Merchant moves coin and the Grey Marketeer moves contraband, the Noble moves **sovereign decrees, institutional policy, academic discovery, and social legitimacy**.
 - **Typical Social Class & Backing:** Lesser Noble (Status 5), Noble (Status 7), or Great House Magnate (Status 8+). They command hereditary deference, private estate retinues, exclusive audience rites, and immunity from common constabulary detention.
 - **The 70/30 Contact Architecture:**
   - **70% Dedicated Sphere (High Society, Governance & High Culture):** Lords, ladies, court ministers, privy councilors, university chancellors, master artists, and royal judges.
-  - **30% Cross-Sphere Options:** Expanding downward into commercial monopolies and trade charters (reaching Merchants) or hiring deniable street fixers and cutouts for court espionage (reaching Black Marketeers).
+  - **30% Cross-Sphere Options:** Expanding downward into commercial monopolies and trade charters (reaching Merchants) or hiring deniable street fixers and cutouts for court espionage (reaching Grey Marketeers).
 - **Status Dependency & Disgrace (The 3/4 Connection Loss Rule):**
   - While most adventurer classes (Soldiers, Scouts, Pugilists, Alchemists) can easily fluctuate across social classes without losing their operational abilities outside routine social checks, the **Noble is fundamentally tied to institutional status**.
   - A character with levels in the **Noble class must retain active legal and social Status as a Noble (Status 5+)**—whether via hereditary standing, Privy Council appointment, or active royal patent.
@@ -25,14 +25,14 @@
 ---
 
 ## 2. Core Class Features
-*Spellcasting is completely removed. Like the Merchant and Black Marketeer, the Noble utilizes accelerated skill progression (Rogue skill rate) and non-magical directives.*
+*Spellcasting is completely removed. Like the Merchant and Grey Marketeer, the Noble utilizes accelerated skill progression (Rogue skill rate) and non-magical directives.*
 
 ### Noble Advancement (Levels 1–20)
 *Reference: Adapted from Table 3–6 (Bard) and Table 3–12 (Rogue) [Player Core p.96, 170]*
 
 | Level | Class Features Gained |
 |:---:|---|
-| **1** | Ancestry and background, initial proficiencies, Aristocratic Pedigree, Sovereign Directives (*Imperial Poise*), Sovereign Writs, 1st-level Noble feat |
+| **1** | Ancestry and background, initial proficiencies, Aristocratic Pedigree, Sovereign Directives (*Imperial Poise*), Sovereign Writs, Noble Retinues, 1st-level Noble feat |
 | **2** | Noble feat, skill feat, skill increase |
 | **3** | General feat, High-Society Lore (Bardic Lore equivalent), skill feat, skill increase |
 | **4** | Noble feat, skill feat, skill increase |
@@ -67,6 +67,7 @@
 | 1 | Sovereign Directives | `[Player Core p.98]` | **Replaced (Compositions)** | Non-magical commands of aristocratic authority and unshakeable poise:<br>• ***Imperial Poise*** (1 Action; replaces *Courageous Anthem*): You project sovereign confidence and high-status defiance. Allies within 60 feet who hear your voice gain a +1 status bonus to attack rolls, damage rolls, and saving throws against fear and mental effects for 1 round.<br>• ***Imperious Rebuke*** (1 Action; replaces *Rallying Anthem*): You command immediate discipline and defensive bearing; allies within 60 feet gain a +1 status bonus to AC and Reflex saves for 1 round. |
 | 1 | Sovereign Writs & Petitions | — | **New** | You carry royal influence. Once per day, you can issue an official petition, safe-conduct warrant, or legal requisition to bypass minor municipal inspections, obtain private library access, or command an audience with city aldermen without bureaucratic delays. |
 | 1 | Dueling Sword Exemption | `[WorldAndLaw p.5]` | **Canon Feature** | As an accredited Noble, you possess the exclusive legal privilege under Crown Law to **openly wear and draw dueling swords and rapiers** within all municipal wards. |
+| 1 | Noble Retinues | `[retainers.md]` | **New** | You command household subordinates supported entirely by your family house (zero wealth cost; untracked). You start with **2 Retainers** at Level 1, gaining **+1 additional Retainer at Levels 5, 10, 15, and 20** (max 6). Retainer Level = $\lceil \text{Noble Level} / 2 \rceil$. You can also expend 1 retainer slot to grant **two (2) other PCs** part-time employment in your house with free gear upgrades, house livery, short sword carry rights, and hassle-free transit (`[retainers.md]`). |
 | 3 | High-Society Lore | `[Player Core p.99]` | **Replaced (Bardic Lore)** | You can use your aristocratic education to Recall Knowledge on any noble house, court scandal, crown treaty, artistic masterpiece, or academic thesis using your Noble Lore or Society. |
 | 7 | Noble's Resolve | `[Player Core p.100]` | **Unchanged** | Will saves increase to Master; success becomes critical success. |
 | 11 | Noble Expertise | `[Player Core p.100]` | **Unchanged** | Class DC increases to Expert. |
@@ -90,6 +91,7 @@ Class feats are divided into **70% High Society/Governance/Arts** and **30% Cros
 | **4th** | **Patron's Commission** | High Society (70%) | Fund artists or scholars to produce unique cultural works or expedite research formulas. |
 | **4th** | **Estate Bodyguard Warrant** | High Society (70%) | Legally retain 2 armed Soldier or Pugilist bodyguards with open carry rights under your family crest. |
 | **6th** | **Aristocratic Disdain** | High Society (70%) | Demoralize foes within 30 feet using haughty authority; targets become frightened 1. |
+| **6th** | **Calculated Trajectory (Bombardier)** | Influence Only | **Prerequisite:** Trained in Bombardier.<br>Your tactical ballistic calculation and throwing technique grant a **+3 status bonus to your Bombardier throwing rolls** vs. the flat DC 10 toss check (greatly minimizing scatter/miss distance). |
 | **6th** | **Monopoly Charter** | Cross-Sphere (30% Merchant) | Use Privy Council leverage to secure trade tariffs favoring allied merchant caravans. |
 | **8th** | **University Chairmanship** | High Society (70%) | Command university laboratories, access sealed Neither research archives, and recruit scholars. |
 | **10th** | **Sovereign Intercession** | High Society (70%) | Free an ally or subordinate from low-court magistrate custody with a signed writ of immunity. |

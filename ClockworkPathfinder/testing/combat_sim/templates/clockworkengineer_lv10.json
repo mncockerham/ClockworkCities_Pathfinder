@@ -101,10 +101,24 @@
         "shove"
       ],
       "allowed_environments": [
-        "civil_spire",
         "high_radiant",
         "low_radiant",
         "the_neither"
+      ]
+    },
+    {
+      "name": "Pocket Utility Knife",
+      "attack_bonus": 15,
+      "damage_dice": "1d4",
+      "flat_damage": 2,
+      "damage_type": "P/S",
+      "range": 0,
+      "ap_cost": 0,
+      "traits": [
+        "agile"
+      ],
+      "allowed_environments": [
+        "civil_spire"
       ]
     }
   ],

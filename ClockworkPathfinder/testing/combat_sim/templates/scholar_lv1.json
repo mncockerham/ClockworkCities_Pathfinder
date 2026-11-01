@@ -67,10 +67,25 @@
         "finesse"
       ],
       "allowed_environments": [
-        "civil_spire",
         "high_radiant",
         "low_radiant",
         "the_neither"
+      ]
+    },
+    {
+      "name": "Academic Penknife",
+      "attack_bonus": 5,
+      "damage_dice": "1d4",
+      "flat_damage": 0,
+      "damage_type": "P/S",
+      "range": 0,
+      "ap_cost": 0,
+      "traits": [
+        "agile",
+        "finesse"
+      ],
+      "allowed_environments": [
+        "civil_spire"
       ]
     }
   ],
