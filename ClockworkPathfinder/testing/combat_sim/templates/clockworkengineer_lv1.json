@@ -3,7 +3,7 @@
   "archetype": "ClockworkEngineer",
   "level": 1,
   "hp": 18,
-  "ac": 15,
+  "ac": 16,
   "fort": 5,
   "ref": 6,
   "will": 7,
@@ -128,6 +128,11 @@
     "barrier_temp_hp_low": 8,
     "arc_deflection_screen": true,
     "deflection_ap_cost": 2,
-    "deflection_ac_bonus": 3
+    "deflection_ac_bonus": 3,
+    "combat_backpack": true,
+    "backpack_temp_hp": 2,
+    "backpack_turret_bonus": 7,
+    "backpack_turret_dice": "1d8",
+    "backpack_turret_flat": 3
   }
 }

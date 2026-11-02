@@ -53,11 +53,21 @@
 |---|---|---|---|---|
 | 1 | Hit Points | `[G&G p.15]` | **Unchanged** | 8 + Constitution modifier per level. |
 | 1 | Initial Proficiencies | `[G&G p.15]` | **Modified** | Perception: Trained.<br>Fortitude: Expert, Reflex: Trained, Will: Expert.<br>Skills: Trained in Crafting, plus 3 + Int mod.<br>Attacks: Trained in simple, martial, and unarmed.<br>Defenses: Trained in light and medium armor.<br>Class DC: Trained in Inventor class DC. |
-| 1 | Clockwork Innovation | `[G&G p.15]` | **Modified** | Choose **Armor Innovation** (powered harness/suit) or **Weapon Innovation** (mechanical/radiant enhanced weapon). Construct innovation is **Removed**. |
+| 1 | Clockwork Innovation | [G&G p.15] | **Modified** | Choose **Armor Innovation** (powered harness/suit), **Weapon Innovation** (mechanical/radiant enhanced weapon), or **Combat Backpack Innovation** (pre-mounted, shoulder-swiveling clockwork turret & deflector harness). Construct innovation is **Removed**. |
 | 1 | Explode | `[G&G p.16]` | **Unchanged** | Vent pent-up kinetic or electrical energy from your innovation in a 5-ft emanation (or 10-ft with Unstable). |
 | 1 | Overdrive | `[G&G p.16]` | **Unchanged** | Temporarily supercharge your mechanism with a Crafting check for bonus damage. |
 
 ---
+
+
+### Signature Innovation: The Combat Backpack (Always-Up Shoulder Turret)
+*In place of standard Armor or Weapon Innovations, the Engineer may equip a **Combat Backpack Innovation**—a heavy leather and brass rig housing a gyro-stabilized, shoulder-mounted clockwork turret and reactive deflection mesh.*
+
+- **Always Active & Functional (0 Deploy Actions):** Unlike deployable ground tripods that require setup in combat, the Combat Backpack is worn directly into battle and operates continuously.
+- **Autonomous Overdrive Fire (Free Trigger 1/Round):** At the start of your turn, the turret tracks the nearest hostile target within 60 feet and fires an autonomous volley:
+  - *Outlands / Neither / Radiant:* Fires heavy ballistics or flechette darts (1d20 + Crafting Attack Bonus, dealing 1d8 + INT physical damage at Lv 1–4, 2d8 + INT at Lv 5+).
+  - *Civil Spire Municipal Compliance:* Automatically cycles into concealed non-lethal pneumatic dart mode (1d4 + INT damage), remaining legal under Ward Constable inspection.
+- **Deflective Rigging:** The reinforced backplate and shock-absorber gimbal grant a **+1 circumstance bonus to AC** and provide a buffer of **Temporary Hit Points equal to  	imes \text{Level}$** at the start of each combat encounter.
 
 ## 3. Class Feats
 

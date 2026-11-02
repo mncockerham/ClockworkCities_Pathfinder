@@ -16,6 +16,13 @@
 | **Removed** | Not available in the setting. |
 | **New** | Clockwork-only rule. |
 
+## Core Mechanics & Bonus Stacking (Standard PF2e Remaster Enforcement)
+- **Strict Bonus Stacking Rules [Player Core p.12]: **
+  - Bonuses and penalties in Clockwork Cities strictly follow standard Pathfinder 2e typing: **Circumstance**, **Item**, and **Status**.
+  - **The Universal Stacking Rule:** If two feats, actions, abilities, edges, or environmental conditions grant the same type of bonus to the same statistic (e.g. two circumstance bonuses to AC, or two item bonuses to attack rolls), **only use the higher bonus**; they do not stack unless the specific ability explicitly states it is an exception.
+  - **Untyped Bonuses:** Untyped bonuses from feats, class features, or temporary traits do not stack with each other if they originate from similar triggers or grant the same fundamental mechanical benefit; only the highest applies.
+  - **Penalties:** Penalties of the same type do not stack (take the worst penalty), except circumstance or status penalties from distinct named conditions or unique persistent wounds.
+
 ## The Foundational Principle: Combat vs. Narrative Rules
 - **Non-Combat Rules Are Descriptive, Not Prescriptive:**
   - Setting lore, social structures, ward guidelines, legal jurisdictions, institutional hierarchies, and travel interactions outside of combat are **descriptive tools designed to build the world, establish atmosphere, and provide rich context for stories**.

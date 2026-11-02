@@ -126,6 +126,17 @@ CLASS_SPECS = {
                 "allowed_environments": ["high_radiant", "low_radiant", "the_neither", "wilderness"]
             },
             {
+                "name": "Service Crossbow (Closing Volley)",
+                "attack_bonus": 8 if lvl==1 else (14 if lvl==5 else 20),
+                "damage_dice": "1d10" if lvl==1 else ("2d10" if lvl==5 else "3d10"),
+                "flat_damage": 2 if lvl==1 else (3 if lvl==5 else 4),
+                "damage_type": "P",
+                "range": 120,
+                "ap_cost": 0,
+                "traits": ["closing_shot"],
+                "allowed_environments": ["high_radiant", "low_radiant", "the_neither", "wilderness"]
+            },
+            {
                 "name": "Utility Knife",
                 "attack_bonus": 7 if lvl==1 else (13 if lvl==5 else 20),
                 "damage_dice": "1d4",

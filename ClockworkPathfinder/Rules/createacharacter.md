@@ -112,6 +112,10 @@ Unlike standard fantasy games with bags of random gold, gear is governed by your
 ---
 
 ## Step 7: Final Calculations & Background Story
+> [!IMPORTANT]
+> **Standard PF2e Bonus Stacking Enforcement [Player Core p.12]:**
+> When calculating final bonuses from feats, edges, weapons, items, and abilities: **if two effects grant the same bonus type (Circumstance, Item, or Status) to the same statistic, only use the highest value**. They never stack unless an ability explicitly states it is a specific exception. Untyped bonuses to the same check or defense do not stack.
+
 Wrap up your character sheet:
 - **Armor Class (AC):** $10 + \text{DEX mod (up to cap)} + \text{Armor Item Bonus} + \text{Proficiency Bonus}$.
 - **Hit Points:** $\text{Heritage HP} + \text{Class HP} + \text{CON mod} + (\text{Hardened Frame Edge HP if purchased})$.
