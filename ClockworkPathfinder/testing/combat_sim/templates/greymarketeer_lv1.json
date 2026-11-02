@@ -44,7 +44,7 @@
       ]
     },
     {
-      "name": "Black-Market Stiletto",
+      "name": "Black-Market Stiletto (Civil 1d4)",
       "attack_bonus": 7,
       "damage_dice": "1d4",
       "flat_damage": 3,

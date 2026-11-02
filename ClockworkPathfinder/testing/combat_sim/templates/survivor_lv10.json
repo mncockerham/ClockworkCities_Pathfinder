@@ -21,9 +21,9 @@
   ],
   "weapons": [
     {
-      "name": "Utility Dagger / Shiv",
+      "name": "Utility Dagger / Shiv (Civil 1d4)",
       "attack_bonus": 21,
-      "damage_dice": "3d4",
+      "damage_dice": "1d4",
       "flat_damage": 17,
       "damage_type": "P/S",
       "range": 0,

@@ -57,9 +57,9 @@
       ]
     },
     {
-      "name": "Utility Skinning Knife",
+      "name": "Utility Skinning Knife (Civil 1d4)",
       "attack_bonus": 13,
-      "damage_dice": "2d4",
+      "damage_dice": "1d4",
       "flat_damage": 2,
       "damage_type": "P/S",
       "range": 0,

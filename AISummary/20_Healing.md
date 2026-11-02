@@ -43,7 +43,8 @@ In Victorian Spire healthcare, medical roles are divided across three clear soci
 2. **Tier 2 — The Paramedic / Clinic Worker & Spore-Cultivator (Chirurgeon Class):** Hands-on medical workhorses, spore-brewers, and triage directors (Status 2–4). 
    - **Spellcaster Chassis & Analytical Defense:** Operates on an unarmored/simple weapon chassis, calculating threat corridors mentally so that **Intelligence replaces Dexterity for Armor Class (AC)** ($10 + \text{Prof} + \text{INT}$) with no Dex cap.
    - **Neither-Bio Resonance:** In the Neither, Warrens, or Wilds, symbiotic fungal acclimation replaces **Dexterity with Intelligence** for all DEX skills (Stealth, Thievery, Acrobatics) and **Strength with Wisdom** for all STR skills (Athletics).
-   - **Clockwork Micro-Drone Horde:** Deploys miniature brass scuttlers and winged syringe-drones to auto-deliver 0-AP healing tonics and hemostatic foam to allies within 30–60 ft, and intercept incoming physical strikes ($2 \times \text{INT}$).
+   - **Clockwork Micro-Drone Horde:** Deploys miniature brass scuttlers and winged syringe-drones to auto-deliver 0-AP healing tonics and hemostatic foam to allies within 30–60 ft, and interpose as a sacrificial physical strike barrier ($2 \times \text{INT}$ damage absorbed, $2 \times \text{Level}$ uses/day).
+   - **Hemostatic Coagulant Spray (First Aid Check):** Pressurized fibrin spray ends persistent bleed damage on a First Aid (Medicine/Crafting) check against $\text{DC } 15 + \text{Bleed Rate}$.
    - **Modular Daily Formulations (WIS/INT Multipliers):** Cultivates daily spore strains granting team-wide **Prophylactic DR ($2 \times \text{WIS}$)** against chosen damage types and spraying **Mycological Solvents** that force saving throws to strip enemy Hardness/DR ($2 \times \text{INT}$). Protected by a 1/hour **Galvanic Ward Rig** ($\text{Level} \times \text{INT}$ Temp HP).
 3. **Tier 3 — The Emergency Responder / Corpsman (Field Medic Archetype):** Combatants (Soldiers, Scouts, Survivors) who take the Chirurgeon Dedication because Tiers 1 and 2 are dead or miles away. Their kit is brutal and practical: tourniquets, crude cautery irons, smelling salts, and emergency adrenaline auto-injectors strapped to armor. When frontline allies collapse in the mud, they drag them behind cover, slam a stim into their chest, and keep the squad fighting.
 
@@ -53,6 +54,8 @@ In Victorian Spire healthcare, medical roles are divided across three clear soci
 - **Damage Only (Standard Baseline)**: Concoctions (biomedical tonics, stims) and Clockwork Technology (cellular repair gizmos, suture mechanisms) **can only restore regular Damage**.
 - **No Instant Surgery**: Standard technology and concoctions cannot instantly knit ruptured organs or re-anchor shattered bones represented by Critical or Mortal wounds.
 - **Emergency Exception — Adrenal Injector:** A specialized 1-charge chemical stim injector (`EquipmentCatalog.md §3`) can chemically mask and remove active wound damage during combat, but inflicts severe Exhaustion post-combat until a full night's rest. Subsequent injections between fights cause severe physiological strain, dealing **1d6 damage**; excess damage flows through standard wound tiers into mortal (and can result in PC death).
+  - **Chirurgeon Calibration (Level 5):** A Level 5+ Chirurgeon crafts **daily doses equal to their INT modifier** without consuming infused reagents.
+  - **Improved Adrenal Injector (Level 10):** At Level 10, a Chirurgeon modifies their injectors with stabilized bio-buffers so subsequent uses deal **only a flat 2 points of damage** (instead of 1d6), preventing accidental cardiac death.
 
 ---
 

@@ -21,9 +21,9 @@
   ],
   "weapons": [
     {
-      "name": "Fair Steel Salon Rapier",
+      "name": "Fair Steel Salon Rapier (Civil 1d6)",
       "attack_bonus": 14,
-      "damage_dice": "2d6",
+      "damage_dice": "1d6",
       "flat_damage": 5,
       "damage_type": "P",
       "range": 0,

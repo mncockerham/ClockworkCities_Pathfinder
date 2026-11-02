@@ -39,7 +39,7 @@ CLASS_SPECS = {
         },
         "weapons": lambda lvl: [
             {
-                "name": f"+{1 if lvl<5 else (1 if lvl<10 else 2)} Striking Brass Knuckles" if lvl>=5 else "Brass Knuckles",
+                "name": "Bare-Knuckle Punch (Powerful Fist)",
                 "attack_bonus": 7 if lvl==1 else (13 if lvl==5 else 20),
                 "damage_dice": "1d6" if lvl==1 else ("2d6" if lvl==5 else "3d6"),
                 "flat_damage": 3 if lvl==1 else (4 if lvl==5 else 6),
@@ -47,11 +47,49 @@ CLASS_SPECS = {
                 "range": 0,
                 "ap_cost": 0,
                 "traits": ["agile", "finesse"],
-                "allowed_environments": ["civil_spire", "high_radiant", "low_radiant", "the_neither"]
+                "allowed_environments": ["civil_spire", "high_radiant", "low_radiant", "the_neither", "wilderness"]
+            },
+            {
+                "name": "One-Inch Punch (Solar Plexus Shot)",
+                "attack_bonus": 7 if lvl==1 else (13 if lvl==5 else 20),
+                "damage_dice": "1d6" if lvl==1 else ("3d6" if lvl==5 else "5d8"),
+                "flat_damage": 3 if lvl==1 else (4 if lvl==5 else 6),
+                "damage_type": "B",
+                "range": 0,
+                "ap_cost": 0,
+                "action_cost": 2,
+                "traits": ["forceful"],
+                "allowed_environments": ["civil_spire", "high_radiant", "low_radiant", "the_neither", "wilderness"]
+            }
+        ],
+        "outland_weapons": lambda lvl: [
+            {
+                "name": f"+{1 if lvl<5 else (1 if lvl<10 else 2)} Striking Niracrest Knuckles" if lvl>=5 else "Brass Knuckles",
+                "attack_bonus": 8 if lvl==1 else (14 if lvl==5 else 21),
+                "damage_dice": "1d6" if lvl==1 else ("2d6" if lvl==5 else "3d6"),
+                "flat_damage": 3 if lvl==1 else (4 if lvl==5 else 6),
+                "damage_type": "B",
+                "range": 0,
+                "ap_cost": 0,
+                "traits": ["agile", "finesse"],
+                "allowed_environments": ["high_radiant", "low_radiant", "the_neither", "wilderness"]
+            },
+            {
+                "name": "One-Inch Punch (Solar Plexus Shot)",
+                "attack_bonus": 8 if lvl==1 else (14 if lvl==5 else 21),
+                "damage_dice": "1d6" if lvl==1 else ("3d6" if lvl==5 else "5d8"),
+                "flat_damage": 3 if lvl==1 else (4 if lvl==5 else 6),
+                "damage_type": "B",
+                "range": 0,
+                "ap_cost": 0,
+                "action_cost": 2,
+                "traits": ["forceful"],
+                "allowed_environments": ["high_radiant", "low_radiant", "the_neither", "wilderness"]
             }
         ],
         "abilities": lambda lvl: {
             "flurry_of_blows": True,
+            "one_inch_punch": True if lvl>=5 else False,
             "damage_resistance_physical": 1 if lvl==1 else (2 if lvl==5 else 4)
         }
     },
@@ -805,9 +843,9 @@ CLASS_SPECS = {
                 "allowed_environments": ["high_radiant", "low_radiant", "the_neither"]
             },
             {
-                "name": "Utility Skinning Knife",
+                "name": "Utility Skinning Knife (Civil 1d4)",
                 "attack_bonus": 7 if lvl==1 else (13 if lvl==5 else 19),
-                "damage_dice": "1d4" if lvl==1 else ("2d4" if lvl==5 else "3d4"),
+                "damage_dice": "1d4",
                 "flat_damage": 1 if lvl==1 else (2 if lvl==5 else 3),
                 "damage_type": "P/S",
                 "range": 0,
@@ -842,9 +880,9 @@ CLASS_SPECS = {
         },
         "weapons": lambda lvl: [
             {
-                "name": "Fair Steel Salon Rapier",
+                "name": "Fair Steel Salon Rapier (Civil 1d6)",
                 "attack_bonus": 8 if lvl==1 else (14 if lvl==5 else 21),
-                "damage_dice": "1d6" if lvl==1 else ("2d6" if lvl==5 else "3d6"),
+                "damage_dice": "1d6",
                 "flat_damage": 3 if lvl==1 else (5 if lvl==5 else 8),
                 "damage_type": "P",
                 "range": 0,
@@ -922,9 +960,9 @@ CLASS_SPECS = {
         },
         "weapons": lambda lvl: [
             {
-                "name": "Utility Dagger / Shiv",
+                "name": "Utility Dagger / Shiv (Civil 1d4)",
                 "attack_bonus": 8 if lvl==1 else (14 if lvl==5 else 21),
-                "damage_dice": "1d4" if lvl==1 else ("2d4" if lvl==5 else "3d4"),
+                "damage_dice": "1d4",
                 "flat_damage": 6 if lvl==1 else (11 if lvl==5 else 17),
                 "damage_type": "P/S",
                 "range": 0,
@@ -1088,9 +1126,9 @@ CLASS_SPECS = {
         },
         "weapons": lambda lvl: [
             {
-                "name": "Surgical Scalpel / Lancet",
+                "name": "Surgical Scalpel / Lancet (Civil 1d4)",
                 "attack_bonus": 6 if lvl==1 else (12 if lvl==5 else 18),
-                "damage_dice": "1d4" if lvl==1 else ("2d4" if lvl==5 else "3d4"),
+                "damage_dice": "1d4",
                 "flat_damage": 2 if lvl==1 else (3 if lvl==5 else 4),
                 "damage_type": "P/S",
                 "range": 0,
@@ -1142,6 +1180,17 @@ CLASS_SPECS = {
         },
         "weapons": lambda lvl: [
             {
+                "name": "Sidearm Utility Dagger (Civil 1d4)",
+                "attack_bonus": 7 if lvl==1 else (13 if lvl==5 else 19),
+                "damage_dice": "1d4",
+                "flat_damage": 2 if lvl==1 else (3 if lvl==5 else 5),
+                "damage_type": "P/S",
+                "range": 0,
+                "ap_cost": 0,
+                "traits": ["agile", "finesse"],
+                "allowed_environments": ["civil_spire"]
+            },
+            {
                 "name": "Officer's Sabre",
                 "attack_bonus": 7 if lvl==1 else (13 if lvl==5 else 19),
                 "damage_dice": "1d6" if lvl==1 else ("2d6" if lvl==5 else "3d6"),
@@ -1150,7 +1199,7 @@ CLASS_SPECS = {
                 "range": 0,
                 "ap_cost": 0,
                 "traits": ["finesse"],
-                "allowed_environments": ["civil_spire", "high_radiant", "low_radiant", "the_neither"]
+                "allowed_environments": ["high_radiant", "low_radiant", "the_neither", "wilderness"]
             },
             {
                 "name": "Service Pistol",
@@ -1280,9 +1329,9 @@ CLASS_SPECS = {
                 "allowed_environments": ["high_radiant", "low_radiant", "the_neither"]
             },
             {
-                "name": "Black-Market Stiletto",
+                "name": "Black-Market Stiletto (Civil 1d4)",
                 "attack_bonus": 7 if lvl==1 else (13 if lvl==5 else 19),
-                "damage_dice": "1d4" if lvl==1 else ("2d4" if lvl==5 else "3d4"),
+                "damage_dice": "1d4",
                 "flat_damage": 3 if lvl==1 else (5 if lvl==5 else 8),
                 "damage_type": "P",
                 "range": 0,
