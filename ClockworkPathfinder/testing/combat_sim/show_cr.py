@@ -4,3 +4,4 @@ with open('ClockworkPathfinder/testing/combat_sim/generate_all_templates.py', 'r
 start = text.find('"ClockworkRifleman": {')
 end = text.find('"Merchant": {', start)
 print(text[start:end])
+

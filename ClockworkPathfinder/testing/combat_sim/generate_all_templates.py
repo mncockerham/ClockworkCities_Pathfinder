@@ -85,7 +85,7 @@ CLASS_SPECS = {
                 "range": 0,
                 "ap_cost": 0,
                 "traits": ["versatile_p"],
-                "allowed_environments": ["high_radiant", "low_radiant", "the_neither"]
+                "allowed_environments": ["high_radiant", "low_radiant", "the_neither", "wilderness"]
             },
             {
                 "name": "Utility Knife",
@@ -261,7 +261,7 @@ CLASS_SPECS = {
                 "traits": ["cartridge", "fatal_d12"],
                 "ammo_capacity": 5,
                 "reload_actions": 1,
-                "allowed_environments": ["high_radiant", "low_radiant", "the_neither"]
+                "allowed_environments": ["high_radiant", "low_radiant", "the_neither", "wilderness"]
             },
             {
                 "name": "Bayonet / Trench Knife",
@@ -272,7 +272,7 @@ CLASS_SPECS = {
                 "range": 0,
                 "ap_cost": 0,
                 "traits": ["agile", "finesse"],
-                "allowed_environments": ["high_radiant", "low_radiant", "the_neither"]
+                "allowed_environments": ["high_radiant", "low_radiant", "the_neither", "wilderness"]
             },
             {
                 "name": "Utility Knife",
@@ -906,7 +906,7 @@ CLASS_SPECS = {
         "con_mod": [2, 2, 3],
         "ac": [16, 22, 29],
         "speed": 25,
-        "max_ap": [3, 5, 7],
+        "max_ap": [4, 6, 8],
         "status": 0,
         "civil_legal": True,
         "civil_ac_pen": 0,
@@ -923,28 +923,57 @@ CLASS_SPECS = {
         "weapons": lambda lvl: [
             {
                 "name": "Utility Dagger / Shiv",
-                "attack_bonus": 7 if lvl==1 else (13 if lvl==5 else 20),
+                "attack_bonus": 8 if lvl==1 else (14 if lvl==5 else 21),
                 "damage_dice": "1d4" if lvl==1 else ("2d4" if lvl==5 else "3d4"),
-                "flat_damage": 3 if lvl==1 else (6 if lvl==5 else 9), # Includes sneak attack average
+                "flat_damage": 6 if lvl==1 else (11 if lvl==5 else 17),
                 "damage_type": "P/S",
                 "range": 0,
                 "ap_cost": 0,
                 "traits": ["agile", "finesse", "versatile_s"],
-                "allowed_environments": ["civil_spire", "high_radiant", "low_radiant", "the_neither"]
+                "allowed_environments": ["civil_spire", "high_radiant", "low_radiant", "the_neither", "wilderness"]
             },
             {
-                "name": "Concealed Hand Crossbow",
-                "attack_bonus": 6 if lvl==1 else (12 if lvl==5 else 18),
-                "damage_dice": "1d6" if lvl==1 else ("2d6" if lvl==5 else "3d6"),
-                "flat_damage": 1 if lvl==1 else (3 if lvl==5 else 6),
+                "name": "Standard Crossbow (Closing Volley)",
+                "attack_bonus": 7 if lvl==1 else (13 if lvl==5 else 19),
+                "damage_dice": "1d8" if lvl==1 else ("2d8" if lvl==5 else "3d8"),
+                "flat_damage": 2 if lvl==1 else (4 if lvl==5 else 6),
                 "damage_type": "P",
-                "range": 50,
+                "range": 120,
                 "ap_cost": 0,
-                "traits": ["concealed"],
-                "allowed_environments": ["high_radiant", "low_radiant", "the_neither"]
+                "traits": ["closing_shot"],
+                "allowed_environments": ["high_radiant", "low_radiant", "the_neither", "wilderness"]
             }
         ],
-        "abilities": lambda lvl: {}
+        "outland_ac": [17, 23, 30],
+        "outland_weapons": lambda lvl: [
+            {
+                "name": "Niracrest Trench Blade (+1 Striking)" if lvl>=5 else "Niracrest Trench Blade",
+                "attack_bonus": 9 if lvl==1 else (15 if lvl==5 else 22),
+                "damage_dice": "1d6" if lvl==1 else ("2d6" if lvl==5 else "3d6"),
+                "flat_damage": 6 if lvl==1 else (11 if lvl==5 else 17),
+                "damage_type": "S",
+                "range": 0,
+                "ap_cost": 0,
+                "traits": ["agile", "finesse", "deadly_d8"],
+                "allowed_environments": ["high_radiant", "low_radiant", "the_neither", "wilderness"]
+            },
+            {
+                "name": "Reinforced Outland Crossbow (+1 Striking)" if lvl>=5 else "Reinforced Outland Crossbow",
+                "attack_bonus": 8 if lvl==1 else (14 if lvl==5 else 20),
+                "damage_dice": "1d10" if lvl==1 else ("2d10" if lvl==5 else "3d10"),
+                "flat_damage": 2 if lvl==1 else (4 if lvl==5 else 6),
+                "damage_type": "P",
+                "range": 120,
+                "ap_cost": 0,
+                "traits": ["closing_shot"],
+                "allowed_environments": ["high_radiant", "low_radiant", "the_neither", "wilderness"]
+            }
+        ],
+        "abilities": lambda lvl: {
+            "arc_deflection_screen": True,
+            "deflection_ap_cost": 2,
+            "deflection_ac_bonus": 3
+        }
     },
     "Scholar": {
         "archetype": "Scholar",
@@ -1067,7 +1096,7 @@ CLASS_SPECS = {
                 "range": 0,
                 "ap_cost": 0,
                 "traits": ["agile", "finesse", "deadly_d8"],
-                "allowed_environments": ["civil_spire", "high_radiant", "low_radiant", "the_neither"]
+                "allowed_environments": ["civil_spire", "high_radiant", "low_radiant", "the_neither", "wilderness"]
             },
             {
                 "name": "Corrosive Acid Phial",
@@ -1078,9 +1107,17 @@ CLASS_SPECS = {
                 "range": 30,
                 "ap_cost": 0,
                 "traits": ["bomb"],
-                "allowed_environments": ["high_radiant", "low_radiant", "the_neither"]
+                "allowed_environments": ["high_radiant", "low_radiant", "the_neither", "wilderness"]
             }
         ],
+        "outland_abilities": lambda lvl: {
+            "temp_hp": 8 if lvl==1 else (20 if lvl==5 else 50),
+            "damage_resistance_physical": 4 if lvl==1 else (8 if lvl==5 else 10)
+        },
+        "outland_abilities": lambda lvl: {
+            "temp_hp": 8 if lvl==1 else (20 if lvl==5 else 50),
+            "damage_resistance_physical": 4 if lvl==1 else (8 if lvl==5 else 10)
+        },
         "abilities": lambda lvl: {}
     },
     "Officer": {

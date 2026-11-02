@@ -69,7 +69,8 @@
       "allowed_environments": [
         "high_radiant",
         "low_radiant",
-        "the_neither"
+        "the_neither",
+        "wilderness"
       ]
     },
     {
@@ -87,7 +88,8 @@
       "allowed_environments": [
         "high_radiant",
         "low_radiant",
-        "the_neither"
+        "the_neither",
+        "wilderness"
       ]
     },
     {

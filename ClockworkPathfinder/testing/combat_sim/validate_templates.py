@@ -9,7 +9,7 @@ import re
 from pathlib import Path
 
 DICE_REGEX = re.compile(r"^[0-9]+d[0-9]+$")
-ALLOWED_ENVS = {"civil_spire", "high_radiant", "low_radiant", "the_neither"}
+ALLOWED_ENVS = {"civil_spire", "high_radiant", "low_radiant", "the_neither", "wilderness"}
 REQUIRED_FIELDS = [
     "name", "archetype", "level", "hp", "ac", "fort", "ref", "will",
     "speed", "max_ap", "status", "civil_spire_legal", "civil_ac_penalty",

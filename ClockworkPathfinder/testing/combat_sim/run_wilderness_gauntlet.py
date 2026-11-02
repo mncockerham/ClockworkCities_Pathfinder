@@ -7,22 +7,18 @@ from combat_sim import Simulator
 
 CLASSES = [
     ("soldier", "Soldier"),
-    ("pugilist", "Pugilist"),
-    ("officer", "Officer"),
-    ("greymarketeer", "GreyMarketeer"),
-    ("noble", "Noble"),
-    ("scout", "Scout"),
-    ("merchant", "Merchant"),
-    ("skycaptain", "SkyCaptain"),
-    ("dandy", "Dandy"),
     ("clockworkrifleman", "Rifleman"),
-    ("inspector", "Inspector"),
+    ("pugilist", "Pugilist"),
     ("survivor", "Survivor"),
+    ("scout", "Scout"),
+    ("officer", "Officer"),
+    ("rake", "Rake"),
+    ("scholar", "Scholar"),
     ("clockworkengineer", "Engineer"),
-    ("madbomber", "MadBomber"),
-    ("artisan", "Artisan"),
-    ("chirurgeon", "Chirurgeon"),
-    ("scholar", "Scholar")
+    ("noble", "Noble"),
+    ("merchant", "Merchant"),
+    ("greymarketeer", "GreyMarketeer"),
+    ("chirurgeon", "Chirurgeon")
 ]
 
 # Standard Wild Environments (EXCLUDING Civil Spire)

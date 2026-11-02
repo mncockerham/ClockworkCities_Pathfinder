@@ -616,3 +616,4 @@ text = text.replace(chirurgeon_old, chirurgeon_new, 1)
 with open('ClockworkPathfinder/testing/combat_sim/generate_all_templates.py', 'w', encoding='utf-8') as f:
     f.write(text)
 print('Successfully updated generate_all_templates.py with Outland Loadouts across all classes!')
+
