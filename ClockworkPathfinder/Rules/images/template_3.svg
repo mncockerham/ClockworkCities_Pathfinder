@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 310 310" width="310px" height="310px">
+  <defs>
+    <style>
+      .grid-cell { fill: #f8fafc; stroke: #475569; stroke-width: 1.5; rx: 4; ry: 4; }
+      .center-cell { fill: #fed7aa; stroke: #c2410c; stroke-width: 2.5; rx: 4; ry: 4; }
+      .scatter-cell { fill: #f1f5f9; stroke: #64748b; stroke-width: 1.5; rx: 4; ry: 4; }
+      .cell-text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; font-size: 16px; font-weight: bold; fill: #1e293b; text-anchor: middle; dominant-baseline: central; }
+      .center-text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; font-size: 18px; font-weight: 900; fill: #9a3412; text-anchor: middle; dominant-baseline: central; }
+      .dir-arrow { stroke: #94a3b8; stroke-width: 1.5; stroke-dasharray: 2,2; }
+    </style>
+  </defs>
+  <rect x="135.0" y="135.0" width="40.0" height="40.0" class="center-cell" />
+  <text x="155.0" y="155.0" class="center-text">G</text>
+  <rect x="135.0" y="175.0" width="40.0" height="40.0" class="grid-cell" />
+  <rect x="175.0" y="135.0" width="40.0" height="40.0" class="grid-cell" />
+  <rect x="175.0" y="175.0" width="40.0" height="40.0" class="grid-cell" />
+  <rect x="95.0" y="175.0" width="40.0" height="40.0" class="grid-cell" />
+  <rect x="95.0" y="135.0" width="40.0" height="40.0" class="grid-cell" />
+  <rect x="95.0" y="95.0" width="40.0" height="40.0" class="grid-cell" />
+  <rect x="135.0" y="95.0" width="40.0" height="40.0" class="grid-cell" />
+  <rect x="175.0" y="95.0" width="40.0" height="40.0" class="grid-cell" />
+  <rect x="135.0" y="55.0" width="40.0" height="40.0" class="grid-cell" />
+  <rect x="135.0" y="15.0" width="40.0" height="40.0" class="grid-cell" />
+  <rect x="175.0" y="55.0" width="40.0" height="40.0" class="grid-cell" />
+  <rect x="215.0" y="135.0" width="40.0" height="40.0" class="grid-cell" />
+  <rect x="255.0" y="135.0" width="40.0" height="40.0" class="grid-cell" />
+  <rect x="135.0" y="215.0" width="40.0" height="40.0" class="grid-cell" />
+  <rect x="135.0" y="255.0" width="40.0" height="40.0" class="grid-cell" />
+  <rect x="175.0" y="215.0" width="40.0" height="40.0" class="grid-cell" />
+  <rect x="215.0" y="175.0" width="40.0" height="40.0" class="grid-cell" />
+  <rect x="215.0" y="215.0" width="40.0" height="40.0" class="grid-cell" />
+  <rect x="255.0" y="175.0" width="40.0" height="40.0" class="grid-cell" />
+  <rect x="255.0" y="95.0" width="40.0" height="40.0" class="grid-cell" />
+  <rect x="215.0" y="95.0" width="40.0" height="40.0" class="grid-cell" />
+  <rect x="175.0" y="15.0" width="40.0" height="40.0" class="grid-cell" />
+  <rect x="215.0" y="55.0" width="40.0" height="40.0" class="grid-cell" />
+  <rect x="95.0" y="15.0" width="40.0" height="40.0" class="grid-cell" />
+  <rect x="95.0" y="55.0" width="40.0" height="40.0" class="grid-cell" />
+  <rect x="55.0" y="135.0" width="40.0" height="40.0" class="grid-cell" />
+  <rect x="15.0" y="135.0" width="40.0" height="40.0" class="grid-cell" />
+  <rect x="15.0" y="95.0" width="40.0" height="40.0" class="grid-cell" />
+  <rect x="15.0" y="175.0" width="40.0" height="40.0" class="grid-cell" />
+  <rect x="55.0" y="55.0" width="40.0" height="40.0" class="grid-cell" />
+  <rect x="55.0" y="175.0" width="40.0" height="40.0" class="grid-cell" />
+  <rect x="95.0" y="215.0" width="40.0" height="40.0" class="grid-cell" />
+  <rect x="55.0" y="215.0" width="40.0" height="40.0" class="grid-cell" />
+  <rect x="95.0" y="255.0" width="40.0" height="40.0" class="grid-cell" />
+  <rect x="175.0" y="255.0" width="40.0" height="40.0" class="grid-cell" />
+</svg>
