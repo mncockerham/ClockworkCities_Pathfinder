@@ -53,12 +53,12 @@
       ]
     },
     {
-      "name": "Service Rifle (Cartridge Neither)",
-      "attack_bonus": 21,
+      "name": "Service Rifle (Neither-Tech Cartridge)",
+      "attack_bonus": 23,
       "damage_dice": "3d8",
       "flat_damage": 4,
       "damage_type": "P",
-      "range": 90,
+      "range": 100,
       "ap_cost": 0,
       "traits": [
         "cartridge",
@@ -67,6 +67,8 @@
       "ammo_capacity": 5,
       "reload_actions": 1,
       "allowed_environments": [
+        "high_radiant",
+        "low_radiant",
         "the_neither"
       ]
     },
@@ -104,5 +106,13 @@
       ]
     }
   ],
-  "abilities": {}
+  "abilities": {
+    "cartridge_ballistic_tuning": true,
+    "cartridge_accuracy_bonus": 2,
+    "cartridge_range_bonus_rifle": 10,
+    "cartridge_range_bonus_pistol": 5,
+    "cartridge_precision": true,
+    "precision_dice": "2d6",
+    "min_range_ft": 15
+  }
 }

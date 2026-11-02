@@ -3,7 +3,7 @@
   "archetype": "GreyMarketeer",
   "level": 1,
   "hp": 17,
-  "ac": 15,
+  "ac": 16,
   "fort": 5,
   "ref": 8,
   "will": 7,
@@ -20,6 +20,29 @@
     "nonlethal"
   ],
   "weapons": [
+    {
+      "name": "Clandestine Breaching Charge",
+      "attack_bonus": 5,
+      "damage_dice": "1d6",
+      "flat_damage": 1,
+      "damage_type": "Force",
+      "range": 25,
+      "ap_cost": 0,
+      "is_bombardier": true,
+      "traits": [
+        "bombardier",
+        "concussive"
+      ],
+      "save_type": "ref",
+      "save_dc": 14,
+      "ammo_capacity": 6,
+      "reload_actions": 1,
+      "allowed_environments": [
+        "high_radiant",
+        "low_radiant",
+        "the_neither"
+      ]
+    },
     {
       "name": "Black-Market Stiletto",
       "attack_bonus": 7,
@@ -65,9 +88,12 @@
   "abilities": {
     "armed_retainers": true,
     "retainer_count": 1,
-    "retainer_hp": 12,
-    "retainer_attack": 4,
+    "retainer_hp": 10,
+    "retainer_attack": 3,
     "retainer_damage_dice": "1d6",
-    "retainer_flat_damage": 1
+    "retainer_flat_damage": 1,
+    "arc_deflection_screen": true,
+    "deflection_ap_cost": 2,
+    "deflection_ac_bonus": 3
   }
 }

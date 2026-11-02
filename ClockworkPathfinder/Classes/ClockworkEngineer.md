@@ -1,7 +1,7 @@
 # Clockwork Engineer
 
 - **Base Class:** Inventor `[Guns & Gears p.14]`
-- **Status:** **Modified** (1-to-1 baseline with Pathfinder 2e Inventor; tailored for spire machinists, guild artisans, and Neither-tech artificers)
+- **Status:** **Modified** (1-to-1 baseline with Pathfinder 2e Inventor; tailored for spire machinists, master artisans, and Neither-tech artificers)
 - **Availability:** **Primary PC Class** (Full 1–20 progression)
 - **Discipline / Trait:** Clockwork Technology (Devices, Mechanisms & Hardware)
 
@@ -10,7 +10,8 @@
 ## 1. Setting Overview
 *The master machinists, spire artificers, and mechanism engineers who tame the volatile physics of the Neither.*
 
-- **In-World Identity:** High-ranking members of the Craft Guilds in Ward 11 (Craft) and Ward 13 (Luxury), university-trained mechanists, sky-dock lift engineers, or private master machinists retained by Wall Merchants and Noble Houses. They design, calibrate, and repair the complex spring-driven devices, pneumatic lifts, and Neithercrete boring equipment that keep spire civilization alive.
+- **In-World Identity:** High-ranking members of the Craft Guilds in Ward 11 (Craft) and Ward 13 (Luxury), master blacksmiths, university-trained mechanists, sky-dock lift engineers, or private master machinists retained by Wall Merchants and Noble Houses. They design, calibrate, forge, and repair the complex spring-driven devices, pneumatic lifts, reinforced armors, and Neithercrete boring equipment that keep spire civilization alive.
+- **Consolidation Note (Artisan Integration):** The Clockwork Engineer fully incorporates the practical crafting, armor smithing, and material conditioning of the **Artisan**. Whether forging heavy plate in Ward 11 or tuning micro-escapements on an airship, the Engineer is the setting's definitive hardware master.
 - **Typical Social Class & Backing:** Guild Member / Master (Status 2–4), University Graduate / Professor (Status 4–6), or Wall Merchant technical retainer (Status 4–6).
 - **Physical / Scientific Explanation:** Deep understanding of gear ratios, heavy escapements, radiant power induction (harvested from the Zone), pneumatic valves, and Neither-stable metallurgy. Their "Overdrive" and "Unstable" actions reflect the razor-thin margin between peak mechanical efficiency and catastrophic gear-shearing or explosive discharge.
 
@@ -50,110 +51,57 @@
 ### Core Class Feature Details
 | Level | Feature | Base Reference | Status | Notes / Clockwork Cities Adaptation |
 |---|---|---|---|---|
-| 1 | Hit Points | `[Guns & Gears p.14]` | **Unchanged** | 8 + Constitution modifier per level. |
-| 1 | Key Attribute | `[Guns & Gears p.14]` | **Unchanged** | Intelligence. |
-| 1 | Initial Proficiencies | `[Guns & Gears p.14]` | **Unchanged** | Perception: Trained.<br>Fortitude: Expert, Reflex: Trained, Will: Expert.<br>Skills: Trained in Crafting, plus 3 + Int mod.<br>Attacks: Trained in simple weapons, martial weapons, and unarmed attacks.<br>Defenses: Trained in light armor, medium armor, and unarmored defense (or heavy armor with Armor Innovation).<br>Class DC: Trained in Clockwork Engineer class DC. |
-| 1 | Starting Social Skills (`Understanding`) & Social Advancement | `[Skills.md]` | **New** | **Total Starting Pool (Trained):** `2 Automatic + 2 Class Base + CHA Modifier` (min 1 selectable).<br>• **2 Automatic Broad Entries:** Choose 2 from **Trade Guilds & Commercial Houses** (*Clockwork Machinists & Gearwrights Guild*, *Neither-Tech & Cartridge Factors*, or *Sky-Shipwrights, Aeronauts & Zone Riggers*).<br>• **Selectable Starting Broad Groups:** Choose your `2 + CHA Mod` entries from **Trade Guilds & Commercial Houses**, **Bureaucracy & University Connections** (*Zone & Radiant Grid Authorities*, *University Collegium*), **Labor Organizations** (*Spire Transit & Lift Riggers*, *Foundrymen, Millhands & Boilermakers*, *Subterranean Miners & Sump Crews*), **Military** (*Siege Artillery & Great Arc Cannon Batteries*, *Arms Bunker Quartermasters*), or **Criminal Underworld** (*Bootleg Tech, Jammer & Converter Forgers*).<br>• **Narrow Aspect Choice (Scope vs. Impact):** For each Broad Skill chosen, select its specificity tier: **1) Broad Only** (`+0`, widest reach across the Spire), **2) Singular Sub-Group** (`+1`, specific machinist guild/grid crew), **3) Specific Place** (`+2`, single ward workshop/dynamo hub), or **4) Specific Person** (`+3` & auto-Phase 1 intel on one named individual).<br>• **Tier 3 Social Advancement Track (Separate from Skill Increases):** Gain **6 Social Advancements** across Levels 1–20 (**every 3 levels: `3, 6, 9, 12, 15, 18`**). Spend each to **add a new Broad Social Skill (Trained)** OR **deepen an existing entry's Proficiency Tier** (**Expert** at Lv 5+, **Master** at Lv 11+, **Legendary** at Lv 18+; max 1 Legendary entry in your core sphere). May swap up to **2** entries per level-up. |
-| 1 | Clockwork Innovation | `[Guns & Gears p.15]` | **Modified** | Choose your personal mechanical prototype: **Armor** (spring-assisted exoskeleton harness or Neither-pressure suit) or **Weapon** (pneumatic maul, oscillating gear-blade, or multi-chamber spring crossbow).<br>**Removed:** Construct Innovation is removed; self-aware or autonomous robotic creations do not exist. |
-| 1 | Overdrive | `[Guns & Gears p.16]` | **Unchanged** | Single action Crafting check to push your clockwork mechanisms into maximum performance. Adds your Intelligence modifier to damage (or half on a regular success) for 1 minute. |
-| 1 | Explode | `[Guns & Gears p.16]` | **Unchanged** | Unstable 2-action maneuver causing your innovation to discharge a concussive blast of steam, kinetic shock, or shrapnel in a burst. |
-| 1 | Peerless Inventor | `[Guns & Gears p.16]` | **Unchanged** | Automatically gain the Inventor skill feat and formula book. |
-| 3 | Expert Overdrive | `[Guns & Gears p.17]` | **Unchanged** | Damage bonus from Overdrive increases as your Crafting proficiency rises to Expert. |
-| 7 | Breakthrough Modification | `[Guns & Gears p.17]` | **Unchanged** | Upgrade your innovation with powerful secondary modifications (e.g., automated defenses, accelerated gears, heavy pneumatic pistons). |
-| 7 | Lightning Reflexes | `[Guns & Gears p.17]` | **Unchanged** | Reflex saves increase to Expert. |
-| 9 | Clockwork Engineer Expertise | `[Guns & Gears p.17]` | **Unchanged** | Class DC increases to Expert. |
-| 9 | Juggernaut | `[Guns & Gears p.17]` | **Unchanged** | Fortitude saves increase to Master; success becomes critical success. |
-| 11 | Medium Armor Expertise | `[Guns & Gears p.17]` | **Unchanged** | Armor proficiencies increase to Expert. |
-| 13 | Master Overdrive | `[Guns & Gears p.17]` | **Unchanged** | Overdrive flat damage increases further when Master in Crafting. |
-| 13 | Complete Reconfiguration | `[Guns & Gears p.17]` | **Unchanged** | Swap out your innovation's modifications in 1 day of workshop downtime. |
-| 15 | Revolutionary Modification | `[Guns & Gears p.18]` | **Unchanged** | Apply advanced pinnacle modifications to your innovation. |
-| 15 | Legendary Overdrive | `[Guns & Gears p.18]` | **Unchanged** | Maximum damage scaling on critical Overdrive checks. |
-| 17 | Clockwork Engineer Mastery | `[Guns & Gears p.18]` | **Unchanged** | Class DC increases to Master. |
-| 17 | Resolve | `[Guns & Gears p.18]` | **Unchanged** | Will saves increase to Master; success becomes critical success. |
-| 19 | Infinite Invention | `[Guns & Gears p.18]` | **Unchanged** | Modify your innovation during standard daily preparations without requiring extended workshop downtime. |
+| 1 | Hit Points | `[G&G p.15]` | **Unchanged** | 8 + Constitution modifier per level. |
+| 1 | Initial Proficiencies | `[G&G p.15]` | **Modified** | Perception: Trained.<br>Fortitude: Expert, Reflex: Trained, Will: Expert.<br>Skills: Trained in Crafting, plus 3 + Int mod.<br>Attacks: Trained in simple, martial, and unarmed.<br>Defenses: Trained in light and medium armor.<br>Class DC: Trained in Inventor class DC. |
+| 1 | Clockwork Innovation | `[G&G p.15]` | **Modified** | Choose **Armor Innovation** (powered harness/suit) or **Weapon Innovation** (mechanical/radiant enhanced weapon). Construct innovation is **Removed**. |
+| 1 | Explode | `[G&G p.16]` | **Unchanged** | Vent pent-up kinetic or electrical energy from your innovation in a 5-ft emanation (or 10-ft with Unstable). |
+| 1 | Overdrive | `[G&G p.16]` | **Unchanged** | Temporarily supercharge your mechanism with a Crafting check for bonus damage. |
 
 ---
 
 ## 3. Class Feats
-*Base Inventor feats [Guns & Gears p.20–28] are adopted, with all autonomous/robotic companion feats removed. Traps and turrets are permitted only with simple mechanical triggers.*
 
 ### Feat Status & Adaptations
 | Level | Feats Available / Status | Base Reference | Status | Clockwork Cities Adaptation / Rationale |
 |---|---|---|---|---|
-| **1st** | Prototype Companion | `[G&G p.20]` | **Removed** | Robotic and autonomous creations do not exist in the setting. |
-| **1st** | Built-In Tools, Explosive Leap, Haphazard Repair, Variable Core | `[G&G p.20–21]` | **Unchanged** | Spring-leaps, quick wrenching, and integrated tools. |
-| **1st** | **Zone Aeronaut** | — | **New** | Specialized training in airship mechanics, rigging, and wind winches. |
-| **2nd** | Clockwork Celerity, Collapse Armor, Reverse Engineer, Searing Smoke | `[G&G p.21–22]` | **Unchanged** | Quick gear assembly, folding armor, and smoke vents. |
-| **2nd** | **Neither-Tech Artificer** | — | **New** | Craft basic "magic items" reflavored as steampunk/clockwork devices. |
-| **4th** | Advanced Companion | `[G&G p.22]` | **Removed** | Robotic/autonomous companion removed. |
-| **4th** | Dual-Form Weapon, Gadget Specialist, Megavolt | `[G&G p.22–23]` | **Unchanged** | Arc emitters, modular weapon heads, and pocket gadgets. |
-| **4th** | **Lightning Grounding Rig** | — | **New** | Airship and armor grounding lines granting electrical/Zone storm resistance. |
-| **6th** | Clockwork Shield, Megaton Strike, Visual Fidelity | `[G&G p.23–24]` | **Unchanged** | Kinetic discharge strikes and spring-deployed shields. |
-| **6th** | **Stabilized Neither-Springs** | — | **New** | Extend stability of clockwork items replicating spell effects. |
-| **8th** | Incredible Companion | `[G&G p.24]` | **Removed** | Robotic/autonomous companion removed. |
-| **8th** | Gigavolt, Overdrive Ally, Ubiquitous Gadgets | `[G&G p.24–25]` | **Unchanged** | Overcharging devices and wide-band electrical coils. |
-| **8th** | **Radiant Energy Collector** | — | **New** | Harvest and store ambient radiant electricity from the Zone to power mechanisms. |
-| **10th** | Electrify Armor, Helpful Tinkering, Lockdown, Persistent Ductility | `[G&G p.25–26]` | **Unchanged** | Electrified plate hulls and manual grapple clamps. |
-| **10th** | **Airship Arc Cannoneer** | — | **New** | Master operation and tuning of mounted deck guns and Zone arc cannons. |
-| **12th** | Boost Modulation, Contingency Gadgets, Deep Sink, Shared Overdrive | `[G&G p.26]` | **Unchanged** | Kinetic capacitors and harmonic power sharing. |
-| **14th** | Paragon Companion | `[G&G p.26]` | **Removed** | Robotic/autonomous companion removed. |
+| **1st** | Built-In Tools, Explosive Leap, Tamper | `[G&G p.21]` | **Unchanged** | Spring-assist jumps, integrated lockpicks/wrenches, sabotage mechanisms. |
+| **1st** | Prototype Companion | `[G&G p.21]` | **Removed** | Constructs removed from PC options. |
+| **2nd** | Collapse Armor, Searing Restore | `[G&G p.22]` | **Unchanged** | Rapid-folding suitplates and thermal cauterization. |
+| **2nd** | **Neither-Tech Artificer** | — | **New** | Craft basic Neither-tech and clockwork apparatuses. |
+| **2nd** | **Field Gear Conditioning (Artisan)** | — | **New** | Condition party weapons & armor during 10-min rest. |
+| **4th** | Advanced Innovation, Megavolt | `[G&G p.23]` | **Unchanged** | Arc discharges and chassis upgrades. |
+| **4th** | **Ten-Minute Field Repair (Artisan)** | — | **New** | Rapid field repair of burned-out Neither weapons. |
+| **6th** | Clockwork Shield, Megaton Strike | `[G&G p.24]` | **Unchanged** | Deployable energy-mesh shield and kinetic mega-strikes. |
+| **6th** | **Stabilized Neither-Springs** | — | **New** | Extend stability of technological device effects. |
+| **8th** | Gigavolt, Overdrive Ally | `[G&G p.25]` | **Unchanged** | Long-range lightning arcs and kinetic supercharging of ally gear. |
+| **8th** | **Material Hardening (Niracrest Weave)** | — | **New** | Permanently increase armor Hardness and reinforce linings. |
+| **10th** | Helpful Tinkering, Electrify Armor | `[G&G p.25–26]` | **Unchanged** | Tactical gadget sharing and retaliatory shock plates. |
+| **12th** | Boost Modulation, Deep Receiver | `[G&G p.26]` | **Unchanged** | Advanced capacitive step-up. |
 | **14th** | Explosive Maneuver, Soaring Armor | `[G&G p.26–27]` | **Unchanged** | Heavy pneumatics and mechanical jump-thrusters. |
-| **16th** | Just the Thing!, Persistent Explosion, You Failed to Account For... | `[G&G p.27]` | **Unchanged** | Instant mechanical counters and residual shockwaves. |
-| **18th** | Devastating Megaton Strike, Engine of Destruction | `[G&G p.27–28]` | **Unchanged** | Catastrophic structural impact blows. |
-| **20th** | Full Automation | `[G&G p.28]` | **Removed** | Full AI/autonomous action removed. |
+| **16th** | Just the Thing!, Persistent Explosion | `[G&G p.27]` | **Unchanged** | Instant mechanical counters and residual shockwaves. |
+| **18th** | Devastating Megaton Strike | `[G&G p.27–28]` | **Unchanged** | Catastrophic structural impact blows. |
 | **20th** | Ubiquitous Overdrive | `[G&G p.28]` | **Unchanged** | Continuous mechanical overdrive. |
 
 ---
 
 ### New Setting-Specific Feats
 
-#### Zone Aeronaut — Feat 1
-**[Clockwork] [Skill]**  
-You have served on skyship crews navigating the high-voltage air currents of the Zone. You become trained in Lore (Airships) or Lore (Zone Navigation). You gain a +2 circumstance bonus to Crafting checks to repair airship hulls, rigging, pneumatic winches, ballast tanks, and lift turbines. In addition, you ignore difficult terrain caused by ship rigging, narrow catwalks, and vertical ladders.
-
-#### Neither-Tech Artificer — Feat 2
-**[Clockwork]**  
+#### Field Gear Conditioning & Tempering (Artisan Mastery) — Feat 2
+**[Clockwork] [Artisan]**  
 *Prerequisites:* Trained in Crafting  
-You master the specialized art of crafting steampunk and Neither-tech devices that reproduce the effects of fundamental and consumable magic items. You gain the benefits of the Magical Crafting feat `[Player Core p.232]`, but all items you create are physical, non-magical clockwork or Neither-tech apparatuses (e.g., radiant lamps, pneumatic boots, gear-calibrated lenses, harmonic resonance coils, or spring-loaded talismans). They operate through tension, calibrated escapements, and Neither-stable alloys.
+You bring master guild blacksmithing and leather-curing techniques directly into the field. During 10 minutes of rest, you can condition the weapons and armor of yourself and up to 4 allies. Conditioned armor grants +1 item bonus to saving throws against environmental hazards for 1 hour, and conditioned weapons ignore 2 points of target physical resistance or Hardness on their next 3 strikes.
 
-#### Lightning Grounding Rig — Feat 4
-**[Clockwork]**  
-*Prerequisites:* Armor innovation or trained in Crafting  
-You install heavy copper grounding lines and insulated porcelain baffles into your gear or innovation. You gain electricity resistance equal to half your level (minimum 1). When aboard an airship or in the Zone, you and adjacent allies gain a +2 circumstance bonus to saving throws against lightning effects and environmental electrical hazards.
-
-#### Stabilized Neither-Springs — Feat 6
-**[Clockwork]**  
-*Prerequisites:* Neither-Tech Artificer  
-You have discovered how to counter the rapid degradation of primed Neither-tech devices. When you craft or calibrate a clockwork device that reproduces a spell effect (per `AISummary/10_Magic.md`), the device remains stable in the hands of an untrained user for 10 minutes (instead of 1 minute) after being primed and handed off.
-
-#### Radiant Energy Collector — Feat 8
-**[Clockwork]**  
+#### Ten-Minute Field Repair — Feat 4
+**[Clockwork] [Artisan]**  
 *Prerequisites:* Trained in Crafting  
-You build a specialized radiant capacitor into your innovation or weapon that collects ambient electrical energy from the Zone or electrical attacks. Whenever you take electricity damage, or while traveling through the Zone, your collector gains a charge. You can spend 1 action to discharge the stored power, dealing an extra 1d6 electricity damage on your next melee Strike or powering a handheld clockwork tool for 1 hour.
+You can rapidly repair burned-out capacitors, sheared teeth, or fractured armor plating in the field. You can spend 10 minutes to attempt a Crafting check against standard level DC to fully repair an inoperable or overheated Neither-Tech weapon without needing a permanent workshop.
 
-#### Airship Arc Cannoneer — Feat 10
-**[Clockwork]**  
+#### Advanced Material Hardening (Niracrest & Mitheral Weave) — Feat 8
+**[Clockwork] [Artisan]**  
 *Prerequisites:* Expert in Crafting  
-You are an expert in the mounting, tuning, and firing of heavy shipboard ballistas, pneumatic harpoons, and Zone-powered arc cannons. You gain a +2 circumstance bonus to attack rolls with mounted siege weapons and arc cannons, and you can reload or recalibrate mounted weaponry using 1 fewer action (to a minimum of 1 action).
-
----
-
-> **Simple Trigger Rule:** Any deployable traps, perimeter turrets, or fixed devices crafted or deployed by the Clockwork Engineer must use **simple mechanical triggers** (e.g., tripwires, floor pressure plates, wound-spring timers, or manual ripcords/tether wires). Autonomous target acquisition, computer/electronic logic, and sentient robotic guidance are completely absent.
+You treat fabrics, leather, and steel with proprietary Neither-quenched salts. You permanently increase the Hardness of your armor or innovation by +2, and can apply reinforced ballistic linings to party garments during daily prep.
 
 ---
 
 ## 4. Spells & Apparatus (If Applicable)
-*Not applicable.* The Clockwork Engineer does not cast spells; their abilities are physical manifestations of advanced mechanical engineering, kinetic energy, spring tension, and pneumatic pressure. Minor gadget items crafted through feats like *Gadget Specialist* follow the Clockwork Technology device rules from `AISummary/10_Magic.md`.
-
----
-
-## 5. Multiclass Archetype (Dedication)
-*Characters of other classes can gain training in the Clockwork Engineer (Inventor) archetype [Guns & Gears p.45].*
-
-- **Clockwork Engineer Dedication (Feat 2):** `[Guns & Gears p.45]`  
-  - **Prerequisites:** Intelligence 14 (+2), Trained in Crafting.
-  - **Benefits:** Trained in Clockwork Engineer class DC; gain an Innovation with basic modifications; gain the Overdrive action.
-- **Basic Breakthrough (Feat 4):** Gain a 1st- or 2nd-level Clockwork Engineer feat `[Guns & Gears p.45]`.
-- **Engineer's Resiliency (Feat 4):** Gain 3 additional HP for each Clockwork Engineer archetype feat taken `[Guns & Gears p.45]`.
-- **Advanced Breakthrough (Feat 6):** Gain a Clockwork Engineer feat up to half your character level `[Guns & Gears p.45]`.
-- **Explosive Device (Feat 8):** Gain the Explode action for your innovation `[Guns & Gears p.45]`.
+*Not applicable.* The Clockwork Engineer does not cast spells; their abilities are physical manifestations of advanced mechanical engineering, kinetic energy, spring tension, and pneumatic pressure.

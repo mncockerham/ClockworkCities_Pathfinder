@@ -104,7 +104,7 @@ Combat encounters in Clockwork Cities are designed across three distinct gamepla
 
 ## Adversary Architecture: PC Classes & Creature Templates (Levels 1–15)
 Adversaries across Levels 1–15 are built rapidly without designing custom monsters from scratch:
-- **Humanoids:** Built directly using **PC Classes** (Soldiers, Pugilists, Scouts, Officers, Mad Bombers, Chirurgeons).
+- **Humanoids:** Built directly using **PC Classes** (Soldiers, Pugilists, Scouts, Officers, Grey Marketeers, Chirurgeons).
 - **Fauna & Aberrants:** Built by taking unmodified baseline Pathfinder animals and adding 1 to 10 levels of **Modular Creature Templates** (`ClockworkPathfinder/Classes/NPC/creature class/`):
   - **1. Brute (STR):** Muscle hypertrophy, flat damage, knockback, physical resistance, +5 to +50 ft speed.
   - **2. Stalker (DEX):** AC, Reflex, +10 to +50 ft speed, stealth, pounce, precision & bleed.
@@ -130,14 +130,15 @@ Because Clockwork Cities features deep institutional backing (*"Worth = who you 
   - **Wizard & Elemental Blasting:** Removed. Replaced by the **Mad Bomber** (chemical, concussive, incendiary, and aerosolized gas grenades) and the **Clockwork Engineer** (arc emitters, kinetic shockwave engines, and electrical capacitors).
   - **Druid & Primal Survival:** Removed. Replaced by the **Scout** (covering both surface Neither fog survival/outriding and subterranean excavation, tremorsense, and mine sapping).
   - **Bard & Performance Buffs:** Removed. Replaced by the **Merchant** (commercial directives, tactical financial incentives, contract enforcement, and accelerated Rogue skill mastery).
-  - **Witch / Occult & Debuffs:** Removed. Replaced by the **Inspector** (forensic deduction, criminology, and evidence analysis) and the **Chirurgeon** (caustic acids, debilitating toxins, and neurochemical irritants).
+  - **Witch / Occult & Debuffs:** Removed. Replaced by the **Scholar** (forensic deduction & tactical analysis) and the **Chirurgeon** (caustic acids, debilitating toxins, and neurochemical irritants).
 - **Spells as Physical Deliverables Only:** Spells do not exist as verbal incantations, hand gestures, or mystical focus pools. Any spell-like effect that exists in the setting is an explicitly physical **Clockwork / Neither-Tech Device** (pneumatic launchers, breather tanks, arc discharge projectors, pulse capacitors) or biomedical **Concoction** (cellular stimulants, antitoxins, aerosol canisters) per [`AISummary/10_Magic.md`](file:///c:/Users/mncoc/OneDrive/Documents/Git/ClockworkCities_Pathfinder/AISummary/10_Magic.md):
   - **Environmental Constraints:** Neither-tech operates at 100% in Neither, 1/2 damage/duration in the Zone, and is completely inoperable in pure Aither.
   - **Energy Distribution:** Great Spires broadcast wireless radiant power shared across the Neither by tapping Zone squalls; subterranean Dwarven/Deep One settlements use local dynamos. Portable energy relies on rechargeable Civilian cells (~1/20th density) or Spire-synthesized High-Density Military Cartridges powered by an unstable biochemical catalyst.
-  - **Manufactured Science vs. Improvised Field Alchemy:** High-stability Neither creations (weapon cartridges, dynamos, long-shelf-life sera) require institutional cleanrooms and coordinated teams of professional **Artisans** (machining containment) and **Scholars** (chemical stoichiometry). Conversely, **Chirurgeons** and **Mad Bombers** excel at intuitive field improvisation, adapting dirty, scavenged reagents on the fly to stabilize temporary minor concoctions and field explosives during daily preparation.
+  - **Manufactured Science vs. Improvised Field Alchemy:** High-stability Neither creations (weapon cartridges, dynamos, long-shelf-life sera) require institutional cleanrooms and coordinated teams of professional **Clockwork Engineers** (machining containment) and **Scholars** (chemical stoichiometry). Conversely, **Chirurgeons** and demolitionists excel at intuitive field improvisation, adapting dirty, scavenged reagents on the fly to stabilize temporary minor concoctions and field explosives during daily preparation.
   - **Instability & Slots:** Without continuous tuning or stabilization by a trained "caster", primed field devices and concoctions detonate, spoil, or discharge into inert scrap. Daily slots represent the active threshold of unstable items an engineer or alchemist can calibrate and maintain.
   - **Dual-System NeitherTeck Economy:** Gear runs on a clean two-part resource system replacing magical attunement: **Passive Loadout Capacity** ($\text{Key Stat Mod} + \lfloor \tfrac{\text{Level}}{2} \rfloor + 4$ across 3 class tracks, with armor weight discounts/penalties) sets continuous protective/environmental equipment during daily prep; **Active Surge AP** ($\text{INT Mod} + \text{Base} + \text{Scaling}$) is spent per-action on combat triggers and strikes.
   - **The Level 12 Retail Store Ceiling:** Spire commerce offers retail gear up to **Level 12** (`+2 Greater Striking / +2 Greater Resilient`). Levels 13–20 gear consists of **Heroic Relics, Era 1 Vault technology, and custom masterworks** acquired exclusively outside the store system via expeditions, rare monster harvests (abyssal leviathans), and royal artisan commissions.
+  - **First-Line Balancing Diagnostic (AP Capacity vs. Expenditure Ratio):** AP is a character's inherent biological/neurological capacity to handle NeitherTeck. When any Neither-based class is under- or over-performing in testing, the **very first lever to examine is their AP balance versus desired round-to-round expenditures**. Moving a class's AP pool or ability AP costs up or down by even **1 to 2 points** produces a massive, non-linear shift across all operational environments—often resolving class balance without touching underlying math, attack bonuses, or damage dice.
 
 ## Document Index
 | File | Topic | Status |
@@ -148,22 +149,17 @@ Because Clockwork Cities features deep institutional backing (*"Worth = who you 
 | 30_ClassEnvironments.md | Class Environmental Effectiveness & Combat Matrix (Guidance) | Draft |
 | `ClockworkPathfinder/Classes/ClassTemplate.md` | Class Conversion Template | Template |
 | `ClockworkPathfinder/Classes/Soldier.md` | Soldier class (Fighter baseline) | Draft |
-| `ClockworkPathfinder/Classes/Dandy.md` | Dandy class (Swashbuckler baseline) | Draft |
+| `ClockworkPathfinder/Classes/Rake.md` | Rake class (Swashbuckler baseline: Salon Fencing, Honor & Social Dueling) | Draft |
 | `ClockworkPathfinder/Classes/Survivor.md` | Survivor class (Rogue baseline) | Draft |
 | `ClockworkPathfinder/Classes/Chirurgeon.md` | Chirurgeon class (Alchemist split: Restorative/Antidote/Acid/Poison) | Draft |
-| `ClockworkPathfinder/Classes/MadBomber.md` | Mad Bomber class (Alchemist split: Explosives/Weapons/Acid/Poison) | Draft |
-| `ClockworkPathfinder/Classes/Brute.md` | Brute class (**Removed / Consolidated** into Soldier & Pugilist *Savage Combatant* feats at Lv 2, 4, 8) | Consolidated |
 | `ClockworkPathfinder/Classes/Scout.md` | Scout class (Ranger baseline: Surface Outriders & Subterranean Miners/Sappers) | Draft |
 | `ClockworkPathfinder/Classes/ClockworkEngineer.md` | Clockwork Engineer class (Inventor baseline) | Draft |
-| `ClockworkPathfinder/Classes/Inspector.md` | Inspector class (Investigator baseline: Knowledge/Evidence only) | Draft |
 | `ClockworkPathfinder/Classes/ClockworkRifleman.md` | Clockwork Rifleman class (Gunslinger baseline: Gunpowder & Neither-tech) | Draft |
 | `ClockworkPathfinder/Classes/Merchant.md` | Merchant class (Bard replaced: Influence Class - Business, Trade & Freight) | Draft |
 | `ClockworkPathfinder/Classes/Noble.md` | Noble class (Bard replaced: Influence Class - High Society, Councils & Arts) | Draft |
 | `ClockworkPathfinder/Classes/GreyMarketeer.md` | Grey Marketeer class (Bard replaced: Influence Class - Warrens, Smuggling & Underworld) | Draft |
 | `ClockworkPathfinder/Classes/Pugilist.md` | Pugilist class (Monk baseline: Boxers & Street Thugs) | Draft |
 | `ClockworkPathfinder/Classes/Officer.md` | Officer class (Champion baseline: Military, Constables & King's Guard) | Draft |
-| `ClockworkPathfinder/Classes/SkyCaptain.md` | Captain class (Swashbuckler baseline: Sail, Clockwork/Steam, Agile Airships & War Crafts) | Draft |
-| `ClockworkPathfinder/Classes/Artisan.md` | Artisan class (Mundane professions: Blacksmith, Tanner, Tailor, Mason, Carpenter) | Draft |
 | `ClockworkPathfinder/Classes/Scholar.md` | Scholar class (Academic professions: Accountants, Architects, Philosophers, Legal Barristers) | Draft |
 | `ClockworkPathfinder/Rules/RangedWeapons.md` | Ranged Weapons (Gunpowder boosted dice & Neither Cartridge weapons) | Draft |
 | `ClockworkPathfinder/Rules/SocialClasses.md` | Social Classes & Class Fit (Common vs Uncommon breakdown) | Draft |

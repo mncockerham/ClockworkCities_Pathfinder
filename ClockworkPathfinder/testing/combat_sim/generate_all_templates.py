@@ -200,8 +200,11 @@ CLASS_SPECS = {
         ],
         "abilities": lambda lvl: {
             "radiant_barrier": True,
-            "barrier_temp_hp_high": 8 if lvl==1 else (15 if lvl==5 else 25),
-            "barrier_temp_hp_low": 4 if lvl==1 else (8 if lvl==5 else 14)
+            "barrier_temp_hp_high": 15,
+            "barrier_temp_hp_low": 8,
+            "arc_deflection_screen": True,
+            "deflection_ap_cost": 2,
+            "deflection_ac_bonus": 3
         }
     },
     "ClockworkRifleman": {
@@ -248,17 +251,17 @@ CLASS_SPECS = {
                 "allowed_environments": ["low_radiant"]
             },
             {
-                "name": "Service Rifle (Cartridge Neither)",
-                "attack_bonus": 9 if lvl==1 else (14 if lvl==5 else 21),
+                "name": "Service Rifle (Neither-Tech Cartridge)",
+                "attack_bonus": (9 + 2) if lvl==1 else ((14 + 2) if lvl==5 else (21 + 2)),
                 "damage_dice": "1d8" if lvl==1 else ("2d8" if lvl==5 else "3d8"),
                 "flat_damage": 1 if lvl==1 else (2 if lvl==5 else 4),
                 "damage_type": "P",
-                "range": 90,
+                "range": 100,
                 "ap_cost": 0,
                 "traits": ["cartridge", "fatal_d12"],
                 "ammo_capacity": 5,
                 "reload_actions": 1,
-                "allowed_environments": ["the_neither"]
+                "allowed_environments": ["high_radiant", "low_radiant", "the_neither"]
             },
             {
                 "name": "Bayonet / Trench Knife",
@@ -283,7 +286,15 @@ CLASS_SPECS = {
                 "allowed_environments": ["civil_spire"]
             }
         ],
-        "abilities": lambda lvl: {}
+        "abilities": lambda lvl: {
+            "cartridge_ballistic_tuning": True,
+            "cartridge_accuracy_bonus": 2,
+            "cartridge_range_bonus_rifle": 10,
+            "cartridge_range_bonus_pistol": 5,
+            "cartridge_precision": True,
+            "precision_dice": "1d6" if lvl < 5 else ("2d6" if lvl < 11 else "3d6"),
+            "min_range_ft": 15
+        }
     },
     "Merchant": {
         "archetype": "Merchant",
@@ -306,6 +317,77 @@ CLASS_SPECS = {
             10: {"dice": "1d4", "bonus": 13, "flat": 1}
         },
         "weapons": lambda lvl: [
+            {
+                "name": "Reaction Manifold: Incendiary Burst" if lvl==1 else ("Reaction Manifold: Detonation Bomb" if lvl==5 else "Reaction Manifold: Apex Concussion"),
+                "attack_bonus": 0,
+                "damage_dice": "2d4" if lvl==1 else ("5d6" if lvl==5 else "10d8"),
+                "flat_damage": 0,
+                "damage_type": "Fire",
+                "range": 15,
+                "ap_cost": 0,
+                "traits": ["bombardier"],
+                "is_bombardier": True,
+                "save_type": "ref",
+                "save_dc": 17 if lvl==1 else (21 if lvl==5 else 28),
+                "template_area": 1 if lvl==1 else (3 if lvl==5 else 5),
+                "burst_radius_ft": 5 if lvl==1 else (15 if lvl==5 else 25),
+                "throw_bonus": 3 if lvl<5 else 7,
+                "ammo_capacity": 3 if lvl==1 else (8 if lvl==5 else 15),
+                "allowed_environments": ["high_radiant", "low_radiant", "the_neither"]
+            },
+            {
+                "name": "Reaction Manifold: Choking Gas" if lvl==1 else ("Reaction Manifold: Cryo-Endothermic Shell" if lvl==5 else "Reaction Manifold: Lethal Asphyxiation Cloud"),
+                "attack_bonus": 0,
+                "damage_dice": "2d4" if lvl==1 else ("4d6" if lvl==5 else "7d8"),
+                "flat_damage": 0,
+                "damage_type": "Poison" if lvl!=5 else "Cold",
+                "range": 15,
+                "ap_cost": 0,
+                "traits": ["bombardier"],
+                "is_bombardier": True,
+                "save_type": "fort",
+                "save_dc": 17 if lvl==1 else (21 if lvl==5 else 28),
+                "template_area": 3 if lvl==1 else (3 if lvl==5 else 3),
+                "burst_radius_ft": 15,
+                "throw_bonus": 3 if lvl<5 else 7,
+                "ammo_capacity": 3 if lvl==1 else (8 if lvl==5 else 15),
+                "allowed_environments": ["high_radiant", "low_radiant", "the_neither"]
+            },
+            {
+                "name": "Reaction Manifold: Neuro-Sedative Vapour" if lvl==1 else ("Reaction Manifold: Mass Soporific Cloud" if lvl==5 else "Reaction Manifold: Neural Confusion Gas"),
+                "attack_bonus": 0,
+                "damage_dice": "2d4" if lvl==1 else ("4d6" if lvl==5 else "7d8"),
+                "flat_damage": 0,
+                "damage_type": "Mental",
+                "range": 15,
+                "ap_cost": 0,
+                "traits": ["bombardier"],
+                "is_bombardier": True,
+                "save_type": "will",
+                "save_dc": 17 if lvl==1 else (21 if lvl==5 else 28),
+                "template_area": 0 if lvl==1 else (3 if lvl==5 else 3),
+                "burst_radius_ft": 0 if lvl==1 else 15,
+                "throw_bonus": 3 if lvl<5 else 7,
+                "ammo_capacity": 3 if lvl==1 else (8 if lvl==5 else 15),
+                "allowed_environments": ["high_radiant", "low_radiant", "the_neither"]
+            },
+            {
+                "name": "Neither Fire Ordnance",
+                "attack_bonus": 0,
+                "damage_dice": "1d6" if lvl==1 else ("2d8" if lvl==5 else "7d6"),
+                "flat_damage": 1 if lvl==1 else (2 if lvl==5 else 0),
+                "damage_type": "Neither Fire",
+                "range": 15,
+                "ap_cost": 0,
+                "traits": ["bombardier", "neither_fire"],
+                "is_bombardier": True,
+                "is_neither_fire": True,
+                "template_area": 0 if lvl==1 else (1 if lvl==5 else 3),
+                "burst_radius_ft": 0 if lvl==1 else (5 if lvl==5 else 15),
+                "throw_bonus": 3 if lvl<5 else 7,
+                "ammo_capacity": 3 if lvl==1 else (8 if lvl==5 else 15),
+                "allowed_environments": ["high_radiant", "low_radiant", "the_neither"]
+            },
             {
                 "name": "Fair Steel Spire Dueling Rapier (Outlands)",
                 "attack_bonus": 7 if lvl==1 else (13 if lvl==5 else 19),
@@ -354,6 +436,329 @@ CLASS_SPECS = {
             "retainer_damage_dice": "1d6" if lvl<10 else "2d6",
             "retainer_flat_damage": 1 if lvl==1 else (2 if lvl==5 else 3),
             "social_authority_bonus": 4
+        }
+    },
+    "Merchant_Reflex": {
+        "archetype": "Merchant (Reflex)",
+        "hp_per_lvl": 8,
+        "con_mod": [1, 1, 2],
+        "ac": [15, 21, 27],
+        "speed": 25,
+        "max_ap": [4, 6, 8],
+        "status": 6,
+        "civil_legal": True,
+        "civil_ac_pen": 0,
+        "saves": {"fort": [5, 10, 16], "ref": [6, 11, 18], "will": [7, 13, 20]},
+        "unarmed": {
+            1: {"dice": "1d4", "bonus": 4, "flat": 0},
+            5: {"dice": "1d4", "bonus": 8, "flat": 0},
+            10: {"dice": "1d4", "bonus": 13, "flat": 1}
+        },
+        "weapons": lambda lvl: [
+            {
+                "name": "Reaction Manifold: Incendiary Burst" if lvl==1 else ("Reaction Manifold: Detonation Bomb" if lvl==5 else "Reaction Manifold: Apex Concussion"),
+                "attack_bonus": 0,
+                "damage_dice": "2d4" if lvl==1 else ("5d6" if lvl==5 else "10d8"),
+                "flat_damage": 0,
+                "damage_type": "Fire",
+                "range": 15,
+                "ap_cost": 0,
+                "traits": ["bombardier"],
+                "is_bombardier": True,
+                "save_type": "ref",
+                "save_dc": 17 if lvl==1 else (21 if lvl==5 else 28),
+                "template_area": 1 if lvl==1 else (3 if lvl==5 else 5),
+                "burst_radius_ft": 5 if lvl==1 else (15 if lvl==5 else 25),
+                "throw_bonus": 3 if lvl<5 else 7,
+                "ammo_capacity": 3 if lvl==1 else (8 if lvl==5 else 15),
+                "allowed_environments": ["high_radiant", "low_radiant", "the_neither"]
+            },
+            {
+                "name": "Fair Steel Spire Dueling Rapier (Outlands)",
+                "attack_bonus": 7 if lvl==1 else (13 if lvl==5 else 19),
+                "damage_dice": "1d6" if lvl==1 else ("2d6" if lvl==5 else "3d6"),
+                "flat_damage": 2 if lvl==1 else (3 if lvl==5 else 5),
+                "damage_type": "P",
+                "range": 0,
+                "ap_cost": 0,
+                "traits": ["deadly_d8", "disarm", "finesse"],
+                "allowed_environments": ["high_radiant", "low_radiant", "the_neither"]
+            },
+            {
+                "name": "Fair Steel Dueling Rapier (Civil 1d6)",
+                "attack_bonus": 7 if lvl==1 else (13 if lvl==5 else 19),
+                "damage_dice": "1d6",
+                "flat_damage": 2 if lvl==1 else (3 if lvl==5 else 5),
+                "damage_type": "P",
+                "range": 0,
+                "ap_cost": 0,
+                "traits": ["deadly_d8", "disarm", "finesse"],
+                "allowed_environments": ["civil_spire"]
+            },
+            {
+                "name": "Pistol Cane",
+                "attack_bonus": 5 if lvl==1 else (10 if lvl==5 else 16),
+                "damage_dice": "1d8" if lvl==1 else ("1d8" if lvl==5 else "2d8"),
+                "flat_damage": 0 if lvl==1 else (1 if lvl==5 else 2),
+                "damage_type": "P",
+                "range": 30,
+                "ap_cost": 0,
+                "traits": ["cartridge", "fatal_d10", "concealed"],
+                "ammo_capacity": 1,
+                "reload_actions": 1,
+                "allowed_environments": ["high_radiant", "low_radiant", "the_neither"]
+            }
+        ],
+        "abilities": lambda lvl: {
+            "armed_retainers": True,
+            "retainer_count": 1 if lvl==1 else (2 if lvl==5 else 3),
+            "retainer_hp": 12 if lvl==1 else (20 if lvl==5 else 35),
+            "retainer_attack": 4 if lvl==1 else (7 if lvl==5 else 12),
+            "retainer_damage_dice": "1d8" if lvl<10 else "2d8",
+            "retainer_flat_damage": 1 if lvl==1 else (2 if lvl==5 else 3),
+            "bombardier_throw_bonus": 3 if lvl < 5 else 7
+        }
+    },
+    "Merchant_Fortitude": {
+        "archetype": "Merchant (Fortitude)",
+        "hp_per_lvl": 8,
+        "con_mod": [1, 1, 2],
+        "ac": [15, 21, 27],
+        "speed": 25,
+        "max_ap": [4, 6, 8],
+        "status": 6,
+        "civil_legal": True,
+        "civil_ac_pen": 0,
+        "saves": {"fort": [5, 10, 16], "ref": [6, 11, 18], "will": [7, 13, 20]},
+        "unarmed": {
+            1: {"dice": "1d4", "bonus": 4, "flat": 0},
+            5: {"dice": "1d4", "bonus": 8, "flat": 0},
+            10: {"dice": "1d4", "bonus": 13, "flat": 1}
+        },
+        "weapons": lambda lvl: [
+            {
+                "name": "Reaction Manifold: Choking Gas" if lvl==1 else ("Reaction Manifold: Cryo-Endothermic Shell" if lvl==5 else "Reaction Manifold: Lethal Asphyxiation Cloud"),
+                "attack_bonus": 0,
+                "damage_dice": "2d4" if lvl==1 else ("4d6" if lvl==5 else "7d8"),
+                "flat_damage": 0,
+                "damage_type": "Poison" if lvl!=5 else "Cold",
+                "range": 15,
+                "ap_cost": 0,
+                "traits": ["bombardier"],
+                "is_bombardier": True,
+                "save_type": "fort",
+                "save_dc": 17 if lvl==1 else (21 if lvl==5 else 28),
+                "template_area": 3 if lvl==1 else (3 if lvl==5 else 3),
+                "burst_radius_ft": 15,
+                "throw_bonus": 3 if lvl<5 else 7,
+                "ammo_capacity": 3 if lvl==1 else (8 if lvl==5 else 15),
+                "allowed_environments": ["high_radiant", "low_radiant", "the_neither"]
+            },
+            {
+                "name": "Fair Steel Spire Dueling Rapier (Outlands)",
+                "attack_bonus": 7 if lvl==1 else (13 if lvl==5 else 19),
+                "damage_dice": "1d6" if lvl==1 else ("2d6" if lvl==5 else "3d6"),
+                "flat_damage": 2 if lvl==1 else (3 if lvl==5 else 5),
+                "damage_type": "P",
+                "range": 0,
+                "ap_cost": 0,
+                "traits": ["deadly_d8", "disarm", "finesse"],
+                "allowed_environments": ["high_radiant", "low_radiant", "the_neither"]
+            },
+            {
+                "name": "Fair Steel Dueling Rapier (Civil 1d6)",
+                "attack_bonus": 7 if lvl==1 else (13 if lvl==5 else 19),
+                "damage_dice": "1d6",
+                "flat_damage": 2 if lvl==1 else (3 if lvl==5 else 5),
+                "damage_type": "P",
+                "range": 0,
+                "ap_cost": 0,
+                "traits": ["deadly_d8", "disarm", "finesse"],
+                "allowed_environments": ["civil_spire"]
+            },
+            {
+                "name": "Pistol Cane",
+                "attack_bonus": 5 if lvl==1 else (10 if lvl==5 else 16),
+                "damage_dice": "1d8" if lvl==1 else ("1d8" if lvl==5 else "2d8"),
+                "flat_damage": 0 if lvl==1 else (1 if lvl==5 else 2),
+                "damage_type": "P",
+                "range": 30,
+                "ap_cost": 0,
+                "traits": ["cartridge", "fatal_d10", "concealed"],
+                "ammo_capacity": 1,
+                "reload_actions": 1,
+                "allowed_environments": ["high_radiant", "low_radiant", "the_neither"]
+            }
+        ],
+        "abilities": lambda lvl: {
+            "armed_retainers": True,
+            "retainer_count": 1 if lvl==1 else (2 if lvl==5 else 3),
+            "retainer_hp": 12 if lvl==1 else (20 if lvl==5 else 35),
+            "retainer_attack": 4 if lvl==1 else (7 if lvl==5 else 12),
+            "retainer_damage_dice": "1d8" if lvl<10 else "2d8",
+            "retainer_flat_damage": 1 if lvl==1 else (2 if lvl==5 else 3),
+            "bombardier_throw_bonus": 3 if lvl < 5 else 7
+        }
+    },
+    "Merchant_Will": {
+        "archetype": "Merchant (Will)",
+        "hp_per_lvl": 8,
+        "con_mod": [1, 1, 2],
+        "ac": [15, 21, 27],
+        "speed": 25,
+        "max_ap": [4, 6, 8],
+        "status": 6,
+        "civil_legal": True,
+        "civil_ac_pen": 0,
+        "saves": {"fort": [5, 10, 16], "ref": [6, 11, 18], "will": [7, 13, 20]},
+        "unarmed": {
+            1: {"dice": "1d4", "bonus": 4, "flat": 0},
+            5: {"dice": "1d4", "bonus": 8, "flat": 0},
+            10: {"dice": "1d4", "bonus": 13, "flat": 1}
+        },
+        "weapons": lambda lvl: [
+            {
+                "name": "Reaction Manifold: Neuro-Sedative Vapour" if lvl==1 else ("Reaction Manifold: Mass Soporific Cloud" if lvl==5 else "Reaction Manifold: Neural Confusion Gas"),
+                "attack_bonus": 0,
+                "damage_dice": "2d4" if lvl==1 else ("4d6" if lvl==5 else "7d8"),
+                "flat_damage": 0,
+                "damage_type": "Mental",
+                "range": 15,
+                "ap_cost": 0,
+                "traits": ["bombardier"],
+                "is_bombardier": True,
+                "save_type": "will",
+                "save_dc": 17 if lvl==1 else (21 if lvl==5 else 28),
+                "template_area": 0 if lvl==1 else (3 if lvl==5 else 3),
+                "burst_radius_ft": 0 if lvl==1 else 15,
+                "throw_bonus": 3 if lvl<5 else 7,
+                "ammo_capacity": 3 if lvl==1 else (8 if lvl==5 else 15),
+                "allowed_environments": ["high_radiant", "low_radiant", "the_neither"]
+            },
+            {
+                "name": "Fair Steel Spire Dueling Rapier (Outlands)",
+                "attack_bonus": 7 if lvl==1 else (13 if lvl==5 else 19),
+                "damage_dice": "1d6" if lvl==1 else ("2d6" if lvl==5 else "3d6"),
+                "flat_damage": 2 if lvl==1 else (3 if lvl==5 else 5),
+                "damage_type": "P",
+                "range": 0,
+                "ap_cost": 0,
+                "traits": ["deadly_d8", "disarm", "finesse"],
+                "allowed_environments": ["high_radiant", "low_radiant", "the_neither"]
+            },
+            {
+                "name": "Fair Steel Dueling Rapier (Civil 1d6)",
+                "attack_bonus": 7 if lvl==1 else (13 if lvl==5 else 19),
+                "damage_dice": "1d6",
+                "flat_damage": 2 if lvl==1 else (3 if lvl==5 else 5),
+                "damage_type": "P",
+                "range": 0,
+                "ap_cost": 0,
+                "traits": ["deadly_d8", "disarm", "finesse"],
+                "allowed_environments": ["civil_spire"]
+            },
+            {
+                "name": "Pistol Cane",
+                "attack_bonus": 5 if lvl==1 else (10 if lvl==5 else 16),
+                "damage_dice": "1d8" if lvl==1 else ("1d8" if lvl==5 else "2d8"),
+                "flat_damage": 0 if lvl==1 else (1 if lvl==5 else 2),
+                "damage_type": "P",
+                "range": 30,
+                "ap_cost": 0,
+                "traits": ["cartridge", "fatal_d10", "concealed"],
+                "ammo_capacity": 1,
+                "reload_actions": 1,
+                "allowed_environments": ["high_radiant", "low_radiant", "the_neither"]
+            }
+        ],
+        "abilities": lambda lvl: {
+            "armed_retainers": True,
+            "retainer_count": 1 if lvl==1 else (2 if lvl==5 else 3),
+            "retainer_hp": 12 if lvl==1 else (20 if lvl==5 else 35),
+            "retainer_attack": 4 if lvl==1 else (7 if lvl==5 else 12),
+            "retainer_damage_dice": "1d8" if lvl<10 else "2d8",
+            "retainer_flat_damage": 1 if lvl==1 else (2 if lvl==5 else 3),
+            "bombardier_throw_bonus": 3 if lvl < 5 else 7
+        }
+    },
+    "Merchant_NeitherFire": {
+        "archetype": "Merchant (Neither Fire)",
+        "hp_per_lvl": 8,
+        "con_mod": [1, 1, 2],
+        "ac": [15, 21, 27],
+        "speed": 25,
+        "max_ap": [4, 6, 8],
+        "status": 6,
+        "civil_legal": True,
+        "civil_ac_pen": 0,
+        "saves": {"fort": [5, 10, 16], "ref": [6, 11, 18], "will": [7, 13, 20]},
+        "unarmed": {
+            1: {"dice": "1d4", "bonus": 4, "flat": 0},
+            5: {"dice": "1d4", "bonus": 8, "flat": 0},
+            10: {"dice": "1d4", "bonus": 13, "flat": 1}
+        },
+        "weapons": lambda lvl: [
+            {
+                "name": "Neither Fire Ordnance",
+                "attack_bonus": 0,
+                "damage_dice": "1d6" if lvl==1 else ("2d8" if lvl==5 else "7d6"),
+                "flat_damage": 1 if lvl==1 else (2 if lvl==5 else 0),
+                "damage_type": "Neither Fire",
+                "range": 15,
+                "ap_cost": 0,
+                "traits": ["bombardier", "neither_fire"],
+                "is_bombardier": True,
+                "is_neither_fire": True,
+                "template_area": 0 if lvl==1 else (1 if lvl==5 else 3),
+                "burst_radius_ft": 0 if lvl==1 else (5 if lvl==5 else 15),
+                "throw_bonus": 3 if lvl<5 else 7,
+                "ammo_capacity": 3 if lvl==1 else (8 if lvl==5 else 15),
+                "allowed_environments": ["high_radiant", "low_radiant", "the_neither"]
+            },
+            {
+                "name": "Fair Steel Spire Dueling Rapier (Outlands)",
+                "attack_bonus": 7 if lvl==1 else (13 if lvl==5 else 19),
+                "damage_dice": "1d6" if lvl==1 else ("2d6" if lvl==5 else "3d6"),
+                "flat_damage": 2 if lvl==1 else (3 if lvl==5 else 5),
+                "damage_type": "P",
+                "range": 0,
+                "ap_cost": 0,
+                "traits": ["deadly_d8", "disarm", "finesse"],
+                "allowed_environments": ["high_radiant", "low_radiant", "the_neither"]
+            },
+            {
+                "name": "Fair Steel Dueling Rapier (Civil 1d6)",
+                "attack_bonus": 7 if lvl==1 else (13 if lvl==5 else 19),
+                "damage_dice": "1d6",
+                "flat_damage": 2 if lvl==1 else (3 if lvl==5 else 5),
+                "damage_type": "P",
+                "range": 0,
+                "ap_cost": 0,
+                "traits": ["deadly_d8", "disarm", "finesse"],
+                "allowed_environments": ["civil_spire"]
+            },
+            {
+                "name": "Pistol Cane",
+                "attack_bonus": 5 if lvl==1 else (10 if lvl==5 else 16),
+                "damage_dice": "1d8" if lvl==1 else ("1d8" if lvl==5 else "2d8"),
+                "flat_damage": 0 if lvl==1 else (1 if lvl==5 else 2),
+                "damage_type": "P",
+                "range": 30,
+                "ap_cost": 0,
+                "traits": ["cartridge", "fatal_d10", "concealed"],
+                "ammo_capacity": 1,
+                "reload_actions": 1,
+                "allowed_environments": ["high_radiant", "low_radiant", "the_neither"]
+            }
+        ],
+        "abilities": lambda lvl: {
+            "armed_retainers": True,
+            "retainer_count": 1 if lvl==1 else (2 if lvl==5 else 3),
+            "retainer_hp": 12 if lvl==1 else (20 if lvl==5 else 35),
+            "retainer_attack": 4 if lvl==1 else (7 if lvl==5 else 12),
+            "retainer_damage_dice": "1d8" if lvl<10 else "2d8",
+            "retainer_flat_damage": 1 if lvl==1 else (2 if lvl==5 else 3),
+            "bombardier_throw_bonus": 3 if lvl < 5 else 7
         }
     },
     "Scout": {
@@ -415,8 +820,8 @@ CLASS_SPECS = {
             "damage_resistance_physical": 1 if lvl>=5 else 0
         }
     },
-    "Dandy": {
-        "archetype": "Dandy",
+    "Rake": {
+        "archetype": "Rake",
         "hp_per_lvl": 10,
         "con_mod": [1, 1, 2],
         "ac": [16, 22, 29],
@@ -461,6 +866,38 @@ CLASS_SPECS = {
                 "allowed_environments": ["high_radiant", "low_radiant", "the_neither"]
             }
         ],
+                "outland_ac": [17, 24, 31],
+        "outland_weapons": lambda lvl: [
+            {
+                "name": "Niracrest Dueling Rapier (+1 Striking)",
+                "attack_bonus": 9 if lvl==1 else (15 if lvl==5 else 22),
+                "damage_dice": "1d6" if lvl==1 else ("2d6" if lvl==5 else "3d6"),
+                "flat_damage": 4 if lvl==1 else (7 if lvl==5 else 11),
+                "damage_type": "P",
+                "range": 0,
+                "ap_cost": 0,
+                "traits": ["deadly_d8", "disarm", "finesse"],
+                "allowed_environments": ["civil_spire", "high_radiant", "low_radiant", "the_neither", "wilderness"]
+            },
+            {
+                "name": "Combat Repeating Pistol (Mag 6)",
+                "attack_bonus": 8 if lvl==1 else (14 if lvl==5 else 20),
+                "damage_dice": "1d8" if lvl==1 else ("2d8" if lvl==5 else "3d8"),
+                "flat_damage": 2 if lvl==1 else (4 if lvl==5 else 6),
+                "damage_type": "P",
+                "range": 40,
+                "ap_cost": 0,
+                "traits": ["cartridge", "fatal_d10"],
+                "ammo_capacity": 6,
+                "reload_actions": 1,
+                "allowed_environments": ["high_radiant", "low_radiant", "the_neither", "wilderness"]
+            }
+        ],
+        "outland_abilities": lambda lvl: {
+            "shield_block": True,
+            "shield_hp": 15 if lvl==1 else (25 if lvl==5 else 40),
+            "shield_hardness": 4 if lvl==1 else (6 if lvl==5 else 10)
+        },
         "abilities": lambda lvl: {}
     },
     "Survivor": {
@@ -509,68 +946,9 @@ CLASS_SPECS = {
         ],
         "abilities": lambda lvl: {}
     },
-    "Inspector": {
-        "archetype": "Inspector",
-        "hp_per_lvl": 8,
-        "con_mod": [1, 1, 2],
-        "ac": [15, 21, 28],
-        "speed": 25,
-        "max_ap": [4, 6, 9],
-        "status": 3,
-        "civil_legal": True,
-        "civil_ac_pen": 0,
-        "saves": {
-            "fort": [5, 10, 16],
-            "ref": [7, 12, 19],
-            "will": [8, 14, 21]
-        },
-        "unarmed": {
-            1: {"dice": "1d4", "bonus": 5, "flat": 0},
-            5: {"dice": "1d4", "bonus": 9, "flat": 0},
-            10: {"dice": "1d4", "bonus": 14, "flat": 1}
-        },
-        "weapons": lambda lvl: [
-            {
-                "name": "Constable Truncheon / Cane",
-                "attack_bonus": 7 if lvl==1 else (13 if lvl==5 else 20),
-                "damage_dice": "1d6" if lvl==1 else ("2d6" if lvl==5 else "3d6"),
-                "flat_damage": 3 if lvl==1 else (6 if lvl==5 else 9),
-                "damage_type": "B",
-                "range": 0,
-                "ap_cost": 0,
-                "traits": ["agile", "finesse", "nonlethal"],
-                "allowed_environments": ["high_radiant", "low_radiant", "the_neither"]
-            },
-            {
-                "name": "Constable Utility Pocket Knife",
-                "attack_bonus": 7 if lvl==1 else (13 if lvl==5 else 20),
-                "damage_dice": "1d4",
-                "flat_damage": 2 if lvl==1 else (4 if lvl==5 else 6),
-                "damage_type": "P/S",
-                "range": 0,
-                "ap_cost": 0,
-                "traits": ["agile", "finesse"],
-                "allowed_environments": ["civil_spire"]
-            },
-            {
-                "name": "Service Revolver",
-                "attack_bonus": 6 if lvl==1 else (12 if lvl==5 else 18),
-                "damage_dice": "1d8" if lvl==1 else ("2d8" if lvl==5 else "3d8"),
-                "flat_damage": 2 if lvl==1 else (4 if lvl==5 else 7),
-                "damage_type": "P",
-                "range": 40,
-                "ap_cost": 0,
-                "traits": ["cartridge", "fatal_d10"],
-                "ammo_capacity": 6,
-                "reload_actions": 1,
-                "allowed_environments": ["high_radiant", "low_radiant", "the_neither"]
-            }
-        ],
-        "abilities": lambda lvl: {}
-    },
     "Scholar": {
         "archetype": "Scholar",
-        "hp_per_lvl": 6,
+        "hp_per_lvl": 8,
         "con_mod": [1, 1, 2],
         "ac": [14, 20, 26],
         "speed": 25,
@@ -599,6 +977,17 @@ CLASS_SPECS = {
                 "ap_cost": 3,
                 "traits": ["radiant", "deadly_d10"],
                 "allowed_environments": ["high_radiant"]
+            },
+            {
+                "name": "Low Radiant Arc Resonator",
+                "attack_bonus": 7 if lvl==1 else (12 if lvl==5 else 19),
+                "damage_dice": "1d8" if lvl==1 else ("2d8" if lvl==5 else "3d8"),
+                "flat_damage": 2 if lvl==1 else (3 if lvl==5 else 5),
+                "damage_type": "Electricity",
+                "range": 60,
+                "ap_cost": 3,
+                "traits": ["radiant", "deadly_d10"],
+                "allowed_environments": ["low_radiant"]
             },
             {
                 "name": "Technical Cartridge Sidearm",
@@ -639,69 +1028,14 @@ CLASS_SPECS = {
         "abilities": lambda lvl: {
             "radiant_barrier": True,
             "barrier_temp_hp_high": 10 if lvl==1 else (20 if lvl==5 else 30),
-            "barrier_temp_hp_low": 4 if lvl==1 else (8 if lvl==5 else 12)
-        }
-    },
-    "Artisan": {
-        "archetype": "Artisan",
-        "hp_per_lvl": 8,
-        "con_mod": [2, 2, 3],
-        "ac": [15, 21, 28],
-        "speed": 25,
-        "max_ap": [5, 8, 12],
-        "status": 2,
-        "civil_legal": True,
-        "civil_ac_pen": 0,
-        "saves": {
-            "fort": [7, 12, 19],
-            "ref": [5, 10, 16],
-            "will": [6, 11, 18]
+            "barrier_temp_hp_low": 4 if lvl==1 else (8 if lvl==5 else 14),
+            "arc_deflection_screen": True,
+            "deflection_ap_cost": 2,
+            "deflection_ac_bonus": 3,
+            "calculated_strike": True,
+            "calculated_strike_dice": "1d6" if lvl==1 else ("2d6" if lvl==5 else "3d6"),
+            "calculated_strike_ap_cost": 1
         },
-        "unarmed": {
-            1: {"dice": "1d4", "bonus": 5, "flat": 1},
-            5: {"dice": "1d4", "bonus": 9, "flat": 2},
-            10: {"dice": "1d4", "bonus": 15, "flat": 3}
-        },
-        "weapons": lambda lvl: [
-            {
-                "name": "Forge Sledge / Maul",
-                "attack_bonus": 6 if lvl==1 else (12 if lvl==5 else 18),
-                "damage_dice": "1d8" if lvl==1 else ("2d8" if lvl==5 else "3d8"),
-                "flat_damage": 2 if lvl==1 else (3 if lvl==5 else 5),
-                "damage_type": "B",
-                "range": 0,
-                "ap_cost": 0,
-                "traits": ["shove"],
-                "allowed_environments": ["high_radiant", "low_radiant", "the_neither"]
-            },
-            {
-                "name": "Trade Ball-Peen Tool Hammer",
-                "attack_bonus": 6 if lvl==1 else (12 if lvl==5 else 18),
-                "damage_dice": "1d4" if lvl==1 else ("2d4" if lvl==5 else "3d4"),
-                "flat_damage": 1 if lvl==1 else (2 if lvl==5 else 3),
-                "damage_type": "B",
-                "range": 0,
-                "ap_cost": 0,
-                "traits": ["agile"],
-                "allowed_environments": ["civil_spire"]
-            },
-            {
-                "name": "Pneumatic Rivet Driver",
-                "attack_bonus": 6 if lvl==1 else (11 if lvl==5 else 17),
-                "damage_dice": "1d8" if lvl==1 else ("2d8" if lvl==5 else "3d8"),
-                "flat_damage": 1 if lvl==1 else (2 if lvl==5 else 4),
-                "damage_type": "P",
-                "range": 30,
-                "ap_cost": 1,
-                "traits": ["cartridge"],
-                "ammo_capacity": 4,
-                "reload_actions": 1,
-                "allowed_environments": ["high_radiant", "low_radiant", "the_neither"]
-            }
-        ],
-        "abilities": lambda lvl: {
-            "damage_resistance_physical": 1 if lvl>=5 else 0
-        }
     },
     "Chirurgeon": {
         "archetype": "Chirurgeon",
@@ -744,111 +1078,6 @@ CLASS_SPECS = {
                 "range": 30,
                 "ap_cost": 0,
                 "traits": ["bomb"],
-                "allowed_environments": ["high_radiant", "low_radiant", "the_neither"]
-            }
-        ],
-        "abilities": lambda lvl: {}
-    },
-    "MadBomber": {
-        "archetype": "MadBomber",
-        "hp_per_lvl": 8,
-        "con_mod": [1, 2, 2],
-        "ac": [15, 21, 28],
-        "speed": 25,
-        "max_ap": [3, 5, 8],
-        "status": 1,
-        "civil_legal": False,
-        "civil_ac_pen": -3,
-        "saves": {
-            "fort": [7, 13, 20],
-            "ref": [7, 12, 19],
-            "will": [5, 10, 16]
-        },
-        "unarmed": {
-            1: {"dice": "1d4", "bonus": 4, "flat": 0},
-            5: {"dice": "1d4", "bonus": 8, "flat": 1},
-            10: {"dice": "1d4", "bonus": 14, "flat": 1}
-        },
-        "weapons": lambda lvl: [
-            {
-                "name": "Volatile Nitro Bomb",
-                "attack_bonus": 7 if lvl==1 else (13 if lvl==5 else 20),
-                "damage_dice": "1d8" if lvl==1 else ("2d8" if lvl==5 else "3d8"),
-                "flat_damage": 3 if lvl==1 else (5 if lvl==5 else 8),
-                "damage_type": "Fire",
-                "range": 40,
-                "ap_cost": 0,
-                "traits": ["bomb", "splash"],
-                "allowed_environments": ["high_radiant", "low_radiant", "the_neither"]
-            },
-            {
-                "name": "Trench Dagger",
-                "attack_bonus": 5 if lvl==1 else (9 if lvl==5 else 15),
-                "damage_dice": "1d4" if lvl==1 else ("1d4" if lvl==5 else "2d4"),
-                "flat_damage": 1 if lvl==1 else (1 if lvl==5 else 2),
-                "damage_type": "P",
-                "range": 0,
-                "ap_cost": 0,
-                "traits": ["agile", "finesse"],
-                "allowed_environments": ["civil_spire", "high_radiant", "low_radiant", "the_neither"]
-            }
-        ],
-        "abilities": lambda lvl: {}
-    },
-    "SkyCaptain": {
-        "archetype": "SkyCaptain",
-        "hp_per_lvl": 10,
-        "con_mod": [1, 2, 2],
-        "ac": [16, 22, 29],
-        "speed": 30,
-        "max_ap": [4, 6, 9],
-        "status": 3,
-        "civil_legal": True,
-        "civil_ac_pen": 0,
-        "saves": {
-            "fort": [6, 11, 18],
-            "ref": [8, 14, 21],
-            "will": [6, 11, 18]
-        },
-        "unarmed": {
-            1: {"dice": "1d4", "bonus": 5, "flat": 1},
-            5: {"dice": "1d4", "bonus": 10, "flat": 1},
-            10: {"dice": "1d4", "bonus": 16, "flat": 2}
-        },
-        "weapons": lambda lvl: [
-            {
-                "name": "Boarding Cutlass",
-                "attack_bonus": 8 if lvl==1 else (14 if lvl==5 else 21),
-                "damage_dice": "1d6" if lvl==1 else ("2d6" if lvl==5 else "3d6"),
-                "flat_damage": 3 if lvl==1 else (4 if lvl==5 else 6),
-                "damage_type": "S",
-                "range": 0,
-                "ap_cost": 0,
-                "traits": ["finesse", "sweep"],
-                "allowed_environments": ["high_radiant", "low_radiant", "the_neither"]
-            },
-            {
-                "name": "Civilian Swagger Stick / Belaying Club",
-                "attack_bonus": 8 if lvl==1 else (14 if lvl==5 else 21),
-                "damage_dice": "1d4" if lvl==1 else ("2d4" if lvl==5 else "3d4"),
-                "flat_damage": 1 if lvl==1 else (2 if lvl==5 else 3),
-                "damage_type": "B",
-                "range": 0,
-                "ap_cost": 0,
-                "traits": ["agile", "finesse"],
-                "allowed_environments": ["civil_spire"]
-            },
-            {
-                "name": "Sky-Fleet Deck Pistol",
-                "attack_bonus": 7 if lvl==1 else (12 if lvl==5 else 19),
-                "damage_dice": "1d8" if lvl==1 else ("2d8" if lvl==5 else "3d8"),
-                "flat_damage": 1 if lvl==1 else (2 if lvl==5 else 3),
-                "damage_type": "P",
-                "range": 40,
-                "ap_cost": 0,
-                "traits": ["cartridge", "fatal_d10"],
-                "ammo_capacity": 1,
-                "reload_actions": 1,
                 "allowed_environments": ["high_radiant", "low_radiant", "the_neither"]
             }
         ],
@@ -980,7 +1209,7 @@ CLASS_SPECS = {
         "archetype": "GreyMarketeer",
         "hp_per_lvl": 8,
         "con_mod": [1, 2, 2],
-        "ac": [15, 21, 28],
+        "ac": [16, 22, 29],
         "speed": 25,
         "max_ap": [4, 6, 9],
         "status": 3,
@@ -997,6 +1226,22 @@ CLASS_SPECS = {
             10: {"dice": "1d4", "bonus": 16, "flat": 2}
         },
         "weapons": lambda lvl: [
+            {
+                "name": "Clandestine Breaching Charge",
+                "attack_bonus": 5 if lvl==1 else (10 if lvl==5 else 16),
+                "damage_dice": "1d6" if lvl==1 else ("2d6" if lvl==5 else "4d6"),
+                "flat_damage": 1 if lvl==1 else (2 if lvl==5 else 4),
+                "damage_type": "Force",
+                "range": 25,
+                "ap_cost": 0,
+                "is_bombardier": True,
+                "traits": ["bombardier", "concussive"],
+                "save_type": "ref",
+                "save_dc": 14 if lvl==1 else (19 if lvl==5 else 25),
+                "ammo_capacity": 6,
+                "reload_actions": 1,
+                "allowed_environments": ["high_radiant", "low_radiant", "the_neither"]
+            },
             {
                 "name": "Black-Market Stiletto",
                 "attack_bonus": 7 if lvl==1 else (13 if lvl==5 else 19),
@@ -1025,10 +1270,13 @@ CLASS_SPECS = {
         "abilities": lambda lvl: {
             "armed_retainers": True,
             "retainer_count": 1 if lvl==1 else (2 if lvl==5 else 3),
-            "retainer_hp": 12 if lvl==1 else (20 if lvl==5 else 32),
-            "retainer_attack": 4 if lvl==1 else (7 if lvl==5 else 11),
-            "retainer_damage_dice": "1d6" if lvl<10 else "2d6",
-            "retainer_flat_damage": 1 if lvl==1 else (2 if lvl==5 else 3)
+            "retainer_hp": 10 if lvl==1 else (18 if lvl==5 else 28),
+            "retainer_attack": 3 if lvl==1 else (6 if lvl==5 else 10),
+            "retainer_damage_dice": "1d6",
+            "retainer_flat_damage": 1 if lvl==1 else (2 if lvl==2 else 2),
+            "arc_deflection_screen": True,
+            "deflection_ap_cost": 2,
+            "deflection_ac_bonus": 3
         }
     }
 }
@@ -1071,6 +1319,12 @@ def generate_templates():
                 "weapons": spec["weapons"](lvl),
                 "abilities": spec["abilities"](lvl)
             }
+            if "outland_ac" in spec:
+                data["outland_ac"] = spec["outland_ac"][idx]
+            if "outland_weapons" in spec:
+                data["outland_weapons"] = spec["outland_weapons"](lvl)
+            if "outland_abilities" in spec:
+                data["outland_abilities"] = spec["outland_abilities"](lvl)
             
             filename = f"{class_name.lower()}_lv{lvl}.json"
             filepath = out_dir / filename

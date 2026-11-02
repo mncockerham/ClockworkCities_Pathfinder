@@ -70,10 +70,21 @@ Installing passive enhancements (linothorax layers, resilient save harnesses, ex
 
 - **Zero In-Combat Math:** Passive items are calibrated and committed during daily preparation or rest. Once equipped within your Passive Capacity, they provide their benefits continuously and **do not consume or interact with your Active Surge AP in combat**.
 
-### B. Active Surge AP (Actions, Reactions & Discharges)
+### B. Active Surge AP (Universal Throughput & Biometric Synchronization)
 
-Active Surge points power offensive discharges, weapon supercharges, chemical spray nozzles, and instantaneous reaction barriers.
+Active Surge points power offensive discharges, weapon supercharges, chemical spray nozzles, cognitive analysis feeds, and instantaneous reaction barriers.
 
+- **What AP Truly Represents:** Active Surge AP is a character's **inherent neurological and physical capacity to handle NeitherTeck**. It is governed by a rare combination of innate physiological tolerance, rigorous technical training, and mental temperament:
+  - **Only a Small Fraction of the Population Possesses AP:** The vast majority of Spire residents have zero practical capacity to handle NeitherTeck hardware beyond pushing a button on a mass-manufactured household utility. Only a rare minority possess the neurological wiring and temperament to synchronize with high-energy gear, and even among this group, capacity varies wildly depending on discipline and mental focus.
+  - **AP is Constant Everywhere:** AP is a personal attribute, not environmental energy. Characters possess their full AP pool in High Aither, inside Spire core wards, in the Zone, and down in the Neither.
+- **Bespoke Synchronization (Why Advanced Gear Cannot Be Traded or Stolen):**
+  - **Basic NeitherTeck Works for Anyone:** Standard, mass-manufactured civilian devices, basic cartridge sidearms, and utility lanterns feature generalized tolerances and can be fired or used by anyone.
+  - **Complex NeitherTeck is Bespoke to the Operator:** Advanced and high-tier NeitherTeck hardware (such as a Scholar's *Tactical Combat Analyser*, an Engineer's *Powered Exosuit*, or custom capacitor harnesses) is **physically and electronically hand-calibrated to the exact neural reflexes, bio-electric resistance, and physical ergonomics of the specific individual it was built for**.
+  - **Useless in Other Hands (Prevents Casual Theft & Gear Swapping):** If an advanced device is stolen, looted from a fallen foe, or handed to a comrade, **it simply will not operate**. In anyone else's hands, the intricate escapements fail to bridge, inductive coils fall out of resonance, and the apparatus remains inert dead scrap. Re-calibrating an advanced device for a new owner requires an institutional workshop, complete teardown, and weeks of individualized rebuild work.
+- **Environmental Dependency Governs the *Impact* of Spending AP:** While your personal AP capacity is universal, the *medium* through which devices manifest their effects dictates what you can spend AP on:
+  - *Cognitive & Analytical Abilities (e.g. Scholar Telemetry, Stratagems, Risk Assessments):* Function anywhere because they rely on personal mind, voice, and personal analyser processing.
+  - *Inductive Grid Weapons & Radiant Screens (e.g. Arc Resonators, Arc Deflectors):* Require an active electromagnetic broadcast grid (Tier 1/2) to draw current when triggered.
+  - *Cartridge Weapons & Mechanical Rigs:* Consume physical chemical ammunition or kinetic flywheels when triggered.
 - **Calculation:**
   $$\text{Active Surge AP per Round} = \text{Intelligence Modifier} + \text{Class Base AP} + \text{Level Progression Bonus}$$
 - **Governing Attribute:** **Intelligence** governs Active Surge for all classes (cognitive calculation, frequency matching, and trigger timing).

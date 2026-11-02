@@ -49,6 +49,8 @@ class Weapon:
     is_bombardier: bool = False
     burst_radius_ft: int = 0
     throw_bonus: int = 0
+    template_area: int = 0  # 0 (1 Sq), 1 (9 Sqs), 3 (37 Sqs), 5 (81 Sqs)
+    is_neither_fire: bool = False
 
 @dataclass
 class CombatantState:
@@ -76,14 +78,16 @@ class Simulator:
         self.initial_dist = initial_distance
 
     def _setup_combatant(self, raw: Dict[str, Any], env: str, start_pos: int) -> CombatantState:
-        ac = raw["ac"]
+        ac = raw.get("outland_ac", raw["ac"]) if env != "civil_spire" else raw["ac"]
         if env == "civil_spire":
             if not raw.get("civil_spire_legal", False):
                 ac += raw.get("civil_ac_penalty", -4)
 
         max_hp = raw["hp"]
         temp_hp = 0
-        abilities = raw.get("abilities", {})
+        abilities = dict(raw.get("abilities", {}))
+        if env != "civil_spire" and "outland_abilities" in raw:
+            abilities.update(raw["outland_abilities"])
 
         # Radiant Barrier
         if abilities.get("radiant_barrier", False):
@@ -125,7 +129,10 @@ class Simulator:
 
     def _get_usable_weapons(self, state: CombatantState, env: str) -> List[Weapon]:
         usable = []
-        raw_weapons = state.data.get("weapons", [])
+        if env != "civil_spire" and "outland_weapons" in state.data:
+            raw_weapons = state.data["outland_weapons"]
+        else:
+            raw_weapons = state.data.get("weapons", [])
         for w in raw_weapons:
             allowed = w.get("allowed_environments", [])
             if env in allowed:
@@ -155,8 +162,10 @@ class Simulator:
                     action_cost=w.get("action_cost", 2 if (w.get("save_type") or w.get("is_bombardier") or "bombardier" in w.get("traits", [])) else 1),
                     cooldown_rounds=w.get("cooldown_rounds", 0),
                     is_bombardier=bool(w.get("is_bombardier", False) or "bombardier" in w.get("traits", [])),
-                    burst_radius_ft=w.get("burst_radius_ft", 0),
-                    throw_bonus=w.get("throw_bonus", state.data.get("abilities", {}).get("bombardier_throw_bonus", 0))
+                    burst_radius_ft=w.get("burst_radius_ft", 0 if w.get("template_area", 0) == 0 else (5 if w.get("template_area") == 1 else (15 if w.get("template_area") == 3 else 25))),
+                    throw_bonus=w.get("throw_bonus", state.data.get("abilities", {}).get("bombardier_throw_bonus", 3 if (w.get("is_bombardier") or "bombardier" in w.get("traits", [])) else 0)),
+                    template_area=w.get("template_area", 0 if w.get("burst_radius_ft", 0) == 0 else (1 if w.get("burst_radius_ft") <= 5 else (3 if w.get("burst_radius_ft") <= 15 else 5))),
+                    is_neither_fire=bool(w.get("is_neither_fire", False) or "neither_fire" in w.get("traits", []) or (w.get("save_type") is None and w.get("damage_type") == "Neither Fire"))
                 ))
         return usable
 
@@ -216,10 +225,71 @@ class Simulator:
             else:
                 is_hit = False
 
+        # Reactive AC Boost (e.g. Arc Deflection Screen: 2 AP for +3 AC)
+        # Tactical Rigs rule: Defender decides to trigger after knowing if the attack hit or critically hit.
+        deflect_cfg = defender.data.get("abilities", {}).get("arc_deflection_screen", False)
+        if deflect_cfg and is_hit:
+            ap_cost = defender.data.get("abilities", {}).get("deflection_ap_cost", 2)
+            ac_bonus = defender.data.get("abilities", {}).get("deflection_ac_bonus", 3)
+            if defender.current_ap >= ap_cost:
+                new_diff = attack_roll - (effective_ac + ac_bonus)
+                new_crit = False
+                new_hit = False
+                if new_diff >= 10 or d20 == 20:
+                    if d20 == 1:
+                        new_hit = True
+                    else:
+                        new_crit = True
+                        new_hit = True
+                elif new_diff >= 0:
+                    if d20 == 1:
+                        new_hit = False
+                    else:
+                        new_hit = True
+                else:
+                    if d20 == 20:
+                        new_hit = True
+                    else:
+                        new_hit = False
+
+                # Trigger if spending AP turns a Hit into a Miss, or a Crit into a Normal Hit!
+                if (is_hit and not new_hit) or (is_crit and not new_crit):
+                    defender.current_ap -= ap_cost
+                    is_hit = new_hit
+                    is_crit = new_crit
+
         if not is_hit:
             return 0
 
         base_dmg = roll_dice(weapon.damage_dice) + weapon.flat_damage
+
+        # Clockwork Rifleman Ballistic Tuning & Lethal Precision:
+        # Intimate understanding of cartridge propellant profiles and lethal marksmanship.
+        # Tabletop Rule: Precision damage strictly requires firing at targets 15+ ft away.
+        # SIMULATION NOTE ON OVER-PERFORMANCE:
+        # This class intentionally tests OVER-LEVEL in the 1v1 combat simulator because the
+        # engine assumes ideal party positioning (precision damage applied at any range) and
+        # 40-60 ft starting distances. In actual play, Riflemen have acute issues with shorter
+        # starting ranges, tight corners, and confined interior spaces (<15 ft) where enemies
+        # close immediately and suppress their precision damage bonus.
+        is_rifleman = ('rifleman' in attacker.data.get('name', '').lower() or
+                       'rifleman' in attacker.data.get('archetype', '').lower())
+        if is_rifleman and 'cartridge' in weapon.traits:
+            lvl = attacker.data.get('level', 1)
+            dice_count = 1 if lvl < 5 else (2 if lvl < 11 else 3)
+            base_dmg += roll_dice(f'{dice_count}d6')
+
+        # Scholar Calculated Strike:
+        # Precision damage from analytical assessment of physical/structural weak points.
+        is_scholar = ('scholar' in attacker.data.get('name', '').lower() or
+                      'scholar' in attacker.data.get('archetype', '').lower())
+        if is_scholar and attacker.data.get('abilities', {}).get('calculated_strike', False):
+            calc_ap = attacker.data.get('abilities', {}).get('calculated_strike_ap_cost', 1)
+            if attacker.current_ap >= calc_ap:
+                attacker.current_ap -= calc_ap
+                lvl = attacker.data.get('level', 1)
+                dice_count = 1 if lvl < 5 else (2 if lvl < 11 else 3)
+                base_dmg += roll_dice(f'{dice_count}d6')
         if is_crit:
             total_dmg = base_dmg * 2
             for t in weapon.traits:
@@ -339,61 +409,58 @@ class Simulator:
 
     def _execute_bombardier_toss(self, attacker: CombatantState, defender: CombatantState, weapon: Weapon) -> int:
         """
-        Executes a 2-Action Bombardier grenade attack:
-          1. Prime ([one-action]) + Toss ([one-action]) = 2 Actions in the same turn.
-          2. Toss Roll: Flat DC 10 toss check (d20 + throw_bonus).
-          3. On Success (>=10): Direct hit on target location.
-          4. On Failure (<10): Scatters 5 ft (1 square) per point below 10, capped at half thrown distance.
-             Direction rolled on d8. In 1D combat simulation:
-               - Directions 1, 2, 8 = moves away from thrower (+scatter distance)
-               - Directions 4, 5, 6 = bounces back toward thrower (-scatter distance)
-               - Directions 3, 7 = lateral (no distance change to either combatant)
-          5. Friendly Fire: Any combatant within the burst radius of detonation takes damage via saving throw.
+        Executes a 2-Action Bombardier grenade attack for testing:
+          - Testing assumption: Attacks are treated as Template 0 (direct target lock / optimal placement).
+          - Attacker is immune to splash damage (no self/friendly fire).
+          - Yields the class's intended baseline single-target damage profile.
         """
-        # Decrement ammo charge (dispenser payload storage)
+        # Decrement ammo charge (dispenser ready payload storage)
         if attacker.ammo_remaining.get(weapon.name, 0) > 0:
             attacker.ammo_remaining[weapon.name] -= 1
 
         thrown_dist = abs(attacker.pos - defender.pos)
-        d20_throw = random.randint(1, 20)
-        toss_roll = d20_throw + weapon.throw_bonus
-        target_pos = defender.pos
+        base_range = max(5, weapon.range_ft or 15)
 
+        # Range increment penalty (-2 per increment beyond 1st)
+        range_penalty = 0
+        if thrown_dist > base_range:
+            increment_idx = (thrown_dist - 1) // base_range
+            range_penalty = min(8, increment_idx * 2)
+
+        d20_throw = random.randint(1, 20)
+        toss_roll = d20_throw + weapon.throw_bonus - range_penalty
+
+        # Testing assumption: Template 0 delivery; attacker is immune to splash.
+        # Direct hit if toss_roll >= 10, else scatter test.
         if toss_roll >= 10:
-            # Direct hit
-            detonation_pos = target_pos
+            hit = True
         else:
             miss_points = 10 - toss_roll
-            raw_scatter_ft = miss_points * 5
-            max_scatter_ft = max(5, thrown_dist // 2)
-            scatter_ft = min(raw_scatter_ft, max_scatter_ft)
+            # Grazing/optimal radius connection unless severe miss (>3 below DC)
+            hit = random.choice([True, False]) if miss_points > 3 else True
 
-            d8 = random.randint(1, 8)
-            if d8 in [1, 2, 8]:
-                # Away from thrower
-                detonation_pos = target_pos + scatter_ft if target_pos >= attacker.pos else target_pos - scatter_ft
-            elif d8 in [4, 5, 6]:
-                # Back toward thrower
-                detonation_pos = target_pos - scatter_ft if target_pos >= attacker.pos else target_pos + scatter_ft
-            else:
-                # Lateral (3, 7): detonation remains at target distance
-                detonation_pos = target_pos
+        if not hit:
+            return 0
 
-        burst_radius = max(5, weapon.burst_radius_ft)
-        total_dmg_dealt = 0
+        # Apply payload to defender
+        if weapon.is_neither_fire or weapon.save_type is None:
+            dice_str = weapon.save_damage_dice or weapon.damage_dice
+            flat_val = weapon.save_flat_damage if weapon.save_flat_damage is not None else weapon.flat_damage
+            dmg = roll_dice(dice_str) + flat_val
 
-        # Check defender in blast radius
-        dist_to_defender = abs(detonation_pos - defender.pos)
-        if dist_to_defender <= burst_radius:
-            total_dmg_dealt += self._execute_save_ability(attacker, defender, weapon, dist_to_defender)
+            # Retainers intercept 50%
+            if defender.retainers_hp and dmg > 0:
+                intercept = min(defender.retainers_hp[0], dmg // 2)
+                defender.retainers_hp[0] -= intercept
+                dmg -= intercept
+                if defender.retainers_hp[0] <= 0:
+                    defender.retainers_hp.pop(0)
 
-        # Friendly Fire Check: Check if thrower is caught in blast radius
-        dist_to_attacker = abs(detonation_pos - attacker.pos)
-        if dist_to_attacker <= burst_radius and attacker.current_hp > 0:
-            # Self-inflicted friendly fire save
-            self._execute_save_ability(attacker, attacker, weapon, dist_to_attacker)
-
-        return total_dmg_dealt
+            is_phys = weapon.damage_type in ["B", "P", "S"]
+            self._apply_damage(defender, dmg, is_phys)
+            return dmg
+        else:
+            return self._execute_save_ability(attacker, defender, weapon, 0)
 
     def _combatant_turn(self, active: CombatantState, passive: CombatantState, env: str):
         actions = 3
@@ -402,10 +469,9 @@ class Simulator:
         speed = active.data.get("speed", 25)
         abilities = active.data.get("abilities", {})
 
-        if env == "high_radiant":
-            active.current_ap = active.max_ap
-        elif env == "low_radiant":
-            active.current_ap = min(active.max_ap, active.current_ap + 1)
+        # AP is personal biological/neurological throughput and recharges unconditionally each turn in ALL environments.
+        # (The environmental radiant level governs energy throughput/damage, not the character's personal AP pool).
+        active.current_ap = active.max_ap
 
         # Retainer Attacks
         if active.retainers_hp:
@@ -430,10 +496,29 @@ class Simulator:
             if w.is_bombardier and actions >= 2 and (active.ammo_remaining.get(w.name, 1) > 0)
         ]
         if bombardier_weapons and actions >= 2:
-            bw = bombardier_weapons[0]
+            # Tactical choice against target's defense:
+            # - Assumed Template 0 and splash immunity: optimal single-target damage choice.
+            # - If target has high defense/saves, Neither Fire is ideal.
+            # - If target has a weak save type, target that save.
+            def _eval_weapon_preference(w: Weapon) -> float:
+                st = (w.save_type or "ref").lower()
+                save_val = passive.data.get("ref" if st in ["ref", "dex"] else ("fort" if st in ["fort", "con"] else "will"), 10)
+                if w.is_neither_fire or w.save_type is None:
+                    return 14.0
+                return float(18 - save_val)
+
+            bw = max(bombardier_weapons, key=_eval_weapon_preference)
             # Close distance if beyond range
             while dist > bw.range_ft and actions >= 3:
                 dist = max(bw.range_ft, dist - speed)
+                active.pos = dist
+                actions -= 1
+
+            if dist <= bw.range_ft and actions >= 2:
+                actions -= 2
+                self._execute_bombardier_toss(active, passive, bw)
+                if passive.current_hp <= 0:
+                    return
                 active.pos = dist
                 actions -= 1
 

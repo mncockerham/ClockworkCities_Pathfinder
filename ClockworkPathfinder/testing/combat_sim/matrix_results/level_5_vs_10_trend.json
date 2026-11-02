@@ -1,0 +1,286 @@
+{
+  "lv5": {
+    "soldier": {
+      "the_neither": 82.5,
+      "low_radiant": 78.9,
+      "high_radiant": 77.0,
+      "civil_spire": 38.8,
+      "Overall": 69.3
+    },
+    "officer": {
+      "the_neither": 65.1,
+      "low_radiant": 66.7,
+      "high_radiant": 61.8,
+      "civil_spire": 87.9,
+      "Overall": 70.4
+    },
+    "pugilist": {
+      "the_neither": 68.6,
+      "low_radiant": 64.6,
+      "high_radiant": 61.4,
+      "civil_spire": 88.8,
+      "Overall": 70.8
+    },
+    "greymarketeer": {
+      "the_neither": 60.9,
+      "low_radiant": 56.8,
+      "high_radiant": 53.2,
+      "civil_spire": 82.5,
+      "Overall": 63.3
+    },
+    "scout": {
+      "the_neither": 70.7,
+      "low_radiant": 67.9,
+      "high_radiant": 65.4,
+      "civil_spire": 30.9,
+      "Overall": 58.7
+    },
+    "noble": {
+      "the_neither": 55.1,
+      "low_radiant": 55.4,
+      "high_radiant": 48.3,
+      "civil_spire": 64.0,
+      "Overall": 55.7
+    },
+    "merchant_neitherfire": {
+      "the_neither": 61.1,
+      "low_radiant": 61.6,
+      "high_radiant": 56.0,
+      "civil_spire": 64.0,
+      "Overall": 60.7
+    },
+    "merchant_reflex": {
+      "the_neither": 56.1,
+      "low_radiant": 54.7,
+      "high_radiant": 50.3,
+      "civil_spire": 62.6,
+      "Overall": 56.0
+    },
+    "merchant_fortitude": {
+      "the_neither": 49.3,
+      "low_radiant": 46.3,
+      "high_radiant": 44.0,
+      "civil_spire": 65.1,
+      "Overall": 51.2
+    },
+    "merchant_will": {
+      "the_neither": 44.0,
+      "low_radiant": 44.6,
+      "high_radiant": 36.7,
+      "civil_spire": 64.9,
+      "Overall": 47.5
+    },
+    "dandy": {
+      "the_neither": 44.4,
+      "low_radiant": 47.0,
+      "high_radiant": 38.9,
+      "civil_spire": 73.0,
+      "Overall": 50.8
+    },
+    "clockworkrifleman": {
+      "the_neither": 88.2,
+      "low_radiant": 89.1,
+      "high_radiant": 88.1,
+      "civil_spire": 17.0,
+      "Overall": 70.6
+    },
+    "skycaptain": {
+      "the_neither": 43.0,
+      "low_radiant": 41.9,
+      "high_radiant": 37.7,
+      "civil_spire": 48.6,
+      "Overall": 42.8
+    },
+    "survivor": {
+      "the_neither": 29.0,
+      "low_radiant": 23.9,
+      "high_radiant": 20.9,
+      "civil_spire": 57.5,
+      "Overall": 32.8
+    },
+    "inspector": {
+      "the_neither": 36.7,
+      "low_radiant": 32.1,
+      "high_radiant": 23.3,
+      "civil_spire": 27.4,
+      "Overall": 29.9
+    },
+    "clockworkengineer": {
+      "the_neither": 13.9,
+      "low_radiant": 36.5,
+      "high_radiant": 64.6,
+      "civil_spire": 5.6,
+      "Overall": 30.1
+    },
+    "artisan": {
+      "the_neither": 20.2,
+      "low_radiant": 16.0,
+      "high_radiant": 12.3,
+      "civil_spire": 27.9,
+      "Overall": 19.1
+    },
+    "chirurgeon": {
+      "the_neither": 14.4,
+      "low_radiant": 12.1,
+      "high_radiant": 6.8,
+      "civil_spire": 34.7,
+      "Overall": 17.0
+    },
+    "scholar": {
+      "the_neither": 1.9,
+      "low_radiant": 4.6,
+      "high_radiant": 53.2,
+      "civil_spire": 3.5,
+      "Overall": 15.8
+    },
+    "madbomber": {
+      "the_neither": 22.8,
+      "low_radiant": 20.3,
+      "high_radiant": 16.1,
+      "civil_spire": 4.0,
+      "Overall": 15.8
+    }
+  },
+  "lv10": {
+    "soldier": {
+      "the_neither": 77.0,
+      "low_radiant": 73.9,
+      "high_radiant": 71.8,
+      "civil_spire": 30.5,
+      "Overall": 63.3
+    },
+    "officer": {
+      "the_neither": 57.7,
+      "low_radiant": 57.7,
+      "high_radiant": 52.1,
+      "civil_spire": 87.2,
+      "Overall": 63.7
+    },
+    "pugilist": {
+      "the_neither": 62.6,
+      "low_radiant": 63.0,
+      "high_radiant": 55.6,
+      "civil_spire": 94.7,
+      "Overall": 69.0
+    },
+    "greymarketeer": {
+      "the_neither": 47.0,
+      "low_radiant": 43.2,
+      "high_radiant": 38.4,
+      "civil_spire": 80.9,
+      "Overall": 52.4
+    },
+    "scout": {
+      "the_neither": 60.9,
+      "low_radiant": 60.9,
+      "high_radiant": 56.5,
+      "civil_spire": 28.8,
+      "Overall": 51.8
+    },
+    "noble": {
+      "the_neither": 53.7,
+      "low_radiant": 56.3,
+      "high_radiant": 51.2,
+      "civil_spire": 68.4,
+      "Overall": 57.4
+    },
+    "merchant_neitherfire": {
+      "the_neither": 77.9,
+      "low_radiant": 77.9,
+      "high_radiant": 75.6,
+      "civil_spire": 59.8,
+      "Overall": 72.8
+    },
+    "merchant_reflex": {
+      "the_neither": 75.8,
+      "low_radiant": 76.0,
+      "high_radiant": 72.6,
+      "civil_spire": 59.1,
+      "Overall": 70.9
+    },
+    "merchant_fortitude": {
+      "the_neither": 58.8,
+      "low_radiant": 60.4,
+      "high_radiant": 58.9,
+      "civil_spire": 62.5,
+      "Overall": 60.1
+    },
+    "merchant_will": {
+      "the_neither": 56.3,
+      "low_radiant": 59.0,
+      "high_radiant": 53.5,
+      "civil_spire": 58.4,
+      "Overall": 56.8
+    },
+    "dandy": {
+      "the_neither": 41.4,
+      "low_radiant": 38.1,
+      "high_radiant": 36.3,
+      "civil_spire": 78.8,
+      "Overall": 48.6
+    },
+    "clockworkrifleman": {
+      "the_neither": 83.2,
+      "low_radiant": 82.3,
+      "high_radiant": 83.2,
+      "civil_spire": 15.4,
+      "Overall": 66.0
+    },
+    "skycaptain": {
+      "the_neither": 34.4,
+      "low_radiant": 32.1,
+      "high_radiant": 29.8,
+      "civil_spire": 51.9,
+      "Overall": 37.1
+    },
+    "survivor": {
+      "the_neither": 22.1,
+      "low_radiant": 21.7,
+      "high_radiant": 14.7,
+      "civil_spire": 67.4,
+      "Overall": 31.5
+    },
+    "inspector": {
+      "the_neither": 28.6,
+      "low_radiant": 24.6,
+      "high_radiant": 20.9,
+      "civil_spire": 29.6,
+      "Overall": 25.9
+    },
+    "clockworkengineer": {
+      "the_neither": 14.0,
+      "low_radiant": 33.3,
+      "high_radiant": 56.1,
+      "civil_spire": 4.6,
+      "Overall": 27.0
+    },
+    "artisan": {
+      "the_neither": 17.0,
+      "low_radiant": 15.1,
+      "high_radiant": 9.1,
+      "civil_spire": 30.9,
+      "Overall": 18.0
+    },
+    "chirurgeon": {
+      "the_neither": 7.0,
+      "low_radiant": 6.1,
+      "high_radiant": 0.9,
+      "civil_spire": 28.1,
+      "Overall": 10.5
+    },
+    "scholar": {
+      "the_neither": 1.4,
+      "low_radiant": 1.6,
+      "high_radiant": 42.1,
+      "civil_spire": 0.4,
+      "Overall": 11.4
+    },
+    "madbomber": {
+      "the_neither": 39.8,
+      "low_radiant": 34.6,
+      "high_radiant": 29.3,
+      "civil_spire": 9.6,
+      "Overall": 28.3
+    }
+  }
+}

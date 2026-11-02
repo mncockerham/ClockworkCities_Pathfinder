@@ -12,11 +12,28 @@
 
 - **In-World Identity:** Ward 14 (Imperial/Noble/Court) legal barristers and financial comptrollers, Ward 11 (Craft) structural architects and blueprint draftsmen, University fellows, royal archivists, and Neither-phenomenon theoreticians.
 - **Typical Social Class & Backing:** Guild Members, Professionals, Upper Middle Class, and Nobility (Status 3–6). Backed by university charters, royal commissions, civic bureaus, banks, and merchant-house legal retainers.
-- **Physical / Scientific Explanation:** Scholars rely on disciplined deductive reasoning, deep academic study, pattern recognition, structural calculus, and behavioral psychology. In combat and exploration, they treat threats as complex equations to be deconstructed—anticipating enemy movements, identifying systemic weaknesses, predicting structural stress failures, and coordinating allies through real-time tactical direction.
+- **Physical / Scientific Explanation:** Scholars rely on disciplined deductive reasoning, deep academic study, pattern recognition, structural calculus, and behavioral psychology. In combat and exploration, they treat threats as complex equations to be deconstructed—anticipating enemy movements, identifying systemic weaknesses, predicting structural stress failures, and coordinating allies through real-time tactical telemetry.
+- **The Tactical Combat Analyser (Hardware Core & Institutional Supply):**
+  - In combat, a Scholar's analytical capabilities are powered by a **Tactical Combat Analyser**—a delicate, masterwork electro-mechanical computing engine worn on the chest or forearm that processes optical rangefinding, ballistic vector feeds, and stress calculus in real time.
+  - **Universal Utility Across Fields:** Scholars possess bespoke Analysers designed for almost any complex discipline—from surgical diagnostic matrices and anatomical scanners in medicine, to metallurgical spectrographs and catalytic loggers in academic research. These non-combat applications in medicine and research are where Scholars truly shine in the setting.
+  - **The Strict 1-Analyser Rule & Bespoke Calibration:** Due to the astronomical cost of precision escapements, differential gear-stacks, and individual bio-electric calibration, advanced Analysers are built strictly for the individual operator and will not function for anyone else. Furthermore, a Scholar is restricted to possessing **only 1 Analyser at a time**. Swapping an Analyser for a different model (such as trading a Tactical Combat Analyser for a Medical Diagnostic Rig or Research Spectrograph) is a major institutional undertaking: it requires official orders, institutional requisitions, and supply board approval. The process takes **weeks** as the old unit is painstakingly disassembled for parts and the bespoke new device is assembled, mechanically balanced, and calibrated to the Scholar's unique neurological tempo.
 
 > [!TIP]
-> **Player Advisory (Combat Utility & NPC Suitability):**
-> While fully supported with a complete 1–20 PC progression, the Scholar excels primarily in investigation, structural diagnostics, municipal accounting, and academic lore. In violent encounters, their abilities skew toward tactical advisory support rather than high-damage strikes or front-line survivability. In combat-heavy campaigns, some players may find their round-to-round action economy passive or challenging to apply dynamically. For this reason, the Scholar frequently functions best as a **key NPC archetype** (university professors, court advocates, chief actuaries, and architectural consultants) or for players pursuing intrigue and puzzle-heavy campaigns.
+> **AP-Driven Dynamic & The "AP Management" Identity (Self vs. Party Dilemma):**
+> The Scholar is the preeminent **Activation Point (AP) management class**. Armed with a deep, scalable AP reservoir (6 AP at Lv 1, 10 AP at Lv 5, 16 AP at Lv 10), nearly all Scholar analytical features, scans, telemetry feeds, and defensive shields are AP-activated.
+>
+> **AP is Universal (Not Environmental Neither Energy):**
+> Activation Points (AP) represent personal cognitive throughput, reaction timing, and sensory processing bandwidth—**AP is not environmental Neither energy and exists everywhere (in high Aither, inside Spire wards, in the Zone, and in the Neither)**. However, the *impact* of what you spend AP on is tied to the physical medium:
+> - Pure cognitive processing (Analytical Assessment, Actuarial Risk Assessment, Structural Diagnostics, and Tactical Directives) functions in **any environment**.
+> - Hardware-bound telemetry and energy fields (Arc Deflection Screens, Arc Resonators, inductive barriers) require local electromagnetic medium or Neither-Tech capacitor power to manifest their physical effects.
+> 
+> **Core Design Balance:**
+> - **Self-Investment Makes You Better, Not Dominant:** Dumping all AP into yourself (+1 to +3 AC, self-attack bonuses, Hardness bypass, Arc Deflection reactions) gives the Scholar solid survivability and respectable combat presence, transforming them from a fragile academic into a competent, slippery combatant. However, a self-focused Scholar is fundamentally **never dominant or a substitute for dedicated martials** (Soldiers, Riflemen, Pugilists possess superior base HP, master weapon proficiencies, higher damage dice, and persistent reactive feats).
+> - **Party Synergy is Where Scholars Truly Shine:** For just **+1 additional AP**, a Scholar transforms their calculations from a modest personal buff into an exponential party force-multiplier—stripping 10–15 Hardness for the entire frontline, granting +2 or +3 attack bonuses to high-damage allies, or broadcasting defensive trajectory warnings that save the party.
+> - **The Tactical Play:** Round-to-round play is defined by **how to allocate your AP pool**:
+>   - *Full Defense:* Hold 4–6 AP in reserve to guarantee multiple Arc Deflection reactions against retaliatory strikes.
+>   - *Self-Offense:* Spend 1–2 AP on personal telemetry + 3 AP on Arc Resonator discharge to fight competently on your own.
+>   - *Tactical Commander:* Invest 3–4 AP into broad party telemetry, turning the rest of your party into a lethally synchronized machine, but leaving yourself vulnerable if an enemy breaks through.
 
 ---
 
@@ -30,12 +47,12 @@
 | **2** | Scholar Feat, Skill Feat, Encyclopedic Recall |
 | **3** | General Feat, Skill Increase, Academic Peerage (expert in 2 Lore skills) |
 | **4** | Scholar Feat, Skill Feat |
-| **5** | Ability Boosts, Ancestry Feat, Skill Increase, Expert Academic Strike, Keener Intellect |
+| **5** | Ability Boosts, Ancestry Feat, Skill Increase, Expert Academic Strike, Keener Intellect, Tier 2 Telemetry (+2 Bonuses / 10 Hardness) |
 | **6** | Scholar Feat, Skill Feat |
 | **7** | General Feat, Skill Increase, Master Scholar's Field (advanced specialty bonuses) |
 | **8** | Scholar Feat, Skill Feat |
 | **9** | Ancestry Feat, Skill Increase, Predictive Trajectory (reaction to warn allies) |
-| **10** | Ability Boosts, Scholar Feat, Skill Feat |
+| **10** | Ability Boosts, Scholar Feat, Skill Feat, Tier 3 Telemetry (+3 Bonuses / 15 Hardness) |
 | **11** | General Feat, Skill Increase, Master Academic Recall, Weapon Specialization |
 | **12** | Scholar Feat, Skill Feat |
 | **13** | Ancestry Feat, Skill Increase, Incredible Analytical Depth |
@@ -72,22 +89,58 @@
 
 ### 1st Level Features
 
+#### Unified AP Scaling Metric: Personal vs. Party Telemetry
+All active Scholar analytical abilities follow a standardized **Personal vs. Party AP Scaling Model**:
+
+$$\begin{aligned}
+\textbf{Level 1–4:} &\quad \mathbf{1\text{ AP}}\text{ for personal benefit } (\mathbf{+1}\text{ bonus / } \mathbf{5}\text{ Hardness bypassed}) \\
+&\quad \mathbf{2\text{ AP}}\text{ to broadcast to entire party within 30 ft } (\mathbf{+1}\text{ bonus / } \mathbf{5}\text{ Hardness bypassed}) \\
+\textbf{Level 5–9:} &\quad \mathbf{2\text{ AP}}\text{ for personal benefit } (\mathbf{+2}\text{ bonus / } \mathbf{10}\text{ Hardness bypassed}) \\
+&\quad \mathbf{3\text{ AP}}\text{ to broadcast to entire party within 30 ft } (\mathbf{+2}\text{ bonus / } \mathbf{10}\text{ Hardness bypassed}) \\
+\textbf{Level 10+:} &\quad \mathbf{3\text{ AP}}\text{ for personal benefit } (\mathbf{+3}\text{ bonus / } \mathbf{15}\text{ Hardness bypassed}) \\
+&\quad \mathbf{4\text{ AP}}\text{ to broadcast to entire party within 30 ft } (\mathbf{+3}\text{ bonus / } \mathbf{15}\text{ Hardness bypassed})
+\end{aligned}$$
+
+*(Note: When using an ability at a higher level, the Scholar can always choose to spend fewer AP to deploy a lower tier if managing a depleted AP pool).*
+
+---
+
 #### Academic Specialty
 Choose your academic discipline at 1st level. This defines your core analytical focus, bonus skill proficiencies, and unique active capability:
 
 - **Architect & Engineer-Theorist (Drafting & Structural Calculus):**
   - **Skills:** Trained in Architecture Lore, Engineering Lore, and Crafting.
-  - **Specialty Ability:** *Structural Diagnostic ([one-action]).* You analyze a building, wall, bridge, vehicle, construct, or armored enemy within 60 feet. Make an Architecture Lore or Crafting check against the target's DC (or creature's Fortitude DC). On a success, you identify all mechanical and physical weak points. Your allies ignore 5 points of object Hardness or physical resistance against that target for 1 round, and you immediately spot any hidden doors, secret compartments, or stress fractures.
+  - **Specialty Ability:** *Structural Diagnostic ([one-action]).* You analyze a building, wall, bridge, vehicle, construct, or armored enemy within 60 feet. Make an Architecture Lore or Crafting check against the target's DC (or creature's Fortitude DC).
+    - **Personal Use (1 AP at Lv1 / 2 AP at Lv5 / 3 AP at Lv10):** You personally ignore **5 / 10 / 15** points of object Hardness or physical damage resistance against that target for 1 round.
+    - **Party Broadcast (+1 AP more: 2 AP at Lv1 / 3 AP at Lv5 / 4 AP at Lv10):** You transmit stress-fracture telemetry to all allies within 30 feet, allowing them to also ignore **5 / 10 / 15** points of object Hardness or physical resistance against that target for 1 round.
+    - On any success, you immediately spot all hidden doors, secret compartments, or structural stress fractures.
+
 - **Accountant & Actuary (Numbers, Risk & Forensic Audit):**
   - **Skills:** Trained in Accounting Lore, Legal Lore, and Society.
-  - **Specialty Ability:** *Actuarial Risk Assessment ([one-action]).* You evaluate the probabilistic hazard of an ongoing situation or foe within 30 feet. You grant yourself or an ally within 30 feet a +1 circumstance bonus to AC and all saving throws against that foe's next attack or ability before your next turn. On a critical check against the enemy's Will DC, increase the bonus to +2.
+  - **Specialty Ability:** *Actuarial Risk Assessment ([one-action]).* You calculate real-time projectile trajectories, attack angles, and incoming threat vectors against a foe within 30 feet.
+    - **Personal Use (1 AP at Lv1 / 2 AP at Lv5 / 3 AP at Lv10):** Grant yourself a **+1 / +2 / +3** circumstance bonus to AC and all saving throws against that foe's next attack or ability before your next turn.
+    - **Party Broadcast (+1 AP more: 2 AP at Lv1 / 3 AP at Lv5 / 4 AP at Lv10):** Broadcast evasive vector coordinates to all allies within 30 feet, granting each ally a **+1 / +2 / +3** circumstance bonus to AC and saving throws against that foe's next attack or ability before your next turn.
+    - On a critical skill check against the enemy's Will DC, the circumstance bonus increases by an additional +1.
+
 - **Scholar & Natural Philosopher (History, Neither Research & Theory):**
   - **Skills:** Trained in Neither Lore, History Lore, and Arcana/Nature (reflavored as Natural Philosophy).
-  - **Specialty Ability:** *Theoretical Breakthrough ([one-action]).* When you succeed on a Recall Knowledge check regarding a creature, hazard, or environmental phenomenon, you immediately convey critical data to all allies within earshot. Allies gain a +1 circumstance bonus to attack rolls and skill checks against that subject until the end of your next turn.
+  - **Specialty Ability:** *Theoretical Breakthrough ([one-action]).* When you succeed on a Recall Knowledge check regarding a creature, hazard, or environmental phenomenon within 60 feet:
+    - **Personal Use (1 AP at Lv1 / 2 AP at Lv5 / 3 AP at Lv10):** You exploit behavioral or elemental patterns, gaining a **+1 / +2 / +3** circumstance bonus to your attack rolls and skill checks against that subject until the end of your next turn.
+    - **Party Broadcast (+1 AP more: 2 AP at Lv1 / 3 AP at Lv5 / 4 AP at Lv10):** You broadcast physiological weaknesses and behavioral tells to all allies within 30 feet, granting them a **+1 / +2 / +3** circumstance bonus to attack rolls and skill checks against that subject until the end of your next turn.
+
+- **Forensic Investigator & Crown Inquisitor (Deduction, Criminology & Evidence):**
+  - **Skills:** Trained in Legal Lore, Criminology Lore, and Society.
+  - **Specialty Ability:** *Pursue a Lead & Clue In ([one-action]).* You evaluate crime scene traces, psychological deceit, or forensic physical evidence on an adversary within 60 feet.
+    - **Personal Use (1 AP at Lv1 / 2 AP at Lv5 / 3 AP at Lv10):** Gain a **+1 / +2 / +3** circumstance bonus to Perception checks, initiative rolls, and strikes against that specific investigated adversary.
+    - **Party Broadcast (+1 AP more: 2 AP at Lv1 / 3 AP at Lv5 / 4 AP at Lv10):** Transmit behavioral profile and ambush telemetry to all allies within 30 feet, granting them a **+1 / +2 / +3** circumstance bonus to Perception and saves against that subject's abilities.
+
+---
 
 #### Analytical Assessment & Calculated Strike
 You use intellect and empirical observation rather than brute muscle or instinctive agility:
-- **Analytical Assessment ([one-action]):** Once per round, assess an observed enemy within 60 feet (equivalent to *Devise a Stratagem* [Player Core 2 p.42]). Roll a d20. You can substitute this d20 roll for your attack roll if you strike that target this turn. When making this attack, you can use your **Intelligence modifier** instead of Strength or Dexterity for the attack roll.
+- **Analytical Assessment ([one-action]):** Once per round, assess an observed enemy within 60 feet (equivalent to *Devise a Stratagem* [Player Core 2 p.42]).
+  - **Personal Execution (1 AP):** Spend 1 AP to feed sensory telemetry into your cognitive models and roll a d20. You can substitute this d20 roll for your attack roll if you strike that target this turn. When making this attack, you can use your **Intelligence modifier** instead of Strength or Dexterity for the attack roll.
+  - **Party Target Designation (+1 AP more / 2 AP total):** In addition to substituting your own roll, you transmit the target's predictive movement lock to your allies. The next ally who attacks that target before your next turn gains a **+1 circumstance bonus** (improving to **+2 at Lv 5**, and **+3 at Lv 10**) to their attack roll.
 - **Calculated Strike:** If your strike hits a target you evaluated with *Analytical Assessment*, you deal an additional **1d6 precision damage** (increasing to 2d6 at 5th, 3d6 at 11th, and 4d6 at 17th level) by placing your strike precisely where anatomy or structure is compromised.
 
 ---
@@ -95,13 +148,17 @@ You use intellect and empirical observation rather than brute muscle or instinct
 ## 3. Scholar Class Feats
 
 ### 1st Level
-- **Known Weakness [Player Core 2 p.44]:** Whenever you use *Analytical Assessment*, you can immediately Recall Knowledge about the creature as a free action. If you succeed, you gain a +1 circumstance bonus to your attack roll.
+- **Known Weakness [Player Core 2 p.44]:** Whenever you use *Analytical Assessment*, you can immediately Recall Knowledge about the creature as a free action. If you succeed, you gain a +1 circumstance bonus to your attack roll without spending additional AP.
 - **Legal Retainer:** Trained in courtroom etiquette, contracts, and municipal charters. You gain the *Bargain Hunter* and *Courtly Graces* skill feats and a +2 circumstance bonus on legal and contract negotiations.
-- **Combat Cartography ([one-action]):** You map the battlefield layout in your head. Allies within 30 feet who can hear you ignore difficult terrain caused by rubble, debris, or furniture for 1 round.
+- **Combat Cartography ([one-action]):** You map terrain obstacles and hazard contours.
+  - **Personal Use (1 AP at Lv1 / 2 AP at Lv5 / 3 AP at Lv10):** You ignore difficult terrain caused by rubble, debris, or furniture for 1 round (and gain +5 ft status bonus to Speed at Lv 5, +10 ft at Lv 10).
+  - **Party Broadcast (+1 AP more: 2 AP at Lv1 / 3 AP at Lv5 / 4 AP at Lv10):** All allies within 30 feet ignore difficult terrain for 1 round (and gain the Speed bonus at higher tiers).
 
 ### 2nd Level
 - **Encyclopedic Recall:** You can roll any Recall Knowledge check using your Intelligence modifier, even for skills in which you are only trained, and can attempt checks untrained for academic/civic topics.
-- **Tactical Instruction ([one-action]):** If you succeeded on an *Analytical Assessment* against a target, you call out its defense blind-spot to an ally. That ally gains a +2 circumstance bonus on their next attack roll against that target before your next turn.
+- **Tactical Instruction ([one-action]):** If you succeeded on an *Analytical Assessment* against a target, you call out its defense blind-spot.
+  - **Single Ally (1 AP at Lv2 / 2 AP at Lv5 / 3 AP at Lv10):** One ally within 30 feet gains a **+1 / +2 / +3** circumstance bonus on their next attack roll against that target before your next turn.
+  - **Full Squad Broadcast (+1 AP more: 2 AP at Lv2 / 3 AP at Lv5 / 4 AP at Lv10):** All allies within 30 feet gain the **+1 / +2 / +3** circumstance bonus on their next attack against that target.
 
 ### 4th Level
 - **NeitherTeck Tuning (Scholar):** You apply theoretical mathematical models and catalytic formulas to personal tech. Your per-round Activation Point (AP) pool permanently increases by **+2 AP**.
@@ -109,7 +166,9 @@ You use intellect and empirical observation rather than brute muscle or instinct
 - **Forensic Audit:** Given 10 minutes to review financial ledgers, tax rolls, cargo manifests, or guild registries, you immediately detect embezzled funds, hidden owners, forged seals, or fraudulent cargo.
 
 ### 6th Level
-- **Predictive Counter-Measure ([reaction]):** *Trigger:* An enemy you targeted with *Analytical Assessment* attacks an ally within 30 feet. *Effect:* You shout precise warning of the incoming blow; the ally gains a +2 circumstance bonus to AC against the triggering attack.
+- **Predictive Counter-Measure ([reaction]):** *Trigger:* An enemy attacks you or an ally within 30 feet.
+  - **Personal Deflection (2 AP):** If you are attacked and targeted, trigger your reactive screen to gain a **+3 circumstance bonus to AC** against the triggering strike (decided after knowing if the attack hit/crit).
+  - **Ally Warning Broadcast (3 AP):** If an ally within 30 feet is attacked by an enemy you evaluated with *Analytical Assessment*, spend 3 AP to broadcast an instantaneous evasive audio-pulse; the ally gains a **+3 circumstance bonus to AC** against the triggering attack.
 - **Blueprint Memory:** After studying a building's blueprints or spending 5 minutes observing its exterior, you memorize its entire internal layout, including maintenance ducts, plumbing shafts, chimney flues, and load-bearing pillars.
 
 ### 8th Level
@@ -125,8 +184,8 @@ You use intellect and empirical observation rather than brute muscle or instinct
 - **NeitherTeck Master Calibration (Scholar):** Prerequisites: *NeitherTeck Advanced Calibration*. Your cognitive modeling effortlessly balances cascading inductive fields. Your per-round Activation Point (AP) pool permanently increases by **+2 AP**.
 
 ### 14th Level
-- **Coordinated Stratagem ([two-actions]):** Design a synchronized tactical maneuver. You and up to three allies within 30 feet can immediately Stride up to half your speed without triggering reactions from enemies you have analyzed.
-- **Systemic Collapse ([two-actions]):** Strike an enemy or construct at its vital nexus point. On a hit, in addition to weapon and *Calculated Strike* damage, the target must succeed at a Fortitude save against your class DC or become *Paralyzed* or *Immobilized* for 1 round as its mechanical joints or nervous cluster locks up.
+- **Coordinated Stratagem ([two-actions], 3 AP):** Design a synchronized tactical maneuver. Spend 3 AP to allow you and up to three allies within 30 feet to immediately Stride up to half speed without triggering reactions from enemies you have analyzed.
+- **Systemic Collapse ([two-actions], 3 AP):** Strike an enemy or construct at its vital nexus point. On a hit, in addition to weapon and *Calculated Strike* damage, the target must succeed at a Fortitude save against your class DC or become *Paralyzed* or *Immobilized* for 1 round as its mechanical joints or nervous cluster locks up.
 
 ### 18th Level
 - **NeitherTeck Supreme Calibration (Scholar):** Prerequisites: *NeitherTeck Master Calibration*. You perceive electromagnetic radiant flux as pure mathematical symmetry. Your per-round Activation Point (AP) pool permanently increases by **+2 AP**.
@@ -134,7 +193,7 @@ You use intellect and empirical observation rather than brute muscle or instinct
 - **Master Plan ([three-actions]):** Once per day, lay out a comprehensive contingency plan for a specific objective. For the next hour, whenever you or any party member rolls a critical failure on an attack roll, skill check, or saving throw related to that objective, treat it as a regular failure instead.
 
 ### 20th Level
-- **Total Analytical Supremacy:** You analyze the world with machine-like speed. At the start of every combat round, you gain one free action that can only be used for *Analytical Assessment*, Recall Knowledge, or *Tactical Instruction*.
+- **Total Analytical Supremacy:** You analyze the world with machine-like speed. At the start of every combat round, you gain one free action and **2 free AP** that can only be used for *Analytical Assessment*, Recall Knowledge, or *Tactical Instruction*.
 
 ---
 

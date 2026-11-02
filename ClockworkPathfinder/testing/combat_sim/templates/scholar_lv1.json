@@ -2,7 +2,7 @@
   "name": "Scholar (Lv1)",
   "archetype": "Scholar",
   "level": 1,
-  "hp": 15,
+  "hp": 17,
   "ac": 14,
   "fort": 4,
   "ref": 5,
@@ -34,6 +34,22 @@
       ],
       "allowed_environments": [
         "high_radiant"
+      ]
+    },
+    {
+      "name": "Low Radiant Arc Resonator",
+      "attack_bonus": 7,
+      "damage_dice": "1d8",
+      "flat_damage": 2,
+      "damage_type": "Electricity",
+      "range": 60,
+      "ap_cost": 3,
+      "traits": [
+        "radiant",
+        "deadly_d10"
+      ],
+      "allowed_environments": [
+        "low_radiant"
       ]
     },
     {
@@ -92,6 +108,12 @@
   "abilities": {
     "radiant_barrier": true,
     "barrier_temp_hp_high": 10,
-    "barrier_temp_hp_low": 4
+    "barrier_temp_hp_low": 4,
+    "arc_deflection_screen": true,
+    "deflection_ap_cost": 2,
+    "deflection_ac_bonus": 3,
+    "calculated_strike": true,
+    "calculated_strike_dice": "1d6",
+    "calculated_strike_ap_cost": 1
   }
 }

@@ -21,6 +21,102 @@
   ],
   "weapons": [
     {
+      "name": "Reaction Manifold: Apex Concussion",
+      "attack_bonus": 0,
+      "damage_dice": "10d8",
+      "flat_damage": 0,
+      "damage_type": "Fire",
+      "range": 15,
+      "ap_cost": 0,
+      "traits": [
+        "bombardier"
+      ],
+      "is_bombardier": true,
+      "save_type": "ref",
+      "save_dc": 28,
+      "template_area": 5,
+      "burst_radius_ft": 25,
+      "throw_bonus": 7,
+      "ammo_capacity": 15,
+      "allowed_environments": [
+        "high_radiant",
+        "low_radiant",
+        "the_neither"
+      ]
+    },
+    {
+      "name": "Reaction Manifold: Lethal Asphyxiation Cloud",
+      "attack_bonus": 0,
+      "damage_dice": "7d8",
+      "flat_damage": 0,
+      "damage_type": "Poison",
+      "range": 15,
+      "ap_cost": 0,
+      "traits": [
+        "bombardier"
+      ],
+      "is_bombardier": true,
+      "save_type": "fort",
+      "save_dc": 28,
+      "template_area": 3,
+      "burst_radius_ft": 15,
+      "throw_bonus": 7,
+      "ammo_capacity": 15,
+      "allowed_environments": [
+        "high_radiant",
+        "low_radiant",
+        "the_neither"
+      ]
+    },
+    {
+      "name": "Reaction Manifold: Neural Confusion Gas",
+      "attack_bonus": 0,
+      "damage_dice": "7d8",
+      "flat_damage": 0,
+      "damage_type": "Mental",
+      "range": 15,
+      "ap_cost": 0,
+      "traits": [
+        "bombardier"
+      ],
+      "is_bombardier": true,
+      "save_type": "will",
+      "save_dc": 28,
+      "template_area": 3,
+      "burst_radius_ft": 15,
+      "throw_bonus": 7,
+      "ammo_capacity": 15,
+      "allowed_environments": [
+        "high_radiant",
+        "low_radiant",
+        "the_neither"
+      ]
+    },
+    {
+      "name": "Neither Fire Ordnance",
+      "attack_bonus": 0,
+      "damage_dice": "7d6",
+      "flat_damage": 0,
+      "damage_type": "Neither Fire",
+      "range": 15,
+      "ap_cost": 0,
+      "traits": [
+        "bombardier",
+        "neither_fire"
+      ],
+      "is_bombardier": true,
+      "is_neither_fire": true,
+      "template_area": 3,
+      "burst_radius_ft": 15,
+      "throw_bonus": 7,
+      "ammo_capacity": 15,
+      "allowed_environments": [
+        "high_radiant",
+        "low_radiant",
+        "the_neither"
+      ]
+    },
+    {
       "name": "Fair Steel Spire Dueling Rapier (Outlands)",
       "attack_bonus": 19,
       "damage_dice": "3d6",

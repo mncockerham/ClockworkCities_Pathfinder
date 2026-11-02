@@ -9,6 +9,23 @@ This document records the exact operational rules, architectural extensions, com
 
 ## 1. Core Mechanics & Architecture Codified in `combat_sim.py`
 
+### Primary Balancing Diagnostic: AP Pool vs. Desired Expenditure Ratio
+> [!IMPORTANT]
+> **First-Line Diagnostic When Class Balance is Off:**
+> When balance testing indicates a class is under-performing or over-performing, **the very first metric to audit is the character's AP balance versus their current desired round-to-round expenditures**:
+> - **AP is the Primary Balancing Lever:** Because AP is a character's inherent biological/neurological capacity to handle NeitherTeck, moving the AP pool or individual AP costs up or down by even **1 to 2 points** has a massive, non-linear impact on any Neither-based class.
+> - **The Expenditure Ratio Audit:**
+>   - *Starved (< 1.0 Ratio):* If desired actions (e.g. Strike 3 AP + Reaction 2 AP = 5 AP) exceed available pool (e.g. 4 AP), the class collapses or suffers a 30%+ win rate drop because their action engine stalls.
+>   - *Calibrated Sweet Spot (1.0 to 1.3 Ratio):* The player can afford their core offensive loop OR defensive reaction, but cannot spam both every turn without making hard tactical sacrifices.
+>   - *Over-Saturated (> 1.5 Ratio):* If a character can comfortably pay for full multi-attack weapon discharges, telemetry buffs, AND reactive deflection shields every single round with AP to spare, the class becomes an unkillable powerhouse.
+> - *Rule of Thumb:* Before tweaking base attack bonuses, saving throws, or damage dice, test adjusting **AP pool capacity (+1/-1 AP)** or **ability AP costs**.
+
+### Special Simulator Caveat: Clockwork Rifleman Over-Level Testing
+> [!WARNING] Clockwork Rifleman Simulator Calibration Note
+> **This class intentionally tests OVER-LEVEL in the 1v1 combat simulator.**
+> - **Simulation Assumption:** The 1v1 simulator assumes ideal party positioning and 40–60 ft starting distances, applying the **Cartridge Lethal Precision** bonus (+1d6 to +3d6) across all shots.
+> - **Actual Play Vulnerability:** In real tabletop play, the bonus damage strictly requires firing at targets **15+ feet away**. Riflemen suffer acute vulnerabilities when starting in confined interior spaces, tight corners, or against fast ambushers with short starting ranges (<15 ft) where enemies close immediately and suppress their precision damage bonus.
+
 ### A. PF2e Saving Throw & Exotic Ability Engine
 - **Method:** `Simulator._execute_save_ability(attacker, defender, weapon)`
 - **4-Degree PF2e Logic:**

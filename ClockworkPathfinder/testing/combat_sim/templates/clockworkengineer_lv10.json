@@ -124,7 +124,10 @@
   ],
   "abilities": {
     "radiant_barrier": true,
-    "barrier_temp_hp_high": 25,
-    "barrier_temp_hp_low": 14
+    "barrier_temp_hp_high": 15,
+    "barrier_temp_hp_low": 8,
+    "arc_deflection_screen": true,
+    "deflection_ap_cost": 2,
+    "deflection_ac_bonus": 3
   }
 }

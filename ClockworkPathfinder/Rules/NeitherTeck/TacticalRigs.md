@@ -54,7 +54,7 @@ Installing defensive systems into lighter garments requires less load-bearing su
 
 | Item | Active Cost | Trigger / Action | Tags | Effect upon Activation |
 |---|:---:|---|---|---|
-| **Arc Deflection Screen** | **2 AP** | **Reaction:** Triggered when targeted by a ranged projectile or energy attack. | `[Technical]`, `[Military]` | Emits an ionizing electromagnetic screen: grants +2 circumstance bonus to AC against the triggering attack. |
+| **Arc Deflection Screen** | **2 AP** | **Reaction:** Triggered when targeted by an attack, after knowing if the attack hit or critically hit. | `[Technical]`, `[Military]` | Emits an ionizing electromagnetic screen: grants +3 circumstance bonus to AC against the triggering attack. |
 | **Kinetic Arc Shield Burst** | **2 AP** | **Reaction:** Shield Block | `[Mechanical]`, `[Military]` | Projects a shockwave during a block, reducing incoming damage by an additional +5 and forcing the attacker to make a Fortitude save vs. off-balance. |
 | **Spire Barrier Projector (Stationary)** | **4 AP** | **2 Actions** | `[Technical]` | *Tier 1 Grid Only.* Projects a 10-ft hemispherical energy dome granting Lesser Cover to all allies within for 1 round. |
 

@@ -1,0 +1,1715 @@
+{
+  "avg_by_class": {
+    "artisan": {
+      "Civil": 28.6,
+      "High": 12.1,
+      "Low": 16.3,
+      "Neither": 19.6,
+      "Overall": 19.2
+    },
+    "chirurgeon": {
+      "Civil": 37.1,
+      "High": 6.4,
+      "Low": 8.6,
+      "Neither": 13.6,
+      "Overall": 16.4
+    },
+    "clockworkengineer": {
+      "Civil": 4.8,
+      "High": 60.0,
+      "Low": 37.1,
+      "Neither": 18.9,
+      "Overall": 30.2
+    },
+    "clockworkrifleman": {
+      "Civil": 17.0,
+      "High": 84.2,
+      "Low": 86.3,
+      "Neither": 86.8,
+      "Overall": 68.6
+    },
+    "dandy": {
+      "Civil": 73.3,
+      "High": 37.6,
+      "Low": 45.3,
+      "Neither": 47.2,
+      "Overall": 50.9
+    },
+    "greymarketeer": {
+      "Civil": 84.6,
+      "High": 54.8,
+      "Low": 57.6,
+      "Neither": 59.8,
+      "Overall": 64.2
+    },
+    "inspector": {
+      "Civil": 27.8,
+      "High": 26.7,
+      "Low": 32.1,
+      "Neither": 31.1,
+      "Overall": 29.4
+    },
+    "madbomber": {
+      "Civil": 4.7,
+      "High": 7.6,
+      "Low": 12.5,
+      "Neither": 16.2,
+      "Overall": 10.3
+    },
+    "noble": {
+      "Civil": 66.4,
+      "High": 48.5,
+      "Low": 56.6,
+      "Neither": 53.5,
+      "Overall": 56.3
+    },
+    "officer": {
+      "Civil": 85.1,
+      "High": 65.1,
+      "Low": 65.3,
+      "Neither": 65.0,
+      "Overall": 70.1
+    },
+    "pugilist": {
+      "Civil": 89.7,
+      "High": 62.3,
+      "Low": 68.8,
+      "Neither": 66.2,
+      "Overall": 71.7
+    },
+    "scholar": {
+      "Civil": 3.3,
+      "High": 53.8,
+      "Low": 3.8,
+      "Neither": 2.6,
+      "Overall": 15.9
+    },
+    "scout": {
+      "Civil": 26.7,
+      "High": 65.8,
+      "Low": 69.6,
+      "Neither": 70.1,
+      "Overall": 58.0
+    },
+    "skycaptain": {
+      "Civil": 50.3,
+      "High": 40.5,
+      "Low": 43.9,
+      "Neither": 42.1,
+      "Overall": 44.2
+    },
+    "soldier": {
+      "Civil": 37.7,
+      "High": 86.6,
+      "Low": 87.3,
+      "Neither": 89.1,
+      "Overall": 75.2
+    },
+    "survivor": {
+      "Civil": 58.3,
+      "High": 26.6,
+      "Low": 28.0,
+      "Neither": 32.4,
+      "Overall": 36.3
+    },
+    "merchant_reflex": {
+      "Civil": 61.1,
+      "High": 52.8,
+      "Low": 57.7,
+      "Neither": 58.6,
+      "Overall": 57.5
+    },
+    "merchant_fortitude": {
+      "Civil": 61.6,
+      "High": 43.6,
+      "Low": 48.6,
+      "Neither": 49.8,
+      "Overall": 50.9
+    },
+    "merchant_will": {
+      "Civil": 63.1,
+      "High": 39.2,
+      "Low": 43.6,
+      "Neither": 46.8,
+      "Overall": 48.2
+    },
+    "merchant_neitherfire": {
+      "Civil": 60.3,
+      "High": 46.9,
+      "Low": 53.0,
+      "Neither": 53.5,
+      "Overall": 53.4
+    }
+  },
+  "severe_matchups": [
+    {
+      "winner": "greymarketeer",
+      "loser": "madbomber",
+      "avg_win": 100.0,
+      "env_detail": {
+        "Civil": 100.0,
+        "High": 100.0,
+        "Low": 100.0,
+        "Neither": 100.0
+      }
+    },
+    {
+      "winner": "officer",
+      "loser": "madbomber",
+      "avg_win": 100.0,
+      "env_detail": {
+        "Civil": 100.0,
+        "High": 100.0,
+        "Low": 98.0,
+        "Neither": 100.0
+      }
+    },
+    {
+      "winner": "soldier",
+      "loser": "madbomber",
+      "avg_win": 100.0,
+      "env_detail": {
+        "Civil": 100.0,
+        "High": 100.0,
+        "Low": 100.0,
+        "Neither": 100.0
+      }
+    },
+    {
+      "winner": "merchant_reflex",
+      "loser": "madbomber",
+      "avg_win": 100.0,
+      "env_detail": {
+        "Civil": 100.0,
+        "High": 100.0,
+        "Low": 100.0,
+        "Neither": 100.0
+      }
+    },
+    {
+      "winner": "merchant_neitherfire",
+      "loser": "madbomber",
+      "avg_win": 100.0,
+      "env_detail": {
+        "Civil": 100.0,
+        "High": 100.0,
+        "Low": 100.0,
+        "Neither": 100.0
+      }
+    },
+    {
+      "winner": "officer",
+      "loser": "chirurgeon",
+      "avg_win": 99.5,
+      "env_detail": {
+        "Civil": 96.0,
+        "High": 100.0,
+        "Low": 100.0,
+        "Neither": 100.0
+      }
+    },
+    {
+      "winner": "clockworkrifleman",
+      "loser": "madbomber",
+      "avg_win": 99.5,
+      "env_detail": {
+        "Civil": 100.0,
+        "High": 100.0,
+        "Low": 98.0,
+        "Neither": 100.0
+      }
+    },
+    {
+      "winner": "noble",
+      "loser": "madbomber",
+      "avg_win": 99.5,
+      "env_detail": {
+        "Civil": 100.0,
+        "High": 98.0,
+        "Low": 98.0,
+        "Neither": 92.0
+      }
+    },
+    {
+      "winner": "merchant_will",
+      "loser": "madbomber",
+      "avg_win": 99.5,
+      "env_detail": {
+        "Civil": 100.0,
+        "High": 98.0,
+        "Low": 100.0,
+        "Neither": 98.0
+      }
+    },
+    {
+      "winner": "pugilist",
+      "loser": "madbomber",
+      "avg_win": 99.0,
+      "env_detail": {
+        "Civil": 100.0,
+        "High": 93.0,
+        "Low": 93.0,
+        "Neither": 100.0
+      }
+    },
+    {
+      "winner": "scout",
+      "loser": "madbomber",
+      "avg_win": 99.0,
+      "env_detail": {
+        "Civil": 100.0,
+        "High": 98.0,
+        "Low": 98.0,
+        "Neither": 90.9
+      }
+    },
+    {
+      "winner": "merchant_fortitude",
+      "loser": "madbomber",
+      "avg_win": 99.0,
+      "env_detail": {
+        "Civil": 100.0,
+        "High": 95.9,
+        "Low": 98.0,
+        "Neither": 96.0
+      }
+    },
+    {
+      "winner": "officer",
+      "loser": "artisan",
+      "avg_win": 98.2,
+      "env_detail": {
+        "Civil": 100.0,
+        "High": 98.0,
+        "Low": 92.9,
+        "Neither": 98.0
+      }
+    },
+    {
+      "winner": "pugilist",
+      "loser": "artisan",
+      "avg_win": 97.2,
+      "env_detail": {
+        "Civil": 100.0,
+        "High": 96.0,
+        "Low": 90.9,
+        "Neither": 96.0
+      }
+    },
+    {
+      "winner": "merchant_neitherfire",
+      "loser": "chirurgeon",
+      "avg_win": 96.7,
+      "env_detail": {
+        "Civil": 85.9,
+        "High": 96.0,
+        "Low": 95.9,
+        "Neither": 98.0
+      }
+    },
+    {
+      "winner": "merchant_neitherfire",
+      "loser": "artisan",
+      "avg_win": 96.5,
+      "env_detail": {
+        "Civil": 93.0,
+        "High": 98.0,
+        "Low": 82.2,
+        "Neither": 90.1
+      }
+    },
+    {
+      "winner": "pugilist",
+      "loser": "chirurgeon",
+      "avg_win": 96.5,
+      "env_detail": {
+        "Civil": 92.9,
+        "High": 95.9,
+        "Low": 98.0,
+        "Neither": 88.0
+      }
+    },
+    {
+      "winner": "merchant_reflex",
+      "loser": "artisan",
+      "avg_win": 96.3,
+      "env_detail": {
+        "Civil": 84.2,
+        "High": 98.0,
+        "Low": 100.0,
+        "Neither": 95.0
+      }
+    },
+    {
+      "winner": "skycaptain",
+      "loser": "chirurgeon",
+      "avg_win": 96.2,
+      "env_detail": {
+        "Civil": 75.0,
+        "High": 100.0,
+        "Low": 98.0,
+        "Neither": 90.0
+      }
+    },
+    {
+      "winner": "survivor",
+      "loser": "chirurgeon",
+      "avg_win": 96.2,
+      "env_detail": {
+        "Civil": 80.6,
+        "High": 98.0,
+        "Low": 88.0,
+        "Neither": 95.9
+      }
+    },
+    {
+      "winner": "greymarketeer",
+      "loser": "chirurgeon",
+      "avg_win": 96.0,
+      "env_detail": {
+        "Civil": 98.0,
+        "High": 93.9,
+        "Low": 95.9,
+        "Neither": 89.9
+      }
+    },
+    {
+      "winner": "merchant_reflex",
+      "loser": "chirurgeon",
+      "avg_win": 96.0,
+      "env_detail": {
+        "Civil": 82.0,
+        "High": 85.9,
+        "Low": 93.9,
+        "Neither": 98.0
+      }
+    },
+    {
+      "winner": "merchant_will",
+      "loser": "chirurgeon",
+      "avg_win": 96.0,
+      "env_detail": {
+        "Civil": 82.0,
+        "High": 93.9,
+        "Low": 95.0,
+        "Neither": 98.0
+      }
+    },
+    {
+      "winner": "soldier",
+      "loser": "clockworkengineer",
+      "avg_win": 96.0,
+      "env_detail": {
+        "Civil": 100.0,
+        "High": 83.0,
+        "Low": 98.0,
+        "Neither": 95.9
+      }
+    },
+    {
+      "winner": "noble",
+      "loser": "chirurgeon",
+      "avg_win": 95.5,
+      "env_detail": {
+        "Civil": 85.0,
+        "High": 96.0,
+        "Low": 94.9,
+        "Neither": 93.9
+      }
+    },
+    {
+      "winner": "pugilist",
+      "loser": "inspector",
+      "avg_win": 95.2,
+      "env_detail": {
+        "Civil": 98.0,
+        "High": 86.0,
+        "Low": 89.9,
+        "Neither": 85.0
+      }
+    },
+    {
+      "winner": "skycaptain",
+      "loser": "madbomber",
+      "avg_win": 95.0,
+      "env_detail": {
+        "Civil": 100.0,
+        "High": 90.0,
+        "Low": 77.0,
+        "Neither": 82.0
+      }
+    },
+    {
+      "winner": "greymarketeer",
+      "loser": "artisan",
+      "avg_win": 94.8,
+      "env_detail": {
+        "Civil": 100.0,
+        "High": 79.4,
+        "Low": 88.0,
+        "Neither": 83.8
+      }
+    },
+    {
+      "winner": "merchant_fortitude",
+      "loser": "chirurgeon",
+      "avg_win": 94.7,
+      "env_detail": {
+        "Civil": 82.8,
+        "High": 92.9,
+        "Low": 87.0,
+        "Neither": 87.9
+      }
+    },
+    {
+      "winner": "soldier",
+      "loser": "scholar",
+      "avg_win": 94.5,
+      "env_detail": {
+        "Civil": 100.0,
+        "High": 78.0,
+        "Low": 100.0,
+        "Neither": 100.0
+      }
+    },
+    {
+      "winner": "soldier",
+      "loser": "artisan",
+      "avg_win": 94.0,
+      "env_detail": {
+        "Civil": 66.0,
+        "High": 100.0,
+        "Low": 98.0,
+        "Neither": 100.0
+      }
+    },
+    {
+      "winner": "soldier",
+      "loser": "inspector",
+      "avg_win": 93.5,
+      "env_detail": {
+        "Civil": 77.2,
+        "High": 96.0,
+        "Low": 92.9,
+        "Neither": 98.0
+      }
+    },
+    {
+      "winner": "scout",
+      "loser": "artisan",
+      "avg_win": 93.2,
+      "env_detail": {
+        "Civil": 47.0,
+        "High": 100.0,
+        "Low": 100.0,
+        "Neither": 96.0
+      }
+    },
+    {
+      "winner": "merchant_fortitude",
+      "loser": "artisan",
+      "avg_win": 93.0,
+      "env_detail": {
+        "Civil": 84.2,
+        "High": 90.1,
+        "Low": 85.0,
+        "Neither": 82.0
+      }
+    },
+    {
+      "winner": "noble",
+      "loser": "artisan",
+      "avg_win": 92.5,
+      "env_detail": {
+        "Civil": 100.0,
+        "High": 80.0,
+        "Low": 86.0,
+        "Neither": 82.2
+      }
+    },
+    {
+      "winner": "merchant_will",
+      "loser": "artisan",
+      "avg_win": 92.5,
+      "env_detail": {
+        "Civil": 82.8,
+        "High": 87.9,
+        "Low": 75.0,
+        "Neither": 77.2
+      }
+    },
+    {
+      "winner": "dandy",
+      "loser": "chirurgeon",
+      "avg_win": 92.2,
+      "env_detail": {
+        "Civil": 85.9,
+        "High": 78.0,
+        "Low": 93.0,
+        "Neither": 82.8
+      }
+    },
+    {
+      "winner": "officer",
+      "loser": "scholar",
+      "avg_win": 92.0,
+      "env_detail": {
+        "Civil": 100.0,
+        "High": 75.0,
+        "Low": 95.0,
+        "Neither": 98.0
+      }
+    },
+    {
+      "winner": "clockworkrifleman",
+      "loser": "clockworkengineer",
+      "avg_win": 91.4,
+      "env_detail": {
+        "Civil": 98.0,
+        "High": 78.6,
+        "Low": 79.2,
+        "Neither": 98.0
+      }
+    },
+    {
+      "winner": "clockworkrifleman",
+      "loser": "scholar",
+      "avg_win": 90.7,
+      "env_detail": {
+        "Civil": 95.0,
+        "High": 75.8,
+        "Low": 91.9,
+        "Neither": 100.0
+      }
+    },
+    {
+      "winner": "merchant_fortitude",
+      "loser": "survivor",
+      "avg_win": 90.7,
+      "env_detail": {
+        "Civil": 55.6,
+        "High": 83.2,
+        "Low": 90.1,
+        "Neither": 84.2
+      }
+    },
+    {
+      "winner": "scout",
+      "loser": "scholar",
+      "avg_win": 90.0,
+      "env_detail": {
+        "Civil": 100.0,
+        "High": 50.0,
+        "Low": 100.0,
+        "Neither": 98.0
+      }
+    },
+    {
+      "winner": "merchant_neitherfire",
+      "loser": "survivor",
+      "avg_win": 89.9,
+      "env_detail": {
+        "Civil": 48.5,
+        "High": 87.9,
+        "Low": 90.1,
+        "Neither": 90.0
+      }
+    },
+    {
+      "winner": "pugilist",
+      "loser": "scholar",
+      "avg_win": 89.5,
+      "env_detail": {
+        "Civil": 100.0,
+        "High": 60.0,
+        "Low": 98.0,
+        "Neither": 100.0
+      }
+    },
+    {
+      "winner": "officer",
+      "loser": "inspector",
+      "avg_win": 88.9,
+      "env_detail": {
+        "Civil": 100.0,
+        "High": 80.0,
+        "Low": 85.9,
+        "Neither": 77.6
+      }
+    },
+    {
+      "winner": "soldier",
+      "loser": "scout",
+      "avg_win": 88.9,
+      "env_detail": {
+        "Civil": 64.7,
+        "High": 85.1,
+        "Low": 84.8,
+        "Neither": 82.2
+      }
+    },
+    {
+      "winner": "skycaptain",
+      "loser": "artisan",
+      "avg_win": 88.2,
+      "env_detail": {
+        "Civil": 74.0,
+        "High": 75.8,
+        "Low": 80.2,
+        "Neither": 75.0
+      }
+    },
+    {
+      "winner": "dandy",
+      "loser": "madbomber",
+      "avg_win": 88.2,
+      "env_detail": {
+        "Civil": 100.0,
+        "High": 85.9,
+        "Low": 89.9,
+        "Neither": 77.0
+      }
+    },
+    {
+      "winner": "merchant_fortitude",
+      "loser": "scholar",
+      "avg_win": 88.2,
+      "env_detail": {
+        "Civil": 100.0,
+        "High": 45.0,
+        "Low": 98.0,
+        "Neither": 100.0
+      }
+    },
+    {
+      "winner": "merchant_reflex",
+      "loser": "scholar",
+      "avg_win": 88.1,
+      "env_detail": {
+        "Civil": 100.0,
+        "High": 50.5,
+        "Low": 100.0,
+        "Neither": 100.0
+      }
+    },
+    {
+      "winner": "soldier",
+      "loser": "chirurgeon",
+      "avg_win": 87.6,
+      "env_detail": {
+        "Civil": 37.6,
+        "High": 98.0,
+        "Low": 100.0,
+        "Neither": 100.0
+      }
+    },
+    {
+      "winner": "pugilist",
+      "loser": "clockworkengineer",
+      "avg_win": 87.6,
+      "env_detail": {
+        "Civil": 100.0,
+        "High": 54.5,
+        "Low": 87.9,
+        "Neither": 90.0
+      }
+    },
+    {
+      "winner": "dandy",
+      "loser": "artisan",
+      "avg_win": 87.3,
+      "env_detail": {
+        "Civil": 92.9,
+        "High": 77.2,
+        "Low": 83.0,
+        "Neither": 82.0
+      }
+    },
+    {
+      "winner": "survivor",
+      "loser": "artisan",
+      "avg_win": 87.3,
+      "env_detail": {
+        "Civil": 92.9,
+        "High": 70.3,
+        "Low": 75.8,
+        "Neither": 70.0
+      }
+    },
+    {
+      "winner": "merchant_neitherfire",
+      "loser": "scholar",
+      "avg_win": 87.0,
+      "env_detail": {
+        "Civil": 100.0,
+        "High": 38.0,
+        "Low": 95.0,
+        "Neither": 100.0
+      }
+    },
+    {
+      "winner": "scout",
+      "loser": "inspector",
+      "avg_win": 86.9,
+      "env_detail": {
+        "Civil": 35.4,
+        "High": 96.0,
+        "Low": 90.1,
+        "Neither": 88.0
+      }
+    },
+    {
+      "winner": "scout",
+      "loser": "clockworkengineer",
+      "avg_win": 86.8,
+      "env_detail": {
+        "Civil": 100.0,
+        "High": 47.0,
+        "Low": 77.0,
+        "Neither": 100.0
+      }
+    },
+    {
+      "winner": "noble",
+      "loser": "scholar",
+      "avg_win": 86.2,
+      "env_detail": {
+        "Civil": 100.0,
+        "High": 47.0,
+        "Low": 100.0,
+        "Neither": 98.0
+      }
+    },
+    {
+      "winner": "merchant_neitherfire",
+      "loser": "inspector",
+      "avg_win": 85.9,
+      "env_detail": {
+        "Civil": 90.0,
+        "High": 65.7,
+        "Low": 72.7,
+        "Neither": 79.8
+      }
+    },
+    {
+      "winner": "noble",
+      "loser": "inspector",
+      "avg_win": 85.7,
+      "env_detail": {
+        "Civil": 95.0,
+        "High": 69.7,
+        "Low": 75.2,
+        "Neither": 72.7
+      }
+    },
+    {
+      "winner": "skycaptain",
+      "loser": "scholar",
+      "avg_win": 85.7,
+      "env_detail": {
+        "Civil": 100.0,
+        "High": 40.2,
+        "Low": 92.9,
+        "Neither": 98.0
+      }
+    },
+    {
+      "winner": "merchant_reflex",
+      "loser": "survivor",
+      "avg_win": 85.1,
+      "env_detail": {
+        "Civil": 47.5,
+        "High": 83.8,
+        "Low": 90.8,
+        "Neither": 93.9
+      }
+    },
+    {
+      "winner": "greymarketeer",
+      "loser": "scholar",
+      "avg_win": 85.0,
+      "env_detail": {
+        "Civil": 100.0,
+        "High": 40.2,
+        "Low": 100.0,
+        "Neither": 100.0
+      }
+    }
+  ],
+  "polarized_matchups": [
+    {
+      "char_a": "chirurgeon",
+      "char_b": "scholar",
+      "civil_win_a": 100.0,
+      "high_win_a": 0.0,
+      "neither_win_a": 82.2,
+      "max_swing": 100.0
+    },
+    {
+      "char_a": "artisan",
+      "char_b": "clockworkengineer",
+      "civil_win_a": 100.0,
+      "high_win_a": 2.0,
+      "neither_win_a": 60.0,
+      "max_swing": 98.0
+    },
+    {
+      "char_a": "chirurgeon",
+      "char_b": "clockworkengineer",
+      "civil_win_a": 100.0,
+      "high_win_a": 2.0,
+      "neither_win_a": 37.4,
+      "max_swing": 98.0
+    },
+    {
+      "char_a": "clockworkrifleman",
+      "char_b": "survivor",
+      "civil_win_a": 0.0,
+      "high_win_a": 98.0,
+      "neither_win_a": 98.0,
+      "max_swing": 98.0
+    },
+    {
+      "char_a": "chirurgeon",
+      "char_b": "clockworkrifleman",
+      "civil_win_a": 96.0,
+      "high_win_a": 0.0,
+      "neither_win_a": 0.0,
+      "max_swing": 96.0
+    },
+    {
+      "char_a": "clockworkrifleman",
+      "char_b": "skycaptain",
+      "civil_win_a": 0.0,
+      "high_win_a": 92.9,
+      "neither_win_a": 96.0,
+      "max_swing": 96.0
+    },
+    {
+      "char_a": "greymarketeer",
+      "char_b": "scout",
+      "civil_win_a": 100.0,
+      "high_win_a": 14.9,
+      "neither_win_a": 4.0,
+      "max_swing": 96.0
+    },
+    {
+      "char_a": "greymarketeer",
+      "char_b": "soldier",
+      "civil_win_a": 98.0,
+      "high_win_a": 4.1,
+      "neither_win_a": 16.8,
+      "max_swing": 93.9
+    },
+    {
+      "char_a": "noble",
+      "char_b": "scout",
+      "civil_win_a": 98.0,
+      "high_win_a": 5.0,
+      "neither_win_a": 15.2,
+      "max_swing": 93.0
+    },
+    {
+      "char_a": "clockworkrifleman",
+      "char_b": "dandy",
+      "civil_win_a": 0.0,
+      "high_win_a": 92.9,
+      "neither_win_a": 92.9,
+      "max_swing": 92.9
+    },
+    {
+      "char_a": "clockworkrifleman",
+      "char_b": "merchant_fortitude",
+      "civil_win_a": 0.0,
+      "high_win_a": 92.9,
+      "neither_win_a": 82.0,
+      "max_swing": 92.9
+    },
+    {
+      "char_a": "artisan",
+      "char_b": "scholar",
+      "civil_win_a": 100.0,
+      "high_win_a": 8.0,
+      "neither_win_a": 85.1,
+      "max_swing": 92.0
+    },
+    {
+      "char_a": "clockworkrifleman",
+      "char_b": "merchant_neitherfire",
+      "civil_win_a": 0.0,
+      "high_win_a": 85.0,
+      "neither_win_a": 90.9,
+      "max_swing": 90.9
+    },
+    {
+      "char_a": "noble",
+      "char_b": "soldier",
+      "civil_win_a": 95.0,
+      "high_win_a": 9.1,
+      "neither_win_a": 4.1,
+      "max_swing": 90.9
+    },
+    {
+      "char_a": "soldier",
+      "char_b": "merchant_neitherfire",
+      "civil_win_a": 5.1,
+      "high_win_a": 96.0,
+      "neither_win_a": 93.0,
+      "max_swing": 90.9
+    },
+    {
+      "char_a": "clockworkrifleman",
+      "char_b": "merchant_will",
+      "civil_win_a": 0.0,
+      "high_win_a": 90.8,
+      "neither_win_a": 85.0,
+      "max_swing": 90.8
+    },
+    {
+      "char_a": "artisan",
+      "char_b": "clockworkrifleman",
+      "civil_win_a": 90.0,
+      "high_win_a": 0.0,
+      "neither_win_a": 2.0,
+      "max_swing": 90.0
+    },
+    {
+      "char_a": "clockworkrifleman",
+      "char_b": "noble",
+      "civil_win_a": 0.0,
+      "high_win_a": 70.0,
+      "neither_win_a": 88.9,
+      "max_swing": 88.9
+    },
+    {
+      "char_a": "officer",
+      "char_b": "soldier",
+      "civil_win_a": 100.0,
+      "high_win_a": 17.2,
+      "neither_win_a": 11.9,
+      "max_swing": 88.1
+    },
+    {
+      "char_a": "soldier",
+      "char_b": "merchant_will",
+      "civil_win_a": 7.9,
+      "high_win_a": 96.0,
+      "neither_win_a": 95.0,
+      "max_swing": 88.1
+    },
+    {
+      "char_a": "scout",
+      "char_b": "survivor",
+      "civil_win_a": 2.0,
+      "high_win_a": 79.8,
+      "neither_win_a": 90.0,
+      "max_swing": 88.0
+    },
+    {
+      "char_a": "soldier",
+      "char_b": "merchant_fortitude",
+      "civil_win_a": 10.0,
+      "high_win_a": 98.0,
+      "neither_win_a": 96.0,
+      "max_swing": 88.0
+    },
+    {
+      "char_a": "dandy",
+      "char_b": "soldier",
+      "civil_win_a": 92.9,
+      "high_win_a": 6.1,
+      "neither_win_a": 12.0,
+      "max_swing": 86.80000000000001
+    },
+    {
+      "char_a": "dandy",
+      "char_b": "scout",
+      "civil_win_a": 100.0,
+      "high_win_a": 23.0,
+      "neither_win_a": 14.0,
+      "max_swing": 86.0
+    },
+    {
+      "char_a": "clockworkengineer",
+      "char_b": "inspector",
+      "civil_win_a": 0.0,
+      "high_win_a": 85.0,
+      "neither_win_a": 38.4,
+      "max_swing": 85.0
+    },
+    {
+      "char_a": "clockworkrifleman",
+      "char_b": "greymarketeer",
+      "civil_win_a": 0.0,
+      "high_win_a": 83.7,
+      "neither_win_a": 75.2,
+      "max_swing": 83.7
+    },
+    {
+      "char_a": "pugilist",
+      "char_b": "soldier",
+      "civil_win_a": 93.0,
+      "high_win_a": 10.1,
+      "neither_win_a": 14.3,
+      "max_swing": 82.9
+    },
+    {
+      "char_a": "dandy",
+      "char_b": "scholar",
+      "civil_win_a": 100.0,
+      "high_win_a": 19.2,
+      "neither_win_a": 93.0,
+      "max_swing": 80.8
+    },
+    {
+      "char_a": "clockworkengineer",
+      "char_b": "survivor",
+      "civil_win_a": 0.0,
+      "high_win_a": 80.0,
+      "neither_win_a": 7.1,
+      "max_swing": 80.0
+    },
+    {
+      "char_a": "clockworkrifleman",
+      "char_b": "pugilist",
+      "civil_win_a": 0.0,
+      "high_win_a": 78.0,
+      "neither_win_a": 80.0,
+      "max_swing": 80.0
+    },
+    {
+      "char_a": "clockworkrifleman",
+      "char_b": "merchant_reflex",
+      "civil_win_a": 0.0,
+      "high_win_a": 79.8,
+      "neither_win_a": 78.6,
+      "max_swing": 79.8
+    },
+    {
+      "char_a": "soldier",
+      "char_b": "merchant_reflex",
+      "civil_win_a": 6.1,
+      "high_win_a": 65.7,
+      "neither_win_a": 84.8,
+      "max_swing": 78.7
+    },
+    {
+      "char_a": "clockworkrifleman",
+      "char_b": "officer",
+      "civil_win_a": 0.0,
+      "high_win_a": 71.6,
+      "neither_win_a": 77.0,
+      "max_swing": 77.0
+    },
+    {
+      "char_a": "clockworkrifleman",
+      "char_b": "inspector",
+      "civil_win_a": 18.0,
+      "high_win_a": 92.9,
+      "neither_win_a": 90.9,
+      "max_swing": 74.9
+    },
+    {
+      "char_a": "scout",
+      "char_b": "merchant_will",
+      "civil_win_a": 0.0,
+      "high_win_a": 74.7,
+      "neither_win_a": 50.0,
+      "max_swing": 74.7
+    },
+    {
+      "char_a": "scholar",
+      "char_b": "merchant_will",
+      "civil_win_a": 0.0,
+      "high_win_a": 74.0,
+      "neither_win_a": 2.0,
+      "max_swing": 74.0
+    },
+    {
+      "char_a": "chirurgeon",
+      "char_b": "scout",
+      "civil_win_a": 73.3,
+      "high_win_a": 0.0,
+      "neither_win_a": 0.0,
+      "max_swing": 73.3
+    },
+    {
+      "char_a": "clockworkengineer",
+      "char_b": "merchant_will",
+      "civil_win_a": 0.0,
+      "high_win_a": 73.0,
+      "neither_win_a": 9.9,
+      "max_swing": 73.0
+    },
+    {
+      "char_a": "scholar",
+      "char_b": "survivor",
+      "civil_win_a": 0.0,
+      "high_win_a": 73.0,
+      "neither_win_a": 7.1,
+      "max_swing": 73.0
+    },
+    {
+      "char_a": "skycaptain",
+      "char_b": "soldier",
+      "civil_win_a": 73.0,
+      "high_win_a": 0.0,
+      "neither_win_a": 0.0,
+      "max_swing": 73.0
+    },
+    {
+      "char_a": "officer",
+      "char_b": "scout",
+      "civil_win_a": 100.0,
+      "high_win_a": 35.4,
+      "neither_win_a": 30.0,
+      "max_swing": 70.0
+    },
+    {
+      "char_a": "clockworkrifleman",
+      "char_b": "scout",
+      "civil_win_a": 7.1,
+      "high_win_a": 67.3,
+      "neither_win_a": 77.0,
+      "max_swing": 69.9
+    },
+    {
+      "char_a": "inspector",
+      "char_b": "scholar",
+      "civil_win_a": 100.0,
+      "high_win_a": 30.7,
+      "neither_win_a": 90.0,
+      "max_swing": 69.3
+    },
+    {
+      "char_a": "artisan",
+      "char_b": "madbomber",
+      "civil_win_a": 100.0,
+      "high_win_a": 32.0,
+      "neither_win_a": 44.9,
+      "max_swing": 68.0
+    },
+    {
+      "char_a": "scout",
+      "char_b": "merchant_fortitude",
+      "civil_win_a": 2.0,
+      "high_win_a": 70.0,
+      "neither_win_a": 54.5,
+      "max_swing": 68.0
+    },
+    {
+      "char_a": "soldier",
+      "char_b": "survivor",
+      "civil_win_a": 17.6,
+      "high_win_a": 84.8,
+      "neither_win_a": 77.0,
+      "max_swing": 67.19999999999999
+    },
+    {
+      "char_a": "scout",
+      "char_b": "skycaptain",
+      "civil_win_a": 10.0,
+      "high_win_a": 70.7,
+      "neither_win_a": 75.0,
+      "max_swing": 65.0
+    },
+    {
+      "char_a": "clockworkengineer",
+      "char_b": "merchant_neitherfire",
+      "civil_win_a": 0.0,
+      "high_win_a": 62.0,
+      "neither_win_a": 12.1,
+      "max_swing": 62.0
+    },
+    {
+      "char_a": "chirurgeon",
+      "char_b": "madbomber",
+      "civil_win_a": 100.0,
+      "high_win_a": 47.5,
+      "neither_win_a": 40.0,
+      "max_swing": 60.0
+    },
+    {
+      "char_a": "clockworkengineer",
+      "char_b": "dandy",
+      "civil_win_a": 0.0,
+      "high_win_a": 60.0,
+      "neither_win_a": 7.0,
+      "max_swing": 60.0
+    },
+    {
+      "char_a": "scout",
+      "char_b": "merchant_neitherfire",
+      "civil_win_a": 0.0,
+      "high_win_a": 58.0,
+      "neither_win_a": 60.0,
+      "max_swing": 60.0
+    },
+    {
+      "char_a": "greymarketeer",
+      "char_b": "scholar",
+      "civil_win_a": 100.0,
+      "high_win_a": 40.2,
+      "neither_win_a": 100.0,
+      "max_swing": 59.8
+    },
+    {
+      "char_a": "pugilist",
+      "char_b": "scout",
+      "civil_win_a": 100.0,
+      "high_win_a": 50.0,
+      "neither_win_a": 42.4,
+      "max_swing": 57.6
+    },
+    {
+      "char_a": "clockworkengineer",
+      "char_b": "noble",
+      "civil_win_a": 0.0,
+      "high_win_a": 55.4,
+      "neither_win_a": 6.1,
+      "max_swing": 55.4
+    },
+    {
+      "char_a": "clockworkengineer",
+      "char_b": "skycaptain",
+      "civil_win_a": 0.0,
+      "high_win_a": 55.1,
+      "neither_win_a": 12.0,
+      "max_swing": 55.1
+    },
+    {
+      "char_a": "clockworkengineer",
+      "char_b": "officer",
+      "civil_win_a": 0.0,
+      "high_win_a": 54.5,
+      "neither_win_a": 0.0,
+      "max_swing": 54.5
+    },
+    {
+      "char_a": "clockworkengineer",
+      "char_b": "scholar",
+      "civil_win_a": 45.5,
+      "high_win_a": 53.5,
+      "neither_win_a": 100.0,
+      "max_swing": 54.5
+    },
+    {
+      "char_a": "clockworkengineer",
+      "char_b": "merchant_reflex",
+      "civil_win_a": 0.0,
+      "high_win_a": 54.5,
+      "neither_win_a": 7.1,
+      "max_swing": 54.5
+    },
+    {
+      "char_a": "dandy",
+      "char_b": "merchant_neitherfire",
+      "civil_win_a": 76.0,
+      "high_win_a": 22.2,
+      "neither_win_a": 37.4,
+      "max_swing": 53.8
+    },
+    {
+      "char_a": "clockworkengineer",
+      "char_b": "greymarketeer",
+      "civil_win_a": 0.0,
+      "high_win_a": 53.0,
+      "neither_win_a": 5.0,
+      "max_swing": 53.0
+    },
+    {
+      "char_a": "noble",
+      "char_b": "scholar",
+      "civil_win_a": 100.0,
+      "high_win_a": 47.0,
+      "neither_win_a": 98.0,
+      "max_swing": 53.0
+    },
+    {
+      "char_a": "clockworkengineer",
+      "char_b": "madbomber",
+      "civil_win_a": 45.5,
+      "high_win_a": 98.0,
+      "neither_win_a": 40.0,
+      "max_swing": 52.5
+    },
+    {
+      "char_a": "scholar",
+      "char_b": "merchant_neitherfire",
+      "civil_win_a": 0.0,
+      "high_win_a": 52.0,
+      "neither_win_a": 0.0,
+      "max_swing": 52.0
+    },
+    {
+      "char_a": "dandy",
+      "char_b": "inspector",
+      "civil_win_a": 98.0,
+      "high_win_a": 47.5,
+      "neither_win_a": 60.0,
+      "max_swing": 50.5
+    },
+    {
+      "char_a": "scholar",
+      "char_b": "skycaptain",
+      "civil_win_a": 0.0,
+      "high_win_a": 50.0,
+      "neither_win_a": 0.0,
+      "max_swing": 50.0
+    }
+  ],
+  "merchant_vs_core": {
+    "artisan": {
+      "merchant_reflex": {
+        "avg": 94.3,
+        "civil": 84.2,
+        "neither": 95.0
+      },
+      "merchant_fortitude": {
+        "avg": 85.3,
+        "civil": 84.2,
+        "neither": 82.0
+      },
+      "merchant_will": {
+        "avg": 80.7,
+        "civil": 82.8,
+        "neither": 77.2
+      },
+      "merchant_neitherfire": {
+        "avg": 90.8,
+        "civil": 93.0,
+        "neither": 90.1
+      }
+    },
+    "chirurgeon": {
+      "merchant_reflex": {
+        "avg": 90.0,
+        "civil": 82.0,
+        "neither": 98.0
+      },
+      "merchant_fortitude": {
+        "avg": 87.7,
+        "civil": 82.8,
+        "neither": 87.9
+      },
+      "merchant_will": {
+        "avg": 92.2,
+        "civil": 82.0,
+        "neither": 98.0
+      },
+      "merchant_neitherfire": {
+        "avg": 94.0,
+        "civil": 85.9,
+        "neither": 98.0
+      }
+    },
+    "clockworkengineer": {
+      "merchant_reflex": {
+        "avg": 74.6,
+        "civil": 100.0,
+        "neither": 87.9
+      },
+      "merchant_fortitude": {
+        "avg": 75.5,
+        "civil": 100.0,
+        "neither": 90.1
+      },
+      "merchant_will": {
+        "avg": 64.0,
+        "civil": 100.0,
+        "neither": 82.2
+      },
+      "merchant_neitherfire": {
+        "avg": 72.8,
+        "civil": 100.0,
+        "neither": 82.8
+      }
+    },
+    "clockworkrifleman": {
+      "merchant_reflex": {
+        "avg": 40.5,
+        "civil": 100.0,
+        "neither": 16.3
+      },
+      "merchant_fortitude": {
+        "avg": 29.2,
+        "civil": 100.0,
+        "neither": 8.0
+      },
+      "merchant_will": {
+        "avg": 31.2,
+        "civil": 100.0,
+        "neither": 10.0
+      },
+      "merchant_neitherfire": {
+        "avg": 30.5,
+        "civil": 100.0,
+        "neither": 7.1
+      }
+    },
+    "dandy": {
+      "merchant_reflex": {
+        "avg": 36.9,
+        "civil": 20.2,
+        "neither": 45.0
+      },
+      "merchant_fortitude": {
+        "avg": 44.7,
+        "civil": 36.0,
+        "neither": 47.5
+      },
+      "merchant_will": {
+        "avg": 52.8,
+        "civil": 37.0,
+        "neither": 49.5
+      },
+      "merchant_neitherfire": {
+        "avg": 36.0,
+        "civil": 12.0,
+        "neither": 32.3
+      }
+    },
+    "greymarketeer": {
+      "merchant_reflex": {
+        "avg": 17.3,
+        "civil": 7.1,
+        "neither": 20.0
+      },
+      "merchant_fortitude": {
+        "avg": 20.7,
+        "civil": 9.9,
+        "neither": 23.0
+      },
+      "merchant_will": {
+        "avg": 23.7,
+        "civil": 19.6,
+        "neither": 25.3
+      },
+      "merchant_neitherfire": {
+        "avg": 19.1,
+        "civil": 12.0,
+        "neither": 30.0
+      }
+    },
+    "inspector": {
+      "merchant_reflex": {
+        "avg": 77.6,
+        "civil": 100.0,
+        "neither": 65.3
+      },
+      "merchant_fortitude": {
+        "avg": 74.8,
+        "civil": 96.0,
+        "neither": 61.8
+      },
+      "merchant_will": {
+        "avg": 59.8,
+        "civil": 92.0,
+        "neither": 54.5
+      },
+      "merchant_neitherfire": {
+        "avg": 77.0,
+        "civil": 90.0,
+        "neither": 79.8
+      }
+    },
+    "madbomber": {
+      "merchant_reflex": {
+        "avg": 100.0,
+        "civil": 100.0,
+        "neither": 100.0
+      },
+      "merchant_fortitude": {
+        "avg": 97.5,
+        "civil": 100.0,
+        "neither": 96.0
+      },
+      "merchant_will": {
+        "avg": 99.0,
+        "civil": 100.0,
+        "neither": 98.0
+      },
+      "merchant_neitherfire": {
+        "avg": 100.0,
+        "civil": 100.0,
+        "neither": 100.0
+      }
+    },
+    "noble": {
+      "merchant_reflex": {
+        "avg": 43.9,
+        "civil": 40.0,
+        "neither": 55.0
+      },
+      "merchant_fortitude": {
+        "avg": 23.5,
+        "civil": 22.8,
+        "neither": 12.9
+      },
+      "merchant_will": {
+        "avg": 22.0,
+        "civil": 35.0,
+        "neither": 12.1
+      },
+      "merchant_neitherfire": {
+        "avg": 33.6,
+        "civil": 32.7,
+        "neither": 45.5
+      }
+    },
+    "officer": {
+      "merchant_reflex": {
+        "avg": 31.6,
+        "civil": 15.0,
+        "neither": 40.0
+      },
+      "merchant_fortitude": {
+        "avg": 16.4,
+        "civil": 10.1,
+        "neither": 22.8
+      },
+      "merchant_will": {
+        "avg": 11.2,
+        "civil": 10.0,
+        "neither": 15.0
+      },
+      "merchant_neitherfire": {
+        "avg": 15.3,
+        "civil": 4.1,
+        "neither": 18.0
+      }
+    },
+    "pugilist": {
+      "merchant_reflex": {
+        "avg": 19.3,
+        "civil": 0.0,
+        "neither": 24.8
+      },
+      "merchant_fortitude": {
+        "avg": 11.7,
+        "civil": 2.0,
+        "neither": 15.2
+      },
+      "merchant_will": {
+        "avg": 18.9,
+        "civil": 2.0,
+        "neither": 30.0
+      },
+      "merchant_neitherfire": {
+        "avg": 19.9,
+        "civil": 2.0,
+        "neither": 37.0
+      }
+    },
+    "scholar": {
+      "merchant_reflex": {
+        "avg": 87.6,
+        "civil": 100.0,
+        "neither": 100.0
+      },
+      "merchant_fortitude": {
+        "avg": 85.8,
+        "civil": 100.0,
+        "neither": 100.0
+      },
+      "merchant_will": {
+        "avg": 80.5,
+        "civil": 100.0,
+        "neither": 98.0
+      },
+      "merchant_neitherfire": {
+        "avg": 83.2,
+        "civil": 100.0,
+        "neither": 100.0
+      }
+    },
+    "scout": {
+      "merchant_reflex": {
+        "avg": 51.2,
+        "civil": 95.0,
+        "neither": 39.4
+      },
+      "merchant_fortitude": {
+        "avg": 43.1,
+        "civil": 92.9,
+        "neither": 27.7
+      },
+      "merchant_will": {
+        "avg": 39.8,
+        "civil": 100.0,
+        "neither": 32.0
+      },
+      "merchant_neitherfire": {
+        "avg": 49.4,
+        "civil": 100.0,
+        "neither": 30.0
+      }
+    },
+    "skycaptain": {
+      "merchant_reflex": {
+        "avg": 51.5,
+        "civil": 55.0,
+        "neither": 58.0
+      },
+      "merchant_fortitude": {
+        "avg": 50.5,
+        "civil": 62.6,
+        "neither": 52.5
+      },
+      "merchant_will": {
+        "avg": 51.4,
+        "civil": 65.0,
+        "neither": 62.6
+      },
+      "merchant_neitherfire": {
+        "avg": 51.8,
+        "civil": 53.1,
+        "neither": 47.1
+      }
+    },
+    "soldier": {
+      "merchant_reflex": {
+        "avg": 34.0,
+        "civil": 88.9,
+        "neither": 7.1
+      },
+      "merchant_fortitude": {
+        "avg": 22.2,
+        "civil": 85.0,
+        "neither": 2.0
+      },
+      "merchant_will": {
+        "avg": 22.1,
+        "civil": 84.2,
+        "neither": 0.0
+      },
+      "merchant_neitherfire": {
+        "avg": 24.2,
+        "civil": 92.9,
+        "neither": 2.0
+      }
+    },
+    "survivor": {
+      "merchant_reflex": {
+        "avg": 79.0,
+        "civil": 47.5,
+        "neither": 93.9
+      },
+      "merchant_fortitude": {
+        "avg": 78.3,
+        "civil": 55.6,
+        "neither": 84.2
+      },
+      "merchant_will": {
+        "avg": 70.8,
+        "civil": 51.0,
+        "neither": 70.7
+      },
+      "merchant_neitherfire": {
+        "avg": 79.1,
+        "civil": 48.5,
+        "neither": 90.0
+      }
+    }
+  }
+}
