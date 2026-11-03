@@ -20,18 +20,18 @@ Bombardier advances along structured proficiency tracks depending on class role,
 
 ---
 
-### Track B: Technical & Scholastic Specialists (Clockwork Engineer, Scholar, Artisan)
+### Track B: Technical & Scholastic Specialists (Clockwork Engineer, Scholar)
 *Delayed Start & Capped Progression (Boosting Technical Specialists)*
 Technical classes gain access to Bombardier through university research, guild workshops, and precision machining, but begin their training later than high-society patrons and cap at Expert or Master:
 - **Starting Level (Trained):** Begins at **Level 3** (or Level 5 depending on class feature/archetype dedication). Unlocks **1 chosen effect profile** with **3 ready slots** and a 15-charge reservoir. You can create and hold only Tier 1 grenades.
 - **Expert (Level 9 or 11):** Unlocks **2 chosen effect profiles** with **4 ready slots each** (8 total ready grenades) and 40 reservoir charges. You can create and hold grenades up to Tier 2.
-- **Master (Level 17, Scholar/Engineer Cap):** Unlocks **3 chosen effect profiles** with **5 ready slots each** (15 total ready grenades) and 75 reservoir charges. You can create and hold grenades up to Tier 3. *(Artisans cap at Expert; Scholars and Clockwork Engineers can reach Master; neither can reach Legendary without an Influence Class)*.
+- **Master (Level 17, Scholar/Engineer Cap):** Unlocks **3 chosen effect profiles** with **5 ready slots each** (15 total ready grenades) and 75 reservoir charges. You can create and hold grenades up to Tier 3. *(Scholars and Clockwork Engineers can reach Master; neither can reach Legendary without an Influence Class)*.
 
 ---
 
 ### Track C: Influence Archetypes (Multiclass Dedication)
 *Archetype Progression for Other Classes (Capped at Expert)*
-Characters of other classes (such as Soldiers, Inspectors, or Dandies) who take an **Influence Archetype** (Noble Dedication, Merchant Dedication, or Grey Marketeer Dedication) can gain access to Bombardier through their new social sponsor:
+Characters of other classes (such as Soldiers, Scouts, Pugilists, or Officers) who take an **Influence Archetype** (Noble Dedication, Merchant Dedication, or Grey Marketeer Dedication) can gain access to Bombardier through their new social sponsor:
 - **Archetype Dedication (Feat 4 or 6):** Grants **Trained** proficiency in Bombardier and an issued baseline Reaction Manifold (1 Effect Profile, 3 ready slots, 15-charge reservoir). You can create and hold only Tier 1 grenades.
 - **Advanced Munitions Feat (Feat 12):** Upgrades proficiency to **Expert** (2 Effect Profiles, 4 ready slots each, 40-charge reservoir). You can create and hold grenades up to Tier 2.
 - **Strict Cap:** Archetype access is **strictly capped at Expert**. They cannot reach Master or Legendary without full primary class progression.
@@ -44,7 +44,6 @@ Characters of other classes (such as Soldiers, Inspectors, or Dandies) who take 
 | --------------------------------------------------------- | :----------: | :---------: | :----------: | :----------: | :----------------------------: |
 | **Primary Influence** (*Noble, Merchant, Grey Marketeer*) |   **Lv 1**   |  **Lv 7**   |  **Lv 15**   |  **Lv 19**   | 4 Profiles / 24 Ready Grenades |
 | **Scholars & Clockwork Engineers**                        |   **Lv 3**   |  **Lv 9**   |  **Lv 17**   | — *(Capped)* | 3 Profiles / 15 Ready Grenades |
-| **Artisans**                                              |   **Lv 5**   |  **Lv 11**  | — *(Capped)* | — *(Capped)* | 2 Profiles / 8 Ready Grenades  |
 | **Influence Archetypes** (*Dedication Feats*)             | **Feat 4/6** | **Feat 12** | — *(Capped)* | — *(Capped)* | 2 Profiles / 8 Ready Grenades  |
 
 ### Manifold Reaction Selection (Dual & Triple Effect Generation)

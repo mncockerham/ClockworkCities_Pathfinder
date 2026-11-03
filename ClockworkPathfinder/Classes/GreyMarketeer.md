@@ -16,14 +16,49 @@
     - If you urgently need tailored clothes of a higher social class to enter a restricted salon, they can source an authentic set.
     - If you need an authorized transit chit to the Noble District, that can be arranged.
     - If you need a rare biochemical extract that is legally earmarked exclusively for the University Collegium, the Grey Marketeer cannot buy it across a counter, but for five times what the university pays, they will secure a pristine sample.
-  - **The Warrens-to-Factory Labor Pipeline & Bond Forgery:**
+  - **The Warrens-to-Factory Labor Pipeline & Mutual Complicity:**
     - At times, the industrial factories and foundries of the Spire run desperate for hard manual laborers. People are pulled from the Warrens and slums, and the Grey Marketeers run this entire pipeline.
-    - Factory owners simply hand currency over to the Grey Marketeer. In theory under Spire law, people are placed in indentured bond only for crimes they have committed. In reality, the Grey Marketeer identifies able-bodied individuals in the Warrens, arranges for a corrupt magistrate to draw up and sign an order declaring them guilty of a fabricated offense, and places them under an official 4-year employer bond.
-    - At the gate crossing, the Grey Marketeer pays off the constables to admit the bonded workers, and pays the ward watchmen never to ask questions about where these new hands originated.
-  - **The Mutual Benefit & Spire Complicity:**
+    - **The Essential Boundary:** A Grey Marketeer understands the distinction and **would never even attempt to bribe a magistrate to bind an existing Spire citizen**. This pipeline only works because **everyone involved genuinely wants the money or the outcome**:
+      - Factory owners hand currency over to the Grey Marketeer to secure hands.
+      - With the full, eager cooperation of an able-bodied Warrens resident, paperwork is drawn up assigning a 4-year employer bond.
+      - Constables at the gates collect standard pooled tolls to admit the new workers without prying into slum origins.
+    - **The Mutual Benefit & Spire Complicity:**
     - For the person leaving the Warrens, accepting four years of grueling factory labor to earn full legal citizenship as a Freeman of the Spire is the easiest decision of their life—because the worst factory in the Spire is ten times better than the best life in the destitute Warrens.
     - This operates not merely through rogue individuals, but through the **entire institutional structure of the organizations themselves**. At checkpoint crossings and precinct gates, the constables who collect these bribes do not pocket them secretly as petty kickbacks—**they turn the money in at the end of their shift**, pooling it into the precinct till. It is estimated that Grey Marketeer payoffs and structured bribes account for **nearly half the total operating budget and real income of the Spire constabulary and magistrate offices**. From the Crown's perspective, this is an extraordinary bargain: the King gets fully staffed constabulary forces and vigilant trade officials who still aggressively police the wards to ensure nothing genuinely treasonous, violent, or truly criminal threatens the Spire, while the government effectively enjoys a **50% discount on operating these massive law-enforcement institutions**—a far better deal than what could ever be squeezed from citizens through ordinary taxation. Consequently, the Crown and the King's Guard look the other way: goods arrive, factory quotas are met, labor moves, goods are sold, and the machinery of the Great Spire keeps turning.
-- **Typical Social Class & Backing:** Slums Resident (Status 0), Warrens Kingpin (Status 0–3), or Shadow Guildmaster. While lacking noble blood or merchant house legitimacy, they command intense loyalty from street gangs, corrupt ward gatekeepers, desperate smugglers, and illicit artisans.
+- **Character Creation Mandate (Primary Business & The 3-Step Social Rule):**
+  - During character generation, a Grey Marketeer **must define their primary enterprise: exactly what they sell and who they sell to** (e.g., *diverted medical alcohol to lower-ward clinics, forged building permits to commercial developers, or black-market silk to aspiring noble houses*).
+  - **The 3-Step Social Class Rule:** Your personal Social Status can be **no more than 3 class tiers lower** than the target social bracket of your primary clientele. You must possess enough social capital and credibility to interact with the buyers you cater to:
+    - *Selling to Standard Merchants (Status 30–70):* Minimum **Status $\le 0$ (Non-Citizen / Warrens Outcast)**.
+    - *Selling to Lesser Nobles (Status 55–60):* Minimum **Status 6–10 (Physical Labor)**.
+    - *Selling to Standard Nobles (Status 65–75):* Minimum **Status 21–25 (Apprentices / Recruits)**.
+    - *Selling to Wall Merchants (Status 80–90) & Great Houses (Status 85–95):* Minimum **Status 30+ (Established Merchant / Master Broker)**.
+- **Typical Social Class & Backing:** Warrens Resident (Status $\le 0$) to Master Broker / Shadow Guildmaster (Status 30+). While lacking hereditary noble title or corporate guild legitimacy, they command intense loyalty from street gangs, corrupt ward gatekeepers, desperate smugglers, and illicit artisans.
+### Custom, Pricing Floors & Market Protection (The 80% & 90% Rules) Custom, Pricing Floors & Market Protection (The 80% & 90% Rules)
+
+Like almost everything in the Great Spire, **custom governs how business is done—right down to the exact prices a Grey Marketeer will charge**:
+
+- **No Real Ceiling on Hard-to-Find Goods:** When a client urgently needs an elusive item (such as an unregistered pocket pistol, an authentic aristocratic salon pass, or a sold-out custom coat tailored by an exclusive master draper), there is no real maximum price. The broker charges whatever the buyer's desperation and purse can bear.
+- **Strict Price Floors (Protecting the Guild Market):** While high-end pricing is limitless, **Grey Market sales are governed by strict customary price floors**:
+  1. **One-Off Individual Purchases (The 80% Floor):** For single-item acquisitions (*"I need a new pocket pistol,"* or *"I want a custom coat by a specific tailor that's completely sold out"*), the price will **never drop below 80% of the official Guild retail price**.
+  2. **Bulk / Smuggled Cargoes (The 90% Floor):** When moving larger wholesale volumes of goods (*"I have a freight cart of iron ingots; I hear you're in the market"*), the transaction will **never be less than 90% of the legal market price**.
+- **The Economic and Survival Realities Behind the Floors:**
+  - *The Real Overhead:* Smuggling is expensive. A substantial portion of the sale price covers the original cost of the raw materials, bribes to gate constables, payoffs to dock watchmen, wagon hire, safehouse storage, and the broker's personal margin.
+  - *Preventing Market Destabilization (Survival Against the King's Guard & Merchant Guilds):* The most critical reason for these price floors is self-preservation. Grey Marketeers know with absolute clarity that **if they undercut legitimate prices too severely, they will destabilize the Spire's economy**. If cheap iron or discounted textiles flood the wards, the **Merchant Guilds** will suffer catastrophic profit losses—and when powerful Guildmasters lose money, they petition the Crown. The **King's Guard** will be unleashed to systematically root out and exterminate every fence, warehouse, and syndicate broker involved. By keeping prices closely tethered to legitimate rates (80% for single items, 90% for bulk), the Grey Market functions as a high-margin pressure-relief valve rather than an economic threat, ensuring the Guilds stay quiet and the syndicates survive.
+
+### Fencing, Plausible Deniability & The "Crown Ownership" Reality Fencing, Plausible Deniability & The "Crown Ownership" Reality
+
+When dealing with stolen luxury goods, heirlooms, and precious art, Grey Marketeers operate under another ironclad Spire principle: **plausible deniability and territorial capital preservation**:
+
+- **Plausible Deniability is King:** Fences and shadow brokers never ask where an item came from, and transactions are meticulously structured with fabricated bills of sale, estate liquidation receipts, or foreign consignment papers. A proper broker ensures that anyone holding the item can claim innocent acquisition in court.
+- **The King Owns Everything Anyway:** Neither the King nor the King's Guard truly cares whose mantelpiece holds the gold statue with ruby eyes:
+  - Under royal sovereign law, **the King technically owns every ounce of metal, every stone, and every grain of wealth within the Kingdom**.
+  - Whether a priceless jeweled relic sits in Duke Vance's parlor or in the private dining room of a wealthy Ward 14 Wall Merchant is entirely irrelevant to the Crown's grand ledger.
+  - The local Ward Constables might investigate a break-in if a prominent noble raises a fuss, but the sovereign authorities—and the King's Guard—will not lift a finger over private property shuffles.
+- **The True Crime (Exporting Wealth Out of the Spire):** 
+  - Fences know the real rule about smuggling: **the wealth must remain within the Spire**.
+  - So long as the gold statue, the rare painting, or the uncut gems stay inside the city—circulating among citizens and merchants who spend their coin in the Spire—the Crown remains indifferent.
+  - **The Death Sentence:** The moment someone attempts to **smuggle that wealth out of the Spire** (melting it down to ship gold bars to Feydial, Derdore, or foreign rivals across the sea), they are bleeding capital from the realm. That is economic treason, and the King's Guard will hunt down the smugglers with lethal force.
+
 - **The 70/30 Contact Architecture:**
   - **70% Dedicated Sphere (Underworld, Warrens & Criminal Factions):** Fences, bootleggers, safehouse keepers, cutthroats, gang lieutenants, corrupt gate constables, and slum fixers.
   - **30% Cross-Sphere Options:** Laundering coin through front shops and legitimate shipping guilds (reaching Merchants) or selling sensitive intelligence and deniable services to corrupt nobles (reaching Nobles).

@@ -123,7 +123,7 @@ Choose your academic discipline at 1st level. This defines your core analytical 
     - On a critical skill check against the enemy's Will DC, the circumstance bonus increases by an additional +1.
 
 - **Scholar & Natural Philosopher (History, Neither Research & Theory):**
-  - **Skills:** Trained in Neither Lore, History Lore, and Arcana/Nature (reflavored as Natural Philosophy).
+  - **Skills:** Trained in Neither Adaptations, Arclean History, and Aither Nature.
   - **Specialty Ability:** *Theoretical Breakthrough ([one-action]).* When you succeed on a Recall Knowledge check regarding a creature, hazard, or environmental phenomenon within 60 feet:
     - **Personal Use (1 AP at Lv1 / 2 AP at Lv5 / 3 AP at Lv10):** You exploit behavioral or elemental patterns, gaining a **+1 / +2 / +3** circumstance bonus to your attack rolls and skill checks against that subject until the end of your next turn.
     - **Party Broadcast (+1 AP more: 2 AP at Lv1 / 3 AP at Lv5 / 4 AP at Lv10):** You broadcast physiological weaknesses and behavioral tells to all allies within 30 feet, granting them a **+1 / +2 / +3** circumstance bonus to attack rolls and skill checks against that subject until the end of your next turn.

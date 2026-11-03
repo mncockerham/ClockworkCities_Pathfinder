@@ -21,16 +21,47 @@ High proficiency rank (Master or Legendary) represents elite real-world competen
    - **Archetype vs. Specific Identity:** Disguise and costuming can make you convincingly look like a Spire Constable, and Deception can persuade passersby and patrolmen that you hold the rank of officer. However, **you cannot convince people who personally know him that you are Constable John Stephenson**. Close acquaintances, partners, and sergeants will recognize facial incongruities, voice timber, and familiar mannerisms immediately.
    - **Physical Anatomic Constraints:** No amount of cosmetics or makeup can change gross anatomical reality. If the target being impersonated is described as a tall, lanky man of 6-foot-3, a burly, broad-shouldered 5-foot-6 character cannot pull off the impersonation in person, no matter how high their Disguise check. At best, such a check allows an impersonation at long range, in deep fog, or behind heavy foul-weather coats and respirators.
 
-## Skill Adjustments & Removals
-- **Arcana / Religion / Nature / Occultism:** Removed as magical disciplines. In their place:
-  - Technical engineering and physical Neither-phenomena are governed by **Crafting** and specialized **Lore** skills.
-  - Medical, biological, and surgical practices are governed by **Medicine** and physiological **Lore**.
-  - Survival in Neither fog, squall tracking, and environmental navigation are governed by **Survival**.
-- **Lore Sub-disciplines:**
-  - *Neither-Tech Lore:* Mechanical, electrical, and pneumatic machinery, Spire power broadcasting, and capacitor limits.
-  - *Forensic / Legal Lore:* Criminality, evidence examination, and Spire municipal code.
-  - *Commercial / Trade Lore:* Financial markets, contract enforcement, and ward tariff laws.
-  - *Subterranean / Mining Lore:* Structural stress, gas pockets, Neithercrete excavation, and seismic reading.
+## Master Skills Roster
+
+The standard skills in Clockwork Cities represent secular sciences, environmental disciplines, craft specializations, and physical conditioning:
+
+| Skill | Key Stat | Core Setting Scope & Practical Application |
+| :--- | :---: | :--- |
+| **Acrobatics** | **DEX** | Balance across narrow iron gantries, swinging from airship rigging, diving under falling gears, and agile evasive movement. |
+| **Aither Nature** | **WIS** | Upper atmospheric ecology, pristine clean-air flora and fauna, high-altitude barometric patterns, avian migration, and uncorrupted biological life. |
+| **Arclean History** | **INT** | Knowledge of human history across two distinct eras:<br>• **Recent History:** The reign of King Macelus Wilheart, continental bridgehead wars in Normandy (Cherbourg & Rouen), Spire treaties, and cold war politics.<br>• **Pre-Storms History:** Ancient pre-industrial civilizations before the Neither cataclysm, lost megaliths, and forgotten sciences. |
+| **Athletics** | **STR** | Scaling sheer Neithercrete structures (with pitons/rigs), forced entry, hauling boiler coal, grappling, shoving, and high-exertion swimming. |
+| **Bombardier** | **INT** | Tactical combat skill: calibrating, stabilizing, and launching **Reaction Manifold** chemical/grenade payloads; governs save DCs and payload efficacy. |
+| **Clockwork Technology** | **INT** | Mechanical design, gear ratios, spring tensioning, escapement valves, pneumatic circuitry, wireless induction resonance, and advanced clockwork engineering. |
+| **Crafting** | **INT** | Physical manufacturing, metal forging, carpentry, tailoring, gunsmithing, armor repair, industrial chemistry, and routine mechanical maintenance. |
+| **Deception** | **CHA** | Con artistry, forged cargo manifests, impersonating municipal inspectors, misleading adversaries in combat, and verbal subterfuge. |
+| **Diplomacy** | **CHA** | Contract arbitration, guild negotiation, salon decorum, diplomatic mediation, and smoothing tensions between syndicates and the constabulary. |
+| **Intimidation** | **CHA** | Strong-arming dock toughs, coercing informants, enforcing municipal Spire tolls, and Demoralize actions during combat. |
+| **Medicine** | **WIS** | Clinical surgery, battlefield triage, suturing, treating Neither-lung necrosis, bone setting, chemical burn care, and field resuscitation. |
+| **Mycology** | **INT / WIS** | The science, cultivation, and harvesting of fungi, mold colonies, and spore biology. Critical to Spire survival for *Mela* food vat cultivation, commercial yeast brewing, medicinal penicillin/mold extracts, subterranean fungal farming, and identifying lethal toxic spore clouds in the lower Neither sumps. *(Note: Fungi follow their own unique taxonomy and ecological behaviors, separate from general Neither Adaptations).* |
+| **Neither Adaptations** | **INT** | How the Neither medium mutates and alters physical, biological, and thermodynamic realities: cellular drift, dietary shift degradation, combustion surge cycles, Neithercrete synthesis, and mutated beasts/abominations. *(Excludes fungi and spore colonies, which are governed exclusively by Mycology).* |
+| **Performance** | **CHA** | High-society entertainment, oratorical public agitation, street theater distractions, courtly recitations, and salon music. |
+| **Society** | **INT** | Municipal ward jurisdictions, Spire laws, aristocracy, underworld etiquette, trade tariffs, civic bureaucracy, and municipal codes. |
+| **Stealth** | **DEX** | Infiltration, moving quietly between shadows/steam vents, and evading Ward Constabulary curfew patrols. Requires reasonable physical cover. |
+| **Survival: Aither** | **WIS** | High-summit thin-air survival, solar glare navigation, pristine clean-air survival, avoiding extreme exposure, and mountain-top bird tracking. |
+| **Survival: The Zone** | **WIS** | Static storm reading, lightning ground path avoidance, high-altitude thermal updrafts, and airship rigger survival in turbulent gales. |
+| **Survival: Upper Neither** | **WIS** | Spire exterior traversal, flue exhaust navigation, Peasant Path cable-climbing, cantilevered ledge trekking, and Spire vermin tracking. |
+| **Survival: Lower Neither** | **WIS** | Surface wastelands navigation, tracking Neither-mutated predators, finding sealed shelters, and avoiding toxic mist depressions. |
+| **Survival: Subterranean** | **WIS** | Deep-shaft mine navigation, acoustic cave orientation, toxic gas pocket detection, rockfall prediction, and lightless tracking. |
+| **Survival: The Deep** | **WIS** | Abyssal trench survival, boiling mist navigation, thermal vent pathfinding, acid pool detection, and abyssal predator tracking. |
+| **Theology & Philosophy** | **WIS** | Ecclesiastical history, church dogmas, Spire chapel politics, monastic vows, and moral philosophy (strictly secular/humanist; non-magical). |
+| **Thievery** | **DEX** | Picking complex cylinder locks, disabling pneumatic security traps, filching documents, pocket-slitting, and disarming unprimed ordnance. |
+| **Understanding** | **WIS / INT / CHA** | Actionable institutional intelligence & personal contacts across 7 Victorian/Steampunk sectors (see Section 4). |
+
+---
+
+## Specialized Professional Lores
+
+Beyond the core skills, characters can acquire specialized **Lore** skills reflecting specific trades and localized environments:
+- *Airship & Sailing Lore:* Vessel handling, aerodynamic trim, hull strain, docking protocols.
+- *Forensic & Legal Lore:* Spire criminal code, evidence collection, court precedents.
+- *Commercial & Financial Lore:* Market fluctuations, commodity speculation, tariff loopholes.
+- *Subterranean & Mining Lore:* Structural stress in lower shafts, gas pockets, sump drainage.
 
 ## Base Skill Modifications & Adjudication
 - Skill feats that grant pseudo-magical or physics-breaking effects (e.g., feather-falling from any height onto cobblestones without gear, swimming up waterfalls, or walking across tissue paper without breaking it) are removed or strictly rewritten as mechanical devices.
@@ -46,114 +77,123 @@ High proficiency rank (Master or Legendary) represents elite real-world competen
 - **Restricted Access:** Because dispensers are state-monitored, exorbitantly priced military hardware, training in Bombardier is strictly restricted. Any character who earns training in Bombardier automatically receives an authorized **Reaction Manifold** fitted to their harness for free.
 - **Proficiency Tracks:**
   - **Influence Classes (Noble, Merchant, Grey Marketeer):** Full primary progression matching Wizard spellcasting (Trained at Lv 1, Expert at Lv 7, Master at Lv 15, Legendary at Lv 19).
-  - **Technical / Scholar Classes (Scholar, Clockwork Engineer, Artisan):** Delayed progression (Trained at Lv 3, Expert at Lv 9, Master at Lv 17).
+  - **Technical / Scholar Classes (Scholar, Clockwork Engineer):** Delayed progression (Trained at Lv 3, Expert at Lv 9, Master at Lv 17).
   - **Influence Multiclass Archetypes:** E.g., taking an Influence Archetype allows scaling up to Expert rank.
-- **Operational Mechanics:** Operating a dispenser requires a 2-action sequence (`[one-action]` Prime + `[one-action]` Toss in the same turn) directed at a target square against a flat **DC 10** unskilled toss check. Misses scatter up to half the thrown distance (rolled on a d8). **Friendly fire is very real.**
-- **Detailed Master Document:** Full rules for dispenser maintenance, payload stabilization, scatter geometry, saving throw triads (Reflex/Fortitude/Will), and spell-equivalent payload tables are detailed in [`ClockworkPathfinder/Rules/Bombardier.md`](file:///c:/Users/mncoc/OneDrive/Documents/Git/ClockworkCities_Pathfinder/ClockworkPathfinder/Rules/Bombardier.md).
+- **Operational Mechanics:** Operating a dispenser requires a 2-action sequence (`[one-action]` Prime + `[one-action]` Toss in the same turn) directed at a target square against a flat **DC 10** unskilled toss check. **Friendly fire is very real.**
+- **Detailed Master Document:** Full rules for dispenser maintenance, payload stabilization, saving throw triads (Reflex/Fortitude/Will), and spell-equivalent payload tables are detailed in [`ClockworkPathfinder/Rules/Bombardier.md`](file:///c:/Users/mncoc/OneDrive/Documents/Git/ClockworkCities_Pathfinder/ClockworkPathfinder/Rules/Bombardier.md).
 
 
-**Understanding** is a specialized competency that exists outside the standard skill system. Rather than measuring a generic action (such as jumping, crafting, or lying), Understanding represents **actionable institutional intelligence, member networks, and operational framework**—supplying deep knowledge about groups, subcultures, and organizations, specifically **what they are commonly willing to do (both legally and illegally)**.
+## 4. Social Skills & Understanding
 
-This information is designed to give players the concrete groundwork to **define what they want to do and how to execute it**. Knowing an organization's boundaries, tolerances, and typical practices lets players craft viable, informed plans without guessing blindly.
+Social skills represent a player's **accumulated real-world knowledge, their ability to navigate society, and their means to collect the information that allows them to solve problems**. 
 
-> **Understanding (Social Skills) vs. Obligations — Two Distinct Pillars:**
-> - **Understanding (Actionable Institutional Intelligence & Member Framework):** Supplies deep practical knowledge about groups and organizations, including **who their members are, what tasks they are commonly willing to do (both legal and illegal), and how to approach them safely**.
->   - *The Inquisitive Ripple (Pushing Contacts & Rolls):* When operating on an aligned, acceptable-risk level, Understanding functions smoothly without rolls. However, **an Inquisitive Ripple only occurs when the information or task being sought pushes boundaries and requires a d20 roll**. Whenever a roll is required, the Storyteller gives the player a clear, explicit warning: **they are pushing their contacts or probing too deeply, and people within the organization or rival factions might notice someone is asking questions**. The player can then make a conscious choice to back off or risk the roll and the attention it draws.
->   - *Example (Social Skill — `Understanding: Law Enforcement [13th Ward Constables]`):* Because you know the 13th Ward precinct, you know that **Constable Johnathan Treible** is the night-shift officer willing to look the other way for Warrens transit, and you know the exact protocol to approach him: slip the coin framed as a *"charitable donation to the Constable Fire-Rescue Team."*
-> - **Obligation (Compelled Behavior via Societal Leverage — Limited-Use Debts):** A binding marker of sworn debt or societal leverage held over a **specific person or group**. Unlike voluntary contacts, an NPC bound by an Obligation **does not need to like you and may deeply resent what you force them to do**. Within the defined tier of the debt, **they must execute the task or face severe, catastrophic Social Standing loss to themselves and their organization**.
->   - *Example (Obligation — `Johnathan Treible`):* When carrying hot military contraband where no bribe will work, the player calls in a sworn debt: *"Johnathan Treible owes me big—he will smuggle us through off-book, and it won't cost a single coin."* Treible hates the risk, but defaults on a sworn debt mean personal and family ruin.
+Rather than abstract diplomacy dice pools, Social Skills serve as **key story touchstones**: they allow players to clearly define **what they are experts at**, how their personal background shaped them, and **how their friends and contacts can actively help them navigate this world**.
 
-### Inverse Scope & Power Principle
-The effectiveness and mechanical weight of Understanding scale **inversely with the size of the target group**:
-- **Smaller, Tightly Defined Groups:** Grant the **most potent benefits**. When dealing with a specific local precinct, a distinct gang crew, a single guild workshop, or a particular corporate board, the character knows personal grudges, shift rotations, bribe thresholds, telltale nervous ticks, and exact behavioral habits.
-- **Larger, Broad Ensembles:** Grant **generalized, modest benefits**. When applied to broad institutions across an entire Spire or city, the knowledge is diluted into general bureaucracy, institutional culture, and broad operational norms.
+> [!TIP]
+> **Open-Ended Player Freedom (Create Your Own Social Skills):**
+> Players are **welcome and encouraged to define their own Social Skills and Understandings**, and should **never feel bound strictly to the examples in the table below**. 
+> So long as the Storyteller agrees that the contact and group plausibly fit the game world and match your chosen category, **you can add it directly to your character sheet**.
 
-### Dual Structure & The 4-Tier Specificity Spectrum
-Every entry of **Understanding** is selected at the **Broad Level** (from the 7 Victorian/Steampunk Institutional Groups below), after which the player chooses **how narrow to make the aspect** (**Broad Only**, **Singular Sub-Group**, **Specific Place**, or **Specific Person**) and defines **how they created that contact or connection**:
-- **The Specificity Trade-Off:** The **more specific** the choice, the **greater the impact** (higher bonus, deeper narrative alignment, and **often no d20 roll required at all** when making reasonable, low-to-moderate risk requests within that specific contact's sphere). The **less specific** the choice, the **weaker the direct impact**, but the **wider the range of activities, locations, and people** the character can call on (though working at the unspecific Broad level with strangers more often involves uncertain outcomes that require a Storyteller Target Number and a d20 roll).
+> [!IMPORTANT]
+> **Influence Classes (Nobles, Merchants & Grey Marketeers) — Defining Your Enterprise & Role:**
+> For **Merchants, Nobles, and Grey Marketeers**, your Social Skills directly **define what your family house, commercial charter, or syndicate actually does—and specifically what your personal role within it is**.
+> - In Clockwork Cities, you are not merely a generic "trader" or "aristocrat"; your social skill selections establish your operational sphere and market mastery.
+> - *Example:* If you play a Merchant who wants to be an expert in importing and selling arms, **you must invest in the corresponding Social Skill** (e.g., *Trade Guilds: Blacksmiths & Armorers* or *Military: Arms Bunker Quartermasters*). That social skill represents your practical business knowledge: knowing who manufactures the barrels, which customs officers inspect the shipments, the wholesale price of *Niracrest* alloys, and the exact ins and outs of the weapons trade.
 
-| Specificity Tier | Player Choice Format | Scope of Activities & Reach | Mechanical & Storyteller Impact | Example Entry |
-|---|---|---|---|---|
-| **1. Broad Only** *(Widest Reach)* | `Understanding: [Broad Category]` | Covers the entire institutional category across the Spire/Kingdom. Widest variety of activities, offices, and personnel you can interact with. | **+0 Specificity Bonus:** Yields general institutional habits and price ranges (e.g., *4–8 gp bribe range*). Because you are dealing with unfamiliar personnel rather than a personal contact, outcomes are more often unclear—requiring **Sense Motive vs. Deception** to read strangers and a **d20 roll against a Storyteller Target Number**. | `Understanding: Law Enforcement` *(or `Ward Constabulary`)* |
-| **2. Singular Sub-Group** *(Focused Branch)* | `Understanding: [Broad] — [Sub-Group / Profession]` | Covers one specific trade guild, union branch, military regiment, syndicate crew, or steampunk profession regardless of ward. | **+1 Specificity Bonus:** You know that sub-group's internal slang, rank politics, standard fees, and professional rivalries across the city. Routine professional inquiries or low-risk trade favors aligned with your history in that sub-group often succeed **without rolling**. | `Understanding: Trade Guilds (Clockwork Machinists & Gearwrights)` |
-| **3. Specific Place** *(Localized Hub)* | `Understanding: [Broad] — [Specific Ward / Precinct / Facility]` | Covers everyone and everything operating within one defined precinct, ward circle, dockyard, college, or airship. | **+2 Specificity Bonus:** You know the exact shift rotations, physical layout, customary bribe rates (e.g., *3 gp on 3rd shift*), and which sergeants or foremen are corrupt or clean at that site. Aligned requests that carry low risk to your regulars at this location usually require **no roll**. | `Understanding: Law Enforcement (13th Ward Constable Precinct)` |
-| **4. Specific Person** *(Maximum Impact)* | `Understanding: [Broad] — [Named Individual & Immediate Office]` | Covers a single named power-broker, official, guild master, or fixer and their immediate desk/retinue. Narrowest scope, useless outside their sphere. | **+3 Specificity Bonus & Roll-Free Aligned Favors:** You know their schedule, vices, personal history with you, and exact price. Whenever you ask for something aligned with their nature that poses acceptable risk to them, **no roll is needed—it succeeds through roleplay**. A roll is only called for if the Storyteller judges the request pushes into high personal risk or uncertain territory. | `Understanding: Law Enforcement (Watch-Sergeant Thomas McMillion)` |
+Whenever you acquire a social skill, you choose **either a Broad or Narrow focus**, along with an **Understanding** (a specific group of people you know):
+
+1. **Broad Focus (Continental / Kingdom Scope):**
+   - **What it tells you:** How that group operates across the kingdom and wider continent.
+   - **Knowledge provided:** Famous figures, kingdom-wide leaders, local rules on conducting business, and proper etiquette for interacting with that organization.
+
+2. **Narrow Focus (Local / Branch Scope):**
+   - **What it tells you:** Deep familiarity with the local organization and getting to know the people within it.
+   - **Knowledge provided:** Local expertise and a clear, practical understanding of **who does what** in your specific area (who is corrupt, who holds real power, shift routines, and local workshop/precinct habits).
+
+3. **Understanding (The People You Know):**
+   - Defines the **small circle of people you personally know, talk to, and relate to** (e.g., *a specific watch sergeant and his squad, the apprentices at Rasuan Silk, or a clerk in the tax office*).
+   - **How conversations run:** Talking with your Understanding group runs like any standard NPC roleplay conversation, with one major advantage: **they treat you favorably and want to help you**.
+
+4. **When Rolls Are Required, Difficulties & Social Costs (The 13th Ward Constabulary Benchmark):**
+   - **Routine / No Roll (Standard Knowledge):**
+     - *Scope:* Things any regular beat officer or civilian clerk in the precinct would openly know or comfortably share with a friend.
+     - *Examples:* *"Who was patrolling around Acrens Inn last night?"* or *"DM, I'm looking to bribe the checkpoint constables to slip into the Warrens; what is the customary rate so I don't insult them?"*
+     - *Cost:* Free; basic friendly rapport.
+   - **Moderate / Common Favor (Minor Roll or Established Procedure):**
+     - *Scope:* Connecting you with a corruptible contact or arranging routine off-book logistical help.
+     - *Example:* *"Who can I pay off to have my Neither-pistol charged and waiting for me inside the Warrens gate?"*
+     - *Cost:* The standard bribe fee to the third party; simple cordial standing with your contact.
+   - **Hard / Personal Inquiry (DC Roll Required + Incurs a Favor Debt):**
+     - *Scope:* Asking for sensitive, dangerous, or personally compromising information that puts your contact under scrutiny.
+     - *Examples:* *"Which constable suddenly seems to have a lot more money than his paycheck allows?"* or *"Who is assigned to guard the evidence locker tonight?"*
+     - *Cost:* **DC Roll Required.** If successful, your contact shares what they know, but **incurs an informal debt**: you now owe them a return favor when they face trouble.
+   - **Very Hard / High-Peril Actions (High DC Roll + Heavy Motivation + Major Debt):**
+     - *Scope:* Asking a contact to actively cross the line, destroy evidence, or risk their badge, career, or freedom.
+     - *Example:* *"I need you to pull my confiscated pistol out of the precinct evidence cage tonight before the King's Guard inspects it and traces it back to me."*
+     - *Cost:* **High DC Check.** Requires **additional motivation** (substantial cash, blackmail leverage, or urgent moral imperative). If they do it, **you owe them a massive, high-priority debt**.
+   - **Catastrophic Consequence (Harm to the Group or Members):**
+     - *Rule:* If information or access you obtain **results in physical harm, imprisonment, or ruin to a member of their organization**, the social cost skyrockets:
+     - *Impact:* The contact cuts you off completely, word spreads through the precinct network that you are toxic, your Standing with that group collapses, and you will be hunted or forced into severe restitution to ever enter that precinct safely again.
+
+| Broad (General Group) | Narrow (Localized / Specialized Branch) | Example Understanding (Insider Network / Contact) |
+| :--- | :--- | :--- |
+| **CATEGORY 1: TRADE GUILDS & CRAFT COMPANIES** | | |
+| **Blacksmiths & Armorers** | Ward 2 Military Foundry Bladesmiths | Royal Armory Master Johnathan Vance |
+| **Masons & Builders** | Ward 8 Neithercrete Structural Quarrymen | Master Mason Guild of New Avalon |
+| **Tailors & Drapers** | 13th Ward Tailors & Clothiers | Rasuan Silk Guild & Loom Factors |
+| **Weavers & Leatherworkers** | Lower-Ward Tanners & Hide-Curers | Guild of Master Fullers & Cordwainers |
+| **Brewers & Bakers** | Middle Spire Commercial Bakeries | Bread-Grain & Yeast Combine of Ward 11 |
+| **Vintners & Distillers** | High-Altitude Aither Cellars & Distillers | Royal Vintners Fellowship |
+| **Goldsmiths & Moneyers** | Summit Assayers & Mint-Masters | Old Spire Goldsmiths & Bullion Vaults |
+| **Clockwork Machinists** | Ward 9 Escapement & Gearwright Guild | Chief Gearwright Sterling's Workshop |
+| **Pneumatic Engineers** | Spire Pressure-Pipe & Valve Fabricators | High-Pressure Steam & Line Syndicate |
+| **Neither-Tech & Cartridge Factors** | Outer Wall Battery & Cartridge Depots | Crown Ordnance & Power-Cell Factors |
+| **Sky-Shipwrights & Aeronauts** | Sky-Dock Hull-Framers & Rigger Yard | Ward 15 Aeronaut Union Chapter 4 |
+| **Alchemists & Chemists** | Lower Spire Chemical Refiners | Guild of Industrial Distillers & Acid-Makers |
+| **Spore-Brewers & Mycologists** | Sump Fungal Cultivation Combines | Deep Sycelium Yeast & Mold Exchange |
+| **CATEGORY 2: BUREAUCRACY & UNIVERSITY** | | |
+| **Municipal Administration** | Ward 5 Lease, Registry & Census Bureau | Head Registrar of Tenement Titles |
+| **Crown Tax Assessors** | Spire Internal Revenue & Toll Assizers | Chief Tax Proctor of the Solent Gates |
+| **Courts & Barristers** | Inns of Court Crown Magistrates & Advocates | Barristers' Fellowship of the High Court |
+| **University Collegium** | Natural Philosophy & Mechanical Chairs | Chancellor's Circle of New Avalon Collegium |
+| **Zone & Radiant Grid Authorities** | Municipal Grid & Dynamo Survey Crews | Master Dynamo Resonator Engineer |
+| **Sanatoriums & Public Health** | Hyperbaric Aither Clinic Directors | Quarantine Board & Clinical Infirmary Staff |
+| **Patent & Invention Inquisitors** | Crown Mechanism Registry Office | Senior Clerk of Mechanized Patents |
+| **CATEGORY 3: LABOR ORGANIZATIONS & GUILDS** | | |
+| **Dockers & Stevedores** | Sea-Corridor Harbor Longshoremen | Dockers' Mutual Defense Fellowship |
+| **Spire Lift Riggers** | Peasant Path & Noble Path Winchmen | Vertical Transit Cable-Car Brotherhood |
+| **Agricultural Workers** | 50-Sq-Mile Outer Field Tenant Combine | Harvest Drovers & Grain Handlers Union |
+| **Mela Vat Workers** | Ward 3 Industrial Fermentation Vats | Mela Vat Stirrers & Scum-Skimmers Crew |
+| **Foundrymen & Boilermakers** | Surface Blast-Furnace Stokers | Boilermakers & Sheet-Plate Union |
+| **Subterranean Miners** | Deep-Shaft Neithercrete Excavation Sump | Scottish Highland & Dwarven Sapper Guild |
+| **Domestic Servants** | Great House Butler & Footman Retinues | Belowstairs Chambermaids & Valet Network |
+| **CATEGORY 4: LAW ENFORCEMENT & WATCH** | | |
+| **Ward Constabulary** | 13th Ward Beat Constables & Precinct | Watch-Sergeant Thomas McMillion's Squad |
+| **The King's Guard** | Sovereign Citadel High-Justice Detachment | Royal High-Bailiff & Citadel Inquisitors |
+| **Customs & Transit Inspectors** | Sea-Gate & Sky-Dock Contraband Sniffers | Chief Customs Officer of North Lift |
+| **Private House Guards** | Wall Merchant Vault Security & Retainers | High-Standing Pinkerton Security Agency |
+| **Frontier Marshals** | Outland Mining-Camp Circuit Enforcers | Solent Outpost Ranger Marshals |
+| **CATEGORY 5: MILITARY & CROWN DEFENSE** | | |
+| **Crown Army Regiments** | 3rd Royal Line Infantry Regiment | Company Quartermaster & Arms Sergeant |
+| **Spire Artillery & Battery** | Great Spire Inductive Cannon Batteries | Sovereign Siege Battery 12 Gunners |
+| **Airship Marine Corps** | Sky-Dock Fleet Airborne Boarding Crews | Royal Aeronaut Marine 5th Wing |
+| **Arms Bunker Quartermasters** | Ward 2 Sovereign Gunpowder Arsenal | Senior Arsenal Keeper of New Avalon |
+| **Outland Rangers & Outriders** | 50-Sq-Mile Perimeter Outrider Scouts | Frontier Border-Fort Ranger Captain |
+| **CATEGORY 6: CRIMINAL UNDERWORLD & VICE** | | |
+| **Warrens Gangs & Footpads** | Ward 4 ("Lost Ward") Rookery Crews | Alley-Cat Cutpurse Ring of the Drains |
+| **Vice Syndicates** | Ward 13 Gambling Salons & Brothels | Amanda Coren's Northern Sump Syndicate |
+| **Prize-Fighting Pits** | Sump Bare-Knuckle Boxing Rings | Red Brawler Boxing Association |
+| **Smugglers & Blockade Runners** | Sea-Corridor Subterranean Cave Runners | Channel Salt-Runners & Night Freighters |
+| **Black-Market Tech Forgers** | Clandestine Resonance-Jammer Dens | Bootleg Cartridge & Valve Forgers |
+| **Fences & Pawn-Brokers** | Lower-Ward Pawn Shops & Scrap Merchants | Counterfeit Permiteers & Stolen Gear Fences |
+| **CATEGORY 7: NOBILITY, GREAT HOUSES & SALONS** | | |
+| **The 25 Great Houses** | Summit Peerage Estates & Court Retainers | Great House Chamberlains & Hereditary Lords |
+| **Lesser & Middle Nobles** | Cantilevered Noble Ward Landlords | Aristocratic Dueling Academies |
+| **Wall Merchant Dynasties** | Ward 14 Hanging-Garden Merchant Houses | Solent Maritime Trading Company Partners |
+| **High-Society Salons** | Ward 13 Opera Boxes & Gentlemen's Clubs | High-Aither Literary & Whist Salon |
+| **Foreign Sovereign Enclaves** | Sky-Dock Sovereign Diplomatic Legations | Feydial & Derdore Cold-War Embassy Attachés |
 
 ---
-
-### The 7 Victorian & Steampunk Social Skill Groups (Broad Categories)
-
-Modeled on **circa-1860 Victorian London inside the Great Spires** and the **American Wild West / Savage Frontier across the surface world outside**, starting social skills (`Understanding` entries) are organized into **seven Broad Institutional Groups**, incorporating steampunk-specific professions as well as frontier boomtown, outrider, and savage-lands contact networks.
-
-> **Open-Ended Player Proposals (Never Limited by Preconceived Lists):**
-> **Social skills are intentionally open-ended.** The professions, sub-groups, and contacts listed below are examples and starting inspiration—**not a closed list**. Players are always free to **propose new social skills, sub-groups, or contacts and explain why they think they fit within a given category**. Storytellers should never limit players' contacts based on preconceived notions of what is on the page, so long as the proposed group **could reasonably exist in the world and the character could plausibly have interacted with them in the game's setting**.
-
-#### 1. Bureaucracy & University Connections
-*The administrative ministries, courts of assize, Collegium ivory towers, and technical survey boards that govern Spire life.*
-- **Broad Skill Options & Steampunk Professions:**
-  - **Municipal & Crown Bureaucracy:** Tax assessors, Ward lease & census registrars, Privy Council clerks, Ministry of Finance & Domestic Trade officials.
-  - **Courts, Barristers & Assizes:** Inns of Court solicitors, Crown magistrates, debtor-prison wardens, patent & contract clerks, bailiffs.
-  - **University Collegium & Natural Philosophy:** Collegium chancellors, Aither observatory fellows, stoichiometric chemists, archivists, academic lecturers.
-  - **Zone & Radiant Grid Authorities *(Steampunk Specific)*:** Zone lightning-capacitor engineers, Spire weekly resonance-scanner survey crews, municipal radiant-frequency technicians.
-  - **Sanatoriums, Chirurgery & Public Health *(Steampunk Specific)*:** Hyperbaric Aither sanatorium directors, Mela-cleanse clinic physicians, quarantine inspectors, anatomical theatre prosectors.
-
-#### 2. Labor Organizations
-*The working-class muscle, unions, shift-crews, and belowstairs servants who keep the 14,000-foot Spire running.*
-- **Broad Skill Options & Steampunk Professions:**
-  - **Dockers, Stevedores & Sea-Corridor Unions:** 4-sq-mile Harbor longshoremen, dry-dock shipbuilders, Sea-Gate cargo handlers, warehouse teamsters.
-  - **Spire Transit & Lift Riggers *(Steampunk Specific)*:** Peasant Path & Noble Path winchmen, giant counterweight engineers, vertical cable-car brakemen, freight-shaft operators.
-  - **Agricultural Combines & Mela Vat Workers *(Steampunk Specific)*:** 50-sq-mile Field hands, Ward 10 Grain-terrace teamsters, Ward 3 Sycelium/Mela fungal-vat tenders, livestock drovers.
-  - **Foundrymen, Millhands & Boilermakers:** Ward 7–9 shift laborers, surface blast-foundry stokers, steam-loom textile workers, chemical tanning-vat crews.
-  - **Subterranean Miners, Dwarven Deep-Citadels & Frontier Boomtowns *(Steampunk / Wild West)*:** Deep-shaft ore diggers, **Scottish Highland & subterranean Dwarven mining guilds**, Geothermal Heat-Exchange Pipe maintenance crews, Neithercrete quarrymen, sump flushers, and **"Tombstone"-style frontier mining-town** prospectors, assay-office clerks, and saloon regulars.
-  - **Domestic Servants, Footmen & Belowstairs Staff:** Cantilevered Servant Ward networks, noble household valets, ladies' maids, coachmen, estate kitchen & stable hands.
-
-#### 3. Trade Guilds & Commercial Houses
-*Chartered craft guilds, steampunk industrialists, banking houses, and wholesale commodity exchanges.*
-- **Broad Skill Options & Steampunk Professions:**
-  - **Clockwork Machinists & Gearwrights Guild *(Steampunk Specific)*:** Precision spring-winders, powered-exoskeleton smiths, pneumatic valve makers, mechanical prosthetic artificers.
-  - **Neither-Tech & Cartridge Factors *(Steampunk Specific)*:** Civilian power-cell charging depots, cleanroom biochemical-catalyst technicians, wireless arc-lamp makers, respirator outfitters.
-  - **Gunsmiths, Armorers & Ballistic Guilds:** *Niracrest* & *Mitheral* metallurgists, *Ebon* & *Gildrod* leather tanners, firearm/crossbow smiths, munitions factors.
-  - **Alchemists, Apothecaries & Deep Spore-Brewers *(Steampunk Specific)*:** Pharmaceutical guilds, industrial acid/solvent distillers, **Dwarven & Deep One resilient fungal-strain (*Sycelium*/*Mela*) importers and subterranean factors**, antitoxin compounders.
-  - **Sky-Shipwrights, Aeronauts & Zone Riggers *(Steampunk Specific)*:** Ward 15 & Sky-Dock hull builders, buoyancy-trim engineers, radiant-sail weavers, sky-crane operators.
-  - **Merchant Houses, Counting Houses, Elven & Caravan Factors:** Ward 12/14 wholesale factors, marine/sky insurance underwriters, hard-alloy coin assayers, **Half-Elf trade factors & Icelandic/Norwegian Elven import brokers (gunpowder, steel, Aither goods)**, **Wild West overland stage/caravan & frontier trading-post brokers**, and **exotic Far-Eastern curio/relic traders**.
-  - **Artisans, Builders & Neithercrete Masons *(Steampunk Specific)*:** Spire structural masons, 200×100-ft armored-glass windowwrights, Victorian tailors (concealed *Niracrest Weave* linings), mushroom-oil lampwrights.
-
-#### 4. Military
-*The Crown's standing regiments, aerial armadas, siege batteries, intelligence networks, and frontier cavalry/rangers.*
-- **Broad Skill Options & Steampunk Professions:**
-  - **Crown Army Regiments & Garrison Infantry:** Ward 2 Soldier Ward barracks, 150-ft Inner Wall ramp guards, line infantry, outland expeditionary columns.
-  - **Royal Sky Navy, Sea Navies & Privateer Admiralty *(Steampunk / Golden Age of Piracy)*:** Crown war-dirigible officers, 1860s trade-lane patrol cutters, cloud-sea broadside gunners, marine grapple-boarding parties, and **Admiralty Prize-Court officials who issue *Letters of Marque* to Crown-funded privateers operating among legitimate merchants**.
-  - **Siege Artillery & Great Arc Cannon Batteries *(Steampunk Specific)*:** Upper Soldier Ward artillery-storage crews, Outer Wall Zone-powered arc-cannon engineers, siege sappers (vital when Orc warbands and bandit coalitions lay siege to smaller Spires).
-  - **Arms Bunker Quartermasters & Ordnance Depots *(Steampunk Specific)*:** Custodians of the heavily secured **Arms Bunkers** (Ward 2 Military bunkers, Sky-Dock depots, and Outer Wall perimeter bunkers) who control Cartridge and Radiant Converter checkouts.
-  - **Outland Rangers, Frontier Forts & Warband Parley Scouts *(Wild West / Frontier)*:** 50-sq-mile Field outriders, Tombstone mining-town garrison scouts, Zone-tunnel sentries, and **deep-wilds trackers & tribal intermediaries who know the territories, war-chiefs, and parley customs of roaming Orc warbands and savage frontier civilizations**.
-  - **Crown Military Intelligence & Cross-Border Operatives (`Feydial` & `Derdore`):** Covert border-war scouts, military attachés, counter-espionage officers, and deniable agents operating across the tense frontiers with **Feydial** (Ireland/Wales) and **Derdore** (Southern England/Northern France).
-
-#### 5. Law Enforcement
-*Ward policing, customs checkpoints, frontier marshals, private security details, and the incorruptible royal inquisitors.*
-- **Broad Skill Options & Steampunk Professions:**
-  - **Ward Constabulary & Precinct Watch:** Beat constables, ward sergeants, plainclothes detective-inspectors, night-watch whistle patrols across Wards 1–15.
-  - **The King's Guard:** Elite sovereign protectors, inter-ward high-justice investigators, zero-tolerance anti-corruption & treason inquisitors.
-  - **Customs, Gate & Transit Checkpoints *(Steampunk Specific)*:** Peasant Path/Noble Path toll inspectors, Sky-Dock customs officers, contraband cartridge/converter & volatile-solution sniffers.
-  - **Private House Guards, Pinkertons & Frontier Marshals *(Steampunk / Wild West)*:** Security details operating under *King's Rite* or *Ward-Level Rite*, merchant vault watchmen, private inquiry agents, **mining-town circuit marshals, bounty hunters, and caravan guard-captains**.
-
-#### 6. Criminal Underworld
-*Victorian rookeries, sanctioned vice syndicates, blockade runners, frontier outlaws, and black-market techno-forgers.*
-- **Broad Skill Options & Steampunk Professions:**
-  - **Ward 13 Vice Syndicates ("Las Vegas" Underworld):** Johnny Ralen & Amanda Coren's North/South gambling halls, luxury brothels, bare-knuckle prize-fighting pits, pleasure dens.
-  - **Warrens Rookeries, Street Gangs & Footpads:** Ward 4 ("Lost Ward") crews, cutpurses, second-story burglar rings, Pin-scrip moneychangers, goblin tunnel-runners.
-  - **Smugglers, Blockade Runners, Pirates & Privateers *(Steampunk / Wild West / 1650–1730 Golden Age of Piracy)*:** Subterranean sea-cave runners, airship contraband drop-crews, **open-water and deep-Zone freebooters, pirate-haven brokers, foreign-funded privateer captains hiding among merchant fleets**, and **frontier stage/caravan bushwhackers, claim-jumpers, and renegade Orc/bandit raiders**.
-  - **Bootleg Tech, Jammer & Converter Forgers *(Steampunk Specific)*:** Black-market workshops fabricating illegal ambient-bleed radiant converters, acoustic resonance-scanner jammers, and unlicenced volatile ordnance.
-  - **Fences, Pawnshops, Legitimate Fronts & Relic Brokers:** Ward tavern/inn criminal fronts, stolen clockwork-part brokers, forged-permit scriveners, back-alley stitchers, and **black-market brokers of smuggled Far-Eastern or unacknowledged American curios and Era-1 relics**.
-
-#### 7. Nobility & High Society
-*The landed peerage, high-altitude Aither estates, salon intrigues, Elven delegations, and sovereign foreign enclaves.*
-- **Broad Skill Options & Steampunk Professions:**
-  - **The 25 Great Houses & Royal Court:** 14,000-ft Summit politics, royal courtiers, High Aither estate protocols, private Gunpowder Arms Bunker stewards, dynastic marriage brokers.
-  - **Lesser & Middle Noble Houses:** Cantilevered Noble Ward landlords, shire/hamlet estate holders, aristocratic dueling clubs, hereditary officers.
-  - **Wall Merchant Dynasties & Nouveau Riche:** Ward 14 hanging-garden mansions, merchant-noble marriage alliances, high-finance industrial patrons.
-  - **High-Society Salons, Gentlemen's Clubs & Patronage:** Ward 13 opera boxes, exclusive dining clubs, courtly fencing academies, theatre/art patrons, high-stakes parlor games.
-  - **Foreign Embassies, Sky-Dock Enclaves & Elven Delegations *(Steampunk / Cold-War Diplomacy)*:** Sovereign self-policed compounds in the Sky Docks (**Feydial** [Ireland/Wales], **Derdore** [Southern England/Northern France], continental European kingdoms such as **High Bremen**, **Malichor**, **Relocore**, and the **Free Cities**, **Half-Elf diplomats & Icelandic/Norwegian Elven trade delegations**, foreign naval attachés, **cold-war spy rings**, and **rival-kingdom envoys who covertly bankroll privateers and issue *Letters of Marque* against competing merchant fleets**).
-
 ### How Social Skills (`Understanding`) Work in Spire Play
 
 **Spire play is intended to be predominantly social—it is the arena where roleplay-centric players shine.** Because of this, Social Skills (`Understanding`) intentionally operate differently from standard mechanical or combat tests in the game. Rather than treating every conversation or inquiry as a mandatory dice check, social resolution is **roleplay-first and context-driven**.
@@ -259,9 +299,9 @@ $$\text{Total Understanding Entries} = \text{Automatic Base (2)} + \text{Class B
 1. **Automatic Baseline (2 Entries):** Every class grants **2 automatic Broad Understanding entries** selected from their core institutional sphere (reflecting their immediate trade guild, home ward precinct, military branch, or social upbringing).
 2. **Class Base Entries:** In addition to the 2 automatic entries, classes receive a base number of selectable Broad Understanding entries according to their social scope, network reliance, and institutional mobility:
    - **4 Entries (The Influence Trio):** **Merchant**, **Noble**, and **Grey Marketeer** (under the **70/30 Rule**, ~70% of their network anchors in their primary sphere while ~30% branches across other spheres).
-   - **3 Entries (Institutional & Maritime Leaders):** **Sky Captain**, **Artisan**, and **Scholar**.
-   - **2 Entries (Investigative, Technical & Courtly Specialists):** **Inspector**, **Officer**, **Clockwork Engineer**, **Dandy**, and **Chirurgeon**.
-   - **1 Entry (Frontline Martials & Field Operatives):** **Soldier**, **Pugilist**, **Survivor**, **Mad Bomber**, **Clockwork Rifleman**, and **Scout** *(including Subterranean Miner)*.
+   - **3 Entries (Institutional & Maritime Leaders):** **Scholar**, and NPC **Sailor (Air & Sea)**.
+   - **2 Entries (Investigative, Technical & Courtly Specialists):** **Officer**, **Clockwork Engineer**, **Rake / Dandy**, and **Chirurgeon**.
+   - **1 Entry (Frontline Martials & Field Operatives):** **Soldier**, **Pugilist**, **Survivor**, **Clockwork Rifleman**, and **Scout**.
 3. **Charisma Modifier:** Characters add their **Charisma modifier** to their total pool of selectable Understanding entries (minimum 1 selectable entry regardless of negative Charisma).
 4. **Choosing the Narrow Aspect:** After selecting each Broad Skill from their class's allowed groups below, the player chooses its **Specificity Tier** (**1. Broad Only**, **2. Singular Sub-Group**, **3. Specific Place**, or **4. Specific Person**), trading scope of activity for direct mechanical impact (`+0` to `+3`).
 
@@ -272,18 +312,16 @@ $$\text{Total Understanding Entries} = \text{Automatic Base (2)} + \text{Class B
 | **Merchant** | **4** | **Trade Guilds & Commercial Houses** *(Merchant Houses, Counting Houses, Cartridge Factors, or Sky-Shipwrights)* | **Primary (70%):** Trade Guilds & Commercial Houses, Bureaucracy & University (Customs/Finance), Labor Organizations (Dockers/Transit)<br>**Cross-Sphere (30%):** Nobility (Wall Merchants/Embassy Enclaves) or Criminal Underworld (Smugglers/Fences) |
 | **Noble** | **4** | **Nobility & High Society** *(25 Great Houses, Lesser/Middle Nobles, or High-Society Salons)* | **Primary (70%):** Nobility & High Society, Bureaucracy & University (Privy Council/Courts/Collegium), Military (Officer Corps/Sky Navy)<br>**Cross-Sphere (30%):** Law Enforcement (King's Guard/House Guards) or Trade Guilds (Wall Merchants) |
 | **Grey Marketeer** | **4** | **Criminal Underworld** *(Ward 13 Vice Syndicates, Warrens Rookeries, Smugglers, or Fences/Fronts)* | **Primary (70%):** Criminal Underworld, Labor Organizations (Dockers/Transit/Sump Crews)<br>**Cross-Sphere (30%):** Law Enforcement (Corrupt Precinct Watch/Checkpoints) or Trade Guilds (Bootleg Tech/Pawn Brokers) |
-| **Sky Captain** | **3** | **Military** *(Royal Sky Navy)* OR **Trade Guilds** *(Sky-Shipwrights, Aeronauts & Zone Riggers)* | **Choose from:** Trade Guilds & Commercial Houses, Military (Sky Navy/Arms Bunkers), Labor Organizations (Dockers/Transit Riggers), Bureaucracy (Zone & Grid Authorities / Sky-Dock Customs), Nobility (Foreign Embassies & Sky-Dock Enclaves), Criminal Underworld (Blockade Runners) |
-| **Artisan** | **3** | **Trade Guilds & Commercial Houses** *(Artisans/Masons, Gunsmiths/Armorers, or Clockwork Machinists)* | **Choose from:** Trade Guilds & Commercial Houses, Labor Organizations (Foundrymen/Millhands/Miners), Bureaucracy & University (Patent Clerks/Grid Authorities), Nobility (High-Society Patrons) |
+| **Sailor (Air & Sea)** | **3** | **Military** *(Royal Sky Navy)* OR **Trade Guilds** *(Sky-Shipwrights, Aeronauts & Zone Riggers)* | **Choose from:** Trade Guilds & Commercial Houses, Military (Sky Navy/Arms Bunkers), Labor Organizations (Dockers/Transit Riggers), Bureaucracy (Zone & Grid Authorities / Sky-Dock Customs), Nobility (Foreign Embassies & Sky-Dock Enclaves), Criminal Underworld (Blockade Runners) |
+| **Clockwork Engineer** | **2** | **Trade Guilds & Commercial Houses** *(Engineers/Masons, Gunsmiths/Armorers, or Energy Foundries)* |
 | **Scholar** | **3** | **Bureaucracy & University Connections** *(University Collegium, Municipal Bureaucracy, Courts, or Zone/Grid Authorities)* | **Choose from:** Bureaucracy & University Connections, Trade Guilds & Commercial Houses (Neither-Tech Factors/Alchemists), Nobility & High Society (Collegium Patrons/Embassy Enclaves), Law Enforcement (Forensic/Magistrates) |
-| **Inspector** | **2** | **Law Enforcement** *(Ward Constabulary, King's Guard, or Private Inquiry)* OR **Bureaucracy** *(Courts & Assizes)* | **Choose from:** Law Enforcement, Bureaucracy & University (Courts/Sanatoriums/Coroners), Criminal Underworld (Rookeries/Fences/Vice Syndicates), Labor Organizations (Dockers/Servants) |
+| **Scholar (Inquisitor)** | **2** | **Law Enforcement** *(Ward Constabulary, King's Guard, or Private Inquiry)* |
 | **Officer** | **2** | **Military** *(Crown Army Regiments / Sky Navy)* OR **Law Enforcement** *(Ward Constabulary / King's Guard)* | **Choose from:** Military, Law Enforcement, Bureaucracy & University (Crown Ministries/Courts), Nobility & High Society (Lesser/Middle Noble Officer Corps) |
-| **Clockwork Engineer** | **2** | **Trade Guilds** *(Clockwork Machinists & Gearwrights or Neither-Tech & Cartridge Factors)* | **Choose from:** Trade Guilds & Commercial Houses, Bureaucracy & University (Zone & Radiant Grid Authorities / Collegium), Labor Organizations (Spire Transit Riggers / Foundrymen), Military (Siege Artillery / Arms Bunkers), Criminal Underworld (Bootleg Tech & Converter Forgers) |
-| **Dandy** | **2** | **Nobility & High Society** *(High-Society Salons, Gentlemen's Clubs, or Lesser/Middle Nobles)* | **Choose from:** Nobility & High Society, Criminal Underworld (Ward 13 "Las Vegas" Vice Syndicates), Trade Guilds (Luxury Tailors/Artisans), Bureaucracy & University (Collegium/Court Circuits), Labor Organizations (Domestic Servants & Belowstairs Gossip) |
+| **Rake / Dandy** | **2** | **Nobility & High Society** *(High-Society Salons, Gentlemen's Clubs, or Lesser/Middle Nobles)* | **Choose from:** Nobility & High Society, Criminal Underworld (Ward 13 "Las Vegas" Vice Syndicates), Trade Guilds (Luxury Tailors/Artisans), Bureaucracy & University (Collegium/Court Circuits), Labor Organizations (Domestic Servants & Belowstairs Gossip) |
 | **Chirurgeon** | **2** | **Bureaucracy & University** *(Sanatoriums, Chirurgery & Public Health)* OR **Trade Guilds** *(Alchemists, Apothecaries & Spore-Brewers)* | **Choose from:** Bureaucracy & University (Public Health/Collegium), Trade Guilds (Apothecaries/Spore-Brewers), Military (Field Hospitals/Regiments), Labor Organizations (Mela Vat Workers/Miners), Criminal Underworld (Back-Alley Stitchers & Rookeries) |
 | **Soldier** | **1** | **Military** *(Crown Army Regiments, Siege Artillery, or Arms Bunker Quartermasters)* | **Choose from:** Military, Law Enforcement (Ward Constabulary / Private House Guards), Labor Organizations (Foundrymen/Dockers), Criminal Underworld (Prize-Fighting Pits / Mercenary Muscle) |
 | **Pugilist** | **1** | **Labor Organizations** *(Dockers, Foundrymen, or Transit Riggers)* OR **Criminal Underworld** *(Ward 13 Prize-Fighting Pits / Street Gangs)* | **Choose from:** Labor Organizations, Criminal Underworld, Law Enforcement (Beat Constables), Nobility & High Society (Sporting Patrons & Gentlemen's Boxing Clubs) |
 | **Survivor** | **1** | **Criminal Underworld** *(Warrens Rookeries, Street Gangs, or Fences)* OR **Labor Organizations** *(Sump Crews / Servants)* | **Choose from:** Criminal Underworld, Labor Organizations, Law Enforcement (Precinct Watch / Gate Checkpoints), Trade Guilds (Scrap & Pawn Factors) |
-| **Mad Bomber** | **1** | **Trade Guilds** *(Alchemists & Industrial Distillers)* OR **Criminal Underworld** *(Bootleg Tech & Ordnance Forgers)* | **Choose from:** Trade Guilds & Commercial Houses, Military (Siege Artillery / Sappers), Labor Organizations (Subterranean Miners / Foundrymen), Criminal Underworld |
 | **Clockwork Rifleman** | **1** | **Military** *(Arms Bunker Quartermasters / Regiments)* OR **Trade Guilds** *(Gunsmiths, Armorers & Cartridge Factors)* | **Choose from:** Military, Trade Guilds & Commercial Houses (Gunsmiths/Cartridge Factors), Law Enforcement (Private Bodyguards / Checkpoints), Criminal Underworld (Smugglers) |
 | **Scout** | **1** | **Military** *(Outland Rangers & Frontier Forts)* OR **Labor Organizations** *(Subterranean Miners, Sappers & Sump Crews)* | **Choose from:** Military (Outland Rangers), Labor Organizations (Miners/Agricultural Combines/Caravan Teamsters), Trade Guilds (Caravan & Shipping Brokers), Criminal Underworld (Blockade & Tunnel Runners) |
 
@@ -320,9 +358,9 @@ Both the **frequency of Social Advancements**, the **rate of network re-training
 | Social Tier & Classes | Starting Class Base | Social Advancement Levels *(Separate from Skill Increases)* | Total Advancements (Lv 1–20) | Proficiency Level Gates & Max Cap | Level-Up Swap / Re-Training Rate |
 |---|:---:|---|:---:|---|:---:|
 | **Tier 1: The Influence Trio**<br>*(Merchant, Noble, Grey Marketeer)* | **4** | **Every Even Level** (`2, 4, 6, 8, 10, 12, 14, 16, 18, 20`) **+ Bonus at Levels `5, 11, 17`** | **13** | • **Expert:** Level **2+**<br>• **Master:** Level **6+**<br>• **Legendary:** Level **12+**<br>*(Uncapped Legendary entries)* | Swap up to **4** entries per level |
-| **Tier 2: Social, Maritime & Guild Leaders**<br>*(Dandy, Sky Captain, Artisan, Scholar)* | **3** *(Dandy 2)* | **Every Even Level** (`2, 4, 6, 8, 10, 12, 14, 16, 18, 20`) | **10** | • **Expert:** Level **3+**<br>• **Master:** Level **7+**<br>• **Legendary:** Level **15+**<br>*(Max **2** Legendary entries)* | Swap up to **3** entries per level |
-| **Tier 3: Investigative, Command & Tech Specialists**<br>*(Inspector, Officer, Clockwork Engineer, Chirurgeon)* | **2** | **Every 3 Levels** (`3, 6, 9, 12, 15, 18`) | **6** | • **Expert:** Level **5+**<br>• **Master:** Level **11+**<br>• **Legendary:** Level **18+**<br>*(Max **1** Legendary entry in core sphere)* | Swap up to **2** entries per level |
-| **Tier 4: Frontline Martials & Field Operatives**<br>*(Soldier, Pugilist, Survivor, Mad Bomber, Clockwork Rifleman, Scout)* | **1** | **Every 4 Levels** (`4, 8, 12, 16, 20`) | **5** | • **Expert:** Level **5+**<br>• **Master:** Level **13+**<br>• **Max Cap:** **Master** *(Cannot reach Legendary without a social archetype)* | Swap up to **1** entry per level |
+| **Tier 2: Social, Maritime & Guild Leaders**<br>*(Rake, Scholar, NPC Sailor (Air & Sea))* | **3** *(Dandy 2)* | **Every Even Level** (`2, 4, 6, 8, 10, 12, 14, 16, 18, 20`) | **10** | • **Expert:** Level **3+**<br>• **Master:** Level **7+**<br>• **Legendary:** Level **15+**<br>*(Max **2** Legendary entries)* | Swap up to **3** entries per level |
+| **Tier 3: Investigative, Command & Tech Specialists**<br>*(Officer, Clockwork Engineer, Chirurgeon)* | **2** | **Every 3 Levels** (`3, 6, 9, 12, 15, 18`) | **6** | • **Expert:** Level **5+**<br>• **Master:** Level **11+**<br>• **Legendary:** Level **18+**<br>*(Max **1** Legendary entry in core sphere)* | Swap up to **2** entries per level |
+| **Tier 4: Frontline Martials & Field Operatives**<br>*(Soldier, Pugilist, Survivor, Clockwork Rifleman, Scout)* | **1** | **Every 4 Levels** (`4, 8, 12, 16, 20`) | **5** | • **Expert:** Level **5+**<br>• **Master:** Level **13+**<br>• **Max Cap:** **Master** *(Cannot reach Legendary without a social archetype)* | Swap up to **1** entry per level |
 
 #### 4. Re-Allocating / Swapping Contacts on Level-Up
 - Every time a PC gains a level, in addition to spending any new Social Advancement gained at that level, they may **re-train / swap up to their Swap Rate (`4 / 3 / 2 / 1`)** of existing Understanding entries (or shift an entry's Narrow Aspect between Person, Place, Sub-Group, and Broad).

@@ -1,4 +1,4 @@
-# Sky Captain & Shipmaster (NPC Class)
+# Sailor (Air & Sea) / Shipmaster (NPC Class)
 
 - **Role:** Specialized NPC Class (Vessel Commander, Aeronaut, Corsair & Sea Skipper)
 - **Base Chassis:** Swashbuckler / Naval Commander `[Player Core 2 p.176]`
@@ -12,25 +12,25 @@
 
 In Clockwork Cities, airships, zeppelins, steam cutters, and sea galleons represent massive capital investments owned by Merchant Houses, Crown Navies, or criminal corsair syndicates. Operating a vessel requires deep meteorological acumen, crew coordination, and specialized kinetic piloting. 
 
-Because adventures frequently venture away from vessels into urban tenements, subterranean sumps, and outland Neither ruins, **Sky Captains exist primarily as specialized NPCs**. Players hire them to transport their expedition across the Zone, negotiate with them for passage, or battle them in boarding actions.
+Because adventures frequently venture away from vessels into urban tenements, subterranean sumps, and outland Neither ruins, **Sailors and Shipmasters exist primarily as specialized NPCs**. Players hire them to transport their expedition across the Zone, negotiate with them for passage, or battle them in boarding actions.
 
 > [!IMPORTANT]
 > **The Shipboard Conditioning Rule:**
-> Sky Captains are master tacticians and acrobats **only while aboard a vessel or in immediate naval boarding operations**. Their entire suite of reactive maneuvers, panache, mobility, and command aura is conditioned by the deck beneath their boots. When removed from a ship or harbor, their abilities turn off, reducing them to standard mundane combatants on foot.
+> Sailors (Air and Sea) are master tacticians and acrobats **only while aboard a vessel or in immediate naval boarding operations**. Their entire suite of reactive maneuvers, panache, mobility, and command aura is conditioned by the deck beneath their boots. When removed from a ship or harbor, their abilities turn off, reducing them to standard mundane combatants on foot.
 
 ---
 
 ## 2. Core NPC Features & Ship-Bound Conditioning
 
 ### A. Ship-Bound Abilities (Active ONLY Aboard or Boarding a Vessel)
-The following abilities function **strictly while the Sky Captain is aboard a ship, airship, boat, dockyard crane, or actively boarding an adjacent vessel**. When on foot in a city street, field, dungeon, or outland trek, these abilities are **completely inactive**:
+The following abilities function **strictly while the Sailor is aboard a ship, airship, boat, dockyard crane, or actively boarding an adjacent vessel**. When on foot in a city street, field, dungeon, or outland trek, these abilities are **completely inactive**:
 
 1. **Deck Panache & Aerial Footwork:**
    - Gain Panache by performing daring shipboard maneuvers (swinging from rigging, halyards, catwalks, or issuing bold steering orders).
    - While holding Panache on a vessel, gain a **+10 to +30 ft status bonus to Speed** (applies equally to climbing ropes, masts, and ladders).
    - **Precise Strike:** Adds **+2d6 to +6d6 precision damage** on Finishers with cutlasses, sabers, rapiers, boarding axes, and pistols.
 2. **Opportune Deck Riposte:**
-   - While on deck, if an enemy critically fails a melee Strike against the Captain, the Captain can immediately Strike back as a Reaction.
+   - While on deck, if an enemy critically fails a melee Strike against the Sailor, the Sailor can immediately Strike back as a Reaction.
 3. **Cat Fall & Shunt Discharge (Airships Only):**
    - Automatically treats falls aboard an airship as 50 feet shorter.
    - Once per round as a Reaction, when the ship is struck by lightning or electric hazards, safely shunts the discharge through ground coils.
@@ -40,7 +40,7 @@ The following abilities function **strictly while the Sky Captain is aboard a sh
 ---
 
 ### B. Dedicated Ship-Specific Skills & Actions
-A Sky Captain possesses specialized actions that directly manipulate naval and aerial combat:
+A Sailor / Shipmaster possesses specialized actions that directly manipulate naval and aerial combat:
 
 1. **Evasive Trim & Heel (2 Actions, Piloting):**
    - The Captain rolls an *Airship Lore* or *Sailing Lore* check against the opposing vessel's Maneuver DC.

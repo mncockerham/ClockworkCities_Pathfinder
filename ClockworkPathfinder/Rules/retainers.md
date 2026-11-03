@@ -13,6 +13,31 @@ Retainers come from two primary tracks: **Social Status (The Baseline Track)** a
 - **Superior Choice Governs:** Characters use whichever track provides the superior retainer entitlement. The dedicated class option significantly surpasses the baseline social status track.
 - **Zero Financial Upkeep:** Retainers are supported entirely by the family house, merchant firm, or syndicate pipeline. There is **no cost to having them**, and they are **never tracked as part of character wealth or monthly spending limits**.
 
+
+### Retainer Social Status (The -20 Reflected Status Rule)
+In Spire society, full-time retainers (personal bodyguards, stewards, valets, carriage drivers, armed armsmen) do not command high status of their own right; rather, **their status is a direct reflection of who they represent**:
+- **The -20 Formula:** A full-time retainer's operational Social Status is equal to their **Sponsoring Master's Status - 20**:
+  - *Standard Merchant Retainer (Master Status 50):* Retainer operates at **Status 30** (treated with the standing of an established shopkeeper or clerk).
+  - *Lesser Noble Retainer (Master Status 60):* Retainer operates at **Status 40** (treated with the standing of an innkeeper or senior estate steward).
+  - *Standard Noble Retainer (Master Status 70):* Retainer operates at **Status 50** (treated with the deference of a court magistrate or university graduate).
+  - *Wall Merchant Retainer (Master Status 85):* Retainer operates at **Status 65** (treated with the authority of landed barons; authorized to carry livery dueling sidearms under house rite).
+  - *Great House Noble Retainer (Master Status 95):* Retainer operates at **Status 75** (commands immense civic deference across all wards, carrying Great House crests and authorized house weapons).
+- **Reflected Standing, Not Personal Pedigree:** This status belongs to the **livery and crest they wear, not their personal bloodline**. If a Great House guard steps out of uniform or is dismissed, they instantly revert to their personal civilian baseline (often Status 11–20). While in uniform representing their master, ward constables and municipal clerks treat them according to their sponsor's reflected standing.
+
+### Domestic Household Servants (The -30 Reflected Status Rule)
+
+Domestic household servants (chambermaids, cooks, scullery staff, laundry maids, footmen, and household valets) can be hired by **anyone with the money to employ them** (merchants, academics, professionals, and nobles alike). 
+
+Like retainers, their social standing reflects the household they serve:
+- **The -30 Formula (Floor: Status 16):** A domestic household servant operates at **$	ext{Employer's Status} - 30$**, but their status **will never drop below Status 16 (Freeman / Freewoman Baseline)** so long as they are employed:
+  - *Employed by a Freeman / Craftsman (Employer Status 25–40):* Operates at the **floor of Status 16** (respected free domestic worker).
+  - *Employed by a Standard Merchant (Employer Status 50):* Operates at **Status 20** (recognized commercial household staff).
+  - *Employed by a Lesser Noble (Employer Status 60):* Operates at **Status 30** (treated with the standing of a junior clerk or shopkeeper).
+  - *Employed by a Standard Noble (Employer Status 70):* Operates at **Status 40** (treated with the standing of a respected estate manager or innkeeper).
+  - *Employed by a Wall Merchant (Employer Status 85):* Operates at **Status 55** (treated with the standing and deference of an educated professional or magistrate's secretary).
+  - *Employed by a Great House Noble (Employer Status 95):* Operates at **Status 65** (senior Great House chamberlains and head housekeepers command status rivaling landed barons in public wards).
+- **Reflected Standing in the Markets:** When a Great House maid walks through the Ward 11 market wearing her family crest or badge, shopkeepers rush to serve her first and offer wholesale courtesy—knowing that insulting the maid insults the Great House that employs her.
+
 ### Track A: The Baseline Social Status Track
 *For all characters who hold Noble or Merchant social status, but do not take levels in an Influence class.*
 - **Base Nobles & Base Merchants:**
@@ -195,7 +220,9 @@ All retainers possess an established **Level** ($\lceil \text{PC Level} / 4 \rce
 
 ## 8. Standardized Retainer Builds (Plug-and-Play Examples)
 
-All retainers possess standard class chassis appropriate to their level ($\lceil 	ext{PC Level}/4 ceil$ for Social Status track, $\lceil 	ext{PC Level}/2 ceil$ for Influence Class track). Their gear scales automatically with their level using **standard mundane materials** (fine wool, dark iron, steel, leather, canvas); they carry **no clockwork technology** unless their core class base explicitly requires it (such as a Mad Bomber's chemical vials or a Chirurgeon's biochemical reagents).
+All retainers possess standard class chassis appropriate to their level ($\lceil 	ext{PC Level}/4 
+ceil$ for Social Status track, $\lceil 	ext{PC Level}/2 
+ceil$ for Influence Class track). Their gear scales automatically with their level using **standard mundane materials** (fine wool, dark iron, steel, leather, canvas); they carry **no clockwork technology** unless their core class base explicitly requires it (such as a Mad Bomber's chemical vials or a Chirurgeon's biochemical reagents).
 
 Each build focuses on **simple, dedicated skill packages** that directly serve their primary purpose:
 

@@ -39,6 +39,82 @@ $$\text{Step} = \left\lfloor \frac{\text{Total Maximum Hit Points}}{4} \right\rf
 
 ---
 
+## Combat Damage Tracking & Sheet Protocol (Zero Mid-Combat Math)
+
+To eliminate spreadsheet accounting and condition lookups during active combat initiative, wound tiers and penalties are tracked **exclusively outside of combat**. During an encounter, players track only two running numbers: **Lethal Damage** and **Nonlethal Damage**.
+
+> [!NOTE]
+> **Storyteller Guidance: The Price of Running (Health Level Assistance)**
+> As a Storyteller, **expect to—and always be available to—recalculate health levels with and for your players after every fight and before every fight**.
+> While the system is clean and predictable, players have varying levels of comfort with tiered health math, trauma ceilings, and post-combat nonlethal recovery.
+> - *After combat:* The ST proactively walks the table through: *"Drop your nonlethal, tell me what remaining damage you took, and let us step it down through your Regular, Critical, and Mortal tiers together and note any penalties."*
+> - *Before combat:* The ST prompts: *"Quick pre-fight check—did anyone drink an elixir or bandage up during rest? Let us lock in your new Available HP box before initiative."*
+> Providing this active, patient guidance keeps the table moving fast, eliminates bookkeeping anxiety, and lets players focus on the gritty tactical story.
+
+### 1. Character Sheet Layout (Three Health Tiers)
+On the character sheet, maximum and current values are recorded for the three baseline health tiers:
+
+| Tier | Maximum Capacity | Current Available HP | Notes / Recovery |
+| :--- | :---: | :---: | :--- |
+| **Regular Damage** | [Max Regular HP] | [Current Regular] | Heals via normal PF2e rest, Treat Wounds, tonics, tech. |
+| **Critical Wounds** | [Max Critical HP] | [Current Critical] | Deep structural tissue trauma; heals over days. |
+| **Mortal Wounds** | [Max Mortal HP] | [Current Mortal] | Organ/skeletal trauma; heals over weeks. |
+
+### 2. Pre-Combat Setup: The Health Audit (Verification Only, Not Free Rest)
+At any time between scenes—and specifically **right before rolling initiative for combat**—the Storyteller conducts a quick 30-second Health Audit. **This is not a free extra healing window or retro-action period; it is purely an accounting check for things players often forget to write down:**
+
+1. **The Pre-Fight Verification Checklist:**
+   - *Did you rest for several days or have clinical downtime that was not recorded?*
+   - *Did you receive infused elixirs, hemostatic sprays, or tonics from the Chirurgeon during morning prep that you forgot to log?*
+   - *Did you consume any rations, biomedical tonics, or field dressings earlier in the dungeon/ward that were not marked off?*
+   - *Trauma Ceiling Check:* If you have unhealed Critical or Mortal wounds, confirm your Regular HP is properly capped at your field Trauma Ceiling ($	ext{Level} + 	ext{CON}$, min 1).
+   - *Do your three health tiers on the sheet accurately reflect reality right now?*
+2. **Sum Available HP:**
+   - Sum the verified current values across all three tiers:
+     $$	ext{Available HP} = 	ext{Current Regular} + 	ext{Current Critical} + 	ext{Current Mortal}$$
+3. **Lock In the Combat Box:**
+   ```
+   ┌────────────────────────────────────────────────────────┐
+   │ AVAILABLE HP: [  42  ]                                 │
+   │                                                        │
+   │ Total Damage Taken: [ ___ ]    Nonlethal Pool: [ ___ ] │
+   └────────────────────────────────────────────────────────┘
+   ```
+
+### 3. Mid-Combat Tracking: Standard PF2e Flow
+During combat, tracking functions **identically to standard Pathfinder 2e**:
+- **All Damage is Damage:** When hit by ANY attack (lethal or nonlethal), add the incoming damage directly to your running **Total Damage** tally.
+- **Track Nonlethal in Parallel:** If the attack was nonlethal (e.g. sap, unaugmented fist, stun baton), also add that amount to your **Nonlethal Pool**.
+- **Unconsciousness Check:**
+  - The moment $\text{Total Damage} \ge \text{Available HP}$, the character collapses **Unconscious**.
+  - **The Dying vs. Stable Check (Simple Comparison):**
+    - Calculate **Net Lethal Damage Taken** = $\text{Total Damage} - \text{Nonlethal Pool}$.
+    - **Stable Cushion:** If $\text{Net Lethal Damage Taken} < \text{Available HP}$, the character is simply **unconscious and stable** (no dying condition, no bleed clock, and no wound tier advancement).
+    - **Dying / Bleed Trigger:** If $\text{Net Lethal Damage Taken} \ge \text{Available HP}$, the character enters the **Dying / Bleed Clock** per standard rules (§5).
+
+### 4. Post-Combat Resolution: Nonlethal Drop & Tiered Trauma
+Once combat ends (initiative drops, adrenaline fades, and the scene resolves):
+1. **Heal Nonlethal (Drop Nonlethal Damage):**
+   - The body immediately recovers from superficial blunt stunning, breath loss, and pain shock: **Heal damage equal to your current Nonlethal Pool** (or simply deduct Nonlethal from Total Damage to determine net lasting trauma):
+     \text{Net Damage to Apply} = \max(0, \text{Total Damage} - \text{Nonlethal Pool})
+2. **Apply Remaining Damage Downward Across Tiers:**
+   - **Step A (Current Regular):** Apply damage against **Current Regular HP** until depleted.
+   - **Step B (Current Critical):** Any remaining damage overflows downward into **Current Critical HP** until depleted.
+   - **Step C (Current Mortal):** Any further remaining damage overflows downward into **Current Mortal HP**.
+3. **Verify & Record Health Tier Penalties on Character Sheet:**
+   - Check the resulting health tiers:
+     - **Critical Tier Punctured:** If Current Critical HP took damage, verify and record the appropriate **minor anatomical trauma penalty** (§4.C / §4.D, e.g., clumsy, enfeebled, or speed penalty).
+     - **Mortal Tier Punctured:** If Current Mortal HP took damage, verify and record the appropriate **major anatomical trauma penalty**.
+     - **Dropped to 0 HP:** If completely reduced to 0 HP, record the **direct attribute penalty** (§4.E, e.g., –2 to primary physical/mental attributes).
+4. **Reset Active Combat Box:**
+   - Erase the **Total Damage** and **Nonlethal Pool** tallies.
+   - Recalculate and write down the new **Available HP** ($=\text{Current Regular} + \text{Current Critical} + \text{Current Mortal}$) for the next encounter.
+
+---
+
+
+---
+
 ## 3. Technology, Concoctions & First Aid Limitations
 
 In a world devoid of divine miracle healing and supernatural magic:
@@ -48,7 +124,7 @@ In a world devoid of divine miracle healing and supernatural magic:
 
 ---
 
-## 4. Healing Order & The Heroic Reserve
+## 4. Healing Order & Tiered Recovery
 
 ### A. Hierarchical Recovery (Deepest Upward)
 When recovering naturally or under extended medical care, the human body repairs systemic anatomical damage first before rebuilding superficial reserve stamina:
@@ -71,6 +147,57 @@ When recovering naturally or under extended medical care, the human body repairs
     - They can use Treat Wounds, sleep, or drink healing tonics to recover up to this **8 HP ceiling** to stay on their feet and fight, but any healing beyond 8 is lost until their deeper Critical and Mortal wounds are medically repaired.
 
 ---
+
+## The 3-Tier Medical Hierarchy (Social & Practical Division)
+Across the Great Spires, military cohorts, airship crews, and outland expeditionary companies, medical expertise is distributed across a strict societal pyramid:
+- **Field Medics / Chirurgeon Archetype (~1 in 30 to 1 in 50 individuals):** Roughly 1 in 30 to 1 in 50 people have cross-trained emergency medical skills (the Chirurgeon Archetype / Field Medic). These are company corpsmen, airship hands, and trench soldiers who know basic trauma triage, sutures, and emergency stimulants. Full, primary Chirurgeons who command dedicated micro-drone swarms and run clinical apothecaries are even rarer specialists.
+- **Scholar Doctors / Chief Physicians (~1 in 150 individuals):** True university-educated medical researchers and hospital physicians are scarce (roughly 1 in 150 people). They are almost exclusively focused in **safe, centralized, high-infrastructure locations**—Spire university cleanrooms, sanatorium dynamos, and aristocratic luxury wards—and almost never venture out into the Neither mud or frontline trenches.
+
+In Victorian Spire healthcare, medical roles are divided across three clear social and operational tiers:
+1. **Tier 1 — The Doctor / Medical Researcher (Scholar Class):** High academic fellows and university chairs (Status 4–6). They design and operate expensive clinical clockwork technology (heart-lung dynamos, vacuum distillation towers, cellular diagnostic meters) and synthesize the most refined elixirs in pristine cleanrooms. They perform long-term inpatient surgeries in established medical facilities (clearing Critical/Mortal trauma during 2-day or 1-week inpatient care), but rarely venture into field trenches.
+2. **Tier 2 — The Paramedic / Clinic Worker & Spore-Cultivator (Chirurgeon Class):** Hands-on medical workhorses, spore-brewers, and triage directors (Status 2–4). 
+   - **Spellcaster Chassis & Analytical Defense:** Operates on an unarmored/simple weapon chassis, calculating threat corridors mentally so that **Intelligence replaces Dexterity for Armor Class (AC)** ($10 + \text{Prof} + \text{INT}$) with no Dex cap.
+   - **Neither-Bio Resonance:** In the Neither, Warrens, or Wilds, symbiotic fungal acclimation replaces **Dexterity with Intelligence** for all DEX skills (Stealth, Thievery, Acrobatics) and **Strength with Wisdom** for all STR skills (Athletics).
+   - **Clockwork Micro-Drone Horde:** Deploys miniature brass scuttlers and winged syringe-drones to administer 2-action field triage injections at range (30 ft) and absorb single lethal hits via a 1/round Reaction [R] ( \times \text{INT}$ damage absorb;  \times \text{Level}$ daily uses).
+   - **Hemostatic Coagulant Spray (First Aid Check):** Pressurized fibrin spray ends persistent bleed damage on a First Aid (Medicine/Crafting) check against $\text{DC } 15 + \text{Bleed Rate}$.
+   - **Modular Daily Formulations (WIS/INT Multipliers):** Cultivates daily spore strains granting targeted damage resistance (Resistance =  \times \text{WIS}$ against chosen environmental/physical damage types) and caustic solvents that strip enemy armor/DR ( \times \text{INT}$ on a failed save).
+3. **Tier 3 — The Emergency Responder / Corpsman (Field Medic Archetype):** Combatants (Soldiers, Scouts, Survivors) who take the Chirurgeon Dedication because Tiers 1 and 2 are dead or miles away. Their kit is brutal and practical: tourniquets, crude cautery irons, smelling salts, and emergency adrenaline auto-injectors strapped to armor. When frontline allies collapse in the mud, they drag them behind cover, slam a stim into their chest, and keep the squad fighting.
+
+---
+
+## 2. Technology & Concoction Limits
+- **Damage Only (Standard Baseline)**: Concoctions (biomedical tonics, stims) and Clockwork Technology (cellular repair gizmos, suture mechanisms) **can only restore regular Damage**.
+- **No Instant Surgery**: Standard technology and concoctions cannot instantly knit ruptured organs or re-anchor shattered bones represented by Critical or Mortal wounds.
+- **Emergency Exception — Adrenal Injector:** A specialized 1-charge chemical stim injector (`EquipmentCatalog.md §3`) can chemically mask and remove active wound damage during combat, but inflicts severe Exhaustion post-combat until a full night's rest. Subsequent injections between fights cause severe physiological strain, dealing **1d6 damage**; excess damage flows through standard wound tiers into mortal (and can result in PC death).
+  - **Chirurgeon Calibration (Level 5):** A Level 5+ Chirurgeon crafts **daily doses equal to their INT modifier** without consuming infused reagents.
+  - **Improved Adrenal Injector (Level 10):** At Level 10, a Chirurgeon modifies their injectors with stabilized bio-buffers so subsequent uses deal **only a flat 2 points of damage** (instead of 1d6), preventing accidental cardiac death.
+
+---
+
+## 3. Healing Order & Progression
+- **Hierarchical Recovery**: As a general rule, healing progresses from the deepest trauma upward. The earlier levels must be healed before later damage can be recovered:
+  1. **Mortal Wounds (Step 1)** heal first (measured in weeks).
+  2. Once Mortal Wounds are fully cleared, **Critical Wounds (Step 2)** heal (measured in days).
+  3. Once Critical Wounds are resolved, remaining **Damage** heals per standard Pathfinder rules (Treat Wounds, overnight rest).
+
+### Regular Damage & The Trauma Ceiling ($\text{Level} + \text{CON}$)
+- **Standard PF2e Healing:** Regular Damage heals per standard PF2e rules (Treat Wounds, rest, tonics, tech devices).
+- **The Trauma Ceiling (Field / Unstabilized):** In the field without facility stabilization, if a character has **any unhealed Critical or Mortal wounds**, their maximum Regular Damage pool is capped at:
+  $$\text{Max Regular HP} = \text{Level} + \text{CON modifier} \quad (\text{min } 1)$$
+  Field healing beyond this ceiling is lost until deeper wounds are resolved or clinical care is received.
+
+### Clinical Recuperation & Medical Facility Care
+Receiving inpatient medical care in a proper medical facility stabilizes the patient's trauma, unlocking normal healing of their regular hit points and freeing them from the field Trauma Ceiling ($\text{Level} + \text{CON}$):
+- **Critical Care (2 Days):** After **2 full days of proper medical care** in a medical facility when suffering Critical wounds, the patient is **no longer limited by the $\text{Level} + \text{CON}$ Trauma Ceiling**. They can heal their Regular Damage pool back to full through normal rest, Treat Wounds, or biomedical tonics, and **continue to heal regular damage normally** as long as they do not suffer another critical or mortal point of damage.
+  - While this Regular Damage pool remains intact, **wound conditions do not apply**.
+  - Critical wound HP itself heals at **$\text{CON}$ HP / day** (or $\lfloor \frac{1}{5} \text{Level} \rfloor + \text{CON}$ / day via simple bed rest).
+- **Mortal Care (1 Full Week):** After **1 full week of proper medical care** in a medical facility when suffering Mortal wounds, the patient is stabilized and is **no longer limited by the $\text{Level} + \text{CON}$ Trauma Ceiling**. They can heal their Regular Damage pool back to full and **heal regular damage normally** as long as they do not take another critical or mortal point of damage.
+  - While this Regular Damage pool remains intact, **wound conditions do not apply**.
+  - Mortal wound HP itself heals at **$\text{CON}$ HP / week** (or $\lfloor \frac{1}{5} \text{Level} \rfloor + \text{CON}$ / week via simple bed rest).
+- **Re-injury Clause:** If at any point the character takes a point of Critical or Mortal damage, the surgical repairs rupture, the Trauma Ceiling immediately reasserts itself, and the wound conditions reactivate until proper facility care is received again.
+
+### D. Active Chirurgical Convalescence (Accelerated Wound Recovery)
+
 
 ### C. Clinical Recuperation & Medical Care Rates
 When recovering from deep structural trauma, healing occurs on an extended timescale determined by the quality of rest and medical intervention:

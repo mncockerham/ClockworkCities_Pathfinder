@@ -1,248 +1,297 @@
-# Social Classes & Class Fit
+# Social Classes, Standing & The 0–100 Hierarchy
 
-- **Document:** Social Class & Character Class Mapping
-- **Status:** **Draft**
+- **Document:** Social Class, Standing & Character Integration Master Rules
+- **Location:** `ClockworkPathfinder/Rules/SocialClasses.md`
 - **Setting Reference:** `AISummary/WorldSummary.md` (Section 7: Social Status & Wealth)
 - **Precedence:** Rules in `AISummary/00_RulesFoundation.md`.
 
 ---
 
-## 1. Setting Overview: The Weight of Social Class
+## 1. Setting Overview: The Reality of Social Class
 
 In the Great Spires of Clockwork Cities, **social class is the single most defining characteristic** of any individual:
-- *"Worth = who you represent."* Individuals without backing (house, guild, constabulary, or syndicate) are untrusted and legally vulnerable.
-- Social status dictates your legal standing, right to own property, vote weight in Privy Council elections, access to spire circles, and whether the constabulary can arrest you without King's Guard oversight.
-- When creating a character, social class establishes where you grew up, who backs you, and which character classes are **Common** (frequent and expected) versus **Uncommon** (atypical or rare).
-- **Player Characters & Unique Reasons (No Gatekeeping "Justifications"):**
-  Player characters are inherently unique individuals in this world. Players are **never required to provide elaborate, high-bar "justifications"** to play an Uncommon combination, rare class, or unexpected skill/Understanding—requiring players to argue or justify their choices unfairly penalizes players who are trying to explore creative concepts. Instead, **all that is needed is a simple, believable in-world reason**:
-  - *Example (Survivor working fungal farms):* "I'm the first Survivor who spent years working in the fungal cultivation beds because my family ran an illegal bootleg compost still behind the cisterns."
-  - *Example (Noble with Underworld Understanding):* "My uncle, before he was formally banished by the House, used to take me along on his deliveries. Mom and Dad never knew, but he always stopped at an illicit tavern filled with unsavory characters."
-  A single sentence or brief anecdote is more than enough to anchor any combination into the world.
-- **Members of Institutions & Storyteller Final Authority:**
-  - **Members, Not Rulers:** Until high levels, players are **members** of a House or Guild—**they do not run them**.
-  - **Roleplay & The Storyteller's Final Word:** Institutional backing, requisitions, and standing are resolved through **roleplay between the player and the DM / Storyteller**, and **the Storyteller—not the player—has the final word** on what is and is not allowed. Players are free not to play or to make their own game if they dislike the Storyteller's decisions, while Storytellers must keep the players interested enough in the game.
-  - **The 3-Tier Decision Structure:** Rules and adjudications always prioritize: **1) Is it fun/beneficial to the game?** (if not, why do it this way?), **2) Does it fit the theme and mood of the world?** (secondary to 1), and **3) Is it realistic and aligned with other rules?** (least important; ideally yes, but can be ignored if 1 and 2 are met).
-- **Victorian Gender Norms vs. Cultural Exceptionalism (Zero Net Mechanical Penalty):**
-  - While Victorian Spire society has a strong traditional sexism component, **the culture simultaneously prizes personal exceptionalism, grit, and courage above almost everything else**.
-  - **Women in Male-Dominated Fields:** For example, the Ward Constabulary is 95% male. While the 5% of the force that is female faces traditional prejudice due to their sex, they are simultaneously **respected and admired for succeeding in a demanding, dangerous field**. To ensure players are completely free to play whatever character concept they want, **these two social forces always cancel each other out**—resulting in zero net mechanical penalty or disadvantage.
-  - **Men in Traditionally Female Crafts (The Reverse Rule):** This cancellation applies equally in reverse. While males generally enjoy traditional Victorian social deference, any male working in a traditionally female craft or role is **looked down upon for defying gender expectations to the exact extent that the male advantage cancels out**, meaning they are treated identically to anyone else holding that role.
-- **Ecological Dominance in the Social Hierarchy (The Shift Calculus):**
-  - Atmospheric and dietary Neither effects directly cement **Humans and Orcs as the dominant populations across all social classes**.
-  - Because Humans and Orcs sit at Strata 3 and 4, their maximum environmental shift anywhere in the known world is only **3 levels** (yielding a worst-case combined Total Shift Score of **6.0**). This allows them to move between middle wards, agricultural valleys, deep Warrens, and low mines without suffering permanent organ failure or rapid death.
-  - By contrast, **Half-Elves and Dwarves** face maximum shifts of **4** (total combined **8.0**), keeping them tethered to specialized niches (airship riggers or deep stonecutters).
-  - **High Elves and Deep Ones** face shifts of **5** (total combined **10.0**), rapidly inducing lethal necrotic collapse outside their native sanctuaries. This makes High Elves and Deep Ones effectively unplayable outside high polar peaks/palace summits or boiling abyssal vents, permanently cementing Humans and Orcs as the universal citizens, workers, soldiers, and adventurers of the Clockwork Cities.
+- *"Worth = who you represent."* Individuals without institutional backing (House, Guild, Constabulary, or Syndicate) are untrusted, legally vulnerable, and socially invisible.
+- Social status dictates your legal standing, right to own property, whether you can carry a dueling blade in public wards, voting weight in Privy Council elections, and whether the constabulary can arrest you without King's Guard oversight.
 
-### Social Class vs. Character Class Independence (The Single Exception Rule)
-In Clockwork Cities, **Social Class (hereditary standing, wealth, status) and Character Class (skills, training, combat discipline) are completely independent systems**:
-- **Any Social Class Can Play Any Character Class:** There is **no rule** preventing a Great Noble or Wall Merchant from being an infiltration-trained **Survivor**, a frontline **Soldier**, a **Pugilist**, or a **Clockwork Rifleman**. Players need only a simple, believable in-world reason (e.g. a Great Noble third-son who enlisted in the deep-zone scouts as an infiltration specialist, or a noble daughter who rebelled to master back-alley pugilism).
-- **The Only Restriction (Noble & Merchant Classes):** 
-  - To play the specific character classes named **Noble** or **Merchant**, you **must start with the matching Social Class** (Status 4+ for Noble; Status 3+ for Merchant; Status 6 for Wall Merchant), as their class features represent active commercial credit, legal estates, and institutional governance.
-  - If a Noble or Merchant fails socially or financially and loses their title/holdings, they lose access to those class perks.
-- **Outside of that single exception, Social Class and Character Class are completely unrelated.**
+### The Truth of Social Class: Lifestyle, Liquid Wealth & The Brutal Fall
+The tiers below represent **starting social positions and baseline ranges**—not immortal plot armor:
+- **Status is Maintained by Money & Standing:** In Spire civilization, real social status requires the liquid wealth to support that lifestyle (ward rents, guild dues, retainers, fine dress, salon subscriptions) and the social acceptance of your peers.
+- **The Two Forms of the Fall (Zero Grace Period):** There is no polite grace period or cushioned descent in Spire society. A fall from social standing is swift, brutal, and completely public, occurring through **one of two distinct mechanisms**:
+  1. **Social Censure from Crime or Cultural Violations:**
+     - The individual commits a crime, violates an unwritten high-caste taboo, or suffers formal public censure from the Crown, the Privy Council, or their Guild livery.
+     - *Immediate Ostracization:* Your former peers instantly cast you out to protect their own reputations. Salon doors slam, warrants or blacklists are drawn up, and your legal/civic standing is stripped.
+  2. **Inability to Pay Bills (The Financial Eviction):**
+     - You fail to pay your debts, ward leases, or guild dues, and your **entire social circle is no longer willing to support or float you**.
+     - *The Harsh Truth of Spire Class:* If you had friends of that class who truly cared or held enough leverage to protect you, you wouldn't be having this problem in the first place.
+     - *Selling Possessions & Downward Displacement:* Once your social circle cuts you off, you are forced to **liquidate your fine clothing, heirloom carriages, and personal possessions to settle debts, and physically move down to a lower ward and level of living**.
+- **The Ultimate Bottom:** If debts persist and money is completely gone, an individual will slide relentlessly down through the strata until they are **forced into the unpoliced slums of the Warrens or must flee the Spire entirely**. No ancient title or ancestral pedigree shields someone who cannot pay.
 
-### The 2-Tier Social Mobility Cap (Except by Royal Proclamation)
-In Victorian Spire civilization, social hierarchy is strictly defined and institutionally conservative:
-- **The 2-Tier Lifetime Mobility Limit:** Under standard Spire law and social custom, an individual or family line can naturally rise or fall by a **maximum of 2 social tiers within their lifetime**:
-  - *Example (Upward Mobility):* A humble Laborer (Status 1) through extraordinary skill and commercial luck can establish a shop or master a craft, rising to an established **Artisan (Status 2)** or **Standard Merchant (Status 3)**. However, they cannot leap to a landed **Noble (Status 4+)** or **Wall Merchant (Status 6)** without a direct Royal Proclamation.
-  - *Example (Downward Mobility):* A failing noble who squanders their wealth may fall to a **Standard Merchant (Status 3)** or **Artisan (Status 2)**, but their recognized heritage prevents them from being instantly cast into the Warrens unless condemned for high treason.
-- **The Only Exception (Royal Proclamation):** The **King of Arclean** alone possesses the absolute sovereign authority to break the 2-tier cap—elevating a common hero directly to the Nobility or ennobling a Wall Merchant dynasty through a signed **Royal Charter**.
-- **Restoring Lost Status (The Disgraced Heir):** A noble heir or merchant family that has fallen in status can restore their family name and reclaim their hereditary tier by achieving great service: discovering an unplundered pre-collapse vault, securing a new external mining lease, or distinguishing themselves in a Crown military campaign.
+### Ward Travel, Escort & Summons (The Sponsorship Rule)
+Spire wards are strictly gated and policed, but lower-status individuals can travel into upper wards under specific, ironclad rules:
+- **The Ward Sponsor Rule:** Anyone traveling into a ward **alongside a person whose base status equals or exceeds that ward's entry baseline** may enter freely, provided all required **ward wealth fees and transit tolls are fully covered by the group**.
+  - *Example:* A Status <= 0 Warrens outlander or Status 10 laborer can walk openly through Ward 13 or an aristocratic quarter so long as they are accompanied by a companion whose status meets the ward's threshold (e.g. a Noble or Wall Merchant) and the transit fees are paid.
+- **Formal Summons:** An official, authenticated **summons** issued by an authority, institution, magistrate, or high-status resident acts as equivalent entry clearance, permitting the summoned individual to proceed directly to their destination under the authority of that summons.
+
+### Status, Salons & The Understanding System (Talking vs. Information)
+Holding high social status provides undeniable physical and social access, but does not grant automatic obedience:
+- **Automatic Access with Sufficient Status:** If a character possesses enough Social Status, **doors open automatically**. They can enter high-society salons, attend closed guild gatherings, sit in exclusive dining rooms, and initiate conversation with high-ranking peers without being turned away by guards or footmen.
+- **Talking vs. Getting Information (The Core Distinction):** While high status gets you in the room and permits you to exchange pleasantries, **talking to someone and actually extracting actionable, confidential, or sensitive information are very different things**:
+  - High-society peers are deeply protective of house secrets, political schemes, and financial vulnerabilities.
+  - Simply being a peer does not entitle you to their private ledgers or state gossip; characters must still leverage **Understanding, contacts, social maneuvers, or reciprocal favors** to get real, actionable intel beyond superficial salon chatter.
+
+### Sword Rights: Firm Law & Custom (No Workarounds)
+In Spire jurisprudence, the division of **Sword Rights** is absolute:
+- **Firm Law & Custom (Zero Loopholes):** Custom and Spire statutes are rigid and unwavering. There are **no clever legal workarounds, special registry loopholes, or backdoor exceptions**:
+  - **Lesser Nobility (Status 55-60):** Do **NOT** have sword rights under any circumstances. They cannot carry dueling blades (rapiers, smallswords, court sabers) in public wards.
+  - **Standard Nobility (Status 65-75), Wall Merchants (80-90), and Great Houses (85-95):** Hold full legal sword rights and the recognized right to open-carry dueling swords in public wards.
+- **No Compromise on Class Prerogatives:** Lesser nobles who attempt to carry a dueling blade by buying honorary military titles, claiming civil magistrate exemptions, or inventing novel pretexts will have the weapon confiscated on the spot and face public censure from the King's Guard. Class privileges are jealously guarded by the higher nobility, and the Crown permits no blurring of these lines.
+
+### Social Status Follows the Family & Household
+Status is fundamentally tied to the household and family unit:
+- If a humble guild craftsman (Status 30) somehow manages to marry a lesser noble's daughter (Status 60), **and they move into the manor house of his new wife**, the craftsman and his children are socially acknowledged and treated as **Lesser Nobility (Status 60)**.
+- Conversely, if that same noble daughter moves down into the craftsman's cramped tenement in Ward 11, the household's effective daily standing drops to reflect the artisan quarter they inhabit.
+
+### Parental Conferred Status Rule (Parental & Institutional Standing)
+A character's baseline social standing is derived directly from their parents' standing within their household, lineage, or institution:
+- **Standard Baseline (Same Rank as Parents):** For the vast majority of society (laborers, freemen, craftsmen, soldiers, junior merchants, academics), children **start at the exact same rank as their parents**. A carpenter's or beat constable's child holds the recognized social standing of that family and community stratum.
+- **The Leadership Caveat (Children Start Below Leaders):** When parents hold a **leadership role** in an organization, dynasty, or guild (e.g., Guildmasters, Fortress Commandants, Merchant Barons, House Patriarchs, or titled Nobles), the PC **cannot start at that apex leadership rank**. Instead, the PC starts **just below the parent** (typically within the same broad class bracket or 1–5 points lower), reflecting junior family or junior officer standing:
+  - *Example (Guildmaster Parent, Status 52):* The child does not start as a Grand Guildmaster; they start just below as a respected Master Artisan or Senior Craftsman (Status 45–50).
+  - *Example (Great House Patriarch, Status 95):* The child does not hold sovereign patriarch status; they start as a recognized Great House scion (Status 85–90).
+- **Institutional Weight:** The child enjoys the legal protections, household privileges, and social deference of their family's standing by default, unless formally disowned, cast out, or bankrupted.
+
+
+### Retainer Social Status (The -20 Reflected Status Rule)
+In Spire society, full-time retainers (personal bodyguards, stewards, valets, carriage drivers, armed armsmen) do not command high status of their own right; rather, **their status is a direct reflection of who they represent**:
+- **The -20 Formula:** A full-time retainer's operational Social Status is equal to their **Sponsoring Master's Status - 20**:
+  - *Standard Merchant Retainer (Master Status 50):* Retainer operates at **Status 30** (treated with the standing of an established shopkeeper or clerk).
+  - *Lesser Noble Retainer (Master Status 60):* Retainer operates at **Status 40** (treated with the standing of an innkeeper or senior estate steward).
+  - *Standard Noble Retainer (Master Status 70):* Retainer operates at **Status 50** (treated with the deference of a court magistrate or university graduate).
+  - *Wall Merchant Retainer (Master Status 85):* Retainer operates at **Status 65** (treated with the authority of landed barons; authorized to carry livery dueling sidearms under house rite).
+  - *Great House Noble Retainer (Master Status 95):* Retainer operates at **Status 75** (commands immense civic deference across all wards, carrying Great House crests and authorized house weapons).
+- **Reflected Standing, Not Personal Pedigree:** This status belongs to the **livery and crest they wear, not their personal bloodline**. If a Great House guard steps out of uniform or is dismissed, they instantly revert to their personal civilian baseline (often Status 11–20). While in uniform representing their master, ward constables and municipal clerks treat them according to their sponsor's reflected standing.
+
+### Domestic Household Servants (The -30 Reflected Status Rule)
+
+Domestic household servants (chambermaids, cooks, scullery staff, laundry maids, footmen, and household valets) can be hired by **anyone with the money to employ them** (merchants, academics, professionals, and nobles alike). 
+
+Like retainers, their social standing reflects the household they serve:
+- **The -30 Formula (Floor: Status 16):** A domestic household servant operates at **$	ext{Employer's Status} - 30$**, but their status **will never drop below Status 16 (Freeman / Freewoman Baseline)** so long as they are employed:
+  - *Employed by a Freeman / Craftsman (Employer Status 25–40):* Operates at the **floor of Status 16** (respected free domestic worker).
+  - *Employed by a Standard Merchant (Employer Status 50):* Operates at **Status 20** (recognized commercial household staff).
+  - *Employed by a Lesser Noble (Employer Status 60):* Operates at **Status 30** (treated with the standing of a junior clerk or shopkeeper).
+  - *Employed by a Standard Noble (Employer Status 70):* Operates at **Status 40** (treated with the standing of a respected estate manager or innkeeper).
+  - *Employed by a Wall Merchant (Employer Status 85):* Operates at **Status 55** (treated with the standing and deference of an educated professional or magistrate's secretary).
+  - *Employed by a Great House Noble (Employer Status 95):* Operates at **Status 65** (senior Great House chamberlains and head housekeepers command status rivaling landed barons in public wards).
+- **Reflected Standing in the Markets:** When a Great House maid walks through the Ward 11 market wearing her family crest or badge, shopkeepers rush to serve her first and offer wholesale courtesy—knowing that insulting the maid insults the Great House that employs her.
+
+### The Dual Status Rule
+Often a character naturally holds **two very different social statuses at once**—for example, a Duke's third son (Noble Status 88) whose father forced him to enlist as a regular private in the Crown Army (Military Status 28).
+
+When a character holds dual statuses, the following rules apply:
+1. **When the Operational Role Demands a Status:** The character is treated strictly at that functional status. 
+   - When the Duke's son is on duty, standing guard at a checkpoint, marching in drill formation, or deployed into combat, **he is treated as a regular soldier (Status 28)**. He takes orders from his sergeant and must obey military discipline.
+   - *The Reality of Memory:* Of course, **no one actually forgets who he is**. The sergeant will be mindful not to push him to suicidal abuse, and the officers know his father sits in the Summit salons, but within the bounds of his military posting, his active status is military.
+2. **When No Role is Mandated (Off-Duty / Voluntary Situations):** The player **gets to choose which status to present**.
+   - Entering an exclusive salon in Ward 13? He presents his noble lineage (Status 88).
+   - Slumming in a dockside tavern or negotiating with prize-fighters who distrust aristocrats? He leans on his soldier's rough uniform and barracks camaraderie (Status 28).
 
 ---
 
-### Ownership in a Spire & The Feudal Management Chain
-- **The King Owns Everything:** Ultimately, all land, spire structure, and territory in the kingdom belongs to the **King**.
-- **The Great Noble Houses (Royal Stewardship):** Through royal decree, the King has assigned responsibility for all property inside the Spires and across the outside territories to the **Great Noble Houses**. A single Great House may hold a presence across multiple Spires, and the **25 most important Great Houses** all hold dedicated sections of the capital city, **New Avalon**.
-- **The Noble Houses (Tax Collection, Holdings & Administration):** The Great Houses manage their vast territories through the lesser and middle **Noble Houses**. These nobles perform the actual day-to-day work of **collecting taxes and managing holdings**:
-  - **General Holdings:** Any non-dedicated holding of decent size will have a Noble running it.
-  - **Specialized Industrial/Agrarian Combines:** Dedicated industrial or agricultural operations—such as **mines, farmers' combines**, and guild foundries—may or may not have a Noble directly running them.
-- **Spire Leases, Rent Formulas & Vertical Residential Mobility (World Lore, Not Player Math):**
-  - **In-Universe Lease Formula & Wealth Surcharge:** Within the fiction of the Spires, the cost of leasing a location follows a strict bureaucracy (complete with a regulated surcharge on wealth generation for commercial/productive premises), with managing **Nobles collecting the rent** and **finding new tenants** whenever a property falls empty.
-  - **Fluid Movement Across Wards & Circles:** Citizens may freely choose a residence in **Ward 13 or lower** if they can secure a lease and afford the ongoing lifestyle costs. Every Ward—and even **where within a Ward** a property is located (Low, Mid, or High Circle, window proximity, or avenue)—affects its cost and desirability. Residents move into nicer flats when their fortunes improve and slide into cheaper or cramped locations when they cannot sustain the expense. Changing residence does not confer a hereditary or institutional class.
-  - **Group Status Dictates Living Conditions (Zero Macro-Micromanagement):** Because the vast majority of Spire residents live in **apartments and workspaces supplied by their Trade Guild or Family House**, maintaining the **status and wealth of the group** is paramount to everyone's daily living conditions. **At the table, players never micromanage lease costs, square footage, or macro-level commercial gains**—housing and facilities are handled abstractly by Group Status, Standing, and Storyteller adjudication.
-- **Class Membership Is Separate from Wealth & Address:** Noble and Royal distinctions are hereditary, acquired by birth or recognized marriage. Base Merchant status can be reached through sufficient resources and standing, demonstrated by ownership of one or more significant commercial assets such as an inn, warehouse, or skyship; simply trading or owning a small shop is not enough. Wall Merchant status is usually dynastic, though a new house may rarely replace a failing one. Wall Merchants are robber barons whose holdings may include fleets of airships, multiple warhorses, territory in other Spires, and royal grants of mines or hamlets. A noble whose wealth and standing fall far enough may become a Merchant; their noble title ceases to exist, and they commonly relocate to another Spire to escape the shame. Military class depends on serving; University class depends on being a student or instructor. Citizens' freedom to choose an affordable residence in Ward 13 and lower does not itself grant hereditary or institutional status.
-- **Government Offices (Nobles & Collegium Graduates):** Nobles also fill much of the government offices across the Spire. Outside of the nobility, **non-nobles who have completed their education in the University Collegium make up nearly everyone else** in civil government and administrative office.
-- **What Defines a Merchant (Scale, Retail & Trade Networks vs. Producer-Sellers):**
-  - **Merchants** are people with the resources and standing to own one or more significant commercial assets, such as an inn, warehouse, or skyship, and to operate trade at scale. Merely making or preparing goods for sale—as in a self-operated restaurant, inn, or craft business—belongs to the **Guild/Artisan** or **Citizen** tiers; owning such an enterprise as an investment can support Merchant status.
-  - Beyond retail, Merchants run the commercial trade networks that command **skyships, sea-going vessels, and land caravans** moving cargo between settlements, while others operate smaller **warehouses or regional trading centers**.
-- **The Great Disruption: Rise of the Merchant Houses & Wall Merchants:**
-  - Over the last few centuries, the advancement of Clockwork technology and long-term defensive stability both *allowed* vastly more trade and *demanded* ever-greater imports to keep the Spires supplied with the raw materials, parts, and luxuries required for their current level of status.
-  - Initially, when liquid wealth was rare, merchants forming co-ops and larger commercial organizations caused no political friction. However, as trade volume exploded, the wealth of the largest merchant organizations **soon exceeded that of the lesser and middle Noble Houses—and eventually rivaled or even surpassed the Great Noble Houses themselves**.
-  - Forced to reckon with this new ultra-wealthy class, the Crown and aristocracy accommodated them through two historic shifts:
-    1. **Aristocratic Marriage Alliances:** Suddenly, if a merchant dynasty possessed enough liquid fortune, it became socially acceptable for their heirs to **marry directly into a Noble or even a Great Noble House** (injecting vast merchant capital into landed aristocratic bloodlines).
-    2. **Crown Land Leases Outside the Spires:** As merchant fortunes continued to climb, **the King began directly leasing royal grants to properties outside the Spires** (mines, timberlands, agricultural shires, and outland trade forts) to these top Merchant Houses—territorial concessions that previously **only the Great Noble Houses were ever permitted to hold**. (Inside the Spires themselves, stewardship remains strictly the domain of the Great Noble Houses).
+### Reclaiming Lost Status vs. Purchasing Dormant Standing
+- **Status Points Are Not Automatically Restored When Lost:** If a character's standing falls due to debts, scandal, or demotion, those lost status points do not automatically regenerate; the underlying debts or disgrace must be handled.
+- **Reclaiming is Far Easier Than Climbing Unearned Ranks:** Because society, records, and former peers already recognize your lineage, education, manners, and former station, **reclaiming a lost status that you previously held or paid for is vastly easier than climbing into an unearned rank without having paid the cost**. The Storyteller sets a significantly lower bar (minor restitution, clearing a warrant, or securing an old patron's endorsement) to restore that standing.
+- **Purchasing a Higher Dormant Status (Player Control of Narrative Arc):**
+  - A player character **can deliberately purchase a higher Social Class at character creation than the station they currently inhabit** (e.g. paying the Edge Points for Wall Merchant or Noble while starting play living in the Warrens or serving as an enlisted private).
+  - **Player Controls How & When Proper Status is Reclaimed:** The player retains complete control over how and when their character reclaims their proper status. Whenever the player decides their character's redemption arc reaches its turning point (producing a hidden signet ring, settling an old family debt, or revealing their true heritage), their full purchased status is restored without Storyteller gatekeeping.
+
+### Mandatory Class Restrictions: Noble & Merchant Only
+Across the entire Spire setting and class system:
+- **The Only Restricted Classes:** **Noble** and **Merchant** are the **only two character classes with mandatory social class requirements**. All other classes (Soldier, Scout, Bombardier, Clockwork Engineer, Chirurgeon, Pugilist, Rake, Scholar, Survivor, Officer, Clockwork Rifleman, and Grey Marketeer) can be played freely across any social stratum (Status $\le 0$ to 100) without losing class features, combat abilities, or directives.
+- **Consequences of Falling Below Class Thresholds:**
+  - **Noble (Floor Status 55):** If a Noble falls below Status 55 (or is stripped of title/disowned), they retain general combat feats, but **immediately lose 3/4 (75%) of all high-society connections, patrons, and council favors** (the player chooses which 25% remains loyal), and sovereign writs/retinues are suspended. Crucially, if falling below Status 65, **they immediately forfeit their legal sword rights**; openly carrying a dueling blade becomes an arrestable crime.
+  - **Merchant (Floor Status 30 / Wall Merchant Floor 80):** If a Merchant defaults, goes bankrupt, or is blacklisted below Status 30, they **immediately lose 3/4 (75%) of commercial connections, lines of credit, and guild favors** (the player chooses which 25% remains loyal). For Wall Merchants who fall below Status 80, **they immediately forfeit both legal sword rights and the legal right to field armed corporate retainers** in public wards.
+
+## 2. Institutional Departures: Retirement, Cause & Disgrace
+
+Because institutional backing anchors status, leaving a service or guild alters your standing:
+
+### 1. Military, Constabulary & King's Guard Departures
+- **Honorable Retirement (-10 Status Shift):** When a soldier, watch officer, or King's Guard veteran steps down honorably, they lose the active coercive authority of the uniform but retain deep civic deference and veteran standing. They reduce their active service status by **-10 points** (e.g., an active Captain at Status 55 retires honorably to Status 45).
+- **Discharge With Cause (-10 Status Shift + Loss of Honors):** Dismissal for incompetence, administrative failure, or mutual parting drops the character by **-10 points** and forfeits veteran pensions and official letters of recommendation.
+- **Dishonorable Discharge (Court-Martial to Prisoner or Bondsman):** Serious offenses (desertion, insubordination, theft, or mutiny) strip all previous status immediately:
+  - *Dereliction & Theft of Property:* Drops to **Status 4 (Bondsman)**, serving an adjudicated term of forced labor.
+  - *Violence & Mutiny:* Drops to **Status 2 or 3 (Prisoner)**, serving multi-year or 1-year hard labor in the penal sump-mines.
+  - *Treason & Sabotage:* Drops to **Status 1 (Lifetime Prisoner)** or execution.
+  - *Fleeing Into the Warrens:* Stripped of citizenship entirely, becoming **Status $\le 0$ (Non-Citizen / Outlaw)**.
+
+### 2. Guild Craftsmen & Academics
+- **Guild Craftsmen Always Retain Status:** Craft status is an indelible personal qualification earned through apprenticeship and examination. A Master Clockmaker or Journeyman Armorer retains their guild-recognized status for life, so long as they remain in good standing with the craft livery.
+- **Academic & Collegium Departures:**
+  - *Active Career Shifts:* An academic leaving university research typically moves into an active new civil office (magistrate, legal consultant, municipal architect) and assumes the status of that new role.
+  - *Honorable University Retirement:* Academic fellows who genuinely retire from active governance follow the standard **-10 Status Shift** (emeritus status).
 
 ---
 
-## 2. Character Class Availability by Social Tier
-
-Below are the setting's seven primary social tiers, divided into **Common** (the typical, expected professions) and **Uncommon** (rare, atypical, but completely viable for PCs).
+## 3. The 0–100 Social Class Hierarchy
 
 ```
-Character Classes Evaluated:
-• Soldier (Fighter / Savage Combatant) • Scout (Ranger: Outrider & Subterranean Miner)
-• Dandy (Swashbuckler)                 • Clockwork Engineer (Inventor)
-• Survivor (Rogue)                     • Inspector (Investigator)
-• Chirurgeon (Alchemist: Medic)        • Clockwork Rifleman (Gunslinger)
-• Mad Bomber (Alchemist: Bomb)         • Pugilist (Monk: Boxer / Savage Brawler)
-• Officer (Champion: Officer)          • Sky Captain (Swashbuckler: Airships)
-• Artisan (Craftsman)                  • Scholar (Academic / Architect / Accountant)
-• Influence Trio: Merchant, Noble, Grey Marketeer
-*(Note: Former standalone Brute class is consolidated into the Level 2/4/8 Savage Combatant feat line for Soldiers and Pugilists; former Miner class is consolidated into Scout).*
+[  <= 0  ] Non-Citizens (Warrens Outcasts, Unregistered Migrants, Outlaws)
+[  1 - 5 ] Levels of Restraint & Penal Bondage
+[  6 - 10] Physical Labor (Unskilled / Zero Trust)
+[ 11 - 15] Trusted Laborers (Physical Responsibility & Cargo Trust)
+[ 16 - 20] Freemen & Freewomen (Skilled, but Unaffiliated)
+[ 21 - 25] Apprentices & Enlisted Military Recruits
+─────────────────────────── [ OVERLAPPING SECTORS ] ───────────────────────────
+[ 26 - 55] Guild Craftsmen & Artisans
+[ 26 - 65] Military & Constabulary Career Ladder
+[ 30 - 70] Standard Merchants (Shopkeeper to Large Merchant House Factor)
+           [ 10-POINT INSTITUTIONAL GAP: 71–79 ]
+[ 45 - 70] Academia & University Collegium
+[ 55 - 60] Lesser Nobility (Country Gentry & Minor Hereditary Titles)
+[ 65 - 75] Standard Nobility (Landed Barons, Shire Lords & Viscounts)
+[ 80 - 90] Wall Merchants (Ultra-Wealth Dynasties & Sky-Shipping Barons)
+[ 85 - 95] Great House Nobles (Scions, Heirs & Patriarchs/Matriarchs)
+───────────────────────────── [ THE APEX: 96–100 ] ────────────────────────────
+[   96   ] Royal Ministry Appointed (Cabinet Ministers & High Judges while serving)
+[   97   ] Great House Heads (The 25 Sovereign Spire Patriarchs/Matriarchs)
+[   98   ] Royalty (Dynastic backup lines, 2nd & 3rd generation of previous King)
+[   99   ] The Royal Family (The Sovereign's Immediate Household & Crown Prince)
+[  100   ] The King of Arclean (Absolute Sovereign)
 ```
 
-> [!NOTE]
-> **Class Advisory (Combat Utility & NPC Suitability):**
-> While all classes listed above are mechanically complete and available for player characters, **Scholar** and **Artisan** are heavily slanted toward academic lore, diagnostic analysis, and downtime guild craftsmanship. If a violent combat encounter breaks out, both classes may struggle to remain dynamically impactful round-to-round compared to dedicated martial or tactical skirmishers, and some players may find this lack of direct combat potency unenjoyable. Consequently, these two classes often work best as **key NPCs** (university patrons, legal barristers, municipal architects, and master guild smiths) or for players explicitly seeking non-combat-centric campaigns.
->
-> *(Note: **Merchants** are deliberately not flagged with this advisory. Because Merchants control the greatest liquid wealth, credit lines, and trade connections, they can afford extensive inventories of high-end disposable items—specialty ammunition, alchemical concoctions, smoke screens, flash canisters, and clockwork gadgets—granting them a vast array of tactical options in combat through gear expenditure).*
+---
+
+### Tier I: Non-Citizens & Penal Restraint ($\le 0$ to 5)
+
+| Status | Station & Classification | Legal Standing & Setting Realities |
+| :---: | :--- | :--- |
+| **$\le 0$** | **Non-Citizen / Warrens Outcast** | Residents of the Warrens, unregistered slum-dwellers, escaped debtors, and wild outlanders. Zero civil rights, no court representation, no legal property ownership. Can be arrested or cleared without municipal inquiry. |
+| **1** | **Lifetime Prisoner** | Convicts condemned to permanent hard labor in the toxic subterranean sump-mines. Civil death; stripped of all personal property. |
+| **2** | **Long-Term Prisoner** | Multi-year penal sentences under armed guard; civil rights suspended during sentence. |
+| **3** | **Short-Term Prisoner** | Municipal sentences of 1 year or less; debtor workhouse terms, pending discharge. |
+| **4** | **Bondsman** | Adjudicated employer or court bond; legally restricted to assigned labor until debt or restitution is worked off. |
+| **5** | **Indentured Servant** | Contractual service under a recognized master or workshop; defined terms with standard food/lodging leading to recognized citizenship upon completion. |
 
 ---
 
-### Tier 1: Slums, Warrens & Outcasts (Status –1 to 0)
-*Residents of the Lower and Upper Slums (Wards 4 & 5), fungal farmers, indentured debtors, and Warrens dwellers.*
-- **Social Backing:** None officially. Informal allegiance to Warrens bosses (e.g., Johnny Ralen, Amanda Coren) or local criminal crews. No legal vote.
-- **"Buying Out of the Warrens" as a Valid PC & Ancestry Origin:**
-  - By Crown doctrine, **the King considers all people in the Spire (including the Warrens) to be citizens by default**.
-  - **"Buying out of the Warrens"**—accumulating enough wealth to dress like you don't belong in the Warrens, bribing a checkpoint guard to accept that you *"lost your re-entry token/information,"* and having enough coin for food and sleep until your first payday in the Slums (`Wards 4–5`) or Food Processing Ward (`Ward 3`)—**is not considered illegal, and the guard accepting that bribe isn't even subject to a write-up**.
-  - This intentional royal filter **ensures that the people leaving the Warrens are the resourceful, driven individuals the Spire needs** (whom Ward employers hire with almost no questions asked), while leaving the rest of the poor in the Warrens to cultivate the `Sycelium`/`Mela` fungal crops that feed the Spire. This makes a Warrens escapee (including Human, Orc, or Goblin-touched origins) a **completely valid, natural PC background**.
-  - **The Tragic Reverse Flow (Why People Enter the Warrens):** Sadly, many people constantly flow the opposite way—when life becomes so hard that someone **can no longer afford to live even in the Slum Wards**, or when they are **hiding from people and debts they *cannot* pay**. That *cannot* is literal: **no one who can pay their debts or afford the Slums ever willingly enters life in the Warrens**.
-- **Common Classes:**
-  - **Survivor:** The quintessential slum runner, cutpurse, scout, and alley fixer.
-  - **Pugilist (including Savage Combatants):** Bare-knuckle street thugs, illegal pit fighters, Warrens syndicate muscle, and dockside brawlers.
-  - **Grey Marketeer:** Underworld syndicate operators, fences, and smuggling bosses.
-  - **Scout (Subterranean Miner):** Indentured debt-laborers and penal diggers working the hazardous lower sump-shafts.
-- **Uncommon Classes:**
-  - **Mad Bomber:** Self-taught demolitionists brewing unstable ordnance in Warrens hideouts.
-  - **Chirurgeon:** Back-alley trench doctors patching up wounded criminals and debtors without questions.
-  - **Clockwork Rifleman:** Former deserters, scavengers with salvaged Neither cartridge guns, or back-alley marksmen.
-  - **Scout:** Escaped serfs or Neither wanderers who know how to navigate outer ruins and deadly fog.
+### Tier II: Working Free Citizens (6 to 25)
+
+| Status | Station & Classification | Legal Standing & Setting Realities |
+| :---: | :--- | :--- |
+| **6–10** | **Physical Labor (Unskilled / Zero Trust)** | Pure brute muscle with no sensitive trust: ditch diggers, rubble movers, scrap carriers, field weeders, basic hand-carters. Full free citizen status, but minimum civil leverage. |
+| **11–15** | **Trusted Laborers** | Labor requiring tool familiarity, machinery care, or personal reliability: dock stevedores/cargo haulers, high-pressure boiler stokers, warehouse inventory movers, Spire cable riggers. |
+| **16–20** | **Freemen / Freewomen (Unaffiliated)** | Skilled individuals (carpenters, independent smiths, seamstresses, freelance mechanics, caravan teamsters) who **lack guild or house backing**. Respected for competence, but legally exposed without an institution. |
+| **21–25** | **Apprentices & Recruits** | Registered trade guild apprentices (clockmakers, masons, apothecaries) and enlisted recruits in the Crown Army or Ward Watch. **Formal institutional backing officially begins here.** |
 
 ---
 
-### Tier 2: Free Citizens & Laborers (Status 1 to 3)
-*The working backbone of the spires: farmhands in Ward 1 (Labor), foundry hands, haulers, and junior foremen.*
-- **Social Backing:** Unaffiliated citizens. Beholden to no master, but without institutional protection. 1/10 vote for freemen.
-- **Common Classes:**
-  - **Soldier (including Savage Combatants):** Enlisted recruits looking for steady pay, laborers serving a military hitch, and heavy quarry/dock workers.
-  - **Survivor:** Streetwise day-laborers and opportunistic warehouse workers navigating low-circle life.
-  - **Scout (Subterranean Miner & Outrider):** Standard excavation haulers, tunnel diggers, stone quarry laborers, and caravan handlers.
-  - **Pugilist (including Savage Combatants):** Blue-collar prize fighters, boxing gym contenders, and civilian tavern bouncers.
-- **Uncommon Classes:**
-  - **Artisan:** Independent un-guilded cobblers, carpenters, village blacksmiths, and tanning vat laborers.
-  - **Scout:** Caravan haulers, outriders, and pack handlers navigating the Peasant Paths.
-  - **Clockwork Rifleman:** Militia conscripts trained on basic Neither service rifles.
-  - **Mad Bomber:** Foundry workers handling reactive casting fluxes and demolition blast charges.
-  - **Sky Captain:** Tramp freighter riggers, junior sky-dock crew, and freelance balloonists.
+### Tier III: Overlapping Middle Institutions (26 to 70)
+
+#### 1. Guild Craftsmen & Artisans (Floor 26 — Ceiling 55)
+*Craft status is permanent once earned; craftsmen always retain their status.*
+- **26–32:** Registered Guild Journeyman (licensed craftsperson, full livery voting rights).
+- **33–42:** Senior Craftsman / Workshop Foreman (operates an authorized shop, trains apprentices).
+- **43–50:** Master Craftsman / Guild Warden (recognized master artisan, technical patent holder).
+- **51–55:** Grand Guildmaster (commands an entire trade livery company within a Ward).
+
+#### 2. Military & Constabulary Career Ladder (Floor 26 — Ceiling 65)
+*Active service standing; drops -10 points upon honorable retirement.*
+- **26–32:** Military Regular / Beat Constable (completed recruit training, authorized service sidearm).
+- **33–40:** Corporal / Sergeant / Watch Sergeant (squad command, precinct gate authority).
+- **41–50:** Commissioned Lieutenant / Precinct Inspector (ward investigatory lead, garrison command).
+- **51–58:** Army Captain / Constabulary Commander (commands fortified redoubts, garrison forts, or ward watch).
+- **59–65:** Colonel / Fortress Commandant / King's Guard Senior Officer (regimental command; prestige equals lesser and middle nobility).
+
+#### 3. Academia & University Collegium (Floor 45 — Ceiling 70)
+*Transitions into civil office or drops -10 points upon emeritus retirement.*
+- **45–50:** University Graduate / Licensed Solicitor / Sanatorium Resident Physician.
+- **51–58:** Senior Academic Fellow / Crown Magistrate / Hospital Chief of Surgery.
+- **59–65:** Collegium Chair / Assize Circuit Judge / Research Director.
+- **66–70:** Chancellor of the University Collegium / Crown Chief Inquisitor.
 
 ---
 
-### Tier 3: Guild Members & Artisans (Status 2 to 5)
-*Craftsmen of Ward 11 (Craft), luxury artisans in Ward 13, guild factors, apprentices, and Guild Masters.*
-- **Social Backing:** Powerful Trade Guild backing. The guild answers for its members, and members must support the guild. 1/2 vote.
-- **Common Classes:**
-  - **Artisan:** The definitive guildsman: blacksmiths, master tanners, masons, structural carpenters, and tailors.
-  - **Clockwork Engineer:** Master machinists, winchwrights, and clockmakers who design Neither-functional hardware.
-  - **Chirurgeon:** Guild apothecaries, herbalists, and pharmaceutical compounders.
-  - **Mad Bomber:** Pyrotechnic artisans, industrial blasting specialists, and chemical refiners.
-  - **Miner:** Master Dwarven mining guilders, tunnel surveyors, and deep-vein mineral prospectors.
-- **Uncommon Classes:**
-  - **Soldier:** Guild armory guards, caravan escorts, and private guild enforcers.
-  - **Merchant:** Ambitious guild factors, inventory procurement clerks, and apprentice traders.
-  - **Inspector:** Guild auditors and patent-infringement investigators protecting proprietary trade secrets.
-  - **Scholar:** Guild architectural draughtsmen, structural engineers, and materials actuaries.
+### Tier IV: The Merchant Spectrum (Standard Merchants vs. Wall Merchants)
+
+There are two completely distinct categories of Merchants separated by an unbridgeable **10-Point Institutional Gap (Status 71–79)**:
+
+#### 1. Standard Merchants (Floor 30 — Ceiling 70)
+*Covers all standard commercial trade, from small stalls to multi-vessel trading operations:*
+
+| Status | Mercantile Role & Assets Owned | Economic Scope & Reach |
+| :---: | :--- | :--- |
+| **30–38** | **Corner Shopkeeper & Rug Merchant** | Operates a small retail stall, street-corner carpet shop, or small trade counter. Modest liquid capital. |
+| **39–48** | **Innkeeper & Town Trader** | Owns a permanent municipal inn, a neighborhood tavern, a livery stable, or a small freight wagon line. |
+| **49–58** | **Wholesale Factor & Warehouse Owner** | Operates significant warehouse storage, intermediate supply contracts, or regional river/caravan freight lines. |
+| **59–70** | **Shipmaster & Merchant House Factor** | Owns and operates **their own functional airship or sea cargo vessel**; directs a licensed commercial house and holds local import supply contracts. |
+
+> [!IMPORTANT]
+> **The 10-Point Institutional Gap (Status 71 to 79):**
+> Standard Merchants **cap out at Status 70**. Between Status 71 and 79 sits an insurmountable legal and aristocratic gulf. Standard commercial trade—no matter how profitable—cannot simply "drift" into Wall Merchant status. Wall Merchants belong to an exclusive, sovereign-chartered financial caste holding private arms bunkers, outer-spire land concessions, and multi-airship fleets.
+
+#### 2. Wall Merchants (Floor 80 — Ceiling 90)
+*The nouveau riche robber barons who hold private arms bunkers, outer-spire mining concessions, and continent-spanning air fleets:*
+
+| Status | Station & Dynasty Scope | Economic & Political Authority |
+| :---: | :--- | :--- |
+| **80–84** | **Wall Merchant Junior Scion & House Factor** | Member of a recognized Wall Merchant family; oversees major Spire shipping yards and regional commodity monopolies. |
+| **85–89** | **Wall Merchant Dynasty Partner** | Direct partner in a Wall Merchant firm; commands multi-spire airship fleets, finances Great Noble estates, and holds Crown mining leases. |
+| **90** | **Wall Merchant Leaders** | The undisputed robber barons of the skies, commanding financial reserves that rival sovereign kingdoms. |
 
 ---
 
-### Tier 4: Military, Constabulary & King's Guard (Status 2 to 5)
-*Enlisted regulars in Ward 2 (Military), ward constables, fortress guards, and the elite King's Guard.*
-- **Social Backing:** The Crown, Ward Magistrates, or City Commanders. King's Guard answer only to the King. 1/10 to full 1 vote.
-- **Common Classes:**
-  - **Soldier:** Regular infantry, shield-wall veterans, garrison sergeants, and line fighters.
-  - **Officer:** Commissioned captains, constabulary precinct chiefs, and King's Guard tactical commanders.
-  - **Clockwork Rifleman:** Wall snipers, marksmen, and trench gunners trained on cartridge rifles.
-  - **Inspector:** Ward constables, court inquisitors, and King's Guard investigators solving crimes and treason.
-  - **Sky Captain:** Crown Air Navy zeppelin captains, aerial corsairs, and spire defense flyers.
-- **Uncommon Classes:**
-  - **Mad Bomber:** Combat sappers, siege engineers, and military ordinance technicians.
-  - **Chirurgeon:** Military field medics and trench hospital doctors.
-  - **Scout (Outrider & Combat Sapper/Miner):** Military perimeter foresters, forward scouts, counter-mining specialists, and trench excavators.
-  - **Pugilist (including Savage Combatants):** Military hand-to-hand combat instructors, vanguard shock-brawlers, and rough-and-tumble ward constables.
+### Tier V: Nobility Ladder (Lesser, Standard & Great House Nobles)
+
+Nobles hold ancient blood prestige and crown land stewardship, structured into three clear brackets:
+
+#### 1. Lesser Nobility (Status 55 to 60)
+*Nobles who must work for a living—not by choice, but out of financial and family necessity:*
+
+Lesser nobles are the working executive arm of the aristocracy. Unlike standard landed peers who live off rents and leisure, **lesser nobles must work an active profession to maintain their lifestyle and standing**:
+- **Administrative & Political Appointees:** They serve as municipal governors, crown magistrates, precinct adjudicators, and ward registrars.
+- **Estate & Rent Managers:** They are the individuals assigned by senior Nobles or Great Houses to do the gritty, day-to-day work of **managing holdings, inspecting tenants, auditing accounts, and collecting the rent**.
+- **Working Commissions:** They serve as career military officers, naval attachés, or bureaucratic overseers for crown combines.
+
+| Status | Noble Rank & Estate Scope | Societal Privileges & Authority |
+| :---: | :--- | :--- |
+| **55–60** | **Lesser Noble (Working Gentry & Appointees)** | Working noble executives: municipal ward governors, magistrates, estate bailiffs, and holding managers assigned by Great Houses to collect rents. They carry recognized aristocratic blood, but do NOT have sword rights (open sword carry is reserved for Standard Nobility Status 65+, Wall Merchants, and commissioned military/guard officers). They must work an active post to support their household. |
+
+#### 2. Standard Nobility (Status 65 to 75)
+*Landed peers, barons, viscounts, and shire lords managing major crown agricultural territories or Spire residential districts:*
+
+| Status | Noble Rank & Estate Scope | Societal Privileges & Authority |
+| :---: | :--- | :--- |
+| **65–70** | **Landed Barons & Spire Landlords** | Managing landlords overseeing whole municipal Spire residential circles or productive rural shires; commands local retainers. |
+| **71–75** | **Viscounts & Senior Landed Peers** | Senior provincial landlords and historical court peers; holds significant tax collection charters and high court voting privileges. |
+
+#### 3. Great House Nobles (Floor 85 — Ceiling 95)
+*The dynastic bloodlines of the 25 Great Noble Houses of Arclean—stewards of the Spires and provincial lands, sitting strictly above Wall Merchants (80–90):*
+
+| Status | Great House Rank | Societal Privileges & Sovereign Authority |
+| :---: | :--- | :--- |
+| **85–88** | **Great House Cadets & Scions** | Recognized family bloodlines and scions of the 25 Great Houses. Commands instant court deference; sits above junior Wall Merchants. |
+| **89–94** | **Great House Heirs & Inner Council** | Direct heirs and council stewards of the 25 Great Houses. Governs Spire sectors and historical family regiments. |
+| **95** | **Great House Leaders / Senior Patriarchs** | The ruling leaders and senior patriarchs/matriarchs of the premier Great Houses. |
 
 ---
 
-### Tier 5: Academia & University Collegium (Status 4 to 6)
-*Scholars, medical students, legal researchers, and professors residing in the University Ward.*
-- **Social Backing:** The University Collegium and Academic Faculty. Substantial civic prestige and legal deference. Full 1 vote (BA+).
-- **Common Classes:**
-  - **Scholar:** The defining class of the Collegium—professors, structural architects, municipal actuaries, and Neither-phenomenon theoreticians.
-  - **Inspector:** Academic criminologists, legal researchers, and forensic analysts unearthing evidence.
-  - **Chirurgeon:** Medical faculty doctors, hospital anatomists, and academic biochemists.
-  - **Clockwork Engineer:** University mechanists, theoretical physicists, and clockwork architects.
-- **Uncommon Classes:**
-  - **Mad Bomber:** University chemical researchers whose experiments border on dangerous obsession.
-  - **Dandy:** Wealthy student dilettantes attending university for prestige, spending more time fencing than studying.
-  - **Merchant:** University trade administrators, bursars, and commercial sponsors funding academic expeditions.
+### Tier VI: The Sovereign Apex (96 to 100)
+
+| Status | Title & Office | Sovereign Scope & Authority |
+| :---: | :--- | :--- |
+| **96** | **Royal Ministry Appointed** *(While Serving)* | High Chancellor of the Exchequer, Lord Chief Justice, Minister of War. Their word carries sovereign administrative weight across all Spires while holding royal office. |
+| **97** | **Great House Heads (Sovereign Stewards)** | The premier hereditary rulers of the 25 Great Houses of Arclean; royal stewards of the Spires and provincial lands. |
+| **98** | **Royalty (Dynastic Backup Lines)** | Aunts, uncles, and 2nd/3rd-generation scions of previous monarchs; sovereign dynastic insurance. |
+| **99** | **The Royal Family** | The Queen/Consort, Crown Prince/Princess, and immediate royal siblings. |
+| **100** | **The King of Arclean** | King Macelus Wilheart; absolute sovereign owner of all lands, spires, and titles. |
 
 ---
 
-### Tier 6: Merchant Houses & Wall Merchants (Status 3 to 8)
-*Traders, mercantile federation masters, Merchant House scions, and billionaire Wall Merchants.*
-- **Social Backing & Commercial Scope:** Merchant federations, family trade houses, or multi-spire shipping cartels holding highly fragile liquid wealth. Merchants make up those who sell goods at scale and own profitable shops—usually **not** restaurants, inns, or workshops where the person selling the item is also the person making it. They also run the trade networks commanding **skyships, sea vessels, and land caravans** that move goods, while others run smaller **warehouses or trading centers**.
-- **Resource Threshold & Wall Merchant Scale:** Base Merchant status is open to people whose resources and standing support ownership of one or more significant commercial assets, such as an inn, warehouse, or skyship; status is not limited to those born into a Merchant House. Wall Merchants are robber barons at a much larger scale: their holdings may include fleets of airships, multiple warhorses, territory in other Spires, and royal grants of mines or hamlets. A new Wall Merchant house may rarely replace a failing one.
-- **The Great Disruption & Parity with Nobility:** Driven by centuries of clockwork tech and stability that both enabled and demanded massive trade, merchant co-ops grew into corporate dynasties whose fortunes exceeded ordinary Noble Houses and rivaled or surpassed the **25 Great Houses**. In response, two doors opened for the wealthiest merchants: 1) it became socially acceptable for sufficiently wealthy merchants to **marry into Noble and Great Noble Houses**, and 2) the King began **leasing grants to properties outside the Spires** directly to top merchants—a privilege formerly reserved exclusively for the Great Noble Houses.
-- **Common Classes:**
-  - **Merchant:** The defining class of this tier—trade factors, house scions, and master negotiators.
-  - **Sky Captain:** Merchant fleet commodores, cargo zeppelin captains, and high-altitude blockade runners.
-  - **Dandy:** 3rd- or 4th-born children of wealthy merchant dynasties indulging in salon dueling and luxury vices.
-- **Uncommon Classes:**
-  - **Scholar:** Retained corporate accountants, municipal legal barristers, and estate architects managing investments.
-  - **Officer:** Private fleet security commanders, mercantile convoy marshals, and merchant-house guard captains.
-  - **Clockwork Engineer:** Retained master inventors developing patented airship tech and private machinery.
-  - **Clockwork Rifleman:** Elite private security guards, shipboard marksmen, and bodyguard escorts.
-  - **Scout:** Long-range trade route pathfinders and expedition leaders mapping new contacts.
-  - **Survivor:** Disowned scions, underworld middlemen, or street-smart merchant agents handling covert deals.
-  - **Inspector:** Corporate security officers unmasking internal embezzlement, fraud, and sabotage.
+## 4. Social Class & Character Class Integration
 
----
-
-### Tier 7: Nobility & Great Houses (Status 5 to 9)
-*Lesser Nobles in town estates, Middle Nobility, Upper Nobility, and the 25 Great Houses.*
-- **Social Backing & Administrative Role:** Hereditary royal charters, landed grants, and direct King's Court standing. Because the King owns everything and delegates stewardship to the **Great Noble Houses** (the 25 most important of which all control sections of New Avalon and often multiple Spires), the Great Houses rely on the lesser and middle **Noble Houses** to do the actual work of collecting taxes and managing holdings. Any non-dedicated decent-sized holding is run by a noble (though specialized mines or farmers' combines may or may not have one), and nobles fill much of the Spire's government offices alongside Collegium-educated non-nobles.
-- **Common Classes:**
-  - **Noble:** The defining influence class of this tier—estate administrators, tax collectors, royal councilors, high-society diplomats, and courtly patrons.
-  - **Dandy:** Salon duelists, courtly rakes, and noble scions with excessive wealth, high charm, and fencing honors.
-  - **Soldier:** Line commanders of noble blood, chivalric household champions, and aristocratic guards.
-  - **Officer:** High-ranking military generals, admirals, and King's Guard aristocratic commanders.
-- **Uncommon Classes:**
-  - **Merchant:** Younger noble heirs who manage the family's business charters and industry grants.
-  - **Scholar:** Royal court chancellors, genealogical archivists, and royal architectural planners.
-  - **Sky Captain:** Aristocratic sporting yacht flyers and high-society aeronautical duelists.
-  - **Inspector:** Royal commissioners, high magistrates, and King's Court inquisitors investigating noble treason.
-  - **Clockwork Rifleman:** Noble sport hunters and aristocratic rifle duelists possessing imported Elven Aither guns.
-  - **Clockwork Engineer:** Eccentric noble patrons obsessed with clockwork contraptions and private workshops.
-  - **Chirurgeon:** High-society personal physicians to the Great Houses.
-
----
-
-## 3. Quick Reference Matrix
-
-| Class | Base PF2e | Primary Social Tiers (Common) | Secondary Social Tiers (Uncommon) |
-|---|---|---|---|
-| **Soldier** *(incl. Savage Combatant)* | Fighter | Military (T4), Citizen (T2), Nobility (T7) | Guild (T3), Slums (T1) |
-| **Officer** | Champion | Military/King's Guard (T4), Nobility (T7) | Merchant (T6) |
-| **Dandy** | Swashbuckler | Nobility (T7), Merchant (T6) | Academia (T5) |
-| **Sky Captain** | Swashbuckler | Merchant/Wall Merchant (T6), Military/Navy (T4) | Nobility (T7), Citizen (T2) |
-| **Survivor** | Rogue | Slums/Warrens (T1), Citizen (T2) | Merchant (T6) |
-| **Pugilist** *(incl. Savage Combatant)* | Monk | Slums/Warrens (T1), Citizen (T2) | Military (T4) |
-| **Chirurgeon** | Alchemist (Medic) | Academia (T5), Guild (T3) | Slums (T1), Military (T4), Nobility (T7) |
-| **Mad Bomber** | Alchemist (Bomber) | Guild (T3), Military (T4) | Slums (T1), Academia (T5) |
-| **Scout** *(Outrider & Subterranean Miner)* | Ranger | Free Wanderers (T1/T2), Citizen/Laborer (T2), Guild/Dwarf (T3), Military (T4) | Merchant (T6) |
-| **Clockwork Engineer** | Inventor | Guild (T3), Academia (T5) | Merchant (T6), Nobility (T7) |
-| **Clockwork Rifleman** | Gunslinger | Military (T4) | Citizen (T2), Slums (T1), Merchant (T6), Nobility (T7) |
-| **Artisan** | Hybrid (Rogue/Inv) | Guild (T3) | Citizen/Laborer (T2) |
-| **Merchant** | Replaced Bard (Influence) | Merchant (T6) | Nobility (T7), Guild (T3), Academia (T5) |
-| **Noble** | Replaced Bard (Influence) | Nobility (T7) | Academia (T5), Military (T4) |
-| **Grey Marketeer** | Replaced Bard (Influence) | Slums/Warrens (T1) | Citizen (T2), Merchant (T6) |
-| **Inspector** | Investigator | Military/Constable (T4), Academia (T5) | Guild (T3), Merchant (T6), Nobility (T7) |
-| **Scholar** | Investigator | Academia (T5) | Guild (T3), Merchant (T6), Nobility (T7) |
+Social Class (wealth, standing, family backing) and Character Class (skills, training, combat discipline) are completely independent:
+- **Universal Freedom:** Any social class can play any character class (a Great Noble can be a rough-fighting Soldier or stealthy Survivor; a Freeman can be a master Clockwork Engineer).
+- **The Rank Prerequisite Exception:**
+  - **Nobles** must hold **Status 55+ (Lesser Noble)** to access hereditary class features, or **Status 85+** to represent a Great House.
+  - **Merchants** must hold **Status 49+ (Wholesale Factor / Warehouse Owner)** for standard commercial credit lines, or **Status 80+ (Wall Merchant)** for sovereign concession and fleet abilities.
+  - **Grey Marketeers** must define their primary business during character creation; their starting status cannot be more than **30 points (3 tiers) lower** than their primary clientele.

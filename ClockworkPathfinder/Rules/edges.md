@@ -10,46 +10,41 @@
 
 ---
 
-## 1. The Core 10-Point Edge Budget Concept
+## 1. The Core 12-Point Edge Budget Concept
 
 Every character receives a budget of **10 Edge Points** during character creation.
 
-### The Baseline Status Rule & Social Class Entry Costs
-> **"Social class for a character/group always starts at the lowest possible baseline (Status 0: Outcast / Warrens / Slum). 1 Edge Point increases social class by 1 tier, up to the campaign starting maximum."**
+### The Baseline Status Rule & Social Class Entry Costs (12 Edge Points Budget)
 
-#### Social Class Entry Floor Table:
-- **Tier 1: Slums, Warrens & Outcasts (Status –1 to 0):**
-  - **Lowest Entry Value:** **Status 0** *(or –1)* $\rightarrow$ **0 Edge Points** (Keeps all 10 points for mechanical edges).
-- **Tier 2: Free Citizens & Laborers (Status 1 to 3):**
-  - **Lowest Entry Value:** **Status 1** $\rightarrow$ **1 Edge Point** (9 points remaining).
-- **Tier 3: Guild Members & Artisans (Status 2 to 5):**
-  - **Lowest Entry Value:** **Status 2** $\rightarrow$ **2 Edge Points** (8 points remaining).
-- **Tier 4: Military & Constabulary (Status 2 to 5):**
-  - **Lowest Entry Value:** **Status 2** $\rightarrow$ **2 Edge Points** (8 points remaining).
-- **Tier 5: Merchant Split (Standard Merchant vs. Wall Merchant):**
-  - **Standard Merchant (Status 3 to 5):**
-    - **Lowest Entry Value:** **Status 3** $\rightarrow$ **3 Edge Points** (7 points remaining).
-    - *Profile:* Operates shops, mid-scale trade ventures, and warehouse logistics; holds liquid coin and commercial credit lines.
-  - **Wall Merchant (Status 6 to 8):**
-    - **Lowest Entry Value:** **Status 6** $\rightarrow$ **7 Edge Points** (Base 6 + 1 for Retainers; 3 points remaining).
-    - *Profile:* Corporate dynasty scion residing in Ward 14; commands skyship fleets and multi-spire shipping cartels; holds vast fortunes that rival Great Houses and gains legal presumption on dueling rapiers.
-    - *The Retainer Advantage:* Wall Merchants are the first merchant tier where personal armed retainers and corporate security guards become an active, game-changing operational factor (+1 Edge Point cost).
-- **Tier 6: Academia & University Collegium (Status 4 to 6):**
-  - **Lowest Entry Value:** **Status 4** $\rightarrow$ **4 Edge Points** (6 points remaining).
-- **Tier 7: Nobility Split (Lesser Noble / Gentry vs. Great House Aristocrat):**
-  - **Noble / Gentry (Status 4 to 5):**
-    - **Lowest Entry Value:** **Status 4** *(Lesser Noble/Gentry)* $\rightarrow$ **4 Edge Points** (6 points remaining).
-    - *Profile:* Town estate, landed charters, legal open-carry of dueling rapiers, carriage permits, and King's Guard deference.
-  - **Middle Noble / High Court Peer (Status 5):**
-    - **Lowest Entry Value:** **Status 5** $\rightarrow$ **5 Edge Points** (5 points remaining).
-  - **Great House Aristocrat (Status 6 to 9):**
-    - **Lowest Entry Value:** **Status 6** $\rightarrow$ **7 Edge Points** (Base 6 + 1 for Retainers; 3 points remaining).
-    - *Profile:* Direct lineage in one of the 25 Great Houses controlling the Spire; direct access to the King's Court, royal dispensations, and vast hereditary backing.
-    - *The Retainer Advantage:* Great House Aristocrats command sworn household retainers, liveried guards, and family champions who handle security, baggage, and legal muscle (+1 Edge Point cost).
+Every character starts with **12 Edge Points** to build their personal and institutional background. Social class for an unaffiliated character defaults to **Status $\le 0$ (Non-Citizen / Warrens Outcast)**; Edge Points are spent to purchase your starting Social Class rank.
 
-*Result:* Because **Wall Merchants (Status 6)** and **Great Nobles (Status 6)** are the first social ranks where **retainers become a potential game changer**, their entry cost includes a **+1 Edge Point premium (7 Points total)**, leaving them with only **3 Edge Points** for personal combat upgrades. Conversely, a **Standard Merchant (Status 3)** pays 3 points, a **Lesser Noble (Status 4)** pays 4 points, and a **Middle Noble (Status 5)** pays 5 points.
+> [!IMPORTANT]
+> **Lineage, Marriage, Adoption & Explaining Your Social Class:**
+> - **Parental Conferred Status:** For most characters, parents grant you a starting Social Class **equal to their own**. However, **if the parent holds a leadership role** in a group, house, or organization (e.g. Guildmaster, House Patriarch, Fortress Commandant, Merchant Baron), **the PC starts just below them** (reflecting junior family standing rather than apex organizational control).
+> - **Marriage & Adoption (The Open Door):** Through **marriage or formal adoption**, a player character can have **any social status they buy with their Edge Points**. If your character was adopted into a Great House or married into a Wall Merchant dynasty, that purchase is fully legitimate and recognized across the Spire.
+> - **Unaffiliated & Non-Household Characters (The Simple Explanation):** For characters who were **not born, adopted, or married into a recognized house, merchant firm, or guild livery**, you need only **provide a simple, believable in-world explanation for how you hold that social class** (e.g. an exceptional battlefield commission, discovering a lucrative pre-collapse relic that bought a trade charter, or a retired magistrate's mentorship). A single believable sentence or brief anecdote is all that is required.
 
----
+#### Starting Social Class Edge Cost Table (Budget: 12 Edge Points):
+The cost to purchase a starting Social Class equals:
+$$\text{Cost} = \left\lceil \frac{\text{Lowest Status in Bracket}}{10} \right\rceil$$
+*(Freemen/Women are fixed at 5 points due to high income and zero guild/family debts. Standard Nobles, Wall Merchants, and Great House Nobles include a +1 surcharge for legal sword rights and armed retainers).*
+
+| Social Class & Category | Status Range | Lowest Status | Base Cost | Surcharge / Reason | **Final Edge Cost** | Points Left (out of 12) |
+| :--- | :---: | :---: | :---: | :---: | :---: | :---: |
+| **Non-Citizen / Warrens Outcast** | $\le 0$ | 0 | 0 | — | **0 Points** | **12 Remaining** |
+| **Physical Labor (Unskilled / Zero Trust)** | 6–10 | 6 | 1 | — | **1 Point** | **11 Remaining** |
+| **Trusted Laborers** | 11–15 | 11 | 2 | — | **2 Points** | **10 Remaining** |
+| **Freemen / Freewomen (Unaffiliated)** | 16–20 | 16 | 2 | **High income, zero guild/family obligations** | **5 Points** | **7 Remaining** |
+| **Apprentices & Enlisted Recruits** | 21–25 | 21 | 3 | — | **3 Points** | **9 Remaining** |
+| **Guild Craftsmen & Artisans** | 26–55 | 26 | 3 | — | **3 Points** | **9 Remaining** |
+| **Military & Constabulary Regulars** | 26–65 | 26 | 3 | — | **3 Points** | **9 Remaining** |
+| **Standard Merchants** | 30–70 | 30 | 3 | — | **3 Points** | **9 Remaining** |
+| **Academia & University Collegium** | 45–70 | 45 | 5 | — | **5 Points** | **7 Remaining** |
+| **Lesser Nobility (Working Gentry)** | 55–60 | 55 | 6 | **Working gentry; no sword rights** | **6 Points** | **6 Remaining** |
+| **Standard Nobility (Landed Peers)** | 65–75 | 65 | 7 | **+1 Sword Rights (Dueling Blade)** | **8 Points** | **4 Remaining** |
+| **Wall Merchants** | 80–90 | 80 | 8 | **+1 Sword Rights & Retainers** | **9 Points** | **3 Remaining** |
+| **Great House Nobles** | 85–95 | 85 | 9 | **+1 Sword Rights & Retainers** | **10 Points** | **2 Remaining** |
+
 
 ## 2. Potential Edge Options (Menu of Working Ideas)
 
@@ -154,9 +149,11 @@ Every character receives a budget of **10 Edge Points** during character creatio
 
 ## 4. Status Mobility, Loss & The "Recognized Heir" Rule
 
-### A. Loss of Status & Restoring Rank
-- **No Edge Point Refunds on Demotion:** If a character suffers financial ruin, social disgrace, or political exile and drops in Status, **they receive zero Edge Point refunds**. The opportunity cost paid at character creation was for their upbringing, lineage, and early-life privileges.
-- **Restoration is Far Easier Than Initial Promotion:** While falling in status strips active privileges (carriage access, spending allowances, dueling rights), **reclaiming a lost status rank is vastly easier than climbing into a new one**. Society already recognizes your breeding, accent, and lineage; once the debts are settled, the scandal blows over, or an ally vouches for you, the Storyteller sets a significantly lower bar (fewer Favors or lower gold thresholds) to restore your former standing.
+### A. Loss of Status & Reclaiming Your Proper Rank
+- **Status Points Are Not Automatically Restored When Lost:** If a character suffers financial ruin, legal censure, or social demotion, their active status drops and is **not automatically restored**; they must actively resolve the underlying cause (debts, legal trials, family exile). Furthermore, they receive **zero Edge Point refunds** on demotion.
+- **Reclaiming Lost Status vs. Unearned Upward Mobility:** While falling in status strips active privileges (carriage access, spending allowances, dueling rights), **reclaiming a lost status rank that you previously paid for or held is far easier than trying to climb into a new status without having paid the cost**. Society already recognizes your lineage, upbringing, manners, and former standing; once debts are settled or names cleared, the threshold to reclaim that proper status is significantly lower.
+- **Purchasing a Higher Status Than Currently Used:** A player character **can deliberately purchase a higher Social Class at character creation than the station they currently inhabit** (e.g. paying 9 points for Wall Merchant Status 80 or 8 points for Standard Noble Status 65, while starting play as a disowned gutter-dweller or barracks private).
+- **Player Controls How & When Proper Status is Reclaimed:** When a player buys a higher status upfront, **the player retains total narrative control over how and when their character reclaims their proper status**. The Storyteller does not gatekeep or block this return; whenever the player decides their personal arc has arrived at the right turning point (producing a hidden signet ring, settling the feud, receiving news of an inheritance, or performing a redeeming deed), their full purchased status is restored.
 
 ### B. The 2-Tier Social Mobility Cap (Except by King’s Proclamation)
 - **Rigid Societal Stratification:** Spire society is deeply conservative and stratified. **Natural in-game social mobility is strictly capped at a maximum increase of 2 Status Tiers above your starting baseline**:
@@ -167,7 +164,7 @@ Every character receives a budget of **10 Edge Points** during character creatio
 
 ### C. The "I Should Be an X" Archetype (The Disowned, Disgraced, or Unrecognized Heir)
 - **The Concept:** A player may want to play a character who is currently living in the gutter or working a mundane trade, but whose backstory is: *"My father is a Wall Merchant (or Great House Lord); if he ever recognizes me, my birthright will be restored!"* or *"I was a disgraced officer/scion exiled from my noble house, and I am biding my time to clear my name and reclaim my seat."*
-- **The Edge Point Rule (Upfront Investment):** Because their potential social ceiling, family connections, genetic pedigree, and future inheritance represent immense institutional leverage, **the player MUST spend the full Edge Point cost of the targeted high status (e.g. 7 points for Wall Merchant) during character creation**:
+- **The Edge Point Rule (Upfront Investment):** Because their potential social ceiling, family connections, genetic pedigree, and future inheritance represent immense institutional leverage, **the player MUST spend the full Edge Point cost of the targeted high status (e.g. 9 points for Wall Merchant (Status 80–90)) during character creation**:
   - *In Play:* They start with the physical status and daily realities of their current low situation, but they hold the dormant bloodline/claims.
   - *Advantage:* When the family recognizes them, the inheritance is unlocked, or the disgrace is forgiven, **they bypass the 2-Tier mobility cap instantly** and assume their full status without needing royal intervention, because they paid the character-creation opportunity cost upfront.
 - **Player Agency Over Timing (Player in Charge of Progression):**

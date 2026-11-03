@@ -20,7 +20,7 @@ NeitherTeck and Clockwork devices fundamentally rely on the physical and electro
 Where a battle occurs within the Neither and Zone radically alters class balance:
 
 ```
-[ Tier 1a: Saturated Tactical Siege/Warrens ] ── Saturated Energy + No Weapon Laws ─► Artisans, Scholars & Riflemen dominate
+[ Tier 1a: Saturated Tactical Siege/Warrens ] ── Saturated Energy + No Weapon Laws ─► Clockwork Engineers, Scholars & Riflemen dominate
 [ Tier 1b: Civil Spire Core / High Society ] ── Saturated Energy + Strict Disarmament ─► Dandies & Pugilists rule parlor fights
 [ Tier 2: Radiant Outposts/Airships ] ───────── Moderate Local Energy ──────────────► Balanced tactical combined arms
 [ Tier 3: Outlands & Deep Wilds ] ───────────── Zero Radiant Energy ────────────────► Pure Martials dominate with steel & bows
@@ -31,7 +31,7 @@ Where a battle occurs within the Neither and Zone radically alters class balance
 
 | Tier | Environment & Grid Access | Ambient Energy Status | Combat Dynamics & Law Status |
 |:---:|---|---|---|
-| **Tier 1a: Saturated Warfare (Sieges, Warrens & Forward Dynamos)** | Spire exterior battlements/walls, the **Warrens** (unpoliced under-spire), defended military encampments, locations directly outside a Spire during a siege, or **within ~50 feet of an active primary military/mining dynamo** | **Virtually Unlimited / Saturated Radiant Power (100% Output)** | **Zero Weapon/Armor Restrictions; Artisans, Scholars & Riflemen Dominate.** Full plate, powered exoskeletons, heavy siege cannons (`1d12` to `2d12`, reaching `3d10`), and chemical demolition charges operate openly. Operators must possess a calibrated converter module **attuned/synchronized to the local generator's dynamic frequency pattern** to tap full saturated power. Martials provide the essential frontline shield bastion. |
+| **Tier 1a: Saturated Warfare (Sieges, Warrens & Forward Dynamos)** | Spire exterior battlements/walls, the **Warrens** (unpoliced under-spire), defended military encampments, locations directly outside a Spire during a siege, or **within ~50 feet of an active primary military/mining dynamo** | **Virtually Unlimited / Saturated Radiant Power (100% Output)** | **Zero Weapon/Armor Restrictions; Clockwork Engineers, Scholars & Riflemen Dominate.** Full plate, powered exoskeletons, heavy siege cannons (`1d12` to `2d12`, reaching `3d10`), and chemical demolition charges operate openly. Operators must possess a calibrated converter module **attuned/synchronized to the local generator's dynamic frequency pattern** to tap full saturated power. Martials provide the essential frontline shield bastion. |
 | **Tier 1b: Civil Spire Core (High-Society Wards & Promenades)** | Interior enclosed Spire wards (Wards 1–15, excluding the Warrens) | **Saturated Radiant Grid (Utilities, Lifts, Lighting)** | **Strict Civil Disarmament & Direct-Exit Surveillance; Dandies & Pugilists Dominate.** Wearing armor heavier than normal-looking leather/cloth or displaying clockwork attachments/exoskeletons is strictly prohibited. Weapons of war must be boxed/peace-bonded and under transit surveillance. Only utility daggers (`1d4`) or dueling rapiers (Nobles and Wall Merchants only) are permitted. Military cartridges, converter modules, and volatile solutions are major felonies. |
 | **Tier 2: Moderate / Low Radiant Field** | Military SkyShips cruising the Zone, perimeter encampments extending **2 to 3 or more times beyond high-radiant cores**, or **within ~4 miles of New Avalon's outer walls** | **Moderate / Constrained Radiant Power** | **Balanced Combined Arms; Captain / Local Rule.** Inductive coupling operates at stepped-down capacity (`1d10` to `2d10`, –10 to –20 ft range). Grid weapons remain operational with unlimited inductive trickle, but heavy rigs require local capacitors. Outside Spire walls, workers carry dual-purpose axes, the wealthy carry pistols, and airships follow captain's decree. Martials are fully competitive. |
 | **Tier 3: The Wild & Deep Outlands** | Lower Neither wastes, unpowered ruins, deep sunken valleys, barbarian territory beyond 5× generator perimeter | **Zero Radiant Energy** | **Martials (Soldiers, Scouts, Pugilists) Dominate.** All NeitherTeck must supply its own power via scarce, sealed Military Cartridges. Once cartridges deplete across the 70% attrition grind, devices go completely dead. Traditional bows, heavy crossbows, armor, and raw physical steel reign supreme. |
@@ -55,10 +55,10 @@ $$\mathbf{\text{Passive Loadout Capacity}} = \mathbf{\text{Key Attribute Modifie
    - **Classes:** **Soldier** (including *Savage Combatants*).
    - **Key Attribute:** Higher of **Strength** or **Constitution** modifier. (Skeletal density and muscle conditioning to carry heavy hydraulic frames and thick ballistic plates).
 2. **Track B: Ergonomic & Agile Tuning (Light Martials & Operatives):**
-   - **Classes:** **Dandy, Pugilist, Survivor, Scout, Sky Captain, Officer, Clockwork Rifleman**.
+   - **Classes:** **Dandy, Pugilist, Survivor, Scout, Sailor (Air & Sea), Officer, Clockwork Rifleman**.
    - **Key Attribute:** Higher of **Dexterity** or **Constitution** modifier (or **Strength** for Strength-based Pugilists). (Precision balance, kinetic posture, and reflex articulation).
 3. **Track C: Precision Engineering & Bespoke Tailoring (Technical & Academic):**
-   - **Classes:** **Scholar, Artisan, Clockwork Engineer, Chirurgeon, Mad Bomber, Inspector, Merchant, Noble, Grey Marketeer**.
+   - **Classes:** **Scholar, Clockwork Engineer, Clockwork Engineer, Chirurgeon, Clockwork Rifleman / Bombardier, Scholar, Merchant, Noble, Grey Marketeer**.
    - **Key Attribute:** Higher of **Intelligence**, **Strength**, or **Constitution** modifier. (Ergonomic micro-cables, custom-calibrated pressure regulators, and tailored linings).
 
 #### Armor-Weight Passive Modifiers
@@ -129,13 +129,13 @@ Items possess standardized tags indicating their manufacturing origin, ergonomic
 
 | Tag | Discipline & Typical Equipment | Tactical Flavor & Synergy |
 |---|---|---|
-| `[Biochemical]` | Chirurgeons, Mad Bombers, Apothecaries | Auto-injectors, catalytic sera, dermal washes, caustic aerosols. Operates independent of electrical broadcast fields. |
-| `[Mechanical]` | Clockwork Engineers, Artisans, Siphoners | Spring-wound gears, flywheel dampeners, escapement locks, pneumatic pistons. High physical durability. |
+| `[Biochemical]` | Chirurgeons, Clockwork Rifleman / Bombardiers, Apothecaries | Auto-injectors, catalytic sera, dermal washes, caustic aerosols. Operates independent of electrical broadcast fields. |
+| `[Mechanical]` | Clockwork Engineers, Clockwork Engineers, Siphoners | Spring-wound gears, flywheel dampeners, escapement locks, pneumatic pistons. High physical durability. |
 | `[Military]` | Soldiers, Officers, Clockwork Riflemen | Trench breakers, heavy recoil compensators, service bayonets, ballistic linothorax. Built for rugged frontline abuse. |
-| `[Airships]` | Sky Captains, Aerial Marines, Riggers | Lightweight alloys, grapple winches, high-altitude breathers, wind-cutting cutlasses. Optimized for Zone buoyancy and boarding actions. |
-| `[Professional]` | Inspectors, Scholars, Dandies, Merchants | Concealed derringers, sword canes, forensic diagnostic lenses, bespoke protective silks. Easily passes Spire security checkpoints. |
-| `[Technical]` | Clockwork Engineers, Scholars, Artisans | High-draw inductive arquebuses, portable dynamos, resonant grid receivers, complex diagnostic arrays. Demands high technical tuning. |
-| `[Clandestine]` | Survivors, Inspectors, Dandies | Hidden compartments, silence baffles, disguised resonators, spring-flick wrist blades, palm-dampened needle guns. Designed to bypass security checkpoints and scanners. |
+| `[Airships]` | Sailor (Air & Sea)s, Aerial Marines, Riggers | Lightweight alloys, grapple winches, high-altitude breathers, wind-cutting cutlasses. Optimized for Zone buoyancy and boarding actions. |
+| `[Professional]` | Scholars, Scholars, Dandies, Merchants | Concealed derringers, sword canes, forensic diagnostic lenses, bespoke protective silks. Easily passes Spire security checkpoints. |
+| `[Technical]` | Clockwork Engineers, Scholars, Clockwork Engineers | High-draw inductive arquebuses, portable dynamos, resonant grid receivers, complex diagnostic arrays. Demands high technical tuning. |
+| `[Clandestine]` | Survivors, Scholars, Dandies | Hidden compartments, silence baffles, disguised resonators, spring-flick wrist blades, palm-dampened needle guns. Designed to bypass security checkpoints and scanners. |
 | `[Subterranean]` | Scouts (Deep Sappers, Tunnelers) | Tremorsense compasses, reinforced mattocks, acoustic cave-in dampeners, low-light flares. |
 | `[Outlands]` | Scouts (Outriders), Survivors | Sealed cartridge adapters, dust scrubbers, ruggedized scavenged chassis operable in zero-radiant dead zones. |
 
@@ -149,9 +149,9 @@ $$\mathbf{\text{Active Surge AP per Round}} = \mathbf{\text{Intelligence Modifie
 
 | Technical Tier | Base AP (Lv 1) | Progression Scaling | Target Classes & Tactical Role |
 |:---:|:---:|:---:|---|
-| **Tier 3 (Technical Masters)** | **+2 AP** | **+1 AP at Levels 4, 8, 12, 16, 20** | **Scholar, Clockwork Engineer, Artisan**. Master designers capable of firing multiple energy shots or operating complex apparatuses. |
-| **Tier 2 (Technical Specialists)** | **+1 AP** | **+1 AP at Levels 5, 10, 15, 20** | **Inspector, Clockwork Rifleman, Chirurgeon, Mad Bomber**.<br>• *Clockwork Rifleman:* Features **Singular Neither Efficiency**, reducing the AP cost to fire any NeitherTeck ranged weapon by **–1 AP at 1st, –2 AP at 6th, –3 AP at 12th, and –4 AP at 18th level** (minimum 1 AP).<br>• *Chirurgeon & Mad Bomber Autonomy:* Personal class features, quick field vials, medical sera, and infused bombs cost **0 AP** for the creator. |
-| **Tier 1 (Tactical Operatives)** | **+0 AP** | **+1 AP at Levels 6, 12, 18** | **Officer, Sky Captain, Survivor, Scout**. Tactical skirmishers relying on signature sidearms and mobility gadgets. |
+| **Tier 3 (Technical Masters)** | **+2 AP** | **+1 AP at Levels 4, 8, 12, 16, 20** | **Scholar, Clockwork Engineer, Clockwork Engineer**. Master designers capable of firing multiple energy shots or operating complex apparatuses. |
+| **Tier 2 (Technical Specialists)** | **+1 AP** | **+1 AP at Levels 5, 10, 15, 20** | **Scholar, Clockwork Rifleman, Chirurgeon, Clockwork Rifleman / Bombardier**.<br>• *Clockwork Rifleman:* Features **Singular Neither Efficiency**, reducing the AP cost to fire any NeitherTeck ranged weapon by **–1 AP at 1st, –2 AP at 6th, –3 AP at 12th, and –4 AP at 18th level** (minimum 1 AP).<br>• *Chirurgeon & Clockwork Rifleman / Bombardier Autonomy:* Personal class features, quick field vials, medical sera, and infused bombs cost **0 AP** for the creator. |
+| **Tier 1 (Tactical Operatives)** | **+0 AP** | **+1 AP at Levels 6, 12, 18** | **Officer, Sailor (Air & Sea), Survivor, Scout**. Tactical skirmishers relying on signature sidearms and mobility gadgets. |
 | **Tier 0 (Dedicated Martials)** | **+0 AP** | **+1 AP at Levels 10, 20** | **Soldier, Brute, Pugilist, Dandy**. Pure martial backbone relying on steel, bows, and brawn. |
 | **Influence Category** | **+1 AP** | **+1 AP at Levels 6, 12, 18** | **Merchant** (Commercial directives, mercenary contracts, credit-line triggers). |
 
@@ -202,7 +202,7 @@ To prevent untrained characters from spamming high-level energy weaponry like ca
 
 ## 5. Tactical Asymmetry & Archetype Roles in the Grounded Economy
 
-1. **The Technical Master & Specialist (Scholar, Clockwork Engineer, Artisan, Clockwork Rifleman, Inspector):**
+1. **The Technical Master & Specialist (Scholar, Clockwork Engineer, Clockwork Engineer, Clockwork Rifleman, Scholar):**
    - **Firing Cadence Benchmarks (Full Firing Rate with Tags):**
      - *Level 1–3:* Can fire a tagged Small Cartridge pistol (`1d8 E` / `1d10 F`, 2 AP) or Medium Cartridge rifle (`1d10 E`, 3 AP) at full firing rate (2 attacks per round while loaded, or 1–2 attacks with reload/support actions).
      - *Level 4–20:* Because matching Discipline Tags waive the Enhancement Tier AP tax, trained characters maintain their **full 2-shot/round firing cadence** with `+1 Striking` and `+2 Greater Striking` Cartridge Weapons, restricted only by Cartridge Reload actions (**Reload 1** Small, **Reload 2** Medium, **Reload 3** Large) and finite cartridge logistics.

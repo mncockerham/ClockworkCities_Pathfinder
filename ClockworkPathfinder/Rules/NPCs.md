@@ -8,8 +8,17 @@ Even when non-human "monsters" are encountered, they are not fantastical creatur
 - **Neither-Corrupted Flora:** Invasive weeds, briars, fungal colonies, and creeping vines adapted to feed on Neither vapor and industrial runoff, developing toxic spore clouds, rapid constriction reflexes, or corrosive sap.
 - **Automata & Engineered Threats:** Beyond corrupted biological life, non-human opponents are almost exclusively man-made: clockwork sentries, automated perimeter turrets, steam-powered work engines turned lethal, or unstable Neither-tech prototypes.
 
-## NPC Classes & Levels
-NPCs in Clockwork Cities can exist as **any class and any level**. A 12th-level Scholar, an 8th-level Artisan, a 4th-level Soldier, or a 1st-level Survivor are all fully valid characters within the world. Class and level represent their training, expertise, cognitive acumen, or professional dedication.
+## Class & Actor Tiers (Universal Classes, NPC Classes, Creature Classes)
+All combatants, allies, and adversaries in Clockwork Cities are structured under a clear design framework:
+
+1. **Universal Base Classes (PCs, NPCs & Adversaries):**
+   Standard classes (Soldier, Scholar, Clockwork Engineer, etc.) serve symmetrically as the mechanical chassis for Player Characters, key NPCs, and standard human adversaries alike. An 8th-level Clockwork Engineer or 4th-level Soldier can be either an ally, rival, or villain using the same standard rules.
+
+2. **NPC Civilian Classes Subcategory (ClockworkPathfinder/Classes/NPC/):**
+   Civilian and support archetypes (Commoner, Craftsman, Laborer, Professional, Sailor (Air & Sea)) exist to flesh out Spire life and civic roles.
+
+3. **Creature Classes Subcategory (ClockworkPathfinder/Classes/NPC/creature class/):**
+   When more powerful adversaries, Neither-mutated monstrosities, wild beasts, or specialized apex predators are needed outside the humanoid class framework, they are built using dedicated **Creature Classes** (such as *Brute*, *Juggernaut*, *Stalker*, *Pack*, *Venomous*, *Biochemical*, *Burrower*, and *Galvanic*).
 
 However, high level or class competence does not inherently mean someone has been hardened by real, life-or-death violence or harsh wilderness survival. To reflect the insulating safety of sheltered urban life versus the grueling brutality of the outside world, NPCs can possess two unique traits/tags: **Civilized** and **Protected**.
 
@@ -80,16 +89,17 @@ The **[Civilized]** and **[Protected]** tags are **not permanent biological cond
 - **Mundane & Technical Competencies:** Rather than spellcaster levels or supernatural spell-like abilities, specialized NPCs wield Neither-tech weaponry, chemical grenades, surgical injectables, or command auras.
 - **Social Class & Standing:** An NPC's social standing heavily determines their access to military-grade cartridges, civil immunity, legal recourse, and authority across wards.
 - **Creature & Humanoid Roles:**
-  - *Civilian / Working Class:* Artisans, Scholars, Miners, and factory hands with specialized skill mastery and tool proficiency.
+  - *Civilian / Working Class:* Craftsmen, Clockwork Engineers, Scholars, Miners, and factory hands with specialized skill mastery and tool proficiency.
   - *Enforcers & Guards:* Constables, Officers, and Ward Militia utilizing gunpowder firearms, shields, and crowd-control tactics.
-  - *Underworld & Fringe:* Scavengers, Survivors, and Mad Bombers operating in lower wards and Neither-side borders.
-  - *High Society & Oligarchs:* Dandies and Merchants leveraging hirelings, legal retainers, and deep purse reserves.
+  - *Underworld & Fringe:* Scavengers, Survivors, and Bombardiers operating in lower wards and Neither-side borders.
+  - *High Society & Oligarchs:* Rakes / Dandies, Nobles, and Merchants leveraging hirelings, legal retainers, and deep purse reserves.
 
 ## Dedicated Civilian NPC Classes
 To quickly populate spires, courts, markets, and factories with believable everyday citizens without using complex PC class chassis, the following dedicated civilian NPC classes are available in [`ClockworkPathfinder/Classes/NPC/`](file:///c:/Users/mncoc/OneDrive/Documents/Git/ClockworkCities_Pathfinder/ClockworkPathfinder/Classes/NPC/):
 - **[Laborer](file:///c:/Users/mncoc/OneDrive/Documents/Git/ClockworkCities_Pathfinder/ClockworkPathfinder/Classes/NPC/Laborer.md):** Physical workforce (dockers, fungal farm hands, factory drudges, boiler tenders). Solid Fortitude, heavy hauling, tool-weapon mastery, and bar-brawler feats.
 - **[Professional](file:///c:/Users/mncoc/OneDrive/Documents/Git/ClockworkCities_Pathfinder/ClockworkPathfinder/Classes/NPC/Professional.md):** Educated specialists (barristers/advocates, accountants, university teachers, diplomats). High mental saves, legal/forensic mastery, bureaucratic shielding, and fragile combat profiles.
 - **[Commoner / Burgher](file:///c:/Users/mncoc/OneDrive/Documents/Git/ClockworkCities_Pathfinder/ClockworkPathfinder/Classes/NPC/Commoner.md):** Urban commercial baseline (tavern keepers, stall shopkeepers, innkeepers, domestic servants). High Will, rumor gathering, and counter-cover defense.
+- **[Sailor (Air & Sea)](file:///c:/Users/mncoc/OneDrive/Documents/Git/ClockworkCities_Pathfinder/ClockworkPathfinder/Classes/NPC/Sailor.md):** Ship and airship crew, riggers, deckhands, and vessel skippers. Mobile acrobats and kinetics aboard rolling decks and aerial riggings, with dedicated piloting actions and deck conditionings.
 - **[Craftsman / Artisan Apprentice](file:///c:/Users/mncoc/OneDrive/Documents/Git/ClockworkCities_Pathfinder/ClockworkPathfinder/Classes/NPC/Craftsman.md):** Guild rank-and-file (blacksmith strikers, tanners, carpenters, bricklayers). Everyday repairs, forge/vat resistances, and trade tool strikes without the heroic NeitherTeck masterworks of PC Artisans.
 - **Tool AP Discount:** Each civilian NPC class possesses a 1-point AP discount on tools matching their registered daily trade.
 

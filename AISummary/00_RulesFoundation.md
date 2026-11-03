@@ -34,6 +34,16 @@
 
 ## Precedence & The 3-Tier Design Decision Structure
 > [!IMPORTANT]
+> **CLASS TIERS & ACTOR STRUCTURE (PC, NPC, CREATURE CLASS):**
+> 1. **Universal Core Classes:** All standard classes are designed symmetrically for use by Player Characters (PCs), Non-Player Characters (NPCs), and standard Adversaries.
+> 2. **NPC Classes Subcategory (ClockworkPathfinder/Classes/NPC/):**
+>    - Designed for weaker civilian, commercial, and support roles (Commoner, Craftsman, Laborer, Professional, Sailor (Air & Sea)) to flesh out the world.
+>    - **Lack of Broad Flexibility:** In most campaigns, they lack sufficient flexibility in abilities and scope of use to make effective PC choices.
+>    - **Tuned Weaker & Design Guardrail:** Stat blocks and progressions are tuned **a few levels weaker** than standard PC classes by default to ensure players do not become too focused on playing them; the GM/Storyteller can power them up with elite templates or extra feats if needed.
+> 3. **Creature Classes (ClockworkPathfinder/Classes/NPC/creature class/):**
+>    - Reserved for more powerful adversaries, wild beasts, bio-monstrosities, or specialized threats outside the standard humanoid class framework.
+
+> [!IMPORTANT]
 > **SPIRE WEAPON LAWS — ABSOLUTE CANON MANDATE:**
 > Inside the Civil Spire wards, weapons are strictly governed by two universal rules:
 > 1. **Universal Civilian Rule:** Only **Fists (unarmed strikes)** and **1d4 mundane utility knives/daggers** are permitted. (Even then, commoners avoid drawing knives out of fear of "Carrying with Intent" prosecution).
