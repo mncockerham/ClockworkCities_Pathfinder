@@ -16,7 +16,10 @@ Medical practice in the Spires follows a distinct Victorian division:
 - **Tier 2 — The Paramedic / Clinic Worker (Chirurgeon):** Working-class medical practitioners (Status 2–4) managing street clinics, ambulance triage, spore-brewing, auto-injectors, and emergency Adrenal Injectors.
 - **Tier 3 — The Field Medic (Chirurgeon Archetype):** Soldiers, Scouts, and Survivors with emergency trauma training who keep allies alive when full doctors are miles away.
 
-- **In-World Identity:** Trained practitioners from the University Medical Faculty, hospital attendants in the Luxury and Craft Wards, or field surgeons who patch together soldiers and laborers in the Warrens and Lower Circles. 
+- **In-World Identity & Demographics (1 in 30 to 1 in 50):** Trained practitioners from the University Medical Faculty, hospital attendants in the Luxury and Craft Wards, or field surgeons who patch together soldiers and laborers in the Warrens and Lower Circles. 
+  - *Societal Demographics:* Across the Great Spires, military cohorts, airship crews, and outland expeditions, medical expertise follows a steep demographic hierarchy:
+    - **Field Medics / Chirurgeon Archetype (~1 in 30 to 1 in 50 individuals):** Roughly 1 in 30 to 1 in 50 people possess emergency cross-trained field medical skills (the Chirurgeon Archetype / Field Medic)—platoon corpsmen, airship stewards, and veteran soldiers with trauma kits. Full primary Chirurgeons running spore-laboratories and commanding clockwork micro-drone swarms are elite practitioners within this tier.
+    - **Scholar Doctors / Medical Researchers (~1 in 150 individuals):** University physicians and chief hospital directors are far rarer (roughly 1 in 150). They are **strictly focused in safe, centralized locations**—university sanatoriums, luxury ward diagnostic cleanrooms, and private noble clinics—and almost never operate in field trenches or the Neither mud. 
 - **Typical Social Class & Backing:** Professional / University Graduate (Status 4–5), Guild Apothecary (Status 2–3), or private physician retained by a Lesser Noble or Merchant House.
 - **Physical / Scientific Explanation:** Deep knowledge of Neither fungi biochemistry (cultivated Sycelium, Deep strains), biological catalysts, coagulation agents, antiseptics, caustic acids, and organic toxins. They stabilize volatile compounds for immediate clinical or field application.
 
@@ -30,7 +33,7 @@ Medical practice in the Spires follows a distinct Victorian division:
 
 | Level | Class Features Gained |
 |:---:|---|
-| **1** | Ancestry and background, initial proficiencies, Advanced Concoctions, Versatile Vials, Chirurgeon Field (Restorative/Antidote/Acid/Poison), Formula Book, Quick Concoction, Biomedical Autonomy (0 AP), Galvanic Ward Rig, Hemostatic Coagulants, Daily Spore Incubator (Prophylactic DR & Solvents), Neither-Bio Resonance, 1st-level Chirurgeon feat |
+| **1** | Ancestry and background, initial proficiencies, Advanced Concoctions, Versatile Vials, Chirurgeon Field (Restorative/Antidote/Acid/Poison), Formula Book, Quick Concoction, Biomedical Autonomy (0 AP), Galvanic Ward Rig, Hemostatic Coagulants, Daily Spore Incubator (Prophylaxis & Solvents), Neither-Bio Resonance, Active Convalescence (1d6/INT), 1st-level Chirurgeon feat |
 | **2** | Chirurgeon feat, skill feat |
 | **3** | General feat, skill increase, Field Specialty (Medicine via Crafting) |
 | **4** | Chirurgeon feat, skill feat, Clockwork Micro-Drone Swarm (Autonomous Delivery & Interception) |
@@ -50,6 +53,29 @@ Medical practice in the Spires follows a distinct Victorian division:
 | **18** | Chirurgeon feat, skill feat |
 | **19** | General feat, Unarmored Defense Mastery, skill increase |
 | **20** | Attribute boosts (4 attributes), Chirurgeon feat, skill feat |
+
+---
+
+### Active Chirurgical Convalescence (Accelerated Field Trauma Healing)
+*Detailed Rule Reference: `AISummary/20_Healing.md §3.D`*
+
+While instant mid-combat surgery remains impossible, the Chirurgeon possesses the clinical training, suture-assemblies, and fungal bio-resins necessary to actively knit structural anatomical trauma during travel and downtime:
+
+- **Critical Wound Convalescence (1 Full Day / Usable 1/Day per Patient):**
+  - If an injured creature spends **1 full day with No Strenuous Activity** under your direct care, roll **1d6 per point of your Intelligence modifier** (e.g. 4d6 at +4 INT).
+  - The patient heals that amount of **Critical Wound damage**.
+  - A creature can only benefit from this daily convalescence roll **once per day**.
+- **Mortal Wound Convalescence (1 Full Week / Usable 1/Week per Patient):**
+  - If a severely traumatized creature spends **1 full week with No Strenuous Activity** under your direct care, roll **1d6 per point of your Intelligence modifier** (e.g. 4d6 at +4 INT).
+  - The patient heals that amount of **Mortal Wound damage**.
+  - A creature can only benefit from this weekly convalescence roll **once per week**.
+- **The "No Strenuous Activity" Rule (Replaces Strict Bed Rest):**
+  - Patients are **not required to be bedridden**. They can perform standard camp maintenance, light wagon travel, reading, research, cooking, and light watch shifts.
+  - They **cannot engage in combat ("fight or flight"), sprinting, heavy lifting, forced marching, or hard manual excavation labor**.
+- **Environmental Shift Limit (Total Shift $\le 2.0$):**
+  - Cellular regeneration requires a survivable biological environment. Convalescent healing **only functions if the patient's Total Environmental Shift Score ($	ext{Air Shift} + 	ext{Food Shift}$) is 2.0 or lower**. In hostile or foreign strata with Total Shift $> 2.0$, environmental toxicity blocks natural cellular healing until cleaner air or proper nourishment is reached.
+- **Chirurgeon Archetype / Field Medic Scaling:**
+  - Non-Chirurgeons who take the Chirurgeon Dedication / Archetype possess this ability, but roll **1d4 per point of INT modifier** (instead of 1d6).
 
 ---
 
@@ -96,6 +122,7 @@ Medical practice in the Spires follows a distinct Victorian division:
 | 1 | Biomedical Autonomy (0 AP Cost) | New | **New** | All personal healing tonics, restorative sera, auto-injectors, and medical concoctions you prepare, self-administer, or ingest cost **0 Active Surge AP** (and 1 action to self-administer). Administering tonics to an external ally in combat follows standard rules: a 2-Action activity [AA] via direct application or directed micro-drone delivery. |
 | 1 | Galvanic Ward Rig | New | **New** | **Personal Emergency Force Field (1/Hour).** A compact waist-mounted clockwork condenser pack. Once per hour as a Single Action [A] (or Reaction [R] when targeted by an attack), you activate the ward to gain Temporary Hit Points equal to **$\\text{Level} \\times \\text{INT modifier}$** (min  \\times \\text{INT}$ at Level 1; lasts 1 minute or until depleted). Incoming damage drains Temporary HP first; while this barrier holds, damage cannot puncture downward into Critical or Mortal wound thresholds (AISummary/20_Healing.md). |
 | 1 | Hemostatic Coagulants | New | **New** | **Combat Bleed Removal.** Pressurized fibrin foam / carbolic spray. As a Single Action [A] (or Reaction [R] when an adjacent ally takes piercing or slashing damage), you apply rapid coagulant to stop active bleeding. Attempt a **First Aid (Medicine or Crafting) check against $\text{DC } 15 + \text{Bleed Rate}$** (e.g., stopping 1d6 bleed has a DC of $15 + 6 = 21$; a flat 3 bleed has a DC of $15 + 3 = 18$).<br>• **Success:** The persistent bleed damage ends immediately.<br>• **Critical Success:** The bleed ends immediately, and the target gains 5 Temporary HP from cellular sealing.<br>• **Failure:** The coagulant fails to seal the laceration; the bleed persists, but the target gains a +2 circumstance bonus to their next end-of-turn recovery flat check.<br>• **Critical Failure:** The wound site is aggravated; no effect. |
+| 1 | Active Convalescence (Wound Healing) | New | **New** | **Accelerated Downtime Healing (`AISummary/20_Healing.md §3.D`).** During extended camp rest with low-to-no activity, your specialized clinical care restores deep trauma:<br>• **Critical Wounds (1 Full Day of No Strenuous Activity; Shift <= 2.0):** Roll **1d6 per point of INT modifier** to heal Critical Wound HP (usable once per day per patient).<br>• **Mortal Wounds (1 Full Week of No Strenuous Activity; Shift <= 2.0):** Roll **1d6 per point of INT modifier** to heal Mortal Wound HP (usable once per week per patient).<br>*(Note: Archetype/Dedication versions roll 1d4 per INT modifier).* |
 | 1 | Daily Spore Incubator (Prophylaxis & Solvents) | New | **New** | **Modular Daily Formulations.** Each morning during daily prep, you cultivate living fungal strains from your field incubator. You prepare two signature modular assets:<br>• **1. Prophylactic Dermal Inoculation (Resistance):** Topical bio-resins that harden against environmental harm. Choose 1 damage type at Lv 1–4 (Acid, Cold, Electricity, Fire, Piercing shrapnel, or Slashing) to grant **Damage Resistance** equal to ** \times \text{WIS modifier}$** to yourself and up to 4 allies for 1 hour. At Lv 5+, choose up to 2 types granting ** \times \text{WIS modifier}$** Resistance (e.g. Resistance 4–5). At Lv 10+, choose up to 4 types granting ** \times \text{WIS modifier}$** Resistance.<br>• **2. Mycological Solvents (Strip Enemy DR/Hardness):** Deep-Neither spore cultures that dissolve armor, scales, and constructs. Delivered via micro-drone swarm or aerosol. Target must attempt a **Reflex saving throw** against your Class DC. On a Failure, the target's **Damage Resistance or Hardness is reduced by  \times \text{INT modifier}$** for 1 minute ( \times \text{INT}$ on a Success;  \times \text{INT}$ on a Critical Failure). |
 | 1 | Advanced Concoctions & Versatile Vials | [Player Core 2 p.47] | **Modified** | Create temporary infused items during daily prep and on the fly. **Restriction:** May ONLY craft items with the **Healing**, **Antidote / Antiplague**, **Poison**, **Acid**, or **Adrenaline / Stimulant** traits (including the Adrenal Injector [AISummary/20_Healing.md §2] and Combat Surge Auto-Injectors). Cannot brew mutagens or explosive ordnance.<br>**WIS Healing Potency:** When administering an infused healing concoction or salve, add ** \\times \\text{WIS modifier}$** to the total Regular HP restored.<br>**Spire Law & Volatile Solutions (Crucial Balance Rule):** Ward Constables and checkpoint inspectors **do not make any legal distinction** between standard hazardous items and the improvised concoctions of Chirurgeons. Inside civilized Spire wards, carrying volatile offensive solutions (acids, lethal poisons, or reactive chemical precursors capable of synthesizing them) is a severe criminal violation treated just as harshly as carrying a live grenade. |
 | 1 | Field Specialization: Chirurgy | [Player Core 2 p.47] | **Modified** | You can use your proficiency rank in Crafting in place of your proficiency rank in Medicine for Treat Wounds, Battle Medicine, and medical skill checks. |

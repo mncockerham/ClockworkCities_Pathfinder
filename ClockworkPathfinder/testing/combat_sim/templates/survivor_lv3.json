@@ -1,0 +1,109 @@
+{
+  "name": "Survivor (Lv3)",
+  "archetype": "Survivor",
+  "level": 3,
+  "hp": 38,
+  "ac": 20,
+  "fort": 8,
+  "ref": 12,
+  "will": 10,
+  "speed": 25,
+  "max_ap": 6,
+  "status": 0,
+  "civil_spire_legal": true,
+  "civil_ac_penalty": 0,
+  "unarmed_damage_dice": "1d4",
+  "unarmed_bonus": 8,
+  "unarmed_flat_dmg": 1,
+  "unarmed_traits": [
+    "agile",
+    "nonlethal"
+  ],
+  "weapons": [
+    {
+      "name": "Utility Dagger / Shiv (Civil 1d4)",
+      "attack_bonus": 11,
+      "damage_dice": "1d4",
+      "flat_damage": 10,
+      "damage_type": "P/S",
+      "range": 0,
+      "ap_cost": 0,
+      "traits": [
+        "agile",
+        "finesse",
+        "versatile_s"
+      ],
+      "allowed_environments": [
+        "civil_spire",
+        "high_radiant",
+        "low_radiant",
+        "the_neither",
+        "wilderness"
+      ]
+    },
+    {
+      "name": "Standard Crossbow (Closing Volley)",
+      "attack_bonus": 10,
+      "damage_dice": "2d8",
+      "flat_damage": 3,
+      "damage_type": "P",
+      "range": 120,
+      "ap_cost": 0,
+      "traits": [
+        "closing_shot"
+      ],
+      "allowed_environments": [
+        "high_radiant",
+        "low_radiant",
+        "the_neither",
+        "wilderness"
+      ]
+    }
+  ],
+  "abilities": {
+    "arc_deflection_screen": true,
+    "deflection_ap_cost": 2,
+    "deflection_ac_bonus": 3
+  },
+  "outland_ac": 21,
+  "outland_weapons": [
+    {
+      "name": "Niracrest Trench Blade (+1 Striking)",
+      "attack_bonus": 12,
+      "damage_dice": "2d6",
+      "flat_damage": 10,
+      "damage_type": "S",
+      "range": 0,
+      "ap_cost": 0,
+      "traits": [
+        "agile",
+        "finesse",
+        "deadly_d8"
+      ],
+      "allowed_environments": [
+        "high_radiant",
+        "low_radiant",
+        "the_neither",
+        "wilderness"
+      ]
+    },
+    {
+      "name": "Reinforced Outland Crossbow (+1 Striking)",
+      "attack_bonus": 11,
+      "damage_dice": "2d10",
+      "flat_damage": 3,
+      "damage_type": "P",
+      "range": 120,
+      "ap_cost": 0,
+      "traits": [
+        "closing_shot"
+      ],
+      "allowed_environments": [
+        "high_radiant",
+        "low_radiant",
+        "the_neither",
+        "wilderness"
+      ]
+    }
+  ]
+}

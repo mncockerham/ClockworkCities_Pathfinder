@@ -1,0 +1,89 @@
+{
+  "name": "Noble (Lv4)",
+  "archetype": "Noble",
+  "level": 4,
+  "hp": 44,
+  "ac": 20,
+  "fort": 8,
+  "ref": 10,
+  "will": 13,
+  "speed": 25,
+  "max_ap": 6,
+  "status": 6,
+  "civil_spire_legal": true,
+  "civil_ac_penalty": 0,
+  "unarmed_damage_dice": "1d4",
+  "unarmed_bonus": 6,
+  "unarmed_flat_dmg": 0,
+  "unarmed_traits": [
+    "agile",
+    "nonlethal"
+  ],
+  "weapons": [
+    {
+      "name": "Ancestral Fair Steel Rapier (Outlands)",
+      "attack_bonus": 11,
+      "damage_dice": "2d6",
+      "flat_damage": 2,
+      "damage_type": "P",
+      "range": 0,
+      "ap_cost": 0,
+      "traits": [
+        "deadly_d8",
+        "disarm",
+        "finesse"
+      ],
+      "allowed_environments": [
+        "high_radiant",
+        "low_radiant",
+        "the_neither"
+      ]
+    },
+    {
+      "name": "Ancestral Dueling Rapier (Civil 1d6)",
+      "attack_bonus": 11,
+      "damage_dice": "1d6",
+      "flat_damage": 2,
+      "damage_type": "P",
+      "range": 0,
+      "ap_cost": 0,
+      "traits": [
+        "deadly_d8",
+        "disarm",
+        "finesse"
+      ],
+      "allowed_environments": [
+        "civil_spire"
+      ]
+    },
+    {
+      "name": "Elven Dueling Pistol",
+      "attack_bonus": 9,
+      "damage_dice": "2d8",
+      "flat_damage": 1,
+      "damage_type": "P",
+      "range": 40,
+      "ap_cost": 0,
+      "traits": [
+        "cartridge",
+        "fatal_d10"
+      ],
+      "ammo_capacity": 1,
+      "reload_actions": 1,
+      "allowed_environments": [
+        "high_radiant",
+        "low_radiant",
+        "the_neither"
+      ]
+    }
+  ],
+  "abilities": {
+    "armed_retainers": true,
+    "retainer_count": 2,
+    "retainer_hp": 16,
+    "retainer_attack": 7,
+    "retainer_damage_dice": "1d8",
+    "retainer_flat_damage": 2,
+    "social_authority_bonus": 5
+  }
+}

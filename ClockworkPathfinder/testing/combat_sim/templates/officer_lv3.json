@@ -1,0 +1,86 @@
+{
+  "name": "Officer (Lv3)",
+  "archetype": "Officer",
+  "level": 3,
+  "hp": 38,
+  "ac": 20,
+  "fort": 10,
+  "ref": 8,
+  "will": 11,
+  "speed": 25,
+  "max_ap": 6,
+  "status": 3,
+  "civil_spire_legal": true,
+  "civil_ac_penalty": 0,
+  "unarmed_damage_dice": "1d4",
+  "unarmed_bonus": 6,
+  "unarmed_flat_dmg": 1,
+  "unarmed_traits": [
+    "agile",
+    "nonlethal"
+  ],
+  "weapons": [
+    {
+      "name": "Sidearm Utility Dagger (Civil 1d4)",
+      "attack_bonus": 10,
+      "damage_dice": "1d4",
+      "flat_damage": 2,
+      "damage_type": "P/S",
+      "range": 0,
+      "ap_cost": 0,
+      "traits": [
+        "agile",
+        "finesse"
+      ],
+      "allowed_environments": [
+        "civil_spire"
+      ]
+    },
+    {
+      "name": "Officer's Sabre",
+      "attack_bonus": 10,
+      "damage_dice": "2d6",
+      "flat_damage": 2,
+      "damage_type": "S",
+      "range": 0,
+      "ap_cost": 0,
+      "traits": [
+        "finesse"
+      ],
+      "allowed_environments": [
+        "high_radiant",
+        "low_radiant",
+        "the_neither",
+        "wilderness"
+      ]
+    },
+    {
+      "name": "Service Pistol",
+      "attack_bonus": 8,
+      "damage_dice": "2d8",
+      "flat_damage": 1,
+      "damage_type": "P",
+      "range": 40,
+      "ap_cost": 0,
+      "traits": [
+        "cartridge",
+        "fatal_d10"
+      ],
+      "ammo_capacity": 6,
+      "reload_actions": 1,
+      "allowed_environments": [
+        "high_radiant",
+        "low_radiant",
+        "the_neither"
+      ]
+    }
+  ],
+  "abilities": {
+    "armed_retainers": true,
+    "retainer_count": 2,
+    "retainer_hp": 12,
+    "retainer_attack": 7,
+    "retainer_damage_dice": "1d8",
+    "retainer_flat_damage": 2
+  }
+}

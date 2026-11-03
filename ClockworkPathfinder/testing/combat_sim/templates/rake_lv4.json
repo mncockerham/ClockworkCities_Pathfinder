@@ -1,0 +1,116 @@
+{
+  "name": "Rake (Lv4)",
+  "archetype": "Rake",
+  "level": 4,
+  "hp": 52,
+  "ac": 21,
+  "fort": 9,
+  "ref": 13,
+  "will": 10,
+  "speed": 30,
+  "max_ap": 5,
+  "status": 5,
+  "civil_spire_legal": true,
+  "civil_ac_penalty": 0,
+  "unarmed_damage_dice": "1d4",
+  "unarmed_bonus": 7,
+  "unarmed_flat_dmg": 0,
+  "unarmed_traits": [
+    "agile",
+    "nonlethal"
+  ],
+  "weapons": [
+    {
+      "name": "Fair Steel Salon Rapier (Civil 1d6)",
+      "attack_bonus": 12,
+      "damage_dice": "1d6",
+      "flat_damage": 4,
+      "damage_type": "P",
+      "range": 0,
+      "ap_cost": 0,
+      "traits": [
+        "deadly_d8",
+        "disarm",
+        "finesse"
+      ],
+      "allowed_environments": [
+        "civil_spire",
+        "high_radiant",
+        "low_radiant",
+        "the_neither"
+      ]
+    },
+    {
+      "name": "Dueling Pistol",
+      "attack_bonus": 9,
+      "damage_dice": "2d8",
+      "flat_damage": 1,
+      "damage_type": "P",
+      "range": 40,
+      "ap_cost": 0,
+      "traits": [
+        "cartridge",
+        "fatal_d10",
+        "concealed"
+      ],
+      "ammo_capacity": 1,
+      "reload_actions": 1,
+      "allowed_environments": [
+        "high_radiant",
+        "low_radiant",
+        "the_neither"
+      ]
+    }
+  ],
+  "abilities": {},
+  "outland_ac": 23,
+  "outland_weapons": [
+    {
+      "name": "Niracrest Dueling Rapier (+1 Striking)",
+      "attack_bonus": 13,
+      "damage_dice": "2d6",
+      "flat_damage": 6,
+      "damage_type": "P",
+      "range": 0,
+      "ap_cost": 0,
+      "traits": [
+        "deadly_d8",
+        "disarm",
+        "finesse"
+      ],
+      "allowed_environments": [
+        "civil_spire",
+        "high_radiant",
+        "low_radiant",
+        "the_neither",
+        "wilderness"
+      ]
+    },
+    {
+      "name": "Combat Repeating Pistol (Mag 6)",
+      "attack_bonus": 12,
+      "damage_dice": "2d8",
+      "flat_damage": 3,
+      "damage_type": "P",
+      "range": 40,
+      "ap_cost": 0,
+      "traits": [
+        "cartridge",
+        "fatal_d10"
+      ],
+      "ammo_capacity": 6,
+      "reload_actions": 1,
+      "allowed_environments": [
+        "high_radiant",
+        "low_radiant",
+        "the_neither",
+        "wilderness"
+      ]
+    }
+  ],
+  "outland_abilities": {
+    "shield_block": true,
+    "shield_hp": 25,
+    "shield_hardness": 6
+  }
+}

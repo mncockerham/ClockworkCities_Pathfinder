@@ -1,0 +1,109 @@
+{
+  "name": "Pugilist (Lv3)",
+  "archetype": "Pugilist",
+  "level": 3,
+  "hp": 47,
+  "ac": 20,
+  "fort": 11,
+  "ref": 11,
+  "will": 8,
+  "speed": 35,
+  "max_ap": 8,
+  "status": 0,
+  "civil_spire_legal": true,
+  "civil_ac_penalty": 0,
+  "unarmed_damage_dice": "2d6",
+  "unarmed_bonus": 10,
+  "unarmed_flat_dmg": 4,
+  "unarmed_traits": [
+    "agile",
+    "nonlethal"
+  ],
+  "weapons": [
+    {
+      "name": "Bare-Knuckle Punch (Powerful Fist)",
+      "attack_bonus": 10,
+      "damage_dice": "2d6",
+      "flat_damage": 3,
+      "damage_type": "B",
+      "range": 0,
+      "ap_cost": 0,
+      "traits": [
+        "agile",
+        "finesse"
+      ],
+      "allowed_environments": [
+        "civil_spire",
+        "high_radiant",
+        "low_radiant",
+        "the_neither",
+        "wilderness"
+      ]
+    },
+    {
+      "name": "One-Inch Punch (Solar Plexus Shot)",
+      "attack_bonus": 10,
+      "damage_dice": "3d6",
+      "flat_damage": 3,
+      "damage_type": "B",
+      "range": 0,
+      "ap_cost": 0,
+      "action_cost": 2,
+      "traits": [
+        "forceful"
+      ],
+      "allowed_environments": [
+        "civil_spire",
+        "high_radiant",
+        "low_radiant",
+        "the_neither",
+        "wilderness"
+      ]
+    }
+  ],
+  "abilities": {
+    "flurry_of_blows": true,
+    "one_inch_punch": true,
+    "damage_resistance_physical": 1
+  },
+  "outland_weapons": [
+    {
+      "name": "+1 Striking Niracrest Knuckles",
+      "attack_bonus": 11,
+      "damage_dice": "2d6",
+      "flat_damage": 3,
+      "damage_type": "B",
+      "range": 0,
+      "ap_cost": 0,
+      "traits": [
+        "agile",
+        "finesse"
+      ],
+      "allowed_environments": [
+        "high_radiant",
+        "low_radiant",
+        "the_neither",
+        "wilderness"
+      ]
+    },
+    {
+      "name": "One-Inch Punch (Solar Plexus Shot)",
+      "attack_bonus": 11,
+      "damage_dice": "3d6",
+      "flat_damage": 3,
+      "damage_type": "B",
+      "range": 0,
+      "ap_cost": 0,
+      "action_cost": 2,
+      "traits": [
+        "forceful"
+      ],
+      "allowed_environments": [
+        "high_radiant",
+        "low_radiant",
+        "the_neither",
+        "wilderness"
+      ]
+    }
+  ]
+}

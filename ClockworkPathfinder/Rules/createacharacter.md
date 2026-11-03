@@ -118,7 +118,11 @@ Unlike standard fantasy games with bags of random gold, gear is governed by your
 
 Wrap up your character sheet:
 - **Armor Class (AC):** $10 + \text{DEX mod (up to cap)} + \text{Armor Item Bonus} + \text{Proficiency Bonus}$.
-- **Hit Points:** $\text{Heritage HP} + \text{Class HP} + \text{CON mod} + (\text{Hardened Frame Edge HP if purchased})$.
+- **Hit Points & Combat Box Setup (AISummary/20_Healing.md):**
+  - Calculate your 3 Health Tiers: **Regular Damage**, **Critical Wounds**, and **Mortal Wounds** using your Step size ($\lfloor 	ext{Max HP}/4 
+floor$, or flat 3/3 for HP $\le 16$).
+  - Record the Max and Current values for all three tiers on your sheet.
+  - At any time and before combat, conduct a quick 30-second Health Audit to verify that any days rested, morning Chirurgeon concoctions received, or items used earlier were actually marked down. Set up your **Active Combat Box**: $\text{Available HP} = \text{Current Regular} + \text{Current Critical} + \text{Current Mortal}$. Track incoming damage as a single running **Total Damage** tally, noting any nonlethal points in a **Nonlethal Pool**. At negative HP, compare the two to see if you are stable or dying. Post-combat: heal damage equal to current nonlethal, apply remaining damage downward (Current Regular -> Current Critical -> Current Mortal), and record any resulting health tier wound penalties on your character sheet.
 - **Active Power (AP):** Record your starting Active Surge pool (Tier 0 Martials = 0 AP; Tier 1 Operatives = 0 AP; Influence = 1 AP; Technical/Engineers = 2–3 AP; add +1 AP if you purchased the *AP Battery Surge Edge*).
 - **Character Story (The Simple Personal Anecdote):** Write 1 or 2 simple sentences explaining how your character picked up their skills or unusual traits (no long essays required).
 

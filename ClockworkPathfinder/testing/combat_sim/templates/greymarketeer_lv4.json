@@ -1,0 +1,99 @@
+{
+  "name": "GreyMarketeer (Lv4)",
+  "archetype": "GreyMarketeer",
+  "level": 4,
+  "hp": 48,
+  "ac": 21,
+  "fort": 9,
+  "ref": 13,
+  "will": 11,
+  "speed": 25,
+  "max_ap": 6,
+  "status": 3,
+  "civil_spire_legal": true,
+  "civil_ac_penalty": 0,
+  "unarmed_damage_dice": "1d4",
+  "unarmed_bonus": 8,
+  "unarmed_flat_dmg": 1,
+  "unarmed_traits": [
+    "agile",
+    "nonlethal"
+  ],
+  "weapons": [
+    {
+      "name": "Clandestine Breaching Charge",
+      "attack_bonus": 8,
+      "damage_dice": "2d6",
+      "flat_damage": 1,
+      "damage_type": "Force",
+      "range": 25,
+      "ap_cost": 0,
+      "is_bombardier": true,
+      "traits": [
+        "bombardier",
+        "concussive"
+      ],
+      "save_type": "ref",
+      "save_dc": 19,
+      "ammo_capacity": 6,
+      "reload_actions": 1,
+      "allowed_environments": [
+        "high_radiant",
+        "low_radiant",
+        "the_neither"
+      ]
+    },
+    {
+      "name": "Black-Market Stiletto (Civil 1d4)",
+      "attack_bonus": 11,
+      "damage_dice": "1d4",
+      "flat_damage": 4,
+      "damage_type": "P",
+      "range": 0,
+      "ap_cost": 0,
+      "traits": [
+        "agile",
+        "finesse",
+        "deadly_d8"
+      ],
+      "allowed_environments": [
+        "civil_spire",
+        "high_radiant",
+        "low_radiant",
+        "the_neither"
+      ]
+    },
+    {
+      "name": "Bootleg Snub Cartridge Gun",
+      "attack_bonus": 10,
+      "damage_dice": "2d8",
+      "flat_damage": 2,
+      "damage_type": "P",
+      "range": 30,
+      "ap_cost": 0,
+      "traits": [
+        "cartridge",
+        "fatal_d10",
+        "concealed"
+      ],
+      "ammo_capacity": 4,
+      "reload_actions": 1,
+      "allowed_environments": [
+        "high_radiant",
+        "low_radiant",
+        "the_neither"
+      ]
+    }
+  ],
+  "abilities": {
+    "armed_retainers": true,
+    "retainer_count": 2,
+    "retainer_hp": 16,
+    "retainer_attack": 6,
+    "retainer_damage_dice": "1d6",
+    "retainer_flat_damage": 2,
+    "arc_deflection_screen": true,
+    "deflection_ap_cost": 2,
+    "deflection_ac_bonus": 3
+  }
+}

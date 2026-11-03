@@ -1,0 +1,79 @@
+{
+  "name": "Scout (Lv4)",
+  "archetype": "Scout",
+  "level": 4,
+  "hp": 56,
+  "ac": 21,
+  "fort": 11,
+  "ref": 12,
+  "will": 10,
+  "speed": 30,
+  "max_ap": 5,
+  "status": 1,
+  "civil_spire_legal": false,
+  "civil_ac_penalty": -4,
+  "unarmed_damage_dice": "1d4",
+  "unarmed_bonus": 9,
+  "unarmed_flat_dmg": 3,
+  "unarmed_traits": [
+    "agile",
+    "nonlethal"
+  ],
+  "weapons": [
+    {
+      "name": "Composite Longbow",
+      "attack_bonus": 12,
+      "damage_dice": "2d8",
+      "flat_damage": 2,
+      "damage_type": "P",
+      "range": 100,
+      "ap_cost": 0,
+      "traits": [
+        "deadly_d10",
+        "propulsive"
+      ],
+      "allowed_environments": [
+        "high_radiant",
+        "low_radiant",
+        "the_neither"
+      ]
+    },
+    {
+      "name": "Hunting Shortsword",
+      "attack_bonus": 11,
+      "damage_dice": "2d6",
+      "flat_damage": 2,
+      "damage_type": "P/S",
+      "range": 0,
+      "ap_cost": 0,
+      "traits": [
+        "agile",
+        "finesse"
+      ],
+      "allowed_environments": [
+        "high_radiant",
+        "low_radiant",
+        "the_neither"
+      ]
+    },
+    {
+      "name": "Utility Skinning Knife (Civil 1d4)",
+      "attack_bonus": 11,
+      "damage_dice": "1d4",
+      "flat_damage": 1,
+      "damage_type": "P/S",
+      "range": 0,
+      "ap_cost": 0,
+      "traits": [
+        "agile",
+        "finesse"
+      ],
+      "allowed_environments": [
+        "civil_spire"
+      ]
+    }
+  ],
+  "abilities": {
+    "damage_resistance_physical": 1
+  }
+}
