@@ -112,6 +112,28 @@ Whenever an Elven traditional gunpowder firearm is used within the Aither, its b
 
 ---
 
+## 4B. Mechanical Bows & Crossbows (0 AP / All-Strata Weapons)
+
+*Unlike Gunpowder weapons (which explode outside the Aither) and NeitherTeck Energy weapons (which require 2–5 AP per shot, finite Spire cartridges, and fail in the Aither), **Bows and Crossbows cost 0 AP, require zero cartridges, never overheat, and operate at 100% effectiveness across all 6 atmospheric strata.** Preferred weapons of the **[Marksman](file:///c:/Users/Mark/OneDrive/Documents/Git/ClockworkCities_Pathfinder-1/ClockworkPathfinder/Classes/Marksman.md)**, **[Scout](file:///c:/Users/Mark/OneDrive/Documents/Git/ClockworkCities_Pathfinder-1/ClockworkPathfinder/Classes/Scout.md)**, and **[Soldier](file:///c:/Users/Mark/OneDrive/Documents/Git/ClockworkCities_Pathfinder-1/ClockworkPathfinder/Classes/Soldier.md)**.*
+
+| Weapon | Category | Group | Damage | Range | Reload | Capacity | Bulk | Hands | Traits | Base Reference & Setting Notes |
+|---|---|---|:---:|:---:|:---:|:---:|:---:|:---:|---|---|
+| **Shortbow** | Martial | Bow | **1d6 P** | 60 ft | 0 | — | 1 | 1+ | Deadly d10 | `[PC1 p.282]` Standard outrider and sentinel bow. |
+| **Collapsible Takedown Bow** | Martial | Bow | **1d6 P** | 60 ft | 0 | — | 1 | 1+ | Concealable (when folded), Deadly d10, Propulsive | `[New / G&G]` Hinged spring-steel and horn bow that folds into a coat or courier satchel (1 Interact action to unfold/fold). |
+| **Longbow** | Martial | Bow | **1d8 P** | 100 ft | 0 | — | 2 | 1+ | Deadly d10, Volley 30 ft | `[PC1 p.282]` Classic Arclean yew warbow. |
+| **Compound Pulley Longbow** | Martial | Bow | **1d8 P** | 100 ft | 0 | — | 2 | 1+ | Deadly d10, Propulsive, Volley 30 ft | `[PC1 p.282]` *(Composite Longbow)* Eccentric brass cams and braided steel cable boost kinetic velocity. |
+| **Compound Greatbow** | Advanced | Bow | **1d10 P** | 120 ft | 0 | — | 2 | 1+ | Deadly d10, Propulsive, Volley 30 ft | `[New / PC2]` Heavy leaf-spring warbow requiring immense draw conditioning (or *Marksman* proficiency). |
+| **Hand Crossbow** | Simple | Crossbow | **1d6 P** | 60 ft | 1 | 1 | L | 1 | — | `[PC1 p.281]` Compact one-handed Warrens and rooftop sidearm *(steps up to `1d8 P` for Arbalist Creed)*. |
+| **Gauntlet / Wrist Crossbow** | Martial | Crossbow | **1d4 P** | 30 ft | 1 | 1 | L | 0 (Free-Hand) | Concealable, Free-Hand | `[New / PC1]` Strapped to the forearm beneath a duster cuff; leaves the hand free for climbing or grappling *(steps up to `1d6 P` for Arbalist Creed)*. |
+| **Crossbow (Standard)** | Simple | Crossbow | **1d8 P** | 120 ft | 1 | 1 | 1 | 2 | — | `[PC1 p.281]` Reliable militia and caravan weapon *(steps up to `1d10 P` for Arbalist Creed)*. |
+| **Combat / Ratchet Crossbow** | Martial | Crossbow | **1d8 P** | 100 ft | 1 | 1 | 1 | 2 | Backstabber, Deadly d8 | `[New / PC2]` Steel-prod tactical crossbow with integrated lever-cocking stirrup *(steps up to `1d10 P` for Arbalist Creed)*. |
+| **Heavy Crossbow (Arbalest)** | Simple | Crossbow | **1d10 P** | 120 ft | 2 | 1 | 2 | 2 | — | `[PC1 p.281]` Heavy winch-drawn steel arbalest *(steps up to `1d12 P` for Arbalist Creed)*. |
+| **Siege / Piercer Arbalest** | Martial | Crossbow | **1d10 P** | 150 ft | 2 | 1 | 2 | 2 | Deadly d10, Kickback | `[New / G&G]` Massive twin-prod arbalest firing iron-shod bolts (`1d12 P, Deadly d10` for Arbalist Creed). |
+| **Repeating Hand Crossbow** | Advanced | Crossbow | **1d6 P** | 60 ft | 0 | **5** (Mag) | 1 | 1 | Repeating (3-Action Magazine Swap) | `[PC1 p.283]` Gravity-fed 5-bolt brass magazine; fires 5 times at `Reload 0` before swapping a fresh 5-bolt clip *(steps up to `1d8 P` for Arbalist Creed)*. |
+| **Repeating Heavy Crossbow** | Advanced | Crossbow | **1d8 P** | 120 ft | 0 | **5** (Mag) | 2 | 2 | Repeating (3-Action Magazine Swap) | `[PC1 p.283]` Clockwork-spring 5-bolt magazine rifle-crossbow; fires 5 times at `Reload 0` *(steps up to `1d10 P` for Arbalist Creed)*. |
+
+---
+
 ## 5. Special Weapon Traits & Mechanics
 
 ### Gunpowder Combustion Volatility (Firing Outside the Aither)

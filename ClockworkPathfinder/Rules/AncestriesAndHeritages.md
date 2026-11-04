@@ -79,10 +79,12 @@ The biological math of Neither exposure explains why **Humans and Orcs comprise 
    - Native to **Strata 2 (The Zone)** and **Strata 5 (Lightless Caverns)**, their maximum environmental distance reaches **4 levels away** (Half-Elves descending into deep mines; Dwarves ascending to high Aither).
    - In worst-case conditions, their combined Total Shift Score reaches **8.0** ($4.0 \text{ Air} + 4.0 \text{ Food}$), suffering rapid lethal necrosis (3d8 damage/day at dawn) and debilitating penalties within days unless heavily shielded by dynamos or pressurized cabins.
 
-3. **High Elves & Deep Ones (The Extreme Poles — Max Shift 5 / Total 10.0):**
-   - Native to **Strata 1 (Pristine Aither)** and **Strata 6 (The Boiling Deep)**, leaving their native layer pushes them **up to 5 levels away**.
-   - Their combined Total Shift Score reaches a catastrophic **10.0** ($5.0 \text{ Air} + 5.0 \text{ Food}$). Breathing foreign air inflicts **Clumsy 16, Enfeebled 16, and Drained 16** within 16 hours, while eating foreign food induces **Stupefied 16** and fatal convulsions.
-   - Without hermetically sealed life-support suits or deep breathing apparatuses, **High Elves and Deep Ones are virtually unplayable outside their native sanctuaries**, permanently trapping High Elves on polar peaks/palace summits and Deep Ones in boiling subterranean vents.
+3. **High Elves & Deep Ones (The Extreme Poles — $2\times$ Shift Value & $5\times$ Onset Speed):**
+   - Unlike the central four heritages, **High Elves (Strata 1 — Pristine Aither)** and **Deep Ones (Strata 6 — The Boiling Deep)** almost never leave their chosen native environment.
+   - **Double Reaction & $5\times$ Speed Rule:** Due to extreme evolutionary specialization at the absolute poles of the planet, both High Elves and Deep Ones suffer **double ($2\times$) the calculated value of all Food and Atmosphere (Neither/Aither) shift effects**, and those reactions **apply 5 times as fast** ($1/5$ the normal time interval per step):
+     - **Doubled Calculated Shift & Effect Values ($2\times$):** Every step of unmitigated Air Shift or Food Shift counts for **double its normal calculated value** (and doubles the resulting `Clumsy`, `Enfeebled`, `Drained`, `Stupefied`, and daily necrotic damage values). Even moving 2 strata away (e.g., a High Elf entering Upper Neither) inflicts an effective **4.0 Air Shift** and **4.0 Food Shift** (**Total Shift Score 8.0**), while reaching the opposite pole (5 strata away) inflicts an effective **10.0 Air + 10.0 Food = 20.0 Total Shift Score**!
+     - **Applies 5 Times as Fast ($1/5$ Time Interval):** Penalty increments accumulate at **one-fifth ($20\%$) of standard time** (1 Month $\rightarrow$ **6 Days**; 1 Week $\rightarrow$ **~33 Hours**; 3 Days $\rightarrow$ **~14.4 Hours**; 1 Day $\rightarrow$ **~4.8 Hours**; 1 Hour $\rightarrow$ **12 Minutes**).
+   - Without hermetically sealed life-support suits, pressurized breathing apparatuses, and strictly preserved native rations, **High Elves and Deep Ones are virtually unplayable outside their native sanctuaries**, collapsing within hours of exposure.
 
 ---
 
@@ -91,11 +93,12 @@ The biological math of Neither exposure explains why **Humans and Orcs comprise 
 - **Native Atmospheric Layer:** Strata 1 — The Aither.
 - **Native Diet:** High-altitude greenhouse produce, mountain game, and deep-water ocean fish (caught below 150 ft).
 - **Vision:** Standard human vision.
-- **Environmental & Dietary Shift:** 
-  - Suffers Air Shift levels based on distance from Strata 1 (e.g., Upper Neither = 2 Air Shift levels; Lower Neither = 3 Air Shift levels).
-  - Eating processed Mela adds 1.0 Food Shift; eating raw Sycelium or subterranean fungi adds 2.0 to 3.0 Food Shift.
+- **Environmental & Dietary Shift (Extreme Polar Specialization — $2\times$ Value, $5\times$ Speed):** 
+  - High Elves almost never leave the Aither. Whenever exposed to non-native air or non-native food, **double ($2\times$) the calculated value of all Air Shift and Food Shift effects**, and apply all progression timers **5 times as fast** ($1/5$ normal time).
+  - *Air Shift:* Entering the Zone (1 step) counts as **2.0 Air Shift**; Upper Neither (2 steps) counts as **4.0 Air Shift**; Lower Neither (3 steps) counts as **6.0 Air Shift**.
+  - *Food Shift:* Eating processed Mela (normally 2.0) counts as **4.0 Food Shift**; eating raw Sycelium or subterranean fungi counts as **6.0+ Food Shift**. *(Note: Deep-water ocean fish remains 0 Shift per the Deep Water Fish Exception).*
 - **Heritage Features:**
-  - **Neither Anaphylaxis:** Your cellular matrix has zero tolerance for Neither saturation. When exposed to Neither fog without a sealed breather apparatus or consuming fungal/Neither food, you take a –2 circumstance penalty on Fortitude saves against Neither sickness and your Total Shift Score from food and air increases by +0.5.
+  - **Acute Neither Anaphylaxis ($2\times$ Magnitude / $5\times$ Speed):** Your cellular matrix has zero tolerance for Neither saturation. All calculated values of Neither atmosphere and non-native food effects are **doubled ($2\times$)**—including Total Shift Score, condition penalties (`Clumsy`, `Enfeebled`, `Drained`, `Stupefied`), and daily necrotic damage—and accumulate **5 times faster** than normal (e.g., 1-day intervals strike every **4.8 hours**; 1-hour intervals strike every **12 minutes**). In addition, you take a –2 circumstance penalty on Fortitude saves against acute Neither sickness.
   - **Aither Longevity & Intellectual Drill:** Unclouded by fungal toxicity, your lineage maintains classical sciences and precision metallurgy. You gain a +1 circumstance bonus on Recall Knowledge checks regarding high technology, history, and mathematics, and begin trained in Academia Lore or Engineering Lore.
   - **Combustion Primacy & Geographic Defense (The Elven Mystique):** High Elf culture possesses the exclusive secret of gunpowder chemistry and circa-1900 combustion-engine motorcars and trains (though isolated enclaves may lack these resources). Visiting elven settlements requires directly braving the Zone, navigating through defended underground tunnels, or deploying specialized amphibious airships that transform into ocean-sailing vessels in the Arctic seas. Between their lethal technological superiority in pure Aither and these restricted, bottlenecked travel routes, the High Elves (~150,000 population) remain completely unthreatened by outside invasion.
 
@@ -163,12 +166,13 @@ The biological math of Neither exposure explains why **Humans and Orcs comprise 
 - **Native Atmospheric Layer:** Strata 6 — The Deep / The Mist.
 - **Native Diet:** Hyper-reactive geothermal fungal strains, thermal vent lichen, and sulfuric mineral brews. Clean surface food acts as severe biological poison to your metabolic enzymes.
 - **Vision:** **Low-Light Vision (Bioluminescent Slits).** You see clearly in dim conditions provided by faint fungal bioluminescence.
-- **Environmental & Dietary Shift:** 
-  - Centered at Strata 6 (Lightless Mines = 1 Air Shift level; Lower Neither = 2 Air Shift levels; Upper Neither = 3 Air Shift levels; Aither = 5 Air Shift levels).
-  - Deep reactive fungi incur 0 Food Shift; raw Sycelium adds 0.5 Food Shift; surface Mela adds 1.5 Food Shift; pure Aither food adds 3.0+ Food Shift.
+- **Environmental & Dietary Shift (Extreme Polar Specialization — $2\times$ Value, $5\times$ Speed):** 
+  - Like High Elves, Deep Ones almost never leave their boiling subterranean home. Whenever exposed to non-native air or non-native food, **double ($2\times$) the calculated value of all Air Shift and Food Shift effects**, and apply all progression timers **5 times as fast** ($1/5$ normal time).
+  - *Air Shift:* Lightless Mines (1 step) counts as **2.0 Air Shift**; Lower Neither (2 steps) counts as **4.0 Air Shift**; Upper Neither (3 steps) counts as **6.0 Air Shift**; Aither (5 steps) counts as **10.0 Air Shift**.
+  - *Food Shift:* Deep reactive fungi incur 0 Food Shift; raw Sycelium counts as **1.0 to 2.0 Food Shift** (doubled); surface Mela counts as **3.0 to 4.0 Food Shift** (doubled); pure Aither food counts as **8.0 to 10.0 Food Shift** (doubled).
 - **Heritage Features:**
   - **Thermal & Spore Adaptation:** Native to the boiling depths. You gain **Fire Resistance equal to half your level (minimum 1)**, complete immunity to environmental heat up to 140°F, and resistance against fungal spore inhalation.
-  - **Aither Toxicity:** Pure surface oxygen and sunlit Aither burn your respiratory tract. You treat clean Aither air as a toxic hazard unless wearing a specialized Neither-spore saturated breathing apparatus.
+  - **Acute Surface & Aither Toxicity ($2\times$ Magnitude / $5\times$ Speed):** Pure surface oxygen, cooler upper-layer air, and uncorrupted food violently poison your hyper-specialized cellular metabolism. All calculated values of non-native atmosphere and food effects are **doubled ($2\times$)**—including Total Shift Score, condition penalties (`Clumsy`, `Enfeebled`, `Drained`, `Stupefied`), and daily necrotic damage—and accumulate **5 times faster** than normal (e.g., 1-day intervals strike every **4.8 hours**; 1-hour intervals strike every **12 minutes**).
 
 ---
 
@@ -204,20 +208,37 @@ Because **Human (Upper Neither)** and **Orc (Lower Neither)** constitute over **
 - **Cellular Density (Orc Blurred Heritage):** You inherited the dense muscle tissue and heavy skeletal frame of the Lower Neither populations. You gain the Orc *Cellular Density* feature: your ancestry maximum Hit Points increase from 8 to **10**, and you gain a +1 circumstance bonus on saving throws against disease and poison.
 - **Adapted Constitution:** Your digestive system easily shifts between food strata. You reduce all Food Shift penalties by 0.5 (to a minimum of 0), allowing you to consume raw Sycelium or visit high Aither districts without digestive upset or biological debt for up to 1 week.
 - **Naturalized Neither Filter:** Thickened respiratory cilia grant you a +2 circumstance bonus on saving throws against inhaled toxins, smoke, and ambient Neither fog.
-- **Urban Generalist:** Gain trained proficiency in one additional skill of your choice and one general feat for which you meet the prerequisites.
+- **Urban Generalist / General Training `[Player Core p.46]`:** Gain trained proficiency in one additional skill of your choice and one 1st-level general feat for which you meet the prerequisites.
+- **Cooperative Nature `[Player Core p.46]`:** Factory-shift and gun-crew teamwork grants you a +4 circumstance bonus on checks to Aid allies.
+- **Haughty Obstinacy `[Player Core p.46]`:** Victorian aristocratic or constabulary resolve grants a +1 circumstance bonus to Will saves against mental coercion; if a foe fails an Intimidation check to Coerce you, it becomes a Critical Failure.
+- **Natural Ambition `[Player Core p.46]`:** Guild apprenticeship grants you an additional 1st-level class feat from your primary class.
+- **Natural Skill `[Player Core p.46]`:** Gain trained proficiency in two skills of your choice.
+- **Unconventional Weaponry `[Player Core p.47]` `[Modified]`:** Gain access to and treat an uncommon or martial weapon from another culture (such as an Elven rifled jezail, Dwarven heavy mining pick, or frontier repeating lever-gun) as a simple/martial weapon for proficiency.
 
 #### 5th Level
 - **Unflinching Tenacity:** When you fail a Will save against fear, mental fatigue, or despair, you can spend a single action ([one-action]) on your next turn to re-roll the saving throw with a +2 circumstance bonus.
 - **Spire Diplomat:** You bridge the cultural gap between the High Elven elite and lower-tier workers. Gain a +1 circumstance bonus on Diplomacy and Society checks with members of different social tiers and heritages.
 - **Caravan Hardened:** Long marches on the Peasant Paths between spires have conditioned your endurance. Increase your overland travel speed by 5 miles per day, and gain a +2 circumstance bonus on Fortitude saves against forced marches and environmental cold.
+- **Clever Improviser `[Player Core p.47]`:** Gain the *Untrained Improvisation* general feat and can attempt skill actions that normally require being Trained (excluding Bombardier manifolds).
 
 #### 9th Level
 - **Ten-Year Veteran:** You completed a standard 10-year military or constabulary hitch. Gain trained proficiency in heavy armor (or expert if already trained) and a +1 circumstance bonus to initiative rolls when combat begins with ranged weapons.
 - **Expedition Endurance:** When visiting adjacent atmospheric strata, your threshold before accruing biological shift stress is doubled (e.g., you can remain in adjacent layers twice as long before needing maintenance in your native layer).
+- **Cooperative Soul `[Player Core p.47]`:** *Prerequisite: Cooperative Nature.* When you roll a Failure or Critical Failure on a check to Aid a skill in which you are at least Expert, you get a Success instead.
+- **Group Aid `[Player Core p.47]`:** When you Aid one ally on a non-attack skill check, you can apply that same Aid bonus to up to 4 allies performing the same task.
+- **Hardy Traveler `[Player Core p.48]`:** Gain a +10-foot status bonus to overland travel Speed and +10 to your Bulk encumbrance and maximum limits during long marches.
+- **Incredible Improvisation `[Player Core p.48]`:** *Prerequisite: Clever Improviser.* Once per day, gain a +4 circumstance bonus to an untrained skill check.
+- **Multitalented `[Player Core p.48]` `[Modified]`:** Gain a 2nd-level Multiclass Dedication feat, ignoring its attribute prerequisites if you are a Half-Elf or blurred-heritage Human.
 
 #### 13th Level
 - **Pinnacle of Human Grit:** Once per day when you would be reduced to 0 HP by an attack or hazard, you can drop to 1 HP instead. If you do, your adrenaline surges, granting you a +10-foot status bonus to Speed for 1 round.
 - **Polymath Apprentice:** Gain trained proficiency in three skills of your choice, or improve two skills from trained to expert.
+- **Bounce Back `[Player Core p.48]` `[Modified]`:** Once per day when you regain consciousness from 0 HP, you do not suffer the post-knockout initiative penalty and immediately clear 1 step of nonlethal disorientation (`[Healing.md §6]`).
+- **Stubborn Persistence `[Player Core p.48]`:** Succeed at a DC 15 flat check to ignore becoming *Fatigued* after forced marches, night watches, or long foundry shifts.
+- **Unconventional Expertise `[Player Core p.49]`:** *Prerequisite: Unconventional Weaponry.* Advance your chosen unconventional weapon to Expert/Master matching your primary class weapon proficiency.
+
+#### 17th Level
+- **Heroic Presence `[one-action]` `[Player Core p.49]` `[Modified]`:** *(Non-magical leadership)* Once per day, rally up to 10 allies within 30 feet, granting them Temporary HP equal to your Level + CHA modifier and a +2 status bonus to Will saves against fear for 1 minute.
 
 ---
 
@@ -230,20 +251,36 @@ Because **Human (Upper Neither)** and **Orc (Lower Neither)** constitute over **
 - **Fungal Gastronomy:** Raw Sycelium, subterranean roots, and sump-lichen are native staples for your metabolism. You ignore up to 1.0 Food Shift penalty from consuming raw fungi and cavern diets, and can safely drink mineral-heavy sump water without boiling.
 - **Dense Frame:** You gain the *Diehard* general feat, and your maximum Hit Points increase by an additional 2.
 - **Heavy Hauler's Back:** Years in foundries and lower quarries have reinforced your spine. Gain the *Hefty Hauler* skill feat, and your Bulk limit before becoming encumbered increases by an additional 1.
+- **Beast Trainer `[Player Core p.54]` `[Modified]`:** Become Trained in *Aither Nature* or *Survival: Lower Neither* and gain the *Train Animal* skill feat (+1 circumstance bonus to Command an Animal with wasteland mastiffs, pack mules, or sump-hounds).
+- **Iron Fists `[Player Core p.54]`:** Your fist unarmed attacks lose the *Nonlethal* trait and gain the *Shove* weapon trait.
+- **Orc Ferocity `[reaction]` `[Player Core p.55]` `[Modified]`:** Once per day when reduced to 0 HP by lethal damage, remain standing at **1 HP** instead of collapsing unconscious (`[Healing.md §6.C]`), though the overflow damage still records onto your post-combat Critical/Mortal wound tracker.
+- **Orc Lore `[Player Core p.55]` `[Modified]`:** Gain Trained proficiency in Athletics and Survival (Lower Neither), plus *Labor Lore* or *Wasteland Lore*.
+- **Orc Weapon Familiarity `[Player Core p.55]` `[Modified]`:** Gain Trained proficiency in heavy cleavers, machetes, breaching mauls, and heavy lever-action scatterguns; unlock critical specialization effects at 5th level.
+- **Tusks `[Player Core p.55]` `[Modified]`:** Gain a 1d6 unarmed Jaws/Headbutt Strike (Brawling group).
 
 #### 5th Level
 - **Sump-Lung:** Accustomed to heavy industrial smoke and marsh gases. You can hold your breath twice as long as normal and gain complete immunity to the *Sickened* condition caused by mundane industrial smog, sewage vents, or stagnant sump fumes.
 - **Deep Neither Stride:** You treat non-magical difficult terrain caused by heavy Neither mud, fungal overgrowth, or jagged quarry rubble as normal terrain.
 - **Iron Clench:** Your grip strength is legendary. You gain a +2 circumstance bonus to Athletics checks to Grapple, Disarm, or Shove, and your unarmed strikes gain the *Grapple* trait.
+- **Athletic Might `[Player Core p.55]`:** Whenever you roll a Success on an Athletics check to Climb or Swim, you get a Critical Success instead.
+- **Bloody Blows `[Player Core p.55]`:** Critical hits with your lethal unarmed Strikes deal **1d4 persistent bleed damage**.
+- **Hold Mark / Scar-Thickened Skin `[Player Core p.55]` `[Modified]`:** Industrial burns and pit-fighting scars toughen your hide; your flat check to recover from persistent bleed, fire, or acid damage is reduced from DC 15 to **DC 13** (DC 8 with assisted aid).
+- **Victorious Vigour `[reaction]` `[Player Core p.56]`:** When you bring an enemy to 0 HP, gain Temporary Hit Points equal to your Constitution modifier until the end of your next turn.
 
 #### 9th Level
 - **Neither Surge Recovery:** When resting in the Lower Neither, your biological systems accelerate. The time required to heal Damage and Critical Wounds is reduced by half.
 - **Vanguard Charge ([two-actions]):** Stride twice and make a melee Strike or Shove. If you hit or succeed, deal an additional 1d8 bludgeoning damage and push the target 5 feet back.
 - **Deep-Vein Acclimation:** You can visit and work in the subterranean caverns and The Deep without suffering heat exhaustion or low-altitude pressure sickness for up to two weeks.
+- **Death's Drums `[Player Core p.56]` `[Modified]`:** While carrying an active **Critical or Mortal Wound** (`[Healing.md]`) or taking persistent bleed/fire damage, you gain a **+2 status bonus to Fortitude saves**.
+- **Undying Ferocity `[Player Core p.56]`:** *Prerequisite: Orc Ferocity.* When you trigger *Orc Ferocity*, you also gain Temporary Hit Points equal to your Character Level.
 
 #### 13th Level
 - **Neither-Storm Navigator (Also Half-Elf):** You read the howling atmospheric surges. When guiding a team, vehicle, or caravan through a Neither Storm, reduce the effective storm intensity by 1 level for your entire group.
 - **Unstoppable Bulk:** Your dense muscle and bone absorb kinetic shock. You gain physical resistance 3 against bludgeoning and slashing damage.
+- **Incredible Ferocity `[Player Core p.56]`:** *Prerequisite: Orc Ferocity.* You can use *Orc Ferocity* once per hour instead of once per day.
+
+#### 17th Level
+- **Rampaging Ferocity `[free-action]` `[Player Core p.57]`:** *Prerequisite: Orc Ferocity.* When you trigger *Orc Ferocity*, immediately make a single melee Strike or Stride as a free action.
 
 ---
 
@@ -251,19 +288,28 @@ Because **Human (Upper Neither)** and **Orc (Lower Neither)** constitute over **
 *Preservers of pre-collapse sciences and precision engineering living in high uncorrupted Aither.*
 
 #### 1st Level
-- **Aither Scholar:** Raised in the classical academies of the far north or palace spires. Gain the *Courtly Graces* skill feat and trained proficiency in Society and Academia Lore.
-- **Precision Vision:** Your eyes are calibrated for clean air and bright horizons. You reduce penalties from range increments on projectile weapons by 1.
+- **Aither Scholar / Ancestral Longevity `[Player Core p.42]` `[Modified]`:** Raised in the classical academies of the far north or palace spires. Gain the *Courtly Graces* skill feat, trained proficiency in Society and Academia Lore, and 1 temporary Trained skill each day selected during daily study from classical Aither archives.
+- **Precision Vision / Unwavering Mien `[Player Core p.43]` `[Modified]`:** Your eyes are calibrated for clean air and bright horizons. Reduce penalties from range increments on projectile/gunpowder weapons by 1, and reduce the duration of mental/emotion conditions by 1 round (+2 status vs. sleep/ether gases).
+- **Elven Aloofness `[Player Core p.42]`:** If a non-Elf rolls a Failure on an Intimidation check to Demoralize or Coerce you, they get a Critical Failure instead (and cannot Demoralize you for 24 hours).
+- **Elven Lore `[Player Core p.42]` `[Modified]`:** Gain Trained proficiency in *Clockwork Technology* (or *Aither Nature*), *Society*, and *Gunpowder/Combustion Lore*.
+- **Elven Weapon Familiarity `[Player Core p.42]` `[Modified]`:** Gain Trained proficiency in rapiers, shortswords, longbows, and all **Elven Gunpowder Firearms** (dueling pistols, jezails, arquebuses per `[RangedWeapons.md §3]`); unlock critical specialization at 5th level.
+- **Forlorn `[Player Core p.42]`:** Gain a +1 circumstance bonus to saving throws against emotion effects; a Success on a save against an emotion effect becomes a **Critical Success**.
+- **Nimble Elf `[Player Core p.42]`:** Your base land Speed increases by 5 feet (to 30 feet).
 
 #### 5th Level
 - **Radiant Technician (Also Half-Elf):** You understand the electromagnetic theory of the Zone. You can calibrate, repair, or recharge a radiant battery or Zone-powered device in half the standard time.
-- **Ancestral Fencing Drill:** Trained in classical Aither court rapier and smallsword forms. You gain a +1 circumstance bonus to damage with rapiers, shortswords, and dueling knives.
+- **Ancestral Fencing Drill / Elven Instincts `[Player Core p.43]` `[Modified]`:** Trained in classical Aither court rapier and smallsword forms. You gain a +1 circumstance bonus to damage with rapiers, shortswords, and dueling knives, plus a +2 circumstance bonus to Perception initiative rolls (winning ties against non-Elves).
+- **Ageless Patience `[Player Core p.43]`:** Spend twice the normal actions or time on a Perception or skill check to gain a **+2 circumstance bonus** (and never treat a natural 1 as worse than a normal failure).
 
 #### 9th Level
 - **High-Spire Diplomat:** Your pure lineage commands deference in high society. Once per day, when attempting a Diplomacy check to Request assistance from nobility or high magistrates, you can roll twice and take the higher result.
 - **Calculated Breather Reserve:** You have mastered the conservation of clean air. Your sealed breather apparatus or air tank lasts twice as long in contaminated Neither environments.
+- **Elf Step `[one-action]` `[Player Core p.44]`:** Step 5 feet twice in a single action to slip out of melee reach or flank in a duel.
+- **Expert Longevity `[Player Core p.44]`:** *Prerequisite: Ancestral Longevity.* Upgrade your daily archive study skill to **Expert** proficiency.
 
 #### 13th Level
-- **Pure Bloodline Memory:** You access pre-collapse technical archives. Once per day, you can attempt any Knowledge, Crafting, or Medicine check as if you possessed Master proficiency.
+- **Pure Bloodline Memory / Universal Longevity `[Player Core p.44]` `[Modified]`:** You access pre-collapse technical archives. Once per day, you can attempt any Knowledge, Crafting, or Medicine check as if you possessed Master proficiency, and you can swap your *Longevity* skills with 10 minutes of reference review.
+- **Avenge Ally `[one-action]` `[Player Core p.44]`:** When within 30 feet of an unconscious or dying ally, make a Strike with a fortune roll (roll twice and take the higher result) against the foe who downed them.
 
 ---
 
@@ -275,14 +321,20 @@ Because **Human (Upper Neither)** and **Orc (Lower Neither)** constitute over **
 - **Expanded Adaptability: Human (1-Shift Tolerance):** Your lineage traces down to the middle spire circles. Whenever determining atmospheric effects or dietary compatibility (such as eating standard Mela produce or resting in Upper Neither wards), you can choose to be treated as either **Half-Elf** (The Zone) or **Human** (Upper Neither), whichever is more advantageous.
 - **Rigging Reflexes:** Life on swaying airship spars honed your footing. When you roll a success on an Acrobatics check to Balance on narrow catwalks, cables, or rigging, you get a critical success instead.
 - **Barometric Sense:** You can read micro-shifts in atmospheric pressure. You can predict changes in weather or oncoming Zone squalls 1 hour in advance.
+- **Elf Atavism `[Player Core p.59]` `[Modified]`:** Gain the High Elf *Aither Longevity & Intellectual Drill* feature (+1 circumstance bonus to Recall Knowledge on high tech/history/math and Trained in Academia or Engineering Lore).
+- **Nimble Elf `[Player Core p.42]`:** Your base land Speed increases by 5 feet (to 30 feet).
+- **Round Ears / Seamless Passing `[Player Core p.59]` `[Modified]`:** Gain the *Impressive Performance* or *Lie to Me* skill feat, and a +2 circumstance bonus to Deception checks to impersonate an upper-class Aither noble or middle-ward Spire citizen.
 
 #### 5th Level
+- **Radiant Technician (Also High Elf):** Calibrate, repair, or recharge a radiant battery or Zone-powered device in half the standard time.
 - **Airship Aeronaut:** Gain a +2 circumstance bonus to Piloting checks and Reflex saves while aboard an airship in the Zone.
 - **Static Discharge Strike:** When you hit with an unarmed strike or metal weapon, you can expend built-up static charge to deal an extra 1d4 electricity damage (recharges after 1 minute).
+- **Inspire Imitation `[reaction]` `[Player Core p.59]`:** When you critically succeed at a skill check, use a reaction to Aid allies attempting the same skill check without needing to prepare in advance.
 
 #### 9th Level
 - **Zone Lightning Attunement:** When you are targeted by or take electricity damage, you absorb the current. Your next melee or ranged attack within 1 round deals an additional 1d6 electricity damage.
 - **Feather-Step Descent:** You know how to catch air drafts. You treat all falls as if they were 20 feet shorter.
+- **Pinch Time / Hyper-Focus `[Player Core p.59]` `[Modified]`:** *(Non-magical reflex surge)* Once per day, become *Quickened* for 1 round (your extra action can be used to Stride, Step, Balance, or Interact with airship rigging/reloads).
 
 #### 13th Level
 - **Neither-Storm Navigator (Also Orc):** Reduce effective storm intensity by 1 level when navigating an airship or leading a party through a Neither Storm.
@@ -296,21 +348,35 @@ Because **Human (Upper Neither)** and **Orc (Lower Neither)** constitute over **
 #### 1st Level
 - **Expanded Adaptability: Orc (1-Shift Tolerance):** Your bloodline carries surface Neither tolerance from lowland quarry ancestors. Whenever determining atmospheric Neither exposure or dietary compatibility (such as eating surface Neither produce or resting in the Lower Neither), you can choose to be treated as either **Dwarf** (Lightless Neither) or **Orc** (Lower Neither), whichever is more advantageous.
 - **Expanded Adaptability: Deep One (1-Shift Tolerance):** Your lineage traces to deep geothermal shaft sappers. Whenever determining subterranean heat stress, thermal vents, or reactive deep fungal diets, you can choose to be treated as either **Dwarf** (Lightless Neither) or **Deep One** (The Deep / The Mist), whichever is more advantageous.
-- **Stonemason's Ear:** You can tap a stone wall, pillar, or ceiling to assess its structural integrity. You gain a +2 circumstance bonus to Perception checks to detect unstable ceilings, secret masonry doors, or stone hazards.
+- **Stonemason's Ear / Stonecunning `[Player Core p.38]` `[Modified]`:** You can tap a stone wall, pillar, or ceiling to assess its structural integrity. You gain a +2 circumstance bonus to Perception checks to detect unstable ceilings, secret masonry doors, or stone hazards (rolling automatically even when not actively Seeking).
 - **Feline Dilation:** Your reflective pupils adjust quickly. You recover from being blinded or dazzled by sudden bright light in half the standard duration.
-- **Dense Stature:** You gain a +2 circumstance bonus to your Fortitude or Reflex DC against attempts to Shove or Trip you.
+- **Dense Stature / Rock Runner `[Player Core p.38]` `[Modified]`:** You gain a +2 circumstance bonus to your Fortitude or Reflex DC against attempts to Shove or Trip you, and ignore difficult terrain caused by loose mine rubble, gravel, and uneven stone stairs.
+- **Dwarven Doughtiness `[Player Core p.38]`:** At the end of your turn, reduce your *Frightened* condition value by 2 instead of 1.
+- **Dwarven Lore `[Player Core p.38]` `[Modified]`:** Gain Trained proficiency in Crafting and Survival (Subterranean), plus *Mining Lore* or *Masonry Lore*.
+- **Dwarven Weapon Familiarity `[Player Core p.38]` `[Modified]`:** Gain Trained proficiency in battle axes, picks, warhammers, heavy crossbows, and pneumatic rock-drills; unlock critical specialization effects at 5th level.
+- **Unburdened Iron `[Player Core p.39]`:** Ignore the 5-foot Speed reduction from wearing heavy armor or pressurized deep-shaft diving suits, and ignore 1 additional –5 ft Speed penalty from encumbrance or gear.
 
 #### 5th Level
 - **Tremor Resonance:** Standing on solid stone, Neithercrete, or rock, you sense rhythmic vibrations through your boots. Gain imprecise **Tremorsense 15 feet** while touching unworked stone or masonry.
 - **Subterranean Sapper:** You ignore 5 points of object Hardness when striking stone, masonry, or Neithercrete barriers.
+- **Boulder Roll `[two-actions]` `[Player Core p.39]`:** Step into a foe's square to knock them back (Fortitude save vs. your Athletics DC; target is pushed 5–10 feet and takes bludgeoning damage on a failure).
+- **Enhanced Cat-Optic Reflectivity `[Player Core p.39]` `[Replaces Defy the Darkness]`:** *(Since Darkvision does not exist in the setting)* Your reflective tapetum lucidum magnifies even microscopic sparks or fungal glow: you ignore the DC 5 flat check to target *Concealed* creatures in dim light, smoke, or thin Neither mist.
+- **Sheltering Slab `[Player Core p.39]`:** While adjacent to a stone or Neithercrete wall, enemies do not gain the *Off-Guard* condition from flanking you.
 
 #### 9th Level
 - **Deep Delver's Instinct:** You immediately sense shifts in subterranean air currents and gas pockets. You and allies within 15 feet gain a +2 circumstance bonus to saving throws against explosive mine gases and subterranean cave-ins.
 - **Pike & Hammer Drill:** You gain trained proficiency in martial hammers and picks. When wielding a hammer or pick, your strikes gain the *Backswing* trait.
+- **Mountain's Stoutness `[Player Core p.40]` `[Modified]`:** Increases your maximum Hit Points by your **Character Level** (stacking with *Toughness* to expand your **3-Step Wound Thresholds** per `[Healing.md §2]`), and increases your Biological Death Threshold by $+0.5 \times \text{Step}$.
+- **Structural Stress Reader `[Player Core p.40]` `[Replaces Stonewalker]`:** *(Replaces magical *Meld into Stone*)* By spending 1 minute inspecting a tunnel or Spire foundation, you determine the exact thickness of walls, locate hollow chambers up to 30 feet behind stone, and identify the exact load-bearing point to place a demolition charge.
 
 #### 13th Level
 - **Unyielding Stone:** When an effect would force you to move or knock you prone, you can use a reaction ([reaction]) to plant your footing, completely negating the forced movement or remaining standing.
 - **Deep-Vein Master:** You can navigate completely dark tunnels and labyrinthine mines without needing to map your route; you never lose your sense of depth or direction underground.
+- **March the Mines `[Player Core p.41]` `[Modified]`:** *(Non-magical pathfinding)* When leading a party through subterranean mines, Warrens tunnels, or mountain passes, double your party's overland travel speed and leave zero tracks.
+- **Telluric Power `[Player Core p.41]`:** Deal a +1 circumstance bonus to damage per weapon damage die on melee Strikes when both you and the target are standing on the same stone, earth, or Neithercrete surface.
+
+#### 17th Level
+- **Stonewall `[reaction]` `[Player Core p.41]` `[Modified]`:** *(Physical bracing, not petrification)* Once per day as a reaction when hit by a physical strike or blast, lock your stance and armor joints to gain **Resistance 15 to all physical damage** and immunity to forced movement until the start of your next turn (becoming *Slowed 1* for 1 round).
 
 ---
 

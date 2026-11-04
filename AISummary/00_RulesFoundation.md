@@ -166,6 +166,8 @@ Because Clockwork Cities features deep institutional backing (*"Worth = who you 
 | 30_ClassEnvironments.md | Class Environmental Effectiveness & Combat Matrix (Guidance) | Draft |
 | `ClockworkPathfinder/Classes/ClassTemplate.md` | Class Conversion Template | Template |
 | `ClockworkPathfinder/Classes/Soldier.md` | Soldier class (Fighter baseline) | Draft |
+| `ClockworkPathfinder/Classes/Marksman.md` | Marksman class (Tier 0 0-AP Bow & Crossbow specialist) | Draft |
+| `ClockworkPathfinder/Classes/WarRider.md` | WarRider / Spire Cavalier class (Tier 0 0-AP Mounted Combat specialist) | Draft |
 | `ClockworkPathfinder/Classes/Rake.md` | Rake class (Swashbuckler baseline: Salon Fencing, Honor & Social Dueling) | Draft |
 | `ClockworkPathfinder/Classes/Survivor.md` | Survivor class (Rogue baseline) | Draft |
 | `ClockworkPathfinder/Classes/Chirurgeon.md` | Chirurgeon class (Alchemist split: Restorative/Antidote/Acid/Poison) | Draft |
@@ -186,6 +188,8 @@ Because Clockwork Cities features deep institutional backing (*"Worth = who you 
 | `ClockworkPathfinder/Rules/ResourcesAndWealth.md` | Wealth Rules for Ward 13, Military, Wards & University; Separate Inner and Ward 13 Warrens Rules; Citizen Bulwark & Currency | Draft |
 | `ClockworkPathfinder/Rules/Skills.md` | Grounded Skills, The 7 Victorian/Steampunk Social Skill (`Understanding`) Groups, 4-Tier Specificity Spectrum & Obligations | Draft |
 | `ClockworkPathfinder/Rules/AncestriesAndHeritages.md` | Humanity Ancestry & 6 Biological Heritages (Feats & Low-Light Vision) | Draft |
+| `ClockworkPathfinder/Rules/mounts.md` | Mounts, Equine Social Status in the Spires & Light/Dark Neither Beast Scaling ($2\times$ / $2.4\times$ HP, $+1$ / $+2$ Damage Dice) | Draft |
+| `ClockworkPathfinder/Rules/feats.md` | Master Feats Reference (Ancestry, Class, Edges, Archetypes & NPC Talents) | Draft |
 | `ClockworkPathfinder/Classes/Archetypes/ArchetypeCatalog.md` | Archetypes (PF2e Remaster available, modified & removed archetypes) | Draft |
 | `ClockworkPathfinder/Equipment/EquipmentCatalog.md` | Equipment (Victorian steampunk gear, Mad Bomber bombs, Chirurgeon sera, ballistics & rations) | Draft |
 | `ClockworkPathfinder/Rules/NeitherTeck/` | NeitherTeck & Clockwork Systems (`NeitherTeckRules.md`, `Weapons.md`, `TacticalRigs.md`) | Draft |

@@ -10,7 +10,7 @@
 ## 1. Setting Overview
 *The disciplined backbone of spire garrisons, ward constabularies, merchant escorts, and the King's Guard.*
 
-- **In-World Identity:** Enlisted regulars, seasoned sergeants, trench line infantry, ward constables, and elite King's Guardsmen trained in formation combat, tactical defense, and close-quarters melee.
+- **In-World Identity (Mandatory Military / Regimental Drill):** Unlike street brawlers (**[Pugilist](file:///c:/Users/Mark/OneDrive/Documents/Git/ClockworkCities_Pathfinder-1/ClockworkPathfinder/Classes/Pugilist.md)**), salon duelists (**[Rake](file:///c:/Users/Mark/OneDrive/Documents/Git/ClockworkCities_Pathfinder-1/ClockworkPathfinder/Classes/Rake.md)**), or bowmen (**[Marksman](file:///c:/Users/Mark/OneDrive/Documents/Git/ClockworkCities_Pathfinder-1/ClockworkPathfinder/Classes/Marksman.md)**), every **Soldier** has undergone formal **frontline infantry, trench warfare, constabulary riot-wall, or organized warband phalanx training**. They are the disciplined backbone of Spire garrisons, Ward Constabularies, Great House guard regiments, and elite trench-line shock units.
 - **Typical Social Class & Backing:** Military track (Enlisted: Status 2, Sergeant: Status 3, Officer: Status 4) or Citizen/Laborer prior to service. Many serfs and debtors enter military service as their primary avenue to earn free status.
 - **Physical / Scientific Explanation:** Rigorous physical conditioning, weapon mastery, shield drill, and mechanical armor familiarity adapted to urban choke points, spire ramparts, and close-quarters fighting in the Neither.
 
@@ -24,21 +24,21 @@
 
 | Level | Class Features Gained |
 |:---:|---|
-| **1** | Ancestry and background, initial proficiencies, Reactive Strike, Shield Block, 1st-level Soldier feat |
+| **1** | Ancestry and background, initial proficiencies, **Formation Fighting (`+1`)**, **Sharing Shield Defense (1 Adjacent Ally)**, Reactive Strike, Shield Block, 1st-level Soldier feat |
 | **2** | Soldier feat, skill feat |
 | **3** | Bravery, general feat, skill increase |
 | **4** | Soldier feat, skill feat |
 | **5** | Attribute boosts (4 attributes), Weapon Mastery, skill increase |
 | **6** | Soldier feat, skill feat |
-| **7** | Battlefield Surveyor, general feat, skill increase |
-| **8** | Soldier feat, skill feat |
+| **7** | Battlefield Surveyor, **Formation Fighting (`+2`)**, general feat, skill increase |
+| **8** | **Sharing Shield Defense (2 Adjacent Allies)**, Soldier feat, skill feat |
 | **9** | Combat Flexibility, Juggernaut, skill increase |
 | **10** | Attribute boosts (4 attributes), Soldier feat, skill feat |
 | **11** | Armor Expertise, Soldier Expertise (class DC to Expert), general feat, skill increase |
 | **12** | Soldier feat, skill feat |
 | **13** | Weapon Legend, skill increase |
 | **14** | Soldier feat, skill feat |
-| **15** | Attribute boosts (4 attributes), Evasion, Improved Flexibility, general feat, skill increase |
+| **15** | Attribute boosts (4 attributes), Evasion, **Formation Fighting (`+3`)**, Improved Flexibility, general feat, skill increase |
 | **16** | Soldier feat, skill feat |
 | **17** | Armor Mastery, skill increase |
 | **18** | Soldier feat, skill feat |
@@ -56,6 +56,8 @@
 | 1 | Starting Social Skills (`Understanding`) & Social Advancement | `[Skills.md]` | **New** | **Total Starting Pool (Trained):** `2 Automatic + 1 Class Base + CHA Modifier` (min 1 selectable).<br>• **2 Automatic Broad Entries:** Choose 2 from **Military** (*Crown Army Regiments & Garrison Infantry*, *Siege Artillery & Great Arc Cannon Batteries*, *Arms Bunker Quartermasters & Ordnance Depots*, or *Outland Rangers & Frontier Forts*).<br>• **Selectable Starting Broad Groups:** Choose your `1 + CHA Mod` entries from **Military**, **Law Enforcement** (*Ward Constabulary & Precinct Watch*, *Private House Guards & Licensed Bodyguards*), **Labor Organizations** (*Dockers, Stevedores & Sea-Corridor Unions*, *Foundrymen, Millhands & Boilermakers*), or **Criminal Underworld** (*Ward 13 Prize-Fighting Pits*, *Warrens Rookeries & Street Gangs*).<br>• **Narrow Aspect Choice (Scope vs. Impact):** For each Broad Skill chosen, select its specificity tier: **1) Broad Only** (`+0`, widest reach across the Spire), **2) Singular Sub-Group** (`+1`, specific regiment/guard company), **3) Specific Place** (`+2`, single barracks/ward/bunker), or **4) Specific Person** (`+3` & auto-Phase 1 intel on one named individual).<br>• **Tier 4 Social Advancement Track (Separate from Skill Increases):** Gain **5 Social Advancements** across Levels 1–20 (**every 4 levels: `4, 8, 12, 16, 20`**). Spend each to **add a new Broad Social Skill (Trained)** OR **deepen an existing entry's Proficiency Tier** (**Expert** at Lv 5+, **Master** at Lv 13+; capped at **Master**). May swap up to **1** entry per level-up. |
 | 1 | Reactive Strike | `[Player Core p.138]` | **Unchanged** | Make a melee Strike as a reaction against a creature that manipulates, moves, or makes a ranged attack. |
 | 1 | Shield Block | `[Player Core p.138]` | **Unchanged** | Shield Block general feat granted as a bonus class feature. |
+| 1, 7, 15 | **Formation Fighting (`+1 / +2 / +3`)** | `[feats.md]` | **New** | **Trench & Phalanx Infantry Drill:** Whenever you are fighting **within 10 feet** of at least one other **Soldier** (or any ally who has the **Formation Drill** general feat; see `[feats.md §4.A]`), you gain a **+1 circumstance bonus to melee damage rolls and to saving throws and DCs against Fear, Shove, Trip, and Grapple**. This bonus increases to **+2 at 7th level** and **+3 at 15th level**. In addition, while you are **adjacent (within 5 feet)** to a Soldier or *Formation Drill* ally, **neither of you can be Flanked** (unless both of you are flanked simultaneously). *(Tactical Trade-Off: Bunching up in formation negates flanking and boosts melee/shield defense, but exposes the formation to **Bombardier** manifolds and area-of-effect blasts!)* |
+| 1, 8 | **Sharing Shield Defense (`+2 AC`)** | — | **New** | **Overlapping Shield Wall:** Whenever you are wielding a shield and use **Raise a Shield `[one-action]`**, you can extend a **+2 circumstance bonus to AC** to **1 ally in an adjacent square** (5 feet) for as long as they remain adjacent to you while your shield is raised. At **8th level**, you can extend this **+2 circumstance bonus to AC** to **up to 2 allies in adjacent squares**! |
 | 1 | Soldier Feat | `[Player Core p.138]` | **Unchanged** | 1st-level class feat. |
 | 3 | Bravery | `[Player Core p.139]` | **Unchanged** | Will saves increase to Expert. Success vs. fear becomes critical success; reduce frightened condition by 1 when frightened. |
 | 5 | Weapon Mastery | `[Player Core p.139]` | **Unchanged** | Master proficiency with weapons in one chosen weapon group; critical specialization effects applied with that group. |
@@ -73,21 +75,21 @@
 ---
 
 ## 3. Class Feats
-*Base Fighter feats [Player Core p.140–147] are adopted 1-to-1 at baseline. Combustion/firearms restrictions apply per setting rules.*
+*Base melee and shield Fighter feats `[Player Core p.140–147]` are adopted 1-to-1 at baseline. Pure bow/crossbow feats (*Point-Blank Shot*, *Triple Shot*, *Incredible Aim*, *Impossible Volley*) are moved to the **[Marksman](file:///c:/Users/Mark/OneDrive/Documents/Git/ClockworkCities_Pathfinder-1/ClockworkPathfinder/Classes/Marksman.md)** class.*
 
 ### Feat Overview by Level
 | Level | Feats Available | Base Reference | Status | Notes |
 |---|---|---|---|---|
-| **1st** | Double Slice, Exacting Strike, Point-Blank Shot, Power Attack, Reactive Shield, Snagging Strike, Sudden Charge | `[Player Core p.140–141]` | **Unchanged** | Baseline 1-to-1 match. |
+| **1st** | Double Slice, Exacting Strike, Power Attack, Reactive Shield, Snagging Strike, Sudden Charge | `[Player Core p.140–141]` | **Modified** | Melee & shield focus (*Point-Blank Shot* moved to `Marksman`). |
 | **2nd** | Aggressive Block, Assisting Shot, Brutish Shove, Combat Hide, Dueling Parry, Intimidating Strike, Lunge, **Savage Combatant** *(New)* | `[Player Core p.141–142]` | **Modified** | Baseline 1-to-1 match + **Savage Combatant** option (replaces standalone Brute class). |
 | **4th** | Barreling Charge, Dual-Handed Assault, Knockdown, Powerful Shove, Quick Reversal, **Relentless Savagery** *(New)*, Shielded Stride, Twin Parry | `[Player Core p.142–143]` | **Modified** | Baseline 1-to-1 match + **Relentless Savagery** upgrade. |
-| **6th** | Advantageous Assault, Dueling Dance, Furious Focus, Reflexive Shield, Revealing Stab, Shield Warden, Triple Shot | `[Player Core p.143–144]` | **Unchanged** | Baseline 1-to-1 match. |
+| **6th** | Advantageous Assault, Dueling Dance, Furious Focus, Reflexive Shield, Revealing Stab, Shield Warden, Shatter Defenses | `[Player Core p.143–144]` | **Modified** | Melee & shield focus (*Triple Shot* moved to `Marksman`). |
 | **8th** | Blind-Fight, Disorienting Opening, Felling Strike, Incredible Aim, Mobile Shot Stance, Positioning Assault, Quick Shield Block, **Savage Onslaught** *(New)*, Sudden Leap | `[Player Core p.144–145]` | **Modified** | Baseline 1-to-1 match + **Savage Onslaught** upgrade. |
 | **10th** | Certain Strike, Combat Patrol, Cut from the Air, Debilitating Shot, Disrupting Stance, Fearsome Brute, Mirror Shield, Overpowering Attack, Twin Riposte | `[Player Core p.145–146]` | **Unchanged** | Baseline 1-to-1 match. |
 | **12th** | Dueling Riposte, Flinging Shove, Improved Knockdown, Incredible Ricochet, Lunging Stance, Paragon's Guard, Spring Attack | `[Player Core p.146–147]` | **Unchanged** | Baseline 1-to-1 match. |
 | **14th** | Desperate Finish, Determination, Guiding Finish, Stance Savant, Two-Weapon Flurry | `[Player Core p.147]` | **Unchanged** | Baseline 1-to-1 match. |
 | **16th** | Graceful Poise, Improved Dual-Handed Assault, Overwhelming Blow, Twinned Defense | `[Player Core p.147]` | **Unchanged** | Baseline 1-to-1 match. |
-| **18th** | Impossible Volley, Savage Critical, Smash from the Air, Weapon Supremacy | `[Player Core p.147]` | **Unchanged** | Baseline 1-to-1 match. |
+| **18th** | Savage Critical, Smash from the Air, Weapon Supremacy | `[Player Core p.147]` | **Modified** | Pinnacle melee mastery (*Impossible Volley* moved to `Marksman`). |
 | **20th** | Boundless Reprisals, Ultimate Flexibility, Weapon Master's Grace | `[Player Core p.147]` | **Unchanged** | Baseline 1-to-1 match. |
 
 ### The Savage Combatant Feat Line (Levels 2, 4 & 8 — Replaces Standalone Brute Class)

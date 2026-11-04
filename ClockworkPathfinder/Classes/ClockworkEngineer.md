@@ -27,16 +27,16 @@
 |:---:|---|
 | **1** | Ancestry and background, initial proficiencies, Clockwork Innovation (Armor or Weapon), Explode, Overdrive, Peerless Inventor, 1st-level Clockwork Engineer feat |
 | **2** | Clockwork Engineer feat, skill feat |
-| **3** | Expert Overdrive, general feat, skill increase |
+| **3** | Expert Overdrive, **Clockwork Mount Synchronization (–1 AP & +1 Extra Mount)**, general feat, skill increase |
 | **4** | Clockwork Engineer feat, skill feat |
 | **5** | Attribute boosts (4 attributes), skill increase, Weapon Expertise |
-| **6** | Clockwork Engineer feat, skill feat |
+| **6** | **Clockwork Mount Synchronization (–2 AP & +2 Extra Mounts)**, Clockwork Engineer feat, skill feat |
 | **7** | Breakthrough Modification, general feat, Lightning Reflexes, skill increase, Weapon Specialization |
 | **8** | Clockwork Engineer feat, skill feat |
-| **9** | Clockwork Engineer Expertise (class DC to Expert), Juggernaut, skill increase |
+| **9** | Clockwork Engineer Expertise (class DC to Expert), **Clockwork Mount Synchronization (–3 AP & +3 Extra Mounts)**, Juggernaut, skill increase |
 | **10** | Attribute boosts (4 attributes), Clockwork Engineer feat, skill feat |
 | **11** | General feat, Medium Armor Expertise, skill increase |
-| **12** | Clockwork Engineer feat, skill feat |
+| **12** | **Clockwork Mount Synchronization (–4 AP & +4 Extra Mounts)**, Clockwork Engineer feat, skill feat |
 | **13** | Complete Reconfiguration, Master Overdrive, skill increase, Weapon Mastery |
 | **14** | Clockwork Engineer feat, skill feat |
 | **15** | Attribute boosts (4 attributes), general feat, Greater Weapon Specialization, Legendary Overdrive, Revolutionary Modification, skill increase |
@@ -53,7 +53,8 @@
 |---|---|---|---|---|
 | 1 | Hit Points | `[G&G p.15]` | **Unchanged** | 8 + Constitution modifier per level. |
 | 1 | Initial Proficiencies | `[G&G p.15]` | **Modified** | Perception: Trained.<br>Fortitude: Expert, Reflex: Trained, Will: Expert.<br>Skills: Trained in Crafting, plus 3 + Int mod.<br>Attacks: Trained in simple, martial, and unarmed.<br>Defenses: Trained in light and medium armor.<br>Class DC: Trained in Inventor class DC. |
-| 1 | Clockwork Innovation | [G&G p.15] | **Modified** | Choose **Armor Innovation** (powered harness/suit), **Weapon Innovation** (mechanical/radiant enhanced weapon), or **Combat Backpack Innovation** (pre-mounted, shoulder-swiveling clockwork turret & deflector harness). Construct innovation is **Removed**. |
+| 1 | Clockwork Innovation | [G&G p.15] | **Modified** | Choose **Armor Innovation** (powered harness/suit), **Weapon Innovation** (mechanical/radiant enhanced weapon), **Combat Backpack Innovation** (pre-mounted, shoulder-swiveling clockwork turret & deflector harness), or **Clockwork Steed Innovation** (a personal Mark I/II/III **Clockwork Horse**; see `[mounts.md §8]`). Autonomous humanoid/free-roaming Construct companions remain **Removed**. |
+| 3, 6, 9, 12 | Clockwork Mount Synchronization & Squadron Maintenance | `[mounts.md §8]` | **New** | **Progressive –4 AP Maintenance Discount (Levels `3, 6, 9, 12` — 15 AP Max Mount Cap):** You reduce the Daily Maintenance AP threshold of any **Clockwork Horse** (`4 AP` Mark I, `6 AP` Mark II, `8 AP` Mark III, plus `+1/+2 AP` Modular Components, up to the **15 AP maximum total mount value**) by **–1 AP at 3rd level**, **–2 AP at 6th level**, **–3 AP at 9th level**, and **–4 AP at 12th level** (minimum 0 AP).<br>**Squadron Maintenance (+1 Extra Mount per 3 Levels):** In addition to maintaining your own Clockwork Horse, you can maintain **1 additional Clockwork Horse for an ally (using your current discount and your Base AP Capacity) for every 3 Clockwork Engineer levels you possess** (+1 mount at Lv 3, +2 at Lv 6, +3 at Lv 9, +4 at Lv 12, +5 at Lv 15, +6 at Lv 18). Allies riding a Clockwork Horse you maintain require **0 AP** to ride and Command it for 24 hours.<br>**Clockwork Creature Repair (Shop vs. Field):** In an **equipped workshop**, you can roll a **DC 15 Crafting check** (1 hour) to heal a Clockwork Creature by **the amount your roll exceeds 15** ($\text{Roll} - 15$). **Field repairs** take **1 hour**, require a **DC 20 Crafting check**, and heal $\text{Roll} - 20$ up to a **maximum of 10 HP per hour**. |
 | 1 | Explode | `[G&G p.16]` | **Unchanged** | Vent pent-up kinetic or electrical energy from your innovation in a 5-ft emanation (or 10-ft with Unstable). |
 | 1 | Overdrive | `[G&G p.16]` | **Unchanged** | Temporarily supercharge your mechanism with a Crafting check for bonus damage. |
 
@@ -79,6 +80,7 @@
 | **2nd** | Collapse Armor, Searing Restore | `[G&G p.22]` | **Unchanged** | Rapid-folding suitplates and thermal cauterization. |
 | **2nd** | **Neither-Tech Artificer** | — | **New** | Craft basic Neither-tech and clockwork apparatuses. |
 | **2nd** | **Field Gear Conditioning (Artisan)** | — | **New** | Condition party weapons & armor during 10-min rest. |
+| **2nd** | **Clockwork Saddle Synchrony** | `[mounts.md §8]` | **New** | Become **Trained in *Riding*** (or if already Trained/Expert, **increase *Riding* by 1 step up to Master**), and gain a **+2 circumstance bonus to all Riding checks** (+3 at Lv 8+) when riding a **Clockwork Horse**. |
 | **4th** | Advanced Innovation, Megavolt | `[G&G p.23]` | **Unchanged** | Arc discharges and chassis upgrades. |
 | **4th** | **Ten-Minute Field Repair (Artisan)** | — | **New** | Rapid field repair of burned-out Neither weapons. |
 | **6th** | Clockwork Shield, Megaton Strike | `[G&G p.24]` | **Unchanged** | Deployable energy-mesh shield and kinetic mega-strikes. |
@@ -100,6 +102,10 @@
 **[Clockwork] [Artisan]**  
 *Prerequisites:* Trained in Crafting  
 You bring master guild blacksmithing and leather-curing techniques directly into the field. During 10 minutes of rest, you can condition the weapons and armor of yourself and up to 4 allies. Conditioned armor grants +1 item bonus to saving throws against environmental hazards for 1 hour, and conditioned weapons ignore 2 points of target physical resistance or Hardness on their next 3 strikes.
+
+#### Clockwork Saddle Synchrony — Feat 2
+**[Clockwork]**  
+You are intimately familiar with the throttle linkages, escapement regulators, and stirrup pedals of mechanical steeds. You become **Trained in Riding**, or if you already have *Riding*, **increase your proficiency rank in Riding by 1 step (up to a maximum of Master)**. In addition, whenever you are mounted on a **Clockwork Horse** (`[mounts.md §8]`), you gain a **+2 circumstance bonus to all Riding checks** (increasing to **+3 at 8th level**), including mounted maneuvers, resisting being *Unseated*, and landing on your feet (`DC 15`) if your mount is reduced to 0 HP.
 
 #### Ten-Minute Field Repair — Feat 4
 **[Clockwork] [Artisan]**  

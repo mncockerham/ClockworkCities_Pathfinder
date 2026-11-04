@@ -52,11 +52,11 @@ $$\mathbf{\text{Passive Loadout Capacity}} = \mathbf{\text{Key Attribute Modifie
 
 #### The Three Archetype Tracks
 1. **Track A: Physical Load-Bearing (Heavy Martials):**
-   - **Classes:** **Soldier** (including *Savage Combatants*).
+   - **Classes:** **Soldier** (including *Savage Combatants*), **WarRider (Spire Cavalier)**.
    - **Key Attribute:** Higher of **Strength** or **Constitution** modifier. (Skeletal density and muscle conditioning to carry heavy hydraulic frames and thick ballistic plates).
 2. **Track B: Ergonomic & Agile Tuning (Light Martials & Operatives):**
-   - **Classes:** **Dandy, Pugilist, Survivor, Scout, Sailor (Air & Sea), Officer, Clockwork Rifleman**.
-   - **Key Attribute:** Higher of **Dexterity** or **Constitution** modifier (or **Strength** for Strength-based Pugilists). (Precision balance, kinetic posture, and reflex articulation).
+   - **Classes:** **Marksman, WarRider (Outrider), Dandy, Pugilist, Survivor, Scout, Sailor (Air & Sea), Officer, Clockwork Rifleman**.
+   - **Key Attribute:** Higher of **Dexterity** or **Constitution** modifier (or **Strength** for Strength-based Pugilists/Marksmen). (Precision balance, kinetic posture, and reflex articulation).
 3. **Track C: Precision Engineering & Bespoke Tailoring (Technical & Academic):**
    - **Classes:** **Scholar, Clockwork Engineer, Clockwork Engineer, Chirurgeon, Clockwork Rifleman / Bombardier, Scholar, Merchant, Noble, Grey Marketeer**.
    - **Key Attribute:** Higher of **Intelligence**, **Strength**, or **Constitution** modifier. (Ergonomic micro-cables, custom-calibrated pressure regulators, and tailored linings).
@@ -152,8 +152,8 @@ $$\mathbf{\text{Active Surge AP per Round}} = \mathbf{\text{Intelligence Modifie
 | **Tier 3 (Technical Masters)** | **+2 AP** | **+1 AP at Levels 4, 8, 12, 16, 20** | **Scholar, Clockwork Engineer, Clockwork Engineer**. Master designers capable of firing multiple energy shots or operating complex apparatuses. |
 | **Tier 2 (Technical Specialists)** | **+1 AP** | **+1 AP at Levels 5, 10, 15, 20** | **Scholar, Clockwork Rifleman, Chirurgeon, Clockwork Rifleman / Bombardier**.<br>• *Clockwork Rifleman:* Features **Singular Neither Efficiency**, reducing the AP cost to fire any NeitherTeck ranged weapon by **–1 AP at 1st, –2 AP at 6th, –3 AP at 12th, and –4 AP at 18th level** (minimum 1 AP).<br>• *Chirurgeon & Clockwork Rifleman / Bombardier Autonomy:* Personal class features, quick field vials, medical sera, and infused bombs cost **0 AP** for the creator. |
 | **Tier 1 (Tactical Operatives)** | **+0 AP** | **+1 AP at Levels 6, 12, 18** | **Officer, Sailor (Air & Sea), Survivor, Scout**. Tactical skirmishers relying on signature sidearms and mobility gadgets. |
-| **Tier 0 (Dedicated Martials)** | **+0 AP** | **+1 AP at Levels 10, 20** | **Soldier, Brute, Pugilist, Dandy**. Pure martial backbone relying on steel, bows, and brawn. |
-| **Influence Category** | **+1 AP** | **+1 AP at Levels 6, 12, 18** | **Merchant** (Commercial directives, mercenary contracts, credit-line triggers). |
+| **Tier 0 (Dedicated Martials)** | **+0 AP** | **+1 AP at Levels 10, 20** | **Soldier, Marksman, WarRider (Spire Cavalier), Brute, Pugilist, Dandy**. Pure martial backbone relying on steel, bows, crossbows, mounts, and brawn (0 AP dependency). |
+| **Influence Category** | **+1 AP** | **+1 AP at Levels 6, 12, 18** | **Merchant, Noble, Grey Marketeer** (Commercial directives, mercenary contracts, credit-line triggers). |
 
 ### Progression Table (Levels 1–20 Base AP Before INT Modifier)
 

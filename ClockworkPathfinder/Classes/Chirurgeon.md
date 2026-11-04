@@ -23,6 +23,17 @@ Medical practice in the Spires follows a distinct Victorian division:
 - **Typical Social Class & Backing:** Professional / University Graduate (Status 4–5), Guild Apothecary (Status 2–3), or private physician retained by a Lesser Noble or Merchant House.
 - **Physical / Scientific Explanation:** Deep knowledge of Neither fungi biochemistry (cultivated Sycelium, Deep strains), biological catalysts, coagulation agents, antiseptics, caustic acids, and organic toxins. They stabilize volatile compounds for immediate clinical or field application.
 
+### Outland Spore-Shaman Variant (Zero-Clockwork / Savage Warband Tradition)
+For **Orc raiding warbands**, **Deep One fungal cults**, and **wilderness tribes** that possess **zero Clockwork Technology**, the Chirurgeon operates as a **Spore-Shaman (or Mycological Witch-Doctor)**. 
+- **100% Identical Mechanics, Zero Clockwork Gear:** All class math, action costs, **0-AP Biomedical Autonomy**, and INT/WIS multipliers remain **100% identical** to the Spire Chirurgeon, with all clockwork apparatuses replaced by living Lower-Neither mycology and symbiotic fauna:
+  1. **Mycology as Core Skill:** The Spore-Shaman uses **Mycology** (or *Aither Nature* / *Survival*) in place of *Crafting* for all Chirurgeon class features, *Treat Wounds*, and concoction synthesis.
+  2. **Symbiotic Mycelial Mantle *(Replaces Galvanic Ward Rig — Lv 1)*:** Instead of a clockwork condenser pack, the Shaman cultivates a living crust of reactive shelf-fungi and hardened spore-resin across their leathers. When triggered (`[one-action]` or `[reaction]`, 1/hour), the fungal mantle swells to absorb kinetic trauma, granting the exact same **$\text{Level} \times \text{INT modifier}$ Temporary HP**.
+  3. **Puffball Sacs & Bone Blowpipes *(Replaces Auto-Injectors & Syringes)*:** Healing salves, *Hemostatic Coagulant* mold-spores, and *Adrenal Injectors* (brewed from crimson *Berserker-Cap* fungi) are administered via bone blowpipes, crushed spore-poultices, or pressurized fungal puffballs.
+  4. **Chitinous Spore-Beetle Swarm *(Replaces Clockwork Micro-Drone Swarm — Lv 4 & Lv 8)*:** Instead of mechanical arachnid drones, the Shaman houses a symbiotic colony of **carapace-hardened Neither spore-beetles and stingingjenny moths** in hollow gourd-hives on their belt:
+     - **Allied Triage (`[two-actions]`, 30 ft / 60 ft at Lv 8):** Beetles skitter or fly to allies, secreting coagulant nectar and numbing enzymes.
+     - **Offensive Swarming (`[two-actions]`, vs. Class DC):** The swarm sprays armor-rotting *Mycological Solvents*, blistering acids, and *Neuro-Spore* clouds.
+     - **Chitin Swarm Interception (`[reaction]`, $2 \times \text{Level}$/day):** A dense cloud of hard-shelled beetles intercepts an incoming blow within 30 ft, absorbing **$2 \times \text{INT modifier}$** physical damage before falling inert.
+
 ---
 
 ## 2. Core Class Features

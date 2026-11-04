@@ -28,6 +28,8 @@ To determine which Pathfinder 2e Remaster (and core legacy) archetypes are avail
 | Archetype Name | Base System Equivalent | Availability | In-World Identity / Adaptation |
 |---|---|---|---|
 | **Soldier** | Fighter Multiclass | **Available** | Professional military infantry, guards, mercenary drill. |
+| **Marksman** | Fighter (Archer) / Ranger Multiclass | **Available** | Dedicated 0-AP Bow & Crossbow specialists, longbowmen, arbalists, and Warrens skirmishers (`[Marksman.md]`). |
+| **WarRider (Cavalier)** | Cavalier / Beastmaster Multiclass | **Available** | Dedicated 0-AP mounted combat class: Spire Cavaliers/Royal Dragoons, Outland Outriders, and Orc Warband Beast-Riders (`[WarRider.md]`). |
 | **Dandy** | Swashbuckler Multiclass | **Available** | High-society panache, salon duelists, rapiers & social bravado. |
 | **Survivor** | Rogue Multiclass | **Available** | Warrens scoundrels, stealth infiltration, dirty fighting. |
 | **Chirurgeon** | Alchemist (Medicine) Multiclass | **Available** | Field surgery, cellular restoratives, biological antidotes, sterile science. |
@@ -59,6 +61,7 @@ To determine which Pathfinder 2e Remaster (and core legacy) archetypes are avail
 | **Beastmaster** | PC2 p.199 | **Modified** | Handlers of domesticated mastiffs, falconry for nobles, or trained vermin-hounds in the Warrens. *No supernatural bonding; training and handling only.* |
 | **Bounty Hunter** | PC2 p.201 | **Unchanged** | Warrens headhunters, bail enforcement agents tracking fugitive debtors across wards. |
 | **Celebrity** | PC2 p.202 | **Unchanged** | Aristocratic socialites, famous arena pugilists, theater stars in Ward 13 luxury circles. |
+| **Cavalier / WarRider** *(Core Class)* | PC2 p.202 | **Note** | Elevated to the full 1–20 **[WarRider (Spire Cavalier)](file:///c:/Users/Mark/OneDrive/Documents/Git/ClockworkCities_Pathfinder-1/ClockworkPathfinder/Classes/WarRider.md)** class (with its own *WarRider / Cavalier Dedication* at Feat 2). Base Cavalier archetype feats integrate directly into the WarRider class progression. |
 | **Dandy** *(Core Archetype)* | PC2 p.203 | **Note** | In our system, **Dandy** is elevated to a full 1–20 base class. Base feats from the archetype feed directly into the Dandy class feats list. |
 | **Dual-Weapon Warrior** | PC2 p.205 | **Unchanged** | Twin-shortsword salon duelists, Warrens trench knife fighters, boarding shock troops. |
 | **Duelist** | PC2 p.206 | **Unchanged** | Formal single-blade aristocratic dueling masters, rapier and smallsword fencing masters. |

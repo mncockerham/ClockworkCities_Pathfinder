@@ -125,12 +125,18 @@ Every character has a **Native Atmospheric Layer** determined by their biologica
 
 | Character Heritage | Layer 1: Aither | Layer 2: The Zone | Layer 3: Upper Neither | Layer 4: Lower Neither | Layer 5: Lightless | Layer 6: The Deep |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|
-| **High Elf** | **Native (0)** | 1 Level | 2 Levels | 3 Levels | 4 Levels | 5 Levels |
+| **High Elf\*** | **Native (0)** | 1 Level *(Eff. 2)* | 2 Levels *(Eff. 4)* | 3 Levels *(Eff. 6)* | 4 Levels *(Eff. 8)* | 5 Levels *(Eff. 10)* |
 | **Half-Elf** | 1 Level | **Native (0)** | 1 Level | 2 Levels | 3 Levels | 4 Levels |
 | **Human** | 2 Levels | 1 Level | **Native (0)** | 1 Level | 2 Levels | 3 Levels |
 | **Orc** | 3 Levels | 2 Levels | 1 Level | **Native (0)** | 1 Level | 2 Levels |
 | **Dwarf** | 4 Levels | 3 Levels | 2 Levels | 1 Level | **Native (0)** | 1 Level |
-| **Deep One** | 5 Levels | 4 Levels | 3 Levels | 2 Levels | 1 Level | **Native (0)** |
+| **Deep One\*** | 5 Levels *(Eff. 10)* | 4 Levels *(Eff. 8)* | 3 Levels *(Eff. 6)* | 2 Levels *(Eff. 4)* | 1 Level *(Eff. 2)* | **Native (0)** |
+
+> [!WARNING]
+> **\*High Elf & Deep One Extreme Polar Sensitivity ($2\times$ Calculated Value & $5\times$ Onset Speed):**
+> Unlike the central four heritages, **High Elves (Strata 1)** and **Deep Ones (Strata 6)** almost never leave their chosen native environment. Due to extreme evolutionary specialization at opposite poles of the world:
+> 1. **Double Calculated Shift & Effect Value ($2\times$):** Whenever a High Elf or Deep One is exposed to non-native atmosphere or non-native food, **all calculated values of Air Shift, Food Shift, Total Shift Score, condition penalties (`Clumsy`, `Enfeebled`, `Drained`, `Stupefied`), and daily necrotic damage are DOUBLED ($2\times$)**.
+> 2. **Applies 5 Times as Fast ($5\times$ Speed / $1/5$ Time Interval):** All exposure timers and penalty increments strike **5 times faster** than standard (1 Month $\rightarrow$ **Every 6 Days**; 1 Week $\rightarrow$ **Every ~33 Hours**; 3 Days $\rightarrow$ **Every ~14.4 Hours**; 1 Day $\rightarrow$ **Every ~4.8 Hours**; 1 Hour $\rightarrow$ **Every 12 Minutes**).
 
 ### Air Shift Level Descriptions & Condition Penalties:
 
@@ -168,14 +174,14 @@ Because citizens and adventurers rarely eat a 100% pure diet, **Food Shift is tr
 
 ### Native Dietary Baseline by Heritage:
 
-| Heritage | Native Strata Baseline | Compatible Tolerance (0 Shift) | Example Foreign Shift Diets (0.5 to 5.0 Shifts) |
+| Heritage | Native Strata Baseline | Compatible Tolerance (0 Shift) | Example Foreign Shift Diets (0.5 to 5.0 Base Shifts) |
 |---|---|---|---|
-| **High Elf** | Strata 1 (Aither) | Strata 1 (100% Pure) | Strata 2 = 1.0 Shift; Strata 3 (Mela) = 2.0 Shifts; Strata 4 (Raw Sycelium) = 3.0 Shifts (Toxic) |
+| **High Elf\*** | Strata 1 (Aither) | Strata 1 (100% Pure) + Deep Fish | **Doubled ($2\times$) & $5\times$ Faster:** Strata 2 = **2.0 Shift** (1 base × 2); Strata 3 (Mela) = **4.0 Shifts** (2 base × 2); Strata 4 (Raw Sycelium) = **6.0 Shifts** (3 base × 2, Lethal) |
 | **Half-Elf** | Strata 2 (Zone) | Strata 1 & 2 | Strata 3 (Mela) = 1.0 Shift; Mixed Strata 3 / Strata 4 = 1.5 Shifts; Strata 5 = 3.0 Shifts |
 | **Human** | Strata 3 (Upper Neither) | Strata 2 & 3 (Mela) | Mixed Mela + Raw Sycelium = **0.5 Shift**; Pure Raw Sycelium = **1.0 Shift**; Strata 5 Deep Fungi = **2.0 Shifts** |
 | **Orc** | Strata 4 (Lower Neither) | Strata 3 & 4 (Raw Sycelium) | Deep Cavern Fungi = 1.0 Shift; Mixed Mela + Aither Fish = 0.5 Shift; Pure Aither Produce = 2.0 Shifts (Enzymatic starvation) |
 | **Dwarf** | Strata 5 (Caverns) | Strata 4 & 5 | Strata 3 (Mela) = 1.0 Shift; Strata 2 = 2.0 Shifts; Pure Aither Food = 3.0 Shifts (Enzymatic rejection) |
-| **Deep One** | Strata 6 (The Deep) | Strata 5 & 6 (Deep Spores) | Strata 4 = 1.0 Shift; Strata 3 = 2.0 Shifts; Pure Aither Food = 4.0–5.0 Shifts (Violent metabolic shock) |
+| **Deep One\*** | Strata 6 (The Deep) | Strata 5 & 6 (Deep Spores) | **Doubled ($2\times$) & $5\times$ Faster:** Strata 4 = **2.0 Shifts** (1 base × 2); Strata 3 (Mela) = **4.0 Shifts** (2 base × 2); Pure Aither Food = **8.0–10.0 Shifts** (4–5 base × 2, Violent metabolic shock) |
 
 ### Food Shift Mental & Social Penalties (Stupefied & Cognitive Decay)
 
@@ -237,32 +243,32 @@ Likewise, when a character returns to a safer atmospheric layer or diet, **penal
 ---
 
 #### 1. Air Shift Time Frame & Escalation Rate (Physical Conditions)
-Breathing incompatible air imposes **Clumsy, Enfeebled, and Drained**. These conditions increase by **+1 condition value** (imposing a –1 penalty) at the following interval until reaching the level's maximum penalty:
+Breathing incompatible air imposes **Clumsy, Enfeebled, and Drained**. These conditions increase by **+1 condition value** (imposing a –1 penalty; **+2 condition value / –2 penalty per step for High Elves & Deep Ones**) at the following interval until reaching the level's maximum penalty:
 
-| Air Shift Level | Time Frame per –1 Step | Maximum Condition / Penalty | Time to Reach Maximum Severity |
-|:---:|:---:|:---:|:---:|
-| **Level 0** | *None* | 0 | Immune / Native equilibrium. |
-| **Level 1** | **Every 1 Month** | **–1** (Clumsy 1, Enfeebled 1, Drained 1) | 1 Month (Does not worsen) |
-| **Level 2** | **Every 1 Week** | **–2** (Clumsy 2, Enfeebled 2, Drained 2) | 2 Weeks |
-| **Level 3** | **Every 3 Days** | **–4** (Clumsy 4, Enfeebled 4, Drained 4) | 12 Days |
-| **Level 4** | **Every 1 Day** | **–8** (Clumsy 8, Enfeebled 8, Drained 8) | 8 Days |
-| **Level 5** | **Every 1 Hour** | **–16** (Clumsy 16, Enfeebled 16, Drained 16) | 16 Hours (Lethal shock within hours) |
+| Air Shift Level | Standard Time Frame per Step | High Elf / Deep One Time Frame ($5\times$ Faster) | Standard Max Condition | High Elf / Deep One Max Condition ($2\times$ Value) |
+|:---:|:---:|:---:|:---:|:---:|
+| **Level 0** | *None* | *None* | 0 | 0 |
+| **Level 1** | **Every 1 Month** | **Every 6 Days** | **–1** (Clumsy/Enf/Drained 1) | **–2** (Clumsy/Enf/Drained 2) |
+| **Level 2** | **Every 1 Week** | **Every ~33 Hours (1.4 Days)** | **–2** (Clumsy/Enf/Drained 2) | **–4** (Clumsy/Enf/Drained 4) |
+| **Level 3** | **Every 3 Days** | **Every ~14.4 Hours** | **–4** (Clumsy/Enf/Drained 4) | **–8** (Clumsy/Enf/Drained 8) |
+| **Level 4** | **Every 1 Day** | **Every ~4.8 Hours** | **–8** (Clumsy/Enf/Drained 8) | **–16** (Clumsy/Enf/Drained 16) |
+| **Level 5** | **Every 1 Hour** | **Every 12 Minutes** | **–16** (Clumsy/Enf/Drained 16) | **–32** (Clumsy/Enf/Drained 32 — Instant Collapse) |
 
 *Recovery Rate:* When returning to clean native air or wearing a sealed respirator, condition values decrease by **–1 point per 1 week of clean air** (beginning after the 7-day stabilization period).
 
 ---
 
 #### 2. Food Shift Time Frame & Escalation Rate (Cognitive & Social Conditions)
-Consuming foreign food imposes **Stupefied** and an across-the-board status penalty to **all Intelligence and Charisma checks and DCs**. These penalties increase by **–1 point** at the following interval until reaching the level's maximum penalty:
+Consuming foreign food imposes **Stupefied** and an across-the-board status penalty to **all Intelligence and Charisma checks and DCs**. These penalties increase by **–1 point** (**–2 points per step for High Elves & Deep Ones**) at the following interval until reaching the level's maximum penalty:
 
-| Food Shift Level | Time Frame per –1 Step | Maximum Condition / Penalty | Time to Reach Maximum Severity |
-|:---:|:---:|:---:|:---:|
-| **Level 0 to 0.5** | *None* | 0 | Immune / Native equilibrium. |
-| **Level 1.0 to 1.5** | **Every 1 Month** | **–1** (Stupefied 1, –1 to Int/Cha) | 1 Month (Does not worsen) |
-| **Level 2.0 to 2.5** | **Every 1 Month** | **–2** (Stupefied 2, –2 to Int/Cha) | 2 Months |
-| **Level 3.0 to 3.5** | **Every 1 Week** | **–4** (Stupefied 4, –4 to Int/Cha) | 4 Weeks |
-| **Level 4.0 to 4.5** | **Every 1 Day** | **–8** (Stupefied 8, –8 to Int/Cha) | 8 Days |
-| **Level 5.0** | **Every 1 Hour** | **–16** (Stupefied 16, –16 to Int/Cha) | 16 Hours (Total neural collapse) |
+| Food Shift Level | Standard Time Frame per Step | High Elf / Deep One Time Frame ($5\times$ Faster) | Standard Max Condition | High Elf / Deep One Max Condition ($2\times$ Value) |
+|:---:|:---:|:---:|:---:|:---:|
+| **Level 0 to 0.5** | *None* | *None* | 0 | 0 |
+| **Level 1.0 to 1.5** | **Every 1 Month** | **Every 6 Days** | **–1** (Stupefied 1, –1 Int/Cha) | **–2** (Stupefied 2, –2 Int/Cha) |
+| **Level 2.0 to 2.5** | **Every 1 Month** | **Every 6 Days** | **–2** (Stupefied 2, –2 Int/Cha) | **–4** (Stupefied 4, –4 Int/Cha) |
+| **Level 3.0 to 3.5** | **Every 1 Week** | **Every ~33 Hours (1.4 Days)** | **–4** (Stupefied 4, –4 Int/Cha) | **–8** (Stupefied 8, –8 Int/Cha) |
+| **Level 4.0 to 4.5** | **Every 1 Day** | **Every ~4.8 Hours** | **–8** (Stupefied 8, –8 Int/Cha) | **–16** (Stupefied 16, –16 Int/Cha) |
+| **Level 5.0** | **Every 1 Hour** | **Every 12 Minutes** | **–16** (Stupefied 16, –16 Int/Cha) | **–32** (Stupefied 32, –32 Int/Cha — Fatal Shock) |
 
 *Recovery Rate:* When returning to native food or undergoing clean broth convalescence, the Stupefied condition and Int/Cha penalty decrease by **–1 point per 1 week of clean diet** (beginning after the 7-day stabilization period).
 
